@@ -5,7 +5,7 @@ import { buildWeekAnalysis } from "@/lib/analysis";
 import { NORMS } from "@/lib/norms";
 import { getNormStatus } from "@/lib/norms";
 import { exportJson, importJson, loadData, mergeRepoFromUrl, saveData } from "@/lib/storage";
-import { normalizeLogTraits, countWeekBreakdown, weekCountsFromBreakdown, weekComboFromBreakdown } from "@/lib/traits";
+import { normalizeLogEntry, countWeekBreakdown, weekCountsFromBreakdown, weekComboFromBreakdown, normTypes } from "@/lib/traits";
 import type {
   AppData,
   ContentType,
@@ -41,9 +41,10 @@ function resolveTraits(type: ContentType, opts?: LogOptions): ContentType[] | un
 
 function createEntry(type: ContentType, opts?: LogOptions): LogEntry {
   const now = new Date().toISOString();
-  return normalizeLogTraits({
+  return normalizeLogEntry({
     id: crypto.randomUUID(),
     type,
+    fullTypes: opts?.fullTypes,
     traits: resolveTraits(type, opts),
     slot: opts?.slot,
     bucket: opts?.bucket,
@@ -92,7 +93,7 @@ export function useTracker() {
 
   const undoLast = useCallback((type: ContentType) => {
     setData((prev) => {
-      const idx = prev.logs.findIndex((l) => l.type === type);
+      const idx = prev.logs.findIndex((l) => normTypes(l).includes(type));
       if (idx === -1) return prev;
       const logs = [...prev.logs];
       logs.splice(idx, 1);
@@ -205,7 +206,7 @@ export function useTracker() {
           const patch: Partial<
             Pick<
               LogEntry,
-              "tweetUrl" | "ageHours" | "views" | "likes" | "replies" | "note" | "traits" | "slot" | "bucket"
+              "tweetUrl" | "ageHours" | "views" | "likes" | "replies" | "note" | "fullTypes" | "traits" | "slot" | "bucket"
             >
           > = { tweetUrl: url };
           if (opts?.ageHours != null) patch.ageHours = opts.ageHours;
@@ -215,6 +216,7 @@ export function useTracker() {
           if (opts?.note != null) patch.note = opts.note;
           if (opts?.slot != null) patch.slot = opts.slot;
           if (opts?.bucket != null) patch.bucket = opts.bucket;
+          if (opts?.fullTypes != null) patch.fullTypes = opts.fullTypes;
           if (opts?.traits != null) {
             patch.traits = opts.traits.filter((t) => t !== existing.type);
           } else if (opts?.secondaryType != null) {

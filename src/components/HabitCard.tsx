@@ -6,6 +6,7 @@ import {
   NORMS,
   progressPercent,
 } from "@/lib/norms";
+import { normTypes } from "@/lib/traits";
 import { TYPE_STYLES } from "@/lib/styles";
 import type { ContentType, LogEntry } from "@/lib/types";
 import { dayKey, last7DayKeys } from "@/lib/week";
@@ -34,7 +35,7 @@ export function HabitCard({
   const dayKeys = last7DayKeys(now);
 
   const dots = dayKeys.map((key) =>
-    logs.some((l) => l.type === type && dayKey(l.at) === key),
+    logs.some((l) => normTypes(l).includes(type) && dayKey(l.at) === key),
   );
 
   const countLabel =

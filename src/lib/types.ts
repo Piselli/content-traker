@@ -31,9 +31,11 @@ export interface MetricSnapshot {
 
 export interface LogEntry {
   id: string;
-  /** Primary type — one Done click, counts toward norms */
+  /** Lead type — first badge, default Done target */
   type: ContentType;
-  /** Co-equal types this post also hits — combo analytics only, not norm progress */
+  /** When 2 types are 100% (e.g. hot topic + meme) — both count toward norms */
+  fullTypes?: ContentType[];
+  /** Supplementary angles — combo only, not norm progress */
   traits?: ContentType[];
   /** @deprecated migrated to traits on load */
   secondaryType?: ContentType;
@@ -64,6 +66,7 @@ export interface AppData {
 
 export interface LogOptions {
   count?: number;
+  fullTypes?: ContentType[];
   traits?: ContentType[];
   secondaryType?: ContentType;
   slot?: PostSlot;

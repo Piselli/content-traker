@@ -25,20 +25,50 @@ function matchContentTypeToken(raw: string): ContentType | undefined {
   );
 }
 
-/** All types this post hits — primary + traits, deduped. Used for badges & combo analytics. */
-export function allTraits(log: Pick<LogEntry, "type" | "traits" | "secondaryType">): ContentType[] {
-  const extras = log.traits ?? [];
-  const legacy =
-    log.secondaryType && log.secondaryType !== log.type ? [log.secondaryType] : [];
-  const combined = [log.type, ...extras, ...legacy];
-  return [...new Set(combined)];
+type LogShape = Pick<LogEntry, "type" | "fullTypes" | "traits" | "secondaryType">;
+
+/** Types that count toward weekly norms — 1 or 2 when post fully hits both */
+export function normTypes(log: LogShape): ContentType[] {
+  if (log.fullTypes && log.fullTypes.length > 0) {
+    return [...new Set(log.fullTypes)];
+  }
+  return [log.type];
 }
 
-export function logHasType(
-  log: Pick<LogEntry, "type" | "traits" | "secondaryType">,
+/** Supplementary angles — visible in UI, do not move norm bars */
+export function comboTraits(log: LogShape): ContentType[] {
+  const norms = new Set(normTypes(log));
+  const extras = [...(log.traits ?? [])];
+  if (
+    log.secondaryType &&
+    !norms.has(log.secondaryType) &&
+    !extras.includes(log.secondaryType)
+  ) {
+    extras.push(log.secondaryType);
+  }
+  return extras.filter((t) => !norms.has(t));
+}
+
+/** All badges for journal / analytics */
+export function allDisplayTypes(log: LogShape): ContentType[] {
+  return [...normTypes(log), ...comboTraits(log)];
+}
+
+/** @deprecated use allDisplayTypes */
+export function allTraits(log: LogShape): ContentType[] {
+  return allDisplayTypes(log);
+}
+
+export function logCountsForNorm(
+  log: LogShape,
   type: ContentType,
-): boolean {
-  return allTraits(log).includes(type);
+): "lead" | "dual" | "combo" | false {
+  const norms = normTypes(log);
+  if (!norms.includes(type)) {
+    return comboTraits(log).includes(type) ? "combo" : false;
+  }
+  if (log.type === type) return norms.length > 1 ? "dual" : "lead";
+  return "dual";
 }
 
 export interface TypeWeekBreakdown {
@@ -57,10 +87,13 @@ export function countWeekBreakdown(
   }
   for (const log of logs) {
     if (!isInWeek(log.at, now)) continue;
-    for (const type of allTraits(log)) {
+    for (const type of normTypes(log)) {
+      counts[type].primary += 1;
       counts[type].total += 1;
-      if (log.type === type) counts[type].primary += 1;
-      else counts[type].viaTraits += 1;
+    }
+    for (const type of comboTraits(log)) {
+      counts[type].viaTraits += 1;
+      counts[type].total += 1;
     }
   }
   return counts;
@@ -86,14 +119,30 @@ export function weekComboFromBreakdown(
   return counts;
 }
 
-export function normalizeLogTraits(log: LogEntry): LogEntry {
-  const merged = allTraits(log);
-  const traits = merged.filter((t) => t !== log.type);
+export function normalizeLogEntry(log: LogEntry): LogEntry {
+  const legacyTrait =
+    log.secondaryType && log.secondaryType !== log.type ? [log.secondaryType] : [];
+  const mergedTraits = [...new Set([...(log.traits ?? []), ...legacyTrait])];
+
+  let fullTypes = log.fullTypes ? [...new Set(log.fullTypes)] : undefined;
+  if (fullTypes && !fullTypes.includes(log.type)) {
+    fullTypes = [log.type, ...fullTypes];
+  }
+
+  const normSet = new Set(fullTypes ?? [log.type]);
+  const traits = mergedTraits.filter((t) => !normSet.has(t));
+
   return {
     ...log,
+    fullTypes: fullTypes && fullTypes.length > 1 ? fullTypes : undefined,
     traits: traits.length > 0 ? traits : undefined,
     secondaryType: undefined,
   };
+}
+
+/** @deprecated use normalizeLogEntry */
+export function normalizeLogTraits(log: LogEntry): LogEntry {
+  return normalizeLogEntry(log);
 }
 
 export function mergeTraitLists(a: ContentType[] | undefined, b: ContentType[] | undefined): ContentType[] | undefined {

@@ -61,25 +61,26 @@ If user attaches JSON from Content Tracker, use it to advise:
 | **builder** | MoveMatch / IRL / product |
 | **meta reach** | dead account, algorithm, KOL reply didn't help |
 
-Combo allowed — log **primary `type`** + **`traits[]`** for every other type the post fully hits.
+Combo allowed — log **primary `type`** + optional **`fullTypes[]`** (2 norms at 100%) + **`traits[]`** (supplementary combo only).
 
-- **Norms** = primary `type` only (Done button / dedicated posts)
-- **Traits** = combo coverage — visible in journal & analytics, **не закривають норми**
-- Norms tuned for ~2–4 posts/day (~18–25/week)
+- **Norms** = `fullTypes` if set, else `[type]` — each entry counts fully
+- **`fullTypes`** = rare dual credit when post is 100% two types (e.g. hot topic + meme on Ronaldo)
+- **`traits`** = supplementary only — badges + combo analytics, not norms
+- Max **2** in `fullTypes` per post
 
 ### Classification rules (agent)
 
-1. **Why now?** → pick primary `type` (lead angle — this is what counts toward norms)
-2. **What else is 100%?** → add each as `traits[]` (combo badge, analytics only)
-3. **Max 2–3 traits** per post — only types the post genuinely fully hits
-4. **Slot combos** (user strategy): morning `hot topic + bait` → midday `bait + provocative` → afternoon `hot topic` → evening `hot topic + meme`
+1. **Why now?** → pick lead `type` (first badge)
+2. **Two types 100%?** → set `fullTypes: [a, b]` (both count in norms)
+3. **Supplementary angle?** → `traits[]` only (bait on a hot topic poll, provocative on bait QT)
+4. **Slot combos**: morning `hot topic + bait` → midday `bait + provocative` → afternoon `hot topic` → evening `hot topic + meme` via `fullTypes`
 
-| Example | type (norm) | traits (combo) |
-|---------|-------------|----------------|
-| Gambling meta poll | hot topic | bait |
-| QT Telcier list | bait | provocative |
-| Kaito washed card | hot topic | — |
-| Ronaldo DO SOMETHING | meme | hot topic, builder |
+| Example | type (lead) | fullTypes | traits (combo) |
+|---------|-------------|-----------|----------------|
+| Gambling meta poll | hot topic | — | bait |
+| QT Telcier list | bait | — | provocative |
+| Kaito washed card | hot topic | — | — |
+| Ronaldo DO SOMETHING | meme | hot topic, meme | builder |
 
 ## How to respond
 

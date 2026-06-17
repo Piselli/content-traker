@@ -5,6 +5,7 @@ import { normalizeTweetUrl } from "./tweetUrl";
 
 export interface ParsedTweetLog {
   type?: ContentType;
+  fullTypes?: ContentType[];
   traits?: ContentType[];
   secondaryType?: ContentType;
   slot?: PostSlot;
@@ -82,6 +83,10 @@ function parseKeyValueLine(line: string, out: ParsedTweetLog): void {
     out.traits = [...new Set([...(out.traits ?? []), ...parsed])];
     return;
   }
+  if (key === "fulltypes" || key === "full" || key === "dual") {
+    out.fullTypes = parseTraitsList(value);
+    return;
+  }
   if (key === "also") {
     const parsed = parseTraitsList(value);
     if (parsed.length > 0) {
@@ -145,6 +150,15 @@ function parseFromJson(raw: string): ParsedTweetLog | null {
     }
     if (typeof data.traits === "string") {
       out.traits = parseTraitsList(data.traits);
+    }
+    if (Array.isArray(data.fullTypes)) {
+      out.fullTypes = data.fullTypes
+        .filter((t): t is string => typeof t === "string")
+        .map((t) => matchContentType(t))
+        .filter((t): t is ContentType => t != null);
+    }
+    if (typeof data.fullTypes === "string") {
+      out.fullTypes = parseTraitsList(data.fullTypes);
     }
     if (typeof data.tweetUrl === "string") {
       out.tweetUrl = normalizeTweetUrl(data.tweetUrl) ?? data.tweetUrl;

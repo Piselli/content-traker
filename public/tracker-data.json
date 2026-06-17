@@ -1,6 +1,6 @@
 {
-  "syncVersion": 11,
-  "updatedAt": "2026-06-18T18:00:00.000Z",
+  "syncVersion": 12,
+  "updatedAt": "2026-06-18T20:00:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
@@ -49,17 +49,18 @@
     {
       "id": "meme-ronaldo-do-something-jun17",
       "type": "meme",
-      "traits": ["hot topic", "builder"],
+      "fullTypes": ["hot topic", "meme"],
+      "traits": ["builder"],
       "slot": 4,
       "bucket": "football",
       "at": "2026-06-17T18:37:00.000Z",
-      "updatedAt": "2026-06-18T18:00:00.000Z",
+      "updatedAt": "2026-06-18T20:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2067315608631251004",
       "ageHours": 3,
       "views": 94,
       "likes": 5,
       "replies": 2,
-      "note": "DO SOMETHING meme (norm) + Portugal/Ronaldo hot topic combo + MoveMatchxyz"
+      "note": "dual norm: hot topic + meme (100% both), builder combo"
     }
   ],
   "ideas": []

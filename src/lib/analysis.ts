@@ -1,7 +1,7 @@
 import { BUCKET_TARGETS, type Bucket } from "./buckets";
 import { likeRatePercent, replyRatePercent } from "./engagement";
 import { getNormStatus, NORMS, normLabel } from "./norms";
-import { allTraits, SLOT_COMBOS } from "./traits";
+import { allDisplayTypes, comboTraits, normTypes, SLOT_COMBOS } from "./traits";
 import type { ContentType, LogEntry, PostSlot } from "./types";
 import { CONTENT_TYPES } from "./types";
 import { formatLogDay, isInWeek } from "./week";
@@ -142,7 +142,7 @@ function buildBucketMix(logs: LogEntry[], now: Date): BucketRow[] {
 
   function logBucket(log: LogEntry): Bucket | undefined {
     if (log.bucket) return log.bucket;
-    if (allTraits(log).includes("meme")) return "humor";
+    if (normTypes(log).includes("meme") || comboTraits(log).includes("meme")) return "humor";
     return undefined;
   }
 
@@ -150,10 +150,10 @@ function buildBucketMix(logs: LogEntry[], now: Date): BucketRow[] {
     const count = weekLogs.filter((l) => {
       const b = logBucket(l);
       if (bucket === "humor") {
-        return b === "humor" || allTraits(l).includes("meme");
+        return b === "humor" || normTypes(l).includes("meme") || comboTraits(l).includes("meme");
       }
       if (bucket === "builder") {
-        return b === "builder" || allTraits(l).includes("builder");
+        return b === "builder" || normTypes(l).includes("builder") || comboTraits(l).includes("builder");
       }
       return b === bucket;
     }).length;
@@ -218,7 +218,7 @@ export function buildWeekAnalysis(
       return {
         id: l.id,
         type: l.type,
-        allTypes: allTraits(l),
+        allTypes: allDisplayTypes(l),
         traits: l.traits,
         slot: l.slot,
         bucket: l.bucket,

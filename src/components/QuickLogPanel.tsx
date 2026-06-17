@@ -17,6 +17,7 @@ interface QuickLogPanelProps {
     onUpsert: (
     type: ContentType,
     opts: {
+      fullTypes?: ContentType[];
       traits?: ContentType[];
       secondaryType?: ContentType;
       slot?: PostSlot;
@@ -52,6 +53,7 @@ export function QuickLogPanel({ logs, onUpsert }: QuickLogPanelProps) {
     const traits = parsed.traits ?? (parsed.secondaryType ? [parsed.secondaryType] : undefined);
 
     const action = onUpsert(resolvedType, {
+      fullTypes: parsed.fullTypes,
       traits,
       secondaryType: parsed.secondaryType,
       slot: parsed.slot,

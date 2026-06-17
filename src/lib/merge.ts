@@ -1,5 +1,5 @@
 import type { AppData, Idea, LogEntry } from "./types";
-import { normalizeLogTraits } from "./traits";
+import { normalizeLogEntry } from "./traits";
 import { extractTweetId } from "./tweetUrl";
 
 export interface RepoData extends AppData {
@@ -26,15 +26,16 @@ function mergeSnapshots(a?: LogEntry["snapshots"], b?: LogEntry["snapshots"]) {
 }
 
 function mergeLogEntry(a: LogEntry, b: LogEntry): LogEntry {
-  const aNorm = normalizeLogTraits(a);
-  const bNorm = normalizeLogTraits(b);
+  const aNorm = normalizeLogEntry(a);
+  const bNorm = normalizeLogEntry(b);
   const aTime = Date.parse(aNorm.updatedAt ?? aNorm.at);
   const bTime = Date.parse(bNorm.updatedAt ?? bNorm.at);
   const newer = bTime >= aTime ? bNorm : aNorm;
   const older = newer === bNorm ? aNorm : bNorm;
 
-  return normalizeLogTraits({
+  return normalizeLogEntry({
     ...newer,
+    fullTypes: newer.fullTypes,
     traits: newer.traits,
     snapshots: mergeSnapshots(older.snapshots, newer.snapshots),
   });
@@ -55,12 +56,12 @@ export function mergeAppData(local: AppData, remote: AppData): AppData {
   const byKey = new Map<string, LogEntry>();
 
   for (const log of remote.logs) {
-    byKey.set(logKey(log), normalizeLogTraits(log));
+    byKey.set(logKey(log), normalizeLogEntry(log));
   }
   for (const log of local.logs) {
     const key = logKey(log);
     const existing = byKey.get(key);
-    byKey.set(key, existing ? mergeLogEntry(existing, log) : normalizeLogTraits(log));
+    byKey.set(key, existing ? mergeLogEntry(existing, log) : normalizeLogEntry(log));
   }
 
   const logs = [...byKey.values()].sort(
