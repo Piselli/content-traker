@@ -29,8 +29,11 @@ export interface MetricSnapshot {
 
 export interface LogEntry {
   id: string;
+  /** Primary type — one Done click, counts toward norms */
   type: ContentType;
-  /** Optional combo tag — norms count primary `type` only */
+  /** Extra traits this post also hits (hot topic + bait, QT + provocative, etc.) */
+  traits?: ContentType[];
+  /** @deprecated migrated to traits on load */
   secondaryType?: ContentType;
   at: string;
   updatedAt?: string;
@@ -57,6 +60,7 @@ export interface AppData {
 
 export interface LogOptions {
   count?: number;
+  traits?: ContentType[];
   secondaryType?: ContentType;
   tweetUrl?: string;
   ageHours?: number;

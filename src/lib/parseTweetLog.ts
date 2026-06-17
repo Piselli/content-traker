@@ -1,8 +1,10 @@
 import { CONTENT_TYPES, type ContentType } from "./types";
+import { parseTraitsList } from "./traits";
 import { normalizeTweetUrl } from "./tweetUrl";
 
 export interface ParsedTweetLog {
   type?: ContentType;
+  traits?: ContentType[];
   secondaryType?: ContentType;
   tweetUrl?: string;
   ageHours?: number;
@@ -68,8 +70,23 @@ function parseKeyValueLine(line: string, out: ParsedTweetLog): void {
     out.type = matchContentType(value);
     return;
   }
-  if (key === "secondary" || key === "secondarytype" || key === "also") {
+  if (key === "secondary" || key === "secondarytype") {
     out.secondaryType = matchContentType(value);
+    return;
+  }
+  if (key === "traits" || key === "trait") {
+    const parsed = parseTraitsList(value);
+    out.traits = [...new Set([...(out.traits ?? []), ...parsed])];
+    return;
+  }
+  if (key === "also") {
+    const parsed = parseTraitsList(value);
+    if (parsed.length > 0) {
+      out.traits = [...new Set([...(out.traits ?? []), ...parsed])];
+    } else {
+      const single = matchContentType(value);
+      if (single) out.secondaryType = single;
+    }
     return;
   }
   if (key === "url" || key === "tweet" || key === "tweeturl") {
@@ -107,6 +124,15 @@ function parseFromJson(raw: string): ParsedTweetLog | null {
     }
     if (typeof data.secondary === "string") {
       out.secondaryType = matchContentType(data.secondary);
+    }
+    if (Array.isArray(data.traits)) {
+      out.traits = data.traits
+        .filter((t): t is string => typeof t === "string")
+        .map((t) => matchContentType(t))
+        .filter((t): t is ContentType => t != null);
+    }
+    if (typeof data.traits === "string") {
+      out.traits = parseTraitsList(data.traits);
     }
     if (typeof data.tweetUrl === "string") {
       out.tweetUrl = normalizeTweetUrl(data.tweetUrl) ?? data.tweetUrl;
@@ -179,7 +205,7 @@ export function hasMetrics(parsed: Pick<ParsedTweetLog, "ageHours" | "views" | "
 
 export const PASTE_EXAMPLE = `LOG
 type: strategic QT
-secondary: provocative
+traits: provocative, bait
 url: https://x.com/piselliii/status/123
 hours: 4
 views: 84

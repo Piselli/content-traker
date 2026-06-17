@@ -124,14 +124,6 @@ export function Dashboard() {
       <WeekSummary weekCounts={weekCounts} />
 
       <section className="mt-6">
-        <QuickLogPanel logs={data.logs} onUpsert={upsertLog} />
-      </section>
-
-      <section className="mt-6">
-        <WeekInsights analysis={weekAnalysis} />
-      </section>
-
-      <section className="mt-6">
         <h2 className="mb-3 text-xs font-medium uppercase tracking-widest text-zinc-500">
           Habits
         </h2>
@@ -164,6 +156,14 @@ export function Dashboard() {
           <IdeasPanel ideas={data.ideas} onAdd={addIdea} onRemove={removeIdea} />
         </section>
       </div>
+
+      <section className="mt-8">
+        <QuickLogPanel logs={data.logs} onUpsert={upsertLog} />
+      </section>
+
+      <section className="mt-6">
+        <WeekInsights analysis={weekAnalysis} />
+      </section>
     </div>
   );
 }

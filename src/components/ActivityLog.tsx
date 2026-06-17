@@ -105,9 +105,12 @@ function LogRow({
         />
         <span className="min-w-0 flex-1 text-zinc-200">
           {log.type}
-          {log.secondaryType && (
-            <span className="text-zinc-500"> + {log.secondaryType}</span>
-          )}
+          {log.traits?.map((t) => (
+            <span key={t} className="text-zinc-500">
+              {" "}
+              + {t}
+            </span>
+          ))}
         </span>
         {metrics && (
           <span className="text-xs tabular-nums text-zinc-500">{metrics}</span>

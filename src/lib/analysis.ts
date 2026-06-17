@@ -16,6 +16,7 @@ export interface NormGap {
 export interface PerformerRow {
   id: string;
   type: ContentType;
+  traits?: ContentType[];
   tweetUrl?: string;
   ageHours?: number;
   views?: number;
@@ -112,6 +113,7 @@ export function buildWeekAnalysis(
       return {
         id: l.id,
         type: l.type,
+        traits: l.traits,
         tweetUrl: l.tweetUrl,
         ageHours: l.ageHours,
         views: l.views,

@@ -1,10 +1,11 @@
 {
-  "syncVersion": 2,
-  "updatedAt": "2026-06-17T17:17:00.000Z",
+  "syncVersion": 3,
+  "updatedAt": "2026-06-17T20:00:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
       "type": "bait",
+      "traits": ["hot topic"],
       "at": "2026-06-17T10:17:00.000Z",
       "updatedAt": "2026-06-17T17:17:00.000Z",
       "tweetUrl": "https://x.com/i/status/2067189878350049777",
@@ -12,12 +13,12 @@
       "views": 166,
       "likes": 16,
       "replies": 6,
-      "note": "gambling meta pick-one — 2017 ICO / DeFi / NFT / memecoins / InfoFi"
+      "note": "pick-one on gambling meta — primary bait, also rides hot topic"
     },
     {
       "id": "qt-telcier-advanced-meta-jun17",
       "type": "strategic QT",
-      "secondaryType": "provocative",
+      "traits": ["provocative", "bait"],
       "at": "2026-06-17T14:19:00.000Z",
       "updatedAt": "2026-06-17T18:00:00.000Z",
       "tweetUrl": "https://x.com/i/status/2067250794475204660",
@@ -25,7 +26,7 @@
       "views": 84,
       "likes": 9,
       "replies": 3,
-      "note": "QT @Telcier — advanced meta list (+3 joke, 4 bullets)"
+      "note": "QT @Telcier — advanced meta list (+3 joke, did i miss any?)"
     }
   ],
   "ideas": []

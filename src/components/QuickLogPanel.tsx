@@ -16,6 +16,7 @@ interface QuickLogPanelProps {
     onUpsert: (
     type: ContentType,
     opts: {
+      traits?: ContentType[];
       secondaryType?: ContentType;
       tweetUrl?: string;
       ageHours?: number;
@@ -45,7 +46,10 @@ export function QuickLogPanel({ logs, onUpsert }: QuickLogPanelProps) {
   function handleApply() {
     if (parsed.type) setType(parsed.type);
 
+    const traits = parsed.traits ?? (parsed.secondaryType ? [parsed.secondaryType] : undefined);
+
     const action = onUpsert(resolvedType, {
+      traits,
       secondaryType: parsed.secondaryType,
       tweetUrl: parsed.tweetUrl,
       ageHours: parsed.ageHours,
@@ -73,7 +77,7 @@ export function QuickLogPanel({ logs, onUpsert }: QuickLogPanelProps) {
             Quick log
           </h2>
           <p className="mt-1 text-xs text-zinc-500">
-            Paste from chat — auto-fills type, URL, metrics. Same URL updates existing log.
+            Paste from chat — auto-fills type, traits, URL, metrics. Same URL updates existing log.
           </p>
         </div>
       </div>
@@ -116,8 +120,12 @@ export function QuickLogPanel({ logs, onUpsert }: QuickLogPanelProps) {
           <p className="mb-2 font-medium text-zinc-400">Preview</p>
           <div className="flex flex-wrap gap-x-4 gap-y-1">
             <span className={TYPE_STYLES[resolvedType].accent}>{resolvedType}</span>
-            {parsed.secondaryType && (
-              <span className="text-zinc-500">+ {parsed.secondaryType}</span>
+            {(parsed.traits ?? (parsed.secondaryType ? [parsed.secondaryType] : [])).map(
+              (t) => (
+                <span key={t} className="text-zinc-500">
+                  + {t}
+                </span>
+              ),
             )}
             {parsed.tweetUrl && (
               <span className="truncate text-sky-400">{parsed.tweetUrl}</span>

@@ -5,6 +5,7 @@ import { buildWeekAnalysis } from "@/lib/analysis";
 import { NORMS } from "@/lib/norms";
 import { getNormStatus } from "@/lib/norms";
 import { exportJson, importJson, loadData, mergeRepoFromUrl, saveData } from "@/lib/storage";
+import { normalizeLogTraits } from "@/lib/traits";
 import type {
   AppData,
   ContentType,
@@ -26,12 +27,24 @@ function hasMetrics(entry: Pick<LogEntry, "ageHours" | "views" | "likes" | "repl
   );
 }
 
+function resolveTraits(type: ContentType, opts?: LogOptions): ContentType[] | undefined {
+  const traits = [...(opts?.traits ?? [])];
+  if (
+    opts?.secondaryType &&
+    opts.secondaryType !== type &&
+    !traits.includes(opts.secondaryType)
+  ) {
+    traits.push(opts.secondaryType);
+  }
+  return traits.length > 0 ? traits : undefined;
+}
+
 function createEntry(type: ContentType, opts?: LogOptions): LogEntry {
   const now = new Date().toISOString();
-  return {
+  return normalizeLogTraits({
     id: crypto.randomUUID(),
     type,
-    secondaryType: opts?.secondaryType,
+    traits: resolveTraits(type, opts),
     at: now,
     updatedAt: now,
     tweetUrl: opts?.tweetUrl?.trim() || undefined,
@@ -40,7 +53,7 @@ function createEntry(type: ContentType, opts?: LogOptions): LogEntry {
     likes: opts?.likes,
     replies: opts?.replies,
     note: opts?.note?.trim() || undefined,
-  };
+  });
 }
 
 export function useTracker() {
@@ -101,7 +114,7 @@ export function useTracker() {
       patch: Partial<
         Pick<
           LogEntry,
-          "tweetUrl" | "ageHours" | "views" | "likes" | "replies" | "note" | "secondaryType"
+          "tweetUrl" | "ageHours" | "views" | "likes" | "replies" | "note" | "traits"
         >
       >,
     ) => {
@@ -189,7 +202,7 @@ export function useTracker() {
           const patch: Partial<
             Pick<
               LogEntry,
-              "tweetUrl" | "ageHours" | "views" | "likes" | "replies" | "note" | "secondaryType"
+              "tweetUrl" | "ageHours" | "views" | "likes" | "replies" | "note" | "traits"
             >
           > = { tweetUrl: url };
           if (opts?.ageHours != null) patch.ageHours = opts.ageHours;
@@ -197,7 +210,11 @@ export function useTracker() {
           if (opts?.likes != null) patch.likes = opts.likes;
           if (opts?.replies != null) patch.replies = opts.replies;
           if (opts?.note != null) patch.note = opts.note;
-          if (opts?.secondaryType != null) patch.secondaryType = opts.secondaryType;
+          if (opts?.traits != null) {
+            patch.traits = opts.traits.filter((t) => t !== existing.type);
+          } else if (opts?.secondaryType != null) {
+            patch.traits = resolveTraits(existing.type, opts);
+          }
           updateLog(existing.id, patch);
           return "updated";
         }

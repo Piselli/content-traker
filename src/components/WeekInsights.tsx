@@ -65,7 +65,15 @@ export function WeekInsights({ analysis }: WeekInsightsProps) {
                 className="flex flex-wrap items-center gap-2 text-xs text-zinc-400"
               >
                 <span className={`h-2 w-2 rounded-full ${TYPE_STYLES[p.type].dot}`} />
-                <span className="text-zinc-300">{p.type}</span>
+                <span className="text-zinc-300">
+                  {p.type}
+                  {p.traits?.map((t) => (
+                    <span key={t} className="text-zinc-500">
+                      {" "}
+                      +{t}
+                    </span>
+                  ))}
+                </span>
                 <span>
                   {p.views}v @ {p.ageHours}h
                 </span>
