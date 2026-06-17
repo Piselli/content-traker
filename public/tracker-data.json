@@ -1,6 +1,6 @@
 {
-  "syncVersion": 8,
-  "updatedAt": "2026-06-18T12:00:00.000Z",
+  "syncVersion": 9,
+  "updatedAt": "2026-06-18T14:00:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
@@ -35,17 +35,16 @@
     {
       "id": "meta-kaito-washed-king-jun17",
       "type": "hot topic",
-      "traits": ["meta reach", "strategic QT", "provocative"],
       "slot": 3,
       "bucket": "CT",
       "at": "2026-06-17T16:45:00.000Z",
-      "updatedAt": "2026-06-18T10:00:00.000Z",
+      "updatedAt": "2026-06-18T14:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2067287441891832184",
       "ageHours": 5,
       "views": 94,
       "likes": 7,
       "replies": 0,
-      "note": "Kaito influence wave on CT — personal washed card as take on the moment"
+      "note": "Kaito influence wave on CT — hot topic only"
     },
     {
       "id": "meme-ronaldo-do-something-jun17",

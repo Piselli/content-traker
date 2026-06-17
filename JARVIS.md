@@ -74,7 +74,7 @@ Combo allowed — log **primary `type`** + **`traits[]`** for every other type t
 |---------|------|--------|
 | Gambling meta poll | hot topic | bait |
 | QT Telcier list | bait | provocative |
-| Kaito washed card | hot topic | strategic QT, meta reach |
+| Kaito washed card | hot topic | — |
 | Ronaldo DO SOMETHING | hot topic | meme, builder |
 
 **Primary vs trait:** same weight in norm counters. Primary = first badge in journal; traits = co-equal badges.
