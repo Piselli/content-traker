@@ -1,4 +1,4 @@
-import type { WeekAnalysis } from "./analysis";
+import type { Bucket } from "./buckets";
 
 export const CONTENT_TYPES = [
   "hot topic",
@@ -12,6 +12,8 @@ export const CONTENT_TYPES = [
 ] as const;
 
 export type ContentType = (typeof CONTENT_TYPES)[number];
+
+export type PostSlot = 1 | 2 | 3;
 
 export interface Norm {
   min?: number;
@@ -35,6 +37,8 @@ export interface LogEntry {
   traits?: ContentType[];
   /** @deprecated migrated to traits on load */
   secondaryType?: ContentType;
+  slot?: PostSlot;
+  bucket?: Bucket;
   at: string;
   updatedAt?: string;
   tweetUrl?: string;
@@ -62,6 +66,8 @@ export interface LogOptions {
   count?: number;
   traits?: ContentType[];
   secondaryType?: ContentType;
+  slot?: PostSlot;
+  bucket?: Bucket;
   tweetUrl?: string;
   ageHours?: number;
   views?: number;
@@ -77,5 +83,5 @@ export interface TrackerExport {
   normsHit: number;
   logsThisWeek: LogEntry[];
   ideas: Idea[];
-  analysis?: WeekAnalysis;
+  analysis?: import("./analysis").WeekAnalysis;
 }

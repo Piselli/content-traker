@@ -45,6 +45,8 @@ function createEntry(type: ContentType, opts?: LogOptions): LogEntry {
     id: crypto.randomUUID(),
     type,
     traits: resolveTraits(type, opts),
+    slot: opts?.slot,
+    bucket: opts?.bucket,
     at: now,
     updatedAt: now,
     tweetUrl: opts?.tweetUrl?.trim() || undefined,
@@ -114,7 +116,7 @@ export function useTracker() {
       patch: Partial<
         Pick<
           LogEntry,
-          "tweetUrl" | "ageHours" | "views" | "likes" | "replies" | "note" | "traits"
+          "tweetUrl" | "ageHours" | "views" | "likes" | "replies" | "note" | "traits" | "slot" | "bucket"
         >
       >,
     ) => {
@@ -202,7 +204,7 @@ export function useTracker() {
           const patch: Partial<
             Pick<
               LogEntry,
-              "tweetUrl" | "ageHours" | "views" | "likes" | "replies" | "note" | "traits"
+              "tweetUrl" | "ageHours" | "views" | "likes" | "replies" | "note" | "traits" | "slot" | "bucket"
             >
           > = { tweetUrl: url };
           if (opts?.ageHours != null) patch.ageHours = opts.ageHours;
@@ -210,6 +212,8 @@ export function useTracker() {
           if (opts?.likes != null) patch.likes = opts.likes;
           if (opts?.replies != null) patch.replies = opts.replies;
           if (opts?.note != null) patch.note = opts.note;
+          if (opts?.slot != null) patch.slot = opts.slot;
+          if (opts?.bucket != null) patch.bucket = opts.bucket;
           if (opts?.traits != null) {
             patch.traits = opts.traits.filter((t) => t !== existing.type);
           } else if (opts?.secondaryType != null) {

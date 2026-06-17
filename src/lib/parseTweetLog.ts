@@ -1,4 +1,5 @@
-import { CONTENT_TYPES, type ContentType } from "./types";
+import { matchBucket } from "./buckets";
+import { CONTENT_TYPES, type ContentType, type PostSlot } from "./types";
 import { parseTraitsList } from "./traits";
 import { normalizeTweetUrl } from "./tweetUrl";
 
@@ -6,6 +7,8 @@ export interface ParsedTweetLog {
   type?: ContentType;
   traits?: ContentType[];
   secondaryType?: ContentType;
+  slot?: PostSlot;
+  bucket?: ReturnType<typeof matchBucket>;
   tweetUrl?: string;
   ageHours?: number;
   views?: number;
@@ -111,6 +114,15 @@ function parseKeyValueLine(line: string, out: ParsedTweetLog): void {
   }
   if (key === "note") {
     out.note = value;
+    return;
+  }
+  if (key === "slot") {
+    const n = parseNumber(value);
+    if (n === 1 || n === 2 || n === 3) out.slot = n;
+    return;
+  }
+  if (key === "bucket") {
+    out.bucket = matchBucket(value);
   }
 }
 
@@ -147,6 +159,10 @@ function parseFromJson(raw: string): ParsedTweetLog | null {
       }
     }
     if (typeof data.note === "string") out.note = data.note;
+    if (typeof data.slot === "number" && [1, 2, 3].includes(data.slot)) {
+      out.slot = data.slot as PostSlot;
+    }
+    if (typeof data.bucket === "string") out.bucket = matchBucket(data.bucket);
     return Object.keys(out).length > 0 ? out : null;
   } catch {
     return null;
@@ -206,6 +222,8 @@ export function hasMetrics(parsed: Pick<ParsedTweetLog, "ageHours" | "views" | "
 export const PASTE_EXAMPLE = `LOG
 type: strategic QT
 traits: provocative, bait
+slot: 2
+bucket: CT
 url: https://x.com/piselliii/status/123
 hours: 4
 views: 84

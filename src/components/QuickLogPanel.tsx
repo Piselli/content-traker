@@ -7,7 +7,8 @@ import {
   parseTweetLogPaste,
   parsedLogIsEmpty,
 } from "@/lib/parseTweetLog";
-import { CONTENT_TYPES, type ContentType } from "@/lib/types";
+import { CONTENT_TYPES, type ContentType, type PostSlot } from "@/lib/types";
+import type { Bucket } from "@/lib/buckets";
 import { tweetUrlsMatch } from "@/lib/tweetUrl";
 import type { LogEntry } from "@/lib/types";
 
@@ -18,6 +19,8 @@ interface QuickLogPanelProps {
     opts: {
       traits?: ContentType[];
       secondaryType?: ContentType;
+      slot?: PostSlot;
+      bucket?: Bucket;
       tweetUrl?: string;
       ageHours?: number;
       views?: number;
@@ -51,6 +54,8 @@ export function QuickLogPanel({ logs, onUpsert }: QuickLogPanelProps) {
     const action = onUpsert(resolvedType, {
       traits,
       secondaryType: parsed.secondaryType,
+      slot: parsed.slot,
+      bucket: parsed.bucket,
       tweetUrl: parsed.tweetUrl,
       ageHours: parsed.ageHours,
       views: parsed.views,

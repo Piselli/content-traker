@@ -1,11 +1,13 @@
 {
-  "syncVersion": 3,
-  "updatedAt": "2026-06-17T20:00:00.000Z",
+  "syncVersion": 4,
+  "updatedAt": "2026-06-17T21:00:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
       "type": "bait",
       "traits": ["hot topic"],
+      "slot": 1,
+      "bucket": "CT",
       "at": "2026-06-17T10:17:00.000Z",
       "updatedAt": "2026-06-17T17:17:00.000Z",
       "tweetUrl": "https://x.com/i/status/2067189878350049777",
@@ -13,12 +15,14 @@
       "views": 166,
       "likes": 16,
       "replies": 6,
-      "note": "pick-one on gambling meta — primary bait, also rides hot topic"
+      "note": "pick-one gambling meta — bait + hot topic trait"
     },
     {
       "id": "qt-telcier-advanced-meta-jun17",
       "type": "strategic QT",
       "traits": ["provocative", "bait"],
+      "slot": 2,
+      "bucket": "CT",
       "at": "2026-06-17T14:19:00.000Z",
       "updatedAt": "2026-06-17T18:00:00.000Z",
       "tweetUrl": "https://x.com/i/status/2067250794475204660",
@@ -26,7 +30,7 @@
       "views": 84,
       "likes": 9,
       "replies": 3,
-      "note": "QT @Telcier — advanced meta list (+3 joke, did i miss any?)"
+      "note": "QT @Telcier — advanced meta list"
     }
   ],
   "ideas": []

@@ -8,24 +8,25 @@ import { formatLogDay, formatLogTime } from "@/lib/week";
 interface ActivityLogProps {
   logs: LogEntry[];
   onRemove: (id: string) => void;
-  onUpdate: (
-    id: string,
-    patch: Partial<
-      Pick<LogEntry, "tweetUrl" | "ageHours" | "views" | "likes" | "replies">
-    >,
-  ) => void;
 }
+
+const BUCKET_LABELS: Record<string, string> = {
+  CT: "CT",
+  football: "⚽",
+  humor: "😏",
+  builder: "🔨",
+};
 
 function formatMetrics(log: LogEntry): string | null {
   const parts: string[] = [];
-  if (log.ageHours != null) parts.push(`${log.ageHours}h`);
-  if (log.views != null) parts.push(`${log.views}v`);
-  if (log.likes != null) parts.push(`${log.likes}♥`);
-  if (log.replies != null) parts.push(`${log.replies}↩`);
+  if (log.ageHours != null) parts.push(`${log.ageHours} год`);
+  if (log.views != null) parts.push(`${log.views} перегл.`);
+  if (log.likes != null) parts.push(`${log.likes} ♥`);
+  if (log.replies != null) parts.push(`${log.replies} ↩`);
   return parts.length > 0 ? parts.join(" · ") : null;
 }
 
-export function ActivityLog({ logs, onRemove, onUpdate }: ActivityLogProps) {
+export function ActivityLog({ logs, onRemove }: ActivityLogProps) {
   const grouped = logs.slice(0, 50).reduce<Record<string, LogEntry[]>>(
     (acc, log) => {
       const key = formatLogDay(log.at);
@@ -40,22 +41,22 @@ export function ActivityLog({ logs, onRemove, onUpdate }: ActivityLogProps) {
 
   if (days.length === 0) {
     return (
-      <div className="rounded-xl border border-zinc-800 bg-zinc-900/50 p-6 text-center text-sm text-zinc-500">
-        No activity yet — hit Done on a habit.
+      <div className="rounded-2xl border border-dashed border-zinc-800 bg-zinc-900/30 p-8 text-center text-sm text-zinc-500">
+        Поки порожньо — натисни Done або скинь скрін + URL у чат.
       </div>
     );
   }
 
   return (
-    <div className="max-h-[480px] overflow-y-auto rounded-xl border border-zinc-800 bg-zinc-900/50">
+    <div className="max-h-[520px] overflow-y-auto rounded-2xl border border-zinc-800/80 bg-zinc-900/40">
       {days.map((day) => (
-        <div key={day} className="border-b border-zinc-800/80 last:border-0">
-          <div className="sticky top-0 bg-zinc-900/95 px-4 py-2 text-xs font-medium text-zinc-500 backdrop-blur">
+        <div key={day} className="border-b border-zinc-800/60 last:border-0">
+          <div className="sticky top-0 bg-zinc-900/95 px-4 py-2.5 text-xs font-medium text-zinc-500 backdrop-blur">
             {day}
           </div>
-          <ul className="px-2 pb-2">
+          <ul className="px-2 pb-2 pt-1">
             {grouped[day].map((log) => (
-              <LogRow key={log.id} log={log} onRemove={onRemove} onUpdate={onUpdate} />
+              <LogRow key={log.id} log={log} onRemove={onRemove} />
             ))}
           </ul>
         </div>
@@ -67,132 +68,80 @@ export function ActivityLog({ logs, onRemove, onUpdate }: ActivityLogProps) {
 function LogRow({
   log,
   onRemove,
-  onUpdate,
 }: {
   log: LogEntry;
   onRemove: (id: string) => void;
-  onUpdate: ActivityLogProps["onUpdate"];
 }) {
-  const [editing, setEditing] = useState(false);
-  const [ageHours, setAgeHours] = useState(log.ageHours?.toString() ?? "");
-  const [views, setViews] = useState(log.views?.toString() ?? "");
-  const [likes, setLikes] = useState(log.likes?.toString() ?? "");
-  const [replies, setReplies] = useState(log.replies?.toString() ?? "");
-  const [url, setUrl] = useState(log.tweetUrl ?? "");
-
+  const [open, setOpen] = useState(false);
   const metrics = formatMetrics(log);
-  const snapshotCount = log.snapshots?.length ?? 0;
-
-  function save() {
-    onUpdate(log.id, {
-      tweetUrl: url || undefined,
-      ageHours: ageHours ? Number(ageHours) : undefined,
-      views: views ? Number(views) : undefined,
-      likes: likes ? Number(likes) : undefined,
-      replies: replies ? Number(replies) : undefined,
-    });
-    setEditing(false);
-  }
+  const snapshots = log.snapshots ?? [];
 
   return (
-    <li className="group rounded-lg px-2 py-2 hover:bg-zinc-800/50">
-      <div className="flex items-center gap-3 text-sm">
-        <span className="w-12 shrink-0 tabular-nums text-zinc-500">
+    <li className="group rounded-xl px-2 py-2.5 hover:bg-zinc-800/40">
+      <div className="flex items-start gap-3 text-sm">
+        <span className="w-11 shrink-0 pt-0.5 tabular-nums text-[11px] text-zinc-500">
           {formatLogTime(log.at)}
         </span>
         <span
-          className={`h-2 w-2 shrink-0 rounded-full ${TYPE_STYLES[log.type].dot}`}
+          className={`mt-1.5 h-2 w-2 shrink-0 rounded-full ${TYPE_STYLES[log.type].dot}`}
         />
-        <span className="min-w-0 flex-1 text-zinc-200">
-          {log.type}
-          {log.traits?.map((t) => (
-            <span key={t} className="text-zinc-500">
-              {" "}
-              + {t}
-            </span>
-          ))}
-        </span>
-        {metrics && (
-          <span className="text-xs tabular-nums text-zinc-500">{metrics}</span>
-        )}
-        {snapshotCount > 0 && (
-          <span className="text-[10px] text-zinc-600">+{snapshotCount} check</span>
-        )}
-        <button
-          type="button"
-          onClick={() => setEditing((v) => !v)}
-          className="text-xs text-zinc-600 opacity-0 group-hover:opacity-100 hover:text-zinc-300"
-        >
-          edit
-        </button>
+        <div className="min-w-0 flex-1">
+          <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
+            <span className="font-medium text-zinc-200">{log.type}</span>
+            {log.traits?.map((t) => (
+              <span key={t} className="text-[11px] text-zinc-500">
+                +{t}
+              </span>
+            ))}
+            {log.slot != null && (
+              <span className="rounded bg-zinc-800 px-1.5 py-0.5 text-[10px] text-zinc-400">
+                #{log.slot}
+              </span>
+            )}
+            {log.bucket && (
+              <span className="text-[10px] text-zinc-500" title={log.bucket}>
+                {BUCKET_LABELS[log.bucket] ?? log.bucket}
+              </span>
+            )}
+          </div>
+          {metrics && (
+            <p className="mt-1 text-xs tabular-nums text-zinc-500">{metrics}</p>
+          )}
+          {log.tweetUrl && (
+            <a
+              href={log.tweetUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="mt-1 block truncate text-xs text-sky-500/90 hover:text-sky-400 hover:underline"
+            >
+              {log.tweetUrl}
+            </a>
+          )}
+          {snapshots.length > 0 && (
+            <button
+              type="button"
+              onClick={() => setOpen((v) => !v)}
+              className="mt-1.5 text-[10px] text-zinc-600 hover:text-zinc-400"
+            >
+              {open ? "сховати" : "показати"} історію ({snapshots.length})
+            </button>
+          )}
+          {open &&
+            snapshots.map((s, i) => (
+              <p key={i} className="mt-1 text-[11px] tabular-nums text-zinc-600">
+                was: {s.ageHours} год · {s.views ?? "?"} перегл. · {s.likes ?? "?"} ♥ ·{" "}
+                {s.replies ?? "?"} ↩
+              </p>
+            ))}
+        </div>
         <button
           type="button"
           onClick={() => onRemove(log.id)}
-          className="text-xs text-zinc-600 opacity-0 group-hover:opacity-100 hover:text-red-400"
+          className="shrink-0 text-xs text-zinc-700 opacity-0 transition group-hover:opacity-100 hover:text-red-400"
         >
           ×
         </button>
       </div>
-      {log.tweetUrl && !editing && (
-        <a
-          href={log.tweetUrl}
-          target="_blank"
-          rel="noreferrer"
-          className="ml-[3.75rem] mt-1 block truncate text-xs text-sky-500 hover:underline"
-        >
-          {log.tweetUrl}
-        </a>
-      )}
-      {editing && (
-        <div className="ml-[3.75rem] mt-2 flex flex-col gap-1.5">
-          <input
-            value={url}
-            onChange={(e) => setUrl(e.target.value)}
-            placeholder="tweet URL"
-            className="rounded border border-zinc-700 bg-zinc-950 px-2 py-1 text-xs text-zinc-100"
-          />
-          <div className="flex gap-2">
-            <input
-              value={ageHours}
-              onChange={(e) => setAgeHours(e.target.value)}
-              placeholder="hours since post"
-              className="w-1/2 rounded border border-zinc-700 bg-zinc-950 px-2 py-1 text-xs"
-            />
-            <input
-              value={views}
-              onChange={(e) => setViews(e.target.value)}
-              placeholder="views"
-              className="w-1/2 rounded border border-zinc-700 bg-zinc-950 px-2 py-1 text-xs"
-            />
-          </div>
-          <div className="flex gap-2">
-            <input
-              value={likes}
-              onChange={(e) => setLikes(e.target.value)}
-              placeholder="likes"
-              className="w-1/2 rounded border border-zinc-700 bg-zinc-950 px-2 py-1 text-xs"
-            />
-            <input
-              value={replies}
-              onChange={(e) => setReplies(e.target.value)}
-              placeholder="replies"
-              className="w-1/2 rounded border border-zinc-700 bg-zinc-950 px-2 py-1 text-xs"
-            />
-          </div>
-          {snapshotCount > 0 && (
-            <p className="text-[10px] text-zinc-600">
-              Saving keeps previous check-in in history ({snapshotCount} stored).
-            </p>
-          )}
-          <button
-            type="button"
-            onClick={save}
-            className="self-start rounded bg-zinc-700 px-2 py-0.5 text-xs text-zinc-200"
-          >
-            save
-          </button>
-        </div>
-      )}
     </li>
   );
 }

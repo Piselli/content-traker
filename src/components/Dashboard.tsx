@@ -21,7 +21,6 @@ export function Dashboard() {
     upsertLog,
     undoLast,
     removeLog,
-    updateLog,
     addIdea,
     removeIdea,
     exportBackup,
@@ -87,83 +86,91 @@ export function Dashboard() {
   }
 
   return (
-    <div className="mx-auto min-h-screen max-w-6xl px-4 py-8 sm:px-6">
-      <header className="mb-8 flex flex-wrap items-end justify-between gap-4">
-        <div>
-          <p className="text-xs font-medium uppercase tracking-widest text-zinc-500">
-            @piselliii
-          </p>
-          <h1 className="text-2xl font-semibold text-zinc-100">Content Tracker</h1>
-          <p className="mt-1 text-sm text-zinc-500">{weekRangeLabel(new Date())}</p>
-        </div>
-        <div className="flex flex-wrap gap-2">
-          <button
-            type="button"
-            onClick={handleJarvisCopy}
-            className="rounded-lg border border-violet-800/60 bg-violet-950/40 px-3 py-1.5 text-xs text-violet-300 hover:text-violet-100"
-          >
-            {copied ? "Copied!" : "Copy for Jarvis"}
-          </button>
-          <button
-            type="button"
-            onClick={handleExport}
-            className="rounded-lg border border-zinc-700 px-3 py-1.5 text-xs text-zinc-400 hover:text-zinc-200"
-          >
-            Backup
-          </button>
-          <button
-            type="button"
-            onClick={handleImport}
-            className="rounded-lg border border-zinc-700 px-3 py-1.5 text-xs text-zinc-400 hover:text-zinc-200"
-          >
-            Import
-          </button>
-        </div>
-      </header>
+    <div className="relative mx-auto min-h-screen max-w-6xl px-4 py-8 sm:px-6">
+      <div className="pointer-events-none fixed inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-violet-950/20 via-zinc-950 to-zinc-950" />
 
-      <WeekSummary weekCounts={weekCounts} />
+      <div className="relative">
+        <header className="mb-8 flex flex-wrap items-end justify-between gap-4">
+          <div>
+            <p className="text-xs font-medium uppercase tracking-[0.2em] text-violet-400/70">
+              @piselliii
+            </p>
+            <h1 className="mt-1 text-3xl font-bold tracking-tight text-zinc-50">
+              Content Tracker
+            </h1>
+            <p className="mt-1.5 text-sm text-zinc-500">{weekRangeLabel(new Date())}</p>
+          </div>
+          <div className="flex flex-wrap gap-2">
+            <button
+              type="button"
+              onClick={handleJarvisCopy}
+              className="rounded-xl border border-violet-500/30 bg-violet-950/50 px-3.5 py-2 text-xs font-medium text-violet-200 transition hover:border-violet-400/50 hover:bg-violet-900/40"
+            >
+              {copied ? "Скопійовано!" : "Copy for Jarvis"}
+            </button>
+            <button
+              type="button"
+              onClick={handleExport}
+              className="rounded-xl border border-zinc-700/80 px-3.5 py-2 text-xs text-zinc-400 transition hover:text-zinc-200"
+            >
+              Backup
+            </button>
+            <button
+              type="button"
+              onClick={handleImport}
+              className="rounded-xl border border-zinc-700/80 px-3.5 py-2 text-xs text-zinc-400 transition hover:text-zinc-200"
+            >
+              Import
+            </button>
+          </div>
+        </header>
 
-      <section className="mt-6">
-        <h2 className="mb-3 text-xs font-medium uppercase tracking-widest text-zinc-500">
-          Habits
-        </h2>
-        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
-          {CONTENT_TYPES.map((type) => (
-            <HabitCard
-              key={type}
-              type={type}
-              count={weekCounts[type] ?? 0}
-              logs={data.logs}
-              onDone={(opts) => logDone(type, opts)}
-              onUndo={() => undoLast(type)}
-            />
-          ))}
-        </div>
-      </section>
+        <WeekSummary weekCounts={weekCounts} analysis={weekAnalysis} />
 
-      <div className="mt-8 grid gap-6 lg:grid-cols-2">
-        <section>
+        <section className="mt-8">
           <h2 className="mb-3 text-xs font-medium uppercase tracking-widest text-zinc-500">
-            Log
+            Звички
           </h2>
-          <ActivityLog
-            logs={data.logs}
-            onRemove={removeLog}
-            onUpdate={updateLog}
-          />
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
+            {CONTENT_TYPES.map((type) => (
+              <HabitCard
+                key={type}
+                type={type}
+                count={weekCounts[type] ?? 0}
+                logs={data.logs}
+                onDone={() => logDone(type)}
+                onUndo={() => undoLast(type)}
+              />
+            ))}
+          </div>
         </section>
-        <section>
-          <IdeasPanel ideas={data.ideas} onAdd={addIdea} onRemove={removeIdea} />
+
+        <div className="mt-8 grid gap-6 lg:grid-cols-2">
+          <section>
+            <h2 className="mb-3 text-xs font-medium uppercase tracking-widest text-zinc-500">
+              Журнал
+            </h2>
+            <ActivityLog logs={data.logs} onRemove={removeLog} />
+          </section>
+          <section>
+            <IdeasPanel ideas={data.ideas} onAdd={addIdea} onRemove={removeIdea} />
+          </section>
+        </div>
+
+        <section className="mt-8">
+          <WeekInsights analysis={weekAnalysis} />
         </section>
+
+        <details className="mt-6 group">
+          <summary className="cursor-pointer list-none text-xs text-zinc-600 transition hover:text-zinc-400">
+            <span className="group-open:hidden">▸ Ручний ввід (fallback)</span>
+            <span className="hidden group-open:inline">▾ Ручний ввід (fallback)</span>
+          </summary>
+          <div className="mt-3">
+            <QuickLogPanel logs={data.logs} onUpsert={upsertLog} />
+          </div>
+        </details>
       </div>
-
-      <section className="mt-8">
-        <QuickLogPanel logs={data.logs} onUpsert={upsertLog} />
-      </section>
-
-      <section className="mt-6">
-        <WeekInsights analysis={weekAnalysis} />
-      </section>
     </div>
   );
 }
