@@ -27,10 +27,11 @@ export function HabitCard({
   onUndo,
 }: HabitCardProps) {
   const [expanded, setExpanded] = useState(false);
-  const [qty, setQty] = useState(1);
   const [tweetUrl, setTweetUrl] = useState("");
+  const [ageHours, setAgeHours] = useState("");
   const [views, setViews] = useState("");
   const [likes, setLikes] = useState("");
+  const [replies, setReplies] = useState("");
 
   const norm = NORMS[type];
   const status = getNormStatus(count, norm);
@@ -59,18 +60,20 @@ export function HabitCard({
   function submit(opts?: LogOptions) {
     onDone(opts);
     setTweetUrl("");
+    setAgeHours("");
     setViews("");
     setLikes("");
-    setQty(1);
+    setReplies("");
     setExpanded(false);
   }
 
   function submitExpanded() {
     submit({
-      count: qty,
       tweetUrl: tweetUrl || undefined,
+      ageHours: ageHours ? Number(ageHours) : undefined,
       views: views ? Number(views) : undefined,
       likes: likes ? Number(likes) : undefined,
+      replies: replies ? Number(replies) : undefined,
     });
   }
 
@@ -153,21 +156,10 @@ export function HabitCard({
           onClick={() => setExpanded((v) => !v)}
           className="text-xs text-zinc-500 hover:text-zinc-300"
         >
-          {expanded ? "hide link & metrics" : "+ link / count / metrics"}
+          {expanded ? "hide link & metrics" : "+ link / metrics"}
         </button>
         {expanded && (
           <div className="flex flex-col gap-2 rounded-lg border border-zinc-800 bg-zinc-950/50 p-3">
-            <label className="flex items-center gap-2 text-xs text-zinc-400">
-              count
-              <input
-                type="number"
-                min={1}
-                max={20}
-                value={qty}
-                onChange={(e) => setQty(Number(e.target.value) || 1)}
-                className="w-16 rounded border border-zinc-700 bg-zinc-900 px-2 py-1 text-zinc-100"
-              />
-            </label>
             <input
               value={tweetUrl}
               onChange={(e) => setTweetUrl(e.target.value)}
@@ -176,15 +168,29 @@ export function HabitCard({
             />
             <div className="flex gap-2">
               <input
+                value={ageHours}
+                onChange={(e) => setAgeHours(e.target.value)}
+                placeholder="hours since post"
+                className="w-1/2 rounded border border-zinc-700 bg-zinc-900 px-2 py-1.5 text-xs text-zinc-100 placeholder:text-zinc-600"
+              />
+              <input
                 value={views}
                 onChange={(e) => setViews(e.target.value)}
                 placeholder="views"
                 className="w-1/2 rounded border border-zinc-700 bg-zinc-900 px-2 py-1.5 text-xs text-zinc-100 placeholder:text-zinc-600"
               />
+            </div>
+            <div className="flex gap-2">
               <input
                 value={likes}
                 onChange={(e) => setLikes(e.target.value)}
                 placeholder="likes"
+                className="w-1/2 rounded border border-zinc-700 bg-zinc-900 px-2 py-1.5 text-xs text-zinc-100 placeholder:text-zinc-600"
+              />
+              <input
+                value={replies}
+                onChange={(e) => setReplies(e.target.value)}
+                placeholder="replies"
                 className="w-1/2 rounded border border-zinc-700 bg-zinc-900 px-2 py-1.5 text-xs text-zinc-100 placeholder:text-zinc-600"
               />
             </div>

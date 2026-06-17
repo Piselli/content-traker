@@ -15,14 +15,25 @@ import type {
 import { CONTENT_TYPES } from "@/lib/types";
 import { isInWeek, weekRangeLabel } from "@/lib/week";
 
+function hasMetrics(entry: Pick<LogEntry, "ageHours" | "views" | "likes" | "replies">): boolean {
+  return (
+    entry.ageHours != null ||
+    entry.views != null ||
+    entry.likes != null ||
+    entry.replies != null
+  );
+}
+
 function createEntry(type: ContentType, opts?: LogOptions): LogEntry {
   return {
     id: crypto.randomUUID(),
     type,
     at: new Date().toISOString(),
     tweetUrl: opts?.tweetUrl?.trim() || undefined,
+    ageHours: opts?.ageHours,
     views: opts?.views,
     likes: opts?.likes,
+    replies: opts?.replies,
     note: opts?.note?.trim() || undefined,
   };
 }
@@ -72,18 +83,41 @@ export function useTracker() {
   }, []);
 
   const updateLog = useCallback(
-    (id: string, patch: Partial<Pick<LogEntry, "tweetUrl" | "views" | "likes" | "note">>) => {
+    (
+      id: string,
+      patch: Partial<
+        Pick<LogEntry, "tweetUrl" | "ageHours" | "views" | "likes" | "replies" | "note">
+      >,
+    ) => {
       setData((prev) => {
-        const logs = prev.logs.map((l) =>
-          l.id === id
-            ? {
-                ...l,
-                ...patch,
-                tweetUrl: patch.tweetUrl?.trim() || l.tweetUrl,
-                note: patch.note?.trim() || l.note,
-              }
-            : l,
-        );
+        const logs = prev.logs.map((l) => {
+          if (l.id !== id) return l;
+
+          const metricsPatch =
+            patch.ageHours !== undefined ||
+            patch.views !== undefined ||
+            patch.likes !== undefined ||
+            patch.replies !== undefined;
+
+          const snapshots = [...(l.snapshots ?? [])];
+          if (metricsPatch && hasMetrics(l)) {
+            snapshots.unshift({
+              ageHours: l.ageHours ?? 0,
+              views: l.views,
+              likes: l.likes,
+              replies: l.replies,
+              checkedAt: new Date().toISOString(),
+            });
+          }
+
+          return {
+            ...l,
+            ...patch,
+            tweetUrl: patch.tweetUrl !== undefined ? patch.tweetUrl.trim() || undefined : l.tweetUrl,
+            note: patch.note !== undefined ? patch.note.trim() || undefined : l.note,
+            snapshots: snapshots.length > 0 ? snapshots : undefined,
+          };
+        });
         const next = { ...prev, logs };
         saveData(next);
         return next;

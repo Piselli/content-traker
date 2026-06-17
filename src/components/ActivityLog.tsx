@@ -10,8 +10,19 @@ interface ActivityLogProps {
   onRemove: (id: string) => void;
   onUpdate: (
     id: string,
-    patch: Partial<Pick<LogEntry, "tweetUrl" | "views" | "likes">>,
+    patch: Partial<
+      Pick<LogEntry, "tweetUrl" | "ageHours" | "views" | "likes" | "replies">
+    >,
   ) => void;
+}
+
+function formatMetrics(log: LogEntry): string | null {
+  const parts: string[] = [];
+  if (log.ageHours != null) parts.push(`${log.ageHours}h`);
+  if (log.views != null) parts.push(`${log.views}v`);
+  if (log.likes != null) parts.push(`${log.likes}♥`);
+  if (log.replies != null) parts.push(`${log.replies}↩`);
+  return parts.length > 0 ? parts.join(" · ") : null;
 }
 
 export function ActivityLog({ logs, onRemove, onUpdate }: ActivityLogProps) {
@@ -63,15 +74,22 @@ function LogRow({
   onUpdate: ActivityLogProps["onUpdate"];
 }) {
   const [editing, setEditing] = useState(false);
+  const [ageHours, setAgeHours] = useState(log.ageHours?.toString() ?? "");
   const [views, setViews] = useState(log.views?.toString() ?? "");
   const [likes, setLikes] = useState(log.likes?.toString() ?? "");
+  const [replies, setReplies] = useState(log.replies?.toString() ?? "");
   const [url, setUrl] = useState(log.tweetUrl ?? "");
+
+  const metrics = formatMetrics(log);
+  const snapshotCount = log.snapshots?.length ?? 0;
 
   function save() {
     onUpdate(log.id, {
       tweetUrl: url || undefined,
+      ageHours: ageHours ? Number(ageHours) : undefined,
       views: views ? Number(views) : undefined,
       likes: likes ? Number(likes) : undefined,
+      replies: replies ? Number(replies) : undefined,
     });
     setEditing(false);
   }
@@ -86,11 +104,11 @@ function LogRow({
           className={`h-2 w-2 shrink-0 rounded-full ${TYPE_STYLES[log.type].dot}`}
         />
         <span className="min-w-0 flex-1 text-zinc-200">{log.type}</span>
-        {log.views != null && (
-          <span className="text-xs tabular-nums text-zinc-500">{log.views}v</span>
+        {metrics && (
+          <span className="text-xs tabular-nums text-zinc-500">{metrics}</span>
         )}
-        {log.likes != null && (
-          <span className="text-xs tabular-nums text-zinc-500">{log.likes}♥</span>
+        {snapshotCount > 0 && (
+          <span className="text-[10px] text-zinc-600">+{snapshotCount} check</span>
         )}
         <button
           type="button"
@@ -127,18 +145,37 @@ function LogRow({
           />
           <div className="flex gap-2">
             <input
+              value={ageHours}
+              onChange={(e) => setAgeHours(e.target.value)}
+              placeholder="hours since post"
+              className="w-1/2 rounded border border-zinc-700 bg-zinc-950 px-2 py-1 text-xs"
+            />
+            <input
               value={views}
               onChange={(e) => setViews(e.target.value)}
               placeholder="views"
               className="w-1/2 rounded border border-zinc-700 bg-zinc-950 px-2 py-1 text-xs"
             />
+          </div>
+          <div className="flex gap-2">
             <input
               value={likes}
               onChange={(e) => setLikes(e.target.value)}
               placeholder="likes"
               className="w-1/2 rounded border border-zinc-700 bg-zinc-950 px-2 py-1 text-xs"
             />
+            <input
+              value={replies}
+              onChange={(e) => setReplies(e.target.value)}
+              placeholder="replies"
+              className="w-1/2 rounded border border-zinc-700 bg-zinc-950 px-2 py-1 text-xs"
+            />
           </div>
+          {snapshotCount > 0 && (
+            <p className="text-[10px] text-zinc-600">
+              Saving keeps previous check-in in history ({snapshotCount} stored).
+            </p>
+          )}
           <button
             type="button"
             onClick={save}

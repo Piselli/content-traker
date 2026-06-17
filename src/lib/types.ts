@@ -17,14 +17,25 @@ export interface Norm {
   label: string;
 }
 
+export interface MetricSnapshot {
+  ageHours: number;
+  views?: number;
+  likes?: number;
+  replies?: number;
+  checkedAt: string;
+}
+
 export interface LogEntry {
   id: string;
   type: ContentType;
   at: string;
   tweetUrl?: string;
+  ageHours?: number;
   views?: number;
   likes?: number;
+  replies?: number;
   note?: string;
+  snapshots?: MetricSnapshot[];
 }
 
 export interface Idea {
@@ -42,8 +53,10 @@ export interface AppData {
 export interface LogOptions {
   count?: number;
   tweetUrl?: string;
+  ageHours?: number;
   views?: number;
   likes?: number;
+  replies?: number;
   note?: string;
 }
 
