@@ -1,5 +1,5 @@
 import type { AppData, Idea, LogEntry } from "./types";
-import { mergeTraitLists, normalizeLogTraits } from "./traits";
+import { normalizeLogTraits } from "./traits";
 import { extractTweetId } from "./tweetUrl";
 
 export interface RepoData extends AppData {
@@ -35,7 +35,7 @@ function mergeLogEntry(a: LogEntry, b: LogEntry): LogEntry {
 
   return normalizeLogTraits({
     ...newer,
-    traits: mergeTraitLists(older.traits, newer.traits),
+    traits: newer.traits,
     snapshots: mergeSnapshots(older.snapshots, newer.snapshots),
   });
 }
