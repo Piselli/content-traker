@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Content Tracker
 
-## Getting Started
+Personal X (@piselliii) habit tracker — **Done → log → weekly norm progress + ideas**.
 
-First, run the development server:
+Not related to MoveMatch / ffl-moves.
+
+## Features
+
+- 8 habit types with **Done** + **Undo**
+- **Weekly norm** progress (4/7, ✓ norm, over limit)
+- 7-day activity dots per habit
+- Activity log (calendar-style)
+- Ideas backlog
+- Export / Import JSON backup (localStorage)
+
+## Run locally
 
 ```bash
+cd content-tracker
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deploy (Vercel)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Push to GitHub (new repo `content-tracker`)
+2. [vercel.com](https://vercel.com) → Import repo → Deploy
+3. Optional: Vercel **Deployment Protection** (password) — personal data stays private
 
-## Learn More
+Data lives in **browser localStorage** — each device has its own data unless you export/import.
 
-To learn more about Next.js, take a look at the following resources:
+## Weekly norms
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Type | Norm |
+|------|------|
+| hot topic | 7+ |
+| meme | 5+ |
+| useful | 2+ |
+| bait | 2–4 |
+| provocative | 2 |
+| strategic QT | 3–5 |
+| builder | ≤2 |
+| meta reach | ≤1 |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Edit `src/lib/norms.ts` to change.
 
-## Deploy on Vercel
+## Project structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+src/
+├── app/           # Next.js pages
+├── components/    # UI
+├── hooks/         # useTracker
+└── lib/           # types, norms, storage, week utils
+```
