@@ -16,14 +16,31 @@ Personal Next.js app for X content discipline. **Not MoveMatch / not ffl-moves.*
 
 ## Stack
 
-Next.js 16 App Router · TypeScript · Tailwind · client-only localStorage · no backend
+Next.js 16 App Router · TypeScript · Tailwind · `public/tracker-data.json` synced on load + localStorage
 
 ## Key files
 
+- `public/tracker-data.json` — **source of truth** agent commits after user sends tweet data
 - `src/lib/norms.ts` — weekly targets
-- `src/hooks/useTracker.ts` — state + persistence
+- `src/lib/analysis.ts` — insights, next slot, bucket mix
+- `src/hooks/useTracker.ts` — state + repo merge
 - `src/components/Dashboard.tsx` — main UI
-- `JARVIS.md` — X content assistant prompt (strategy, not code)
+- `JARVIS.md` — X content strategy (PICK, DRAFT, norms)
+
+## Logging workflow (when user sends screenshot + URL)
+
+User does **not** need to click Done on site if agent handles logging.
+
+| When | User sends | Agent does |
+|------|------------|------------|
+| Right after post | screenshot + URL (+ «опублікував» optional) | Classify `type` + `traits` + `slot` + `bucket` → update `public/tracker-data.json` → **commit + push** (no ask) |
+| ~3h later | screenshot + URL | Update metrics (`ageHours`, views, likes, replies) → commit + push |
+| ~24h later | screenshot + URL | Update metrics; previous check-in saved in `snapshots` |
+
+- **Primary `type`** = one norm (Done equivalent). **traits[]** = combo (e.g. bait + hot topic trait).
+- Same tweet URL = update existing log, do not duplicate.
+- Communicate analysis to user **in Ukrainian**. App UI stays English.
+- User consults in chat before posting → agent already knows classification when they say «опублікував».
 
 ## Code conventions
 
