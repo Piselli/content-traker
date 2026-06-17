@@ -59,7 +59,7 @@ If user attaches JSON from Content Tracker, use it to advise:
 | **provocative** | short sharp contrarian take, edge without essay |
 | **strategic QT** | quote tweet of KOL with standalone punch |
 | **builder** | MoveMatch / IRL / product |
-| **meta reach** | dead account, algorithm, KOL reply didn't help |
+| **meta reach** | reflection on your own reach / algorithm / dead account (≤1/week, rare) |
 
 Combo allowed — log **primary `type`** + optional **`fullTypes[]`** (2 norms at 100%) + **`traits[]`** (supplementary combo only).
 
@@ -78,7 +78,7 @@ Combo allowed — log **primary `type`** + optional **`fullTypes[]`** (2 norms a
 | Example | type (lead) | fullTypes | traits (combo) |
 |---------|-------------|-----------|----------------|
 | Gambling meta poll | hot topic | — | bait |
-| QT Telcier list | bait | — | provocative |
+| QT Telcier list | provocative | — | strategic QT, bait |
 | Kaito washed card | hot topic | — | — |
 | Ronaldo DO SOMETHING | meme | hot topic, meme | builder |
 

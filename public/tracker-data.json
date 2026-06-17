@@ -1,6 +1,6 @@
 {
-  "syncVersion": 12,
-  "updatedAt": "2026-06-18T20:00:00.000Z",
+  "syncVersion": 13,
+  "updatedAt": "2026-06-19T10:00:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
@@ -19,18 +19,18 @@
     },
     {
       "id": "qt-telcier-advanced-meta-jun17",
-      "type": "bait",
-      "traits": ["provocative"],
+      "type": "provocative",
+      "traits": ["strategic QT", "bait"],
       "slot": 2,
       "bucket": "CT",
       "at": "2026-06-17T14:19:00.000Z",
-      "updatedAt": "2026-06-18T11:00:00.000Z",
+      "updatedAt": "2026-06-19T10:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2067250794475204660",
       "ageHours": 7,
       "views": 121,
       "likes": 11,
       "replies": 3,
-      "note": "QT @Telcier — bait list (+3 engagement tactics), provocative edge on CT meta"
+      "note": "provocative CT meta expose — combo: strategic QT (~50%) + supplementary bait list"
     },
     {
       "id": "meta-kaito-washed-king-jun17",
