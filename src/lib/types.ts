@@ -1,3 +1,5 @@
+import type { WeekAnalysis } from "./analysis";
+
 export const CONTENT_TYPES = [
   "hot topic",
   "meme",
@@ -67,4 +69,5 @@ export interface TrackerExport {
   normsHit: number;
   logsThisWeek: LogEntry[];
   ideas: Idea[];
+  analysis?: WeekAnalysis;
 }

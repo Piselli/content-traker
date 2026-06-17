@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useState } from "react";
+import { buildWeekAnalysis } from "@/lib/analysis";
 import { NORMS } from "@/lib/norms";
 import { getNormStatus } from "@/lib/norms";
 import { exportJson, importJson, loadData, saveData } from "@/lib/storage";
@@ -13,6 +14,7 @@ import type {
   TrackerExport,
 } from "@/lib/types";
 import { CONTENT_TYPES } from "@/lib/types";
+import { tweetUrlsMatch } from "@/lib/tweetUrl";
 import { isInWeek, weekRangeLabel } from "@/lib/week";
 
 function hasMetrics(entry: Pick<LogEntry, "ageHours" | "views" | "likes" | "replies">): boolean {
@@ -161,6 +163,38 @@ export function useTracker() {
     return counts;
   }, [data.logs]);
 
+  const upsertLog = useCallback(
+    (type: ContentType, opts?: LogOptions): "created" | "updated" => {
+      const url = opts?.tweetUrl?.trim();
+      if (url) {
+        const existing = data.logs.find(
+          (l) => l.tweetUrl && tweetUrlsMatch(l.tweetUrl, url),
+        );
+        if (existing) {
+          const patch: Partial<
+            Pick<LogEntry, "tweetUrl" | "ageHours" | "views" | "likes" | "replies" | "note">
+          > = { tweetUrl: url };
+          if (opts?.ageHours != null) patch.ageHours = opts.ageHours;
+          if (opts?.views != null) patch.views = opts.views;
+          if (opts?.likes != null) patch.likes = opts.likes;
+          if (opts?.replies != null) patch.replies = opts.replies;
+          if (opts?.note != null) patch.note = opts.note;
+          updateLog(existing.id, patch);
+          return "updated";
+        }
+      }
+
+      logDone(type, opts);
+      return "created";
+    },
+    [data.logs, logDone, updateLog],
+  );
+
+  const weekAnalysis = useMemo(
+    () => buildWeekAnalysis(data.logs, weekCounts),
+    [data.logs, weekCounts],
+  );
+
   const buildJarvisExport = useCallback((): TrackerExport => {
     const now = new Date();
     const logsThisWeek = data.logs.filter((l) => isInWeek(l.at, now));
@@ -181,8 +215,9 @@ export function useTracker() {
       normsHit,
       logsThisWeek,
       ideas: data.ideas,
+      analysis: buildWeekAnalysis(data.logs, weekCounts as Record<ContentType, number>, now),
     };
-  }, [data]);
+  }, [data, weekCounts]);
 
   const exportBackup = useCallback(() => exportJson(data), [data]);
 
@@ -195,11 +230,19 @@ export function useTracker() {
     persist(importJson(raw));
   }, [persist]);
 
+  const copyForJarvis = useCallback(async () => {
+    const payload = JSON.stringify(buildJarvisExport(), null, 2);
+    await navigator.clipboard.writeText(payload);
+    return payload;
+  }, [buildJarvisExport]);
+
   return {
     ready,
     data,
     weekCounts,
+    weekAnalysis,
     logDone,
+    upsertLog,
     undoLast,
     removeLog,
     updateLog,
@@ -207,6 +250,7 @@ export function useTracker() {
     removeIdea,
     exportBackup,
     exportForJarvis,
+    copyForJarvis,
     restoreBackup,
   };
 }

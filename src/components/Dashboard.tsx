@@ -3,26 +3,33 @@
 import { ActivityLog } from "@/components/ActivityLog";
 import { HabitCard } from "@/components/HabitCard";
 import { IdeasPanel } from "@/components/IdeasPanel";
+import { QuickLogPanel } from "@/components/QuickLogPanel";
+import { WeekInsights } from "@/components/WeekInsights";
 import { WeekSummary } from "@/components/WeekSummary";
 import { useTracker } from "@/hooks/useTracker";
 import { CONTENT_TYPES } from "@/lib/types";
 import { weekRangeLabel } from "@/lib/week";
+import { useState } from "react";
 
 export function Dashboard() {
   const {
     ready,
     data,
     weekCounts,
+    weekAnalysis,
     logDone,
+    upsertLog,
     undoLast,
     removeLog,
     updateLog,
     addIdea,
     removeIdea,
     exportBackup,
-    exportForJarvis,
+    copyForJarvis,
     restoreBackup,
   } = useTracker();
+
+  const [copied, setCopied] = useState(false);
 
   function download(filename: string, content: string) {
     const blob = new Blob([content], { type: "application/json" });
@@ -41,11 +48,14 @@ export function Dashboard() {
     );
   }
 
-  function handleJarvisExport() {
-    download(
-      `jarvis-week-${new Date().toISOString().slice(0, 10)}.json`,
-      exportForJarvis(),
-    );
+  async function handleJarvisCopy() {
+    try {
+      await copyForJarvis();
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch {
+      alert("Could not copy — check browser permissions");
+    }
   }
 
   function handleImport() {
@@ -89,10 +99,10 @@ export function Dashboard() {
         <div className="flex flex-wrap gap-2">
           <button
             type="button"
-            onClick={handleJarvisExport}
+            onClick={handleJarvisCopy}
             className="rounded-lg border border-violet-800/60 bg-violet-950/40 px-3 py-1.5 text-xs text-violet-300 hover:text-violet-100"
           >
-            Copy for Jarvis
+            {copied ? "Copied!" : "Copy for Jarvis"}
           </button>
           <button
             type="button"
@@ -112,6 +122,14 @@ export function Dashboard() {
       </header>
 
       <WeekSummary weekCounts={weekCounts} />
+
+      <section className="mt-6">
+        <QuickLogPanel logs={data.logs} onUpsert={upsertLog} />
+      </section>
+
+      <section className="mt-6">
+        <WeekInsights analysis={weekAnalysis} />
+      </section>
 
       <section className="mt-6">
         <h2 className="mb-3 text-xs font-medium uppercase tracking-widest text-zinc-500">
