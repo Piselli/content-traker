@@ -1,0 +1,43 @@
+---
+description: Content Tracker project context — personal X habit app, NOT ffl-moves
+alwaysApply: true
+---
+
+# Content Tracker (@piselliii)
+
+Personal Next.js app for X content discipline. **Not MoveMatch / not ffl-moves.**
+
+## Product
+
+- 8 habit types with weekly norms (hot topic, meme, useful, bait, provocative, strategic QT, builder, meta reach)
+- Done / − / + / log with tweet URL + views/likes
+- Ideas backlog, localStorage, Export/Backup, **Copy for Jarvis** JSON
+- Live: content-tracker-vert.vercel.app · Repo: github.com/Piselli/content-traker
+
+## Stack
+
+Next.js 16 App Router · TypeScript · Tailwind · client-only localStorage · no backend
+
+## Key files
+
+- `src/lib/norms.ts` — weekly targets
+- `src/hooks/useTracker.ts` — state + persistence
+- `src/components/Dashboard.tsx` — main UI
+- `JARVIS.md` — X content assistant prompt (strategy, not code)
+
+## Code conventions
+
+- Minimal scope; no over-engineering
+- Keep UI dark, simple, mobile-friendly
+- No auth/API unless user asks
+- Ukrainian OK in chat; app UI in English
+
+## X strategy context (when user asks content questions)
+
+See `JARVIS.md`. User is @piselliii: CT + football + crypto, cynical humor, bucket lock 30 days. Movement audience dead; rebuilding reach.
+
+## Do NOT
+
+- Mix with ffl-moves / MoveMatch product code
+- Suggest Notion trackers (replaced by this app)
+- Add X API scraping without user request
