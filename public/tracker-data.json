@@ -1,6 +1,6 @@
 {
-  "syncVersion": 6,
-  "updatedAt": "2026-06-18T10:00:00.000Z",
+  "syncVersion": 7,
+  "updatedAt": "2026-06-18T11:00:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
@@ -19,18 +19,18 @@
     },
     {
       "id": "qt-telcier-advanced-meta-jun17",
-      "type": "strategic QT",
-      "traits": ["hot topic", "provocative", "bait"],
+      "type": "bait",
+      "traits": ["provocative"],
       "slot": 2,
       "bucket": "CT",
       "at": "2026-06-17T14:19:00.000Z",
-      "updatedAt": "2026-06-18T10:00:00.000Z",
+      "updatedAt": "2026-06-18T11:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2067250794475204660",
       "ageHours": 7,
       "views": 121,
       "likes": 11,
       "replies": 3,
-      "note": "QT @Telcier — riding engagement-farming meta thread, +3 list punch"
+      "note": "QT @Telcier — bait list (+3 engagement tactics), provocative edge on CT meta"
     },
     {
       "id": "meta-kaito-washed-king-jun17",
@@ -54,13 +54,13 @@
       "slot": 4,
       "bucket": "football",
       "at": "2026-06-17T18:37:00.000Z",
-      "updatedAt": "2026-06-18T10:00:00.000Z",
+      "updatedAt": "2026-06-18T11:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2067315608631251004",
       "ageHours": 3,
       "views": 94,
       "likes": 5,
       "replies": 2,
-      "note": "Portugal/Ronaldo live moment — meme is delivery, topic is the match"
+      "note": "Portugal/Ronaldo live hot topic + full meme (DO SOMETHING), builder via @MoveMatchxyz"
     }
   ],
   "ideas": []
