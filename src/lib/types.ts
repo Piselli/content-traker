@@ -21,6 +21,10 @@ export interface LogEntry {
   id: string;
   type: ContentType;
   at: string;
+  tweetUrl?: string;
+  views?: number;
+  likes?: number;
+  note?: string;
 }
 
 export interface Idea {
@@ -32,5 +36,22 @@ export interface Idea {
 
 export interface AppData {
   logs: LogEntry[];
+  ideas: Idea[];
+}
+
+export interface LogOptions {
+  count?: number;
+  tweetUrl?: string;
+  views?: number;
+  likes?: number;
+  note?: string;
+}
+
+export interface TrackerExport {
+  exportedAt: string;
+  weekRange: string;
+  weekCounts: Partial<Record<ContentType, number>>;
+  normsHit: number;
+  logsThisWeek: LogEntry[];
   ideas: Idea[];
 }

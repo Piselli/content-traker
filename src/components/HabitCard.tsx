@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import {
   getNormStatus,
   normLabel,
@@ -7,14 +8,14 @@ import {
   progressPercent,
 } from "@/lib/norms";
 import { TYPE_STYLES } from "@/lib/styles";
-import type { ContentType, LogEntry } from "@/lib/types";
+import type { ContentType, LogEntry, LogOptions } from "@/lib/types";
 import { dayKey, last7DayKeys } from "@/lib/week";
 
 interface HabitCardProps {
   type: ContentType;
   count: number;
   logs: LogEntry[];
-  onDone: () => void;
+  onDone: (opts?: LogOptions) => void;
   onUndo: () => void;
 }
 
@@ -25,6 +26,12 @@ export function HabitCard({
   onDone,
   onUndo,
 }: HabitCardProps) {
+  const [expanded, setExpanded] = useState(false);
+  const [qty, setQty] = useState(1);
+  const [tweetUrl, setTweetUrl] = useState("");
+  const [views, setViews] = useState("");
+  const [likes, setLikes] = useState("");
+
   const norm = NORMS[type];
   const status = getNormStatus(count, norm);
   const styles = TYPE_STYLES[type];
@@ -49,6 +56,24 @@ export function HabitCard({
         ? "bg-red-500"
         : styles.dot;
 
+  function submit(opts?: LogOptions) {
+    onDone(opts);
+    setTweetUrl("");
+    setViews("");
+    setLikes("");
+    setQty(1);
+    setExpanded(false);
+  }
+
+  function submitExpanded() {
+    submit({
+      count: qty,
+      tweetUrl: tweetUrl || undefined,
+      views: views ? Number(views) : undefined,
+      likes: likes ? Number(likes) : undefined,
+    });
+  }
+
   return (
     <div
       className={`flex flex-col gap-3 rounded-xl border border-zinc-800 bg-zinc-900/80 p-4 transition-colors ${styles.glow}`}
@@ -70,11 +95,32 @@ export function HabitCard({
         )}
       </div>
 
-      <div className="flex items-baseline gap-2">
-        <span className="text-2xl font-semibold tabular-nums text-zinc-100">
-          {countLabel}
-        </span>
-        <span className="text-xs text-zinc-500">this week</span>
+      <div className="flex items-center justify-between gap-2">
+        <div className="flex items-baseline gap-2">
+          <span className="text-2xl font-semibold tabular-nums text-zinc-100">
+            {countLabel}
+          </span>
+          <span className="text-xs text-zinc-500">this week</span>
+        </div>
+        <div className="flex items-center gap-1">
+          <button
+            type="button"
+            onClick={onUndo}
+            disabled={count === 0}
+            className="flex h-8 w-8 items-center justify-center rounded-lg border border-zinc-700 text-zinc-300 disabled:opacity-30"
+            title="Remove last"
+          >
+            −
+          </button>
+          <button
+            type="button"
+            onClick={() => onDone({ count: 1 })}
+            className="flex h-8 w-8 items-center justify-center rounded-lg border border-zinc-700 text-zinc-300 hover:bg-zinc-800"
+            title="Add one"
+          >
+            +
+          </button>
+        </div>
       </div>
 
       <div className="h-1.5 overflow-hidden rounded-full bg-zinc-800">
@@ -94,23 +140,62 @@ export function HabitCard({
         ))}
       </div>
 
-      <div className="flex gap-2 pt-1">
+      <div className="flex flex-col gap-2 pt-1">
         <button
           type="button"
-          onClick={onDone}
-          className="flex-1 rounded-lg bg-zinc-100 py-2 text-sm font-semibold text-zinc-900 transition hover:bg-white"
+          onClick={() => submit({ count: 1 })}
+          className="w-full rounded-lg bg-zinc-100 py-2 text-sm font-semibold text-zinc-900 transition hover:bg-white"
         >
           Done
         </button>
-        {count > 0 && (
-          <button
-            type="button"
-            onClick={onUndo}
-            className="rounded-lg border border-zinc-700 px-3 py-2 text-xs text-zinc-400 transition hover:border-zinc-500 hover:text-zinc-200"
-            title="Undo last"
-          >
-            Undo
-          </button>
+        <button
+          type="button"
+          onClick={() => setExpanded((v) => !v)}
+          className="text-xs text-zinc-500 hover:text-zinc-300"
+        >
+          {expanded ? "hide link & metrics" : "+ link / count / metrics"}
+        </button>
+        {expanded && (
+          <div className="flex flex-col gap-2 rounded-lg border border-zinc-800 bg-zinc-950/50 p-3">
+            <label className="flex items-center gap-2 text-xs text-zinc-400">
+              count
+              <input
+                type="number"
+                min={1}
+                max={20}
+                value={qty}
+                onChange={(e) => setQty(Number(e.target.value) || 1)}
+                className="w-16 rounded border border-zinc-700 bg-zinc-900 px-2 py-1 text-zinc-100"
+              />
+            </label>
+            <input
+              value={tweetUrl}
+              onChange={(e) => setTweetUrl(e.target.value)}
+              placeholder="tweet URL (optional)"
+              className="rounded border border-zinc-700 bg-zinc-900 px-2 py-1.5 text-xs text-zinc-100 placeholder:text-zinc-600"
+            />
+            <div className="flex gap-2">
+              <input
+                value={views}
+                onChange={(e) => setViews(e.target.value)}
+                placeholder="views"
+                className="w-1/2 rounded border border-zinc-700 bg-zinc-900 px-2 py-1.5 text-xs text-zinc-100 placeholder:text-zinc-600"
+              />
+              <input
+                value={likes}
+                onChange={(e) => setLikes(e.target.value)}
+                placeholder="likes"
+                className="w-1/2 rounded border border-zinc-700 bg-zinc-900 px-2 py-1.5 text-xs text-zinc-100 placeholder:text-zinc-600"
+              />
+            </div>
+            <button
+              type="button"
+              onClick={submitExpanded}
+              className="rounded-lg border border-zinc-600 py-1.5 text-xs font-medium text-zinc-200 hover:bg-zinc-800"
+            >
+              Log
+            </button>
+          </div>
         )}
       </div>
     </div>

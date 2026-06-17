@@ -15,20 +15,37 @@ export function Dashboard() {
     weekCounts,
     logDone,
     undoLast,
+    removeLog,
+    updateLog,
     addIdea,
     removeIdea,
     exportBackup,
+    exportForJarvis,
     restoreBackup,
   } = useTracker();
 
-  function handleExport() {
-    const blob = new Blob([exportBackup()], { type: "application/json" });
+  function download(filename: string, content: string) {
+    const blob = new Blob([content], { type: "application/json" });
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
-    a.download = `content-tracker-${new Date().toISOString().slice(0, 10)}.json`;
+    a.download = filename;
     a.click();
     URL.revokeObjectURL(url);
+  }
+
+  function handleExport() {
+    download(
+      `content-tracker-${new Date().toISOString().slice(0, 10)}.json`,
+      exportBackup(),
+    );
+  }
+
+  function handleJarvisExport() {
+    download(
+      `jarvis-week-${new Date().toISOString().slice(0, 10)}.json`,
+      exportForJarvis(),
+    );
   }
 
   function handleImport() {
@@ -69,13 +86,20 @@ export function Dashboard() {
           <h1 className="text-2xl font-semibold text-zinc-100">Content Tracker</h1>
           <p className="mt-1 text-sm text-zinc-500">{weekRangeLabel(new Date())}</p>
         </div>
-        <div className="flex gap-2">
+        <div className="flex flex-wrap gap-2">
+          <button
+            type="button"
+            onClick={handleJarvisExport}
+            className="rounded-lg border border-violet-800/60 bg-violet-950/40 px-3 py-1.5 text-xs text-violet-300 hover:text-violet-100"
+          >
+            Copy for Jarvis
+          </button>
           <button
             type="button"
             onClick={handleExport}
             className="rounded-lg border border-zinc-700 px-3 py-1.5 text-xs text-zinc-400 hover:text-zinc-200"
           >
-            Export
+            Backup
           </button>
           <button
             type="button"
@@ -100,7 +124,7 @@ export function Dashboard() {
               type={type}
               count={weekCounts[type] ?? 0}
               logs={data.logs}
-              onDone={() => logDone(type)}
+              onDone={(opts) => logDone(type, opts)}
               onUndo={() => undoLast(type)}
             />
           ))}
@@ -112,7 +136,11 @@ export function Dashboard() {
           <h2 className="mb-3 text-xs font-medium uppercase tracking-widest text-zinc-500">
             Log
           </h2>
-          <ActivityLog logs={data.logs} />
+          <ActivityLog
+            logs={data.logs}
+            onRemove={removeLog}
+            onUpdate={updateLog}
+          />
         </section>
         <section>
           <IdeasPanel ideas={data.ideas} onAdd={addIdea} onRemove={removeIdea} />
