@@ -6,7 +6,6 @@ import {
   NORMS,
   progressPercent,
 } from "@/lib/norms";
-import { logHasType, type TypeWeekBreakdown } from "@/lib/traits";
 import { TYPE_STYLES } from "@/lib/styles";
 import type { ContentType, LogEntry } from "@/lib/types";
 import { dayKey, last7DayKeys } from "@/lib/week";
@@ -14,7 +13,7 @@ import { dayKey, last7DayKeys } from "@/lib/week";
 interface HabitCardProps {
   type: ContentType;
   count: number;
-  breakdown: TypeWeekBreakdown;
+  comboCount: number;
   logs: LogEntry[];
   onDone: () => void;
   onUndo: () => void;
@@ -23,7 +22,7 @@ interface HabitCardProps {
 export function HabitCard({
   type,
   count,
-  breakdown,
+  comboCount,
   logs,
   onDone,
   onUndo,
@@ -35,7 +34,7 @@ export function HabitCard({
   const dayKeys = last7DayKeys(now);
 
   const dots = dayKeys.map((key) =>
-    logs.some((l) => logHasType(l, type) && dayKey(l.at) === key),
+    logs.some((l) => l.type === type && dayKey(l.at) === key),
   );
 
   const countLabel =
@@ -78,9 +77,9 @@ export function HabitCard({
           <span className="text-2xl font-bold tabular-nums tracking-tight text-zinc-50">
             {countLabel}
           </span>
-          {breakdown.viaTraits > 0 && (
-            <p className="mt-0.5 text-[10px] text-zinc-500">
-              {breakdown.primary} primary · {breakdown.viaTraits} combo
+          {comboCount > 0 && (
+            <p className="mt-0.5 text-[10px] text-violet-400/80">
+              +{comboCount} combo
             </p>
           )}
         </div>
@@ -90,7 +89,7 @@ export function HabitCard({
             onClick={onUndo}
             disabled={count === 0}
             className="flex h-8 w-8 items-center justify-center rounded-lg border border-zinc-700/80 text-zinc-400 transition hover:bg-zinc-800 disabled:opacity-25"
-            title="Скасувати останній"
+            title="Скасувати останній primary"
           >
             −
           </button>

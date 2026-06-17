@@ -37,7 +37,7 @@ User does **not** need to click Done on site if agent handles logging.
 | ~3h later | screenshot + URL | Update metrics (`ageHours`, views, likes, replies) → commit + push |
 | ~24h later | screenshot + URL | Update metrics; previous check-in saved in `snapshots` |
 
-- **Primary `type`** = lead classification (first badge). **`traits[]`** = other types the post fully hits — **both count toward norms**
+- **Primary `type`** = norm progress (Done). **`traits[]`** = combo coverage — badges + analytics, not norms
 - Same tweet URL = update existing log, do not duplicate.
 - Communicate analysis to user **in Ukrainian**. App UI stays English.
 - User consults in chat before posting → agent already knows classification when they say «опублікував».

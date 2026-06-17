@@ -27,13 +27,13 @@ If user attaches JSON from Content Tracker, use it to advise:
 
 | Type | Norm |
 |------|------|
-| hot topic | 7+ |
-| meme | 5+ |
-| useful | 2+ |
-| bait | 2–4 |
-| provocative | 2 |
-| strategic QT | 3–5 |
-| builder | ≤2 |
+| hot topic | 8+ |
+| meme | 6+ |
+| useful | 3+ |
+| bait | 3–5 |
+| provocative | 3+ |
+| strategic QT | 4–6 |
+| builder | ≤3 |
 | meta reach | ≤1 |
 
 ### When advising from tracker data
@@ -61,23 +61,25 @@ If user attaches JSON from Content Tracker, use it to advise:
 | **builder** | MoveMatch / IRL / product |
 | **meta reach** | dead account, algorithm, KOL reply didn't help |
 
-Combo allowed — log **primary `type`** + **`traits[]`** for every other type the post fully hits. **Both count toward norms** (e.g. hot topic primary + meme trait → +1 hot topic AND +1 meme).
+Combo allowed — log **primary `type`** + **`traits[]`** for every other type the post fully hits.
+
+- **Norms** = primary `type` only (Done button / dedicated posts)
+- **Traits** = combo coverage — visible in journal & analytics, **не закривають норми**
+- Norms tuned for ~2–4 posts/day (~18–25/week)
 
 ### Classification rules (agent)
 
-1. **Why now?** → pick primary `type` (the lead angle for Done / slot plan)
-2. **What else is 100%?** → add each as `traits[]` (not "delivery only" — if it's a real meme, trait `meme`)
+1. **Why now?** → pick primary `type` (lead angle — this is what counts toward norms)
+2. **What else is 100%?** → add each as `traits[]` (combo badge, analytics only)
 3. **Max 2–3 traits** per post — only types the post genuinely fully hits
 4. **Slot combos** (user strategy): morning `hot topic + bait` → midday `bait + provocative` → afternoon `hot topic` → evening `hot topic + meme`
 
-| Example | type | traits |
-|---------|------|--------|
+| Example | type (norm) | traits (combo) |
+|---------|-------------|----------------|
 | Gambling meta poll | hot topic | bait |
 | QT Telcier list | bait | provocative |
 | Kaito washed card | hot topic | — |
 | Ronaldo DO SOMETHING | hot topic | meme, builder |
-
-**Primary vs trait:** same weight in norm counters. Primary = first badge in journal; traits = co-equal badges.
 
 ## How to respond
 

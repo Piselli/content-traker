@@ -1,13 +1,13 @@
 import type { ContentType, Norm } from "./types";
 
 export const NORMS: Record<ContentType, Norm> = {
-  "hot topic": { min: 7, label: "hot topic" },
-  meme: { min: 5, label: "meme" },
-  useful: { min: 2, label: "useful" },
-  bait: { min: 2, max: 4, label: "bait" },
-  provocative: { min: 2, label: "provocative" },
-  "strategic QT": { min: 3, max: 5, label: "strategic QT" },
-  builder: { max: 2, label: "builder" },
+  "hot topic": { min: 8, label: "hot topic" },
+  meme: { min: 6, label: "meme" },
+  useful: { min: 3, label: "useful" },
+  bait: { min: 3, max: 5, label: "bait" },
+  provocative: { min: 3, label: "provocative" },
+  "strategic QT": { min: 4, max: 6, label: "strategic QT" },
+  builder: { max: 3, label: "builder" },
   "meta reach": { max: 1, label: "meta reach" },
 };
 

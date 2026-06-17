@@ -51,6 +51,7 @@ export interface NextSlotHint {
 
 export interface WeekAnalysis {
   normGaps: NormGap[];
+  comboHits: NormGap[];
   doneTypes: ContentType[];
   overTypes: ContentType[];
   performers: PerformerRow[];
@@ -168,6 +169,7 @@ function buildBucketMix(logs: LogEntry[], now: Date): BucketRow[] {
 export function buildWeekAnalysis(
   logs: LogEntry[],
   weekCounts: Record<ContentType, number>,
+  weekComboCounts: Record<ContentType, number>,
   now = new Date(),
 ): WeekAnalysis {
   const normGaps: NormGap[] = [];
@@ -198,6 +200,16 @@ export function buildWeekAnalysis(
   }
 
   normGaps.sort((a, b) => b.needed - a.needed);
+
+  const comboHits: NormGap[] = CONTENT_TYPES.filter(
+    (type) => (weekComboCounts[type] ?? 0) > 0,
+  ).map((type) => ({
+    type,
+    count: weekComboCounts[type] ?? 0,
+    normLabel: "combo",
+    needed: 0,
+    status: "done" as const,
+  }));
 
   const performers: PerformerRow[] = logs
     .filter((l) => isInWeek(l.at, now) && l.views != null && l.ageHours != null && l.ageHours > 0)
@@ -259,6 +271,7 @@ export function buildWeekAnalysis(
 
   return {
     normGaps: normGaps.filter((g) => g.needed > 0),
+    comboHits,
     doneTypes,
     overTypes,
     performers,

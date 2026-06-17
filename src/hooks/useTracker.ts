@@ -5,7 +5,7 @@ import { buildWeekAnalysis } from "@/lib/analysis";
 import { NORMS } from "@/lib/norms";
 import { getNormStatus } from "@/lib/norms";
 import { exportJson, importJson, loadData, mergeRepoFromUrl, saveData } from "@/lib/storage";
-import { normalizeLogTraits, countWeekBreakdown, weekCountsFromBreakdown, logHasType } from "@/lib/traits";
+import { normalizeLogTraits, countWeekBreakdown, weekCountsFromBreakdown, weekComboFromBreakdown } from "@/lib/traits";
 import type {
   AppData,
   ContentType,
@@ -92,7 +92,7 @@ export function useTracker() {
 
   const undoLast = useCallback((type: ContentType) => {
     setData((prev) => {
-      const idx = prev.logs.findIndex((l) => logHasType(l, type));
+      const idx = prev.logs.findIndex((l) => l.type === type);
       if (idx === -1) return prev;
       const logs = [...prev.logs];
       logs.splice(idx, 1);
@@ -189,6 +189,11 @@ export function useTracker() {
     [weekBreakdown],
   );
 
+  const weekComboCounts = useMemo(
+    () => weekComboFromBreakdown(weekBreakdown),
+    [weekBreakdown],
+  );
+
   const upsertLog = useCallback(
     (type: ContentType, opts?: LogOptions): "created" | "updated" => {
       const url = opts?.tweetUrl?.trim();
@@ -227,8 +232,8 @@ export function useTracker() {
   );
 
   const weekAnalysis = useMemo(
-    () => buildWeekAnalysis(data.logs, weekCounts),
-    [data.logs, weekCounts],
+    () => buildWeekAnalysis(data.logs, weekCounts, weekComboCounts),
+    [data.logs, weekCounts, weekComboCounts],
   );
 
   const buildJarvisExport = useCallback((): TrackerExport => {
@@ -251,9 +256,9 @@ export function useTracker() {
       normsHit,
       logsThisWeek,
       ideas: data.ideas,
-      analysis: buildWeekAnalysis(data.logs, weekCounts as Record<ContentType, number>, now),
+      analysis: buildWeekAnalysis(data.logs, weekCounts as Record<ContentType, number>, weekComboCounts, now),
     };
-  }, [data, weekCounts]);
+  }, [data, weekCounts, weekComboCounts]);
 
   const exportBackup = useCallback(() => exportJson(data), [data]);
 
@@ -276,6 +281,7 @@ export function useTracker() {
     ready,
     data,
     weekCounts,
+    weekComboCounts,
     weekBreakdown,
     weekAnalysis,
     logDone,

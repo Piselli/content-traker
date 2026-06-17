@@ -172,6 +172,24 @@ export function WeekInsights({ analysis }: WeekInsightsProps) {
         </div>
       )}
 
+      {analysis.comboHits.length > 0 && (
+        <div className="mt-5">
+          <p className="text-[10px] font-medium uppercase tracking-widest text-zinc-500">
+            Combo coverage (не в нормах)
+          </p>
+          <ul className="mt-2 flex flex-wrap gap-2">
+            {analysis.comboHits.map((c) => (
+              <li
+                key={c.type}
+                className="rounded-lg border border-violet-500/20 bg-violet-950/20 px-2.5 py-1 text-xs text-violet-200"
+              >
+                {c.type} <span className="text-violet-400">+{c.count}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
       {analysis.normGaps.length > 0 && (
         <div className="mt-5">
           <p className="text-[10px] font-medium uppercase tracking-widest text-zinc-500">

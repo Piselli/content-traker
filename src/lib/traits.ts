@@ -25,7 +25,7 @@ function matchContentTypeToken(raw: string): ContentType | undefined {
   );
 }
 
-/** All types this post fully hits — primary + traits, deduped. Counts toward norms. */
+/** All types this post hits — primary + traits, deduped. Used for badges & combo analytics. */
 export function allTraits(log: Pick<LogEntry, "type" | "traits" | "secondaryType">): ContentType[] {
   const extras = log.traits ?? [];
   const legacy =
@@ -71,7 +71,17 @@ export function weekCountsFromBreakdown(
 ): Record<ContentType, number> {
   const counts = {} as Record<ContentType, number>;
   for (const type of CONTENT_TYPES) {
-    counts[type] = breakdown[type].total;
+    counts[type] = breakdown[type].primary;
+  }
+  return counts;
+}
+
+export function weekComboFromBreakdown(
+  breakdown: Record<ContentType, TypeWeekBreakdown>,
+): Record<ContentType, number> {
+  const counts = {} as Record<ContentType, number>;
+  for (const type of CONTENT_TYPES) {
+    counts[type] = breakdown[type].viaTraits;
   }
   return counts;
 }
