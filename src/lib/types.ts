@@ -30,7 +30,10 @@ export interface MetricSnapshot {
 export interface LogEntry {
   id: string;
   type: ContentType;
+  /** Optional combo tag — norms count primary `type` only */
+  secondaryType?: ContentType;
   at: string;
+  updatedAt?: string;
   tweetUrl?: string;
   ageHours?: number;
   views?: number;
@@ -54,6 +57,7 @@ export interface AppData {
 
 export interface LogOptions {
   count?: number;
+  secondaryType?: ContentType;
   tweetUrl?: string;
   ageHours?: number;
   views?: number;

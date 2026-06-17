@@ -3,6 +3,7 @@ import { normalizeTweetUrl } from "./tweetUrl";
 
 export interface ParsedTweetLog {
   type?: ContentType;
+  secondaryType?: ContentType;
   tweetUrl?: string;
   ageHours?: number;
   views?: number;
@@ -67,6 +68,10 @@ function parseKeyValueLine(line: string, out: ParsedTweetLog): void {
     out.type = matchContentType(value);
     return;
   }
+  if (key === "secondary" || key === "secondarytype" || key === "also") {
+    out.secondaryType = matchContentType(value);
+    return;
+  }
   if (key === "url" || key === "tweet" || key === "tweeturl") {
     out.tweetUrl = normalizeTweetUrl(value) ?? value;
     return;
@@ -97,6 +102,12 @@ function parseFromJson(raw: string): ParsedTweetLog | null {
     const data = JSON.parse(raw) as Record<string, unknown>;
     const out: ParsedTweetLog = {};
     if (typeof data.type === "string") out.type = matchContentType(data.type);
+    if (typeof data.secondaryType === "string") {
+      out.secondaryType = matchContentType(data.secondaryType);
+    }
+    if (typeof data.secondary === "string") {
+      out.secondaryType = matchContentType(data.secondary);
+    }
     if (typeof data.tweetUrl === "string") {
       out.tweetUrl = normalizeTweetUrl(data.tweetUrl) ?? data.tweetUrl;
     }
@@ -168,6 +179,7 @@ export function hasMetrics(parsed: Pick<ParsedTweetLog, "ageHours" | "views" | "
 
 export const PASTE_EXAMPLE = `LOG
 type: strategic QT
+secondary: provocative
 url: https://x.com/piselliii/status/123
 hours: 4
 views: 84

@@ -103,7 +103,12 @@ function LogRow({
         <span
           className={`h-2 w-2 shrink-0 rounded-full ${TYPE_STYLES[log.type].dot}`}
         />
-        <span className="min-w-0 flex-1 text-zinc-200">{log.type}</span>
+        <span className="min-w-0 flex-1 text-zinc-200">
+          {log.type}
+          {log.secondaryType && (
+            <span className="text-zinc-500"> + {log.secondaryType}</span>
+          )}
+        </span>
         {metrics && (
           <span className="text-xs tabular-nums text-zinc-500">{metrics}</span>
         )}

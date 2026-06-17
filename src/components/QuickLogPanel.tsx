@@ -13,9 +13,10 @@ import type { LogEntry } from "@/lib/types";
 
 interface QuickLogPanelProps {
   logs: LogEntry[];
-  onUpsert: (
+    onUpsert: (
     type: ContentType,
     opts: {
+      secondaryType?: ContentType;
       tweetUrl?: string;
       ageHours?: number;
       views?: number;
@@ -45,6 +46,7 @@ export function QuickLogPanel({ logs, onUpsert }: QuickLogPanelProps) {
     if (parsed.type) setType(parsed.type);
 
     const action = onUpsert(resolvedType, {
+      secondaryType: parsed.secondaryType,
       tweetUrl: parsed.tweetUrl,
       ageHours: parsed.ageHours,
       views: parsed.views,
@@ -114,6 +116,9 @@ export function QuickLogPanel({ logs, onUpsert }: QuickLogPanelProps) {
           <p className="mb-2 font-medium text-zinc-400">Preview</p>
           <div className="flex flex-wrap gap-x-4 gap-y-1">
             <span className={TYPE_STYLES[resolvedType].accent}>{resolvedType}</span>
+            {parsed.secondaryType && (
+              <span className="text-zinc-500">+ {parsed.secondaryType}</span>
+            )}
             {parsed.tweetUrl && (
               <span className="truncate text-sky-400">{parsed.tweetUrl}</span>
             )}

@@ -1,0 +1,31 @@
+{
+  "syncVersion": 1,
+  "updatedAt": "2026-06-17T18:00:00.000Z",
+  "logs": [
+    {
+      "id": "bait-gambling-meta-jun17",
+      "type": "bait",
+      "at": "2026-06-17T10:17:00.000Z",
+      "updatedAt": "2026-06-17T14:00:00.000Z",
+      "ageHours": 3,
+      "views": 102,
+      "likes": 8,
+      "replies": 5,
+      "note": "gambling meta pick-one — add tweetUrl when confirmed"
+    },
+    {
+      "id": "qt-telcier-advanced-meta-jun17",
+      "type": "strategic QT",
+      "secondaryType": "provocative",
+      "at": "2026-06-17T14:19:00.000Z",
+      "updatedAt": "2026-06-17T18:00:00.000Z",
+      "tweetUrl": "https://x.com/i/status/2067250794475204660",
+      "ageHours": 4,
+      "views": 84,
+      "likes": 9,
+      "replies": 3,
+      "note": "QT @Telcier — advanced meta list (+3 joke, 4 bullets)"
+    }
+  ],
+  "ideas": []
+}

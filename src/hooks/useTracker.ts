@@ -4,7 +4,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import { buildWeekAnalysis } from "@/lib/analysis";
 import { NORMS } from "@/lib/norms";
 import { getNormStatus } from "@/lib/norms";
-import { exportJson, importJson, loadData, saveData } from "@/lib/storage";
+import { exportJson, importJson, loadData, mergeRepoFromUrl, saveData } from "@/lib/storage";
 import type {
   AppData,
   ContentType,
@@ -27,10 +27,13 @@ function hasMetrics(entry: Pick<LogEntry, "ageHours" | "views" | "likes" | "repl
 }
 
 function createEntry(type: ContentType, opts?: LogOptions): LogEntry {
+  const now = new Date().toISOString();
   return {
     id: crypto.randomUUID(),
     type,
-    at: new Date().toISOString(),
+    secondaryType: opts?.secondaryType,
+    at: now,
+    updatedAt: now,
     tweetUrl: opts?.tweetUrl?.trim() || undefined,
     ageHours: opts?.ageHours,
     views: opts?.views,
@@ -45,8 +48,16 @@ export function useTracker() {
   const [ready, setReady] = useState(false);
 
   useEffect(() => {
-    setData(loadData());
-    setReady(true);
+    const local = loadData();
+    setData(local);
+    mergeRepoFromUrl()
+      .then((merged) => {
+        if (merged) {
+          setData(merged);
+          saveData(merged);
+        }
+      })
+      .finally(() => setReady(true));
   }, []);
 
   const persist = useCallback((next: AppData) => {
@@ -88,7 +99,10 @@ export function useTracker() {
     (
       id: string,
       patch: Partial<
-        Pick<LogEntry, "tweetUrl" | "ageHours" | "views" | "likes" | "replies" | "note">
+        Pick<
+          LogEntry,
+          "tweetUrl" | "ageHours" | "views" | "likes" | "replies" | "note" | "secondaryType"
+        >
       >,
     ) => {
       setData((prev) => {
@@ -115,6 +129,7 @@ export function useTracker() {
           return {
             ...l,
             ...patch,
+            updatedAt: new Date().toISOString(),
             tweetUrl: patch.tweetUrl !== undefined ? patch.tweetUrl.trim() || undefined : l.tweetUrl,
             note: patch.note !== undefined ? patch.note.trim() || undefined : l.note,
             snapshots: snapshots.length > 0 ? snapshots : undefined,
@@ -172,13 +187,17 @@ export function useTracker() {
         );
         if (existing) {
           const patch: Partial<
-            Pick<LogEntry, "tweetUrl" | "ageHours" | "views" | "likes" | "replies" | "note">
+            Pick<
+              LogEntry,
+              "tweetUrl" | "ageHours" | "views" | "likes" | "replies" | "note" | "secondaryType"
+            >
           > = { tweetUrl: url };
           if (opts?.ageHours != null) patch.ageHours = opts.ageHours;
           if (opts?.views != null) patch.views = opts.views;
           if (opts?.likes != null) patch.likes = opts.likes;
           if (opts?.replies != null) patch.replies = opts.replies;
           if (opts?.note != null) patch.note = opts.note;
+          if (opts?.secondaryType != null) patch.secondaryType = opts.secondaryType;
           updateLog(existing.id, patch);
           return "updated";
         }
