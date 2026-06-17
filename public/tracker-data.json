@@ -1,6 +1,6 @@
 {
-  "syncVersion": 4,
-  "updatedAt": "2026-06-17T16:45:00.000Z",
+  "syncVersion": 5,
+  "updatedAt": "2026-06-18T08:00:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
@@ -9,10 +9,10 @@
       "slot": 1,
       "bucket": "CT",
       "at": "2026-06-17T10:17:00.000Z",
-      "updatedAt": "2026-06-17T17:17:00.000Z",
-      "tweetUrl": "https://x.com/i/status/2067189878350049777",
-      "ageHours": 7,
-      "views": 166,
+      "updatedAt": "2026-06-18T08:00:00.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2067189878350049777",
+      "ageHours": 11,
+      "views": 205,
       "likes": 16,
       "replies": 6,
       "note": "pick-one gambling meta — bait + hot topic trait"
@@ -24,13 +24,13 @@
       "slot": 2,
       "bucket": "CT",
       "at": "2026-06-17T14:19:00.000Z",
-      "updatedAt": "2026-06-17T18:00:00.000Z",
-      "tweetUrl": "https://x.com/i/status/2067250794475204660",
-      "ageHours": 4,
-      "views": 84,
-      "likes": 9,
+      "updatedAt": "2026-06-18T08:00:00.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2067250794475204660",
+      "ageHours": 7,
+      "views": 121,
+      "likes": 11,
       "replies": 3,
-      "note": "QT @Telcier — advanced meta list"
+      "note": "QT @Telcier — advanced meta list (+3 engagement farming tactics)"
     },
     {
       "id": "meta-kaito-washed-king-jun17",
@@ -38,13 +38,13 @@
       "traits": ["provocative", "bait"],
       "slot": 3,
       "bucket": "CT",
-      "at": "2026-06-17T13:45:00.000Z",
-      "updatedAt": "2026-06-17T21:30:00.000Z",
+      "at": "2026-06-17T16:45:00.000Z",
+      "updatedAt": "2026-06-18T08:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2067287441891832184",
-      "ageHours": 7,
-      "views": 80,
-      "likes": 0,
-      "replies": 6,
+      "ageHours": 5,
+      "views": 94,
+      "likes": 7,
+      "replies": 0,
       "note": "Kaito card — king of washed, peak #1976 top 0.5%, swap CTA"
     },
     {
@@ -53,12 +53,12 @@
       "traits": ["hot topic", "bait", "builder"],
       "slot": 4,
       "bucket": "football",
-      "at": "2026-06-17T15:37:00.000Z",
-      "updatedAt": "2026-06-17T16:45:00.000Z",
+      "at": "2026-06-17T18:37:00.000Z",
+      "updatedAt": "2026-06-18T08:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2067315608631251004",
-      "ageHours": 1,
-      "views": 95,
-      "likes": 22,
+      "ageHours": 3,
+      "views": 94,
+      "likes": 5,
       "replies": 2,
       "note": "DO SOMETHING Ronaldo meme — Portugal/Ronaldo/movematch fantasy list"
     }
