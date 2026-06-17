@@ -1,66 +1,66 @@
 {
-  "syncVersion": 5,
-  "updatedAt": "2026-06-18T08:00:00.000Z",
+  "syncVersion": 6,
+  "updatedAt": "2026-06-18T10:00:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
-      "type": "bait",
-      "traits": ["hot topic"],
+      "type": "hot topic",
+      "traits": ["bait"],
       "slot": 1,
       "bucket": "CT",
       "at": "2026-06-17T10:17:00.000Z",
-      "updatedAt": "2026-06-18T08:00:00.000Z",
+      "updatedAt": "2026-06-18T10:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2067189878350049777",
       "ageHours": 11,
       "views": 205,
       "likes": 16,
       "replies": 6,
-      "note": "pick-one gambling meta — bait + hot topic trait"
+      "note": "gambling meta discourse on CT — take on the moment, delivered as pick-one poll"
     },
     {
       "id": "qt-telcier-advanced-meta-jun17",
       "type": "strategic QT",
-      "traits": ["provocative", "bait"],
+      "traits": ["hot topic", "provocative", "bait"],
       "slot": 2,
       "bucket": "CT",
       "at": "2026-06-17T14:19:00.000Z",
-      "updatedAt": "2026-06-18T08:00:00.000Z",
+      "updatedAt": "2026-06-18T10:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2067250794475204660",
       "ageHours": 7,
       "views": 121,
       "likes": 11,
       "replies": 3,
-      "note": "QT @Telcier — advanced meta list (+3 engagement farming tactics)"
+      "note": "QT @Telcier — riding engagement-farming meta thread, +3 list punch"
     },
     {
       "id": "meta-kaito-washed-king-jun17",
-      "type": "meta reach",
-      "traits": ["provocative", "bait"],
+      "type": "hot topic",
+      "traits": ["meta reach", "strategic QT", "provocative"],
       "slot": 3,
       "bucket": "CT",
       "at": "2026-06-17T16:45:00.000Z",
-      "updatedAt": "2026-06-18T08:00:00.000Z",
+      "updatedAt": "2026-06-18T10:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2067287441891832184",
       "ageHours": 5,
       "views": 94,
       "likes": 7,
       "replies": 0,
-      "note": "Kaito card — king of washed, peak #1976 top 0.5%, swap CTA"
+      "note": "Kaito influence wave on CT — personal washed card as take on the moment"
     },
     {
       "id": "meme-ronaldo-do-something-jun17",
-      "type": "meme",
-      "traits": ["hot topic", "bait", "builder"],
+      "type": "hot topic",
+      "traits": ["meme", "builder"],
       "slot": 4,
       "bucket": "football",
       "at": "2026-06-17T18:37:00.000Z",
-      "updatedAt": "2026-06-18T08:00:00.000Z",
+      "updatedAt": "2026-06-18T10:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2067315608631251004",
       "ageHours": 3,
       "views": 94,
       "likes": 5,
       "replies": 2,
-      "note": "DO SOMETHING Ronaldo meme — Portugal/Ronaldo/movematch fantasy list"
+      "note": "Portugal/Ronaldo live moment — meme is delivery, topic is the match"
     }
   ],
   "ideas": []
