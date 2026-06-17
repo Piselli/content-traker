@@ -2,7 +2,8 @@
 
 import { useState } from "react";
 import { TYPE_STYLES } from "@/lib/styles";
-import type { LogEntry } from "@/lib/types";
+import { allTraits } from "@/lib/traits";
+import type { ContentType, LogEntry } from "@/lib/types";
 import { formatLogDay, formatLogTime } from "@/lib/week";
 
 interface ActivityLogProps {
@@ -86,11 +87,17 @@ function LogRow({
           className={`mt-1.5 h-2 w-2 shrink-0 rounded-full ${TYPE_STYLES[log.type].dot}`}
         />
         <div className="min-w-0 flex-1">
-          <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
-            <span className="font-medium text-zinc-200">{log.type}</span>
-            {log.traits?.map((t) => (
-              <span key={t} className="text-[11px] text-zinc-500">
-                +{t}
+          <div className="flex flex-wrap items-center gap-1.5">
+            {allTraits(log).map((t, i) => (
+              <span
+                key={t}
+                className={`rounded-full border px-2 py-0.5 text-[10px] ${
+                  i === 0
+                    ? `${TYPE_STYLES[t as ContentType].accent} border-zinc-700 bg-zinc-800/80`
+                    : "border-zinc-800 text-zinc-400"
+                }`}
+              >
+                {t}
               </span>
             ))}
             {log.slot != null && (

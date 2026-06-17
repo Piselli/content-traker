@@ -33,7 +33,7 @@ export interface LogEntry {
   id: string;
   /** Primary type — one Done click, counts toward norms */
   type: ContentType;
-  /** Extra traits this post also hits (hot topic + bait, QT + provocative, etc.) */
+  /** Co-equal types this post also hits — each counts toward weekly norms */
   traits?: ContentType[];
   /** @deprecated migrated to traits on load */
   secondaryType?: ContentType;

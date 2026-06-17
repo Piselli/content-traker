@@ -16,6 +16,7 @@ export function Dashboard() {
     ready,
     data,
     weekCounts,
+    weekBreakdown,
     weekAnalysis,
     logDone,
     upsertLog,
@@ -137,6 +138,7 @@ export function Dashboard() {
                 key={type}
                 type={type}
                 count={weekCounts[type] ?? 0}
+                breakdown={weekBreakdown[type]}
                 logs={data.logs}
                 onDone={() => logDone(type)}
                 onUndo={() => undoLast(type)}

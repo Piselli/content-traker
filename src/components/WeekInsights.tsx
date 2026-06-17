@@ -41,6 +41,22 @@ const BUCKET_LABELS: Record<string, string> = {
   builder: "Builder",
 };
 
+function TypeBadge({ type, primary }: { type: string; primary?: boolean }) {
+  const styles = TYPE_STYLES[type as keyof typeof TYPE_STYLES];
+  if (!styles) return <span className="text-zinc-400">{type}</span>;
+  return (
+    <span
+      className={`rounded-full border px-2 py-0.5 text-[10px] ${
+        primary
+          ? `${styles.accent} border-zinc-700 bg-zinc-900/80`
+          : "border-zinc-800 bg-zinc-950/60 text-zinc-400"
+      }`}
+    >
+      {type}
+    </span>
+  );
+}
+
 export function WeekInsights({ analysis }: WeekInsightsProps) {
   const { nextSlot } = analysis;
 
@@ -64,6 +80,21 @@ export function WeekInsights({ analysis }: WeekInsightsProps) {
             </span>
           ))}
         </div>
+        {nextSlot.suggestedCombos.length > 0 && (
+          <div className="mt-3">
+            <p className="text-[10px] text-zinc-500">Combo (2 типи в 1 пості):</p>
+            <div className="mt-1.5 flex flex-wrap gap-2">
+              {nextSlot.suggestedCombos.map((combo) => (
+                <span
+                  key={combo.join("+")}
+                  className="rounded-lg border border-violet-500/25 bg-violet-950/30 px-2.5 py-1 text-[11px] text-violet-200"
+                >
+                  {combo.join(" + ")}
+                </span>
+              ))}
+            </div>
+          </div>
+        )}
         {nextSlot.avoid.length > 0 && (
           <p className="mt-2 text-xs text-zinc-500">
             Уникай у 1-м слоті: {nextSlot.avoid.join(", ")}
@@ -116,14 +147,13 @@ export function WeekInsights({ analysis }: WeekInsightsProps) {
                 key={p.id}
                 className="rounded-lg border border-zinc-800/60 bg-zinc-950/40 px-3 py-2 text-xs"
               >
-                <div className="flex flex-wrap items-center gap-2 text-zinc-400">
-                  <span className={`h-2 w-2 rounded-full ${TYPE_STYLES[p.type].dot}`} />
-                  <span className="text-zinc-200">
-                    {p.type}
-                    {p.slot != null && (
-                      <span className="text-zinc-600"> · слот {p.slot}</span>
-                    )}
-                  </span>
+                <div className="flex flex-wrap items-center gap-1.5 text-zinc-400">
+                  {p.allTypes.map((t, i) => (
+                    <TypeBadge key={t} type={t} primary={i === 0} />
+                  ))}
+                  {p.slot != null && (
+                    <span className="text-[10px] text-zinc-600">· слот {p.slot}</span>
+                  )}
                   <span className={tierClass(p.tier)}>{tierLabel(p.tier)}</span>
                 </div>
                 <div className="mt-1.5 flex flex-wrap gap-x-3 gap-y-1 tabular-nums text-zinc-500">

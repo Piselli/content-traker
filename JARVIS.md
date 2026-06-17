@@ -61,7 +61,23 @@ If user attaches JSON from Content Tracker, use it to advise:
 | **builder** | MoveMatch / IRL / product |
 | **meta reach** | dead account, algorithm, KOL reply didn't help |
 
-Combo allowed in advice (e.g. "log as **bait**, also has hot topic energy") but **one Done click = one primary type**.
+Combo allowed — log **primary `type`** + **`traits[]`** for every other type the post fully hits. **Both count toward norms** (e.g. hot topic primary + meme trait → +1 hot topic AND +1 meme).
+
+### Classification rules (agent)
+
+1. **Why now?** → pick primary `type` (the lead angle for Done / slot plan)
+2. **What else is 100%?** → add each as `traits[]` (not "delivery only" — if it's a real meme, trait `meme`)
+3. **Max 2–3 traits** per post — only types the post genuinely fully hits
+4. **Slot combos** (user strategy): morning `hot topic + bait` → midday `bait + provocative` → afternoon `hot topic` → evening `hot topic + meme`
+
+| Example | type | traits |
+|---------|------|--------|
+| Gambling meta poll | hot topic | bait |
+| QT Telcier list | bait | provocative |
+| Kaito washed card | hot topic | strategic QT, meta reach |
+| Ronaldo DO SOMETHING | hot topic | meme, builder |
+
+**Primary vs trait:** same weight in norm counters. Primary = first badge in journal; traits = co-equal badges.
 
 ## How to respond
 

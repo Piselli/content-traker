@@ -5,7 +5,7 @@ import { buildWeekAnalysis } from "@/lib/analysis";
 import { NORMS } from "@/lib/norms";
 import { getNormStatus } from "@/lib/norms";
 import { exportJson, importJson, loadData, mergeRepoFromUrl, saveData } from "@/lib/storage";
-import { normalizeLogTraits } from "@/lib/traits";
+import { normalizeLogTraits, countWeekBreakdown, weekCountsFromBreakdown, logHasType } from "@/lib/traits";
 import type {
   AppData,
   ContentType,
@@ -92,7 +92,7 @@ export function useTracker() {
 
   const undoLast = useCallback((type: ContentType) => {
     setData((prev) => {
-      const idx = prev.logs.findIndex((l) => l.type === type);
+      const idx = prev.logs.findIndex((l) => logHasType(l, type));
       if (idx === -1) return prev;
       const logs = [...prev.logs];
       logs.splice(idx, 1);
@@ -182,16 +182,12 @@ export function useTracker() {
     });
   }, []);
 
-  const weekCounts = useMemo(() => {
-    const now = new Date();
-    const counts = {} as Record<ContentType, number>;
-    for (const log of data.logs) {
-      if (isInWeek(log.at, now)) {
-        counts[log.type] = (counts[log.type] ?? 0) + 1;
-      }
-    }
-    return counts;
-  }, [data.logs]);
+  const weekBreakdown = useMemo(() => countWeekBreakdown(data.logs), [data.logs]);
+
+  const weekCounts = useMemo(
+    () => weekCountsFromBreakdown(weekBreakdown),
+    [weekBreakdown],
+  );
 
   const upsertLog = useCallback(
     (type: ContentType, opts?: LogOptions): "created" | "updated" => {
@@ -239,13 +235,13 @@ export function useTracker() {
     const now = new Date();
     const logsThisWeek = data.logs.filter((l) => isInWeek(l.at, now));
     const normsHit = CONTENT_TYPES.filter((t) => {
-      const count = logsThisWeek.filter((l) => l.type === t).length;
+      const count = weekCounts[t] ?? 0;
       return getNormStatus(count, NORMS[t]) === "done";
     }).length;
 
     const counts = {} as Partial<Record<ContentType, number>>;
     for (const t of CONTENT_TYPES) {
-      counts[t] = logsThisWeek.filter((l) => l.type === t).length;
+      counts[t] = weekCounts[t] ?? 0;
     }
 
     return {
@@ -280,6 +276,7 @@ export function useTracker() {
     ready,
     data,
     weekCounts,
+    weekBreakdown,
     weekAnalysis,
     logDone,
     upsertLog,

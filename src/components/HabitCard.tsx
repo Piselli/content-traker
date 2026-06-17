@@ -6,6 +6,7 @@ import {
   NORMS,
   progressPercent,
 } from "@/lib/norms";
+import { logHasType, type TypeWeekBreakdown } from "@/lib/traits";
 import { TYPE_STYLES } from "@/lib/styles";
 import type { ContentType, LogEntry } from "@/lib/types";
 import { dayKey, last7DayKeys } from "@/lib/week";
@@ -13,12 +14,20 @@ import { dayKey, last7DayKeys } from "@/lib/week";
 interface HabitCardProps {
   type: ContentType;
   count: number;
+  breakdown: TypeWeekBreakdown;
   logs: LogEntry[];
   onDone: () => void;
   onUndo: () => void;
 }
 
-export function HabitCard({ type, count, logs, onDone, onUndo }: HabitCardProps) {
+export function HabitCard({
+  type,
+  count,
+  breakdown,
+  logs,
+  onDone,
+  onUndo,
+}: HabitCardProps) {
   const norm = NORMS[type];
   const status = getNormStatus(count, norm);
   const styles = TYPE_STYLES[type];
@@ -26,7 +35,7 @@ export function HabitCard({ type, count, logs, onDone, onUndo }: HabitCardProps)
   const dayKeys = last7DayKeys(now);
 
   const dots = dayKeys.map((key) =>
-    logs.some((l) => l.type === type && dayKey(l.at) === key),
+    logs.some((l) => logHasType(l, type) && dayKey(l.at) === key),
   );
 
   const countLabel =
@@ -65,9 +74,16 @@ export function HabitCard({ type, count, logs, onDone, onUndo }: HabitCardProps)
       </div>
 
       <div className="flex items-center justify-between gap-2">
-        <span className="text-2xl font-bold tabular-nums tracking-tight text-zinc-50">
-          {countLabel}
-        </span>
+        <div>
+          <span className="text-2xl font-bold tabular-nums tracking-tight text-zinc-50">
+            {countLabel}
+          </span>
+          {breakdown.viaTraits > 0 && (
+            <p className="mt-0.5 text-[10px] text-zinc-500">
+              {breakdown.primary} primary · {breakdown.viaTraits} combo
+            </p>
+          )}
+        </div>
         <div className="flex gap-1">
           <button
             type="button"

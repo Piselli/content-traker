@@ -1,6 +1,7 @@
 import { BUCKET_TARGETS, type Bucket } from "./buckets";
 import { likeRatePercent, replyRatePercent } from "./engagement";
 import { getNormStatus, NORMS, normLabel } from "./norms";
+import { allTraits, SLOT_COMBOS } from "./traits";
 import type { ContentType, LogEntry, PostSlot } from "./types";
 import { CONTENT_TYPES } from "./types";
 import { formatLogDay, isInWeek } from "./week";
@@ -18,6 +19,7 @@ export interface NormGap {
 export interface PerformerRow {
   id: string;
   type: ContentType;
+  allTypes: ContentType[];
   traits?: ContentType[];
   slot?: PostSlot;
   bucket?: Bucket;
@@ -43,6 +45,7 @@ export interface NextSlotHint {
   slot: PostSlot;
   postsToday: number;
   suggestedTypes: ContentType[];
+  suggestedCombos: ContentType[][];
   avoid: ContentType[];
 }
 
@@ -119,17 +122,40 @@ function buildNextSlot(
     suggestedTypes.push("hot topic", "meme");
   }
 
+  const neededSet = new Set(gaps.filter((g) => g.needed > 0).map((g) => g.type));
+  const suggestedCombos = SLOT_COMBOS.filter(
+    (combo) => combo.every((t) => neededSet.has(t)),
+  ).slice(0, 3);
+  if (suggestedCombos.length === 0 && suggestedTypes.length >= 2) {
+    suggestedCombos.push([suggestedTypes[0], suggestedTypes[1]]);
+  }
+
   const avoid: ContentType[] = slot === 1 ? ["meta reach"] : [];
 
-  return { slot, postsToday: postsTodayCount, suggestedTypes, avoid };
+  return { slot, postsToday: postsTodayCount, suggestedTypes, suggestedCombos, avoid };
 }
 
 function buildBucketMix(logs: LogEntry[], now: Date): BucketRow[] {
-  const weekLogs = logs.filter((l) => isInWeek(l.at, now) && l.bucket);
+  const weekLogs = logs.filter((l) => isInWeek(l.at, now));
   const total = weekLogs.length || 1;
 
+  function logBucket(log: LogEntry): Bucket | undefined {
+    if (log.bucket) return log.bucket;
+    if (allTraits(log).includes("meme")) return "humor";
+    return undefined;
+  }
+
   return (Object.keys(BUCKET_TARGETS) as Bucket[]).map((bucket) => {
-    const count = weekLogs.filter((l) => l.bucket === bucket).length;
+    const count = weekLogs.filter((l) => {
+      const b = logBucket(l);
+      if (bucket === "humor") {
+        return b === "humor" || allTraits(l).includes("meme");
+      }
+      if (bucket === "builder") {
+        return b === "builder" || allTraits(l).includes("builder");
+      }
+      return b === bucket;
+    }).length;
     return {
       bucket,
       count,
@@ -180,6 +206,7 @@ export function buildWeekAnalysis(
       return {
         id: l.id,
         type: l.type,
+        allTypes: allTraits(l),
         traits: l.traits,
         slot: l.slot,
         bucket: l.bucket,
@@ -216,8 +243,9 @@ export function buildWeekAnalysis(
 
   if (performers[0]) {
     const p = performers[0];
+    const label = p.allTypes.length > 1 ? p.allTypes.join(" + ") : p.type;
     insights.push(
-      `Кращий перегляд/год: ${p.type} — ${p.views} переглядів за ${p.ageHours} год (${p.viewsPerHour}/год, ${tierLabel(p.tier)}).`,
+      `Кращий перегляд/год: ${label} — ${p.views} переглядів за ${p.ageHours} год (${p.viewsPerHour}/год, ${tierLabel(p.tier)}).`,
     );
   }
 
