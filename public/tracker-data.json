@@ -1,6 +1,6 @@
 {
-  "syncVersion": 13,
-  "updatedAt": "2026-06-19T10:00:00.000Z",
+  "syncVersion": 14,
+  "updatedAt": "2026-06-18T17:00:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
@@ -9,12 +9,21 @@
       "slot": 1,
       "bucket": "CT",
       "at": "2026-06-17T10:17:00.000Z",
-      "updatedAt": "2026-06-18T10:00:00.000Z",
+      "updatedAt": "2026-06-18T17:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2067189878350049777",
-      "ageHours": 11,
-      "views": 205,
+      "ageHours": 31,
+      "views": 232,
       "likes": 16,
       "replies": 6,
+      "snapshots": [
+        {
+          "ageHours": 11,
+          "views": 205,
+          "likes": 16,
+          "replies": 6,
+          "at": "2026-06-18T10:00:00.000Z"
+        }
+      ],
       "note": "gambling meta discourse on CT — take on the moment, delivered as pick-one poll"
     },
     {
@@ -24,12 +33,21 @@
       "slot": 2,
       "bucket": "CT",
       "at": "2026-06-17T14:19:00.000Z",
-      "updatedAt": "2026-06-19T10:00:00.000Z",
+      "updatedAt": "2026-06-18T17:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2067250794475204660",
-      "ageHours": 7,
-      "views": 121,
-      "likes": 11,
+      "ageHours": 27,
+      "views": 147,
+      "likes": 12,
       "replies": 3,
+      "snapshots": [
+        {
+          "ageHours": 7,
+          "views": 121,
+          "likes": 11,
+          "replies": 3,
+          "at": "2026-06-19T10:00:00.000Z"
+        }
+      ],
       "note": "provocative CT meta expose — combo: strategic QT (~50%) + supplementary bait list"
     },
     {
@@ -38,12 +56,21 @@
       "slot": 3,
       "bucket": "CT",
       "at": "2026-06-17T16:45:00.000Z",
-      "updatedAt": "2026-06-18T14:00:00.000Z",
+      "updatedAt": "2026-06-18T17:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2067287441891832184",
-      "ageHours": 5,
-      "views": 94,
-      "likes": 7,
-      "replies": 0,
+      "ageHours": 23,
+      "views": 164,
+      "likes": 10,
+      "replies": 1,
+      "snapshots": [
+        {
+          "ageHours": 5,
+          "views": 94,
+          "likes": 7,
+          "replies": 0,
+          "at": "2026-06-18T14:00:00.000Z"
+        }
+      ],
       "note": "Kaito influence wave on CT — hot topic only"
     },
     {
@@ -54,13 +81,51 @@
       "slot": 4,
       "bucket": "football",
       "at": "2026-06-17T18:37:00.000Z",
-      "updatedAt": "2026-06-18T20:00:00.000Z",
+      "updatedAt": "2026-06-18T17:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2067315608631251004",
-      "ageHours": 3,
-      "views": 94,
-      "likes": 5,
-      "replies": 2,
+      "ageHours": 21,
+      "views": 279,
+      "likes": 15,
+      "replies": 5,
+      "snapshots": [
+        {
+          "ageHours": 3,
+          "views": 94,
+          "likes": 5,
+          "replies": 2,
+          "at": "2026-06-18T20:00:00.000Z"
+        }
+      ],
       "note": "dual norm: hot topic + meme (100% both), builder combo"
+    },
+    {
+      "id": "hot-wc-respect-list-jun18",
+      "type": "hot topic",
+      "slot": 5,
+      "bucket": "football",
+      "at": "2026-06-18T13:56:00.000Z",
+      "updatedAt": "2026-06-18T17:00:00.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2067607507187486750",
+      "ageHours": 3,
+      "views": 30,
+      "likes": 6,
+      "replies": 1,
+      "note": "WC first round respect list — Japan locker room, Vozinha, Messi, Korea, Curaçao, fan culture + collage"
+    },
+    {
+      "id": "builder-posting-frequency-qt-jun18",
+      "type": "builder",
+      "traits": ["strategic QT", "meta reach"],
+      "slot": 6,
+      "bucket": "CT",
+      "at": "2026-06-18T15:00:00.000Z",
+      "updatedAt": "2026-06-18T17:00:00.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2067623583891755422",
+      "ageHours": 1,
+      "views": 106,
+      "likes": 3,
+      "replies": 1,
+      "note": "QT bigchog on posting frequency — long take + Content Tracker screenshot as proof of building"
     }
   ],
   "ideas": []
