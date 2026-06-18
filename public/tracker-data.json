@@ -1,6 +1,6 @@
 {
-  "syncVersion": 14,
-  "updatedAt": "2026-06-18T17:00:00.000Z",
+  "syncVersion": 15,
+  "updatedAt": "2026-06-18T18:00:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
@@ -113,19 +113,18 @@
       "note": "WC first round respect list — Japan locker room, Vozinha, Messi, Korea, Curaçao, fan culture + collage"
     },
     {
-      "id": "builder-posting-frequency-qt-jun18",
-      "type": "builder",
-      "traits": ["strategic QT", "meta reach"],
+      "id": "qt-bigchog-posting-frequency-jun18",
+      "type": "strategic QT",
       "slot": 6,
       "bucket": "CT",
       "at": "2026-06-18T15:00:00.000Z",
-      "updatedAt": "2026-06-18T17:00:00.000Z",
+      "updatedAt": "2026-06-18T18:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2067623583891755422",
       "ageHours": 1,
       "views": 106,
       "likes": 3,
       "replies": 1,
-      "note": "QT bigchog on posting frequency — long take + Content Tracker screenshot as proof of building"
+      "note": "QT bigchog on posting frequency — standalone take on consistency vs quality"
     }
   ],
   "ideas": []
