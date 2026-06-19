@@ -1,6 +1,6 @@
 {
-  "syncVersion": 17,
-  "updatedAt": "2026-06-19T12:00:00.000Z",
+  "syncVersion": 18,
+  "updatedAt": "2026-06-19T14:00:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
@@ -173,19 +173,19 @@
       "note": "QT bigchog on posting frequency — standalone take on consistency vs quality"
     },
     {
-      "id": "hot-polymarket-korean-mexican-jun18",
-      "type": "hot topic",
-      "traits": ["bait", "builder"],
+      "id": "bait-polymarket-korean-mexican-jun18",
+      "type": "bait",
+      "traits": ["meme"],
       "slot": 7,
       "bucket": "football",
       "at": "2026-06-18T18:54:00.000Z",
-      "updatedAt": "2026-06-19T08:00:00.000Z",
+      "updatedAt": "2026-06-19T14:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2067727623145316383",
       "ageHours": 2,
       "views": 100,
       "likes": 4,
       "replies": 4,
-      "note": "WC Korea vs Mexico fan moment — fake Polymarket mock (builder) + YES/NO bait, tags @Polymarket"
+      "note": "absurdist fake Polymarket market on WC broadcast — bait lead (YES/NO + @Polymarket), meme trait (visual mock is the punchline)"
     }
   ],
   "ideas": []
