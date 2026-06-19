@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=1280" />
+  <title>Polymarket — Korean Mexican Fan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0b0e11;
+      --panel: #111418;
+      --border: #1c2128;
+      --text: #ffffff;
+      --muted: #8b949e;
+      --muted2: #6e7681;
+      --blue: #2185ff;
+      --green: #00c087;
+      --green-btn: #0f3d2e;
+      --green-btn-text: #00c087;
+      --no-btn: #1a1f26;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      -webkit-font-smoothing: antialiased;
+    }
+    .page {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 28px 24px 40px;
+    }
+    .layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 340px;
+      gap: 32px;
+      align-items: start;
+    }
+
+    /* ── header ── */
+    .header {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+    .avatar {
+      width: 48px;
+      height: 48px;
+      border-radius: 8px;
+      object-fit: cover;
+      flex-shrink: 0;
+    }
+    .header-body { flex: 1; min-width: 0; }
+    .crumb {
+      font-size: 12px;
+      color: var(--muted);
+      margin-bottom: 4px;
+      font-weight: 400;
+    }
+    .title-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+    }
+    h1 {
+      flex: 1;
+      font-size: 26px;
+      font-weight: 700;
+      line-height: 1.28;
+      letter-spacing: -0.025em;
+      color: #f0f3f6;
+    }
+    .title-icons {
+      display: flex;
+      gap: 14px;
+      padding-top: 6px;
+      flex-shrink: 0;
+    }
+    .title-icons svg { color: var(--muted2); }
+
+    /* ── chance ── */
+    .chance-row {
+      display: flex;
+      align-items: baseline;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+    .chance {
+      font-size: 32px;
+      font-weight: 700;
+      color: var(--blue);
+      letter-spacing: -0.03em;
+      line-height: 1;
+    }
+    .delta {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--green);
+    }
+
+    /* ── chart (no card border — sits on bg) ── */
+    .chart-area {
+      position: relative;
+      margin-bottom: 0;
+    }
+    .chart-area svg { display: block; width: 100%; }
+    .chart-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 0 0;
+      font-size: 12px;
+      color: var(--muted);
+    }
+    .chart-footer-left {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+    }
+    .chart-footer-right {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+    .tf { color: var(--muted2); font-size: 12px; font-weight: 500; cursor: default; }
+    .tf.active { color: var(--text); font-weight: 600; }
+    .chart-icons { display: flex; gap: 10px; margin-left: 6px; }
+    .chart-icons svg { color: var(--muted2); }
+
+    /* ── order book ── */
+    .order-book {
+      margin-top: 16px;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 13px 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 14px;
+      font-weight: 500;
+      color: #c9d1d9;
+    }
+    .order-book svg { color: var(--muted2); }
+
+    /* ── sidebar ── */
+    .sidebar { display: flex; flex-direction: column; gap: 12px; }
+    .trade-card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px;
+    }
+    .mini-header {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+    .mini-header img {
+      width: 36px;
+      height: 36px;
+      border-radius: 6px;
+      object-fit: cover;
+      flex-shrink: 0;
+    }
+    .mini-title {
+      font-size: 12.5px;
+      line-height: 1.35;
+      color: #e6edf3;
+      font-weight: 500;
+    }
+    .mini-yes {
+      color: var(--green);
+      font-size: 12px;
+      font-weight: 600;
+      margin-top: 3px;
+    }
+
+    /* tabs + market row */
+    .tabs-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 14px;
+      padding-bottom: 0;
+    }
+    .tabs { display: flex; gap: 20px; }
+    .tab {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--muted2);
+      padding-bottom: 10px;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+    }
+    .tab.active {
+      color: var(--text);
+      border-bottom-color: var(--text);
+    }
+    .market-select {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 13px;
+      font-weight: 500;
+      color: #e6edf3;
+      padding-bottom: 10px;
+    }
+    .market-select svg { color: var(--muted2); }
+
+    .outcomes {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+    .outcome {
+      border-radius: 8px;
+      padding: 13px 10px;
+      font-weight: 700;
+      font-size: 14px;
+      text-align: center;
+      border: none;
+    }
+    .outcome.yes {
+      background: var(--green-btn);
+      color: var(--green-btn-text);
+    }
+    .outcome.no {
+      background: var(--no-btn);
+      color: #8b949e;
+      border: 1px solid #2a313c;
+    }
+
+    .amount-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-bottom: 10px;
+    }
+    .amount-label {
+      font-size: 13px;
+      font-weight: 500;
+      color: #c9d1d9;
+    }
+    .amount-label small {
+      display: block;
+      font-size: 12px;
+      color: var(--muted2);
+      font-weight: 400;
+      margin-top: 2px;
+    }
+    .amount-value {
+      font-size: 32px;
+      font-weight: 600;
+      letter-spacing: -0.03em;
+      color: var(--text);
+      line-height: 1;
+    }
+
+    .quick-add {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 6px;
+      margin-bottom: 14px;
+    }
+    .quick-add button {
+      background: #1a1f26;
+      border: 1px solid #2a313c;
+      color: #c9d1d9;
+      border-radius: 8px;
+      padding: 9px 0;
+      font-size: 12px;
+      font-weight: 600;
+      font-family: inherit;
+    }
+
+    .restricted-btn {
+      width: 100%;
+      background: #1a1f26;
+      border: 1px solid #2a313c;
+      border-radius: 8px;
+      padding: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      color: var(--muted2);
+      font-size: 13px;
+      font-weight: 500;
+      font-family: inherit;
+      margin-bottom: 10px;
+    }
+    .restricted-btn svg { color: var(--muted2); }
+
+    .terms {
+      color: var(--muted2);
+      font-size: 11px;
+      text-align: center;
+      line-height: 1.4;
+    }
+
+    .promo {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 12px 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 13px;
+      font-weight: 600;
+      color: #e6edf3;
+    }
+    .promo-flags {
+      display: flex;
+      gap: 2px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="layout">
+      <main>
+        <div class="header">
+          <img class="avatar" src="collage-assets/mex_kor_fan.jpg" alt="" />
+          <div class="header-body">
+            <div class="crumb">Sports · Mexico vs Korea</div>
+            <div class="title-row">
+              <h1>Will a Korean fan dressed as a Mexican appear on the stadium broadcast?</h1>
+              <div class="title-icons">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="chance-row">
+          <div class="chance">91% chance</div>
+          <div class="delta">▲ 38%</div>
+        </div>
+
+        <div class="chart-area">
+          <svg viewBox="0 0 720 280" aria-hidden="true">
+            <defs>
+              <linearGradient id="areaFill" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#2185ff" stop-opacity="0.18" />
+                <stop offset="100%" stop-color="#2185ff" stop-opacity="0" />
+              </linearGradient>
+            </defs>
+            <!-- grid -->
+            <g stroke="#1c2128" stroke-width="1">
+              <line x1="0" y1="56" x2="680" y2="56" stroke-dasharray="3 5" />
+              <line x1="0" y1="112" x2="680" y2="112" stroke-dasharray="3 5" />
+              <line x1="0" y1="168" x2="680" y2="168" stroke-dasharray="3 5" />
+              <line x1="0" y1="224" x2="680" y2="224" stroke-dasharray="3 5" />
+            </g>
+            <!-- y-axis RIGHT -->
+            <g fill="#6e7681" font-size="11" font-family="Inter, sans-serif" text-anchor="end">
+              <text x="710" y="60">100%</text>
+              <text x="710" y="116">80%</text>
+              <text x="710" y="172">60%</text>
+              <text x="710" y="228">40%</text>
+              <text x="710" y="262">20%</text>
+            </g>
+            <!-- polymarket watermark -->
+            <text x="560" y="36" fill="rgba(255,255,255,0.07)" font-size="22" font-weight="700" font-family="Inter, sans-serif" letter-spacing="-0.02em">Polymarket</text>
+            <!-- area + line — volatile shape like Neymar chart, ending ~91% -->
+            <path d="M0,200 C40,198 80,185 120,170 C160,155 200,140 240,130 C280,120 320,100 360,90 C400,80 440,70 480,55 C520,40 560,30 620,22 C660,18 700,16 720,14 L720,260 L0,260 Z" fill="url(#areaFill)" />
+            <path d="M0,200 C40,198 80,185 120,170 C160,155 200,140 240,130 C280,120 320,100 360,90 C400,80 440,70 480,55 C520,40 560,30 620,22 C660,18 700,16 720,14" fill="none" stroke="#2185ff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+            <!-- x-axis -->
+            <g fill="#6e7681" font-size="11" font-family="Inter, sans-serif">
+              <text x="20" y="276">Apr</text>
+              <text x="280" y="276">May</text>
+              <text x="540" y="276">Jun</text>
+            </g>
+          </svg>
+          <div class="chart-footer">
+            <div class="chart-footer-left">
+              <span>$847,293 Vol.</span>
+              <span style="display:flex;align-items:center;gap:5px;">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                Jun 18, 2026
+              </span>
+            </div>
+            <div class="chart-footer-right">
+              <span class="tf">1H</span>
+              <span class="tf">6H</span>
+              <span class="tf">1D</span>
+              <span class="tf">1W</span>
+              <span class="tf">1M</span>
+              <span class="tf active">ALL</span>
+              <span class="chart-icons">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="order-book">
+          <span style="display:flex;align-items:center;gap:6px;">Order Book
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+          </span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </div>
+      </main>
+
+      <aside class="sidebar">
+        <div class="trade-card">
+          <div class="mini-header">
+            <img src="collage-assets/mex_kor_fan.jpg" alt="" />
+            <div>
+              <div class="mini-title">Will a Korean fan dressed as a Mexican appear on the stadium broadcast?</div>
+              <div class="mini-yes">Yes</div>
+            </div>
+          </div>
+
+          <div class="tabs-row">
+            <div class="tabs">
+              <div class="tab active">Buy</div>
+              <div class="tab">Sell</div>
+            </div>
+            <div class="market-select">
+              Market
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </div>
+          </div>
+
+          <div class="outcomes">
+            <div class="outcome yes">Yes 91¢</div>
+            <div class="outcome no">No 10¢</div>
+          </div>
+
+          <div class="amount-row">
+            <div class="amount-label">
+              Amount
+              <small>$0.00 cash</small>
+            </div>
+            <div class="amount-value">$0</div>
+          </div>
+
+          <div class="quick-add">
+            <button type="button">+$1</button>
+            <button type="button">+$5</button>
+            <button type="button">+$10</button>
+            <button type="button">+$100</button>
+          </div>
+
+          <button type="button" class="restricted-btn">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            Restricted region
+          </button>
+          <div class="terms">By trading, you agree to the Terms of Use.</div>
+        </div>
+
+        <div class="promo">
+          <span class="promo-flags">🇲🇽🇰🇷</span>
+          <span>World Cup Odds &amp; Predictions →</span>
+        </div>
+      </aside>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=640" />
+  <title>Polymarket Bet Slip — Korean Mexican Fan</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Inter, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background:
+        radial-gradient(circle at 50% 0%, #2f7bff 0%, #1a56ff 45%, #1246e8 100%);
+      padding: 40px 20px;
+    }
+    .bg-grid {
+      position: fixed;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(255,255,255,0.06) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.06) 1px, transparent 1px);
+      background-size: 28px 28px;
+      pointer-events: none;
+    }
+    .profile-pill {
+      background: rgba(0,0,0,0.35);
+      color: #fff;
+      border-radius: 999px;
+      padding: 8px 14px 8px 8px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      margin-bottom: 18px;
+      z-index: 1;
+    }
+    .profile-pill img {
+      width: 24px;
+      height: 24px;
+      border-radius: 999px;
+      object-fit: cover;
+    }
+    .ticket {
+      width: min(560px, 92vw);
+      background: #fff;
+      border-radius: 18px;
+      display: grid;
+      grid-template-columns: 1.35fr 1fr;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 24px 60px rgba(0,0,0,0.25);
+      z-index: 1;
+    }
+    .ticket::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 62%;
+      border-left: 2px dashed #d1d5db;
+      transform: translateX(-50%);
+    }
+    .notch {
+      position: absolute;
+      left: 62%;
+      width: 22px;
+      height: 22px;
+      background: #1a56ff;
+      border-radius: 999px;
+      transform: translateX(-50%);
+      z-index: 2;
+    }
+    .notch.top { top: -11px; }
+    .notch.bottom { bottom: -11px; }
+    .left, .right { padding: 22px 20px; }
+    .left-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 18px;
+    }
+    .ball { font-size: 28px; line-height: 1; }
+    .pm-brand {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      color: #9ca3af;
+      font-size: 12px;
+      font-weight: 600;
+    }
+    .pm-logo {
+      width: 16px;
+      height: 16px;
+      background: conic-gradient(from 180deg, #9ca3af 0 25%, transparent 0 50%, #9ca3af 0 75%, transparent 0);
+      border-radius: 3px;
+      opacity: 0.8;
+    }
+    .question {
+      font-size: 22px;
+      font-weight: 800;
+      line-height: 1.25;
+      color: #111827;
+      letter-spacing: -0.03em;
+    }
+    .right { padding-top: 26px; }
+    .pick {
+      font-size: 34px;
+      font-weight: 800;
+      color: #12b76a;
+      margin-bottom: 18px;
+      letter-spacing: -0.03em;
+    }
+    .stat {
+      display: flex;
+      justify-content: space-between;
+      font-size: 13px;
+      margin-bottom: 8px;
+      color: #6b7280;
+    }
+    .stat strong { color: #111827; font-weight: 700; }
+    .divider {
+      border-top: 2px dotted #d1d5db;
+      margin: 16px 0;
+    }
+    .to-win-label {
+      color: #6b7280;
+      font-size: 13px;
+      margin-bottom: 4px;
+    }
+    .to-win {
+      font-size: 30px;
+      font-weight: 800;
+      color: #111827;
+      letter-spacing: -0.03em;
+    }
+    .footer-logo {
+      margin-top: 22px;
+      color: #fff;
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .footer-logo .pm-logo {
+      width: 22px;
+      height: 22px;
+      background: conic-gradient(from 180deg, #fff 0 25%, transparent 0 50%, #fff 0 75%, transparent 0);
+    }
+  </style>
+</head>
+<body>
+  <div class="bg-grid"></div>
+
+  <div class="profile-pill">
+    <img src="collage-assets/mex_kor_fan.jpg" alt="" />
+    PISELLIII
+  </div>
+
+  <div class="ticket">
+    <div class="notch top"></div>
+    <div class="notch bottom"></div>
+
+    <div class="left">
+      <div class="left-top">
+        <div class="ball">⚽</div>
+        <div class="pm-brand"><span class="pm-logo"></span> Polymarket</div>
+      </div>
+      <div class="question">Will a Korean fan dressed as a Mexican appear on the stadium broadcast?</div>
+    </div>
+
+    <div class="right">
+      <div class="pick">Yes</div>
+      <div class="stat"><span>Cost</span><strong>$12,847</strong></div>
+      <div class="stat"><span>Odds</span><strong>91%</strong></div>
+      <div class="divider"></div>
+      <div class="to-win-label">To win</div>
+      <div class="to-win">$14,118</div>
+    </div>
+  </div>
+
+  <div class="footer-logo"><span class="pm-logo"></span> Polymarket</div>
+</body>
+</html>
