@@ -1,6 +1,6 @@
 {
-  "syncVersion": 21,
-  "updatedAt": "2026-06-19T18:00:00.000Z",
+  "syncVersion": 22,
+  "updatedAt": "2026-06-19T20:00:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
@@ -251,6 +251,37 @@
       "likes": 3,
       "replies": 1,
       "note": "QT bigchog — KOL audience vs product reality, TG vs X founder receipts"
+    },
+    {
+      "id": "provocative-wale-pm-hedge-jun19",
+      "type": "provocative",
+      "traits": ["strategic QT"],
+      "slot": 9,
+      "bucket": "CT",
+      "at": "2026-06-19T14:06:00.000Z",
+      "updatedAt": "2026-06-19T20:00:00.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2067972354370576426",
+      "ageHours": 5,
+      "views": 144,
+      "likes": 11,
+      "replies": 3,
+      "note": "QT waleswoosh on Polymarket — win/lose both PR; PM entered via free money; hedge without hedging"
+    },
+    {
+      "id": "useful-bear-pm-meta-homelander-jun19",
+      "type": "useful",
+      "fullTypes": ["useful", "hot topic"],
+      "traits": ["meme"],
+      "slot": 10,
+      "bucket": "CT",
+      "at": "2026-06-19T19:13:00.000Z",
+      "updatedAt": "2026-06-19T20:00:00.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2068049512992854458",
+      "ageHours": 1,
+      "views": 18,
+      "likes": 3,
+      "replies": 1,
+      "note": "bear market × PM meta essay + Homelander clip (Wen POLY / we're back); casino relocated funnel didn't"
     }
   ],
   "ideas": []
