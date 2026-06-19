@@ -1,6 +1,6 @@
 {
-  "syncVersion": 22,
-  "updatedAt": "2026-06-19T20:00:00.000Z",
+  "syncVersion": 23,
+  "updatedAt": "2026-06-19T20:30:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
@@ -270,7 +270,6 @@
     {
       "id": "useful-bear-pm-meta-homelander-jun19",
       "type": "useful",
-      "fullTypes": ["useful", "hot topic"],
       "traits": ["meme"],
       "slot": 10,
       "bucket": "CT",
