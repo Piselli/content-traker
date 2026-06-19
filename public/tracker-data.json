@@ -1,6 +1,6 @@
 {
-  "syncVersion": 20,
-  "updatedAt": "2026-06-19T12:37:00.000Z",
+  "syncVersion": 21,
+  "updatedAt": "2026-06-19T18:00:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
@@ -251,20 +251,6 @@
       "likes": 3,
       "replies": 1,
       "note": "QT bigchog — KOL audience vs product reality, TG vs X founder receipts"
-    },
-    {
-      "id": "qt-waleswoosh-hedge-predictions-jun19",
-      "type": "strategic QT",
-      "slot": 9,
-      "bucket": "CT",
-      "at": "2026-06-19T12:36:00.000Z",
-      "updatedAt": "2026-06-19T12:37:00.000Z",
-      "tweetUrl": "https://x.com/piselliii/status/2067949531149246478",
-      "ageHours": 0,
-      "views": 0,
-      "likes": 0,
-      "replies": 0,
-      "note": "QT waleswoosh on Polymarket thread — reworked hook (this mfer), win/lose hedge without hedging"
     }
   ],
   "ideas": []

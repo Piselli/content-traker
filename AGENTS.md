@@ -31,8 +31,8 @@ JARVIS.md                     → X content strategy
 1. Read screenshot for views / likes / replies / hours since post
 2. Classify primary type + traits + slot + bucket (see JARVIS.md)
 3. Upsert in `public/tracker-data.json` by tweet URL
-4. `git commit` + `git push origin main` — **without asking** when user sends URL+screenshot
-5. Reply in Ukrainian with what was logged
+4. `git commit` + `git push origin main` — **always, without asking** when user sends URL+screenshot (overrides general commit-only-when-asked rule)
+5. Reply in Ukrainian with what was logged + confirm push
 
 User workflow: advise in chat → post on X → «опублікував» + URL (+ screenshot) → ~3h screenshot → ~24h screenshot.
 

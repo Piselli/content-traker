@@ -31,11 +31,14 @@ Next.js 16 App Router · TypeScript · Tailwind · `public/tracker-data.json` sy
 
 User does **not** need to click Done on site if agent handles logging.
 
+**Git:** logging = always `git commit` + `git push origin main` immediately after updating `tracker-data.json`. No ask. Overrides general "commit only when asked" rule.
+
 | When | User sends | Agent does |
 |------|------------|------------|
-| Right after post | screenshot + URL (+ «опублікував» optional) | Classify `type` + `traits` + `slot` + `bucket` → update `public/tracker-data.json` → **commit + push** (no ask) |
+| Right after post | screenshot + URL (+ «опублікував» optional) | Classify `type` + `traits` + `slot` + `bucket` → update `public/tracker-data.json` → **commit + push** |
 | ~3h later | screenshot + URL | Update metrics (`ageHours`, views, likes, replies) → commit + push |
-| ~24h later | screenshot + URL | Update metrics; previous check-in saved in `snapshots` |
+| ~24h later | screenshot + URL | Update metrics; previous check-in saved in `snapshots` → commit + push |
+| URL replace / metric refresh | screenshot + URL | Upsert by URL → commit + push |
 
 - **Lead `type`** + optional **`fullTypes[]`** (dual norm when 2 types at 100%) + **`traits[]`** (combo only)
 - Same tweet URL = update existing log, do not duplicate.
