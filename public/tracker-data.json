@@ -1,6 +1,6 @@
 {
-  "syncVersion": 24,
-  "updatedAt": "2026-06-19T21:00:00.000Z",
+  "syncVersion": 25,
+  "updatedAt": "2026-06-20T12:15:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
@@ -160,11 +160,11 @@
       "slot": 5,
       "bucket": "football",
       "at": "2026-06-18T13:56:00.000Z",
-      "updatedAt": "2026-06-19T16:30:00.000Z",
+      "updatedAt": "2026-06-20T12:15:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2067607507187486750",
-      "ageHours": 22,
-      "views": 80,
-      "likes": 11,
+      "ageHours": 47,
+      "views": 91,
+      "likes": 13,
       "replies": 2,
       "snapshots": [
         {
@@ -180,6 +180,20 @@
           "likes": 10,
           "replies": 2,
           "at": "2026-06-19T12:00:00.000Z"
+        },
+        {
+          "ageHours": 22,
+          "views": 80,
+          "likes": 11,
+          "replies": 2,
+          "at": "2026-06-19T16:30:00.000Z"
+        },
+        {
+          "ageHours": 47,
+          "views": 91,
+          "likes": 13,
+          "replies": 2,
+          "at": "2026-06-20T12:15:00.000Z"
         }
       ],
       "note": "WC first round respect list — Japan locker room, Vozinha, Messi, Korea, Curaçao, fan culture + collage"
@@ -244,12 +258,28 @@
       "slot": 8,
       "bucket": "CT",
       "at": "2026-06-19T11:26:00.000Z",
-      "updatedAt": "2026-06-19T16:30:00.000Z",
+      "updatedAt": "2026-06-20T12:15:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2067932072207946168",
-      "ageHours": 1,
-      "views": 39,
-      "likes": 3,
+      "ageHours": 25,
+      "views": 151,
+      "likes": 12,
       "replies": 1,
+      "snapshots": [
+        {
+          "ageHours": 1,
+          "views": 39,
+          "likes": 3,
+          "replies": 1,
+          "at": "2026-06-19T16:30:00.000Z"
+        },
+        {
+          "ageHours": 25,
+          "views": 151,
+          "likes": 12,
+          "replies": 1,
+          "at": "2026-06-20T12:15:00.000Z"
+        }
+      ],
       "note": "QT bigchog — KOL audience vs product reality, TG vs X founder receipts"
     },
     {
@@ -259,12 +289,28 @@
       "slot": 9,
       "bucket": "CT",
       "at": "2026-06-19T14:06:00.000Z",
-      "updatedAt": "2026-06-19T20:00:00.000Z",
+      "updatedAt": "2026-06-20T12:15:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2067972354370576426",
-      "ageHours": 5,
-      "views": 144,
-      "likes": 11,
+      "ageHours": 22,
+      "views": 166,
+      "likes": 14,
       "replies": 3,
+      "snapshots": [
+        {
+          "ageHours": 5,
+          "views": 144,
+          "likes": 11,
+          "replies": 3,
+          "at": "2026-06-19T20:00:00.000Z"
+        },
+        {
+          "ageHours": 22,
+          "views": 166,
+          "likes": 14,
+          "replies": 3,
+          "at": "2026-06-20T12:15:00.000Z"
+        }
+      ],
       "note": "QT waleswoosh on Polymarket — win/lose both PR; PM entered via free money; hedge without hedging"
     },
     {
@@ -274,12 +320,28 @@
       "slot": 10,
       "bucket": "CT",
       "at": "2026-06-19T19:13:00.000Z",
-      "updatedAt": "2026-06-19T21:00:00.000Z",
+      "updatedAt": "2026-06-20T12:15:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2068049512992854458",
-      "ageHours": 1,
-      "views": 18,
-      "likes": 3,
-      "replies": 1,
+      "ageHours": 17,
+      "views": 148,
+      "likes": 15,
+      "replies": 8,
+      "snapshots": [
+        {
+          "ageHours": 1,
+          "views": 18,
+          "likes": 3,
+          "replies": 1,
+          "at": "2026-06-19T21:00:00.000Z"
+        },
+        {
+          "ageHours": 17,
+          "views": 148,
+          "likes": 15,
+          "replies": 8,
+          "at": "2026-06-20T12:15:00.000Z"
+        }
+      ],
       "note": "bear market × PM meta essay + Homelander clip (Wen POLY / we're back); casino relocated funnel didn't"
     }
   ],
