@@ -27,13 +27,13 @@ If user attaches JSON from Content Tracker, use it to advise:
 
 | Type | Norm |
 |------|------|
-| hot topic | 8+ |
-| meme | 6+ |
-| useful | 3+ |
-| bait | 3–5 |
-| provocative | 3+ |
-| strategic QT | 4–6 |
-| builder | ≤3 |
+| hot topic | 7+ |
+| meme | 5+ |
+| useful | 2+ |
+| bait | 2–4 |
+| provocative | 2+ |
+| strategic QT | 3–5 |
+| builder | ≤2 |
 | meta reach | ≤1 |
 
 ### When advising from tracker data
