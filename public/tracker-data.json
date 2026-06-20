@@ -1,6 +1,6 @@
 {
-  "syncVersion": 25,
-  "updatedAt": "2026-06-20T12:15:00.000Z",
+  "syncVersion": 26,
+  "updatedAt": "2026-06-20T14:00:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
@@ -235,11 +235,11 @@
       "slot": 7,
       "bucket": "football",
       "at": "2026-06-18T18:54:00.000Z",
-      "updatedAt": "2026-06-19T16:30:00.000Z",
+      "updatedAt": "2026-06-20T14:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2067727623145316383",
-      "ageHours": 14,
-      "views": 313,
-      "likes": 10,
+      "ageHours": 42,
+      "views": 353,
+      "likes": 13,
       "replies": 5,
       "snapshots": [
         {
@@ -248,6 +248,20 @@
           "likes": 4,
           "replies": 4,
           "at": "2026-06-19T14:00:00.000Z"
+        },
+        {
+          "ageHours": 14,
+          "views": 313,
+          "likes": 10,
+          "replies": 5,
+          "at": "2026-06-19T16:30:00.000Z"
+        },
+        {
+          "ageHours": 42,
+          "views": 353,
+          "likes": 13,
+          "replies": 5,
+          "at": "2026-06-20T14:00:00.000Z"
         }
       ],
       "note": "absurdist fake Polymarket market on WC broadcast — bait lead (YES/NO + @Polymarket), meme trait (visual mock is the punchline)"
@@ -258,10 +272,10 @@
       "slot": 8,
       "bucket": "CT",
       "at": "2026-06-19T11:26:00.000Z",
-      "updatedAt": "2026-06-20T12:15:00.000Z",
+      "updatedAt": "2026-06-20T14:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2067932072207946168",
       "ageHours": 25,
-      "views": 151,
+      "views": 152,
       "likes": 12,
       "replies": 1,
       "snapshots": [
@@ -274,10 +288,10 @@
         },
         {
           "ageHours": 25,
-          "views": 151,
+          "views": 152,
           "likes": 12,
           "replies": 1,
-          "at": "2026-06-20T12:15:00.000Z"
+          "at": "2026-06-20T14:00:00.000Z"
         }
       ],
       "note": "QT bigchog — KOL audience vs product reality, TG vs X founder receipts"
@@ -289,10 +303,10 @@
       "slot": 9,
       "bucket": "CT",
       "at": "2026-06-19T14:06:00.000Z",
-      "updatedAt": "2026-06-20T12:15:00.000Z",
+      "updatedAt": "2026-06-20T14:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2067972354370576426",
       "ageHours": 22,
-      "views": 166,
+      "views": 167,
       "likes": 14,
       "replies": 3,
       "snapshots": [
@@ -305,10 +319,10 @@
         },
         {
           "ageHours": 22,
-          "views": 166,
+          "views": 167,
           "likes": 14,
           "replies": 3,
-          "at": "2026-06-20T12:15:00.000Z"
+          "at": "2026-06-20T14:00:00.000Z"
         }
       ],
       "note": "QT waleswoosh on Polymarket — win/lose both PR; PM entered via free money; hedge without hedging"
