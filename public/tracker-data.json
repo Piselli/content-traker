@@ -1,6 +1,6 @@
 {
-  "syncVersion": 26,
-  "updatedAt": "2026-06-20T14:00:00.000Z",
+  "syncVersion": 27,
+  "updatedAt": "2026-06-20T19:15:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
@@ -357,6 +357,21 @@
         }
       ],
       "note": "bear market × PM meta essay + Homelander clip (Wen POLY / we're back); casino relocated funnel didn't"
+    },
+    {
+      "id": "strategic-qt-bigchog-pm-propaganda-jun20",
+      "type": "strategic QT",
+      "traits": ["provocative", "useful"],
+      "slot": 11,
+      "bucket": "CT",
+      "at": "2026-06-20T16:10:00.000Z",
+      "updatedAt": "2026-06-20T19:15:00.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2068411088446603739",
+      "ageHours": 0,
+      "views": 31,
+      "likes": 3,
+      "replies": 2,
+      "note": "QT bigchog WC round-trip + replies collage; call out PM propaganda in comments. WC script 120 holders 80% red median −$5873. sources reply: https://x.com/piselliii/status/2068411091659468929 (Sergeenkov, Bloomberg/Dune, HEC paper)"
     }
   ],
   "ideas": []
