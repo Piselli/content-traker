@@ -1,6 +1,6 @@
 {
-  "syncVersion": 28,
-  "updatedAt": "2026-06-21T14:00:00.000Z",
+  "syncVersion": 29,
+  "updatedAt": "2026-06-21T20:00:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
@@ -211,10 +211,10 @@
       "slot": 6,
       "bucket": "CT",
       "at": "2026-06-18T15:00:00.000Z",
-      "updatedAt": "2026-06-21T14:00:00.000Z",
+      "updatedAt": "2026-06-21T20:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2067623583891755422",
-      "ageHours": 71,
-      "views": 296,
+      "ageHours": 77,
+      "views": 299,
       "likes": 10,
       "replies": 5,
       "snapshots": [
@@ -256,10 +256,10 @@
       "slot": 7,
       "bucket": "football",
       "at": "2026-06-18T18:54:00.000Z",
-      "updatedAt": "2026-06-21T14:00:00.000Z",
+      "updatedAt": "2026-06-21T20:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2067727623145316383",
-      "ageHours": 67,
-      "views": 359,
+      "ageHours": 73,
+      "views": 362,
       "likes": 14,
       "replies": 5,
       "snapshots": [
@@ -300,11 +300,11 @@
       "slot": 8,
       "bucket": "CT",
       "at": "2026-06-19T11:26:00.000Z",
-      "updatedAt": "2026-06-21T14:00:00.000Z",
+      "updatedAt": "2026-06-21T20:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2067932072207946168",
-      "ageHours": 51,
-      "views": 169,
-      "likes": 13,
+      "ageHours": 57,
+      "views": 181,
+      "likes": 15,
       "replies": 1,
       "snapshots": [
         {
@@ -327,6 +327,13 @@
           "likes": 13,
           "replies": 1,
           "at": "2026-06-21T14:00:00.000Z"
+        },
+        {
+          "ageHours": 57,
+          "views": 181,
+          "likes": 15,
+          "replies": 1,
+          "at": "2026-06-21T20:00:00.000Z"
         }
       ],
       "note": "QT bigchog — KOL audience vs product reality, TG vs X founder receipts"
@@ -338,11 +345,11 @@
       "slot": 9,
       "bucket": "CT",
       "at": "2026-06-19T14:06:00.000Z",
-      "updatedAt": "2026-06-21T14:00:00.000Z",
+      "updatedAt": "2026-06-21T20:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2067972354370576426",
-      "ageHours": 48,
-      "views": 184,
-      "likes": 16,
+      "ageHours": 54,
+      "views": 195,
+      "likes": 18,
       "replies": 3,
       "snapshots": [
         {
@@ -365,6 +372,13 @@
           "likes": 16,
           "replies": 3,
           "at": "2026-06-21T14:00:00.000Z"
+        },
+        {
+          "ageHours": 54,
+          "views": 195,
+          "likes": 18,
+          "replies": 3,
+          "at": "2026-06-21T20:00:00.000Z"
         }
       ],
       "note": "QT waleswoosh on Polymarket — win/lose both PR; PM entered via free money; hedge without hedging"
@@ -376,11 +390,11 @@
       "slot": 10,
       "bucket": "CT",
       "at": "2026-06-19T19:13:00.000Z",
-      "updatedAt": "2026-06-21T14:00:00.000Z",
+      "updatedAt": "2026-06-21T20:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2068049512992854458",
-      "ageHours": 43,
-      "views": 358,
-      "likes": 25,
+      "ageHours": 49,
+      "views": 393,
+      "likes": 28,
       "replies": 10,
       "snapshots": [
         {
@@ -403,6 +417,13 @@
           "likes": 25,
           "replies": 10,
           "at": "2026-06-21T14:00:00.000Z"
+        },
+        {
+          "ageHours": 49,
+          "views": 393,
+          "likes": 28,
+          "replies": 10,
+          "at": "2026-06-21T20:00:00.000Z"
         }
       ],
       "note": "bear market × PM meta essay + Homelander clip (Wen POLY / we're back); casino relocated funnel didn't"
@@ -414,9 +435,9 @@
       "slot": 11,
       "bucket": "CT",
       "at": "2026-06-20T16:10:00.000Z",
-      "updatedAt": "2026-06-21T14:00:00.000Z",
+      "updatedAt": "2026-06-21T20:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2068411088446603739",
-      "ageHours": 22,
+      "ageHours": 28,
       "views": 201,
       "likes": 9,
       "replies": 5,
