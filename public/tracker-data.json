@@ -1,6 +1,6 @@
 {
-  "syncVersion": 29,
-  "updatedAt": "2026-06-21T20:00:00.000Z",
+  "syncVersion": 30,
+  "updatedAt": "2026-06-22T08:00:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
@@ -458,6 +458,36 @@
         }
       ],
       "note": "QT bigchog WC round-trip + replies collage; call out PM propaganda in comments. WC script 120 holders 80% red median −$5873. sources reply: https://x.com/piselliii/status/2068411091659468929 (Sergeenkov, Bloomberg/Dune, HEC paper)"
+    },
+    {
+      "id": "qt-kekov-movement-life-story-jun21",
+      "type": "provocative",
+      "traits": ["strategic QT", "bait"],
+      "slot": 12,
+      "bucket": "CT",
+      "at": "2026-06-21T16:42:00.000Z",
+      "updatedAt": "2026-06-22T08:00:00.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2068781576100446691",
+      "ageHours": 2,
+      "views": 70,
+      "likes": 14,
+      "replies": 2,
+      "note": "QT kekov 500-acct farm — Movement one-account payout + life arc (content, meetup, NFT, merch, first project); earnings last; bait Q at end"
+    },
+    {
+      "id": "bait-football-math-transitive-jun21",
+      "type": "bait",
+      "traits": ["meme"],
+      "slot": 13,
+      "bucket": "football",
+      "at": "2026-06-21T18:34:00.000Z",
+      "updatedAt": "2026-06-22T08:00:00.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2068764456230736196",
+      "ageHours": 0,
+      "views": 73,
+      "likes": 11,
+      "replies": 4,
+      "note": "WC transitive score math — Sweden/Tunisia/Netherlands pick-one (a/b/c/d) + scorecard collage + Punisher wait meme"
     }
   ],
   "ideas": []
