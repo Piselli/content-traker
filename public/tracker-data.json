@@ -1,6 +1,6 @@
 {
-  "syncVersion": 30,
-  "updatedAt": "2026-06-22T08:00:00.000Z",
+  "syncVersion": 31,
+  "updatedAt": "2026-06-22T12:00:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
@@ -461,18 +461,18 @@
     },
     {
       "id": "qt-kekov-movement-life-story-jun21",
-      "type": "provocative",
+      "type": "meta reach",
       "traits": ["strategic QT", "bait"],
       "slot": 12,
       "bucket": "CT",
       "at": "2026-06-21T16:42:00.000Z",
-      "updatedAt": "2026-06-22T08:00:00.000Z",
+      "updatedAt": "2026-06-22T12:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2068781576100446691",
       "ageHours": 2,
       "views": 70,
       "likes": 14,
       "replies": 2,
-      "note": "QT kekov 500-acct farm — Movement one-account payout + life arc (content, meetup, NFT, merch, first project); earnings last; bait Q at end"
+      "note": "meta reach — QT kekov farm narrative; Movement life arc beyond payout (content, meetup, NFT, merch, first project); bait Q at end"
     },
     {
       "id": "bait-football-math-transitive-jun21",
