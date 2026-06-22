@@ -1,6 +1,6 @@
 {
-  "syncVersion": 33,
-  "updatedAt": "2026-06-21T21:34:00.000Z",
+  "syncVersion": 34,
+  "updatedAt": "2026-06-22T10:00:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
@@ -345,11 +345,11 @@
       "slot": 9,
       "bucket": "CT",
       "at": "2026-06-19T14:06:00.000Z",
-      "updatedAt": "2026-06-21T20:00:00.000Z",
+      "updatedAt": "2026-06-22T10:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2067972354370576426",
-      "ageHours": 54,
-      "views": 195,
-      "likes": 18,
+      "ageHours": 68,
+      "views": 204,
+      "likes": 19,
       "replies": 3,
       "snapshots": [
         {
@@ -379,6 +379,13 @@
           "likes": 18,
           "replies": 3,
           "at": "2026-06-21T20:00:00.000Z"
+        },
+        {
+          "ageHours": 68,
+          "views": 204,
+          "likes": 19,
+          "replies": 3,
+          "at": "2026-06-22T10:00:00.000Z"
         }
       ],
       "note": "QT waleswoosh on Polymarket — win/lose both PR; PM entered via free money; hedge without hedging"
@@ -390,11 +397,11 @@
       "slot": 10,
       "bucket": "CT",
       "at": "2026-06-19T19:13:00.000Z",
-      "updatedAt": "2026-06-21T20:00:00.000Z",
+      "updatedAt": "2026-06-22T10:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2068049512992854458",
-      "ageHours": 49,
-      "views": 393,
-      "likes": 28,
+      "ageHours": 63,
+      "views": 417,
+      "likes": 30,
       "replies": 10,
       "snapshots": [
         {
@@ -424,6 +431,13 @@
           "likes": 28,
           "replies": 10,
           "at": "2026-06-21T20:00:00.000Z"
+        },
+        {
+          "ageHours": 63,
+          "views": 417,
+          "likes": 30,
+          "replies": 10,
+          "at": "2026-06-22T10:00:00.000Z"
         }
       ],
       "note": "bear market × PM meta essay + Homelander clip (Wen POLY / we're back); casino relocated funnel didn't"
@@ -496,12 +510,28 @@
       "slot": 13,
       "bucket": "CT",
       "at": "2026-06-21T19:42:00.000Z",
-      "updatedAt": "2026-06-21T21:34:00.000Z",
+      "updatedAt": "2026-06-22T10:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2068781576100446691",
-      "ageHours": 2,
-      "views": 70,
-      "likes": 14,
-      "replies": 2,
+      "ageHours": 14,
+      "views": 171,
+      "likes": 16,
+      "replies": 4,
+      "snapshots": [
+        {
+          "ageHours": 2,
+          "views": 70,
+          "likes": 14,
+          "replies": 2,
+          "at": "2026-06-21T21:34:00.000Z"
+        },
+        {
+          "ageHours": 14,
+          "views": 171,
+          "likes": 16,
+          "replies": 4,
+          "at": "2026-06-22T10:00:00.000Z"
+        }
+      ],
       "note": "meta reach — Movement life arc beyond payout; personal reflection on what the airdrop actually changed"
     }
   ],
