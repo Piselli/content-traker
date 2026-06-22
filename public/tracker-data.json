@@ -1,6 +1,6 @@
 {
-  "syncVersion": 37,
-  "updatedAt": "2026-06-22T12:40:00.000Z",
+  "syncVersion": 38,
+  "updatedAt": "2026-06-22T14:15:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
@@ -605,6 +605,18 @@
       "likes": 6,
       "replies": 2,
       "note": "dual norm: hot topic + meme — X algo update moment, Sam Altman religious icon as mandatory CT apartment decor"
+    },
+    {
+      "id": "qt-jeremy-notif-impressions-nikita-jun22",
+      "type": "strategic QT",
+      "traits": ["provocative", "hot topic", "bait"],
+      "slot": 19,
+      "bucket": "CT",
+      "at": "2026-06-22T14:15:00.000Z",
+      "updatedAt": "2026-06-22T14:15:00.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2069107016178467222",
+      "ageHours": 0,
+      "note": "QT Jeremybtc notification-as-impression theory — contrarian: algo boost on alerts is logical; mid-account mutual circle flatline; Nikita W or L?"
     }
   ],
   "ideas": []
