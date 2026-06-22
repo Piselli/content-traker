@@ -139,7 +139,7 @@ export function WeekInsights({ analysis }: WeekInsightsProps) {
       {analysis.performers.length > 0 && (
         <div className="mt-5">
           <p className="text-[10px] font-medium uppercase tracking-widest text-zinc-500">
-            Ефективність
+            Ефективність (replies/1k → views)
           </p>
           <ul className="mt-2 space-y-2">
             {analysis.performers.slice(0, 5).map((p) => (
@@ -154,16 +154,22 @@ export function WeekInsights({ analysis }: WeekInsightsProps) {
                   {p.slot != null && (
                     <span className="text-[10px] text-zinc-600">· слот {p.slot}</span>
                   )}
-                  <span className={tierClass(p.tier)}>{tierLabel(p.tier)}</span>
+                  <span className={tierClass(p.replyTier)} title="Playbook: replies/1k">
+                    ↩ {tierLabel(p.replyTier)}
+                  </span>
+                  <span className={`${tierClass(p.tier)} opacity-60`} title="Views/hour">
+                    {p.viewsPerHour}/год
+                  </span>
                 </div>
                 <div className="mt-1.5 flex flex-wrap gap-x-3 gap-y-1 tabular-nums text-zinc-500">
+                  {p.repliesPer1k != null && (
+                    <span className="text-zinc-300">
+                      {p.replies ?? 0} replies · {p.repliesPer1k}/1k
+                    </span>
+                  )}
                   <span>
                     {p.views} перегл. / {p.ageHours} год
                   </span>
-                  <span>{p.viewsPerHour}/год</span>
-                  {p.replyRate != null && (
-                    <span>↩ {formatRate(p.replyRate)}</span>
-                  )}
                   {p.likeRate != null && <span>♥ {formatRate(p.likeRate)}</span>}
                 </div>
               </li>

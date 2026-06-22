@@ -29,6 +29,22 @@ founder @movematchxyz | building ChicharitoNFT
 
 **Voice:** English · cynical not toxic · hook in line 1 · standalone for strangers · links in reply not main tweet
 
+### X Growth Playbook (primary — see `JARVIS.md` for full)
+
+**Thesis:** algorithm rewards the **account** that makes right people reply, save, stay — not one viral banger.
+
+**Signal hierarchy:** reply you answer back ≈ **150 likes** · reply ≈ 27 · dwell 2min ≈ 22 · like = 1 · **block ≈ −148**
+
+**7 Moves (order):** (1) one lane · (6) trusted account · (2) reply bait + reply back · (3) **60 min in comments after post** · (5) save/DM worthy · (4) media earns tap · (7) never rage-bait wrong crowd
+
+**Templates 01–06:** Correction magnet · Teardown · Build-in-public · Genuine ask · One-liner+thread · Bookmark list. **Links always in first reply.**
+
+**DO:** reply-bait posts, answer 80%+ replies in hour one, native charts/collage/video, useful lists  
+**STOP:** chasing likes, best-time charts, links in post, off-niche outrage, 6+ random topics  
+**IGNORE:** 6h decay myth, hashtag hacks, TweepCred 65
+
+**Posts dying?** Checklist: one-word lane (Move 1) · reply bait in last 5 (2) · 60 min in comments (3) · media earns tap (4) · trust/account health (6) · no wrong-crowd rage (7). Strong post still dead → maybe spam filter, not hook.
+
 ---
 
 ## Bucket lock (30 days)
@@ -117,7 +133,7 @@ Read repo: Next.js, localStorage, src/hooks/useTracker.ts, src/lib/norms.ts. Min
 
 ## Forbidden advice
 
-Engagement groups · DM outreach · "post less" · Movement as main topic · auto X API metrics
+Engagement groups · DM outreach · "post less" · Movement as main topic · auto X API metrics · links in main post · post-and-disappear · rage-bait outside niche · follow/unfollow games
 
 ---
 

@@ -1,5 +1,5 @@
 import { BUCKET_TARGETS, type Bucket } from "./buckets";
-import { likeRatePercent, replyRatePercent } from "./engagement";
+import { likeRatePercent, repliesPer1k, replyRatePercent } from "./engagement";
 import { getNormStatus, NORMS, normLabel } from "./norms";
 import { allDisplayTypes, comboTraits, normTypes, SLOT_COMBOS } from "./traits";
 import type { ContentType, LogEntry, PostSlot } from "./types";
@@ -31,7 +31,9 @@ export interface PerformerRow {
   viewsPerHour?: number;
   replyRate?: number;
   likeRate?: number;
+  repliesPer1k?: number;
   tier: PerformanceTier;
+  replyTier: PerformanceTier;
 }
 
 export interface BucketRow {
@@ -81,6 +83,19 @@ export function getPerformanceTier(views: number, ageHours: number): Performance
   if (views < 150) return "weak";
   if (views < 500) return "ok";
   return "strong";
+}
+
+/** Playbook signal: conversation > applause (12 replies/1k ≈ beats 1000 silent likes). */
+export function getReplyEngagementTier(
+  views: number,
+  replies?: number,
+): PerformanceTier {
+  if (replies == null) return "unknown";
+  const per1k = (replies / views) * 1000;
+  if (per1k >= 12 || replies >= 10) return "strong";
+  if (per1k >= 4 || replies >= 4) return "ok";
+  if (replies >= 1) return "weak";
+  return "weak";
 }
 
 function tierLabel(tier: PerformanceTier): string {
@@ -230,10 +245,16 @@ export function buildWeekAnalysis(
         viewsPerHour,
         replyRate: replyRatePercent(l.views, l.replies),
         likeRate: likeRatePercent(l.views, l.likes),
+        repliesPer1k: repliesPer1k(l.views, l.replies),
         tier: getPerformanceTier(l.views!, l.ageHours!),
+        replyTier: getReplyEngagementTier(l.views!, l.replies),
       };
     })
-    .sort((a, b) => (b.viewsPerHour ?? 0) - (a.viewsPerHour ?? 0));
+    .sort((a, b) => {
+      const replyDiff = (b.repliesPer1k ?? 0) - (a.repliesPer1k ?? 0);
+      if (replyDiff !== 0) return replyDiff;
+      return (b.viewsPerHour ?? 0) - (a.viewsPerHour ?? 0);
+    });
 
   const todayLogs = logsToday(logs, now);
   const todayPriority = normGaps
@@ -256,8 +277,29 @@ export function buildWeekAnalysis(
   if (performers[0]) {
     const p = performers[0];
     const label = p.allTypes.length > 1 ? p.allTypes.join(" + ") : p.type;
+    const replyNote =
+      p.repliesPer1k != null
+        ? `${p.replies ?? 0} replies · ${p.repliesPer1k}/1k (${tierLabel(p.replyTier)})`
+        : `${p.replies ?? 0} replies`;
     insights.push(
-      `Кращий перегляд/год: ${label} — ${p.views} переглядів за ${p.ageHours} год (${p.viewsPerHour}/год, ${tierLabel(p.tier)}).`,
+      `Playbook signal (Move 2): ${label} — ${replyNote} при ${p.views} переглядах. Відповідай у перші 60 хв.`,
+    );
+  }
+
+  const viewsStandout = [...performers].sort(
+    (a, b) => (b.viewsPerHour ?? 0) - (a.viewsPerHour ?? 0),
+  )[0];
+  if (
+    viewsStandout &&
+    viewsStandout.id !== performers[0]?.id &&
+    (viewsStandout.viewsPerHour ?? 0) > (performers[0]?.viewsPerHour ?? 0) * 1.5
+  ) {
+    const label =
+      viewsStandout.allTypes.length > 1
+        ? viewsStandout.allTypes.join(" + ")
+        : viewsStandout.type;
+    insights.push(
+      `Більше переглядів, але слабша розмова: ${label} — ${viewsStandout.viewsPerHour}/год vs replies ${viewsStandout.repliesPer1k ?? "—"}/1k. Перевір Move 2–3.`,
     );
   }
 
