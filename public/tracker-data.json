@@ -1,6 +1,6 @@
 {
-  "syncVersion": 34,
-  "updatedAt": "2026-06-22T10:00:00.000Z",
+  "syncVersion": 36,
+  "updatedAt": "2026-06-22T12:30:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
@@ -533,6 +533,63 @@
         }
       ],
       "note": "meta reach — Movement life arc beyond payout; personal reflection on what the airdrop actually changed"
+    },
+    {
+      "id": "qt-cardzz-1k-bet-jun22",
+      "type": "provocative",
+      "traits": ["strategic QT", "bait"],
+      "slot": 14,
+      "bucket": "humor",
+      "at": "2026-06-22T11:18:00.000Z",
+      "updatedAt": "2026-06-22T11:20:00.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2069017105316425754",
+      "ageHours": 0,
+      "note": "QT cardzz meta shitpost — 1k bet: stop overthinking posts or delete and pretend never happened"
+    },
+    {
+      "id": "meme-jeremy-views-greentext-jun22",
+      "type": "meme",
+      "traits": ["strategic QT", "hot topic"],
+      "slot": 15,
+      "bucket": "CT",
+      "at": "2026-06-22T10:26:00.000Z",
+      "updatedAt": "2026-06-22T12:30:00.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2069049302974902296",
+      "ageHours": 2,
+      "views": 43,
+      "likes": 6,
+      "replies": 1,
+      "note": "greentext reach contrast — QT Jeremybtc on 3k views in 35s vs own 35 views in 3h; algo/botting moment on CT"
+    },
+    {
+      "id": "qt-wale-algo-crash-test-jun22",
+      "type": "strategic QT",
+      "traits": ["hot topic", "provocative"],
+      "slot": 16,
+      "bucket": "CT",
+      "at": "2026-06-22T11:34:00.000Z",
+      "updatedAt": "2026-06-22T12:30:00.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2069066384202440989",
+      "ageHours": 1,
+      "views": 36,
+      "likes": 3,
+      "replies": 3,
+      "note": "QT waleswoosh new algo take — crash-test failed; reply: reach compound interest if you already had it"
+    },
+    {
+      "id": "useful-france-no-hedge-update-jun22",
+      "type": "useful",
+      "traits": ["bait", "provocative"],
+      "slot": 17,
+      "bucket": "CT",
+      "at": "2026-06-22T11:58:00.000Z",
+      "updatedAt": "2026-06-22T12:30:00.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2069072422670651811",
+      "ageHours": 1,
+      "views": 42,
+      "likes": 2,
+      "replies": 1,
+      "note": "self-QT Jun 8 WC favorites hedge — France NO @ 80¢, roll R32→final, ~+25% if lift / flat if not; bait: hedge vs just betting / gambling propagandist"
     }
   ],
   "ideas": []
