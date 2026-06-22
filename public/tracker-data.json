@@ -1,6 +1,6 @@
 {
-  "syncVersion": 38,
-  "updatedAt": "2026-06-22T14:15:00.000Z",
+  "syncVersion": 39,
+  "updatedAt": "2026-06-22T18:35:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
@@ -617,6 +617,19 @@
       "tweetUrl": "https://x.com/piselliii/status/2069107016178467222",
       "ageHours": 0,
       "note": "QT Jeremybtc notification-as-impression theory — contrarian: algo boost on alerts is logical; mid-account mutual circle flatline; Nikita W or L?"
+    },
+    {
+      "id": "provocative-france-iraq-messi-record-jun22",
+      "type": "provocative",
+      "fullTypes": ["hot topic", "provocative"],
+      "slot": 20,
+      "bucket": "football",
+      "at": "2026-06-22T18:31:00.000Z",
+      "updatedAt": "2026-06-22T18:35:00.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2069171455368007882",
+      "ageHours": 0,
+      "views": 19,
+      "note": "WC live France vs Iraq — parental advisory for Messi fans; obscene domination + Mbappé hunting Messi's same-day GOAT record; black scorecard image"
     }
   ],
   "ideas": []
