@@ -1,6 +1,6 @@
 {
-  "syncVersion": 45,
-  "updatedAt": "2026-06-23T13:50:00.000Z",
+  "syncVersion": 46,
+  "updatedAt": "2026-06-23T15:20:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
@@ -852,6 +852,20 @@
       "likes": 0,
       "replies": 0,
       "note": "QT Deestar Ronaldo one job — fake 5-0 scorecard manifesting; Messi fans excluded punchline; Portugal vs Uzbekistan WC day"
+    },
+    {
+      "id": "qt-loshmi-ronaldo-fantasy-lineup-jun23",
+      "type": "strategic QT",
+      "traits": ["bait", "meme", "builder"],
+      "slot": 24,
+      "bucket": "football",
+      "at": "2026-06-23T15:17:00.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2069485060080718193",
+      "ageHours": 0,
+      "views": 19,
+      "likes": 11,
+      "replies": 1,
+      "note": "QT Loshmi Ronaldo apology — never-doubted contrarian; CWC fantasy lineup 84pts (Júnior C, Mbappé 15); cheering squad vs sweating PM; lineup + Ronaldo goals-left bait"
     }
   ],
   "ideas": []
