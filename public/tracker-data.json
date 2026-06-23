@@ -1,6 +1,6 @@
 {
-  "syncVersion": 44,
-  "updatedAt": "2026-06-23T12:50:00.000Z",
+  "syncVersion": 45,
+  "updatedAt": "2026-06-23T13:50:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
@@ -837,6 +837,21 @@
       "likes": 0,
       "replies": 0,
       "note": "QT Loshmi $410k Ronaldo NO Polymarket — Baby Boy locked-in meme; contrarian Messi-not-scoring would've been the better free-money angle"
+    },
+    {
+      "id": "provocative-ronaldo-goat-messi-qt-jun23",
+      "type": "provocative",
+      "fullTypes": ["hot topic", "provocative"],
+      "traits": ["meme", "strategic QT", "bait"],
+      "slot": 23,
+      "bucket": "football",
+      "at": "2026-06-23T13:45:00.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2069461926807994462",
+      "ageHours": 0,
+      "views": 1,
+      "likes": 0,
+      "replies": 0,
+      "note": "QT Deestar Ronaldo one job — fake 5-0 scorecard manifesting; Messi fans excluded punchline; Portugal vs Uzbekistan WC day"
     }
   ],
   "ideas": []
