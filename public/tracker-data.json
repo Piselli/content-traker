@@ -1,6 +1,6 @@
 {
-  "syncVersion": 42,
-  "updatedAt": "2026-06-23T01:15:00.000Z",
+  "syncVersion": 43,
+  "updatedAt": "2026-06-23T09:00:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
@@ -581,10 +581,10 @@
       "slot": 15,
       "bucket": "CT",
       "at": "2026-06-22T10:26:00.000Z",
-      "updatedAt": "2026-06-23T01:00:00.000Z",
+      "updatedAt": "2026-06-23T09:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2069049302974902296",
-      "ageHours": 11,
-      "views": 73,
+      "ageHours": 22,
+      "views": 87,
       "likes": 10,
       "replies": 1,
       "snapshots": [
@@ -608,6 +608,13 @@
           "likes": 10,
           "replies": 1,
           "at": "2026-06-23T01:00:00.000Z"
+        },
+        {
+          "ageHours": 22,
+          "views": 87,
+          "likes": 10,
+          "replies": 1,
+          "at": "2026-06-23T09:00:00.000Z"
         }
       ],
       "note": "greentext reach contrast — QT Jeremybtc on 3k views in 35s vs own 35 views in 3h; algo/botting moment on CT"
@@ -688,11 +695,11 @@
       "slot": 18,
       "bucket": "CT",
       "at": "2026-06-22T12:34:00.000Z",
-      "updatedAt": "2026-06-23T01:00:00.000Z",
+      "updatedAt": "2026-06-23T09:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2069081603754561892",
-      "ageHours": 9,
-      "views": 111,
-      "likes": 12,
+      "ageHours": 21,
+      "views": 129,
+      "likes": 14,
       "replies": 3,
       "snapshots": [
         {
@@ -715,6 +722,13 @@
           "likes": 12,
           "replies": 3,
           "at": "2026-06-23T01:00:00.000Z"
+        },
+        {
+          "ageHours": 21,
+          "views": 129,
+          "likes": 14,
+          "replies": 3,
+          "at": "2026-06-23T09:00:00.000Z"
         }
       ],
       "note": "dual norm: hot topic + meme — X algo update moment, Sam Altman religious icon as mandatory CT apartment decor"
@@ -726,11 +740,11 @@
       "slot": 19,
       "bucket": "CT",
       "at": "2026-06-22T14:15:00.000Z",
-      "updatedAt": "2026-06-23T01:00:00.000Z",
+      "updatedAt": "2026-06-23T09:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2069107016178467222",
-      "ageHours": 7,
-      "views": 64,
-      "likes": 6,
+      "ageHours": 19,
+      "views": 85,
+      "likes": 7,
       "replies": 2,
       "snapshots": [
         {
@@ -746,6 +760,13 @@
           "likes": 6,
           "replies": 2,
           "at": "2026-06-23T01:00:00.000Z"
+        },
+        {
+          "ageHours": 19,
+          "views": 85,
+          "likes": 7,
+          "replies": 2,
+          "at": "2026-06-23T09:00:00.000Z"
         }
       ],
       "note": "QT Jeremybtc notification-as-impression theory — contrarian: algo boost on alerts is logical; mid-account mutual circle flatline; Nikita W or L?"
@@ -787,6 +808,21 @@
         }
       ],
       "note": "WC live France vs Iraq — parental advisory for Messi fans; obscene domination + Mbappé hunting Messi's same-day GOAT record; black scorecard image"
+    },
+    {
+      "id": "hot-wc-attention-meta-jun23",
+      "type": "hot topic",
+      "traits": ["bait", "meme"],
+      "slot": 21,
+      "bucket": "football",
+      "at": "2026-06-23T07:48:00.000Z",
+      "updatedAt": "2026-06-23T09:00:00.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2069372130546814995",
+      "ageHours": 1,
+      "views": 45,
+      "likes": 2,
+      "replies": 1,
+      "note": "WC 2026 attention meta list — million on favorite, fan girl poll, real loss, Messi bait, wale PM; chalkboard collage + what did I forget?"
     }
   ],
   "ideas": []
