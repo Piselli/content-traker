@@ -1,6 +1,6 @@
 {
-  "syncVersion": 46,
-  "updatedAt": "2026-06-23T15:20:00.000Z",
+  "syncVersion": 47,
+  "updatedAt": "2026-06-23T18:00:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
@@ -524,9 +524,9 @@
       "slot": 13,
       "bucket": "CT",
       "at": "2026-06-21T19:42:00.000Z",
-      "updatedAt": "2026-06-23T01:00:00.000Z",
+      "updatedAt": "2026-06-23T18:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2068781576100446691",
-      "ageHours": 30,
+      "ageHours": 46,
       "views": 270,
       "likes": 25,
       "replies": 5,
@@ -664,9 +664,9 @@
       "slot": 17,
       "bucket": "CT",
       "at": "2026-06-22T11:58:00.000Z",
-      "updatedAt": "2026-06-23T01:00:00.000Z",
+      "updatedAt": "2026-06-23T18:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2069072422670651811",
-      "ageHours": 9,
+      "ageHours": 30,
       "views": 150,
       "likes": 11,
       "replies": 1,
@@ -695,11 +695,11 @@
       "slot": 18,
       "bucket": "CT",
       "at": "2026-06-22T12:34:00.000Z",
-      "updatedAt": "2026-06-23T09:00:00.000Z",
+      "updatedAt": "2026-06-23T18:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2069081603754561892",
-      "ageHours": 21,
-      "views": 129,
-      "likes": 14,
+      "ageHours": 29,
+      "views": 141,
+      "likes": 16,
       "replies": 3,
       "snapshots": [
         {
@@ -729,6 +729,13 @@
           "likes": 14,
           "replies": 3,
           "at": "2026-06-23T09:00:00.000Z"
+        },
+        {
+          "ageHours": 29,
+          "views": 141,
+          "likes": 16,
+          "replies": 3,
+          "at": "2026-06-23T18:00:00.000Z"
         }
       ],
       "note": "dual norm: hot topic + meme — X algo update moment, Sam Altman religious icon as mandatory CT apartment decor"
@@ -740,11 +747,11 @@
       "slot": 19,
       "bucket": "CT",
       "at": "2026-06-22T14:15:00.000Z",
-      "updatedAt": "2026-06-23T09:00:00.000Z",
+      "updatedAt": "2026-06-23T18:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2069107016178467222",
-      "ageHours": 19,
-      "views": 85,
-      "likes": 7,
+      "ageHours": 28,
+      "views": 110,
+      "likes": 9,
       "replies": 2,
       "snapshots": [
         {
@@ -767,6 +774,13 @@
           "likes": 7,
           "replies": 2,
           "at": "2026-06-23T09:00:00.000Z"
+        },
+        {
+          "ageHours": 28,
+          "views": 110,
+          "likes": 9,
+          "replies": 2,
+          "at": "2026-06-23T18:00:00.000Z"
         }
       ],
       "note": "QT Jeremybtc notification-as-impression theory — contrarian: algo boost on alerts is logical; mid-account mutual circle flatline; Nikita W or L?"
@@ -778,12 +792,12 @@
       "slot": 20,
       "bucket": "football",
       "at": "2026-06-22T18:31:00.000Z",
-      "updatedAt": "2026-06-23T01:00:00.000Z",
+      "updatedAt": "2026-06-23T18:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2069171455368007882",
-      "ageHours": 3,
-      "views": 130,
-      "likes": 4,
-      "replies": 3,
+      "ageHours": 24,
+      "views": 239,
+      "likes": 17,
+      "replies": 6,
       "snapshots": [
         {
           "ageHours": 0,
@@ -805,6 +819,13 @@
           "likes": 4,
           "replies": 3,
           "at": "2026-06-23T01:00:00.000Z"
+        },
+        {
+          "ageHours": 24,
+          "views": 239,
+          "likes": 17,
+          "replies": 6,
+          "at": "2026-06-23T18:00:00.000Z"
         }
       ],
       "note": "WC live France vs Iraq — parental advisory for Messi fans; obscene domination + Mbappé hunting Messi's same-day GOAT record; black scorecard image"
@@ -816,12 +837,21 @@
       "slot": 21,
       "bucket": "football",
       "at": "2026-06-23T07:48:00.000Z",
-      "updatedAt": "2026-06-23T09:00:00.000Z",
+      "updatedAt": "2026-06-23T18:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2069372130546814995",
-      "ageHours": 1,
+      "ageHours": 10,
       "views": 45,
       "likes": 2,
       "replies": 1,
+      "snapshots": [
+        {
+          "ageHours": 1,
+          "views": 45,
+          "likes": 2,
+          "replies": 1,
+          "at": "2026-06-23T09:00:00.000Z"
+        }
+      ],
       "note": "WC 2026 attention meta list — million on favorite, fan girl poll, real loss, Messi bait, wale PM; chalkboard collage + what did I forget?"
     },
     {
@@ -831,11 +861,21 @@
       "slot": 22,
       "bucket": "football",
       "at": "2026-06-23T12:45:00.000Z",
+      "updatedAt": "2026-06-23T18:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2069446707448877376",
-      "ageHours": 0,
-      "views": 18,
-      "likes": 0,
+      "ageHours": 5,
+      "views": 47,
+      "likes": 2,
       "replies": 0,
+      "snapshots": [
+        {
+          "ageHours": 0,
+          "views": 18,
+          "likes": 0,
+          "replies": 0,
+          "at": "2026-06-23T12:45:00.000Z"
+        }
+      ],
       "note": "QT Loshmi $410k Ronaldo NO Polymarket — Baby Boy locked-in meme; contrarian Messi-not-scoring would've been the better free-money angle"
     },
     {
@@ -846,11 +886,21 @@
       "slot": 23,
       "bucket": "football",
       "at": "2026-06-23T13:45:00.000Z",
+      "updatedAt": "2026-06-23T18:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2069461926807994462",
-      "ageHours": 0,
-      "views": 1,
-      "likes": 0,
-      "replies": 0,
+      "ageHours": 4,
+      "views": 560,
+      "likes": 28,
+      "replies": 12,
+      "snapshots": [
+        {
+          "ageHours": 0,
+          "views": 1,
+          "likes": 0,
+          "replies": 0,
+          "at": "2026-06-23T13:45:00.000Z"
+        }
+      ],
       "note": "QT Deestar Ronaldo one job — fake 5-0 scorecard manifesting; Messi fans excluded punchline; Portugal vs Uzbekistan WC day"
     },
     {
@@ -860,11 +910,21 @@
       "slot": 24,
       "bucket": "football",
       "at": "2026-06-23T15:17:00.000Z",
+      "updatedAt": "2026-06-23T18:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2069485060080718193",
-      "ageHours": 0,
-      "views": 19,
-      "likes": 11,
+      "ageHours": 3,
+      "views": 70,
+      "likes": 4,
       "replies": 1,
+      "snapshots": [
+        {
+          "ageHours": 0,
+          "views": 19,
+          "likes": 11,
+          "replies": 1,
+          "at": "2026-06-23T15:20:00.000Z"
+        }
+      ],
       "note": "QT Loshmi Ronaldo apology — never-doubted contrarian; CWC fantasy lineup 84pts (Júnior C, Mbappé 15); cheering squad vs sweating PM; lineup + Ronaldo goals-left bait"
     }
   ],
