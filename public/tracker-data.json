@@ -1,6 +1,6 @@
 {
-  "syncVersion": 47,
-  "updatedAt": "2026-06-23T18:00:00.000Z",
+  "syncVersion": 48,
+  "updatedAt": "2026-06-23T19:00:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
@@ -880,9 +880,9 @@
     },
     {
       "id": "provocative-ronaldo-goat-messi-qt-jun23",
-      "type": "provocative",
+      "type": "strategic QT",
       "fullTypes": ["hot topic", "provocative"],
-      "traits": ["meme", "strategic QT", "bait"],
+      "traits": ["meme", "bait"],
       "slot": 23,
       "bucket": "football",
       "at": "2026-06-23T13:45:00.000Z",
@@ -906,7 +906,7 @@
     {
       "id": "qt-loshmi-ronaldo-fantasy-lineup-jun23",
       "type": "strategic QT",
-      "traits": ["bait", "meme", "builder"],
+      "traits": ["bait", "builder"],
       "slot": 24,
       "bucket": "football",
       "at": "2026-06-23T15:17:00.000Z",
