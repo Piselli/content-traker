@@ -4,7 +4,7 @@ import { getNormStatus, NORMS, normLabel } from "./norms";
 import { allDisplayTypes, comboTraits, normTypes, SLOT_COMBOS } from "./traits";
 import type { ContentType, LogEntry, PostSlot } from "./types";
 import { CONTENT_TYPES } from "./types";
-import { formatLogDay, isInWeek } from "./week";
+import { formatLogDay, isInWeek, hoursSince } from "./week";
 
 export type PerformanceTier = "weak" | "ok" | "strong" | "unknown";
 
@@ -227,9 +227,13 @@ export function buildWeekAnalysis(
   }));
 
   const performers: PerformerRow[] = logs
-    .filter((l) => isInWeek(l.at, now) && l.views != null && l.ageHours != null && l.ageHours > 0)
+    .filter((l) => {
+      if (!isInWeek(l.at, now) || l.views == null) return false;
+      return hoursSince(l.at, now) > 0;
+    })
     .map((l) => {
-      const viewsPerHour = Math.round(l.views! / l.ageHours!);
+      const ageHours = hoursSince(l.at, now);
+      const viewsPerHour = Math.round(l.views! / ageHours);
       return {
         id: l.id,
         type: l.type,
@@ -238,7 +242,7 @@ export function buildWeekAnalysis(
         slot: l.slot,
         bucket: l.bucket,
         tweetUrl: l.tweetUrl,
-        ageHours: l.ageHours,
+        ageHours,
         views: l.views,
         likes: l.likes,
         replies: l.replies,
@@ -246,7 +250,7 @@ export function buildWeekAnalysis(
         replyRate: replyRatePercent(l.views, l.replies),
         likeRate: likeRatePercent(l.views, l.likes),
         repliesPer1k: repliesPer1k(l.views, l.replies),
-        tier: getPerformanceTier(l.views!, l.ageHours!),
+        tier: getPerformanceTier(l.views!, ageHours),
         replyTier: getReplyEngagementTier(l.views!, l.replies),
       };
     })

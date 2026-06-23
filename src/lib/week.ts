@@ -66,4 +66,9 @@ export function formatLogDay(iso: string): string {
   });
 }
 
+export function hoursSince(iso: string, ref = new Date()): number {
+  const ms = ref.getTime() - new Date(iso).getTime();
+  return Math.max(0, Math.round(ms / 3_600_000));
+}
+
 export { MS_DAY };

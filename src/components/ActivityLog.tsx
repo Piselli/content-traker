@@ -4,7 +4,7 @@ import { useState } from "react";
 import { TYPE_STYLES } from "@/lib/styles";
 import { comboTraits, normTypes } from "@/lib/traits";
 import type { LogEntry } from "@/lib/types";
-import { formatLogDay, formatLogTime } from "@/lib/week";
+import { formatLogDay, formatLogTime, hoursSince } from "@/lib/week";
 
 interface ActivityLogProps {
   logs: LogEntry[];
@@ -20,7 +20,8 @@ const BUCKET_LABELS: Record<string, string> = {
 
 function formatMetrics(log: LogEntry): string | null {
   const parts: string[] = [];
-  if (log.ageHours != null) parts.push(`${log.ageHours} год`);
+  const liveHours = hoursSince(log.at);
+  if (liveHours > 0 || log.views != null) parts.push(`${liveHours} год`);
   if (log.views != null) parts.push(`${log.views} перегл.`);
   if (log.likes != null) parts.push(`${log.likes} ♥`);
   if (log.replies != null) parts.push(`${log.replies} ↩`);
