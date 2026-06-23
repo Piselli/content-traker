@@ -1,11 +1,13 @@
 {
-  "syncVersion": 51,
-  "updatedAt": "2026-06-24T18:00:00.000Z",
+  "syncVersion": 52,
+  "updatedAt": "2026-06-23T23:53:22.199Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
       "type": "hot topic",
-      "traits": ["bait"],
+      "traits": [
+        "bait"
+      ],
       "slot": 1,
       "bucket": "CT",
       "at": "2026-06-17T10:17:00.000Z",
@@ -43,7 +45,10 @@
     {
       "id": "qt-telcier-advanced-meta-jun17",
       "type": "provocative",
-      "traits": ["strategic QT", "bait"],
+      "traits": [
+        "strategic QT",
+        "bait"
+      ],
       "slot": 2,
       "bucket": "CT",
       "at": "2026-06-17T14:19:00.000Z",
@@ -118,8 +123,13 @@
     {
       "id": "meme-ronaldo-do-something-jun17",
       "type": "meme",
-      "fullTypes": ["hot topic", "meme"],
-      "traits": ["builder"],
+      "fullTypes": [
+        "hot topic",
+        "meme"
+      ],
+      "traits": [
+        "builder"
+      ],
       "slot": 4,
       "bucket": "football",
       "at": "2026-06-17T18:37:00.000Z",
@@ -252,7 +262,9 @@
     {
       "id": "bait-polymarket-korean-mexican-jun18",
       "type": "bait",
-      "traits": ["meme"],
+      "traits": [
+        "meme"
+      ],
       "slot": 7,
       "bucket": "football",
       "at": "2026-06-18T18:54:00.000Z",
@@ -341,7 +353,9 @@
     {
       "id": "provocative-wale-pm-hedge-jun19",
       "type": "provocative",
-      "traits": ["strategic QT"],
+      "traits": [
+        "strategic QT"
+      ],
       "slot": 9,
       "bucket": "CT",
       "at": "2026-06-19T14:06:00.000Z",
@@ -393,7 +407,9 @@
     {
       "id": "useful-bear-pm-meta-homelander-jun19",
       "type": "useful",
-      "traits": ["meme"],
+      "traits": [
+        "meme"
+      ],
       "slot": 10,
       "bucket": "CT",
       "at": "2026-06-19T19:13:00.000Z",
@@ -445,7 +461,10 @@
     {
       "id": "strategic-qt-bigchog-pm-propaganda-jun20",
       "type": "strategic QT",
-      "traits": ["provocative", "useful"],
+      "traits": [
+        "provocative",
+        "useful"
+      ],
       "slot": 11,
       "bucket": "CT",
       "at": "2026-06-20T16:10:00.000Z",
@@ -476,7 +495,9 @@
     {
       "id": "bait-football-math-transitive-jun21",
       "type": "bait",
-      "traits": ["meme"],
+      "traits": [
+        "meme"
+      ],
       "slot": 12,
       "bucket": "football",
       "at": "2026-06-21T18:34:00.000Z",
@@ -563,22 +584,13 @@
       "note": "meta reach — Movement life arc beyond payout; personal reflection on what the airdrop actually changed"
     },
     {
-      "id": "qt-cardzz-1k-bet-jun22",
-      "type": "provocative",
-      "traits": ["strategic QT", "bait"],
-      "slot": 14,
-      "bucket": "humor",
-      "at": "2026-06-22T11:18:00.000Z",
-      "updatedAt": "2026-06-22T11:20:00.000Z",
-      "tweetUrl": "https://x.com/piselliii/status/2069017105316425754",
-      "ageHours": 0,
-      "note": "QT cardzz meta shitpost — 1k bet: stop overthinking posts or delete and pretend never happened"
-    },
-    {
       "id": "meme-jeremy-views-greentext-jun22",
       "type": "meme",
-      "traits": ["strategic QT", "hot topic"],
-      "slot": 15,
+      "traits": [
+        "strategic QT",
+        "hot topic"
+      ],
+      "slot": 14,
       "bucket": "CT",
       "at": "2026-06-22T10:26:00.000Z",
       "updatedAt": "2026-06-23T09:00:00.000Z",
@@ -622,8 +634,11 @@
     {
       "id": "qt-wale-algo-crash-test-jun22",
       "type": "strategic QT",
-      "traits": ["hot topic", "provocative"],
-      "slot": 16,
+      "traits": [
+        "hot topic",
+        "provocative"
+      ],
+      "slot": 15,
       "bucket": "CT",
       "at": "2026-06-22T11:34:00.000Z",
       "updatedAt": "2026-06-23T01:00:00.000Z",
@@ -660,8 +675,11 @@
     {
       "id": "useful-france-no-hedge-update-jun22",
       "type": "useful",
-      "traits": ["bait", "provocative"],
-      "slot": 17,
+      "traits": [
+        "bait",
+        "provocative"
+      ],
+      "slot": 16,
       "bucket": "CT",
       "at": "2026-06-22T11:58:00.000Z",
       "updatedAt": "2026-06-23T18:00:00.000Z",
@@ -691,8 +709,11 @@
     {
       "id": "meme-sam-altman-ct-decor-jun22",
       "type": "meme",
-      "fullTypes": ["hot topic", "meme"],
-      "slot": 18,
+      "fullTypes": [
+        "hot topic",
+        "meme"
+      ],
+      "slot": 17,
       "bucket": "CT",
       "at": "2026-06-22T12:34:00.000Z",
       "updatedAt": "2026-06-23T18:00:00.000Z",
@@ -743,8 +764,12 @@
     {
       "id": "qt-jeremy-notif-impressions-nikita-jun22",
       "type": "strategic QT",
-      "traits": ["provocative", "hot topic", "bait"],
-      "slot": 19,
+      "traits": [
+        "provocative",
+        "hot topic",
+        "bait"
+      ],
+      "slot": 18,
       "bucket": "CT",
       "at": "2026-06-22T14:15:00.000Z",
       "updatedAt": "2026-06-24T12:30:00.000Z",
@@ -795,8 +820,11 @@
     {
       "id": "provocative-france-iraq-messi-record-jun22",
       "type": "provocative",
-      "fullTypes": ["hot topic", "provocative"],
-      "slot": 20,
+      "fullTypes": [
+        "hot topic",
+        "provocative"
+      ],
+      "slot": 19,
       "bucket": "football",
       "at": "2026-06-22T18:31:00.000Z",
       "updatedAt": "2026-06-24T12:30:00.000Z",
@@ -847,8 +875,11 @@
     {
       "id": "hot-wc-attention-meta-jun23",
       "type": "hot topic",
-      "traits": ["bait", "meme"],
-      "slot": 21,
+      "traits": [
+        "bait",
+        "meme"
+      ],
+      "slot": 20,
       "bucket": "football",
       "at": "2026-06-23T07:48:00.000Z",
       "updatedAt": "2026-06-24T12:30:00.000Z",
@@ -885,9 +916,15 @@
     {
       "id": "provocative-ronaldo-goat-messi-qt-jun23",
       "type": "strategic QT",
-      "fullTypes": ["hot topic", "provocative"],
-      "traits": ["meme", "bait"],
-      "slot": 22,
+      "fullTypes": [
+        "hot topic",
+        "bait"
+      ],
+      "traits": [
+        "meme",
+        "provocative"
+      ],
+      "slot": 21,
       "bucket": "football",
       "at": "2026-06-23T13:45:00.000Z",
       "updatedAt": "2026-06-24T12:30:00.000Z",
@@ -924,8 +961,11 @@
     {
       "id": "qt-loshmi-ronaldo-fantasy-lineup-jun23",
       "type": "strategic QT",
-      "traits": ["bait", "builder"],
-      "slot": 23,
+      "traits": [
+        "bait",
+        "builder"
+      ],
+      "slot": 22,
       "bucket": "football",
       "at": "2026-06-23T15:17:00.000Z",
       "updatedAt": "2026-06-24T12:30:00.000Z",
@@ -960,5 +1000,9 @@
       "note": "QT Loshmi Ronaldo apology — never-doubted contrarian; CWC fantasy lineup 84pts (Júnior C, Mbappé 15); cheering squad vs sweating PM; lineup + Ronaldo goals-left bait"
     }
   ],
-  "ideas": []
+  "ideas": [],
+  "deletedUrls": [
+    "https://x.com/piselliii/status/2069017105316425754",
+    "https://x.com/piselliii/status/2069446707448877376"
+  ]
 }

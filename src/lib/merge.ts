@@ -5,6 +5,8 @@ import { extractTweetId } from "./tweetUrl";
 export interface RepoData extends AppData {
   syncVersion?: number;
   updatedAt?: string;
+  /** Tweet URLs removed from tracker — local copies must not resurrect on merge */
+  deletedUrls?: string[];
 }
 
 function logKey(log: LogEntry): string {
@@ -52,13 +54,26 @@ function mergeIdeas(local: Idea[], remote: Idea[]): Idea[] {
   );
 }
 
-export function mergeAppData(local: AppData, remote: AppData): AppData {
+export function mergeAppData(local: AppData, remote: RepoData): AppData {
+  const deletedIds = new Set(
+    (remote.deletedUrls ?? [])
+      .map((url) => extractTweetId(url))
+      .filter((id): id is string => !!id),
+  );
+
+  const isDeleted = (log: LogEntry): boolean => {
+    const id = log.tweetUrl ? extractTweetId(log.tweetUrl) : null;
+    return !!id && deletedIds.has(id);
+  };
+
   const byKey = new Map<string, LogEntry>();
 
   for (const log of remote.logs) {
+    if (isDeleted(log)) continue;
     byKey.set(logKey(log), normalizeLogEntry(log));
   }
   for (const log of local.logs) {
+    if (isDeleted(log)) continue;
     const key = logKey(log);
     const existing = byKey.get(key);
     byKey.set(key, existing ? mergeLogEntry(existing, log) : normalizeLogEntry(log));

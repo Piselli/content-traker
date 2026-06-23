@@ -44,9 +44,10 @@ export function exportJson(data: AppData): string {
   return JSON.stringify(data, null, 2);
 }
 
-export function exportRepoJson(data: AppData): string {
+export function exportRepoJson(data: AppData, deletedUrls?: string[]): string {
   const payload: RepoData = {
     ...data,
+    deletedUrls,
     syncVersion: Date.now(),
     updatedAt: new Date().toISOString(),
   };
