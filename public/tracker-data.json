@@ -1,6 +1,6 @@
 {
-  "syncVersion": 39,
-  "updatedAt": "2026-06-22T18:35:00.000Z",
+  "syncVersion": 40,
+  "updatedAt": "2026-06-23T00:40:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
@@ -480,12 +480,12 @@
       "slot": 12,
       "bucket": "football",
       "at": "2026-06-21T18:34:00.000Z",
-      "updatedAt": "2026-06-21T21:34:00.000Z",
+      "updatedAt": "2026-06-23T00:40:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2068764456230736196",
-      "ageHours": 3,
-      "views": 73,
-      "likes": 11,
-      "replies": 4,
+      "ageHours": 27,
+      "views": 204,
+      "likes": 19,
+      "replies": 5,
       "snapshots": [
         {
           "ageHours": 0,
@@ -500,6 +500,13 @@
           "likes": 11,
           "replies": 4,
           "at": "2026-06-21T21:34:00.000Z"
+        },
+        {
+          "ageHours": 27,
+          "views": 204,
+          "likes": 19,
+          "replies": 5,
+          "at": "2026-06-23T00:40:00.000Z"
         }
       ],
       "note": "WC transitive score math — Sweden/Tunisia/Netherlands pick-one (a/b/c/d) + scorecard collage + Punisher wait meme"
@@ -510,12 +517,12 @@
       "slot": 13,
       "bucket": "CT",
       "at": "2026-06-21T19:42:00.000Z",
-      "updatedAt": "2026-06-22T10:00:00.000Z",
+      "updatedAt": "2026-06-23T00:40:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2068781576100446691",
-      "ageHours": 14,
-      "views": 171,
-      "likes": 16,
-      "replies": 4,
+      "ageHours": 29,
+      "views": 265,
+      "likes": 24,
+      "replies": 5,
       "snapshots": [
         {
           "ageHours": 2,
@@ -530,6 +537,13 @@
           "likes": 16,
           "replies": 4,
           "at": "2026-06-22T10:00:00.000Z"
+        },
+        {
+          "ageHours": 29,
+          "views": 265,
+          "likes": 24,
+          "replies": 5,
+          "at": "2026-06-23T00:40:00.000Z"
         }
       ],
       "note": "meta reach — Movement life arc beyond payout; personal reflection on what the airdrop actually changed"
@@ -553,12 +567,28 @@
       "slot": 15,
       "bucket": "CT",
       "at": "2026-06-22T10:26:00.000Z",
-      "updatedAt": "2026-06-22T12:30:00.000Z",
+      "updatedAt": "2026-06-23T00:40:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2069049302974902296",
-      "ageHours": 2,
-      "views": 43,
-      "likes": 6,
+      "ageHours": 6,
+      "views": 72,
+      "likes": 10,
       "replies": 1,
+      "snapshots": [
+        {
+          "ageHours": 2,
+          "views": 43,
+          "likes": 6,
+          "replies": 1,
+          "at": "2026-06-22T12:30:00.000Z"
+        },
+        {
+          "ageHours": 6,
+          "views": 72,
+          "likes": 10,
+          "replies": 1,
+          "at": "2026-06-23T00:40:00.000Z"
+        }
+      ],
       "note": "greentext reach contrast — QT Jeremybtc on 3k views in 35s vs own 35 views in 3h; algo/botting moment on CT"
     },
     {
@@ -568,12 +598,28 @@
       "slot": 16,
       "bucket": "CT",
       "at": "2026-06-22T11:34:00.000Z",
-      "updatedAt": "2026-06-22T12:30:00.000Z",
+      "updatedAt": "2026-06-23T00:40:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2069066384202440989",
-      "ageHours": 1,
-      "views": 36,
-      "likes": 3,
+      "ageHours": 5,
+      "views": 120,
+      "likes": 9,
       "replies": 3,
+      "snapshots": [
+        {
+          "ageHours": 1,
+          "views": 36,
+          "likes": 3,
+          "replies": 3,
+          "at": "2026-06-22T12:30:00.000Z"
+        },
+        {
+          "ageHours": 5,
+          "views": 120,
+          "likes": 9,
+          "replies": 3,
+          "at": "2026-06-23T00:40:00.000Z"
+        }
+      ],
       "note": "QT waleswoosh new algo take — crash-test failed; reply: reach compound interest if you already had it"
     },
     {
@@ -598,12 +644,28 @@
       "slot": 18,
       "bucket": "CT",
       "at": "2026-06-22T12:34:00.000Z",
-      "updatedAt": "2026-06-22T12:40:00.000Z",
+      "updatedAt": "2026-06-23T00:40:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2069081603754561892",
-      "ageHours": 0,
-      "views": 50,
-      "likes": 6,
-      "replies": 2,
+      "ageHours": 5,
+      "views": 107,
+      "likes": 12,
+      "replies": 3,
+      "snapshots": [
+        {
+          "ageHours": 0,
+          "views": 50,
+          "likes": 6,
+          "replies": 2,
+          "at": "2026-06-22T12:40:00.000Z"
+        },
+        {
+          "ageHours": 5,
+          "views": 107,
+          "likes": 12,
+          "replies": 3,
+          "at": "2026-06-23T00:40:00.000Z"
+        }
+      ],
       "note": "dual norm: hot topic + meme — X algo update moment, Sam Altman religious icon as mandatory CT apartment decor"
     },
     {
@@ -613,10 +675,37 @@
       "slot": 19,
       "bucket": "CT",
       "at": "2026-06-22T14:15:00.000Z",
-      "updatedAt": "2026-06-22T14:15:00.000Z",
+      "updatedAt": "2026-06-23T00:40:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2069107016178467222",
-      "ageHours": 0,
+      "ageHours": 3,
+      "views": 61,
+      "likes": 6,
+      "replies": 2,
+      "snapshots": [
+        {
+          "ageHours": 0,
+          "views": 61,
+          "likes": 6,
+          "replies": 2,
+          "at": "2026-06-23T00:40:00.000Z"
+        }
+      ],
       "note": "QT Jeremybtc notification-as-impression theory — contrarian: algo boost on alerts is logical; mid-account mutual circle flatline; Nikita W or L?"
+    },
+    {
+      "id": "qt-wale-argentina-rage-replies-jun22",
+      "type": "strategic QT",
+      "traits": ["provocative", "hot topic"],
+      "slot": 21,
+      "bucket": "CT",
+      "at": "2026-06-22T19:57:00.000Z",
+      "updatedAt": "2026-06-23T00:40:00.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2069147752232005920",
+      "ageHours": 5,
+      "views": 75,
+      "likes": 11,
+      "replies": 1,
+      "note": "QT waleswoosh Argentina NO @ Polymarket — reframe: bet on rage replies when they win, not against Argentina; learn from the legend; embedded wale metrics (113k) ≠ own reach"
     },
     {
       "id": "provocative-france-iraq-messi-record-jun22",
@@ -625,10 +714,28 @@
       "slot": 20,
       "bucket": "football",
       "at": "2026-06-22T18:31:00.000Z",
-      "updatedAt": "2026-06-22T18:35:00.000Z",
+      "updatedAt": "2026-06-23T00:40:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2069171455368007882",
-      "ageHours": 0,
-      "views": 19,
+      "ageHours": 3,
+      "views": 114,
+      "likes": 4,
+      "replies": 3,
+      "snapshots": [
+        {
+          "ageHours": 0,
+          "views": 19,
+          "likes": 4,
+          "replies": 3,
+          "at": "2026-06-22T18:35:00.000Z"
+        },
+        {
+          "ageHours": 3,
+          "views": 114,
+          "likes": 4,
+          "replies": 3,
+          "at": "2026-06-23T00:40:00.000Z"
+        }
+      ],
       "note": "WC live France vs Iraq — parental advisory for Messi fans; obscene domination + Mbappé hunting Messi's same-day GOAT record; black scorecard image"
     }
   ],
