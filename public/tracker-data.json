@@ -1,6 +1,6 @@
 {
-  "syncVersion": 41,
-  "updatedAt": "2026-06-23T01:00:00.000Z",
+  "syncVersion": 42,
+  "updatedAt": "2026-06-23T01:15:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
@@ -749,30 +749,6 @@
         }
       ],
       "note": "QT Jeremybtc notification-as-impression theory — contrarian: algo boost on alerts is logical; mid-account mutual circle flatline; Nikita W or L?"
-    },
-    {
-      "id": "qt-wale-argentina-rage-replies-jun22",
-      "type": "strategic QT",
-      "traits": ["provocative", "hot topic"],
-      "slot": 21,
-      "bucket": "CT",
-      "at": "2026-06-22T19:57:00.000Z",
-      "updatedAt": "2026-06-23T01:00:00.000Z",
-      "tweetUrl": "https://x.com/piselliii/status/2069147752232005920",
-      "ageHours": 4,
-      "views": 113000,
-      "likes": 758,
-      "replies": 570,
-      "snapshots": [
-        {
-          "ageHours": 4,
-          "views": 113000,
-          "likes": 758,
-          "replies": 570,
-          "at": "2026-06-23T01:00:00.000Z"
-        }
-      ],
-      "note": "QT waleswoosh Argentina NO @ Polymarket — reframe: bet on rage replies when they win; learn from the legend; paid partnership; breakout ~113k views / 570 replies"
     },
     {
       "id": "provocative-france-iraq-messi-record-jun22",
