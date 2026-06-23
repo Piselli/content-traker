@@ -1,6 +1,6 @@
 {
-  "syncVersion": 48,
-  "updatedAt": "2026-06-23T19:00:00.000Z",
+  "syncVersion": 49,
+  "updatedAt": "2026-06-24T12:00:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
@@ -853,30 +853,6 @@
         }
       ],
       "note": "WC 2026 attention meta list — million on favorite, fan girl poll, real loss, Messi bait, wale PM; chalkboard collage + what did I forget?"
-    },
-    {
-      "id": "qt-loshmi-ronaldo-pm-messi-meme-jun23",
-      "type": "strategic QT",
-      "traits": ["meme", "provocative", "hot topic"],
-      "slot": 22,
-      "bucket": "football",
-      "at": "2026-06-23T12:45:00.000Z",
-      "updatedAt": "2026-06-23T18:00:00.000Z",
-      "tweetUrl": "https://x.com/piselliii/status/2069446707448877376",
-      "ageHours": 5,
-      "views": 47,
-      "likes": 2,
-      "replies": 0,
-      "snapshots": [
-        {
-          "ageHours": 0,
-          "views": 18,
-          "likes": 0,
-          "replies": 0,
-          "at": "2026-06-23T12:45:00.000Z"
-        }
-      ],
-      "note": "QT Loshmi $410k Ronaldo NO Polymarket — Baby Boy locked-in meme; contrarian Messi-not-scoring would've been the better free-money angle"
     },
     {
       "id": "provocative-ronaldo-goat-messi-qt-jun23",
