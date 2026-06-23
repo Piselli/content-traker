@@ -37,8 +37,6 @@ founder @movematchxyz | building ChicharitoNFT
 
 **7 Moves (order):** (1) one lane · (6) trusted account · (2) reply bait + reply back · (3) **60 min in comments after post** · (5) save/DM worthy · (4) media earns tap · (7) never rage-bait wrong crowd
 
-**Attention Architecture (Move 4 craft — full spec in `JARVIS.md`):** anomaly > aesthetic · recognition observations · SO WHAT? plain-text test · text=tension / image=anomaly / replies=continuation · imperfect > polished · rotate operational/physical/symbolic/environmental anomalies · 16:9 reveal off-center
-
 **Templates 01–06:** Correction magnet · Teardown · Build-in-public · Genuine ask · One-liner+thread · Bookmark list. **Links always in first reply.**
 
 **DO:** reply-bait posts, answer 80%+ replies in hour one, native charts/collage/video, useful lists  
