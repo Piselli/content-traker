@@ -1,6 +1,6 @@
 {
-  "syncVersion": 53,
-  "updatedAt": "2026-06-24T20:00:00.000Z",
+  "syncVersion": 54,
+  "updatedAt": "2026-06-25T08:00:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
@@ -998,6 +998,63 @@
         }
       ],
       "note": "QT Loshmi Ronaldo apology — never-doubted contrarian; CWC fantasy lineup 84pts (Júnior C, Mbappé 15); cheering squad vs sweating PM; lineup + Ronaldo goals-left bait"
+    },
+    {
+      "id": "builder-mm-md3-squad-ronaldo-messi-kane-jun24",
+      "type": "strategic QT",
+      "traits": [
+        "builder",
+        "bait"
+      ],
+      "slot": 23,
+      "bucket": "football",
+      "at": "2026-06-24T09:52:00.000Z",
+      "updatedAt": "2026-06-25T08:00:00.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2069765586507194691",
+      "ageHours": 8,
+      "views": 218,
+      "likes": 11,
+      "replies": 3,
+      "note": "QT MoveMatch MD3 open — Ronaldo tears of joy, locked Ronaldo/Messi/Kane; 4-3-3 squad screenshot; Mbappé benched; which pick is the crime?"
+    },
+    {
+      "id": "hot-ct-producers-consumers-ripchillpill-jun24",
+      "type": "hot topic",
+      "fullTypes": [
+        "hot topic",
+        "provocative"
+      ],
+      "traits": [
+        "strategic QT"
+      ],
+      "slot": 24,
+      "bucket": "CT",
+      "at": "2026-06-24T14:32:00.000Z",
+      "updatedAt": "2026-06-25T08:00:00.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2069835989451735114",
+      "ageHours": 3,
+      "views": 382,
+      "likes": 11,
+      "replies": 4,
+      "note": "CT meta essay — producers > consumers, simulated attention market, no new blood; QT ripchillpill quality debate"
+    },
+    {
+      "id": "qt-ct-new-blood-crypto-heatmap-jun24",
+      "type": "strategic QT",
+      "traits": [
+        "hot topic",
+        "meme"
+      ],
+      "slot": 25,
+      "bucket": "CT",
+      "at": "2026-06-24T18:08:00.000Z",
+      "updatedAt": "2026-06-25T08:00:00.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2069890461905400116",
+      "ageHours": 0,
+      "views": 14,
+      "likes": 0,
+      "replies": 0,
+      "note": "self-QT CT new-blood thread — crypto needs new people punchline; red market heatmap visual; be careful what you wish for"
     }
   ],
   "ideas": [],
