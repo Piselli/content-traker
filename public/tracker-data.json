@@ -1,6 +1,6 @@
 {
-  "syncVersion": 63,
-  "updatedAt": "2026-06-25T17:00:00.000Z",
+  "syncVersion": 64,
+  "updatedAt": "2026-06-25T17:05:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
@@ -889,11 +889,11 @@
       "slot": 20,
       "bucket": "football",
       "at": "2026-06-23T07:48:00.000Z",
-      "updatedAt": "2026-06-25T12:00:00.000Z",
+      "updatedAt": "2026-06-25T17:05:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2069372130546814995",
-      "ageHours": 52,
-      "views": 955,
-      "likes": 27,
+      "ageHours": 57,
+      "views": 981,
+      "likes": 28,
       "replies": 13,
       "snapshots": [
         {
@@ -923,6 +923,13 @@
           "likes": 27,
           "replies": 13,
           "at": "2026-06-25T12:00:00.000Z"
+        },
+        {
+          "ageHours": 57,
+          "views": 981,
+          "likes": 28,
+          "replies": 13,
+          "at": "2026-06-25T17:05:00.000Z"
         }
       ],
       "note": "WC 2026 attention meta list — million on favorite, fan girl poll, real loss, Messi bait, wale PM; chalkboard collage + what did I forget?"
@@ -941,11 +948,11 @@
       "slot": 21,
       "bucket": "football",
       "at": "2026-06-23T13:45:00.000Z",
-      "updatedAt": "2026-06-25T18:00:00.000Z",
+      "updatedAt": "2026-06-25T17:05:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2069461926807994462",
-      "ageHours": 49,
-      "views": 888,
-      "likes": 38,
+      "ageHours": 51,
+      "views": 907,
+      "likes": 39,
       "replies": 13,
       "snapshots": [
         {
@@ -982,6 +989,13 @@
           "likes": 38,
           "replies": 13,
           "at": "2026-06-25T18:00:00.000Z"
+        },
+        {
+          "ageHours": 51,
+          "views": 907,
+          "likes": 39,
+          "replies": 13,
+          "at": "2026-06-25T17:05:00.000Z"
         }
       ],
       "note": "QT Deestar Ronaldo one job — fake 5-0 scorecard manifesting; Messi fans excluded punchline; Portugal vs Uzbekistan WC day"
@@ -1064,12 +1078,12 @@
       "slot": 24,
       "bucket": "CT",
       "at": "2026-06-24T14:32:00.000Z",
-      "updatedAt": "2026-06-25T20:00:00.000Z",
+      "updatedAt": "2026-06-25T17:05:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2069835989451735114",
-      "ageHours": 6,
-      "views": 486,
-      "likes": 12,
-      "replies": 4,
+      "ageHours": 27,
+      "views": 650,
+      "likes": 20,
+      "replies": 5,
       "snapshots": [
         {
           "ageHours": 3,
@@ -1084,6 +1098,13 @@
           "likes": 12,
           "replies": 4,
           "at": "2026-06-25T18:00:00.000Z"
+        },
+        {
+          "ageHours": 27,
+          "views": 650,
+          "likes": 20,
+          "replies": 5,
+          "at": "2026-06-25T17:05:00.000Z"
         }
       ],
       "note": "CT ecosystem reflection — producers > consumers, simulated attention market; QT ripchillpill as hook, not strategic QT or provocative take"
@@ -1097,11 +1118,11 @@
       "slot": 25,
       "bucket": "CT",
       "at": "2026-06-24T18:08:00.000Z",
-      "updatedAt": "2026-06-25T20:00:00.000Z",
+      "updatedAt": "2026-06-25T17:05:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2069890461905400116",
-      "ageHours": 3,
-      "views": 67,
-      "likes": 6,
+      "ageHours": 23,
+      "views": 160,
+      "likes": 15,
       "replies": 2,
       "snapshots": [
         {
@@ -1117,6 +1138,13 @@
           "likes": 6,
           "replies": 2,
           "at": "2026-06-25T18:00:00.000Z"
+        },
+        {
+          "ageHours": 23,
+          "views": 160,
+          "likes": 15,
+          "replies": 2,
+          "at": "2026-06-25T17:05:00.000Z"
         }
       ],
       "note": "meme punchline on own CT thread — red heatmap visual, be careful what you wish for; self-QT format, not strategic QT"
@@ -1130,12 +1158,28 @@
       "slot": 26,
       "bucket": "CT",
       "at": "2026-06-25T10:59:00.000Z",
-      "updatedAt": "2026-06-25T13:00:00.000Z",
+      "updatedAt": "2026-06-25T17:05:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2070099596978581536",
-      "ageHours": 0,
-      "views": 62,
-      "likes": 4,
+      "ageHours": 7,
+      "views": 109,
+      "likes": 7,
       "replies": 3,
+      "snapshots": [
+        {
+          "ageHours": 0,
+          "views": 62,
+          "likes": 4,
+          "replies": 3,
+          "at": "2026-06-25T13:00:00.000Z"
+        },
+        {
+          "ageHours": 7,
+          "views": 109,
+          "likes": 7,
+          "replies": 3,
+          "at": "2026-06-25T17:05:00.000Z"
+        }
+      ],
       "note": "CT beefs pick-one poll — bears/bull, wale/xeet, Nikita/CT, you/profit; what did I miss?"
     },
     {
@@ -1148,12 +1192,28 @@
       "slot": 27,
       "bucket": "CT",
       "at": "2026-06-25T11:54:00.000Z",
-      "updatedAt": "2026-06-25T13:00:00.000Z",
+      "updatedAt": "2026-06-25T17:05:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2070113297886556403",
-      "ageHours": 0,
-      "views": 65,
-      "likes": 2,
+      "ageHours": 6,
+      "views": 120,
+      "likes": 9,
       "replies": 2,
+      "snapshots": [
+        {
+          "ageHours": 0,
+          "views": 65,
+          "likes": 2,
+          "replies": 2,
+          "at": "2026-06-25T13:00:00.000Z"
+        },
+        {
+          "ageHours": 6,
+          "views": 120,
+          "likes": 9,
+          "replies": 2,
+          "at": "2026-06-25T17:05:00.000Z"
+        }
+      ],
       "note": "QT waleswoosh crypto user estimates — cynical reframe: 30k smart-follow chasers, 600k losers, 500k score believers, 500 future millionaires; Wale still smarter"
     },
     {
@@ -1165,12 +1225,28 @@
       "slot": 28,
       "bucket": "football",
       "at": "2026-06-25T12:31:00.000Z",
-      "updatedAt": "2026-06-25T14:00:00.000Z",
+      "updatedAt": "2026-06-25T17:05:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2070122800325488958",
-      "ageHours": 0,
-      "views": 248,
-      "likes": 15,
-      "replies": 2,
+      "ageHours": 6,
+      "views": 565,
+      "likes": 31,
+      "replies": 5,
+      "snapshots": [
+        {
+          "ageHours": 0,
+          "views": 248,
+          "likes": 15,
+          "replies": 2,
+          "at": "2026-06-25T14:00:00.000Z"
+        },
+        {
+          "ageHours": 6,
+          "views": 565,
+          "likes": 31,
+          "replies": 5,
+          "at": "2026-06-25T17:05:00.000Z"
+        }
+      ],
       "note": "QRT ripchillpill $200 WC Value Challenge entry (contest, not pure strategic QT) — Summerville O0.5 @35¢; ripchillpill RT'd for reach; PM screenshot + form + bonus math"
     },
     {
@@ -1183,12 +1259,28 @@
       "slot": 29,
       "bucket": "CT",
       "at": "2026-06-25T14:05:00.000Z",
-      "updatedAt": "2026-06-25T16:00:00.000Z",
+      "updatedAt": "2026-06-25T17:05:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2070146335970296250",
-      "ageHours": 0,
-      "views": 34,
-      "likes": 5,
-      "replies": 0,
+      "ageHours": 3,
+      "views": 86,
+      "likes": 9,
+      "replies": 1,
+      "snapshots": [
+        {
+          "ageHours": 0,
+          "views": 34,
+          "likes": 5,
+          "replies": 0,
+          "at": "2026-06-25T16:00:00.000Z"
+        },
+        {
+          "ageHours": 3,
+          "views": 86,
+          "likes": 9,
+          "replies": 1,
+          "at": "2026-06-25T17:05:00.000Z"
+        }
+      ],
       "note": "QT lokithebird Messi Panini $175k digital card — Pawn Stars Rick 'best I can do is $5' meme; why buy digital cards you can't pawn"
     },
     {
