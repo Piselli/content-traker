@@ -1,6 +1,6 @@
 {
-  "syncVersion": 62,
-  "updatedAt": "2026-06-25T16:00:00.000Z",
+  "syncVersion": 63,
+  "updatedAt": "2026-06-25T17:00:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
@@ -1194,10 +1194,14 @@
     {
       "id": "hot-topic-btc-april-2021-imagine-jun25",
       "type": "hot topic",
+      "fullTypes": [
+        "hot topic",
+        "meme"
+      ],
       "slot": 30,
       "bucket": "CT",
       "at": "2026-06-25T14:31:00.000Z",
-      "updatedAt": "2026-06-25T16:00:00.000Z",
+      "updatedAt": "2026-06-25T17:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2070152962404401633",
       "ageHours": 0,
       "views": 46,
