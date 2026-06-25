@@ -1,6 +1,6 @@
 {
-  "syncVersion": 61,
-  "updatedAt": "2026-06-25T15:00:00.000Z",
+  "syncVersion": 62,
+  "updatedAt": "2026-06-25T16:00:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
@@ -1174,16 +1174,16 @@
       "note": "QRT ripchillpill $200 WC Value Challenge entry (contest, not pure strategic QT) — Summerville O0.5 @35¢; ripchillpill RT'd for reach; PM screenshot + form + bonus math"
     },
     {
-      "id": "strategic-qt-loki-messi-panini-pawn-stars-jun25",
-      "type": "strategic QT",
+      "id": "meme-loki-messi-panini-pawn-stars-jun25",
+      "type": "meme",
       "traits": [
-        "meme",
+        "strategic QT",
         "bait"
       ],
       "slot": 29,
       "bucket": "CT",
       "at": "2026-06-25T14:05:00.000Z",
-      "updatedAt": "2026-06-25T15:00:00.000Z",
+      "updatedAt": "2026-06-25T16:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2070146335970296250",
       "ageHours": 0,
       "views": 34,
@@ -1192,15 +1192,12 @@
       "note": "QT lokithebird Messi Panini $175k digital card — Pawn Stars Rick 'best I can do is $5' meme; why buy digital cards you can't pawn"
     },
     {
-      "id": "meme-btc-april-2021-imagine-jun25",
-      "type": "meme",
-      "traits": [
-        "hot topic"
-      ],
+      "id": "hot-topic-btc-april-2021-imagine-jun25",
+      "type": "hot topic",
       "slot": 30,
       "bucket": "CT",
       "at": "2026-06-25T14:31:00.000Z",
-      "updatedAt": "2026-06-25T15:00:00.000Z",
+      "updatedAt": "2026-06-25T16:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2070152962404401633",
       "ageHours": 0,
       "views": 46,
