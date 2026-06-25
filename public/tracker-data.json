@@ -1,6 +1,6 @@
 {
-  "syncVersion": 57,
-  "updatedAt": "2026-06-25T19:00:00.000Z",
+  "syncVersion": 58,
+  "updatedAt": "2026-06-25T20:00:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
@@ -1059,19 +1059,12 @@
       "note": "MoveMatch MD3 squad promo — Ronaldo tears of joy, locked Ronaldo/Messi/Kane; 4-3-3 screenshot; QT @MoveMatchxyz MD2 live; which pick is the crime? builder lead (product push, not strategic QT)"
     },
     {
-      "id": "hot-ct-producers-consumers-ripchillpill-jun24",
-      "type": "hot topic",
-      "fullTypes": [
-        "hot topic",
-        "provocative"
-      ],
-      "traits": [
-        "strategic QT"
-      ],
+      "id": "meta-ct-producers-consumers-ripchillpill-jun24",
+      "type": "meta reach",
       "slot": 24,
       "bucket": "CT",
       "at": "2026-06-24T14:32:00.000Z",
-      "updatedAt": "2026-06-25T18:00:00.000Z",
+      "updatedAt": "2026-06-25T20:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2069835989451735114",
       "ageHours": 6,
       "views": 486,
@@ -1093,19 +1086,18 @@
           "at": "2026-06-25T18:00:00.000Z"
         }
       ],
-      "note": "CT meta essay — producers > consumers, simulated attention market, no new blood; QT ripchillpill quality debate"
+      "note": "CT ecosystem reflection — producers > consumers, simulated attention market; QT ripchillpill as hook, not strategic QT or provocative take"
     },
     {
-      "id": "qt-ct-new-blood-crypto-heatmap-jun24",
-      "type": "strategic QT",
+      "id": "meme-ct-new-blood-crypto-heatmap-jun24",
+      "type": "meme",
       "traits": [
-        "hot topic",
-        "meme"
+        "hot topic"
       ],
       "slot": 25,
       "bucket": "CT",
       "at": "2026-06-24T18:08:00.000Z",
-      "updatedAt": "2026-06-25T18:00:00.000Z",
+      "updatedAt": "2026-06-25T20:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2069890461905400116",
       "ageHours": 3,
       "views": 67,
@@ -1127,7 +1119,7 @@
           "at": "2026-06-25T18:00:00.000Z"
         }
       ],
-      "note": "self-QT CT new-blood thread — crypto needs new people punchline; red market heatmap visual; be careful what you wish for"
+      "note": "meme punchline on own CT thread — red heatmap visual, be careful what you wish for; self-QT format, not strategic QT"
     }
   ],
   "ideas": [],

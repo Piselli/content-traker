@@ -158,7 +158,7 @@ Separate from playbook weights — explains **view count inflation**, not engage
 | **provocative** | short sharp contrarian take, edge without essay |
 | **strategic QT** | quote tweet of KOL with standalone punch (CT/crypto discourse — not product promo) |
 | **builder** | MoveMatch / IRL / product — **lead type even if post is a QT** |
-| **meta reach** | reflection on your own reach / algorithm / dead account (≤1/week, rare) |
+| **meta reach** | reflection on reach, algorithm, platform/ecosystem meta — essay tone, not edge (≤1/week, rare) |
 
 Combo allowed — log **primary `type`** + optional **`fullTypes[]`** (2 norms at 100%) + **`traits[]`** (supplementary combo only).
 
@@ -171,9 +171,11 @@ Combo allowed — log **primary `type`** + optional **`fullTypes[]`** (2 norms a
 
 1. **Why now?** → pick lead `type` (first badge)
 2. **MoveMatch / product push?** → **`builder` lead** — squad screenshots, MD announcements, QT of @MoveMatchxyz when the goal is product reach. Do **not** log as strategic QT just because it's a quote tweet.
-3. **Two types 100%?** → set `fullTypes: [a, b]` (both count in norms)
-4. **Supplementary angle?** → `traits[]` only (bait on a hot topic poll, provocative on bait QT)
-5. **Slot combos**: morning `hot topic + bait` → midday `bait + provocative` → afternoon `hot topic` → evening `hot topic + meme` via `fullTypes`
+3. **Platform/ecosystem reflection?** → **`meta reach` lead** — CT meta essays, producers vs consumers, attention market takes. Not provocative just because it's contrarian; not strategic QT if the QT is just a hook for your own thread.
+4. **Visual punchline > text?** → **`meme` lead** — heatmap screenshots, reaction images, self-QT with one-liner punch. Not strategic QT.
+5. **Two types 100%?** → set `fullTypes: [a, b]` (both count in norms)
+6. **Supplementary angle?** → `traits[]` only (bait on a hot topic poll, provocative on bait QT)
+7. **Slot combos**: morning `hot topic + bait` → midday `bait + provocative` → afternoon `hot topic` → evening `hot topic + meme` via `fullTypes`
 
 | Example | type (lead) | fullTypes | traits (combo) |
 |---------|-------------|-----------|----------------|
@@ -182,6 +184,8 @@ Combo allowed — log **primary `type`** + optional **`fullTypes[]`** (2 norms a
 | Kaito washed card | hot topic | — | — |
 | Ronaldo DO SOMETHING | meme | hot topic, meme | builder |
 | MoveMatch MD3 squad | builder | — | bait |
+| CT producers essay | meta reach | — | — |
+| Crypto heatmap self-QT | meme | — | hot topic |
 
 ## How to respond
 
