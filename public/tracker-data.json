@@ -1,6 +1,6 @@
 {
-  "syncVersion": 58,
-  "updatedAt": "2026-06-25T20:00:00.000Z",
+  "syncVersion": 59,
+  "updatedAt": "2026-06-25T13:00:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
@@ -1120,6 +1120,59 @@
         }
       ],
       "note": "meme punchline on own CT thread — red heatmap visual, be careful what you wish for; self-QT format, not strategic QT"
+    },
+    {
+      "id": "bait-ct-beefs-pick-one-jun25",
+      "type": "bait",
+      "traits": [
+        "hot topic"
+      ],
+      "slot": 26,
+      "bucket": "CT",
+      "at": "2026-06-25T10:59:00.000Z",
+      "updatedAt": "2026-06-25T13:00:00.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2070099596978581536",
+      "ageHours": 0,
+      "views": 62,
+      "likes": 4,
+      "replies": 3,
+      "note": "CT beefs pick-one poll — bears/bull, wale/xeet, Nikita/CT, you/profit; what did I miss?"
+    },
+    {
+      "id": "strategic-qt-wale-crypto-user-stats-jun25",
+      "type": "strategic QT",
+      "traits": [
+        "provocative",
+        "bait"
+      ],
+      "slot": 27,
+      "bucket": "CT",
+      "at": "2026-06-25T11:54:00.000Z",
+      "updatedAt": "2026-06-25T13:00:00.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2070113297886556403",
+      "ageHours": 0,
+      "views": 65,
+      "likes": 2,
+      "replies": 2,
+      "note": "QT waleswoosh crypto user estimates — cynical reframe: 30k smart-follow chasers, 600k losers, 500k score believers, 500 future millionaires; Wale still smarter"
+    },
+    {
+      "id": "useful-summerville-wc-value-pick-jun25",
+      "type": "useful",
+      "traits": [
+        "strategic QT",
+        "bait"
+      ],
+      "slot": 28,
+      "bucket": "football",
+      "at": "2026-06-25T12:31:00.000Z",
+      "updatedAt": "2026-06-25T13:00:00.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2070122800325488958",
+      "ageHours": 0,
+      "views": 248,
+      "likes": 15,
+      "replies": 2,
+      "note": "QRT ripchillpill $200 WC Value Challenge — Summerville O0.5 @35¢; 2 WC goals, NL need 1st, Tunisia broken; PM screenshot + form; bonus 25-1 math joke"
     }
   ],
   "ideas": [],
