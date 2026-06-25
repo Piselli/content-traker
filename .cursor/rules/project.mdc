@@ -41,6 +41,7 @@ User does **not** need to click Done on site if agent handles logging.
 | URL replace / metric refresh | screenshot + URL | Upsert by URL → commit + push |
 
 - **Lead `type`** + optional **`fullTypes[]`** (dual norm when 2 types at 100%) + **`traits[]`** (combo only)
+- **MoveMatch / product promo** → lead `type: builder` (squad screenshots, MD posts, QT @MoveMatchxyz for reach). Not strategic QT just because it's a quote tweet.
 - Same tweet URL = update existing log, do not duplicate.
 - Communicate analysis to user **in Ukrainian**. App UI stays English.
 - User consults in chat before posting → agent already knows classification when they say «опублікував».

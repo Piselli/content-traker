@@ -1,6 +1,6 @@
 {
-  "syncVersion": 56,
-  "updatedAt": "2026-06-25T18:00:00.000Z",
+  "syncVersion": 57,
+  "updatedAt": "2026-06-25T19:00:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
@@ -1043,21 +1043,20 @@
     },
     {
       "id": "builder-mm-md3-squad-ronaldo-messi-kane-jun24",
-      "type": "strategic QT",
+      "type": "builder",
       "traits": [
-        "builder",
         "bait"
       ],
       "slot": 23,
       "bucket": "football",
       "at": "2026-06-24T09:52:00.000Z",
-      "updatedAt": "2026-06-25T08:00:00.000Z",
+      "updatedAt": "2026-06-25T18:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2069765586507194691",
-      "ageHours": 8,
+      "ageHours": 15,
       "views": 218,
       "likes": 11,
       "replies": 3,
-      "note": "QT MoveMatch MD3 open — Ronaldo tears of joy, locked Ronaldo/Messi/Kane; 4-3-3 squad screenshot; Mbappé benched; which pick is the crime?"
+      "note": "MoveMatch MD3 squad promo — Ronaldo tears of joy, locked Ronaldo/Messi/Kane; 4-3-3 screenshot; QT @MoveMatchxyz MD2 live; which pick is the crime? builder lead (product push, not strategic QT)"
     },
     {
       "id": "hot-ct-producers-consumers-ripchillpill-jun24",

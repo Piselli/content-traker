@@ -156,8 +156,8 @@ Separate from playbook weights — explains **view count inflation**, not engage
 | **useful** | analysis + chart/receipts, teaches something |
 | **bait** | lists, polls, "pick one", questions for replies |
 | **provocative** | short sharp contrarian take, edge without essay |
-| **strategic QT** | quote tweet of KOL with standalone punch |
-| **builder** | MoveMatch / IRL / product |
+| **strategic QT** | quote tweet of KOL with standalone punch (CT/crypto discourse — not product promo) |
+| **builder** | MoveMatch / IRL / product — **lead type even if post is a QT** |
 | **meta reach** | reflection on your own reach / algorithm / dead account (≤1/week, rare) |
 
 Combo allowed — log **primary `type`** + optional **`fullTypes[]`** (2 norms at 100%) + **`traits[]`** (supplementary combo only).
@@ -170,9 +170,10 @@ Combo allowed — log **primary `type`** + optional **`fullTypes[]`** (2 norms a
 ### Classification rules (agent)
 
 1. **Why now?** → pick lead `type` (first badge)
-2. **Two types 100%?** → set `fullTypes: [a, b]` (both count in norms)
-3. **Supplementary angle?** → `traits[]` only (bait on a hot topic poll, provocative on bait QT)
-4. **Slot combos**: morning `hot topic + bait` → midday `bait + provocative` → afternoon `hot topic` → evening `hot topic + meme` via `fullTypes`
+2. **MoveMatch / product push?** → **`builder` lead** — squad screenshots, MD announcements, QT of @MoveMatchxyz when the goal is product reach. Do **not** log as strategic QT just because it's a quote tweet.
+3. **Two types 100%?** → set `fullTypes: [a, b]` (both count in norms)
+4. **Supplementary angle?** → `traits[]` only (bait on a hot topic poll, provocative on bait QT)
+5. **Slot combos**: morning `hot topic + bait` → midday `bait + provocative` → afternoon `hot topic` → evening `hot topic + meme` via `fullTypes`
 
 | Example | type (lead) | fullTypes | traits (combo) |
 |---------|-------------|-----------|----------------|
@@ -180,6 +181,7 @@ Combo allowed — log **primary `type`** + optional **`fullTypes[]`** (2 norms a
 | QT Telcier list | provocative | — | strategic QT, bait |
 | Kaito washed card | hot topic | — | — |
 | Ronaldo DO SOMETHING | meme | hot topic, meme | builder |
+| MoveMatch MD3 squad | builder | — | bait |
 
 ## How to respond
 
