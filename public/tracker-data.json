@@ -1,6 +1,6 @@
 {
-  "syncVersion": 54,
-  "updatedAt": "2026-06-25T08:00:00.000Z",
+  "syncVersion": 56,
+  "updatedAt": "2026-06-25T18:00:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
@@ -827,11 +827,11 @@
       "slot": 19,
       "bucket": "football",
       "at": "2026-06-22T18:31:00.000Z",
-      "updatedAt": "2026-06-24T12:30:00.000Z",
+      "updatedAt": "2026-06-25T12:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2069171455368007882",
-      "ageHours": 41,
-      "views": 258,
-      "likes": 17,
+      "ageHours": 65,
+      "views": 279,
+      "likes": 19,
       "replies": 6,
       "snapshots": [
         {
@@ -868,6 +868,13 @@
           "likes": 17,
           "replies": 6,
           "at": "2026-06-24T12:30:00.000Z"
+        },
+        {
+          "ageHours": 65,
+          "views": 279,
+          "likes": 19,
+          "replies": 6,
+          "at": "2026-06-25T12:00:00.000Z"
         }
       ],
       "note": "WC live France vs Iraq — parental advisory for Messi fans; obscene domination + Mbappé hunting Messi's same-day GOAT record; black scorecard image"
@@ -882,12 +889,12 @@
       "slot": 20,
       "bucket": "football",
       "at": "2026-06-23T07:48:00.000Z",
-      "updatedAt": "2026-06-24T12:30:00.000Z",
+      "updatedAt": "2026-06-25T12:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2069372130546814995",
-      "ageHours": 28,
-      "views": 773,
-      "likes": 23,
-      "replies": 12,
+      "ageHours": 52,
+      "views": 955,
+      "likes": 27,
+      "replies": 13,
       "snapshots": [
         {
           "ageHours": 1,
@@ -909,6 +916,13 @@
           "likes": 23,
           "replies": 12,
           "at": "2026-06-24T12:30:00.000Z"
+        },
+        {
+          "ageHours": 52,
+          "views": 955,
+          "likes": 27,
+          "replies": 13,
+          "at": "2026-06-25T12:00:00.000Z"
         }
       ],
       "note": "WC 2026 attention meta list — million on favorite, fan girl poll, real loss, Messi bait, wale PM; chalkboard collage + what did I forget?"
@@ -927,11 +941,11 @@
       "slot": 21,
       "bucket": "football",
       "at": "2026-06-23T13:45:00.000Z",
-      "updatedAt": "2026-06-24T20:00:00.000Z",
+      "updatedAt": "2026-06-25T18:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2069461926807994462",
-      "ageHours": 22,
-      "views": 747,
-      "likes": 30,
+      "ageHours": 49,
+      "views": 888,
+      "likes": 38,
       "replies": 13,
       "snapshots": [
         {
@@ -954,6 +968,20 @@
           "likes": 30,
           "replies": 13,
           "at": "2026-06-24T12:30:00.000Z"
+        },
+        {
+          "ageHours": 46,
+          "views": 882,
+          "likes": 37,
+          "replies": 13,
+          "at": "2026-06-25T12:00:00.000Z"
+        },
+        {
+          "ageHours": 49,
+          "views": 888,
+          "likes": 38,
+          "replies": 13,
+          "at": "2026-06-25T18:00:00.000Z"
         }
       ],
       "note": "QT Deestar Ronaldo one job — fake 5-0 scorecard manifesting; Messi fans excluded punchline; Portugal vs Uzbekistan WC day"
@@ -968,12 +996,12 @@
       "slot": 22,
       "bucket": "football",
       "at": "2026-06-23T15:17:00.000Z",
-      "updatedAt": "2026-06-24T12:30:00.000Z",
+      "updatedAt": "2026-06-25T18:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2069485060080718193",
-      "ageHours": 21,
-      "views": 209,
-      "likes": 11,
-      "replies": 3,
+      "ageHours": 48,
+      "views": 334,
+      "likes": 24,
+      "replies": 8,
       "snapshots": [
         {
           "ageHours": 0,
@@ -995,6 +1023,20 @@
           "likes": 11,
           "replies": 3,
           "at": "2026-06-24T12:30:00.000Z"
+        },
+        {
+          "ageHours": 45,
+          "views": 331,
+          "likes": 23,
+          "replies": 8,
+          "at": "2026-06-25T12:00:00.000Z"
+        },
+        {
+          "ageHours": 48,
+          "views": 334,
+          "likes": 24,
+          "replies": 8,
+          "at": "2026-06-25T18:00:00.000Z"
         }
       ],
       "note": "QT Loshmi Ronaldo apology — never-doubted contrarian; CWC fantasy lineup 84pts (Júnior C, Mbappé 15); cheering squad vs sweating PM; lineup + Ronaldo goals-left bait"
@@ -1030,12 +1072,28 @@
       "slot": 24,
       "bucket": "CT",
       "at": "2026-06-24T14:32:00.000Z",
-      "updatedAt": "2026-06-25T08:00:00.000Z",
+      "updatedAt": "2026-06-25T18:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2069835989451735114",
-      "ageHours": 3,
-      "views": 382,
-      "likes": 11,
+      "ageHours": 6,
+      "views": 486,
+      "likes": 12,
       "replies": 4,
+      "snapshots": [
+        {
+          "ageHours": 3,
+          "views": 382,
+          "likes": 11,
+          "replies": 4,
+          "at": "2026-06-25T08:00:00.000Z"
+        },
+        {
+          "ageHours": 6,
+          "views": 486,
+          "likes": 12,
+          "replies": 4,
+          "at": "2026-06-25T18:00:00.000Z"
+        }
+      ],
       "note": "CT meta essay — producers > consumers, simulated attention market, no new blood; QT ripchillpill quality debate"
     },
     {
@@ -1048,12 +1106,28 @@
       "slot": 25,
       "bucket": "CT",
       "at": "2026-06-24T18:08:00.000Z",
-      "updatedAt": "2026-06-25T08:00:00.000Z",
+      "updatedAt": "2026-06-25T18:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2069890461905400116",
-      "ageHours": 0,
-      "views": 14,
-      "likes": 0,
-      "replies": 0,
+      "ageHours": 3,
+      "views": 67,
+      "likes": 6,
+      "replies": 2,
+      "snapshots": [
+        {
+          "ageHours": 0,
+          "views": 14,
+          "likes": 0,
+          "replies": 0,
+          "at": "2026-06-24T18:08:00.000Z"
+        },
+        {
+          "ageHours": 3,
+          "views": 67,
+          "likes": 6,
+          "replies": 2,
+          "at": "2026-06-25T18:00:00.000Z"
+        }
+      ],
       "note": "self-QT CT new-blood thread — crypto needs new people punchline; red market heatmap visual; be careful what you wish for"
     }
   ],
