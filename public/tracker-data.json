@@ -1,6 +1,6 @@
 {
-  "syncVersion": 64,
-  "updatedAt": "2026-06-25T17:05:00.000Z",
+  "syncVersion": 65,
+  "updatedAt": "2026-06-25T18:30:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
@@ -1010,11 +1010,11 @@
       "slot": 22,
       "bucket": "football",
       "at": "2026-06-23T15:17:00.000Z",
-      "updatedAt": "2026-06-25T18:00:00.000Z",
+      "updatedAt": "2026-06-25T18:30:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2069485060080718193",
-      "ageHours": 48,
-      "views": 334,
-      "likes": 24,
+      "ageHours": 51,
+      "views": 356,
+      "likes": 25,
       "replies": 8,
       "snapshots": [
         {
@@ -1051,6 +1051,13 @@
           "likes": 24,
           "replies": 8,
           "at": "2026-06-25T18:00:00.000Z"
+        },
+        {
+          "ageHours": 51,
+          "views": 356,
+          "likes": 25,
+          "replies": 8,
+          "at": "2026-06-25T18:30:00.000Z"
         }
       ],
       "note": "QT Loshmi Ronaldo apology — never-doubted contrarian; CWC fantasy lineup 84pts (Júnior C, Mbappé 15); cheering squad vs sweating PM; lineup + Ronaldo goals-left bait"
@@ -1293,12 +1300,28 @@
       "slot": 30,
       "bucket": "CT",
       "at": "2026-06-25T14:31:00.000Z",
-      "updatedAt": "2026-06-25T17:00:00.000Z",
+      "updatedAt": "2026-06-25T18:30:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2070152962404401633",
-      "ageHours": 0,
-      "views": 46,
-      "likes": 5,
-      "replies": 2,
+      "ageHours": 4,
+      "views": 199,
+      "likes": 16,
+      "replies": 9,
+      "snapshots": [
+        {
+          "ageHours": 0,
+          "views": 46,
+          "likes": 5,
+          "replies": 2,
+          "at": "2026-06-25T17:00:00.000Z"
+        },
+        {
+          "ageHours": 4,
+          "views": 199,
+          "likes": 16,
+          "replies": 9,
+          "at": "2026-06-25T18:30:00.000Z"
+        }
+      ],
       "note": "imagine $10k BTC Apr 12 2021 → $9k now; native chart visual -10% P/L punchline; cynical HODL reality check"
     }
   ],
