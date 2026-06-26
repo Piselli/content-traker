@@ -1,6 +1,6 @@
 {
-  "syncVersion": 67,
-  "updatedAt": "2026-06-26T16:30:00.000Z",
+  "syncVersion": 68,
+  "updatedAt": "2026-06-26T19:30:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
@@ -1443,6 +1443,23 @@
       "likes": 12,
       "replies": 5,
       "note": "QT bigchog impressions = BTC chart — contrarian: memecoin decoupled, only self-pump matters; own impressions line chart visual"
+    },
+    {
+      "id": "bait-wc-football-stay-ct-jun26",
+      "type": "bait",
+      "traits": [
+        "hot topic"
+      ],
+      "slot": 33,
+      "bucket": "CT",
+      "at": "2026-06-26T18:42:25.000Z",
+      "updatedAt": "2026-06-26T19:30:00.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2070578444535050247",
+      "ageHours": 1,
+      "views": 58,
+      "likes": 5,
+      "replies": 3,
+      "note": "WC fair-weather football poll for CT — POLY airdrop / leagues / Polymarket / mute by July 19; pick-one reply bait"
     }
   ],
   "ideas": [],
