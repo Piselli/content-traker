@@ -1,6 +1,6 @@
 {
-  "syncVersion": 73,
-  "updatedAt": "2026-06-26T21:45:11.705Z",
+  "syncVersion": 74,
+  "updatedAt": "2026-06-26T21:47:45.872Z",
   "logs": [
     {
       "id": "bait-wc-football-stay-ct-jun26",
@@ -498,9 +498,9 @@
       "slot": 22,
       "bucket": "football",
       "at": "2026-06-23T15:17:00.000Z",
-      "updatedAt": "2026-06-26T21:44:26.757Z",
+      "updatedAt": "2026-06-26T21:47:45.872Z",
       "tweetUrl": "https://x.com/piselliii/status/2069485060080718193",
-      "ageHours": 78,
+      "ageHours": 79,
       "views": 356,
       "likes": 25,
       "replies": 8,
@@ -549,7 +549,7 @@
         }
       ],
       "note": "QT Loshmi Ronaldo apology — never-doubted contrarian; CWC fantasy lineup 84pts (Júnior C, Mbappé 15); cheering squad vs sweating PM; lineup + Ronaldo goals-left bait",
-      "syncedAt": "2026-06-26T21:44:26.757Z"
+      "syncedAt": "2026-06-26T21:47:45.872Z"
     },
     {
       "id": "provocative-ronaldo-goat-messi-qt-jun23",
@@ -1664,9 +1664,9 @@
       "slot": 1,
       "bucket": "CT",
       "at": "2026-06-17T10:17:00.000Z",
-      "updatedAt": "2026-06-26T21:44:26.757Z",
+      "updatedAt": "2026-06-26T21:47:45.872Z",
       "tweetUrl": "https://x.com/piselliii/status/2067189878350049777",
-      "ageHours": 227,
+      "ageHours": 228,
       "views": 242,
       "likes": 17,
       "replies": 6,
@@ -1701,7 +1701,7 @@
         }
       ],
       "note": "gambling meta discourse on CT — take on the moment, delivered as pick-one poll",
-      "syncedAt": "2026-06-26T21:44:26.757Z"
+      "syncedAt": "2026-06-26T21:47:45.872Z"
     }
   ],
   "ideas": [],
