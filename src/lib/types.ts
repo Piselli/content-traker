@@ -33,6 +33,10 @@ export interface LogEntry {
   id: string;
   /** Lead type — first badge, default Done target */
   type: ContentType;
+  /** Auto-synced from X — excluded from norms until classified in chat */
+  classificationPending?: boolean;
+  /** Last metrics pull from sync-x script */
+  syncedAt?: string;
   /** When 2 types are 100% (e.g. hot topic + meme) — both count toward norms */
   fullTypes?: ContentType[];
   /** Supplementary angles — combo only, not norm progress */

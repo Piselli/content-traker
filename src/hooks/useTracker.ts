@@ -117,7 +117,18 @@ export function useTracker() {
       patch: Partial<
         Pick<
           LogEntry,
-          "tweetUrl" | "ageHours" | "views" | "likes" | "replies" | "note" | "traits" | "slot" | "bucket"
+          | "tweetUrl"
+          | "ageHours"
+          | "views"
+          | "likes"
+          | "replies"
+          | "note"
+          | "traits"
+          | "slot"
+          | "bucket"
+          | "type"
+          | "fullTypes"
+          | "classificationPending"
         >
       >,
     ) => {
@@ -203,10 +214,22 @@ export function useTracker() {
           (l) => l.tweetUrl && tweetUrlsMatch(l.tweetUrl, url),
         );
         if (existing) {
+          const resolvedType = opts?.fullTypes?.[0] ?? type;
           const patch: Partial<
             Pick<
               LogEntry,
-              "tweetUrl" | "ageHours" | "views" | "likes" | "replies" | "note" | "fullTypes" | "traits" | "slot" | "bucket"
+              | "tweetUrl"
+              | "ageHours"
+              | "views"
+              | "likes"
+              | "replies"
+              | "note"
+              | "fullTypes"
+              | "traits"
+              | "slot"
+              | "bucket"
+              | "type"
+              | "classificationPending"
             >
           > = { tweetUrl: url };
           if (opts?.ageHours != null) patch.ageHours = opts.ageHours;
@@ -217,10 +240,14 @@ export function useTracker() {
           if (opts?.slot != null) patch.slot = opts.slot;
           if (opts?.bucket != null) patch.bucket = opts.bucket;
           if (opts?.fullTypes != null) patch.fullTypes = opts.fullTypes;
+          if (existing.classificationPending && resolvedType) {
+            patch.type = resolvedType;
+            patch.classificationPending = false;
+          }
           if (opts?.traits != null) {
-            patch.traits = opts.traits.filter((t) => t !== existing.type);
+            patch.traits = opts.traits.filter((t) => t !== (patch.type ?? existing.type));
           } else if (opts?.secondaryType != null) {
-            patch.traits = resolveTraits(existing.type, opts);
+            patch.traits = resolveTraits(patch.type ?? existing.type, opts);
           }
           updateLog(existing.id, patch);
           return "updated";

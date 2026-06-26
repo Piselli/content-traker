@@ -34,6 +34,13 @@ JARVIS.md                     → X content strategy
 4. `git commit` + `git push origin main` — **always, without asking** when user sends URL+screenshot (overrides general commit-only-when-asked rule)
 5. Reply in Ukrainian with what was logged + confirm push
 
+### Auto-sync (free — no X API)
+
+- `npm run sync:x` — refresh **likes + replies** for tweet URLs already in tracker (syndication, $0)
+- GitHub Action `.github/workflows/sync-x.yml` every 3h — same, auto-commits `tracker-data.json` (no secrets)
+- **Does not** auto-discover new posts or pull views — after you post, paste URL in chat once for classify + log
+- Auto-synced entries (if any) have `classificationPending: true` — not counted in norms until classified
+
 User workflow: advise in chat → post on X → «опублікував» + URL (+ screenshot) → ~3h screenshot → ~24h screenshot.
 
 ## Data model

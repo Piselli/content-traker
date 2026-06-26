@@ -30,6 +30,7 @@ export function Dashboard() {
   } = useTracker();
 
   const [copied, setCopied] = useState(false);
+  const pendingCount = data.logs.filter((l) => l.classificationPending).length;
 
   function download(filename: string, content: string) {
     const blob = new Blob([content], { type: "application/json" });
@@ -127,6 +128,12 @@ export function Dashboard() {
         </header>
 
         <WeekSummary weekCounts={weekCounts} analysis={weekAnalysis} />
+
+        {pendingCount > 0 && (
+          <div className="mt-6 rounded-xl border border-amber-500/30 bg-amber-950/20 px-4 py-3 text-sm text-amber-100/90">
+            {pendingCount} auto-synced post{pendingCount === 1 ? "" : "s"} need classification — paste URL + type in chat or Quick log.
+          </div>
+        )}
 
         <section className="mt-8">
           <h2 className="mb-3 text-xs font-medium uppercase tracking-widest text-zinc-500">

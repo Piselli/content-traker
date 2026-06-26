@@ -89,15 +89,22 @@ function LogRow({
         />
         <div className="min-w-0 flex-1">
           <div className="flex flex-wrap items-center gap-1.5">
-            {normTypes(log).map((t) => (
-              <span
-                key={t}
-                className={`rounded-full border px-2 py-0.5 text-[10px] ${TYPE_STYLES[t].accent} border-zinc-700 bg-zinc-800/80`}
-              >
-                {t}
+            {log.classificationPending ? (
+              <span className="rounded-full border border-amber-500/40 bg-amber-950/50 px-2 py-0.5 text-[10px] text-amber-200">
+                classify me
               </span>
-            ))}
-            {comboTraits(log).map((t) => (
+            ) : (
+              normTypes(log).map((t) => (
+                <span
+                  key={t}
+                  className={`rounded-full border px-2 py-0.5 text-[10px] ${TYPE_STYLES[t].accent} border-zinc-700 bg-zinc-800/80`}
+                >
+                  {t}
+                </span>
+              ))
+            )}
+            {!log.classificationPending &&
+              comboTraits(log).map((t) => (
               <span
                 key={t}
                 className="rounded-full border border-violet-500/25 bg-violet-950/30 px-2 py-0.5 text-[10px] text-violet-300/90"

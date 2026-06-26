@@ -1,0 +1,29 @@
+name: Sync X
+
+on:
+  schedule:
+    - cron: "15 */3 * * *"
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Pull posts + metrics
+        run: node scripts/sync-x.mjs
+        env:
+          X_USERNAME: piselliii
+
+      - name: Commit tracker-data.json
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: sync X posts and metrics"
+          file_pattern: public/tracker-data.json

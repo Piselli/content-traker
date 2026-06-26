@@ -87,6 +87,7 @@ export function countWeekBreakdown(
   }
   for (const log of logs) {
     if (!isInWeek(log.at, now)) continue;
+    if (log.classificationPending) continue;
     for (const type of normTypes(log)) {
       counts[type].primary += 1;
       counts[type].total += 1;
