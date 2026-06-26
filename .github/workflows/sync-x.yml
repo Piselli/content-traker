@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: "15 */3 * * *"
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "public/tracker-data.json"
 
 jobs:
   sync:
