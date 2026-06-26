@@ -1,6 +1,6 @@
 {
-  "syncVersion": 70,
-  "updatedAt": "2026-06-26T20:30:00.000Z",
+  "syncVersion": 71,
+  "updatedAt": "2026-06-26T21:00:00.000Z",
   "logs": [
     {
       "id": "bait-gambling-meta-jun17",
@@ -1449,7 +1449,7 @@
       "type": "hot topic",
       "classificationPending": true,
       "slot": 33,
-      "bucket": "football",
+      "bucket": "CT",
       "at": "2026-06-26T18:42:25.000Z",
       "updatedAt": "2026-06-26T20:30:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2070578444535050247",
@@ -1457,7 +1457,7 @@
       "views": 58,
       "likes": 5,
       "replies": 3,
-      "note": "WC fair-weather football poll — no clean category fit; logged for metrics only"
+      "note": "addressed to CT fair-weather WC football crowd — no clean type fit; logged for metrics only"
     }
   ],
   "ideas": [],
