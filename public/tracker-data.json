@@ -1,14 +1,10 @@
 {
-  "syncVersion": 92,
-  "updatedAt": "2026-06-28T22:22:30.993Z",
+  "syncVersion": 93,
+  "updatedAt": "2026-06-28T22:23:22.940Z",
   "logs": [
     {
       "id": "hot-topic-ansem-peoples-token-jun28",
       "type": "hot topic",
-      "traits": [
-        "provocative",
-        "bait"
-      ],
       "slot": 34,
       "bucket": "CT",
       "at": "2026-06-28T20:09:00.000Z",
