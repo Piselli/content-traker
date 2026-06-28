@@ -1,6 +1,6 @@
 {
-  "syncVersion": 90,
-  "updatedAt": "2026-06-28T22:20:54.542Z",
+  "syncVersion": 91,
+  "updatedAt": "2026-06-28T22:22:11.049Z",
   "logs": [
     {
       "id": "hot-topic-ansem-peoples-token-jun28",
@@ -12,23 +12,23 @@
       "slot": 34,
       "bucket": "CT",
       "at": "2026-06-28T20:09:00.000Z",
-      "updatedAt": "2026-06-28T22:20:54.542Z",
+      "updatedAt": "2026-06-28T22:22:11.049Z",
       "tweetUrl": "https://x.com/piselliii/status/2071325017053245938",
       "ageHours": 2,
-      "views": 659,
+      "views": 68,
       "likes": 6,
       "replies": 2,
       "note": "$ANSEM KOL pump autopsy — local peak around one person; can ~500 active CT accounts coordinate a peoples token where they capture upside?",
       "snapshots": [
         {
-          "ageHours": 14,
-          "views": 659,
-          "likes": 44,
-          "replies": 22,
-          "checkedAt": "2026-06-29T10:00:00.000Z"
+          "ageHours": 2,
+          "views": 68,
+          "likes": 6,
+          "replies": 2,
+          "checkedAt": "2026-06-28T22:22:11.049Z"
         }
       ],
-      "syncedAt": "2026-06-28T22:20:54.542Z"
+      "syncedAt": "2026-06-28T22:22:11.049Z"
     },
     {
       "id": "bait-wc-football-stay-ct-jun26",
