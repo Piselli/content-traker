@@ -1,23 +1,26 @@
 {
-  "syncVersion": 95,
-  "updatedAt": "2026-06-28T22:57:40.788Z",
+  "syncVersion": 96,
+  "updatedAt": "2026-06-28T23:59:00.000Z",
   "logs": [
     {
-      "id": "useful-ansem-mellstroy-bounty-jun28",
-      "type": "useful",
+      "id": "strategic-qt-ansem-mellstroy-bounty-jun28",
+      "type": "hot topic",
+      "fullTypes": [
+        "hot topic",
+        "provocative"
+      ],
       "traits": [
-        "strategic QT",
-        "hot topic"
+        "strategic QT"
       ],
       "slot": 35,
       "bucket": "CT",
-      "at": "2026-06-28T22:55:00.000Z",
+      "at": "2026-06-28T23:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2071366946897932622",
       "ageHours": 0,
       "views": 5,
       "likes": 0,
       "replies": 0,
-      "note": "reply to @blknoiz06 TikTok post — Mellstroy bounty playbook: fan clip farms paid per 1M views to scale $ANSEM beyond CT"
+      "note": "reply to @blknoiz06 TikTok post — Mellstroy bounty playbook unsolicited advice; sass closer (don't thank me)"
     },
     {
       "id": "hot-topic-ansem-peoples-token-jun28",
