@@ -1,7 +1,35 @@
 {
-  "syncVersion": 88,
-  "updatedAt": "2026-06-28T22:14:28.120Z",
+  "syncVersion": 89,
+  "updatedAt": "2026-06-29T10:00:00.000Z",
   "logs": [
+    {
+      "id": "hot-topic-ansem-peoples-token-jun28",
+      "type": "hot topic",
+      "traits": [
+        "provocative",
+        "bait"
+      ],
+      "slot": 34,
+      "bucket": "CT",
+      "at": "2026-06-28T20:09:00.000Z",
+      "updatedAt": "2026-06-29T10:00:00.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2071325017053245938",
+      "ageHours": 14,
+      "views": 659,
+      "likes": 44,
+      "replies": 22,
+      "note": "$ANSEM KOL pump autopsy — local peak around one person; can ~500 active CT accounts coordinate a peoples token where they capture upside?",
+      "snapshots": [
+        {
+          "ageHours": 14,
+          "views": 659,
+          "likes": 44,
+          "replies": 22,
+          "checkedAt": "2026-06-29T10:00:00.000Z"
+        }
+      ],
+      "syncedAt": "2026-06-29T10:00:00.000Z"
+    },
     {
       "id": "bait-wc-football-stay-ct-jun26",
       "type": "hot topic",
@@ -9,11 +37,11 @@
       "slot": 33,
       "bucket": "CT",
       "at": "2026-06-26T18:42:25.000Z",
-      "updatedAt": "2026-06-28T22:14:28.120Z",
+      "updatedAt": "2026-06-29T10:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2070578444535050247",
-      "ageHours": 52,
-      "views": 58,
-      "likes": 21,
+      "ageHours": 63,
+      "views": 217,
+      "likes": 20,
       "replies": 7,
       "note": "addressed to CT fair-weather WC football crowd — no clean type fit; logged for metrics only",
       "snapshots": [
@@ -72,9 +100,16 @@
           "likes": 5,
           "replies": 3,
           "checkedAt": "2026-06-26T21:44:26.757Z"
+        },
+        {
+          "ageHours": 63,
+          "views": 217,
+          "likes": 20,
+          "replies": 7,
+          "checkedAt": "2026-06-29T10:00:00.000Z"
         }
       ],
-      "syncedAt": "2026-06-28T22:14:28.120Z"
+      "syncedAt": "2026-06-29T10:00:00.000Z"
     },
     {
       "id": "strategic-qt-bigchog-impressions-btc-jun26",
@@ -86,10 +121,10 @@
       "slot": 32,
       "bucket": "CT",
       "at": "2026-06-26T14:35:00.000Z",
-      "updatedAt": "2026-06-28T22:14:28.120Z",
+      "updatedAt": "2026-06-29T10:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2070516319334642001",
-      "ageHours": 56,
-      "views": 155,
+      "ageHours": 67,
+      "views": 273,
       "likes": 23,
       "replies": 6,
       "note": "QT bigchog impressions = BTC chart — contrarian: memecoin decoupled, only self-pump matters; own impressions line chart visual",
@@ -121,9 +156,16 @@
           "likes": 12,
           "replies": 5,
           "checkedAt": "2026-06-26T21:44:26.757Z"
+        },
+        {
+          "ageHours": 67,
+          "views": 273,
+          "likes": 23,
+          "replies": 6,
+          "checkedAt": "2026-06-29T10:00:00.000Z"
         }
       ],
-      "syncedAt": "2026-06-28T22:14:28.120Z"
+      "syncedAt": "2026-06-29T10:00:00.000Z"
     },
     {
       "id": "builder-dark-mode-profile-movematch-jun26",
@@ -135,10 +177,10 @@
       "slot": 31,
       "bucket": "football",
       "at": "2026-06-26T13:20:00.000Z",
-      "updatedAt": "2026-06-28T22:14:28.120Z",
+      "updatedAt": "2026-06-29T10:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2070497538440847402",
-      "ageHours": 57,
-      "views": 114,
+      "ageHours": 69,
+      "views": 239,
       "likes": 22,
       "replies": 6,
       "note": "dark-mode-only X profile header — fake phone UI clock, MoveMatch toast formation, chicharitos; 0-1? bait; builder lead (product/brand showcase)",
@@ -191,9 +233,16 @@
           "likes": 11,
           "replies": 5,
           "checkedAt": "2026-06-26T21:44:26.757Z"
+        },
+        {
+          "ageHours": 69,
+          "views": 239,
+          "likes": 22,
+          "replies": 6,
+          "checkedAt": "2026-06-29T10:00:00.000Z"
         }
       ],
-      "syncedAt": "2026-06-28T22:14:28.120Z"
+      "syncedAt": "2026-06-29T10:00:00.000Z"
     },
     {
       "id": "hot-topic-btc-april-2021-imagine-jun25",
@@ -205,10 +254,10 @@
       "slot": 30,
       "bucket": "CT",
       "at": "2026-06-25T14:31:00.000Z",
-      "updatedAt": "2026-06-28T22:14:28.120Z",
+      "updatedAt": "2026-06-29T10:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2070152962404401633",
-      "ageHours": 80,
-      "views": 199,
+      "ageHours": 91,
+      "views": 388,
       "likes": 32,
       "replies": 11,
       "snapshots": [
@@ -239,10 +288,17 @@
           "likes": 16,
           "replies": 9,
           "at": "2026-06-25T18:30:00.000Z"
+        },
+        {
+          "ageHours": 91,
+          "views": 388,
+          "likes": 32,
+          "replies": 11,
+          "checkedAt": "2026-06-29T10:00:00.000Z"
         }
       ],
       "note": "imagine $10k BTC Apr 12 2021 → $9k now; native chart visual -10% P/L punchline; cynical HODL reality check",
-      "syncedAt": "2026-06-28T22:14:28.120Z"
+      "syncedAt": "2026-06-29T10:00:00.000Z"
     },
     {
       "id": "meme-loki-messi-panini-pawn-stars-jun25",
@@ -254,10 +310,10 @@
       "slot": 29,
       "bucket": "CT",
       "at": "2026-06-25T14:05:00.000Z",
-      "updatedAt": "2026-06-28T22:14:28.120Z",
+      "updatedAt": "2026-06-29T10:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2070146335970296250",
-      "ageHours": 80,
-      "views": 229,
+      "ageHours": 92,
+      "views": 251,
       "likes": 21,
       "replies": 3,
       "snapshots": [
@@ -302,10 +358,17 @@
           "likes": 17,
           "replies": 3,
           "at": "2026-06-26T16:30:00.000Z"
+        },
+        {
+          "ageHours": 92,
+          "views": 251,
+          "likes": 21,
+          "replies": 3,
+          "checkedAt": "2026-06-29T10:00:00.000Z"
         }
       ],
       "note": "QT lokithebird Messi Panini $175k digital card — Pawn Stars Rick 'best I can do is $5' meme; why buy digital cards you can't pawn",
-      "syncedAt": "2026-06-28T22:14:28.120Z"
+      "syncedAt": "2026-06-29T10:00:00.000Z"
     },
     {
       "id": "strategic-qt-summerville-wc-value-pick-jun25",
@@ -316,10 +379,10 @@
       "slot": 28,
       "bucket": "football",
       "at": "2026-06-25T12:31:00.000Z",
-      "updatedAt": "2026-06-28T22:14:28.120Z",
+      "updatedAt": "2026-06-29T10:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2070122800325488958",
-      "ageHours": 82,
-      "views": 666,
+      "ageHours": 93,
+      "views": 692,
       "likes": 39,
       "replies": 5,
       "snapshots": [
@@ -357,10 +420,17 @@
           "likes": 37,
           "replies": 5,
           "at": "2026-06-26T16:30:00.000Z"
+        },
+        {
+          "ageHours": 93,
+          "views": 692,
+          "likes": 39,
+          "replies": 5,
+          "checkedAt": "2026-06-29T10:00:00.000Z"
         }
       ],
       "note": "QRT ripchillpill $200 WC Value Challenge entry (contest, not pure strategic QT) — Summerville O0.5 @35¢; ripchillpill RT'd for reach; PM screenshot + form + bonus math",
-      "syncedAt": "2026-06-28T22:14:28.120Z"
+      "syncedAt": "2026-06-29T10:00:00.000Z"
     },
     {
       "id": "strategic-qt-wale-crypto-user-stats-jun25",
@@ -372,10 +442,10 @@
       "slot": 27,
       "bucket": "CT",
       "at": "2026-06-25T11:54:00.000Z",
-      "updatedAt": "2026-06-28T22:14:28.120Z",
+      "updatedAt": "2026-06-29T10:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2070113297886556403",
-      "ageHours": 82,
-      "views": 157,
+      "ageHours": 94,
+      "views": 174,
       "likes": 14,
       "replies": 2,
       "snapshots": [
@@ -406,10 +476,17 @@
           "likes": 12,
           "replies": 2,
           "at": "2026-06-26T16:30:00.000Z"
+        },
+        {
+          "ageHours": 94,
+          "views": 174,
+          "likes": 14,
+          "replies": 2,
+          "checkedAt": "2026-06-29T10:00:00.000Z"
         }
       ],
       "note": "QT waleswoosh crypto user estimates — cynical reframe: 30k smart-follow chasers, 600k losers, 500k score believers, 500 future millionaires; Wale still smarter",
-      "syncedAt": "2026-06-28T22:14:28.120Z"
+      "syncedAt": "2026-06-29T10:00:00.000Z"
     },
     {
       "id": "bait-ct-beefs-pick-one-jun25",
@@ -420,10 +497,10 @@
       "slot": 26,
       "bucket": "CT",
       "at": "2026-06-25T10:59:00.000Z",
-      "updatedAt": "2026-06-28T22:14:28.120Z",
+      "updatedAt": "2026-06-29T10:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2070099596978581536",
-      "ageHours": 83,
-      "views": 161,
+      "ageHours": 95,
+      "views": 201,
       "likes": 9,
       "replies": 4,
       "snapshots": [
@@ -461,10 +538,17 @@
           "likes": 8,
           "replies": 4,
           "at": "2026-06-26T16:30:00.000Z"
+        },
+        {
+          "ageHours": 95,
+          "views": 201,
+          "likes": 9,
+          "replies": 4,
+          "checkedAt": "2026-06-29T10:00:00.000Z"
         }
       ],
       "note": "CT beefs pick-one poll — bears/bull, wale/xeet, Nikita/CT, you/profit; what did I miss?",
-      "syncedAt": "2026-06-28T22:14:28.120Z"
+      "syncedAt": "2026-06-29T10:00:00.000Z"
     },
     {
       "id": "meme-ct-new-blood-crypto-heatmap-jun24",
@@ -475,10 +559,10 @@
       "slot": 25,
       "bucket": "CT",
       "at": "2026-06-24T18:08:00.000Z",
-      "updatedAt": "2026-06-28T22:14:28.120Z",
+      "updatedAt": "2026-06-29T10:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2069890461905400116",
-      "ageHours": 100,
-      "views": 177,
+      "ageHours": 112,
+      "views": 194,
       "likes": 17,
       "replies": 2,
       "snapshots": [
@@ -523,10 +607,17 @@
           "likes": 16,
           "replies": 2,
           "at": "2026-06-26T16:30:00.000Z"
+        },
+        {
+          "ageHours": 112,
+          "views": 194,
+          "likes": 17,
+          "replies": 2,
+          "checkedAt": "2026-06-29T10:00:00.000Z"
         }
       ],
       "note": "meme punchline on own CT thread — red heatmap visual, be careful what you wish for; self-QT format, not strategic QT",
-      "syncedAt": "2026-06-28T22:14:28.120Z"
+      "syncedAt": "2026-06-29T10:00:00.000Z"
     },
     {
       "id": "meta-ct-producers-consumers-ripchillpill-jun24",
@@ -534,10 +625,10 @@
       "slot": 24,
       "bucket": "CT",
       "at": "2026-06-24T14:32:00.000Z",
-      "updatedAt": "2026-06-28T22:14:28.120Z",
+      "updatedAt": "2026-06-29T10:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2069835989451735114",
-      "ageHours": 104,
-      "views": 750,
+      "ageHours": 115,
+      "views": 775,
       "likes": 21,
       "replies": 5,
       "snapshots": [
@@ -582,10 +673,17 @@
           "likes": 20,
           "replies": 5,
           "at": "2026-06-26T16:30:00.000Z"
+        },
+        {
+          "ageHours": 115,
+          "views": 775,
+          "likes": 21,
+          "replies": 5,
+          "checkedAt": "2026-06-29T10:00:00.000Z"
         }
       ],
       "note": "CT ecosystem reflection — producers > consumers, simulated attention market; QT ripchillpill as hook, not strategic QT or provocative take",
-      "syncedAt": "2026-06-28T22:14:28.120Z"
+      "syncedAt": "2026-06-29T10:00:00.000Z"
     },
     {
       "id": "builder-mm-md3-squad-ronaldo-messi-kane-jun24",
