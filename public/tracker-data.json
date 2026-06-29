@@ -1,6 +1,6 @@
 {
-  "syncVersion": 116,
-  "updatedAt": "2026-06-29T22:01:56.332Z",
+  "syncVersion": 117,
+  "updatedAt": "2026-06-29T22:20:14.872Z",
   "logs": [
     {
       "id": "hot-topic-ansem-airdrop-models-qt-loshmi-jun29",
@@ -15,9 +15,9 @@
       "visualCluster": "text-only",
       "at": "2026-06-29T21:40:18.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2071710376690094268",
-      "ageHours": 0,
+      "ageHours": 1,
       "views": 19,
-      "likes": 0,
+      "likes": 1,
       "replies": 0,
       "note": "QT @loshmi Ansem $7M giveback vs memecoins — long-form fair take: project airdrop (farm→dump at TGE) vs Ansem model (unexpected reward→loyalty); thesis «best airdrop leaves people wanting you to win»; bull/bottom narrative uncertainty; 18–24mo exhaustion context",
       "snapshots": [
@@ -29,8 +29,8 @@
           "checkedAt": "2026-06-29T21:45:00.000Z"
         }
       ],
-      "updatedAt": "2026-06-29T21:45:00.000Z",
-      "syncedAt": "2026-06-29T21:45:00.000Z"
+      "updatedAt": "2026-06-29T22:20:14.872Z",
+      "syncedAt": "2026-06-29T22:20:14.872Z"
     },
     {
       "id": "meme-ansem-generational-wealth-speedrun-jun29",
@@ -46,10 +46,17 @@
       "tweetUrl": "https://x.com/piselliii/status/2071691532604719199",
       "ageHours": 2,
       "views": 21,
-      "likes": 4,
+      "likes": 5,
       "replies": 1,
       "note": "Ansem begging meta satire — 2-panel stick-figure meme: kid asks mom how they got rich → dad with forehead tattoo ANSEM TO 1B SPEEDRUN, passport Ansem Ansem, DAY 47, airdrop pls; caption misdirect «want generational wealth? you know what to do (thanks Ansem)»",
       "snapshots": [
+        {
+          "ageHours": 2,
+          "views": 21,
+          "likes": 4,
+          "replies": 1,
+          "checkedAt": "2026-06-29T22:20:14.872Z"
+        },
         {
           "ageHours": 0,
           "views": 21,
@@ -58,8 +65,8 @@
           "checkedAt": "2026-06-29T20:30:00.000Z"
         }
       ],
-      "updatedAt": "2026-06-29T21:57:05.505Z",
-      "syncedAt": "2026-06-29T21:57:05.505Z"
+      "updatedAt": "2026-06-29T22:20:14.872Z",
+      "syncedAt": "2026-06-29T22:20:14.872Z"
     },
     {
       "id": "strategic-qt-ansem-creator-bounty-distribution-jun29",
@@ -135,7 +142,7 @@
       "visualCluster": "meme",
       "at": "2026-06-29T11:47:51.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2071561278246552027",
-      "ageHours": 10,
+      "ageHours": 11,
       "views": 377,
       "likes": 25,
       "replies": 5,
@@ -177,8 +184,8 @@
           "checkedAt": "2026-06-29T12:15:00.000Z"
         }
       ],
-      "updatedAt": "2026-06-29T21:55:01.267Z",
-      "syncedAt": "2026-06-29T21:55:01.267Z"
+      "updatedAt": "2026-06-29T22:20:14.872Z",
+      "syncedAt": "2026-06-29T22:20:14.872Z"
     },
     {
       "id": "strategic-qt-ansem-mellstroy-bounty-jun28",
@@ -335,9 +342,9 @@
       "slot": 33,
       "bucket": "CT",
       "at": "2026-06-26T18:42:25.000Z",
-      "updatedAt": "2026-06-29T21:55:01.267Z",
+      "updatedAt": "2026-06-29T22:20:14.872Z",
       "tweetUrl": "https://x.com/piselliii/status/2070578444535050247",
-      "ageHours": 75,
+      "ageHours": 76,
       "views": 217,
       "likes": 22,
       "replies": 8,
@@ -421,7 +428,7 @@
           "checkedAt": "2026-06-29T10:00:00.000Z"
         }
       ],
-      "syncedAt": "2026-06-29T21:55:01.267Z",
+      "syncedAt": "2026-06-29T22:20:14.872Z",
       "visualCluster": "text-only"
     },
     {
@@ -434,9 +441,9 @@
       "slot": 32,
       "bucket": "CT",
       "at": "2026-06-26T14:35:00.000Z",
-      "updatedAt": "2026-06-29T21:55:01.267Z",
+      "updatedAt": "2026-06-29T22:20:14.872Z",
       "tweetUrl": "https://x.com/piselliii/status/2070516319334642001",
-      "ageHours": 79,
+      "ageHours": 80,
       "views": 273,
       "likes": 24,
       "replies": 6,
@@ -485,7 +492,7 @@
           "checkedAt": "2026-06-29T10:00:00.000Z"
         }
       ],
-      "syncedAt": "2026-06-29T21:55:01.267Z",
+      "syncedAt": "2026-06-29T22:20:14.872Z",
       "visualCluster": "chart"
     },
     {
@@ -960,9 +967,9 @@
       "slot": 24,
       "bucket": "CT",
       "at": "2026-06-24T14:32:00.000Z",
-      "updatedAt": "2026-06-29T21:55:01.267Z",
+      "updatedAt": "2026-06-29T22:20:14.872Z",
       "tweetUrl": "https://x.com/piselliii/status/2069835989451735114",
-      "ageHours": 127,
+      "ageHours": 128,
       "views": 775,
       "likes": 21,
       "replies": 5,
@@ -1018,7 +1025,7 @@
         }
       ],
       "note": "CT ecosystem reflection — producers > consumers, simulated attention market; QT ripchillpill as hook, not strategic QT or provocative take",
-      "syncedAt": "2026-06-29T21:55:01.267Z",
+      "syncedAt": "2026-06-29T22:20:14.872Z",
       "visualCluster": "text-only"
     },
     {
@@ -1127,9 +1134,9 @@
       "slot": 21,
       "bucket": "football",
       "at": "2026-06-23T13:45:00.000Z",
-      "updatedAt": "2026-06-29T21:55:01.267Z",
+      "updatedAt": "2026-06-29T22:20:14.872Z",
       "tweetUrl": "https://x.com/piselliii/status/2069461926807994462",
-      "ageHours": 152,
+      "ageHours": 153,
       "views": 907,
       "likes": 39,
       "replies": 13,
@@ -1178,7 +1185,7 @@
         }
       ],
       "note": "QT Deestar Ronaldo one job — fake 5-0 scorecard manifesting; Messi fans excluded punchline; Portugal vs Uzbekistan WC day",
-      "syncedAt": "2026-06-29T21:55:01.267Z",
+      "syncedAt": "2026-06-29T22:20:14.872Z",
       "visualCluster": "scorecard"
     },
     {
@@ -1191,9 +1198,9 @@
       "slot": 20,
       "bucket": "football",
       "at": "2026-06-23T07:48:00.000Z",
-      "updatedAt": "2026-06-29T21:55:01.267Z",
+      "updatedAt": "2026-06-29T22:20:14.872Z",
       "tweetUrl": "https://x.com/piselliii/status/2069372130546814995",
-      "ageHours": 158,
+      "ageHours": 159,
       "views": 981,
       "likes": 28,
       "replies": 13,
@@ -1235,7 +1242,7 @@
         }
       ],
       "note": "WC 2026 attention meta list — million on favorite, fan girl poll, real loss, Messi bait, wale PM; chalkboard collage + what did I forget?",
-      "syncedAt": "2026-06-29T21:55:01.267Z",
+      "syncedAt": "2026-06-29T22:20:14.872Z",
       "visualCluster": "collage"
     },
     {
@@ -1377,9 +1384,9 @@
       "slot": 17,
       "bucket": "CT",
       "at": "2026-06-22T12:34:00.000Z",
-      "updatedAt": "2026-06-29T21:55:01.267Z",
+      "updatedAt": "2026-06-29T22:20:14.872Z",
       "tweetUrl": "https://x.com/piselliii/status/2069081603754561892",
-      "ageHours": 177,
+      "ageHours": 178,
       "views": 141,
       "likes": 17,
       "replies": 3,
@@ -1428,7 +1435,7 @@
         }
       ],
       "note": "dual norm: hot topic + meme — X algo update moment, Sam Altman religious icon as mandatory CT apartment decor",
-      "syncedAt": "2026-06-29T21:55:01.267Z",
+      "syncedAt": "2026-06-29T22:20:14.872Z",
       "visualCluster": "meme"
     },
     {
@@ -1484,9 +1491,9 @@
       "slot": 15,
       "bucket": "CT",
       "at": "2026-06-22T11:34:00.000Z",
-      "updatedAt": "2026-06-29T21:55:01.267Z",
+      "updatedAt": "2026-06-29T22:20:14.872Z",
       "tweetUrl": "https://x.com/piselliii/status/2069066384202440989",
-      "ageHours": 178,
+      "ageHours": 179,
       "views": 122,
       "likes": 12,
       "replies": 3,
@@ -1521,7 +1528,7 @@
         }
       ],
       "note": "QT waleswoosh new algo take — crash-test failed; reply: reach compound interest if you already had it",
-      "syncedAt": "2026-06-29T21:55:01.267Z",
+      "syncedAt": "2026-06-29T22:20:14.872Z",
       "visualCluster": "text-only"
     },
     {
@@ -1587,9 +1594,9 @@
       "slot": 13,
       "bucket": "CT",
       "at": "2026-06-21T19:42:00.000Z",
-      "updatedAt": "2026-06-29T21:55:01.267Z",
+      "updatedAt": "2026-06-29T22:20:14.872Z",
       "tweetUrl": "https://x.com/piselliii/status/2068781576100446691",
-      "ageHours": 194,
+      "ageHours": 195,
       "views": 270,
       "likes": 26,
       "replies": 5,
@@ -1631,7 +1638,7 @@
         }
       ],
       "note": "meta reach — Movement life arc beyond payout; personal reflection on what the airdrop actually changed",
-      "syncedAt": "2026-06-29T21:55:01.267Z",
+      "syncedAt": "2026-06-29T22:20:14.872Z",
       "visualCluster": "text-only"
     },
     {
@@ -1643,9 +1650,9 @@
       "slot": 12,
       "bucket": "football",
       "at": "2026-06-21T18:34:00.000Z",
-      "updatedAt": "2026-06-29T21:55:01.267Z",
+      "updatedAt": "2026-06-29T22:20:14.872Z",
       "tweetUrl": "https://x.com/piselliii/status/2068764456230736196",
-      "ageHours": 195,
+      "ageHours": 196,
       "views": 311,
       "likes": 26,
       "replies": 7,
@@ -1701,7 +1708,7 @@
         }
       ],
       "note": "WC transitive score math — Sweden/Tunisia/Netherlands pick-one (a/b/c/d) + scorecard collage + Punisher wait meme",
-      "syncedAt": "2026-06-29T21:55:01.267Z",
+      "syncedAt": "2026-06-29T22:20:14.872Z",
       "visualCluster": "scorecard"
     },
     {
@@ -2108,9 +2115,9 @@
       "slot": 4,
       "bucket": "football",
       "at": "2026-06-17T18:37:00.000Z",
-      "updatedAt": "2026-06-29T21:55:01.267Z",
+      "updatedAt": "2026-06-29T22:20:14.872Z",
       "tweetUrl": "https://x.com/piselliii/status/2067315608631251004",
-      "ageHours": 291,
+      "ageHours": 292,
       "views": 306,
       "likes": 20,
       "replies": 5,
@@ -2145,7 +2152,7 @@
         }
       ],
       "note": "dual norm: hot topic + meme (100% both), builder combo",
-      "syncedAt": "2026-06-29T21:55:01.267Z",
+      "syncedAt": "2026-06-29T22:20:14.872Z",
       "visualCluster": "meme"
     },
     {
@@ -2154,9 +2161,9 @@
       "slot": 3,
       "bucket": "CT",
       "at": "2026-06-17T16:45:00.000Z",
-      "updatedAt": "2026-06-29T21:55:01.267Z",
+      "updatedAt": "2026-06-29T22:20:14.872Z",
       "tweetUrl": "https://x.com/piselliii/status/2067287441891832184",
-      "ageHours": 293,
+      "ageHours": 294,
       "views": 195,
       "likes": 12,
       "replies": 1,
@@ -2191,7 +2198,7 @@
         }
       ],
       "note": "Kaito influence wave on CT — hot topic only",
-      "syncedAt": "2026-06-29T21:55:01.267Z",
+      "syncedAt": "2026-06-29T22:20:14.872Z",
       "visualCluster": "text-only"
     },
     {
