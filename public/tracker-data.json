@@ -1,17 +1,44 @@
 {
-  "syncVersion": 102,
-  "updatedAt": "2026-06-29T12:15:00.000Z",
+  "syncVersion": 103,
+  "updatedAt": "2026-06-29T14:10:00.000Z",
   "logs": [
+    {
+      "id": "strategic-qt-ansem-creator-bounty-distribution-jun29",
+      "type": "strategic QT",
+      "traits": [
+        "useful"
+      ],
+      "slot": 37,
+      "bucket": "CT",
+      "visualCluster": "text-only",
+      "at": "2026-06-29T13:55:17.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2071593347349643634",
+      "ageHours": 0,
+      "views": 18,
+      "likes": 1,
+      "replies": 1,
+      "note": "QT @blknoiz06 ANSEM $1B breakout — creator bounty playbook (1M+ views airdrop, 30% face, TikTok/Reels/Shorts) vs saturated CT feed; casino streamer distribution ROI; bring to Ansem",
+      "snapshots": [
+        {
+          "ageHours": 0,
+          "views": 18,
+          "likes": 1,
+          "replies": 1,
+          "checkedAt": "2026-06-29T14:10:00.000Z"
+        }
+      ],
+      "updatedAt": "2026-06-29T14:10:00.000Z",
+      "syncedAt": "2026-06-29T14:10:00.000Z"
+    },
     {
       "id": "bait-wale-wc-winner-va-banque-jun29",
       "type": "bait",
       "traits": [
-        "useful",
         "provocative"
       ],
       "slot": 36,
       "bucket": "CT",
-      "visualCluster": "collage",
+      "visualCluster": "meme",
       "at": "2026-06-29T11:47:51.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2071561278246552027",
       "ageHours": 0,
