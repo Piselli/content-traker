@@ -1,6 +1,6 @@
 {
-  "syncVersion": 119,
-  "updatedAt": "2026-06-29T23:18:01.579Z",
+  "syncVersion": 120,
+  "updatedAt": "2026-06-29T23:18:51.000Z",
   "logs": [
     {
       "id": "hot-topic-ansem-airdrop-models-qt-loshmi-jun29",
@@ -156,14 +156,14 @@
       "visualCluster": "meme",
       "at": "2026-06-29T11:47:51.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2071561278246552027",
-      "ageHours": 12,
-      "views": 377,
+      "ageHours": 11,
+      "views": 626,
       "likes": 26,
       "replies": 5,
       "note": "Wale WC winner va banque — 8/10 favorites $34k PM basket; +$7k–$22k if his pick wins, -$34k if outsider; wale law → Argentina congrats / Norway bait; custom PM collage visual; @waleswoosh replied «Argentina is my only w» + *concern — KOL bait landed",
       "snapshots": [
         {
-          "ageHours": 11,
+          "ageHours": 12,
           "views": 377,
           "likes": 25,
           "replies": 5,
@@ -205,8 +205,8 @@
           "checkedAt": "2026-06-29T12:15:00.000Z"
         }
       ],
-      "updatedAt": "2026-06-29T23:18:01.579Z",
-      "syncedAt": "2026-06-29T23:18:01.579Z"
+      "updatedAt": "2026-06-29T23:18:51.000Z",
+      "syncedAt": "2026-06-29T23:18:51.000Z"
     },
     {
       "id": "strategic-qt-ansem-mellstroy-bounty-jun28",
