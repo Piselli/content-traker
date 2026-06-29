@@ -1,6 +1,6 @@
 {
-  "syncVersion": 115,
-  "updatedAt": "2026-06-29T21:57:05.505Z",
+  "syncVersion": 116,
+  "updatedAt": "2026-06-29T22:01:56.332Z",
   "logs": [
     {
       "id": "hot-topic-ansem-airdrop-models-qt-loshmi-jun29",
@@ -583,9 +583,9 @@
       "slot": 30,
       "bucket": "CT",
       "at": "2026-06-25T14:31:00.000Z",
-      "updatedAt": "2026-06-29T21:55:01.267Z",
+      "updatedAt": "2026-06-29T22:01:56.332Z",
       "tweetUrl": "https://x.com/piselliii/status/2070152962404401633",
-      "ageHours": 103,
+      "ageHours": 104,
       "views": 388,
       "likes": 32,
       "replies": 11,
@@ -627,7 +627,7 @@
         }
       ],
       "note": "imagine $10k BTC Apr 12 2021 → $9k now; native chart visual -10% P/L punchline; cynical HODL reality check",
-      "syncedAt": "2026-06-29T21:55:01.267Z",
+      "syncedAt": "2026-06-29T22:01:56.332Z",
       "visualCluster": "chart"
     },
     {
@@ -710,9 +710,9 @@
       "slot": 28,
       "bucket": "football",
       "at": "2026-06-25T12:31:00.000Z",
-      "updatedAt": "2026-06-29T21:55:01.267Z",
+      "updatedAt": "2026-06-29T22:01:56.332Z",
       "tweetUrl": "https://x.com/piselliii/status/2070122800325488958",
-      "ageHours": 105,
+      "ageHours": 106,
       "views": 692,
       "likes": 39,
       "replies": 5,
@@ -761,7 +761,7 @@
         }
       ],
       "note": "QRT ripchillpill $200 WC Value Challenge entry (contest, not pure strategic QT) — Summerville O0.5 @35¢; ripchillpill RT'd for reach; PM screenshot + form + bonus math",
-      "syncedAt": "2026-06-29T21:55:01.267Z",
+      "syncedAt": "2026-06-29T22:01:56.332Z",
       "visualCluster": "screenshot"
     },
     {
@@ -830,9 +830,9 @@
       "slot": 26,
       "bucket": "CT",
       "at": "2026-06-25T10:59:00.000Z",
-      "updatedAt": "2026-06-29T20:38:10.660Z",
+      "updatedAt": "2026-06-29T22:01:56.332Z",
       "tweetUrl": "https://x.com/piselliii/status/2070099596978581536",
-      "ageHours": 106,
+      "ageHours": 107,
       "views": 201,
       "likes": 9,
       "replies": 4,
@@ -881,7 +881,7 @@
         }
       ],
       "note": "CT beefs pick-one poll — bears/bull, wale/xeet, Nikita/CT, you/profit; what did I miss?",
-      "syncedAt": "2026-06-29T20:38:10.660Z",
+      "syncedAt": "2026-06-29T22:01:56.332Z",
       "visualCluster": "text-only"
     },
     {
@@ -1248,9 +1248,9 @@
       "slot": 19,
       "bucket": "football",
       "at": "2026-06-22T18:31:00.000Z",
-      "updatedAt": "2026-06-29T21:55:01.267Z",
+      "updatedAt": "2026-06-29T22:01:56.332Z",
       "tweetUrl": "https://x.com/piselliii/status/2069171455368007882",
-      "ageHours": 171,
+      "ageHours": 172,
       "views": 279,
       "likes": 19,
       "replies": 6,
@@ -1299,7 +1299,7 @@
         }
       ],
       "note": "WC live France vs Iraq — parental advisory for Messi fans; obscene domination + Mbappé hunting Messi's same-day GOAT record; black scorecard image",
-      "syncedAt": "2026-06-29T21:55:01.267Z",
+      "syncedAt": "2026-06-29T22:01:56.332Z",
       "visualCluster": "scorecard"
     },
     {
