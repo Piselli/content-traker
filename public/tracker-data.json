@@ -1,7 +1,36 @@
 {
-  "syncVersion": 101,
-  "updatedAt": "2026-06-29T11:23:46.340Z",
+  "syncVersion": 102,
+  "updatedAt": "2026-06-29T12:15:00.000Z",
   "logs": [
+    {
+      "id": "bait-wale-wc-winner-va-banque-jun29",
+      "type": "bait",
+      "traits": [
+        "useful",
+        "provocative"
+      ],
+      "slot": 36,
+      "bucket": "CT",
+      "visualCluster": "collage",
+      "at": "2026-06-29T11:47:51.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2071561278246552027",
+      "ageHours": 0,
+      "views": 49,
+      "likes": 7,
+      "replies": 3,
+      "note": "Wale WC winner va banque — 8/10 favorites $34k PM basket; +$7k–$22k if his pick wins, -$34k if outsider; wale law → Argentina congrats / Norway bait; custom PM collage visual",
+      "snapshots": [
+        {
+          "ageHours": 0,
+          "views": 49,
+          "likes": 7,
+          "replies": 3,
+          "checkedAt": "2026-06-29T12:15:00.000Z"
+        }
+      ],
+      "updatedAt": "2026-06-29T12:15:00.000Z",
+      "syncedAt": "2026-06-29T12:15:00.000Z"
+    },
     {
       "id": "strategic-qt-ansem-mellstroy-bounty-jun28",
       "type": "hot topic",
@@ -2080,12 +2109,6 @@
       "type": "useful",
       "createdAt": "2026-06-29T08:01:00.000Z"
     },
-    {
-      "id": "idea-drake-wale-curse-jun29",
-      "text": "Drake vs Wale curse bait — collage: Drake cheering + Wale PM bet screenshot; poll: what hurts the team more? football + provocative + bait; visual: collage",
-      "type": "bait",
-      "createdAt": "2026-06-29T08:00:00.000Z"
-    }
   ],
   "deletedUrls": [
     "https://x.com/piselliii/status/2069017105316425754",
