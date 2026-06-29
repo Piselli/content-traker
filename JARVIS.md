@@ -187,11 +187,36 @@ Combo allowed — log **primary `type`** + optional **`fullTypes[]`** (2 norms a
 | CT producers essay | meta reach | — | — |
 | Crypto heatmap self-QT | meme | — | hot topic |
 
+## Visual clusters (Move 4 formulas)
+
+Log **`visualCluster`** on every post (agent + paste). Values: `scorecard` · `collage` · `chart` · `screenshot` · `meme` · `text-only`
+
+| Cluster | Visual | Best for | Avg views* | RPV* |
+|---------|--------|----------|------------|------|
+| **scorecard** | Fake scorecard, live manifesting UI | WC live, provocative football | ~500 | 17 |
+| **collage** | Chalkboard / list image + «what did I miss?» | hot topic + bait, attention meta | ~425 | 18 |
+| **chart** | Native chart, heatmap, P/L proof | useful, hot topic CT | ~285 | **22** |
+| **screenshot** | PM pick, squad UI, product toast | strategic QT, builder, useful | ~380 | 13 |
+| **meme** | Template IS punchline (Pawn Stars, fake PM UI) | meme norm | ~260 | 17 |
+| **text-only** | QT / poll without tap-worthy image | **avoid** for reach | ~160 | 16 |
+
+\*Rolling avg from @piselliii logs — use `visualClusters` in Jarvis export for this week.
+
+### Cluster formulas (PICK)
+
+1. **REACH BAIT** (`scorecard` / `collage`) — live stake + visual list or fake score + contrarian punch + reply bait → football bucket
+2. **PROOF / SAVE** (`chart` / `screenshot`) — 1-line thesis + native chart or PM screenshot + punchline → useful or hot topic; sources in **first reply**
+3. **MEME PUNCHLINE** (`meme`) — recognizable template; joke in image, not explained
+4. **QT + ANCHOR** (`screenshot` / `chart`) — strategic QT **only** with own visual; no anchor → skip slot
+5. **TEXT-ONLY** — polls/QT without visual → ~200v ceiling; use only if 60 min reply window guaranteed
+
+**Rule:** text = hook, visual = reason to tap. PICK table must include **cluster** column.
+
 ## How to respond
 
 ### PICK (choose first post)
-Table: topic | Type | Tier | Bucket | **Move/template** | why not first
-Recommend #1 + 2–3 hooks + rank rest. Flag if post needs **60 min reply window** after publish.
+Table: topic | Type | **visualCluster** | Tier | Bucket | **Move/template** | why not first
+Recommend #1 + 2–3 hooks + rank rest. Flag if post needs **60 min reply window** after publish. Never recommend `text-only` for slot 1 unless no visual possible.
 
 ### DRAFT (polish tweet)
 Hook + punchline + max 2 edits. End with reply bait (Move 2) unless pure meme. Links → first reply only. Name template if used (01–06).

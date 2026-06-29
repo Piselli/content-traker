@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { buildWeekAnalysis } from "@/lib/analysis";
+import { buildVisualClusterStats } from "@/lib/visualClusters";
 import { NORMS } from "@/lib/norms";
 import { getNormStatus } from "@/lib/norms";
 import { exportJson, importJson, loadData, mergeRepoFromUrl, saveData } from "@/lib/storage";
@@ -48,6 +49,7 @@ function createEntry(type: ContentType, opts?: LogOptions): LogEntry {
     traits: resolveTraits(type, opts),
     slot: opts?.slot,
     bucket: opts?.bucket,
+    visualCluster: opts?.visualCluster,
     at: now,
     updatedAt: now,
     tweetUrl: opts?.tweetUrl?.trim() || undefined,
@@ -128,6 +130,7 @@ export function useTracker() {
           | "bucket"
           | "type"
           | "fullTypes"
+          | "visualCluster"
           | "classificationPending"
         >
       >,
@@ -229,6 +232,7 @@ export function useTracker() {
               | "slot"
               | "bucket"
               | "type"
+              | "visualCluster"
               | "classificationPending"
             >
           > = { tweetUrl: url };
@@ -239,6 +243,7 @@ export function useTracker() {
           if (opts?.note != null) patch.note = opts.note;
           if (opts?.slot != null) patch.slot = opts.slot;
           if (opts?.bucket != null) patch.bucket = opts.bucket;
+          if (opts?.visualCluster != null) patch.visualCluster = opts.visualCluster;
           if (opts?.fullTypes != null) patch.fullTypes = opts.fullTypes;
           if (existing.classificationPending && resolvedType) {
             patch.type = resolvedType;
@@ -285,6 +290,9 @@ export function useTracker() {
       normsHit,
       logsThisWeek,
       ideas: data.ideas,
+      visualClusters: buildVisualClusterStats(
+        logsThisWeek.filter((l) => !l.classificationPending && l.views != null),
+      ),
       analysis: buildWeekAnalysis(data.logs, weekCounts as Record<ContentType, number>, weekComboCounts, now),
     };
   }, [data, weekCounts, weekComboCounts]);

@@ -1,4 +1,5 @@
 import type { Bucket } from "./buckets";
+import type { VisualCluster } from "./visualClusters";
 
 export const CONTENT_TYPES = [
   "hot topic",
@@ -45,6 +46,8 @@ export interface LogEntry {
   secondaryType?: ContentType;
   slot?: PostSlot;
   bucket?: Bucket;
+  /** Visual format cluster — Move 4 tap formula */
+  visualCluster?: VisualCluster;
   at: string;
   updatedAt?: string;
   tweetUrl?: string;
@@ -75,6 +78,7 @@ export interface LogOptions {
   secondaryType?: ContentType;
   slot?: PostSlot;
   bucket?: Bucket;
+  visualCluster?: VisualCluster;
   tweetUrl?: string;
   ageHours?: number;
   views?: number;
@@ -90,5 +94,6 @@ export interface TrackerExport {
   normsHit: number;
   logsThisWeek: LogEntry[];
   ideas: Idea[];
+  visualClusters?: import("./visualClusters").VisualClusterRow[];
   analysis?: import("./analysis").WeekAnalysis;
 }

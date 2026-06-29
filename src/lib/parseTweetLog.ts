@@ -2,6 +2,7 @@ import { matchBucket } from "./buckets";
 import { CONTENT_TYPES, type ContentType, type PostSlot } from "./types";
 import { parseTraitsList } from "./traits";
 import { normalizeTweetUrl } from "./tweetUrl";
+import { matchVisualCluster } from "./visualClusters";
 
 export interface ParsedTweetLog {
   type?: ContentType;
@@ -16,6 +17,7 @@ export interface ParsedTweetLog {
   likes?: number;
   replies?: number;
   note?: string;
+  visualCluster?: ReturnType<typeof matchVisualCluster>;
 }
 
 const TYPE_ALIASES: Record<string, ContentType> = {
@@ -128,6 +130,10 @@ function parseKeyValueLine(line: string, out: ParsedTweetLog): void {
   }
   if (key === "bucket") {
     out.bucket = matchBucket(value);
+    return;
+  }
+  if (key === "visual" || key === "visualcluster" || key === "cluster") {
+    out.visualCluster = matchVisualCluster(value);
   }
 }
 
@@ -177,6 +183,9 @@ function parseFromJson(raw: string): ParsedTweetLog | null {
       out.slot = data.slot as PostSlot;
     }
     if (typeof data.bucket === "string") out.bucket = matchBucket(data.bucket);
+    if (typeof data.visualCluster === "string") {
+      out.visualCluster = matchVisualCluster(data.visualCluster);
+    }
     return Object.keys(out).length > 0 ? out : null;
   } catch {
     return null;
@@ -236,6 +245,7 @@ export function hasMetrics(parsed: Pick<ParsedTweetLog, "ageHours" | "views" | "
 export const PASTE_EXAMPLE = `LOG
 type: strategic QT
 traits: provocative, bait
+visual: collage
 slot: 2
 bucket: CT
 url: https://x.com/piselliii/status/123

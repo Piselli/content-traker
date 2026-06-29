@@ -47,12 +47,14 @@ User workflow: advise in chat → post on X → «опублікував» + URL
 
 ```ts
 LogEntry {
-  id, type, traits?, slot?, bucket?,
+  id, type, fullTypes?, traits?, visualCluster?, slot?, bucket?,
   at, tweetUrl?, ageHours?, views?, likes?, replies?,
   snapshots?, note?
 }
 Idea { id, text, type?, createdAt }
 ```
+
+`visualCluster`: `scorecard` | `collage` | `chart` | `screenshot` | `meme` | `text-only` — see `src/lib/visualClusters.ts` + JARVIS.md § Visual clusters.
 
 Stored: localStorage + `public/tracker-data.json` (git).
 

@@ -1,4 +1,5 @@
 import { CONTENT_TYPES, type ContentType, type LogEntry } from "./types";
+import { inferVisualCluster } from "./visualClusters";
 import { isInWeek } from "./week";
 
 export function parseTraitsList(raw: string): ContentType[] {
@@ -137,6 +138,7 @@ export function normalizeLogEntry(log: LogEntry): LogEntry {
     ...log,
     fullTypes: fullTypes && fullTypes.length > 1 ? fullTypes : undefined,
     traits: traits.length > 0 ? traits : undefined,
+    visualCluster: log.visualCluster ?? inferVisualCluster(log.note, log.type),
     secondaryType: undefined,
   };
 }

@@ -1,6 +1,6 @@
 {
-  "syncVersion": 98,
-  "updatedAt": "2026-06-29T04:59:05.032Z",
+  "syncVersion": 99,
+  "updatedAt": "2026-06-29T10:12:16.494Z",
   "logs": [
     {
       "id": "strategic-qt-ansem-mellstroy-bounty-jun28",
@@ -38,7 +38,8 @@
         }
       ],
       "updatedAt": "2026-06-29T04:59:05.032Z",
-      "syncedAt": "2026-06-29T04:59:05.032Z"
+      "syncedAt": "2026-06-29T04:59:05.032Z",
+      "visualCluster": "text-only"
     },
     {
       "id": "hot-topic-ansem-peoples-token-jun28",
@@ -76,7 +77,8 @@
           "checkedAt": "2026-06-28T22:22:11.049Z"
         }
       ],
-      "syncedAt": "2026-06-29T04:59:05.032Z"
+      "syncedAt": "2026-06-29T04:59:05.032Z",
+      "visualCluster": "text-only"
     },
     {
       "id": "bait-wc-football-stay-ct-jun26",
@@ -171,7 +173,8 @@
           "checkedAt": "2026-06-29T10:00:00.000Z"
         }
       ],
-      "syncedAt": "2026-06-29T04:59:05.032Z"
+      "syncedAt": "2026-06-29T04:59:05.032Z",
+      "visualCluster": "text-only"
     },
     {
       "id": "strategic-qt-bigchog-impressions-btc-jun26",
@@ -227,7 +230,8 @@
           "checkedAt": "2026-06-29T10:00:00.000Z"
         }
       ],
-      "syncedAt": "2026-06-29T04:59:05.032Z"
+      "syncedAt": "2026-06-29T04:59:05.032Z",
+      "visualCluster": "chart"
     },
     {
       "id": "builder-dark-mode-profile-movematch-jun26",
@@ -304,7 +308,8 @@
           "checkedAt": "2026-06-29T10:00:00.000Z"
         }
       ],
-      "syncedAt": "2026-06-29T04:59:05.032Z"
+      "syncedAt": "2026-06-29T04:59:05.032Z",
+      "visualCluster": "screenshot"
     },
     {
       "id": "hot-topic-btc-april-2021-imagine-jun25",
@@ -360,7 +365,8 @@
         }
       ],
       "note": "imagine $10k BTC Apr 12 2021 → $9k now; native chart visual -10% P/L punchline; cynical HODL reality check",
-      "syncedAt": "2026-06-29T04:59:05.032Z"
+      "syncedAt": "2026-06-29T04:59:05.032Z",
+      "visualCluster": "chart"
     },
     {
       "id": "meme-loki-messi-panini-pawn-stars-jun25",
@@ -430,7 +436,8 @@
         }
       ],
       "note": "QT lokithebird Messi Panini $175k digital card — Pawn Stars Rick 'best I can do is $5' meme; why buy digital cards you can't pawn",
-      "syncedAt": "2026-06-29T04:59:05.032Z"
+      "syncedAt": "2026-06-29T04:59:05.032Z",
+      "visualCluster": "meme"
     },
     {
       "id": "strategic-qt-summerville-wc-value-pick-jun25",
@@ -492,7 +499,8 @@
         }
       ],
       "note": "QRT ripchillpill $200 WC Value Challenge entry (contest, not pure strategic QT) — Summerville O0.5 @35¢; ripchillpill RT'd for reach; PM screenshot + form + bonus math",
-      "syncedAt": "2026-06-29T04:59:05.032Z"
+      "syncedAt": "2026-06-29T04:59:05.032Z",
+      "visualCluster": "screenshot"
     },
     {
       "id": "strategic-qt-wale-crypto-user-stats-jun25",
@@ -548,7 +556,8 @@
         }
       ],
       "note": "QT waleswoosh crypto user estimates — cynical reframe: 30k smart-follow chasers, 600k losers, 500k score believers, 500 future millionaires; Wale still smarter",
-      "syncedAt": "2026-06-29T04:59:05.032Z"
+      "syncedAt": "2026-06-29T04:59:05.032Z",
+      "visualCluster": "text-only"
     },
     {
       "id": "bait-ct-beefs-pick-one-jun25",
@@ -610,7 +619,8 @@
         }
       ],
       "note": "CT beefs pick-one poll — bears/bull, wale/xeet, Nikita/CT, you/profit; what did I miss?",
-      "syncedAt": "2026-06-29T04:59:05.032Z"
+      "syncedAt": "2026-06-29T04:59:05.032Z",
+      "visualCluster": "text-only"
     },
     {
       "id": "meme-ct-new-blood-crypto-heatmap-jun24",
@@ -679,7 +689,8 @@
         }
       ],
       "note": "meme punchline on own CT thread — red heatmap visual, be careful what you wish for; self-QT format, not strategic QT",
-      "syncedAt": "2026-06-29T04:59:05.032Z"
+      "syncedAt": "2026-06-29T04:59:05.032Z",
+      "visualCluster": "chart"
     },
     {
       "id": "meta-ct-producers-consumers-ripchillpill-jun24",
@@ -745,7 +756,8 @@
         }
       ],
       "note": "CT ecosystem reflection — producers > consumers, simulated attention market; QT ripchillpill as hook, not strategic QT or provocative take",
-      "syncedAt": "2026-06-29T04:59:05.032Z"
+      "syncedAt": "2026-06-29T04:59:05.032Z",
+      "visualCluster": "text-only"
     },
     {
       "id": "builder-mm-md3-squad-ronaldo-messi-kane-jun24",
@@ -772,7 +784,8 @@
           "checkedAt": "2026-06-26T21:44:26.757Z"
         }
       ],
-      "syncedAt": "2026-06-29T04:59:05.032Z"
+      "syncedAt": "2026-06-29T04:59:05.032Z",
+      "visualCluster": "screenshot"
     },
     {
       "id": "qt-loshmi-ronaldo-fantasy-lineup-jun23",
@@ -835,7 +848,8 @@
         }
       ],
       "note": "QT Loshmi Ronaldo apology — never-doubted contrarian; CWC fantasy lineup 84pts (Júnior C, Mbappé 15); cheering squad vs sweating PM; lineup + Ronaldo goals-left bait",
-      "syncedAt": "2026-06-29T04:59:05.032Z"
+      "syncedAt": "2026-06-29T04:59:05.032Z",
+      "visualCluster": "screenshot"
     },
     {
       "id": "provocative-ronaldo-goat-messi-qt-jun23",
@@ -902,7 +916,8 @@
         }
       ],
       "note": "QT Deestar Ronaldo one job — fake 5-0 scorecard manifesting; Messi fans excluded punchline; Portugal vs Uzbekistan WC day",
-      "syncedAt": "2026-06-29T04:59:05.032Z"
+      "syncedAt": "2026-06-29T04:59:05.032Z",
+      "visualCluster": "scorecard"
     },
     {
       "id": "hot-wc-attention-meta-jun23",
@@ -958,7 +973,8 @@
         }
       ],
       "note": "WC 2026 attention meta list — million on favorite, fan girl poll, real loss, Messi bait, wale PM; chalkboard collage + what did I forget?",
-      "syncedAt": "2026-06-29T04:59:05.032Z"
+      "syncedAt": "2026-06-29T04:59:05.032Z",
+      "visualCluster": "collage"
     },
     {
       "id": "provocative-france-iraq-messi-record-jun22",
@@ -1021,7 +1037,8 @@
         }
       ],
       "note": "WC live France vs Iraq — parental advisory for Messi fans; obscene domination + Mbappé hunting Messi's same-day GOAT record; black scorecard image",
-      "syncedAt": "2026-06-29T04:59:05.032Z"
+      "syncedAt": "2026-06-29T04:59:05.032Z",
+      "visualCluster": "scorecard"
     },
     {
       "id": "qt-jeremy-notif-impressions-nikita-jun22",
@@ -1085,7 +1102,8 @@
         }
       ],
       "note": "QT Jeremybtc notification-as-impression theory — contrarian: algo boost on alerts is logical; mid-account mutual circle flatline; Nikita W or L?",
-      "syncedAt": "2026-06-29T04:59:05.032Z"
+      "syncedAt": "2026-06-29T04:59:05.032Z",
+      "visualCluster": "text-only"
     },
     {
       "id": "meme-sam-altman-ct-decor-jun22",
@@ -1148,7 +1166,8 @@
         }
       ],
       "note": "dual norm: hot topic + meme — X algo update moment, Sam Altman religious icon as mandatory CT apartment decor",
-      "syncedAt": "2026-06-29T04:59:05.032Z"
+      "syncedAt": "2026-06-29T04:59:05.032Z",
+      "visualCluster": "meme"
     },
     {
       "id": "useful-france-no-hedge-update-jun22",
@@ -1190,7 +1209,8 @@
         }
       ],
       "note": "self-QT Jun 8 WC favorites hedge — France NO @ 80¢, roll R32→final, ~+25% if lift / flat if not; bait: hedge vs just betting / gambling propagandist",
-      "syncedAt": "2026-06-29T04:59:05.032Z"
+      "syncedAt": "2026-06-29T04:59:05.032Z",
+      "visualCluster": "text-only"
     },
     {
       "id": "qt-wale-algo-crash-test-jun22",
@@ -1239,7 +1259,8 @@
         }
       ],
       "note": "QT waleswoosh new algo take — crash-test failed; reply: reach compound interest if you already had it",
-      "syncedAt": "2026-06-29T04:59:05.032Z"
+      "syncedAt": "2026-06-29T04:59:05.032Z",
+      "visualCluster": "text-only"
     },
     {
       "id": "meme-jeremy-views-greentext-jun22",
@@ -1295,7 +1316,8 @@
         }
       ],
       "note": "greentext reach contrast — QT Jeremybtc on 3k views in 35s vs own 35 views in 3h; algo/botting moment on CT",
-      "syncedAt": "2026-06-29T04:59:05.032Z"
+      "syncedAt": "2026-06-29T04:59:05.032Z",
+      "visualCluster": "meme"
     },
     {
       "id": "qt-kekov-movement-life-story-jun21",
@@ -1347,7 +1369,8 @@
         }
       ],
       "note": "meta reach — Movement life arc beyond payout; personal reflection on what the airdrop actually changed",
-      "syncedAt": "2026-06-29T04:59:05.032Z"
+      "syncedAt": "2026-06-29T04:59:05.032Z",
+      "visualCluster": "text-only"
     },
     {
       "id": "bait-football-math-transitive-jun21",
@@ -1416,7 +1439,8 @@
         }
       ],
       "note": "WC transitive score math — Sweden/Tunisia/Netherlands pick-one (a/b/c/d) + scorecard collage + Punisher wait meme",
-      "syncedAt": "2026-06-29T04:59:05.032Z"
+      "syncedAt": "2026-06-29T04:59:05.032Z",
+      "visualCluster": "scorecard"
     },
     {
       "id": "strategic-qt-bigchog-pm-propaganda-jun20",
@@ -1458,7 +1482,8 @@
         }
       ],
       "note": "QT bigchog WC round-trip + replies collage; call out PM propaganda in comments. WC script 120 holders 80% red median −$5873. sources reply: https://x.com/piselliii/status/2068411091659468929 (Sergeenkov, Bloomberg/Dune, HEC paper)",
-      "syncedAt": "2026-06-29T04:59:05.032Z"
+      "syncedAt": "2026-06-29T04:59:05.032Z",
+      "visualCluster": "collage"
     },
     {
       "id": "useful-bear-pm-meta-homelander-jun19",
@@ -1520,7 +1545,8 @@
         }
       ],
       "note": "bear market × PM meta essay + Homelander clip (Wen POLY / we're back); casino relocated funnel didn't",
-      "syncedAt": "2026-06-29T04:59:05.032Z"
+      "syncedAt": "2026-06-29T04:59:05.032Z",
+      "visualCluster": "meme"
     },
     {
       "id": "provocative-wale-pm-hedge-jun19",
@@ -1582,7 +1608,8 @@
         }
       ],
       "note": "QT waleswoosh on Polymarket — win/lose both PR; PM entered via free money; hedge without hedging",
-      "syncedAt": "2026-06-29T04:59:05.032Z"
+      "syncedAt": "2026-06-29T04:59:05.032Z",
+      "visualCluster": "text-only"
     },
     {
       "id": "qt-bigchog-kol-audience-jun19",
@@ -1634,7 +1661,8 @@
         }
       ],
       "note": "QT bigchog — KOL audience vs product reality, TG vs X founder receipts",
-      "syncedAt": "2026-06-29T04:59:05.032Z"
+      "syncedAt": "2026-06-29T04:59:05.032Z",
+      "visualCluster": "text-only"
     },
     {
       "id": "bait-polymarket-korean-mexican-jun18",
@@ -1689,7 +1717,8 @@
         }
       ],
       "note": "absurdist fake Polymarket market on WC broadcast — bait lead (YES/NO + @Polymarket), meme trait (visual mock is the punchline)",
-      "syncedAt": "2026-06-29T04:59:05.032Z"
+      "syncedAt": "2026-06-29T04:59:05.032Z",
+      "visualCluster": "meme"
     },
     {
       "id": "qt-bigchog-posting-frequency-jun18",
@@ -1741,7 +1770,8 @@
         }
       ],
       "note": "QT bigchog on posting frequency — standalone take on consistency vs quality",
-      "syncedAt": "2026-06-29T04:59:05.032Z"
+      "syncedAt": "2026-06-29T04:59:05.032Z",
+      "visualCluster": "text-only"
     },
     {
       "id": "hot-wc-respect-list-jun18",
@@ -1800,7 +1830,8 @@
         }
       ],
       "note": "WC first round respect list — Japan locker room, Vozinha, Messi, Korea, Curaçao, fan culture + collage",
-      "syncedAt": "2026-06-29T04:59:05.032Z"
+      "syncedAt": "2026-06-29T04:59:05.032Z",
+      "visualCluster": "collage"
     },
     {
       "id": "meme-ronaldo-do-something-jun17",
@@ -1852,7 +1883,8 @@
         }
       ],
       "note": "dual norm: hot topic + meme (100% both), builder combo",
-      "syncedAt": "2026-06-29T04:59:05.032Z"
+      "syncedAt": "2026-06-29T04:59:05.032Z",
+      "visualCluster": "meme"
     },
     {
       "id": "meta-kaito-washed-king-jun17",
@@ -1897,7 +1929,8 @@
         }
       ],
       "note": "Kaito influence wave on CT — hot topic only",
-      "syncedAt": "2026-06-29T04:59:05.032Z"
+      "syncedAt": "2026-06-29T04:59:05.032Z",
+      "visualCluster": "text-only"
     },
     {
       "id": "qt-telcier-advanced-meta-jun17",
@@ -1946,7 +1979,8 @@
         }
       ],
       "note": "provocative CT meta expose — combo: strategic QT (~50%) + supplementary bait list",
-      "syncedAt": "2026-06-29T04:59:05.032Z"
+      "syncedAt": "2026-06-29T04:59:05.032Z",
+      "visualCluster": "text-only"
     },
     {
       "id": "bait-gambling-meta-jun17",
@@ -1994,10 +2028,30 @@
         }
       ],
       "note": "gambling meta discourse on CT — take on the moment, delivered as pick-one poll",
-      "syncedAt": "2026-06-29T04:59:05.032Z"
+      "syncedAt": "2026-06-29T04:59:05.032Z",
+      "visualCluster": "text-only"
     }
   ],
-  "ideas": [],
+  "ideas": [
+    {
+      "id": "idea-100k-vs-1m-pm-jun29",
+      "text": "Bait poll: $100k cash now vs $1M on PM account (must roll entire balance 3x) — fake PM balance UI mock; CT + bait; visual: meme or screenshot",
+      "type": "bait",
+      "createdAt": "2026-06-29T08:02:00.000Z"
+    },
+    {
+      "id": "idea-pm-expectations-jun29",
+      "text": "PM expectations essay — if Polymarket fails user expectations, what breaks? useful teardown; chart or PM screenshot; NOT slot 1; visual: chart or screenshot",
+      "type": "useful",
+      "createdAt": "2026-06-29T08:01:00.000Z"
+    },
+    {
+      "id": "idea-drake-wale-curse-jun29",
+      "text": "Drake vs Wale curse bait — collage: Drake cheering + Wale PM bet screenshot; poll: what hurts the team more? football + provocative + bait; visual: collage",
+      "type": "bait",
+      "createdAt": "2026-06-29T08:00:00.000Z"
+    }
+  ],
   "deletedUrls": [
     "https://x.com/piselliii/status/2069017105316425754",
     "https://x.com/piselliii/status/2069446707448877376"

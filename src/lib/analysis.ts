@@ -4,6 +4,9 @@ import { getNormStatus, NORMS, normLabel } from "./norms";
 import { allDisplayTypes, comboTraits, normTypes, SLOT_COMBOS } from "./traits";
 import type { ContentType, LogEntry, PostSlot } from "./types";
 import { CONTENT_TYPES } from "./types";
+import { buildVisualClusterStats } from "./visualClusters";
+import type { VisualCluster } from "./visualClusters";
+import { resolveVisualCluster } from "./visualClusters";
 import { formatLogDay, isInWeek, hoursSince } from "./week";
 
 export type PerformanceTier = "weak" | "ok" | "strong" | "unknown";
@@ -23,6 +26,7 @@ export interface PerformerRow {
   traits?: ContentType[];
   slot?: PostSlot;
   bucket?: Bucket;
+  visualCluster?: VisualCluster;
   tweetUrl?: string;
   ageHours?: number;
   views?: number;
@@ -57,6 +61,7 @@ export interface WeekAnalysis {
   doneTypes: ContentType[];
   overTypes: ContentType[];
   performers: PerformerRow[];
+  visualClusters: import("./visualClusters").VisualClusterRow[];
   bucketMix: BucketRow[];
   todayPriority: ContentType[];
   nextSlot: NextSlotHint;
@@ -241,6 +246,7 @@ export function buildWeekAnalysis(
         traits: l.traits,
         slot: l.slot,
         bucket: l.bucket,
+        visualCluster: resolveVisualCluster(l),
         tweetUrl: l.tweetUrl,
         ageHours,
         views: l.views,
@@ -259,6 +265,9 @@ export function buildWeekAnalysis(
       if (replyDiff !== 0) return replyDiff;
       return (b.viewsPerHour ?? 0) - (a.viewsPerHour ?? 0);
     });
+
+  const weekLogs = logs.filter((l) => isInWeek(l.at, now) && !l.classificationPending);
+  const visualClusters = buildVisualClusterStats(weekLogs);
 
   const todayLogs = logsToday(logs, now);
   const todayPriority = normGaps
@@ -307,6 +316,16 @@ export function buildWeekAnalysis(
     );
   }
 
+  if (visualClusters.length >= 2) {
+    const best = visualClusters[0];
+    const textOnly = visualClusters.find((v) => v.cluster === "text-only");
+    if (textOnly && best.cluster !== "text-only" && textOnly.count > 0) {
+      insights.push(
+        `Visual (Move 4): ${best.label} ~${best.avgViews}v цього тижня vs text-only ~${textOnly.avgViews}v — tap-worthy visual першим.`,
+      );
+    }
+  }
+
   if (todayLogs.length > 0) {
     insights.push(`Сьогодні опубліковано: ${todayLogs.length} пост(ів).`);
   }
@@ -321,6 +340,7 @@ export function buildWeekAnalysis(
     doneTypes,
     overTypes,
     performers,
+    visualClusters,
     bucketMix,
     todayPriority,
     nextSlot,
