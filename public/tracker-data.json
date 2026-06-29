@@ -1,7 +1,36 @@
 {
-  "syncVersion": 110,
-  "updatedAt": "2026-06-29T20:38:10.660Z",
+  "syncVersion": 111,
+  "updatedAt": "2026-06-29T21:45:00.000Z",
   "logs": [
+    {
+      "id": "hot-topic-ansem-airdrop-models-qt-loshmi-jun29",
+      "type": "hot topic",
+      "traits": [
+        "provocative",
+        "strategic QT"
+      ],
+      "slot": 39,
+      "bucket": "CT",
+      "visualCluster": "text-only",
+      "at": "2026-06-29T21:40:18.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2071710376690094268",
+      "ageHours": 0,
+      "views": 19,
+      "likes": 0,
+      "replies": 0,
+      "note": "QT @loshmi Ansem $7M giveback vs memecoins — long-form fair take: project airdrop (farm→dump at TGE) vs Ansem model (unexpected reward→loyalty); thesis «best airdrop leaves people wanting you to win»; bull/bottom narrative uncertainty; 18–24mo exhaustion context",
+      "snapshots": [
+        {
+          "ageHours": 0,
+          "views": 19,
+          "likes": 0,
+          "replies": 0,
+          "checkedAt": "2026-06-29T21:45:00.000Z"
+        }
+      ],
+      "updatedAt": "2026-06-29T21:45:00.000Z",
+      "syncedAt": "2026-06-29T21:45:00.000Z"
+    },
     {
       "id": "meme-ansem-generational-wealth-speedrun-jun29",
       "type": "meme",
