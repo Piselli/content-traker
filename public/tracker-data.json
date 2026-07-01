@@ -3,13 +3,8 @@
   "updatedAt": "2026-07-01T15:11:40.760Z",
   "logs": [
     {
-      "id": "hot-topic-crypto-bottom-monthly-charts-jul1",
-      "type": "hot topic",
-      "traits": [
-        "useful",
-        "provocative",
-        "bait"
-      ],
+      "id": "useful-crypto-bottom-monthly-charts-jul1",
+      "type": "useful",
       "slot": 42,
       "bucket": "CT",
       "visualCluster": "chart",
@@ -19,7 +14,7 @@
       "views": 56,
       "likes": 5,
       "replies": 5,
-      "note": "4-panel monthly chart grid BTC/ETH/SOL/alts — bottom-in contrarian; BTC full body below prior sweep, ETH trendline break + close below, SOL 3DP reversal setup without taking first-long liquidity (manipulation incomplete); neutral disclaimer + ask if this looks like bottom",
+      "note": "useful teardown — 4-panel monthly chart grid BTC/ETH/SOL/alts; technical read: BTC full body below prior sweep, ETH trendline break + close below, SOL 3DP without first-long liquidity sweep (manipulation incomplete); neutral close asking if structure looks like bottom",
       "snapshots": [
         {
           "ageHours": 0,
