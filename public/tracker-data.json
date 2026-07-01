@@ -1,7 +1,36 @@
 {
-  "syncVersion": 129,
-  "updatedAt": "2026-06-30T22:39:26.308Z",
+  "syncVersion": 130,
+  "updatedAt": "2026-07-01T04:52:00.000Z",
   "logs": [
+    {
+      "id": "hot-topic-trump-wallet-move-qt-watcherguru-jul1",
+      "type": "hot topic",
+      "traits": [
+        "strategic QT",
+        "provocative"
+      ],
+      "slot": 41,
+      "bucket": "CT",
+      "visualCluster": "text-only",
+      "at": "2026-06-30T23:47:00.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2072104784459440588",
+      "ageHours": 0,
+      "views": 14,
+      "likes": 2,
+      "replies": 2,
+      "note": "QT @WatcherGuru Trump disclosed crypto wallet — MOVE in $1.5M alt row (LINK/AAVE/ENA/ONDO); rhetorical challenge «name a stronger signal» + maybe time to $MOVE wordplay; presidential disclosure as MOVE legitimacy signal",
+      "snapshots": [
+        {
+          "ageHours": 0,
+          "views": 14,
+          "likes": 2,
+          "replies": 2,
+          "checkedAt": "2026-07-01T04:50:00.000Z"
+        }
+      ],
+      "updatedAt": "2026-07-01T04:50:00.000Z",
+      "syncedAt": "2026-07-01T04:50:00.000Z"
+    },
     {
       "id": "bait-france-sweden-1k-vs-1m-pm-slip-jun30",
       "type": "bait",
