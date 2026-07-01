@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "sync:x": "node scripts/sync-x.mjs"
+    "sync:x": "node scripts/sync-x.mjs",
+    "reminders": "node scripts/ntfy-reminders.mjs"
   },
   "dependencies": {
     "next": "16.2.9",

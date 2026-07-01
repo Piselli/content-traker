@@ -10,7 +10,7 @@ interface WeekSummaryProps {
 }
 
 export function WeekSummary({ weekCounts, analysis }: WeekSummaryProps) {
-  const { disciplineScore, disciplineTotal, postsToday } = analysis;
+  const { disciplineScore, disciplineTotal, postsToday, streaks } = analysis;
   const pct = Math.round((disciplineScore / disciplineTotal) * 100);
 
   const done = CONTENT_TYPES.filter((t) => {
@@ -43,6 +43,11 @@ export function WeekSummary({ weekCounts, analysis }: WeekSummaryProps) {
           />
         </div>
         <p className="mt-2 text-xs text-violet-200/60">норми закрито цього тижня</p>
+        {streaks.disciplineWeeks > 0 && (
+          <p className="mt-1 text-xs text-violet-300/70">
+            {streaks.disciplineWeeks} тижн. дисципліни поспіль (6+/8)
+          </p>
+        )}
       </div>
 
       <div className="rounded-2xl border border-zinc-800/80 bg-zinc-900/60 p-5 backdrop-blur">
@@ -51,6 +56,11 @@ export function WeekSummary({ weekCounts, analysis }: WeekSummaryProps) {
         </p>
         <p className="mt-2 text-4xl font-bold tabular-nums text-zinc-100">{postsToday}</p>
         <p className="mt-2 text-xs text-zinc-500">постів залоговано</p>
+        {streaks.postingDays > 0 && (
+          <p className="mt-2 text-xs text-amber-400/90">
+            🔥 {streaks.postingDays} дн. поспіль
+          </p>
+        )}
         {analysis.nextSlot.slot <= 3 && (
           <p className="mt-3 text-xs text-zinc-400">
             Наступний слот:{" "}

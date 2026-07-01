@@ -3,9 +3,12 @@
 import type { WeekAnalysis } from "@/lib/analysis";
 import { formatRate } from "@/lib/engagement";
 import { TYPE_STYLES } from "@/lib/styles";
+import type { LogEntry } from "@/lib/types";
+import { getVisualClusterBenchmarks } from "@/lib/visualClusters";
 
 interface WeekInsightsProps {
   analysis: WeekAnalysis;
+  logs: LogEntry[];
 }
 
 function tierClass(tier: string): string {
@@ -41,6 +44,13 @@ const BUCKET_LABELS: Record<string, string> = {
   builder: "Builder",
 };
 
+const BUCKET_COLORS: Record<string, string> = {
+  CT: "bg-sky-500",
+  football: "bg-emerald-500",
+  humor: "bg-yellow-500",
+  builder: "bg-violet-500",
+};
+
 function TypeBadge({ type, primary }: { type: string; primary?: boolean }) {
   const styles = TYPE_STYLES[type as keyof typeof TYPE_STYLES];
   if (!styles) return <span className="text-zinc-400">{type}</span>;
@@ -57,8 +67,10 @@ function TypeBadge({ type, primary }: { type: string; primary?: boolean }) {
   );
 }
 
-export function WeekInsights({ analysis }: WeekInsightsProps) {
-  const { nextSlot } = analysis;
+export function WeekInsights({ analysis, logs }: WeekInsightsProps) {
+  const { nextSlot, bucketMix } = analysis;
+  const benchmarks = getVisualClusterBenchmarks(logs);
+  const bucketTotal = bucketMix.reduce((a, b) => a + b.count, 0) || 1;
 
   return (
     <div className="rounded-2xl border border-zinc-800/80 bg-zinc-900/40 p-5 backdrop-blur">
@@ -110,28 +122,67 @@ export function WeekInsights({ analysis }: WeekInsightsProps) {
         ))}
       </ul>
 
-      {analysis.bucketMix.some((b) => b.count > 0) && (
+      {bucketMix.some((b) => b.count > 0) && (
         <div className="mt-5">
           <p className="text-[10px] font-medium uppercase tracking-widest text-zinc-500">
-            Bucket mix (тиждень)
+            Bucket mix (тиждень) · {bucketTotal} постів
           </p>
-          <ul className="mt-2 space-y-2">
-            {analysis.bucketMix.map((b) => (
-              <li key={b.bucket} className="text-xs text-zinc-400">
-                <div className="mb-1 flex justify-between">
-                  <span>{BUCKET_LABELS[b.bucket] ?? b.bucket}</span>
-                  <span>
-                    {b.actualPct}% · ціль {b.targetPct}%
-                  </span>
-                </div>
-                <div className="h-1.5 overflow-hidden rounded-full bg-zinc-800">
-                  <div
-                    className="h-full rounded-full bg-zinc-500"
-                    style={{ width: `${Math.min(100, b.actualPct)}%` }}
-                  />
-                </div>
+          <div className="mt-2 flex h-3 overflow-hidden rounded-full bg-zinc-800">
+            {bucketMix
+              .filter((b) => b.count > 0)
+              .map((b) => (
+                <div
+                  key={b.bucket}
+                  className={`${BUCKET_COLORS[b.bucket] ?? "bg-zinc-500"} transition-all`}
+                  style={{ width: `${(b.count / bucketTotal) * 100}%` }}
+                  title={`${BUCKET_LABELS[b.bucket]}: ${b.count} (${b.actualPct}%, ціль ${b.targetPct}%)`}
+                />
+              ))}
+          </div>
+          <ul className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-[11px] text-zinc-500">
+            {bucketMix.map((b) => (
+              <li key={b.bucket} className="flex items-center gap-1.5">
+                <span
+                  className={`inline-block h-2 w-2 rounded-full ${BUCKET_COLORS[b.bucket]}`}
+                />
+                {BUCKET_LABELS[b.bucket]} {b.actualPct}% / {b.targetPct}%
               </li>
             ))}
+          </ul>
+        </div>
+      )}
+
+      {analysis.visualClusters.length > 0 && (
+        <div className="mt-5">
+          <p className="text-[10px] font-medium uppercase tracking-widest text-zinc-500">
+            Visual clusters (тиждень)
+          </p>
+          <ul className="mt-2 space-y-1.5">
+            {analysis.visualClusters.map((v) => {
+              const bench = benchmarks[v.cluster];
+              const vsBench =
+                bench.avgViews > 0
+                  ? Math.round(((v.avgViews - bench.avgViews) / bench.avgViews) * 100)
+                  : 0;
+              return (
+                <li key={v.cluster} className="flex justify-between text-xs text-zinc-400">
+                  <span>
+                    {v.label}{" "}
+                    <span className="text-zinc-600">×{v.count}</span>
+                  </span>
+                  <span className="tabular-nums">
+                    {v.avgViews}v · {v.rpv}/1k
+                    {vsBench !== 0 && (
+                      <span className={vsBench > 0 ? "text-emerald-400" : "text-red-400"}>
+                        {" "}
+                        ({vsBench > 0 ? "+" : ""}
+                        {vsBench}% vs all-time)
+                      </span>
+                    )}
+                  </span>
+                </li>
+              );
+            })}
           </ul>
         </div>
       )}

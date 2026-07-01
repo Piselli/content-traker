@@ -1,0 +1,27 @@
+name: Ntfy reminders
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/cache@v4
+        with:
+          path: .ntfy-reminder-state.json
+          key: ntfy-reminder-${{ github.run_id }}
+          restore-keys: ntfy-reminder-
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Send ntfy reminders
+        run: node scripts/ntfy-reminders.mjs
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}

@@ -581,7 +581,9 @@
     {
       "id": "bait-wc-football-stay-ct-jun26",
       "type": "hot topic",
-      "classificationPending": true,
+      "traits": [
+        "bait"
+      ],
       "slot": 33,
       "bucket": "CT",
       "at": "2026-06-26T18:42:25.000Z",

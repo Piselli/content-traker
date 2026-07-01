@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import { classifySyncedTweet } from "./classify-tweet.mjs";
 /**
  * Sync @piselliii posts + metrics into public/tracker-data.json
  *
@@ -135,10 +136,14 @@ async function ingestTimeline(data, byId, now) {
     if (byId.has(tw.id)) continue;
     const m = tw.public_metrics ?? {};
     const preview = (tw.text ?? "").replace(/\s+/g, " ").slice(0, 120);
+    const classified = classifySyncedTweet(tw.text ?? "");
     data.logs.push({
       id: `x-${tw.id}`,
-      type: "hot topic",
-      classificationPending: true,
+      type: classified.type,
+      traits: classified.traits,
+      bucket: classified.bucket,
+      visualCluster: classified.visualCluster,
+      classificationPending: classified.classificationPending,
       at: tw.created_at,
       updatedAt: now.toISOString(),
       syncedAt: now.toISOString(),

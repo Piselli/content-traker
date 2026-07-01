@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { buildWeekAnalysis } from "@/lib/analysis";
+import { exportLogsCsv } from "@/lib/exportCsv";
 import { buildVisualClusterStats } from "@/lib/visualClusters";
 import { NORMS } from "@/lib/norms";
 import { getNormStatus } from "@/lib/norms";
@@ -189,6 +190,17 @@ export function useTracker() {
     });
   }, []);
 
+  const markIdeaUsed = useCallback((id: string) => {
+    setData((prev) => {
+      const ideas = prev.ideas.map((i) =>
+        i.id === id ? { ...i, usedAt: new Date().toISOString() } : i,
+      );
+      const next = { ...prev, ideas };
+      saveData(next);
+      return next;
+    });
+  }, []);
+
   const removeIdea = useCallback((id: string) => {
     setData((prev) => {
       const next = { ...prev, ideas: prev.ideas.filter((i) => i.id !== id) };
@@ -314,6 +326,8 @@ export function useTracker() {
     return payload;
   }, [buildJarvisExport]);
 
+  const exportCsv = useCallback(() => exportLogsCsv(data), [data]);
+
   return {
     ready,
     data,
@@ -328,7 +342,9 @@ export function useTracker() {
     updateLog,
     addIdea,
     removeIdea,
+    markIdeaUsed,
     exportBackup,
+    exportCsv,
     exportForJarvis,
     copyForJarvis,
     restoreBackup,

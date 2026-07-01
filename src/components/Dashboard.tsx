@@ -1,15 +1,36 @@
 "use client";
 
 import { ActivityLog } from "@/components/ActivityLog";
+import { ActivityHeatmap } from "@/components/ActivityHeatmap";
 import { HabitCard } from "@/components/HabitCard";
 import { IdeasPanel } from "@/components/IdeasPanel";
+import { NormChart } from "@/components/NormChart";
 import { QuickLogPanel } from "@/components/QuickLogPanel";
+import { useToast } from "@/components/Toast";
 import { WeekInsights } from "@/components/WeekInsights";
 import { WeekSummary } from "@/components/WeekSummary";
 import { useTracker } from "@/hooks/useTracker";
 import { CONTENT_TYPES } from "@/lib/types";
 import { weekRangeLabel } from "@/lib/week";
 import { useState } from "react";
+
+function DashboardSkeleton() {
+  return (
+    <div className="mx-auto max-w-6xl animate-pulse space-y-8 px-4 py-8">
+      <div className="h-20 rounded-2xl bg-zinc-900" />
+      <div className="grid gap-3 sm:grid-cols-3">
+        {[1, 2, 3].map((i) => (
+          <div key={i} className="h-32 rounded-2xl bg-zinc-900" />
+        ))}
+      </div>
+      <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
+        {Array.from({ length: 8 }).map((_, i) => (
+          <div key={i} className="h-40 rounded-2xl bg-zinc-900" />
+        ))}
+      </div>
+    </div>
+  );
+}
 
 export function Dashboard() {
   const {
@@ -24,16 +45,19 @@ export function Dashboard() {
     removeLog,
     addIdea,
     removeIdea,
+    markIdeaUsed,
     exportBackup,
+    exportCsv,
     copyForJarvis,
     restoreBackup,
   } = useTracker();
 
+  const { toast } = useToast();
   const [copied, setCopied] = useState(false);
   const pendingCount = data.logs.filter((l) => l.classificationPending).length;
 
-  function download(filename: string, content: string) {
-    const blob = new Blob([content], { type: "application/json" });
+  function download(filename: string, content: string, mime = "application/json") {
+    const blob = new Blob([content], { type: mime });
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
@@ -47,15 +71,26 @@ export function Dashboard() {
       `content-tracker-${new Date().toISOString().slice(0, 10)}.json`,
       exportBackup(),
     );
+    toast("Backup downloaded", "success");
+  }
+
+  function handleCsvExport() {
+    download(
+      `content-tracker-${new Date().toISOString().slice(0, 10)}.csv`,
+      exportCsv(),
+      "text/csv",
+    );
+    toast("CSV exported", "success");
   }
 
   async function handleJarvisCopy() {
     try {
       await copyForJarvis();
       setCopied(true);
+      toast("Скопійовано для Jarvis", "success");
       setTimeout(() => setCopied(false), 2000);
     } catch {
-      alert("Could not copy — check browser permissions");
+      toast("Could not copy — check browser permissions", "error");
     }
   }
 
@@ -70,8 +105,9 @@ export function Dashboard() {
       reader.onload = () => {
         try {
           restoreBackup(String(reader.result));
+          toast("Backup restored", "success");
         } catch {
-          alert("Invalid backup file");
+          toast("Invalid backup file", "error");
         }
       };
       reader.readAsText(file);
@@ -79,13 +115,7 @@ export function Dashboard() {
     input.click();
   }
 
-  if (!ready) {
-    return (
-      <div className="flex min-h-screen items-center justify-center text-zinc-500">
-        Loading…
-      </div>
-    );
-  }
+  if (!ready) return <DashboardSkeleton />;
 
   return (
     <div className="relative mx-auto min-h-screen max-w-6xl px-4 py-8 sm:px-6">
@@ -109,6 +139,13 @@ export function Dashboard() {
               className="rounded-xl border border-violet-500/30 bg-violet-950/50 px-3.5 py-2 text-xs font-medium text-violet-200 transition hover:border-violet-400/50 hover:bg-violet-900/40"
             >
               {copied ? "Скопійовано!" : "Copy for Jarvis"}
+            </button>
+            <button
+              type="button"
+              onClick={handleCsvExport}
+              className="rounded-xl border border-zinc-700/80 px-3.5 py-2 text-xs text-zinc-400 transition hover:text-zinc-200"
+            >
+              CSV
             </button>
             <button
               type="button"
@@ -136,9 +173,15 @@ export function Dashboard() {
         )}
 
         <section className="mt-8">
-          <h2 className="mb-3 text-xs font-medium uppercase tracking-widest text-zinc-500">
-            Звички
-          </h2>
+          <div className="mb-3 flex flex-wrap items-end justify-between gap-2">
+            <h2 className="text-xs font-medium uppercase tracking-widest text-zinc-500">
+              Звички
+            </h2>
+            <div className="rounded-xl border border-zinc-800/80 bg-zinc-900/50 px-3 py-2">
+              <p className="text-[10px] uppercase tracking-widest text-zinc-600">Активність</p>
+              <ActivityHeatmap logs={data.logs} />
+            </div>
+          </div>
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
             {CONTENT_TYPES.map((type) => (
               <HabitCard
@@ -161,13 +204,19 @@ export function Dashboard() {
             </h2>
             <ActivityLog logs={data.logs} onRemove={removeLog} />
           </section>
-          <section>
-            <IdeasPanel ideas={data.ideas} onAdd={addIdea} onRemove={removeIdea} />
+          <section className="flex flex-col gap-6">
+            <NormChart weekCounts={weekCounts} analysis={weekAnalysis} />
+            <IdeasPanel
+              ideas={data.ideas}
+              onAdd={addIdea}
+              onRemove={removeIdea}
+              onMarkUsed={markIdeaUsed}
+            />
           </section>
         </div>
 
         <section className="mt-8">
-          <WeekInsights analysis={weekAnalysis} />
+          <WeekInsights analysis={weekAnalysis} logs={data.logs} />
         </section>
 
         <details className="mt-6 group">

@@ -7,7 +7,7 @@ import { CONTENT_TYPES } from "./types";
 import { buildVisualClusterStats } from "./visualClusters";
 import type { VisualCluster } from "./visualClusters";
 import { resolveVisualCluster } from "./visualClusters";
-import { formatLogDay, isInWeek, hoursSince } from "./week";
+import { formatLogDay, isInWeek, hoursSince, startOfWeek, MS_DAY } from "./week";
 
 export type PerformanceTier = "weak" | "ok" | "strong" | "unknown";
 
@@ -55,6 +55,22 @@ export interface NextSlotHint {
   avoid: ContentType[];
 }
 
+export interface WeekComparison {
+  posts: number;
+  prevPosts: number;
+  avgViews: number;
+  prevAvgViews: number;
+  avgRepliesPer1k: number;
+  prevAvgRepliesPer1k: number;
+  disciplineScore: number;
+  prevDisciplineScore: number;
+}
+
+export interface StreakInfo {
+  disciplineWeeks: number;
+  postingDays: number;
+}
+
 export interface WeekAnalysis {
   normGaps: NormGap[];
   comboHits: NormGap[];
@@ -69,6 +85,8 @@ export interface WeekAnalysis {
   disciplineScore: number;
   disciplineTotal: number;
   postsToday: number;
+  weekComparison: WeekComparison;
+  streaks: StreakInfo;
 }
 
 export function getPerformanceTier(views: number, ageHours: number): PerformanceTier {
@@ -124,6 +142,77 @@ function normGapNeeded(type: ContentType, count: number): number {
   return 0;
 }
 
+function isInPrevWeek(iso: string, ref: Date): boolean {
+  const prev = new Date(startOfWeek(ref).getTime() - MS_DAY);
+  return isInWeek(iso, prev);
+}
+
+function weekDisciplineScore(weekCounts: Record<ContentType, number>): number {
+  let score = 0;
+  for (const type of CONTENT_TYPES) {
+    const count = weekCounts[type] ?? 0;
+    if (getNormStatus(count, NORMS[type]) === "done") score += 1;
+  }
+  return score;
+}
+
+function weekMetrics(logs: LogEntry[], ref: Date, prev = false): {
+  posts: number;
+  avgViews: number;
+  avgRepliesPer1k: number;
+  disciplineScore: number;
+} {
+  const filtered = logs.filter((l) => {
+    if (l.classificationPending) return false;
+    return prev ? isInPrevWeek(l.at, ref) : isInWeek(l.at, ref);
+  });
+  const counts = {} as Record<ContentType, number>;
+  for (const type of CONTENT_TYPES) counts[type] = 0;
+  for (const log of filtered) {
+    for (const t of normTypes(log)) counts[t] += 1;
+  }
+  const withViews = filtered.filter((l) => l.views != null && l.views > 0);
+  const totalViews = withViews.reduce((a, l) => a + l.views!, 0);
+  const totalReplies = withViews.reduce((a, l) => a + (l.replies ?? 0), 0);
+  return {
+    posts: filtered.length,
+    avgViews: withViews.length ? Math.round(totalViews / withViews.length) : 0,
+    avgRepliesPer1k:
+      totalViews > 0 ? Math.round((totalReplies / totalViews) * 10000) / 10 : 0,
+    disciplineScore: weekDisciplineScore(counts),
+  };
+}
+
+export function computeStreaks(logs: LogEntry[], now = new Date()): StreakInfo {
+  let disciplineWeeks = 0;
+  for (let w = 0; w < 52; w++) {
+    const ref = new Date(startOfWeek(now).getTime() - w * 7 * MS_DAY);
+    const counts = {} as Record<ContentType, number>;
+    for (const type of CONTENT_TYPES) counts[type] = 0;
+    for (const log of logs) {
+      if (log.classificationPending || !isInWeek(log.at, ref)) continue;
+      for (const t of normTypes(log)) counts[t] += 1;
+    }
+    const score = weekDisciplineScore(counts);
+    if (score >= 6) disciplineWeeks += 1;
+    else break;
+  }
+
+  let postingDays = 0;
+  const todayKey = formatLogDay(now.toISOString());
+  for (let d = 0; d < 365; d++) {
+    const day = new Date(
+      Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() - d),
+    );
+    const key = day.toISOString().slice(0, 10);
+    const hasPost = logs.some((l) => l.at.slice(0, 10) === key);
+    if (hasPost) postingDays += 1;
+    else if (key !== todayKey) break;
+  }
+
+  return { disciplineWeeks, postingDays };
+}
+
 function logsToday(logs: LogEntry[], now: Date): LogEntry[] {
   const key = formatLogDay(now.toISOString());
   return logs.filter((l) => formatLogDay(l.at) === key);
@@ -156,27 +245,35 @@ function buildNextSlot(
   return { slot, postsToday: postsTodayCount, suggestedTypes, suggestedCombos, avoid };
 }
 
+/** One canonical bucket per post — topic + format, no double-counting. */
+export function resolvePostBucket(log: LogEntry): Bucket {
+  if (log.bucket === "football") return "football";
+  if (
+    log.bucket === "builder" ||
+    normTypes(log).includes("builder") ||
+    comboTraits(log).includes("builder")
+  ) {
+    return "builder";
+  }
+  if (
+    normTypes(log).includes("meme") ||
+    comboTraits(log).includes("meme") ||
+    log.bucket === "humor"
+  ) {
+    return "humor";
+  }
+  if (log.bucket === "CT") return "CT";
+  return "CT";
+}
+
 function buildBucketMix(logs: LogEntry[], now: Date): BucketRow[] {
-  const weekLogs = logs.filter((l) => isInWeek(l.at, now));
+  const weekLogs = logs.filter(
+    (l) => isInWeek(l.at, now) && !l.classificationPending,
+  );
   const total = weekLogs.length || 1;
 
-  function logBucket(log: LogEntry): Bucket | undefined {
-    if (log.bucket) return log.bucket;
-    if (normTypes(log).includes("meme") || comboTraits(log).includes("meme")) return "humor";
-    return undefined;
-  }
-
   return (Object.keys(BUCKET_TARGETS) as Bucket[]).map((bucket) => {
-    const count = weekLogs.filter((l) => {
-      const b = logBucket(l);
-      if (bucket === "humor") {
-        return b === "humor" || normTypes(l).includes("meme") || comboTraits(l).includes("meme");
-      }
-      if (bucket === "builder") {
-        return b === "builder" || normTypes(l).includes("builder") || comboTraits(l).includes("builder");
-      }
-      return b === bucket;
-    }).length;
+    const count = weekLogs.filter((l) => resolvePostBucket(l) === bucket).length;
     return {
       bucket,
       count,
@@ -270,6 +367,20 @@ export function buildWeekAnalysis(
   const visualClusters = buildVisualClusterStats(weekLogs);
 
   const todayLogs = logsToday(logs, now);
+  const currentMetrics = weekMetrics(logs, now, false);
+  const prevMetrics = weekMetrics(logs, now, true);
+  const weekComparison: WeekComparison = {
+    posts: currentMetrics.posts,
+    prevPosts: prevMetrics.posts,
+    avgViews: currentMetrics.avgViews,
+    prevAvgViews: prevMetrics.avgViews,
+    avgRepliesPer1k: currentMetrics.avgRepliesPer1k,
+    prevAvgRepliesPer1k: prevMetrics.avgRepliesPer1k,
+    disciplineScore: currentMetrics.disciplineScore,
+    prevDisciplineScore: prevMetrics.disciplineScore,
+  };
+  const streaks = computeStreaks(logs, now);
+
   const todayPriority = normGaps
     .filter((g) => g.needed > 0 && g.type !== "builder" && g.type !== "meta reach")
     .slice(0, 3)
@@ -348,5 +459,7 @@ export function buildWeekAnalysis(
     disciplineScore,
     disciplineTotal: CONTENT_TYPES.length,
     postsToday: todayLogs.length,
+    weekComparison,
+    streaks,
   };
 }

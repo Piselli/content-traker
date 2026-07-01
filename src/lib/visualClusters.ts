@@ -21,8 +21,8 @@ export const VISUAL_CLUSTER_LABELS: Record<VisualCluster, string> = {
   "text-only": "Text-only",
 };
 
-/** Avg views / replies per 1K views from tracker history (Jun 2026) */
-export const VISUAL_CLUSTER_BENCHMARKS: Record<
+/** Fallback when no logs yet — updated from live stats when available */
+export const VISUAL_CLUSTER_BENCHMARKS_FALLBACK: Record<
   VisualCluster,
   { avgViews: number; rpv: number }
 > = {
@@ -33,6 +33,22 @@ export const VISUAL_CLUSTER_BENCHMARKS: Record<
   meme: { avgViews: 261, rpv: 17 },
   "text-only": { avgViews: 159, rpv: 16 },
 };
+
+/** @deprecated use getVisualClusterBenchmarks(logs) */
+export const VISUAL_CLUSTER_BENCHMARKS = VISUAL_CLUSTER_BENCHMARKS_FALLBACK;
+
+export function getVisualClusterBenchmarks(
+  logs: LogEntry[],
+): Record<VisualCluster, { avgViews: number; rpv: number }> {
+  const stats = buildVisualClusterStats(
+    logs.filter((l) => !l.classificationPending && l.views != null),
+  );
+  const out = { ...VISUAL_CLUSTER_BENCHMARKS_FALLBACK };
+  for (const row of stats) {
+    out[row.cluster] = { avgViews: row.avgViews, rpv: row.rpv };
+  }
+  return out;
+}
 
 export function matchVisualCluster(raw: string): VisualCluster | undefined {
   const lower = raw.toLowerCase().trim().replace(/_/g, "-");

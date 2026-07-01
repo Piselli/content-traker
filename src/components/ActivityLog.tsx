@@ -1,10 +1,13 @@
 "use client";
 
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import { TYPE_STYLES } from "@/lib/styles";
 import { comboTraits, normTypes } from "@/lib/traits";
-import type { LogEntry } from "@/lib/types";
+import type { ContentType, LogEntry } from "@/lib/types";
+import { CONTENT_TYPES } from "@/lib/types";
+import { VISUAL_CLUSTERS, resolveVisualCluster } from "@/lib/visualClusters";
 import { formatLogDay, formatLogTime, hoursSince } from "@/lib/week";
+import { TweetEmbed } from "@/components/TweetEmbed";
 
 interface ActivityLogProps {
   logs: LogEntry[];
@@ -29,7 +32,34 @@ function formatMetrics(log: LogEntry): string | null {
 }
 
 export function ActivityLog({ logs, onRemove }: ActivityLogProps) {
-  const grouped = logs.slice(0, 50).reduce<Record<string, LogEntry[]>>(
+  const [typeFilter, setTypeFilter] = useState<ContentType | "">("");
+  const [pendingOnly, setPendingOnly] = useState(false);
+  const [embedTweets, setEmbedTweets] = useState(false);
+  const [query, setQuery] = useState("");
+
+  const filtered = useMemo(() => {
+    return logs.filter((log) => {
+      if (pendingOnly && !log.classificationPending) return false;
+      if (typeFilter && !allTypes(log).includes(typeFilter)) return false;
+      if (query) {
+        const q = query.toLowerCase();
+        const hay = [
+          log.note,
+          log.tweetUrl,
+          log.type,
+          ...(log.traits ?? []),
+          ...(log.fullTypes ?? []),
+        ]
+          .filter(Boolean)
+          .join(" ")
+          .toLowerCase();
+        if (!hay.includes(q)) return false;
+      }
+      return true;
+    });
+  }, [logs, typeFilter, pendingOnly, query]);
+
+  const grouped = filtered.slice(0, 50).reduce<Record<string, LogEntry[]>>(
     (acc, log) => {
       const key = formatLogDay(log.at);
       if (!acc[key]) acc[key] = [];
@@ -41,42 +71,94 @@ export function ActivityLog({ logs, onRemove }: ActivityLogProps) {
 
   const days = Object.keys(grouped);
 
-  if (days.length === 0) {
-    return (
-      <div className="rounded-2xl border border-dashed border-zinc-800 bg-zinc-900/30 p-8 text-center text-sm text-zinc-500">
-        Поки порожньо — натисни Done або скинь скрін + URL у чат.
-      </div>
-    );
-  }
-
   return (
-    <div className="max-h-[520px] overflow-y-auto rounded-2xl border border-zinc-800/80 bg-zinc-900/40">
-      {days.map((day) => (
-        <div key={day} className="border-b border-zinc-800/60 last:border-0">
-          <div className="sticky top-0 bg-zinc-900/95 px-4 py-2.5 text-xs font-medium text-zinc-500 backdrop-blur">
-            {day}
-          </div>
-          <ul className="px-2 pb-2 pt-1">
-            {grouped[day].map((log) => (
-              <LogRow key={log.id} log={log} onRemove={onRemove} />
-            ))}
-          </ul>
+    <div className="flex flex-col gap-3">
+      <div className="flex flex-wrap gap-2 rounded-xl border border-zinc-800/80 bg-zinc-900/50 p-3">
+        <input
+          type="search"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          placeholder="Пошук…"
+          className="min-w-[120px] flex-1 rounded-lg border border-zinc-700 bg-zinc-950 px-2.5 py-1.5 text-xs text-zinc-200 placeholder:text-zinc-600 focus:outline-none"
+        />
+        <select
+          value={typeFilter}
+          onChange={(e) => setTypeFilter(e.target.value as ContentType | "")}
+          className="rounded-lg border border-zinc-700 bg-zinc-950 px-2 py-1.5 text-xs text-zinc-300"
+        >
+          <option value="">всі типи</option>
+          {CONTENT_TYPES.map((t) => (
+            <option key={t} value={t}>
+              {t}
+            </option>
+          ))}
+        </select>
+        <label className="flex cursor-pointer items-center gap-1.5 text-xs text-zinc-500">
+          <input
+            type="checkbox"
+            checked={pendingOnly}
+            onChange={(e) => setPendingOnly(e.target.checked)}
+            className="rounded border-zinc-600"
+          />
+          pending
+        </label>
+        <label className="flex cursor-pointer items-center gap-1.5 text-xs text-zinc-500">
+          <input
+            type="checkbox"
+            checked={embedTweets}
+            onChange={(e) => setEmbedTweets(e.target.checked)}
+            className="rounded border-zinc-600"
+          />
+          embed
+        </label>
+      </div>
+
+      {days.length === 0 ? (
+        <div className="rounded-2xl border border-dashed border-zinc-800 bg-zinc-900/30 p-8 text-center text-sm text-zinc-500">
+          Нічого не знайдено — зміни фільтр або скинь скрін + URL у чат.
         </div>
-      ))}
+      ) : (
+        <div className="max-h-[520px] overflow-y-auto rounded-2xl border border-zinc-800/80 bg-zinc-900/40">
+          {days.map((day) => (
+            <div key={day} className="border-b border-zinc-800/60 last:border-0">
+              <div className="sticky top-0 bg-zinc-900/95 px-4 py-2.5 text-xs font-medium text-zinc-500 backdrop-blur">
+                {day}
+              </div>
+              <ul className="px-2 pb-2 pt-1">
+                {grouped[day].map((log) => (
+                  <LogRow
+                    key={log.id}
+                    log={log}
+                    embedTweets={embedTweets}
+                    onRemove={onRemove}
+                  />
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      )}
     </div>
   );
 }
 
+function allTypes(log: LogEntry): ContentType[] {
+  return [...normTypes(log), ...comboTraits(log)];
+}
+
 function LogRow({
   log,
+  embedTweets,
   onRemove,
 }: {
   log: LogEntry;
+  embedTweets: boolean;
   onRemove: (id: string) => void;
 }) {
   const [open, setOpen] = useState(false);
   const metrics = formatMetrics(log);
   const snapshots = log.snapshots ?? [];
+  const cluster = resolveVisualCluster(log);
 
   return (
     <li className="group rounded-xl px-2 py-2.5 hover:bg-zinc-800/40">
@@ -105,13 +187,13 @@ function LogRow({
             )}
             {!log.classificationPending &&
               comboTraits(log).map((t) => (
-              <span
-                key={t}
-                className="rounded-full border border-violet-500/25 bg-violet-950/30 px-2 py-0.5 text-[10px] text-violet-300/90"
-              >
-                {t}
-              </span>
-            ))}
+                <span
+                  key={t}
+                  className="rounded-full border border-violet-500/25 bg-violet-950/30 px-2 py-0.5 text-[10px] text-violet-300/90"
+                >
+                  {t}
+                </span>
+              ))}
             {log.slot != null && (
               <span className="rounded bg-zinc-800 px-1.5 py-0.5 text-[10px] text-zinc-400">
                 #{log.slot}
@@ -122,20 +204,21 @@ function LogRow({
                 {BUCKET_LABELS[log.bucket] ?? log.bucket}
               </span>
             )}
+            {VISUAL_CLUSTERS.includes(cluster) && (
+              <span className="text-[10px] text-zinc-600" title="visual cluster">
+                {cluster}
+              </span>
+            )}
           </div>
           {metrics && (
             <p className="mt-1 text-xs tabular-nums text-zinc-500">{metrics}</p>
           )}
-          {log.tweetUrl && (
-            <a
-              href={log.tweetUrl}
-              target="_blank"
-              rel="noreferrer"
-              className="mt-1 block truncate text-xs text-sky-500/90 hover:text-sky-400 hover:underline"
-            >
-              {log.tweetUrl}
-            </a>
-          )}
+          {log.tweetUrl &&
+            (embedTweets ? (
+              <TweetEmbed url={log.tweetUrl} />
+            ) : (
+              <TweetEmbed url={log.tweetUrl} compact />
+            ))}
           {snapshots.length > 0 && (
             <button
               type="button"

@@ -64,6 +64,7 @@ export interface Idea {
   text: string;
   type?: ContentType;
   createdAt: string;
+  usedAt?: string;
 }
 
 export interface AppData {
