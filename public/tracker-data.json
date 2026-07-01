@@ -3,6 +3,35 @@
   "updatedAt": "2026-07-01T15:11:40.760Z",
   "logs": [
     {
+      "id": "hot-topic-crypto-bottom-monthly-charts-jul1",
+      "type": "hot topic",
+      "traits": [
+        "useful",
+        "provocative",
+        "bait"
+      ],
+      "slot": 42,
+      "bucket": "CT",
+      "visualCluster": "chart",
+      "at": "2026-07-01T10:22:00.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2072309875082732026",
+      "ageHours": 0,
+      "views": 56,
+      "likes": 5,
+      "replies": 5,
+      "note": "4-panel monthly chart grid BTC/ETH/SOL/alts — bottom-in contrarian; BTC full body below prior sweep, ETH trendline break + close below, SOL 3DP reversal setup without taking first-long liquidity (manipulation incomplete); neutral disclaimer + ask if this looks like bottom",
+      "snapshots": [
+        {
+          "ageHours": 0,
+          "views": 56,
+          "likes": 5,
+          "replies": 5,
+          "checkedAt": "2026-07-01T10:25:00.000Z"
+        }
+      ],
+      "updatedAt": "2026-07-01T10:25:00.000Z"
+    },
+    {
       "id": "hot-topic-trump-wallet-move-qt-watcherguru-jul1",
       "type": "hot topic",
       "traits": [
