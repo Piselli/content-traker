@@ -1,7 +1,92 @@
 {
-  "syncVersion": 150,
-  "updatedAt": "2026-07-02T14:28:42.492Z",
+  "syncVersion": 151,
+  "updatedAt": "2026-07-02T15:46:55.926Z",
   "logs": [
+    {
+      "id": "provocative-betting-vs-investing-qt-deestar-jul2",
+      "type": "provocative",
+      "traits": [
+        "strategic QT",
+        "useful",
+        "bait"
+      ],
+      "slot": 46,
+      "bucket": "CT",
+      "visualCluster": "screenshot",
+      "at": "2026-07-02T16:56:00.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2072665691405082759",
+      "ageHours": 0,
+      "views": 114,
+      "likes": 33,
+      "replies": 3,
+      "note": "QT @Deestar PM airdrop gambling line — long contrarian: real trading/ICOs ≠ betting; addiction industry + stacked math; research stats collage ~1% ahead / ~15% break-even / ~84% lose; «what are the odds you're in that 1%?»",
+      "snapshots": [
+        {
+          "ageHours": 0,
+          "views": 114,
+          "likes": 33,
+          "replies": 3,
+          "checkedAt": "2026-07-02T15:46:55.926Z"
+        }
+      ],
+      "updatedAt": "2026-07-02T15:46:55.926Z"
+    },
+    {
+      "id": "useful-distribution-brand-ct-qt-abhi-jul2",
+      "type": "useful",
+      "traits": [
+        "strategic QT",
+        "provocative"
+      ],
+      "slot": 45,
+      "bucket": "CT",
+      "visualCluster": "text-only",
+      "at": "2026-07-02T15:45:00.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2072647747883168101",
+      "ageHours": 1,
+      "views": 80,
+      "likes": 44,
+      "replies": 4,
+      "note": "QT @0xAbhiP distribution leverage — playbook: find strong product w/o reach, copy, distribute; stronger when you ARE distribution (brand); CT quiet market = buy trust cheap; cynical self-question closer",
+      "snapshots": [
+        {
+          "ageHours": 1,
+          "views": 80,
+          "likes": 44,
+          "replies": 4,
+          "checkedAt": "2026-07-02T15:46:55.926Z"
+        }
+      ],
+      "updatedAt": "2026-07-02T15:46:55.926Z"
+    },
+    {
+      "id": "meme-ronaldo-reach-playbook-jul2",
+      "type": "meme",
+      "traits": [
+        "bait",
+        "hot topic"
+      ],
+      "slot": 44,
+      "bucket": "football",
+      "visualCluster": "text-only",
+      "at": "2026-07-02T14:37:00.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2072630759563608092",
+      "ageHours": 2,
+      "views": 91,
+      "likes": 44,
+      "replies": 4,
+      "note": "reach meta satire — how to get reach if you're not me: bet Ronaldo scores, call GOAT, SIUUUU; Messi fans do the rest; football bait one-liner",
+      "snapshots": [
+        {
+          "ageHours": 2,
+          "views": 91,
+          "likes": 44,
+          "replies": 4,
+          "checkedAt": "2026-07-02T15:46:55.926Z"
+        }
+      ],
+      "updatedAt": "2026-07-02T15:46:55.926Z"
+    },
     {
       "id": "hot-topic-wale-england-black-mark-qt-jul1",
       "type": "hot topic",
@@ -15,12 +100,19 @@
       "visualCluster": "screenshot",
       "at": "2026-07-01T13:30:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2072357140644180479",
-      "ageHours": 25,
-      "views": 153,
-      "likes": 21,
+      "ageHours": 21,
+      "views": 237,
+      "likes": 77,
       "replies": 7,
       "note": "QT @waleswoosh England VisionWallet va banque — wale law black mark running gag; other-camera Tuchel broadcast frame ENG 0-1 COD 14' + red circle on hand; «did wale leave England any chance?»",
       "snapshots": [
+        {
+          "ageHours": 21,
+          "views": 237,
+          "likes": 77,
+          "replies": 7,
+          "checkedAt": "2026-07-02T15:46:55.926Z"
+        },
         {
           "ageHours": 20,
           "views": 153,
@@ -85,7 +177,7 @@
           "checkedAt": "2026-07-01T13:35:00.000Z"
         }
       ],
-      "updatedAt": "2026-07-02T14:28:42.492Z",
+      "updatedAt": "2026-07-02T15:46:55.926Z",
       "syncedAt": "2026-07-02T14:28:42.492Z"
     },
     {
@@ -96,12 +188,19 @@
       "visualCluster": "chart",
       "at": "2026-07-01T10:22:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2072309875082732026",
-      "ageHours": 28,
-      "views": 164,
-      "likes": 24,
-      "replies": 9,
+      "ageHours": 24,
+      "views": 222,
+      "likes": 99,
+      "replies": 11,
       "note": "useful teardown — 4-panel monthly chart grid BTC/ETH/SOL/alts; technical read: BTC full body below prior sweep, ETH trendline break + close below, SOL 3DP without first-long liquidity sweep (manipulation incomplete); neutral close asking if structure looks like bottom",
       "snapshots": [
+        {
+          "ageHours": 24,
+          "views": 222,
+          "likes": 99,
+          "replies": 11,
+          "checkedAt": "2026-07-02T15:46:55.926Z"
+        },
         {
           "ageHours": 23,
           "views": 164,
@@ -145,7 +244,7 @@
           "checkedAt": "2026-07-01T10:25:00.000Z"
         }
       ],
-      "updatedAt": "2026-07-02T14:28:42.492Z",
+      "updatedAt": "2026-07-02T15:46:55.926Z",
       "syncedAt": "2026-07-02T14:28:42.492Z"
     },
     {
@@ -160,12 +259,19 @@
       "visualCluster": "text-only",
       "at": "2026-06-30T23:47:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2072104784459440588",
-      "ageHours": 39,
-      "views": 129,
-      "likes": 18,
+      "ageHours": 41,
+      "views": 152,
+      "likes": 44,
       "replies": 4,
       "note": "QT @WatcherGuru Trump disclosed crypto wallet — MOVE in $1.5M alt row (LINK/AAVE/ENA/ONDO); rhetorical challenge «name a stronger signal» + maybe time to $MOVE wordplay; presidential disclosure as MOVE legitimacy signal",
       "snapshots": [
+        {
+          "ageHours": 41,
+          "views": 152,
+          "likes": 44,
+          "replies": 4,
+          "checkedAt": "2026-07-02T15:46:55.926Z"
+        },
         {
           "ageHours": 23,
           "views": 105,
@@ -237,7 +343,7 @@
           "checkedAt": "2026-07-01T04:50:00.000Z"
         }
       ],
-      "updatedAt": "2026-07-02T14:28:42.492Z",
+      "updatedAt": "2026-07-02T15:46:55.926Z",
       "syncedAt": "2026-07-02T14:28:42.492Z"
     },
     {
@@ -255,12 +361,19 @@
       "visualCluster": "screenshot",
       "at": "2026-06-30T19:56:01.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2072046519075684613",
-      "ageHours": 43,
-      "views": 115,
-      "likes": 18,
+      "ageHours": 45,
+      "views": 128,
+      "likes": 77,
       "replies": 7,
       "note": "$1k cash vs $1M PM on France don't beat Sweden in 90 (Will France win? → No); custom bet slip $1M cost / 23% / ~$3.35M to win; R16 WC Jun 30",
       "snapshots": [
+        {
+          "ageHours": 45,
+          "views": 128,
+          "likes": 77,
+          "replies": 7,
+          "checkedAt": "2026-07-02T15:46:55.926Z"
+        },
         {
           "ageHours": 27,
           "views": 106,
@@ -318,7 +431,7 @@
           "checkedAt": "2026-06-30T20:25:00.000Z"
         }
       ],
-      "updatedAt": "2026-07-02T14:28:42.492Z",
+      "updatedAt": "2026-07-02T15:46:55.926Z",
       "syncedAt": "2026-07-02T14:28:42.492Z"
     },
     {
@@ -334,12 +447,19 @@
       "visualCluster": "text-only",
       "at": "2026-06-29T21:40:18.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2071710376690094268",
-      "ageHours": 65,
-      "views": 154,
-      "likes": 12,
+      "ageHours": 67,
+      "views": 164,
+      "likes": 11,
       "replies": 1,
       "note": "QT @loshmi Ansem $7M giveback vs memecoins — long-form fair take: project airdrop (farm→dump at TGE) vs Ansem model (unexpected reward→loyalty); thesis «best airdrop leaves people wanting you to win»; bull/bottom narrative uncertainty; 18–24mo exhaustion context",
       "snapshots": [
+        {
+          "ageHours": 67,
+          "views": 164,
+          "likes": 11,
+          "replies": 1,
+          "checkedAt": "2026-07-02T15:46:55.926Z"
+        },
         {
           "ageHours": 49,
           "views": 150,
@@ -425,7 +545,7 @@
           "checkedAt": "2026-06-29T21:45:00.000Z"
         }
       ],
-      "updatedAt": "2026-07-02T14:28:42.492Z",
+      "updatedAt": "2026-07-02T15:46:55.926Z",
       "syncedAt": "2026-07-02T14:28:42.492Z"
     },
     {
@@ -440,12 +560,19 @@
       "visualCluster": "meme",
       "at": "2026-06-29T20:25:26.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2071691532604719199",
-      "ageHours": 66,
-      "views": 86,
-      "likes": 11,
+      "ageHours": 69,
+      "views": 94,
+      "likes": 22,
       "replies": 2,
       "note": "Ansem begging meta satire — 2-panel stick-figure meme: kid asks mom how they got rich → dad with forehead tattoo ANSEM TO 1B SPEEDRUN, passport Ansem Ansem, DAY 47, airdrop pls; caption misdirect «want generational wealth? you know what to do (thanks Ansem)»",
       "snapshots": [
+        {
+          "ageHours": 69,
+          "views": 94,
+          "likes": 22,
+          "replies": 2,
+          "checkedAt": "2026-07-02T15:46:55.926Z"
+        },
         {
           "ageHours": 50,
           "views": 83,
@@ -524,7 +651,7 @@
           "checkedAt": "2026-06-29T20:30:00.000Z"
         }
       ],
-      "updatedAt": "2026-07-02T14:28:42.492Z",
+      "updatedAt": "2026-07-02T15:46:55.926Z",
       "syncedAt": "2026-07-02T14:28:42.492Z"
     },
     {
@@ -538,12 +665,19 @@
       "visualCluster": "text-only",
       "at": "2026-06-29T13:55:17.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2071593347349643634",
-      "ageHours": 73,
-      "views": 257,
-      "likes": 21,
+      "ageHours": 75,
+      "views": 331,
+      "likes": 44,
       "replies": 4,
       "note": "QT @blknoiz06 ANSEM $1B breakout — creator bounty playbook (1M+ views airdrop, 30% face, TikTok/Reels/Shorts) vs saturated CT feed; casino streamer distribution ROI; bring to Ansem",
       "snapshots": [
+        {
+          "ageHours": 75,
+          "views": 331,
+          "likes": 44,
+          "replies": 4,
+          "checkedAt": "2026-07-02T15:46:55.926Z"
+        },
         {
           "ageHours": 68,
           "views": 257,
@@ -636,7 +770,7 @@
           "checkedAt": "2026-06-29T14:10:00.000Z"
         }
       ],
-      "updatedAt": "2026-07-02T14:28:42.492Z",
+      "updatedAt": "2026-07-02T15:46:55.926Z",
       "syncedAt": "2026-07-02T14:28:42.492Z"
     },
     {
@@ -650,12 +784,19 @@
       "visualCluster": "meme",
       "at": "2026-06-29T11:47:51.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2071561278246552027",
-      "ageHours": 75,
-      "views": 721,
-      "likes": 30,
+      "ageHours": 77,
+      "views": 727,
+      "likes": 55,
       "replies": 5,
       "note": "Wale WC winner va banque — 8/10 favorites $34k PM basket; +$7k–$22k if his pick wins, -$34k if outsider; wale law → Argentina congrats / Norway bait; custom PM collage visual; @waleswoosh replied «Argentina is my only w» + *concern — KOL bait landed",
       "snapshots": [
+        {
+          "ageHours": 77,
+          "views": 727,
+          "likes": 55,
+          "replies": 5,
+          "checkedAt": "2026-07-02T15:46:55.926Z"
+        },
         {
           "ageHours": 59,
           "views": 708,
@@ -748,7 +889,7 @@
           "checkedAt": "2026-06-29T12:15:00.000Z"
         }
       ],
-      "updatedAt": "2026-07-02T14:28:42.492Z",
+      "updatedAt": "2026-07-02T15:46:55.926Z",
       "syncedAt": "2026-07-02T14:28:42.492Z"
     },
     {
@@ -765,12 +906,19 @@
       "bucket": "CT",
       "at": "2026-06-28T23:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2071366946897932622",
-      "ageHours": 87,
-      "views": 285,
-      "likes": 18,
+      "ageHours": 90,
+      "views": 294,
+      "likes": 66,
       "replies": 6,
       "note": "reply to @blknoiz06 TikTok post — Mellstroy bounty playbook unsolicited advice; sass closer (don't thank me)",
       "snapshots": [
+        {
+          "ageHours": 90,
+          "views": 294,
+          "likes": 66,
+          "replies": 6,
+          "checkedAt": "2026-07-02T15:46:55.926Z"
+        },
         {
           "ageHours": 66,
           "views": 275,
@@ -856,7 +1004,7 @@
           "checkedAt": "2026-06-28T23:04:00.858Z"
         }
       ],
-      "updatedAt": "2026-07-02T14:28:42.492Z",
+      "updatedAt": "2026-07-02T15:46:55.926Z",
       "visualCluster": "text-only",
       "syncedAt": "2026-07-02T14:28:42.492Z"
     },
@@ -866,14 +1014,21 @@
       "slot": 34,
       "bucket": "CT",
       "at": "2026-06-28T20:09:00.000Z",
-      "updatedAt": "2026-07-02T14:28:42.492Z",
+      "updatedAt": "2026-07-02T15:46:55.926Z",
       "tweetUrl": "https://x.com/piselliii/status/2071325017053245938",
-      "ageHours": 90,
-      "views": 186,
-      "likes": 19,
+      "ageHours": 93,
+      "views": 200,
+      "likes": 44,
       "replies": 4,
       "note": "$ANSEM KOL pump autopsy — local peak around one person; can ~500 active CT accounts coordinate a peoples token where they capture upside?",
       "snapshots": [
+        {
+          "ageHours": 93,
+          "views": 200,
+          "likes": 44,
+          "replies": 4,
+          "checkedAt": "2026-07-02T15:46:55.926Z"
+        },
         {
           "ageHours": 67,
           "views": 186,
