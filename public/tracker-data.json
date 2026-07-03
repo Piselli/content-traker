@@ -1,7 +1,98 @@
 {
-  "syncVersion": 160,
-  "updatedAt": "2026-07-03T19:48:55.497Z",
+  "syncVersion": 161,
+  "updatedAt": "2026-07-03T21:05:00.000Z",
   "logs": [
+    {
+      "id": "bait-argentina-cape-verde-10k-vs-1m-jul3",
+      "type": "bait",
+      "fullTypes": [
+        "hot topic",
+        "bait"
+      ],
+      "traits": [
+        "strategic QT",
+        "provocative"
+      ],
+      "slot": 49,
+      "bucket": "football",
+      "visualCluster": "text-only",
+      "at": "2026-07-03T20:46:12.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2073146311931465826",
+      "ageHours": 0,
+      "views": 15,
+      "likes": 1,
+      "replies": 0,
+      "note": "QT @ripchillpill Argentina vs Cape Verde free-money setup — $10k guaranteed vs $1M if Argentina doesn't win; simple risk-choice reply bait around WC betting discourse",
+      "snapshots": [
+        {
+          "ageHours": 0,
+          "views": 15,
+          "likes": 1,
+          "replies": 0,
+          "checkedAt": "2026-07-03T21:05:00.000Z"
+        }
+      ],
+      "updatedAt": "2026-07-03T21:05:00.000Z",
+      "syncedAt": "2026-07-03T21:05:00.000Z"
+    },
+    {
+      "id": "bait-flags-common-thread-jul3",
+      "type": "bait",
+      "traits": [
+        "hot topic"
+      ],
+      "slot": 48,
+      "bucket": "football",
+      "visualCluster": "collage",
+      "at": "2026-07-03T18:25:46.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2073110971946565719",
+      "ageHours": 3,
+      "views": 36,
+      "likes": 3,
+      "replies": 1,
+      "note": "flag collection visual — mystery prompt «what do they have in common?»; football/current-event reply bait built around image recognition",
+      "snapshots": [
+        {
+          "ageHours": 3,
+          "views": 36,
+          "likes": 3,
+          "replies": 1,
+          "checkedAt": "2026-07-03T21:05:00.000Z"
+        }
+      ],
+      "updatedAt": "2026-07-03T21:05:00.000Z",
+      "syncedAt": "2026-07-03T21:05:00.000Z"
+    },
+    {
+      "id": "provocative-wale-whale-typo-qt-jul3",
+      "type": "provocative",
+      "traits": [
+        "strategic QT",
+        "meme",
+        "bait"
+      ],
+      "slot": 47,
+      "bucket": "CT",
+      "visualCluster": "text-only",
+      "at": "2026-07-03T08:27:41.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2072960459381121428",
+      "ageHours": 13,
+      "views": 162,
+      "likes": 15,
+      "replies": 4,
+      "note": "QT @waleswoosh NFT/crypto wins thread — typo dunk on «wale/whale» as credibility punchline; sharp KOL bait with meme edge",
+      "snapshots": [
+        {
+          "ageHours": 13,
+          "views": 162,
+          "likes": 15,
+          "replies": 4,
+          "checkedAt": "2026-07-03T21:05:00.000Z"
+        }
+      ],
+      "updatedAt": "2026-07-03T21:05:00.000Z",
+      "syncedAt": "2026-07-03T21:05:00.000Z"
+    },
     {
       "id": "provocative-betting-vs-investing-qt-deestar-jul2",
       "type": "provocative",
@@ -13,14 +104,21 @@
       "slot": 46,
       "bucket": "CT",
       "visualCluster": "screenshot",
-      "at": "2026-07-02T16:56:00.000Z",
+      "at": "2026-07-02T12:56:23.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2072665691405082759",
-      "ageHours": 27,
-      "views": 114,
-      "likes": 24,
+      "ageHours": 32,
+      "views": 293,
+      "likes": 25,
       "replies": 5,
       "note": "QT @Deestar PM airdrop gambling line — long contrarian: real trading/ICOs ≠ betting; addiction industry + stacked math; research stats collage ~1% ahead / ~15% break-even / ~84% lose; «what are the odds you're in that 1%?»",
       "snapshots": [
+        {
+          "ageHours": 32,
+          "views": 293,
+          "likes": 25,
+          "replies": 5,
+          "checkedAt": "2026-07-03T21:05:00.000Z"
+        },
         {
           "ageHours": 24,
           "views": 114,
@@ -78,8 +176,8 @@
           "checkedAt": "2026-07-02T15:46:55.926Z"
         }
       ],
-      "updatedAt": "2026-07-03T19:48:55.497Z",
-      "syncedAt": "2026-07-03T19:48:55.497Z"
+      "updatedAt": "2026-07-03T21:05:00.000Z",
+      "syncedAt": "2026-07-03T21:05:00.000Z"
     },
     {
       "id": "useful-distribution-brand-ct-qt-abhi-jul2",
@@ -91,14 +189,21 @@
       "slot": 45,
       "bucket": "CT",
       "visualCluster": "text-only",
-      "at": "2026-07-02T15:45:00.000Z",
+      "at": "2026-07-02T11:45:05.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2072647747883168101",
-      "ageHours": 28,
-      "views": 80,
+      "ageHours": 33,
+      "views": 155,
       "likes": 16,
       "replies": 4,
       "note": "QT @0xAbhiP distribution leverage — playbook: find strong product w/o reach, copy, distribute; stronger when you ARE distribution (brand); CT quiet market = buy trust cheap; cynical self-question closer",
       "snapshots": [
+        {
+          "ageHours": 33,
+          "views": 155,
+          "likes": 16,
+          "replies": 4,
+          "checkedAt": "2026-07-03T21:05:00.000Z"
+        },
         {
           "ageHours": 25,
           "views": 80,
@@ -142,8 +247,8 @@
           "checkedAt": "2026-07-02T15:46:55.926Z"
         }
       ],
-      "updatedAt": "2026-07-03T19:48:55.497Z",
-      "syncedAt": "2026-07-03T19:48:55.497Z"
+      "updatedAt": "2026-07-03T21:05:00.000Z",
+      "syncedAt": "2026-07-03T21:05:00.000Z"
     },
     {
       "id": "meme-ronaldo-reach-playbook-jul2",
@@ -155,14 +260,21 @@
       "slot": 44,
       "bucket": "football",
       "visualCluster": "text-only",
-      "at": "2026-07-02T14:37:00.000Z",
+      "at": "2026-07-02T10:37:35.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2072630759563608092",
-      "ageHours": 29,
-      "views": 91,
+      "ageHours": 34,
+      "views": 159,
       "likes": 17,
       "replies": 5,
       "note": "reach meta satire — how to get reach if you're not me: bet Ronaldo scores, call GOAT, SIUUUU; Messi fans do the rest; football bait one-liner",
       "snapshots": [
+        {
+          "ageHours": 34,
+          "views": 159,
+          "likes": 17,
+          "replies": 5,
+          "checkedAt": "2026-07-03T21:05:00.000Z"
+        },
         {
           "ageHours": 26,
           "views": 91,
@@ -206,8 +318,8 @@
           "checkedAt": "2026-07-02T15:46:55.926Z"
         }
       ],
-      "updatedAt": "2026-07-03T19:48:55.497Z",
-      "syncedAt": "2026-07-03T19:48:55.497Z"
+      "updatedAt": "2026-07-03T21:05:00.000Z",
+      "syncedAt": "2026-07-03T21:05:00.000Z"
     },
     {
       "id": "hot-topic-wale-england-black-mark-qt-jul1",
@@ -220,14 +332,21 @@
       "slot": 43,
       "bucket": "football",
       "visualCluster": "screenshot",
-      "at": "2026-07-01T13:30:00.000Z",
+      "at": "2026-07-01T16:30:19.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2072357140644180479",
-      "ageHours": 54,
-      "views": 237,
+      "ageHours": 53,
+      "views": 269,
       "likes": 22,
       "replies": 7,
       "note": "QT @waleswoosh England VisionWallet va banque — wale law black mark running gag; other-camera Tuchel broadcast frame ENG 0-1 COD 14' + red circle on hand; «did wale leave England any chance?»",
       "snapshots": [
+        {
+          "ageHours": 53,
+          "views": 269,
+          "likes": 22,
+          "replies": 7,
+          "checkedAt": "2026-07-03T21:05:00.000Z"
+        },
         {
           "ageHours": 51,
           "views": 237,
@@ -306,8 +425,8 @@
           "checkedAt": "2026-07-01T13:35:00.000Z"
         }
       ],
-      "updatedAt": "2026-07-03T19:48:55.497Z",
-      "syncedAt": "2026-07-03T19:48:55.497Z"
+      "updatedAt": "2026-07-03T21:05:00.000Z",
+      "syncedAt": "2026-07-03T21:05:00.000Z"
     },
     {
       "id": "useful-crypto-bottom-monthly-charts-jul1",
@@ -315,14 +434,21 @@
       "slot": 42,
       "bucket": "CT",
       "visualCluster": "chart",
-      "at": "2026-07-01T10:22:00.000Z",
+      "at": "2026-07-01T13:22:30.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2072309875082732026",
-      "ageHours": 57,
-      "views": 222,
+      "ageHours": 56,
+      "views": 244,
       "likes": 27,
       "replies": 9,
       "note": "useful teardown — 4-panel monthly chart grid BTC/ETH/SOL/alts; technical read: BTC full body below prior sweep, ETH trendline break + close below, SOL 3DP without first-long liquidity sweep (manipulation incomplete); neutral close asking if structure looks like bottom",
       "snapshots": [
+        {
+          "ageHours": 56,
+          "views": 244,
+          "likes": 27,
+          "replies": 9,
+          "checkedAt": "2026-07-03T21:05:00.000Z"
+        },
         {
           "ageHours": 54,
           "views": 222,
@@ -394,8 +520,8 @@
           "checkedAt": "2026-07-01T10:25:00.000Z"
         }
       ],
-      "updatedAt": "2026-07-03T19:48:55.497Z",
-      "syncedAt": "2026-07-03T19:48:55.497Z"
+      "updatedAt": "2026-07-03T21:05:00.000Z",
+      "syncedAt": "2026-07-03T21:05:00.000Z"
     },
     {
       "id": "hot-topic-trump-wallet-move-qt-watcherguru-jul1",
@@ -409,12 +535,19 @@
       "visualCluster": "text-only",
       "at": "2026-06-30T23:47:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2072104784459440588",
-      "ageHours": 68,
-      "views": 152,
+      "ageHours": 69,
+      "views": 170,
       "likes": 20,
       "replies": 4,
       "note": "QT @WatcherGuru Trump disclosed crypto wallet — MOVE in $1.5M alt row (LINK/AAVE/ENA/ONDO); rhetorical challenge «name a stronger signal» + maybe time to $MOVE wordplay; presidential disclosure as MOVE legitimacy signal",
       "snapshots": [
+        {
+          "ageHours": 69,
+          "views": 170,
+          "likes": 20,
+          "replies": 4,
+          "checkedAt": "2026-07-03T21:05:00.000Z"
+        },
         {
           "ageHours": 65,
           "views": 152,
@@ -507,8 +640,8 @@
           "checkedAt": "2026-07-01T04:50:00.000Z"
         }
       ],
-      "updatedAt": "2026-07-03T19:48:55.497Z",
-      "syncedAt": "2026-07-03T19:48:55.497Z"
+      "updatedAt": "2026-07-03T21:05:00.000Z",
+      "syncedAt": "2026-07-03T21:05:00.000Z"
     },
     {
       "id": "bait-france-sweden-1k-vs-1m-pm-slip-jun30",
@@ -525,12 +658,19 @@
       "visualCluster": "screenshot",
       "at": "2026-06-30T19:56:01.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2072046519075684613",
-      "ageHours": 72,
-      "views": 128,
+      "ageHours": 73,
+      "views": 143,
       "likes": 20,
       "replies": 7,
       "note": "$1k cash vs $1M PM on France don't beat Sweden in 90 (Will France win? → No); custom bet slip $1M cost / 23% / ~$3.35M to win; R16 WC Jun 30",
       "snapshots": [
+        {
+          "ageHours": 73,
+          "views": 143,
+          "likes": 20,
+          "replies": 7,
+          "checkedAt": "2026-07-03T21:05:00.000Z"
+        },
         {
           "ageHours": 69,
           "views": 128,
@@ -609,8 +749,8 @@
           "checkedAt": "2026-06-30T20:25:00.000Z"
         }
       ],
-      "updatedAt": "2026-07-03T19:48:55.497Z",
-      "syncedAt": "2026-07-03T19:48:55.497Z"
+      "updatedAt": "2026-07-03T21:05:00.000Z",
+      "syncedAt": "2026-07-03T21:05:00.000Z"
     },
     {
       "id": "hot-topic-ansem-airdrop-models-qt-loshmi-jun29",
