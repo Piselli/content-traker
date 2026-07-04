@@ -1,7 +1,36 @@
 {
-  "syncVersion": 167,
-  "updatedAt": "2026-07-04T13:06:00.000Z",
+  "syncVersion": 168,
+  "updatedAt": "2026-07-04T15:59:00.000Z",
   "logs": [
+    {
+      "id": "meme-ansem-exit-liquidity-bull-mahjong-jul4",
+      "type": "meme",
+      "traits": [
+        "hot topic",
+        "provocative"
+      ],
+      "slot": 52,
+      "bucket": "CT",
+      "visualCluster": "text-only",
+      "at": "2026-07-04T12:04:00.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2073422729403875729",
+      "ageHours": 4,
+      "views": 22,
+      "likes": 2,
+      "replies": 0,
+      "note": "Ansem exit-liquidity satire — quick guide: name ends with 🐂🀄️ but you're not Ansem; cynical CT one-liner on $ANSEM copycat meta",
+      "snapshots": [
+        {
+          "ageHours": 4,
+          "views": 22,
+          "likes": 2,
+          "replies": 0,
+          "checkedAt": "2026-07-04T15:59:00.000Z"
+        }
+      ],
+      "updatedAt": "2026-07-04T15:59:00.000Z",
+      "syncedAt": "2026-07-04T15:59:00.000Z"
+    },
     {
       "id": "builder-movematch-squad-vs-pm-bet-jul4",
       "type": "builder",
