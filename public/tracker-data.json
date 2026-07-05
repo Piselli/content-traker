@@ -5,8 +5,11 @@
     {
       "id": "meme-bigchog-arsene-wenger-mask-jul5",
       "type": "meme",
+      "fullTypes": [
+        "meme",
+        "strategic QT"
+      ],
       "traits": [
-        "strategic QT",
         "hot topic",
         "bait"
       ],
