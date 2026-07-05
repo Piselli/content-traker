@@ -1,6 +1,6 @@
 {
-  "syncVersion": 187,
-  "updatedAt": "2026-07-05T23:51:00.000Z",
+  "syncVersion": 188,
+  "updatedAt": "2026-07-05T23:52:58.092Z",
   "logs": [
     {
       "id": "hot-topic-wc-goalkeepers-heroes-jul5",
@@ -65,7 +65,7 @@
       "visualCluster": "text-only",
       "at": "2026-07-04T12:20:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2073381326099517814",
-      "ageHours": 35,
+      "ageHours": 36,
       "views": 423,
       "likes": 28,
       "replies": 13,
@@ -149,8 +149,8 @@
           "checkedAt": "2026-07-04T13:06:00.000Z"
         }
       ],
-      "updatedAt": "2026-07-05T23:46:49.708Z",
-      "syncedAt": "2026-07-05T23:46:49.708Z"
+      "updatedAt": "2026-07-05T23:52:58.092Z",
+      "syncedAt": "2026-07-05T23:52:58.092Z"
     },
     {
       "id": "useful-ansem-brand-impact-stats-jul4",
@@ -870,7 +870,7 @@
       "visualCluster": "chart",
       "at": "2026-07-01T13:22:30.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2072309875082732026",
-      "ageHours": 106,
+      "ageHours": 107,
       "views": 244,
       "likes": 28,
       "replies": 9,
@@ -961,8 +961,8 @@
           "checkedAt": "2026-07-01T10:25:00.000Z"
         }
       ],
-      "updatedAt": "2026-07-05T23:46:49.708Z",
-      "syncedAt": "2026-07-05T23:46:49.708Z"
+      "updatedAt": "2026-07-05T23:52:58.092Z",
+      "syncedAt": "2026-07-05T23:52:58.092Z"
     },
     {
       "id": "hot-topic-trump-wallet-move-qt-watcherguru-jul1",
@@ -2076,9 +2076,9 @@
       "slot": 31,
       "bucket": "football",
       "at": "2026-06-26T13:20:00.000Z",
-      "updatedAt": "2026-07-05T23:46:49.708Z",
+      "updatedAt": "2026-07-05T23:52:58.092Z",
       "tweetUrl": "https://x.com/piselliii/status/2070497538440847402",
-      "ageHours": 226,
+      "ageHours": 227,
       "views": 239,
       "likes": 23,
       "replies": 7,
@@ -2148,7 +2148,7 @@
           "checkedAt": "2026-06-29T10:00:00.000Z"
         }
       ],
-      "syncedAt": "2026-07-05T23:46:49.708Z",
+      "syncedAt": "2026-07-05T23:52:58.092Z",
       "visualCluster": "screenshot"
     },
     {
@@ -2644,9 +2644,9 @@
       "slot": 22,
       "bucket": "football",
       "at": "2026-06-23T15:17:00.000Z",
-      "updatedAt": "2026-07-05T23:46:49.708Z",
+      "updatedAt": "2026-07-05T23:52:58.092Z",
       "tweetUrl": "https://x.com/piselliii/status/2069485060080718193",
-      "ageHours": 296,
+      "ageHours": 297,
       "views": 356,
       "likes": 25,
       "replies": 8,
@@ -2695,7 +2695,7 @@
         }
       ],
       "note": "QT Loshmi Ronaldo apology — never-doubted contrarian; CWC fantasy lineup 84pts (Júnior C, Mbappé 15); cheering squad vs sweating PM; lineup + Ronaldo goals-left bait",
-      "syncedAt": "2026-07-05T23:46:49.708Z",
+      "syncedAt": "2026-07-05T23:52:58.092Z",
       "visualCluster": "screenshot"
     },
     {
@@ -3789,9 +3789,9 @@
       "slot": 2,
       "bucket": "CT",
       "at": "2026-06-17T14:19:00.000Z",
-      "updatedAt": "2026-07-05T23:46:49.708Z",
+      "updatedAt": "2026-07-05T23:52:58.092Z",
       "tweetUrl": "https://x.com/piselliii/status/2067250794475204660",
-      "ageHours": 441,
+      "ageHours": 442,
       "views": 162,
       "likes": 14,
       "replies": 3,
@@ -3826,7 +3826,7 @@
         }
       ],
       "note": "provocative CT meta expose — combo: strategic QT (~50%) + supplementary bait list",
-      "syncedAt": "2026-07-05T23:46:49.708Z",
+      "syncedAt": "2026-07-05T23:52:58.092Z",
       "visualCluster": "text-only"
     },
     {
@@ -3838,9 +3838,9 @@
       "slot": 1,
       "bucket": "CT",
       "at": "2026-06-17T10:17:00.000Z",
-      "updatedAt": "2026-07-05T23:46:49.708Z",
+      "updatedAt": "2026-07-05T23:52:58.092Z",
       "tweetUrl": "https://x.com/piselliii/status/2067189878350049777",
-      "ageHours": 445,
+      "ageHours": 446,
       "views": 242,
       "likes": 17,
       "replies": 6,
@@ -3875,7 +3875,7 @@
         }
       ],
       "note": "gambling meta discourse on CT — take on the moment, delivered as pick-one poll",
-      "syncedAt": "2026-07-05T23:46:49.708Z",
+      "syncedAt": "2026-07-05T23:52:58.092Z",
       "visualCluster": "text-only"
     }
   ],
