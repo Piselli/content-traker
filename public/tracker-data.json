@@ -1,7 +1,37 @@
 {
-  "syncVersion": 179,
-  "updatedAt": "2026-07-05T19:41:28.071Z",
+  "syncVersion": 180,
+  "updatedAt": "2026-07-05T20:28:00.000Z",
   "logs": [
+    {
+      "id": "meme-bigchog-arsene-wenger-mask-jul5",
+      "type": "meme",
+      "traits": [
+        "strategic QT",
+        "hot topic",
+        "bait"
+      ],
+      "slot": 52,
+      "bucket": "football",
+      "visualCluster": "text-only",
+      "at": "2026-07-05T10:46:18.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2073720115347050696",
+      "ageHours": 10,
+      "views": 211,
+      "likes": 18,
+      "replies": 8,
+      "note": "QT @bigchog football rules fix thread — Wenger unmask punchline («Arsene take the mask off. we know it's you»); football meme on rules-reform discourse",
+      "snapshots": [
+        {
+          "ageHours": 10,
+          "views": 211,
+          "likes": 18,
+          "replies": 8,
+          "checkedAt": "2026-07-05T20:28:00.000Z"
+        }
+      ],
+      "updatedAt": "2026-07-05T20:28:00.000Z",
+      "syncedAt": "2026-07-05T20:28:00.000Z"
+    },
     {
       "id": "builder-movematch-squad-vs-pm-bet-jul4",
       "type": "builder",
@@ -14,12 +44,26 @@
       "visualCluster": "text-only",
       "at": "2026-07-04T12:20:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2073381326099517814",
-      "ageHours": 31,
-      "views": 69,
-      "likes": 27,
+      "ageHours": 32,
+      "views": 423,
+      "likes": 28,
       "replies": 13,
       "note": "QT @MoveMatchxyz R16 points campaign — «you watch the match because of your bet on a prediction market / I watch because I love football and have my squad locked in»; MoveMatch product reach with we-are-not-the-same meme framing",
       "snapshots": [
+        {
+          "ageHours": 32,
+          "views": 423,
+          "likes": 28,
+          "replies": 13,
+          "checkedAt": "2026-07-05T20:28:00.000Z"
+        },
+        {
+          "ageHours": 31,
+          "views": 69,
+          "likes": 27,
+          "replies": 13,
+          "checkedAt": "2026-07-05T20:28:00.000Z"
+        },
         {
           "ageHours": 28,
           "views": 69,
@@ -84,8 +128,8 @@
           "checkedAt": "2026-07-04T13:06:00.000Z"
         }
       ],
-      "updatedAt": "2026-07-05T19:41:28.071Z",
-      "syncedAt": "2026-07-05T19:41:28.071Z"
+      "updatedAt": "2026-07-05T20:28:00.000Z",
+      "syncedAt": "2026-07-05T20:28:00.000Z"
     },
     {
       "id": "useful-ansem-brand-impact-stats-jul4",
@@ -99,12 +143,26 @@
       "visualCluster": "text-only",
       "at": "2026-07-04T09:56:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2073345099040190745",
-      "ageHours": 34,
-      "views": 79,
-      "likes": 18,
+      "ageHours": 35,
+      "views": 197,
+      "likes": 19,
       "replies": 1,
       "note": "$ANSEM / @blknoiz06 impact teardown — dormant Solana wallets, DEX volume, pumpfun activity, holder growth and creator-fee distribution; thesis that one trader's reputation may be forming a major CT personal brand",
       "snapshots": [
+        {
+          "ageHours": 35,
+          "views": 197,
+          "likes": 19,
+          "replies": 1,
+          "checkedAt": "2026-07-05T20:28:00.000Z"
+        },
+        {
+          "ageHours": 34,
+          "views": 79,
+          "likes": 18,
+          "replies": 1,
+          "checkedAt": "2026-07-05T20:28:00.000Z"
+        },
         {
           "ageHours": 30,
           "views": 79,
@@ -155,8 +213,8 @@
           "checkedAt": "2026-07-04T13:06:00.000Z"
         }
       ],
-      "updatedAt": "2026-07-05T19:41:28.071Z",
-      "syncedAt": "2026-07-05T19:41:28.071Z"
+      "updatedAt": "2026-07-05T20:28:00.000Z",
+      "syncedAt": "2026-07-05T20:28:00.000Z"
     },
     {
       "id": "bait-argentina-cape-verde-10k-vs-1m-jul3",
@@ -174,12 +232,26 @@
       "visualCluster": "text-only",
       "at": "2026-07-03T20:46:12.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2073146311931465826",
-      "ageHours": 47,
-      "views": 260,
-      "likes": 15,
+      "ageHours": 48,
+      "views": 323,
+      "likes": 16,
       "replies": 5,
       "note": "QT @ripchillpill Argentina vs Cape Verde free-money setup — $10k guaranteed vs $1M if Argentina doesn't win; simple risk-choice reply bait around WC betting discourse",
       "snapshots": [
+        {
+          "ageHours": 48,
+          "views": 323,
+          "likes": 16,
+          "replies": 5,
+          "checkedAt": "2026-07-05T20:28:00.000Z"
+        },
+        {
+          "ageHours": 47,
+          "views": 260,
+          "likes": 15,
+          "replies": 5,
+          "checkedAt": "2026-07-05T20:28:00.000Z"
+        },
         {
           "ageHours": 44,
           "views": 260,
@@ -237,8 +309,8 @@
           "checkedAt": "2026-07-03T21:05:00.000Z"
         }
       ],
-      "updatedAt": "2026-07-05T19:41:28.071Z",
-      "syncedAt": "2026-07-05T19:41:28.071Z"
+      "updatedAt": "2026-07-05T20:28:00.000Z",
+      "syncedAt": "2026-07-05T20:28:00.000Z"
     },
     {
       "id": "bait-flags-common-thread-jul3",
@@ -251,12 +323,26 @@
       "visualCluster": "collage",
       "at": "2026-07-03T18:25:46.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2073110971946565719",
-      "ageHours": 49,
-      "views": 137,
-      "likes": 11,
+      "ageHours": 50,
+      "views": 185,
+      "likes": 12,
       "replies": 3,
       "note": "flag collection visual — mystery prompt «what do they have in common?»; football/current-event reply bait built around image recognition",
       "snapshots": [
+        {
+          "ageHours": 50,
+          "views": 185,
+          "likes": 12,
+          "replies": 3,
+          "checkedAt": "2026-07-05T20:28:00.000Z"
+        },
+        {
+          "ageHours": 49,
+          "views": 137,
+          "likes": 11,
+          "replies": 3,
+          "checkedAt": "2026-07-05T20:28:00.000Z"
+        },
         {
           "ageHours": 22,
           "views": 137,
@@ -307,8 +393,8 @@
           "checkedAt": "2026-07-03T21:05:00.000Z"
         }
       ],
-      "updatedAt": "2026-07-05T19:41:28.071Z",
-      "syncedAt": "2026-07-05T19:41:28.071Z"
+      "updatedAt": "2026-07-05T20:28:00.000Z",
+      "syncedAt": "2026-07-05T20:28:00.000Z"
     },
     {
       "id": "provocative-wale-whale-typo-qt-jul3",
@@ -323,12 +409,26 @@
       "visualCluster": "text-only",
       "at": "2026-07-03T08:27:41.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2072960459381121428",
-      "ageHours": 59,
-      "views": 210,
-      "likes": 15,
+      "ageHours": 60,
+      "views": 232,
+      "likes": 16,
       "replies": 4,
       "note": "QT @waleswoosh NFT/crypto wins thread — typo dunk on «wale/whale» as credibility punchline; sharp KOL bait with meme edge",
       "snapshots": [
+        {
+          "ageHours": 60,
+          "views": 232,
+          "likes": 16,
+          "replies": 4,
+          "checkedAt": "2026-07-05T20:28:00.000Z"
+        },
+        {
+          "ageHours": 59,
+          "views": 210,
+          "likes": 15,
+          "replies": 4,
+          "checkedAt": "2026-07-05T20:28:00.000Z"
+        },
         {
           "ageHours": 29,
           "views": 210,
@@ -344,8 +444,8 @@
           "checkedAt": "2026-07-03T21:05:00.000Z"
         }
       ],
-      "updatedAt": "2026-07-05T19:41:28.071Z",
-      "syncedAt": "2026-07-05T19:41:28.071Z"
+      "updatedAt": "2026-07-05T20:28:00.000Z",
+      "syncedAt": "2026-07-05T20:28:00.000Z"
     },
     {
       "id": "provocative-betting-vs-investing-qt-deestar-jul2",
@@ -360,12 +460,26 @@
       "visualCluster": "screenshot",
       "at": "2026-07-02T12:56:23.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2072665691405082759",
-      "ageHours": 79,
-      "views": 317,
-      "likes": 25,
+      "ageHours": 80,
+      "views": 331,
+      "likes": 26,
       "replies": 5,
       "note": "QT @Deestar PM airdrop gambling line — long contrarian: real trading/ICOs ≠ betting; addiction industry + stacked math; research stats collage ~1% ahead / ~15% break-even / ~84% lose; «what are the odds you're in that 1%?»",
       "snapshots": [
+        {
+          "ageHours": 80,
+          "views": 331,
+          "likes": 26,
+          "replies": 5,
+          "checkedAt": "2026-07-05T20:28:00.000Z"
+        },
+        {
+          "ageHours": 79,
+          "views": 317,
+          "likes": 25,
+          "replies": 5,
+          "checkedAt": "2026-07-05T20:28:00.000Z"
+        },
         {
           "ageHours": 48,
           "views": 317,
@@ -437,8 +551,8 @@
           "checkedAt": "2026-07-02T15:46:55.926Z"
         }
       ],
-      "updatedAt": "2026-07-05T19:41:28.071Z",
-      "syncedAt": "2026-07-05T19:41:28.071Z"
+      "updatedAt": "2026-07-05T20:28:00.000Z",
+      "syncedAt": "2026-07-05T20:28:00.000Z"
     },
     {
       "id": "useful-distribution-brand-ct-qt-abhi-jul2",
