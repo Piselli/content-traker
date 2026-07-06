@@ -3,6 +3,30 @@
   "updatedAt": "2026-07-07T20:13:47.554Z",
   "logs": [
     {
+      "id": "provocative-ct-5-dollar-pm-shillers-jul6",
+      "type": "provocative",
+      "traits": [
+        "strategic QT",
+        "hot topic"
+      ],
+      "slot": 55,
+      "bucket": "CT",
+      "visualCluster": "text-only",
+      "at": "2026-07-06T12:49:00.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2074158777876533582",
+      "ageHours": 4,
+      "views": 22,
+      "note": "QT @humanbotcrypto undisclosed $100 promo list — CT generation shilling prediction markets with $5 positions; audience has no liquidity to extract anyway",
+      "snapshots": [
+        {
+          "ageHours": 4,
+          "views": 22,
+          "checkedAt": "2026-07-06T16:43:00.000Z"
+        }
+      ],
+      "updatedAt": "2026-07-06T16:43:00.000Z"
+    },
+    {
       "id": "bait-ronaldo-beast-taylor-personal-tokens-jul6",
       "type": "bait",
       "traits": [
