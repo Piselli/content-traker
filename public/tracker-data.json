@@ -1,7 +1,24 @@
 {
-  "syncVersion": 190,
-  "updatedAt": "2026-07-06T11:02:01.224Z",
+  "syncVersion": 191,
+  "updatedAt": "2026-07-06T14:15:00.000Z",
   "logs": [
+    {
+      "id": "bait-ronaldo-beast-taylor-personal-tokens-jul6",
+      "type": "bait",
+      "traits": [
+        "hot topic"
+      ],
+      "slot": 54,
+      "bucket": "CT",
+      "visualCluster": "chart",
+      "at": "2026-07-06T11:03:00.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2074132207145295968",
+      "ageHours": 3,
+      "views": 15,
+      "likes": 0,
+      "replies": 0,
+      "note": "Personal brand tokens thesis — $RONALDO/$BEAST/$TAYLOR never as official tokens despite top-10 potential; Ansem CT-native risk game vs mainstream trust; fake watchlist image ($RONALDO $70B #5, $ANSEM $350M)"
+    },
     {
       "id": "hot-topic-wc-goalkeepers-heroes-jul5",
       "type": "hot topic",
