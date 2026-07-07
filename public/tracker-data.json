@@ -1,7 +1,149 @@
 {
-  "syncVersion": 200,
-  "updatedAt": "2026-07-07T20:13:47.554Z",
+  "syncVersion": 201,
+  "updatedAt": "2026-07-07T21:40:00.000Z",
   "logs": [
+    {
+      "id": "provocative-polymarket-golden-rule-jul7",
+      "type": "provocative",
+      "traits": [
+        "hot topic",
+        "strategic QT"
+      ],
+      "slot": 60,
+      "bucket": "CT",
+      "visualCluster": "text-only",
+      "at": "2026-07-07T18:07:00.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2074601116491243641",
+      "views": 48,
+      "likes": 7,
+      "replies": 1,
+      "note": "QT own Polymarket MicroStrategy resolution thread - golden rule: if event is over but odds do not go to 99c, someone is still trying to make rules flexible.",
+      "ageHours": 4,
+      "updatedAt": "2026-07-07T21:40:00.000Z",
+      "snapshots": [
+        {
+          "ageHours": 4,
+          "views": 48,
+          "likes": 7,
+          "replies": 1,
+          "checkedAt": "2026-07-07T21:40:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "meme-argentina-infantino-substitute-jul7",
+      "type": "meme",
+      "fullTypes": [
+        "meme",
+        "hot topic"
+      ],
+      "traits": [
+        "bait"
+      ],
+      "slot": 59,
+      "bucket": "football",
+      "visualCluster": "meme",
+      "at": "2026-07-07T16:39:00.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2074579181707407825",
+      "views": 43,
+      "likes": 2,
+      "replies": 0,
+      "note": "Argentina game reaction - missed the match, Infantino substitute punchline; football hot-topic meme with visual.",
+      "ageHours": 5,
+      "updatedAt": "2026-07-07T21:40:00.000Z",
+      "snapshots": [
+        {
+          "ageHours": 5,
+          "views": 43,
+          "likes": 2,
+          "replies": 0,
+          "checkedAt": "2026-07-07T21:40:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "provocative-deestar-reveal-all-23-jul7",
+      "type": "provocative",
+      "traits": [
+        "strategic QT",
+        "hot topic"
+      ],
+      "slot": 58,
+      "bucket": "CT",
+      "visualCluster": "text-only",
+      "at": "2026-07-07T08:34:00.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2074457064546472137",
+      "views": 652,
+      "likes": 28,
+      "replies": 16,
+      "note": "QT @Deestar on fake promo investigation - reveal all 23 and credit the 5 creators who rejected the deal; CT accountability angle.",
+      "ageHours": 13,
+      "updatedAt": "2026-07-07T21:40:00.000Z",
+      "snapshots": [
+        {
+          "ageHours": 13,
+          "views": 652,
+          "likes": 28,
+          "replies": 16,
+          "checkedAt": "2026-07-07T21:40:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "provocative-madi-undisclosed-rug-flexible-principles-jul6",
+      "type": "provocative",
+      "traits": [
+        "strategic QT",
+        "hot topic"
+      ],
+      "slot": 57,
+      "bucket": "CT",
+      "visualCluster": "text-only",
+      "at": "2026-07-06T20:45:00.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2074278611071201638",
+      "views": 1100,
+      "likes": 35,
+      "replies": 10,
+      "note": "QT @madiweb3 apology - founders get cooked for rugs, friends get therapy-circle replies; principles get flexible when it is someone you like.",
+      "ageHours": 25,
+      "updatedAt": "2026-07-07T21:40:00.000Z",
+      "snapshots": [
+        {
+          "ageHours": 25,
+          "views": 1100,
+          "likes": 35,
+          "replies": 10,
+          "checkedAt": "2026-07-07T21:40:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "hot-topic-ronaldo-forever-1000th-goal-jul6",
+      "type": "hot topic",
+      "traits": [
+        "meme"
+      ],
+      "slot": 56,
+      "bucket": "football",
+      "visualCluster": "meme",
+      "at": "2026-07-06T18:37:00.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2074246290590855594",
+      "views": 484,
+      "likes": 22,
+      "replies": 7,
+      "note": "Cristiano Ronaldo tribute video - he gave everything to football and football gave him forever; still celebrate the 1000th goal.",
+      "ageHours": 27,
+      "updatedAt": "2026-07-07T21:40:00.000Z",
+      "snapshots": [
+        {
+          "ageHours": 27,
+          "views": 484,
+          "likes": 22,
+          "replies": 7,
+          "checkedAt": "2026-07-07T21:40:00.000Z"
+        }
+      ]
+    },
     {
       "id": "provocative-ct-5-dollar-pm-shillers-jul6",
       "type": "provocative",
@@ -14,17 +156,26 @@
       "visualCluster": "text-only",
       "at": "2026-07-06T12:49:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2074158777876533582",
-      "ageHours": 4,
-      "views": 22,
+      "ageHours": 33,
+      "views": 985,
       "note": "QT @humanbotcrypto undisclosed $100 promo list — CT generation shilling prediction markets with $5 positions; audience has no liquidity to extract anyway",
       "snapshots": [
+        {
+          "ageHours": 33,
+          "views": 985,
+          "likes": 35,
+          "replies": 4,
+          "checkedAt": "2026-07-07T21:40:00.000Z"
+        },
         {
           "ageHours": 4,
           "views": 22,
           "checkedAt": "2026-07-06T16:43:00.000Z"
         }
       ],
-      "updatedAt": "2026-07-06T16:43:00.000Z"
+      "updatedAt": "2026-07-07T21:40:00.000Z",
+      "likes": 35,
+      "replies": 4
     },
     {
       "id": "bait-ronaldo-beast-taylor-personal-tokens-jul6",
@@ -37,12 +188,19 @@
       "visualCluster": "chart",
       "at": "2026-07-06T11:03:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2074132207145295968",
-      "ageHours": 33,
-      "views": 15,
+      "ageHours": 35,
+      "views": 195,
       "likes": 15,
       "replies": 2,
       "note": "Personal brand tokens thesis — $RONALDO/$BEAST/$TAYLOR never as official tokens despite top-10 potential; Ansem CT-native risk game vs mainstream trust; fake watchlist image ($RONALDO $70B #5, $ANSEM $350M)",
       "snapshots": [
+        {
+          "ageHours": 35,
+          "views": 195,
+          "likes": 15,
+          "replies": 2,
+          "checkedAt": "2026-07-07T21:40:00.000Z"
+        },
         {
           "ageHours": 28,
           "views": 15,
@@ -100,7 +258,7 @@
           "checkedAt": "2026-07-06T14:26:44.693Z"
         }
       ],
-      "updatedAt": "2026-07-07T20:13:47.554Z",
+      "updatedAt": "2026-07-07T21:40:00.000Z",
       "syncedAt": "2026-07-07T20:13:47.554Z"
     },
     {
@@ -115,12 +273,19 @@
       "visualCluster": "collage",
       "at": "2026-07-05T23:51:22.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2073917683855142988",
-      "ageHours": 44,
-      "views": 2,
+      "ageHours": 46,
+      "views": 243,
       "likes": 16,
       "replies": 6,
       "note": "WC goalkeeper heroes list — Room record saves, Vozinha 40yo, Gill MOTM×2, Bono, Nyland no-club Brazil KO; «feels like they already won the WC for themselves» + list image (edited repost)",
       "snapshots": [
+        {
+          "ageHours": 46,
+          "views": 243,
+          "likes": 16,
+          "replies": 6,
+          "checkedAt": "2026-07-07T21:40:00.000Z"
+        },
         {
           "ageHours": 34,
           "views": 2,
@@ -164,7 +329,7 @@
           "checkedAt": "2026-07-06T04:38:23.317Z"
         }
       ],
-      "updatedAt": "2026-07-07T20:13:47.554Z",
+      "updatedAt": "2026-07-07T21:40:00.000Z",
       "syncedAt": "2026-07-07T20:13:47.554Z"
     },
     {
@@ -183,12 +348,19 @@
       "visualCluster": "text-only",
       "at": "2026-07-05T10:46:18.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2073720115347050696",
-      "ageHours": 57,
-      "views": 211,
+      "ageHours": 59,
+      "views": 287,
       "likes": 22,
       "replies": 8,
       "note": "QT @bigchog football rules fix thread — Wenger unmask punchline («Arsene take the mask off. we know it's you»); football meme on rules-reform discourse",
       "snapshots": [
+        {
+          "ageHours": 59,
+          "views": 287,
+          "likes": 22,
+          "replies": 8,
+          "checkedAt": "2026-07-07T21:40:00.000Z"
+        },
         {
           "ageHours": 47,
           "views": 211,
@@ -218,7 +390,7 @@
           "checkedAt": "2026-07-05T20:28:00.000Z"
         }
       ],
-      "updatedAt": "2026-07-07T20:13:47.554Z",
+      "updatedAt": "2026-07-07T21:40:00.000Z",
       "syncedAt": "2026-07-07T20:13:47.554Z"
     },
     {
@@ -233,12 +405,19 @@
       "visualCluster": "text-only",
       "at": "2026-07-04T12:20:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2073381326099517814",
-      "ageHours": 80,
-      "views": 423,
+      "ageHours": 81,
+      "views": 481,
       "likes": 30,
       "replies": 13,
       "note": "QT @MoveMatchxyz R16 points campaign — «you watch the match because of your bet on a prediction market / I watch because I love football and have my squad locked in»; MoveMatch product reach with we-are-not-the-same meme framing",
       "snapshots": [
+        {
+          "ageHours": 81,
+          "views": 481,
+          "likes": 30,
+          "replies": 13,
+          "checkedAt": "2026-07-07T21:40:00.000Z"
+        },
         {
           "ageHours": 70,
           "views": 423,
@@ -331,7 +510,7 @@
           "checkedAt": "2026-07-04T13:06:00.000Z"
         }
       ],
-      "updatedAt": "2026-07-07T20:13:47.554Z",
+      "updatedAt": "2026-07-07T21:40:00.000Z",
       "syncedAt": "2026-07-07T20:13:47.554Z"
     },
     {
