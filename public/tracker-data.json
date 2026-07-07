@@ -4,11 +4,7 @@
   "logs": [
     {
       "id": "provocative-polymarket-golden-rule-jul7",
-      "type": "provocative",
-      "traits": [
-        "hot topic",
-        "strategic QT"
-      ],
+      "type": "hot topic",
       "slot": 60,
       "bucket": "CT",
       "visualCluster": "text-only",
@@ -63,9 +59,8 @@
     },
     {
       "id": "provocative-deestar-reveal-all-23-jul7",
-      "type": "provocative",
+      "type": "strategic QT",
       "traits": [
-        "strategic QT",
         "hot topic"
       ],
       "slot": 58,
