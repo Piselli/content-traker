@@ -1,6 +1,6 @@
 {
-  "syncVersion": 232,
-  "updatedAt": "2026-07-11T19:30:59.587Z",
+  "syncVersion": 233,
+  "updatedAt": "2026-07-11T19:22:00.000Z",
   "logs": [
     {
       "id": "hot-topic-exit-liquidity-loshmi-yeon-proof-jul11",
@@ -133,13 +133,20 @@
       "visualCluster": "text-only",
       "at": "2026-07-08T21:09:32.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2074964120839782505",
-      "views": 234,
+      "views": 241,
       "likes": 18,
       "replies": 3,
       "note": "CT account today checklist — Robinhood chain onboarding, $CASHCAT millionaires, WC content drought; what did I miss?",
-      "ageHours": 70,
-      "updatedAt": "2026-07-11T18:42:53.431Z",
+      "ageHours": 73,
+      "updatedAt": "2026-07-11T19:22:00.000Z",
       "snapshots": [
+        {
+          "ageHours": 73,
+          "views": 241,
+          "likes": 18,
+          "replies": 3,
+          "checkedAt": "2026-07-11T19:22:00.000Z"
+        },
         {
           "ageHours": 69,
           "views": 234,
