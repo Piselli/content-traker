@@ -1,6 +1,6 @@
 {
-  "syncVersion": 233,
-  "updatedAt": "2026-07-11T19:22:00.000Z",
+  "syncVersion": 234,
+  "updatedAt": "2026-07-11T19:35:33.573Z",
   "logs": [
     {
       "id": "hot-topic-exit-liquidity-loshmi-yeon-proof-jul11",
@@ -137,8 +137,8 @@
       "likes": 18,
       "replies": 3,
       "note": "CT account today checklist — Robinhood chain onboarding, $CASHCAT millionaires, WC content drought; what did I miss?",
-      "ageHours": 73,
-      "updatedAt": "2026-07-11T19:22:00.000Z",
+      "ageHours": 70,
+      "updatedAt": "2026-07-11T19:35:33.573Z",
       "snapshots": [
         {
           "ageHours": 73,
@@ -155,7 +155,7 @@
           "checkedAt": "2026-07-11T18:32:00.000Z"
         }
       ],
-      "syncedAt": "2026-07-11T18:42:53.431Z"
+      "syncedAt": "2026-07-11T19:35:33.573Z"
     },
     {
       "id": "bait-content-theft-bandosei-alpha-jul8",
@@ -760,7 +760,7 @@
       "visualCluster": "chart",
       "at": "2026-07-06T11:03:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2074132207145295968",
-      "ageHours": 128,
+      "ageHours": 129,
       "views": 195,
       "likes": 16,
       "replies": 2,
@@ -837,8 +837,8 @@
           "checkedAt": "2026-07-06T14:26:44.693Z"
         }
       ],
-      "updatedAt": "2026-07-11T18:42:53.431Z",
-      "syncedAt": "2026-07-11T18:42:53.431Z"
+      "updatedAt": "2026-07-11T19:35:33.573Z",
+      "syncedAt": "2026-07-11T19:35:33.573Z"
     },
     {
       "id": "hot-topic-wc-goalkeepers-heroes-jul5",
@@ -3235,9 +3235,9 @@
       "slot": 29,
       "bucket": "CT",
       "at": "2026-06-25T14:05:00.000Z",
-      "updatedAt": "2026-07-11T18:42:53.431Z",
+      "updatedAt": "2026-07-11T19:35:33.573Z",
       "tweetUrl": "https://x.com/piselliii/status/2070146335970296250",
-      "ageHours": 389,
+      "ageHours": 390,
       "views": 251,
       "likes": 21,
       "replies": 3,
@@ -3293,7 +3293,7 @@
         }
       ],
       "note": "QT lokithebird Messi Panini $175k digital card — Pawn Stars Rick 'best I can do is $5' meme; why buy digital cards you can't pawn",
-      "syncedAt": "2026-07-11T18:42:53.431Z",
+      "syncedAt": "2026-07-11T19:35:33.573Z",
       "visualCluster": "meme"
     },
     {
