@@ -1,7 +1,143 @@
 {
-  "syncVersion": 229,
-  "updatedAt": "2026-07-11T16:09:47.820Z",
+  "syncVersion": 230,
+  "updatedAt": "2026-07-11T18:32:00.000Z",
   "logs": [
+    {
+      "id": "hot-topic-exit-liquidity-loshmi-yeon-proof-jul11",
+      "type": "hot topic",
+      "traits": [
+        "useful"
+      ],
+      "slot": 69,
+      "bucket": "CT",
+      "visualCluster": "text-only",
+      "at": "2026-07-11T12:49:07.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2075925350802940008",
+      "views": 19,
+      "likes": 2,
+      "replies": 0,
+      "note": "Exit-liquidity follow-up — loshmi -$400 vs @yeonwoo1102 CASHDOG +970%; same 4 rules proven in practice.",
+      "ageHours": 6,
+      "updatedAt": "2026-07-11T18:32:00.000Z",
+      "snapshots": [
+        {
+          "ageHours": 6,
+          "views": 19,
+          "likes": 2,
+          "replies": 0,
+          "checkedAt": "2026-07-11T18:32:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "useful-exit-liquidity-yeon-4-rules-cashcat-jul10",
+      "type": "useful",
+      "traits": [
+        "hot topic",
+        "bait"
+      ],
+      "slot": 68,
+      "bucket": "CT",
+      "visualCluster": "screenshot",
+      "at": "2026-07-10T13:18:02.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2075570242370015679",
+      "views": 192,
+      "likes": 24,
+      "replies": 9,
+      "note": "4-rule framework from Yeon/CASHCAT at 40k mcap — catalyst, lore, s-tier KOL narrative, meme already alive; ends on Robinhood final-stop question.",
+      "ageHours": 29,
+      "updatedAt": "2026-07-11T18:32:00.000Z",
+      "snapshots": [
+        {
+          "ageHours": 29,
+          "views": 192,
+          "likes": 24,
+          "replies": 9,
+          "checkedAt": "2026-07-11T18:32:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "bait-morocco-france-million-vs-thousand-jul9",
+      "type": "bait",
+      "traits": [
+        "hot topic"
+      ],
+      "slot": 67,
+      "bucket": "football",
+      "visualCluster": "text-only",
+      "at": "2026-07-09T18:51:07.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2075291675908321631",
+      "views": 405,
+      "likes": 29,
+      "replies": 11,
+      "note": "WC Morocco vs France — $1M if Morocco wins vs $1,000 guaranteed now; classic pick-one reply bait.",
+      "ageHours": 48,
+      "updatedAt": "2026-07-11T18:32:00.000Z",
+      "snapshots": [
+        {
+          "ageHours": 48,
+          "views": 405,
+          "likes": 29,
+          "replies": 11,
+          "checkedAt": "2026-07-11T18:32:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "builder-qf-fantasy-no-messi-movematch-jul9",
+      "type": "builder",
+      "traits": [
+        "bait"
+      ],
+      "slot": 66,
+      "bucket": "football",
+      "visualCluster": "text-only",
+      "at": "2026-07-09T14:11:54.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2075221411056988502",
+      "views": 313,
+      "likes": 23,
+      "replies": 4,
+      "note": "QF MoveMatch squad locked without Messi — Mbappe/Haaland/Kane; QT @MoveMatchxyz 0% fees round.",
+      "ageHours": 52,
+      "updatedAt": "2026-07-11T18:32:00.000Z",
+      "snapshots": [
+        {
+          "ageHours": 52,
+          "views": 313,
+          "likes": 23,
+          "replies": 4,
+          "checkedAt": "2026-07-11T18:32:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "hot-topic-ct-account-today-robinhood-cashcat-jul8",
+      "type": "hot topic",
+      "traits": [
+        "bait"
+      ],
+      "slot": 64,
+      "bucket": "CT",
+      "visualCluster": "text-only",
+      "at": "2026-07-08T21:09:32.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2074964120839782505",
+      "views": 234,
+      "likes": 18,
+      "replies": 3,
+      "note": "CT account today checklist — Robinhood chain onboarding, $CASHCAT millionaires, WC content drought; what did I miss?",
+      "ageHours": 69,
+      "updatedAt": "2026-07-11T18:32:00.000Z",
+      "snapshots": [
+        {
+          "ageHours": 69,
+          "views": 234,
+          "likes": 18,
+          "replies": 3,
+          "checkedAt": "2026-07-11T18:32:00.000Z"
+        }
+      ]
+    },
     {
       "id": "bait-content-theft-bandosei-alpha-jul8",
       "type": "bait",
@@ -43,13 +179,20 @@
       "visualCluster": "text-only",
       "at": "2026-07-08T12:33:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2074879456620015753",
-      "views": 141,
+      "views": 475,
       "likes": 21,
       "replies": 4,
       "note": "QT own $CASHCAT thesis after Vlad follow-up - robinhood chain onboarding week is open; pushes marketing-campaign angle.",
-      "ageHours": 76,
-      "updatedAt": "2026-07-11T16:09:47.820Z",
+      "ageHours": 78,
+      "updatedAt": "2026-07-11T18:32:00.000Z",
       "snapshots": [
+        {
+          "ageHours": 78,
+          "views": 475,
+          "likes": 21,
+          "replies": 4,
+          "checkedAt": "2026-07-11T18:32:00.000Z"
+        },
         {
           "ageHours": 55,
           "views": 141,
@@ -128,13 +271,20 @@
       "visualCluster": "screenshot",
       "at": "2026-07-08T10:23:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2074846837018685468",
-      "views": 257,
+      "views": 813,
       "likes": 25,
       "replies": 4,
       "note": "$CASHCAT / Robinhood chain thesis - argues memecoin was a low-cost onboarding and marketing campaign, tied to Vlad RWA vs memes quotes.",
-      "ageHours": 78,
-      "updatedAt": "2026-07-11T16:09:47.820Z",
+      "ageHours": 80,
+      "updatedAt": "2026-07-11T18:32:00.000Z",
       "snapshots": [
+        {
+          "ageHours": 80,
+          "views": 813,
+          "likes": 25,
+          "replies": 4,
+          "checkedAt": "2026-07-11T18:32:00.000Z"
+        },
         {
           "ageHours": 57,
           "views": 257,
@@ -195,13 +345,20 @@
       "visualCluster": "text-only",
       "at": "2026-07-07T18:07:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2074601116491243641",
-      "views": 346,
+      "views": 407,
       "likes": 26,
       "replies": 6,
       "note": "QT own Polymarket MicroStrategy resolution thread - golden rule: if event is over but odds do not go to 99c, someone is still trying to make rules flexible.",
-      "ageHours": 94,
-      "updatedAt": "2026-07-11T16:09:47.820Z",
+      "ageHours": 96,
+      "updatedAt": "2026-07-11T18:32:00.000Z",
       "snapshots": [
+        {
+          "ageHours": 96,
+          "views": 407,
+          "likes": 26,
+          "replies": 6,
+          "checkedAt": "2026-07-11T18:32:00.000Z"
+        },
         {
           "ageHours": 71,
           "views": 346,
