@@ -1,7 +1,60 @@
 {
-  "syncVersion": 241,
-  "updatedAt": "2026-07-12T19:30:25.233Z",
+  "syncVersion": 242,
+  "updatedAt": "2026-07-12T21:15:00.000Z",
   "logs": [
+    {
+      "id": "bait-alpha-call-vs-kol-exit-liquidity-jul12",
+      "type": "bait",
+      "traits": [
+        "provocative"
+      ],
+      "slot": 71,
+      "bucket": "CT",
+      "visualCluster": "collage",
+      "at": "2026-07-12T21:13:00.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2076414547787743380",
+      "note": "Reply-bait — Chalk Noir alpha-call vs pump+exit panels; invites criteria in comments, not a verdict.",
+      "ageHours": 0,
+      "likes": 2,
+      "replies": 0,
+      "updatedAt": "2026-07-12T21:15:00.000Z",
+      "syncedAt": "2026-07-12T21:15:00.000Z",
+      "snapshots": [
+        {
+          "ageHours": 0,
+          "likes": 2,
+          "replies": 0,
+          "checkedAt": "2026-07-12T21:15:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "provocative-robinhood-tenev-illusion-onboarding-jul11",
+      "type": "provocative",
+      "traits": [
+        "useful",
+        "hot topic"
+      ],
+      "slot": 70,
+      "bucket": "CT",
+      "visualCluster": "chart",
+      "at": "2026-07-11T23:52:05.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2076092194872569966",
+      "note": "Robinhood illusion-of-earn thesis — RWA chain pitch vs $564M meme pivot after Tenev Jul 2→Jul 8 flip; DeFiLlama annotated chart.",
+      "ageHours": 21,
+      "likes": 22,
+      "replies": 6,
+      "updatedAt": "2026-07-12T21:15:00.000Z",
+      "syncedAt": "2026-07-12T21:15:00.000Z",
+      "snapshots": [
+        {
+          "ageHours": 21,
+          "likes": 22,
+          "replies": 6,
+          "checkedAt": "2026-07-12T21:15:00.000Z"
+        }
+      ]
+    },
     {
       "id": "hot-topic-exit-liquidity-loshmi-yeon-proof-jul11",
       "type": "hot topic",
@@ -17,8 +70,8 @@
       "likes": 21,
       "replies": 6,
       "note": "Exit-liquidity follow-up — loshmi -$400 vs @yeonwoo1102 CASHDOG +970%; same 4 rules proven in practice.",
-      "ageHours": 31,
-      "updatedAt": "2026-07-12T19:30:25.233Z",
+      "ageHours": 32,
+      "updatedAt": "2026-07-12T21:15:00.000Z",
       "snapshots": [
         {
           "ageHours": 22,
@@ -63,7 +116,7 @@
           "checkedAt": "2026-07-11T18:32:00.000Z"
         }
       ],
-      "syncedAt": "2026-07-12T19:30:25.233Z"
+      "syncedAt": "2026-07-12T21:15:00.000Z"
     },
     {
       "id": "useful-exit-liquidity-yeon-4-rules-cashcat-jul10",
@@ -81,8 +134,8 @@
       "likes": 34,
       "replies": 11,
       "note": "4-rule framework from Yeon/CASHCAT at 40k mcap — catalyst, lore, s-tier KOL narrative, meme already alive; ends on Robinhood final-stop question.",
-      "ageHours": 54,
-      "updatedAt": "2026-07-12T19:30:25.233Z",
+      "ageHours": 56,
+      "updatedAt": "2026-07-12T21:15:00.000Z",
       "snapshots": [
         {
           "ageHours": 33,
@@ -106,7 +159,7 @@
           "checkedAt": "2026-07-11T18:32:00.000Z"
         }
       ],
-      "syncedAt": "2026-07-12T19:30:25.233Z"
+      "syncedAt": "2026-07-12T21:15:00.000Z"
     },
     {
       "id": "bait-morocco-france-million-vs-thousand-jul9",
@@ -123,8 +176,8 @@
       "likes": 34,
       "replies": 11,
       "note": "WC Morocco vs France — $1M if Morocco wins vs $1,000 guaranteed now; classic pick-one reply bait.",
-      "ageHours": 73,
-      "updatedAt": "2026-07-12T19:30:25.233Z",
+      "ageHours": 74,
+      "updatedAt": "2026-07-12T21:15:00.000Z",
       "snapshots": [
         {
           "ageHours": 51,
@@ -148,7 +201,7 @@
           "checkedAt": "2026-07-11T18:32:00.000Z"
         }
       ],
-      "syncedAt": "2026-07-12T19:30:25.233Z"
+      "syncedAt": "2026-07-12T21:15:00.000Z"
     },
     {
       "id": "builder-qf-fantasy-no-messi-movematch-jul9",
@@ -165,8 +218,8 @@
       "likes": 25,
       "replies": 4,
       "note": "QF MoveMatch squad locked without Messi — Mbappe/Haaland/Kane; QT @MoveMatchxyz 0% fees round.",
-      "ageHours": 77,
-      "updatedAt": "2026-07-12T19:30:25.233Z",
+      "ageHours": 79,
+      "updatedAt": "2026-07-12T21:15:00.000Z",
       "snapshots": [
         {
           "ageHours": 56,
@@ -183,7 +236,34 @@
           "checkedAt": "2026-07-11T18:32:00.000Z"
         }
       ],
-      "syncedAt": "2026-07-12T19:30:25.233Z"
+      "syncedAt": "2026-07-12T21:15:00.000Z"
+    },
+    {
+      "id": "bait-content-theft-bandosei-wasted-jul8",
+      "type": "bait",
+      "traits": [
+        "provocative",
+        "hot topic"
+      ],
+      "slot": 65,
+      "bucket": "CT",
+      "visualCluster": "screenshot",
+      "at": "2026-07-08T21:47:17.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2074973620938363315",
+      "note": "Content-theft bait — WC drought excuse vs stealing @bandosei alpha; WASTED overlay screenshot.",
+      "ageHours": 95,
+      "likes": 32,
+      "replies": 14,
+      "updatedAt": "2026-07-12T21:15:00.000Z",
+      "syncedAt": "2026-07-12T21:15:00.000Z",
+      "snapshots": [
+        {
+          "ageHours": 95,
+          "likes": 32,
+          "replies": 14,
+          "checkedAt": "2026-07-12T21:15:00.000Z"
+        }
+      ]
     },
     {
       "id": "hot-topic-ct-account-today-robinhood-cashcat-jul8",
