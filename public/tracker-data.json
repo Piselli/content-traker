@@ -1,6 +1,6 @@
 {
-  "syncVersion": 243,
-  "updatedAt": "2026-07-12T21:57:36.684Z",
+  "syncVersion": 244,
+  "updatedAt": "2026-07-12T22:02:18.885Z",
   "logs": [
     {
       "id": "bait-alpha-call-vs-kol-exit-liquidity-jul12",
@@ -1590,7 +1590,7 @@
       "visualCluster": "text-only",
       "at": "2026-07-03T08:27:41.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2072960459381121428",
-      "ageHours": 229,
+      "ageHours": 230,
       "views": 232,
       "likes": 17,
       "replies": 4,
@@ -1632,8 +1632,8 @@
           "checkedAt": "2026-07-03T21:05:00.000Z"
         }
       ],
-      "updatedAt": "2026-07-12T21:57:36.684Z",
-      "syncedAt": "2026-07-12T21:57:36.684Z"
+      "updatedAt": "2026-07-12T22:02:18.885Z",
+      "syncedAt": "2026-07-12T22:02:18.885Z"
     },
     {
       "id": "provocative-betting-vs-investing-qt-deestar-jul2",
@@ -1925,7 +1925,7 @@
       "visualCluster": "screenshot",
       "at": "2026-07-01T16:30:19.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2072357140644180479",
-      "ageHours": 269,
+      "ageHours": 270,
       "views": 269,
       "likes": 23,
       "replies": 7,
@@ -2023,8 +2023,8 @@
           "checkedAt": "2026-07-01T13:35:00.000Z"
         }
       ],
-      "updatedAt": "2026-07-12T21:57:36.684Z",
-      "syncedAt": "2026-07-12T21:57:36.684Z"
+      "updatedAt": "2026-07-12T22:02:18.885Z",
+      "syncedAt": "2026-07-12T22:02:18.885Z"
     },
     {
       "id": "useful-crypto-bottom-monthly-charts-jul1",
@@ -3325,9 +3325,9 @@
       "slot": 30,
       "bucket": "CT",
       "at": "2026-06-25T14:31:00.000Z",
-      "updatedAt": "2026-07-12T21:57:36.684Z",
+      "updatedAt": "2026-07-12T22:02:18.885Z",
       "tweetUrl": "https://x.com/piselliii/status/2070152962404401633",
-      "ageHours": 415,
+      "ageHours": 416,
       "views": 388,
       "likes": 32,
       "replies": 11,
@@ -3369,7 +3369,7 @@
         }
       ],
       "note": "imagine $10k BTC Apr 12 2021 → $9k now; native chart visual -10% P/L punchline; cynical HODL reality check",
-      "syncedAt": "2026-07-12T21:57:36.684Z",
+      "syncedAt": "2026-07-12T22:02:18.885Z",
       "visualCluster": "chart"
     },
     {
@@ -3452,9 +3452,9 @@
       "slot": 28,
       "bucket": "football",
       "at": "2026-06-25T12:31:00.000Z",
-      "updatedAt": "2026-07-12T21:57:36.684Z",
+      "updatedAt": "2026-07-12T22:02:18.885Z",
       "tweetUrl": "https://x.com/piselliii/status/2070122800325488958",
-      "ageHours": 417,
+      "ageHours": 418,
       "views": 692,
       "likes": 39,
       "replies": 5,
@@ -3503,7 +3503,7 @@
         }
       ],
       "note": "QRT ripchillpill $200 WC Value Challenge entry (contest, not pure strategic QT) — Summerville O0.5 @35¢; ripchillpill RT'd for reach; PM screenshot + form + bonus math",
-      "syncedAt": "2026-07-12T21:57:36.684Z",
+      "syncedAt": "2026-07-12T22:02:18.885Z",
       "visualCluster": "screenshot"
     },
     {
@@ -3702,9 +3702,9 @@
       "slot": 24,
       "bucket": "CT",
       "at": "2026-06-24T14:32:00.000Z",
-      "updatedAt": "2026-07-12T21:57:36.684Z",
+      "updatedAt": "2026-07-12T22:02:18.885Z",
       "tweetUrl": "https://x.com/piselliii/status/2069835989451735114",
-      "ageHours": 439,
+      "ageHours": 440,
       "views": 775,
       "likes": 22,
       "replies": 5,
@@ -3767,7 +3767,7 @@
         }
       ],
       "note": "CT ecosystem reflection — producers > consumers, simulated attention market; QT ripchillpill as hook, not strategic QT or provocative take",
-      "syncedAt": "2026-07-12T21:57:36.684Z",
+      "syncedAt": "2026-07-12T22:02:18.885Z",
       "visualCluster": "text-only"
     },
     {
@@ -3997,9 +3997,9 @@
       "slot": 19,
       "bucket": "football",
       "at": "2026-06-22T18:31:00.000Z",
-      "updatedAt": "2026-07-12T21:57:36.684Z",
+      "updatedAt": "2026-07-12T22:02:18.885Z",
       "tweetUrl": "https://x.com/piselliii/status/2069171455368007882",
-      "ageHours": 483,
+      "ageHours": 484,
       "views": 279,
       "likes": 19,
       "replies": 6,
@@ -4048,7 +4048,7 @@
         }
       ],
       "note": "WC live France vs Iraq — parental advisory for Messi fans; obscene domination + Mbappé hunting Messi's same-day GOAT record; black scorecard image",
-      "syncedAt": "2026-07-12T21:57:36.684Z",
+      "syncedAt": "2026-07-12T22:02:18.885Z",
       "visualCluster": "scorecard"
     },
     {
