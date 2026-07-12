@@ -1,5 +1,25 @@
 {
-  "syncVersion": 1,
-  "updatedAt": "2026-07-12T15:13:00.000Z",
-  "records": []
+  "syncVersion": 3,
+  "updatedAt": "2026-07-12T21:58:00.000Z",
+  "records": [
+    {
+      "id": "jr-20260712-alpha-exit",
+      "at": "2026-07-12T21:13:00.000Z",
+      "decision": "Ship reply-bait: alpha call vs KOL pump+exit with Chalk Noir two-panel collage (info vs bubble)",
+      "prediction": "24h: ≥5 replies with an actual test/criteria (not emoji-only); reply to ≥80% of those within 2h of post; RPV ≥10 if views≥100; collage earns expand (not scroll-past as text-only)",
+      "reviewAt": "2026-07-13T21:13:00.000Z",
+      "confidence": 70,
+      "status": "open",
+      "evidenceUrl": "https://x.com/piselliii/status/2076414547787743380"
+    },
+    {
+      "id": "jr-20260712-exit-liq-ath",
+      "at": "2026-07-12T15:40:00.000Z",
+      "decision": "Ship exit-liquidity meme: fake EXIT/WETH chart (flat→pump→almost-rug) with sell cloud at ATH + one green buy = you buying the top",
+      "prediction": "24h: ≥4 replies that get the joke (exit liquidity / bagholder); RPV ≥12 if views≥150; visual earns expand (not ignored as generic chart)",
+      "reviewAt": "2026-07-13T15:40:00.000Z",
+      "confidence": 70,
+      "status": "open"
+    }
+  ]
 }
