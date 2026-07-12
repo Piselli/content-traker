@@ -30,10 +30,14 @@
     },
     {
       "id": "provocative-robinhood-tenev-illusion-onboarding-jul11",
-      "type": "provocative",
-      "traits": [
-        "useful",
+      "type": "strategic QT",
+      "fullTypes": [
+        "strategic QT",
         "hot topic"
+      ],
+      "traits": [
+        "provocative",
+        "useful"
       ],
       "slot": 70,
       "bucket": "CT",
