@@ -1,14 +1,14 @@
 {
-  "syncVersion": 3,
-  "updatedAt": "2026-07-12T21:58:00.000Z",
+  "syncVersion": 4,
+  "updatedAt": "2026-07-12T22:10:00.000Z",
   "records": [
     {
       "id": "jr-20260712-alpha-exit",
       "at": "2026-07-12T21:13:00.000Z",
-      "decision": "Ship reply-bait: alpha call vs KOL pump+exit with Chalk Noir two-panel collage (info vs bubble)",
-      "prediction": "24h: ≥5 replies with an actual test/criteria (not emoji-only); reply to ≥80% of those within 2h of post; RPV ≥10 if views≥100; collage earns expand (not scroll-past as text-only)",
+      "decision": "Пост reply-bait (EN): «how do you actually tell an alpha call from a KOL / from a pump + exit liquidity play on your audience» + Chalk Noir collage (рекомендований v8c, дві панелі info vs bubble)",
+      "prediction": "24h: ~200 views (діапазон 150–250); 3–4 replies max; переважно слабкі — без keyword/hot-topic lift, слабкий bait, поганий час; пост без сильної ставки на дистрибуцію",
       "reviewAt": "2026-07-13T21:13:00.000Z",
-      "confidence": 70,
+      "confidence": 90,
       "status": "open",
       "evidenceUrl": "https://x.com/piselliii/status/2076414547787743380"
     },
