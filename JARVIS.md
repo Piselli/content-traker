@@ -28,10 +28,10 @@ If user attaches JSON from Content Tracker, use it to advise:
 | Type | Norm |
 |------|------|
 | hot topic | 7+ |
-| meme | 5+ |
+| meme | 3+ |
 | useful | 2+ |
 | bait | 2–4 |
-| provocative | 2+ |
+| provocative | 3+ |
 | strategic QT | 3–5 |
 | builder | ≤2 |
 | meta reach | ≤1 |
@@ -211,6 +211,18 @@ Log **`visualCluster`** on every post (agent + paste). Values: `scorecard` · `c
 5. **TEXT-ONLY** — polls/QT without visual → ~200v ceiling; use only if 60 min reply window guaranteed
 
 **Rule:** text = hook, visual = reason to tap. PICK table must include **cluster** column.
+
+### Rare generated visual: Chalk Noir Storyboard
+
+Use only when there is no live proof screenshot/chart or when a text post needs a visual punch. This is rare, not a default for every tweet.
+
+**Style DNA:** pure black background, sparse rough white chalk/sketch lines, lots of negative space, same hand-drawn storyboard language as the X header. Monochrome only unless a future post explicitly needs one tiny accent.
+
+**Character rule:** the character must be 100% identical to the PFP — black silhouette face, messy white hair, glowing white oval eyes, tiny neutral mouth, black hoodie. Do not reinvent him as a generic anime boy.
+
+**Scene rule:** image = a quiet scene, not an explainer. The character must be organically inside the situation: observing, trapped in a frame, appearing as evidence inside a panel, drawing a mark, or being affected by the punchline. Never paste him in the center as a mascot.
+
+**Avoid:** busy infographics, terminal/receipt cards, corporate blueprint polish, R3ACH clone aesthetics, action-hero poses, over-explaining the tweet, repeated punch text.
 
 ## How to respond
 

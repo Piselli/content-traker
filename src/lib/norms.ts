@@ -2,10 +2,10 @@ import type { ContentType, Norm } from "./types";
 
 export const NORMS: Record<ContentType, Norm> = {
   "hot topic": { min: 7, label: "hot topic" },
-  meme: { min: 5, label: "meme" },
+  meme: { min: 3, label: "meme" },
   useful: { min: 2, label: "useful" },
   bait: { min: 2, max: 4, label: "bait" },
-  provocative: { min: 2, label: "provocative" },
+  provocative: { min: 3, label: "provocative" },
   "strategic QT": { min: 3, max: 5, label: "strategic QT" },
   builder: { max: 2, label: "builder" },
   "meta reach": { max: 1, label: "meta reach" },
