@@ -1,14 +1,14 @@
 {
-  "syncVersion": 5,
-  "updatedAt": "2026-07-12T23:35:00.000Z",
+  "syncVersion": 6,
+  "updatedAt": "2026-07-12T23:40:00.000Z",
   "records": [
     {
       "id": "jr-20260712-cashdog-honeypot",
       "at": "2026-07-12T23:22:34.000Z",
-      "decision": "Ship CASHDOG honeypot PSA on Robinhood (EN): scam alert + legit vs scam collage (REAL ~$3M ATH vs SCAM ~$50M ATH, HONEYPOT stamp); verify CA / ignore honeypot banners thesis",
-      "prediction": "24h: ≥120 views; ≥5 replies (≥2 substantive — wrong CA, name-collision, або «almost aped the wrong one»); RPV ≥10 if views≥100; visual earns expand (не проскролили як generic chart)",
+      "decision": "Пост CASHDOG honeypot PSA на Robinhood (EN): scam alert + collage legit vs scam. Чому: hot topic Robinhood chain, люди люблять обговорювати сками/name collision, useful PSA; потім можу знову зайти в CashDog narrative.",
+      "prediction": "24h: ≥800 views. Якщо <800 — основний ризик = поганий час постінгу (02:22), не слабкий angle.",
       "reviewAt": "2026-07-13T23:22:34.000Z",
-      "confidence": 70,
+      "confidence": 75,
       "status": "open",
       "evidenceUrl": "https://x.com/piselliii/status/2076447153170297133"
     },
