@@ -1,6 +1,6 @@
 {
-  "syncVersion": 244,
-  "updatedAt": "2026-07-12T22:02:18.885Z",
+  "syncVersion": 245,
+  "updatedAt": "2026-07-12T22:06:43.491Z",
   "logs": [
     {
       "id": "bait-alpha-call-vs-kol-exit-liquidity-jul12",
@@ -349,8 +349,8 @@
       "likes": 21,
       "replies": 4,
       "note": "QT own $CASHCAT thesis after Vlad follow-up - robinhood chain onboarding week is open; pushes marketing-campaign angle.",
-      "ageHours": 105,
-      "updatedAt": "2026-07-12T21:57:36.684Z",
+      "ageHours": 106,
+      "updatedAt": "2026-07-12T22:06:43.491Z",
       "snapshots": [
         {
           "ageHours": 78,
@@ -423,7 +423,7 @@
           "checkedAt": "2026-07-08T17:30:00.000Z"
         }
       ],
-      "syncedAt": "2026-07-12T21:57:36.684Z"
+      "syncedAt": "2026-07-12T22:06:43.491Z"
     },
     {
       "id": "hot-topic-cashcat-robinhood-marketing-campaign-jul8",
@@ -687,8 +687,8 @@
       "likes": 34,
       "replies": 16,
       "note": "QT @Deestar on fake promo investigation - reveal all 23 and credit the 5 creators who rejected the deal; CT accountability angle.",
-      "ageHours": 133,
-      "updatedAt": "2026-07-12T21:57:36.684Z",
+      "ageHours": 134,
+      "updatedAt": "2026-07-12T22:06:43.491Z",
       "snapshots": [
         {
           "ageHours": 55,
@@ -747,7 +747,7 @@
           "checkedAt": "2026-07-08T17:30:00.000Z"
         }
       ],
-      "syncedAt": "2026-07-12T21:57:36.684Z"
+      "syncedAt": "2026-07-12T22:06:43.491Z"
     },
     {
       "id": "provocative-madi-undisclosed-rug-flexible-principles-jul6",
@@ -3169,9 +3169,9 @@
       "slot": 32,
       "bucket": "CT",
       "at": "2026-06-26T14:35:00.000Z",
-      "updatedAt": "2026-07-12T21:57:36.684Z",
+      "updatedAt": "2026-07-12T22:06:43.491Z",
       "tweetUrl": "https://x.com/piselliii/status/2070516319334642001",
-      "ageHours": 391,
+      "ageHours": 392,
       "views": 273,
       "likes": 25,
       "replies": 6,
@@ -3227,7 +3227,7 @@
           "checkedAt": "2026-06-29T10:00:00.000Z"
         }
       ],
-      "syncedAt": "2026-07-12T21:57:36.684Z",
+      "syncedAt": "2026-07-12T22:06:43.491Z",
       "visualCluster": "chart"
     },
     {
@@ -4126,9 +4126,9 @@
       "slot": 17,
       "bucket": "CT",
       "at": "2026-06-22T12:34:00.000Z",
-      "updatedAt": "2026-07-12T21:57:36.684Z",
+      "updatedAt": "2026-07-12T22:06:43.491Z",
       "tweetUrl": "https://x.com/piselliii/status/2069081603754561892",
-      "ageHours": 489,
+      "ageHours": 490,
       "views": 141,
       "likes": 17,
       "replies": 3,
@@ -4177,7 +4177,7 @@
         }
       ],
       "note": "dual norm: hot topic + meme — X algo update moment, Sam Altman religious icon as mandatory CT apartment decor",
-      "syncedAt": "2026-07-12T21:57:36.684Z",
+      "syncedAt": "2026-07-12T22:06:43.491Z",
       "visualCluster": "meme"
     },
     {
@@ -4233,9 +4233,9 @@
       "slot": 15,
       "bucket": "CT",
       "at": "2026-06-22T11:34:00.000Z",
-      "updatedAt": "2026-07-12T21:57:36.684Z",
+      "updatedAt": "2026-07-12T22:06:43.491Z",
       "tweetUrl": "https://x.com/piselliii/status/2069066384202440989",
-      "ageHours": 490,
+      "ageHours": 491,
       "views": 122,
       "likes": 12,
       "replies": 3,
@@ -4270,7 +4270,7 @@
         }
       ],
       "note": "QT waleswoosh new algo take — crash-test failed; reply: reach compound interest if you already had it",
-      "syncedAt": "2026-07-12T21:57:36.684Z",
+      "syncedAt": "2026-07-12T22:06:43.491Z",
       "visualCluster": "text-only"
     },
     {
@@ -4392,9 +4392,9 @@
       "slot": 12,
       "bucket": "football",
       "at": "2026-06-21T18:34:00.000Z",
-      "updatedAt": "2026-07-12T21:57:36.684Z",
+      "updatedAt": "2026-07-12T22:06:43.491Z",
       "tweetUrl": "https://x.com/piselliii/status/2068764456230736196",
-      "ageHours": 507,
+      "ageHours": 508,
       "views": 311,
       "likes": 26,
       "replies": 7,
@@ -4450,7 +4450,7 @@
         }
       ],
       "note": "WC transitive score math — Sweden/Tunisia/Netherlands pick-one (a/b/c/d) + scorecard collage + Punisher wait meme",
-      "syncedAt": "2026-07-12T21:57:36.684Z",
+      "syncedAt": "2026-07-12T22:06:43.491Z",
       "visualCluster": "scorecard"
     },
     {
