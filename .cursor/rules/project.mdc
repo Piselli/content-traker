@@ -21,6 +21,8 @@ Next.js 16 App Router · TypeScript · Tailwind · `public/tracker-data.json` sy
 ## Key files
 
 - `public/tracker-data.json` — **source of truth** agent commits after user sends tweet data
+- `public/judgment-data.json` — Judgment OS records (decision → prediction → review)
+- `docs/JUDGMENT-RECORD.md` — schema + agent contract for judgment records
 - `src/lib/norms.ts` — weekly targets
 - `src/lib/analysis.ts` — insights, next slot, bucket mix
 - `src/hooks/useTracker.ts` — state + repo merge
@@ -58,6 +60,18 @@ User does **not** need to click Done on site if agent handles logging.
 See `JARVIS.md`. User is @piselliii: CT + football + crypto, cynical humor, bucket lock 30 days. Movement audience dead; rebuilding reach.
 
 **Algorithm:** follow `JARVIS.md` § X Growth Playbook (7 Moves, signal weights, templates 01–06). Primary metric = **replies you answer**, not views. After user posts → remind **60 min reply window** (Move 3).
+
+## Judgment OS (from 2026-07-12)
+
+Goal: improve judgment via stakes, not accumulate a wiki. See `docs/JUDGMENT-RECORD.md`.
+
+**Before post / material decision:** if user is about to act, require a Judgment Record: `decision` + checkable `prediction` + `reviewAt` + `confidence` (50–90). Reject vague predictions («зайде»). Upsert into `public/judgment-data.json` → **commit + push** (same as tracker logging).
+
+**When user sends «опублікував» + URL:** attach `evidenceUrl` on the open record if it matches; also do normal tracker log.
+
+**On / after `reviewAt`:** ask for outcome vs prediction → `result: expected|surprise` + one-line `judgmentUpdate` → close record → commit + push. Agent role = catch where judgment was wrong today, not librarian.
+
+**First-class file rule:** if a doc doesn't force predict → check → update judgment, it's not judgment-layer (ops/agent contracts are the allowed exception).
 
 ## Do NOT
 
