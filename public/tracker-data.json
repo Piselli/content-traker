@@ -1,7 +1,26 @@
 {
-  "syncVersion": 261,
-  "updatedAt": "2026-07-13T22:08:49.046Z",
+  "syncVersion": 262,
+  "updatedAt": "2026-07-13T22:53:00.000Z",
   "logs": [
+    {
+      "id": "strategic-qt-robinhood-wallets-sticky-minh-jul14",
+      "type": "strategic QT",
+      "fullTypes": [
+        "strategic QT",
+        "hot topic"
+      ],
+      "traits": [
+        "bait",
+        "provocative"
+      ],
+      "slot": 2,
+      "bucket": "CT",
+      "visualCluster": "text-only",
+      "at": "2026-07-13T22:52:00.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2076802010297389437",
+      "note": "QT @MINHxDYNASTY (cashcat dies = RH chain fails) — if memecoins dump, do the 100k+ wallets that arrived in a day leave in a day? Sticky growth or price tourists; correction-magnet reply bait.",
+      "ageHours": 0
+    },
     {
       "id": "hot-topic-provocative-ascii-alpha-wasted-qt-jul13",
       "type": "hot topic",
