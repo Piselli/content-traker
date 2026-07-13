@@ -1,14 +1,14 @@
 {
-  "syncVersion": 9,
-  "updatedAt": "2026-07-13T22:53:00.000Z",
+  "syncVersion": 10,
+  "updatedAt": "2026-07-13T23:00:00.000Z",
   "records": [
     {
       "id": "jr-20260714-rh-wallets-sticky",
       "at": "2026-07-13T22:52:00.000Z",
       "decision": "QT @MINHxDYNASTY (EN): memecoin dump → 100k+ RH wallets leave in a day? Sticky or price tourists. Ride cashcat-dies debate + correction magnet.",
-      "prediction": "24h: ≥6 replies that argue mechanism (wallets vs sticky / RH chain), not emoji-only; ≥250 views.",
+      "prediction": "24h: ≥9 replies · ≥400 views. Thesis: short tweet, low reply friction; key that it pushed in hour one.",
       "reviewAt": "2026-07-14T22:52:00.000Z",
-      "confidence": 70,
+      "confidence": 80,
       "status": "open",
       "evidenceUrl": "https://x.com/piselliii/status/2076802010297389437"
     },
