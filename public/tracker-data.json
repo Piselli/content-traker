@@ -1,17 +1,16 @@
 {
-  "syncVersion": 257,
-  "updatedAt": "2026-07-13T17:25:09.339Z",
+  "syncVersion": 258,
+  "updatedAt": "2026-07-13T17:30:14.000Z",
   "logs": [
     {
-      "id": "strategic-qt-ascii-undisclosed-alpha-wasted-jul13",
-      "type": "strategic QT",
+      "id": "hot-topic-provocative-ascii-alpha-wasted-qt-jul13",
+      "type": "hot topic",
       "fullTypes": [
-        "strategic QT",
-        "hot topic"
+        "hot topic",
+        "provocative"
       ],
       "traits": [
-        "provocative",
-        "bait"
+        "strategic QT"
       ],
       "slot": 1,
       "bucket": "CT",
@@ -23,7 +22,7 @@
       "replies": 0,
       "note": "QT @ChampLottery ASCII Cats sniper thread — unlabeled 'alpha' callout; WASTED collage; sniper 13% / open admin 55k / phishing mint / DEV dump+relaunch; reply bait on #ad ethics. Replaced cold open (deleted, didn't take off).",
       "ageHours": 0,
-      "updatedAt": "2026-07-13T17:25:09.339Z",
+      "updatedAt": "2026-07-13T17:30:14.000Z",
       "syncedAt": "2026-07-13T17:25:09.339Z",
       "snapshots": [
         {
