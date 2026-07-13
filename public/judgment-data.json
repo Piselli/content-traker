@@ -1,7 +1,17 @@
 {
-  "syncVersion": 7,
-  "updatedAt": "2026-07-13T15:15:21.000Z",
+  "syncVersion": 8,
+  "updatedAt": "2026-07-13T17:24:31.000Z",
   "records": [
+    {
+      "id": "jr-20260713-ascii-alpha-qt",
+      "at": "2026-07-13T17:21:58.000Z",
+      "decision": "Repost ASCII Cats expose as strategic QT of @ChampLottery sniper thread (EN) + WASTED collage; cold open deleted after flop. Same angle, better distribution hook.",
+      "prediction": "3h (~20:22 UA): ≥8 replies і ≥300 views (better than cold open baseline).",
+      "reviewAt": "2026-07-13T20:21:58.000Z",
+      "confidence": 65,
+      "status": "open",
+      "evidenceUrl": "https://x.com/piselliii/status/2076718793506586848"
+    },
     {
       "id": "jr-20260713-ascii-alpha",
       "at": "2026-07-13T14:07:41.000Z",
@@ -9,8 +19,11 @@
       "prediction": "3h (~20:10 UA): ≥8 replies і ≥300 views. Confidence знижена бо cold open.",
       "reviewAt": "2026-07-13T17:10:00.000Z",
       "confidence": 60,
-      "status": "open",
-      "evidenceUrl": "https://x.com/piselliii/status/2076669901750644803"
+      "status": "closed",
+      "evidenceUrl": "https://x.com/piselliii/status/2076669901750644803",
+      "result": "surprise",
+      "judgmentUpdate": "Cold open flopped (~66 views / 2 replies at ~1h); deleted. Same angle as QT of ChampLottery sniper thread may carry better distribution.",
+      "reviewedAt": "2026-07-13T17:24:31.000Z"
     },
     {
       "id": "jr-20260712-cashdog-honeypot",
