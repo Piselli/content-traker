@@ -1,6 +1,6 @@
 {
-  "syncVersion": 256,
-  "updatedAt": "2026-07-13T17:24:53.000Z",
+  "syncVersion": 257,
+  "updatedAt": "2026-07-13T17:25:09.339Z",
   "logs": [
     {
       "id": "strategic-qt-ascii-undisclosed-alpha-wasted-jul13",
@@ -19,12 +19,12 @@
       "at": "2026-07-13T17:21:58.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2076718793506586848",
       "views": 12,
-      "likes": 0,
+      "likes": 1,
       "replies": 0,
       "note": "QT @ChampLottery ASCII Cats sniper thread — unlabeled 'alpha' callout; WASTED collage; sniper 13% / open admin 55k / phishing mint / DEV dump+relaunch; reply bait on #ad ethics. Replaced cold open (deleted, didn't take off).",
       "ageHours": 0,
-      "updatedAt": "2026-07-13T17:24:53.000Z",
-      "syncedAt": "2026-07-13T17:24:53.000Z",
+      "updatedAt": "2026-07-13T17:25:09.339Z",
+      "syncedAt": "2026-07-13T17:25:09.339Z",
       "snapshots": [
         {
           "ageHours": 0,
@@ -3613,9 +3613,9 @@
       "slot": 27,
       "bucket": "CT",
       "at": "2026-06-25T11:54:00.000Z",
-      "updatedAt": "2026-07-13T17:22:59.567Z",
+      "updatedAt": "2026-07-13T17:25:09.339Z",
       "tweetUrl": "https://x.com/piselliii/status/2070113297886556403",
-      "ageHours": 437,
+      "ageHours": 438,
       "views": 174,
       "likes": 14,
       "replies": 2,
@@ -3657,7 +3657,7 @@
         }
       ],
       "note": "QT waleswoosh crypto user estimates — cynical reframe: 30k smart-follow chasers, 600k losers, 500k score believers, 500 future millionaires; Wale still smarter",
-      "syncedAt": "2026-07-13T17:22:59.567Z",
+      "syncedAt": "2026-07-13T17:25:09.339Z",
       "visualCluster": "text-only"
     },
     {
@@ -4802,9 +4802,9 @@
       "slot": 7,
       "bucket": "football",
       "at": "2026-06-18T18:54:00.000Z",
-      "updatedAt": "2026-07-13T17:22:59.567Z",
+      "updatedAt": "2026-07-13T17:25:09.339Z",
       "tweetUrl": "https://x.com/piselliii/status/2067727623145316383",
-      "ageHours": 598,
+      "ageHours": 599,
       "views": 362,
       "likes": 17,
       "replies": 5,
@@ -4846,7 +4846,7 @@
         }
       ],
       "note": "absurdist fake Polymarket market on WC broadcast — bait lead (YES/NO + @Polymarket), meme trait (visual mock is the punchline)",
-      "syncedAt": "2026-07-13T17:22:59.567Z",
+      "syncedAt": "2026-07-13T17:25:09.339Z",
       "visualCluster": "meme"
     },
     {
