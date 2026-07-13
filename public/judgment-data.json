@@ -1,7 +1,17 @@
 {
-  "syncVersion": 6,
-  "updatedAt": "2026-07-12T23:40:00.000Z",
+  "syncVersion": 7,
+  "updatedAt": "2026-07-13T15:15:21.000Z",
   "records": [
+    {
+      "id": "jr-20260713-ascii-alpha",
+      "at": "2026-07-13T14:07:41.000Z",
+      "decision": "Унік-пост (EN) про ASCII Cats: undisclosed 'alpha' без #ad → sniper/DEV dump+relaunch/open admin/phishing; WASTED collage CT shills; reply bait на ethics. Не QT.",
+      "prediction": "3h (~20:10 UA): ≥8 replies і ≥300 views. Confidence знижена бо cold open.",
+      "reviewAt": "2026-07-13T17:10:00.000Z",
+      "confidence": 60,
+      "status": "open",
+      "evidenceUrl": "https://x.com/piselliii/status/2076669901750644803"
+    },
     {
       "id": "jr-20260712-cashdog-honeypot",
       "at": "2026-07-12T23:22:34.000Z",
