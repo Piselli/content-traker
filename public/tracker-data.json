@@ -1,6 +1,6 @@
 {
-  "syncVersion": 275,
-  "updatedAt": "2026-07-14T16:32:57.804Z",
+  "syncVersion": 276,
+  "updatedAt": "2026-07-14T16:38:06.355Z",
   "logs": [
     {
       "id": "hot-topic-btc-cpi-poi-61k-jul14",
@@ -13,10 +13,17 @@
       "note": "EN chart take: soft CPI (3.5% vs 3.8%, MoM -0.4%) = relief pump into POI / weekly range top; fade back, first target ~61k. Hook on @waleswoosh 'we are back' blame + reply bait.",
       "ageHours": 1,
       "views": 38,
-      "likes": 5,
+      "likes": 6,
       "replies": 1,
-      "updatedAt": "2026-07-14T16:32:57.804Z",
+      "updatedAt": "2026-07-14T16:38:06.355Z",
       "snapshots": [
+        {
+          "ageHours": 1,
+          "views": 38,
+          "likes": 5,
+          "replies": 1,
+          "checkedAt": "2026-07-14T16:38:06.355Z"
+        },
         {
           "ageHours": 0,
           "views": 38,
@@ -25,7 +32,7 @@
           "checkedAt": "2026-07-14T16:22:25.153Z"
         }
       ],
-      "syncedAt": "2026-07-14T16:32:57.804Z"
+      "syncedAt": "2026-07-14T16:38:06.355Z"
     },
     {
       "id": "strategic-qt-meme-wale-holiday-ruined-jul14",
@@ -45,11 +52,18 @@
       "note": "QT @waleswoosh BTC pattern / 'we are so back' irony — chalk-noir 'thanks, wale' balloon-pop meme; 'ok, a little pump is enough / thanks, holiday ruined'.",
       "ageHours": 3,
       "views": 32,
-      "likes": 10,
+      "likes": 11,
       "replies": 1,
-      "updatedAt": "2026-07-14T16:22:42.131Z",
-      "syncedAt": "2026-07-14T16:22:42.131Z",
+      "updatedAt": "2026-07-14T16:38:06.355Z",
+      "syncedAt": "2026-07-14T16:38:06.355Z",
       "snapshots": [
+        {
+          "ageHours": 3,
+          "views": 32,
+          "likes": 10,
+          "replies": 1,
+          "checkedAt": "2026-07-14T16:38:06.355Z"
+        },
         {
           "ageHours": 1,
           "views": 32,
@@ -933,8 +947,8 @@
       "likes": 26,
       "replies": 6,
       "note": "QT own Polymarket MicroStrategy resolution thread - golden rule: if event is over but odds do not go to 99c, someone is still trying to make rules flexible.",
-      "ageHours": 166,
-      "updatedAt": "2026-07-14T16:22:42.131Z",
+      "ageHours": 167,
+      "updatedAt": "2026-07-14T16:38:06.355Z",
       "snapshots": [
         {
           "ageHours": 96,
@@ -1021,7 +1035,7 @@
           "checkedAt": "2026-07-08T17:30:00.000Z"
         }
       ],
-      "syncedAt": "2026-07-14T16:22:42.131Z"
+      "syncedAt": "2026-07-14T16:38:06.355Z"
     },
     {
       "id": "meme-argentina-infantino-substitute-jul7",
@@ -1325,7 +1339,7 @@
       "visualCluster": "chart",
       "at": "2026-07-06T11:03:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2074132207145295968",
-      "ageHours": 197,
+      "ageHours": 198,
       "views": 195,
       "likes": 16,
       "replies": 2,
@@ -1402,8 +1416,8 @@
           "checkedAt": "2026-07-06T14:26:44.693Z"
         }
       ],
-      "updatedAt": "2026-07-14T16:22:42.131Z",
-      "syncedAt": "2026-07-14T16:22:42.131Z"
+      "updatedAt": "2026-07-14T16:38:06.355Z",
+      "syncedAt": "2026-07-14T16:38:06.355Z"
     },
     {
       "id": "hot-topic-wc-goalkeepers-heroes-jul5",
@@ -3800,9 +3814,9 @@
       "slot": 29,
       "bucket": "CT",
       "at": "2026-06-25T14:05:00.000Z",
-      "updatedAt": "2026-07-14T16:22:42.131Z",
+      "updatedAt": "2026-07-14T16:38:06.355Z",
       "tweetUrl": "https://x.com/piselliii/status/2070146335970296250",
-      "ageHours": 458,
+      "ageHours": 459,
       "views": 251,
       "likes": 21,
       "replies": 3,
@@ -3858,7 +3872,7 @@
         }
       ],
       "note": "QT lokithebird Messi Panini $175k digital card — Pawn Stars Rick 'best I can do is $5' meme; why buy digital cards you can't pawn",
-      "syncedAt": "2026-07-14T16:22:42.131Z",
+      "syncedAt": "2026-07-14T16:38:06.355Z",
       "visualCluster": "meme"
     },
     {
@@ -4053,9 +4067,9 @@
       "slot": 25,
       "bucket": "CT",
       "at": "2026-06-24T18:08:00.000Z",
-      "updatedAt": "2026-07-14T16:22:42.131Z",
+      "updatedAt": "2026-07-14T16:38:06.355Z",
       "tweetUrl": "https://x.com/piselliii/status/2069890461905400116",
-      "ageHours": 478,
+      "ageHours": 479,
       "views": 194,
       "likes": 17,
       "replies": 2,
@@ -4111,7 +4125,7 @@
         }
       ],
       "note": "meme punchline on own CT thread — red heatmap visual, be careful what you wish for; self-QT format, not strategic QT",
-      "syncedAt": "2026-07-14T16:22:42.131Z",
+      "syncedAt": "2026-07-14T16:38:06.355Z",
       "visualCluster": "chart"
     },
     {
@@ -4993,9 +5007,9 @@
       "slot": 9,
       "bucket": "CT",
       "at": "2026-06-19T14:06:00.000Z",
-      "updatedAt": "2026-07-14T16:22:42.131Z",
+      "updatedAt": "2026-07-14T16:38:06.355Z",
       "tweetUrl": "https://x.com/piselliii/status/2067972354370576426",
-      "ageHours": 602,
+      "ageHours": 603,
       "views": 204,
       "likes": 22,
       "replies": 3,
@@ -5058,7 +5072,7 @@
         }
       ],
       "note": "QT waleswoosh on Polymarket — win/lose both PR; PM entered via free money; hedge without hedging",
-      "syncedAt": "2026-07-14T16:22:42.131Z",
+      "syncedAt": "2026-07-14T16:38:06.355Z",
       "visualCluster": "text-only"
     },
     {
