@@ -1,6 +1,6 @@
 {
-  "syncVersion": 274,
-  "updatedAt": "2026-07-14T16:32:42.834Z",
+  "syncVersion": 275,
+  "updatedAt": "2026-07-14T16:32:57.804Z",
   "logs": [
     {
       "id": "hot-topic-btc-cpi-poi-61k-jul14",
@@ -11,11 +11,11 @@
       "at": "2026-07-14T15:57:08.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2077059831324647833",
       "note": "EN chart take: soft CPI (3.5% vs 3.8%, MoM -0.4%) = relief pump into POI / weekly range top; fade back, first target ~61k. Hook on @waleswoosh 'we are back' blame + reply bait.",
-      "ageHours": 0,
+      "ageHours": 1,
       "views": 38,
       "likes": 5,
       "replies": 1,
-      "updatedAt": "2026-07-14T16:32:33.930Z",
+      "updatedAt": "2026-07-14T16:32:57.804Z",
       "snapshots": [
         {
           "ageHours": 0,
@@ -24,7 +24,8 @@
           "replies": 1,
           "checkedAt": "2026-07-14T16:22:25.153Z"
         }
-      ]
+      ],
+      "syncedAt": "2026-07-14T16:32:57.804Z"
     },
     {
       "id": "strategic-qt-meme-wale-holiday-ruined-jul14",
@@ -1682,7 +1683,7 @@
       "visualCluster": "text-only",
       "at": "2026-07-04T09:56:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2073345099040190745",
-      "ageHours": 246,
+      "ageHours": 247,
       "views": 197,
       "likes": 21,
       "replies": 1,
@@ -1766,8 +1767,8 @@
           "checkedAt": "2026-07-04T13:06:00.000Z"
         }
       ],
-      "updatedAt": "2026-07-14T16:22:42.131Z",
-      "syncedAt": "2026-07-14T16:22:42.131Z"
+      "updatedAt": "2026-07-14T16:32:57.804Z",
+      "syncedAt": "2026-07-14T16:32:57.804Z"
     },
     {
       "id": "bait-argentina-cape-verde-10k-vs-1m-jul3",
@@ -2065,7 +2066,7 @@
       "visualCluster": "screenshot",
       "at": "2026-07-02T12:56:23.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2072665691405082759",
-      "ageHours": 291,
+      "ageHours": 292,
       "views": 331,
       "likes": 26,
       "replies": 5,
@@ -2156,8 +2157,8 @@
           "checkedAt": "2026-07-02T15:46:55.926Z"
         }
       ],
-      "updatedAt": "2026-07-14T16:22:42.131Z",
-      "syncedAt": "2026-07-14T16:22:42.131Z"
+      "updatedAt": "2026-07-14T16:32:57.804Z",
+      "syncedAt": "2026-07-14T16:32:57.804Z"
     },
     {
       "id": "useful-distribution-brand-ct-qt-abhi-jul2",
@@ -2687,7 +2688,7 @@
       "visualCluster": "screenshot",
       "at": "2026-06-30T19:56:01.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2072046519075684613",
-      "ageHours": 332,
+      "ageHours": 333,
       "views": 143,
       "likes": 21,
       "replies": 7,
@@ -2785,8 +2786,8 @@
           "checkedAt": "2026-06-30T20:25:00.000Z"
         }
       ],
-      "updatedAt": "2026-07-14T16:22:42.131Z",
-      "syncedAt": "2026-07-14T16:22:42.131Z"
+      "updatedAt": "2026-07-14T16:32:57.804Z",
+      "syncedAt": "2026-07-14T16:32:57.804Z"
     },
     {
       "id": "hot-topic-ansem-airdrop-models-qt-loshmi-jun29",
@@ -3033,7 +3034,7 @@
       "visualCluster": "text-only",
       "at": "2026-06-29T13:55:17.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2071593347349643634",
-      "ageHours": 362,
+      "ageHours": 363,
       "views": 331,
       "likes": 21,
       "replies": 4,
@@ -3138,8 +3139,8 @@
           "checkedAt": "2026-06-29T14:10:00.000Z"
         }
       ],
-      "updatedAt": "2026-07-14T16:22:42.131Z",
-      "syncedAt": "2026-07-14T16:22:42.131Z"
+      "updatedAt": "2026-07-14T16:32:57.804Z",
+      "syncedAt": "2026-07-14T16:32:57.804Z"
     },
     {
       "id": "bait-wale-wc-winner-va-banque-jun29",
@@ -3274,7 +3275,7 @@
       "bucket": "CT",
       "at": "2026-06-28T23:00:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2071366946897932622",
-      "ageHours": 377,
+      "ageHours": 378,
       "views": 294,
       "likes": 18,
       "replies": 6,
@@ -3372,9 +3373,9 @@
           "checkedAt": "2026-06-28T23:04:00.858Z"
         }
       ],
-      "updatedAt": "2026-07-14T16:22:42.131Z",
+      "updatedAt": "2026-07-14T16:32:57.804Z",
       "visualCluster": "text-only",
-      "syncedAt": "2026-07-14T16:22:42.131Z"
+      "syncedAt": "2026-07-14T16:32:57.804Z"
     },
     {
       "id": "hot-topic-ansem-peoples-token-jun28",
@@ -3933,9 +3934,9 @@
       "slot": 27,
       "bucket": "CT",
       "at": "2026-06-25T11:54:00.000Z",
-      "updatedAt": "2026-07-14T16:22:42.131Z",
+      "updatedAt": "2026-07-14T16:32:57.804Z",
       "tweetUrl": "https://x.com/piselliii/status/2070113297886556403",
-      "ageHours": 460,
+      "ageHours": 461,
       "views": 174,
       "likes": 14,
       "replies": 2,
@@ -3977,7 +3978,7 @@
         }
       ],
       "note": "QT waleswoosh crypto user estimates — cynical reframe: 30k smart-follow chasers, 600k losers, 500k score believers, 500 future millionaires; Wale still smarter",
-      "syncedAt": "2026-07-14T16:22:42.131Z",
+      "syncedAt": "2026-07-14T16:32:57.804Z",
       "visualCluster": "text-only"
     },
     {
@@ -3989,9 +3990,9 @@
       "slot": 26,
       "bucket": "CT",
       "at": "2026-06-25T10:59:00.000Z",
-      "updatedAt": "2026-07-14T16:22:42.131Z",
+      "updatedAt": "2026-07-14T16:32:57.804Z",
       "tweetUrl": "https://x.com/piselliii/status/2070099596978581536",
-      "ageHours": 461,
+      "ageHours": 462,
       "views": 201,
       "likes": 9,
       "replies": 4,
@@ -4040,7 +4041,7 @@
         }
       ],
       "note": "CT beefs pick-one poll — bears/bull, wale/xeet, Nikita/CT, you/profit; what did I miss?",
-      "syncedAt": "2026-07-14T16:22:42.131Z",
+      "syncedAt": "2026-07-14T16:32:57.804Z",
       "visualCluster": "text-only"
     },
     {
@@ -4607,9 +4608,9 @@
       "slot": 16,
       "bucket": "CT",
       "at": "2026-06-22T11:58:00.000Z",
-      "updatedAt": "2026-07-14T16:22:42.131Z",
+      "updatedAt": "2026-07-14T16:32:57.804Z",
       "tweetUrl": "https://x.com/piselliii/status/2069072422670651811",
-      "ageHours": 532,
+      "ageHours": 533,
       "views": 150,
       "likes": 15,
       "replies": 1,
@@ -4637,7 +4638,7 @@
         }
       ],
       "note": "self-QT Jun 8 WC favorites hedge — France NO @ 80¢, roll R32→final, ~+25% if lift / flat if not; bait: hedge vs just betting / gambling propagandist",
-      "syncedAt": "2026-07-14T16:22:42.131Z",
+      "syncedAt": "2026-07-14T16:32:57.804Z",
       "visualCluster": "text-only"
     },
     {
@@ -5122,9 +5123,9 @@
       "slot": 7,
       "bucket": "football",
       "at": "2026-06-18T18:54:00.000Z",
-      "updatedAt": "2026-07-14T16:22:42.131Z",
+      "updatedAt": "2026-07-14T16:32:57.804Z",
       "tweetUrl": "https://x.com/piselliii/status/2067727623145316383",
-      "ageHours": 621,
+      "ageHours": 622,
       "views": 362,
       "likes": 17,
       "replies": 5,
@@ -5166,7 +5167,7 @@
         }
       ],
       "note": "absurdist fake Polymarket market on WC broadcast — bait lead (YES/NO + @Polymarket), meme trait (visual mock is the punchline)",
-      "syncedAt": "2026-07-14T16:22:42.131Z",
+      "syncedAt": "2026-07-14T16:32:57.804Z",
       "visualCluster": "meme"
     },
     {
@@ -5175,9 +5176,9 @@
       "slot": 6,
       "bucket": "CT",
       "at": "2026-06-18T15:00:00.000Z",
-      "updatedAt": "2026-07-14T16:22:42.131Z",
+      "updatedAt": "2026-07-14T16:32:57.804Z",
       "tweetUrl": "https://x.com/piselliii/status/2067623583891755422",
-      "ageHours": 625,
+      "ageHours": 626,
       "views": 299,
       "likes": 12,
       "replies": 5,
@@ -5219,7 +5220,7 @@
         }
       ],
       "note": "QT bigchog on posting frequency — standalone take on consistency vs quality",
-      "syncedAt": "2026-07-14T16:22:42.131Z",
+      "syncedAt": "2026-07-14T16:32:57.804Z",
       "visualCluster": "text-only"
     },
     {
@@ -5228,9 +5229,9 @@
       "slot": 5,
       "bucket": "football",
       "at": "2026-06-18T13:56:00.000Z",
-      "updatedAt": "2026-07-14T16:22:42.131Z",
+      "updatedAt": "2026-07-14T16:32:57.804Z",
       "tweetUrl": "https://x.com/piselliii/status/2067607507187486750",
-      "ageHours": 626,
+      "ageHours": 627,
       "views": 92,
       "likes": 15,
       "replies": 2,
@@ -5279,7 +5280,7 @@
         }
       ],
       "note": "WC first round respect list — Japan locker room, Vozinha, Messi, Korea, Curaçao, fan culture + collage",
-      "syncedAt": "2026-07-14T16:22:42.131Z",
+      "syncedAt": "2026-07-14T16:32:57.804Z",
       "visualCluster": "collage"
     },
     {
