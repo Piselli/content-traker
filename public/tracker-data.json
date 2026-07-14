@@ -1,14 +1,10 @@
 {
   "syncVersion": 274,
-  "updatedAt": "2026-07-14T16:22:42.131Z",
+  "updatedAt": "2026-07-14T16:32:42.834Z",
   "logs": [
     {
       "id": "hot-topic-btc-cpi-poi-61k-jul14",
       "type": "hot topic",
-      "traits": [
-        "bait",
-        "provocative"
-      ],
       "slot": 2,
       "bucket": "CT",
       "visualCluster": "chart",
@@ -19,7 +15,7 @@
       "views": 38,
       "likes": 5,
       "replies": 1,
-      "updatedAt": "2026-07-14T16:22:25.153Z",
+      "updatedAt": "2026-07-14T16:32:33.930Z",
       "snapshots": [
         {
           "ageHours": 0,
