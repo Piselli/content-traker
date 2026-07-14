@@ -13,15 +13,12 @@ export function WeekSummary({ weekCounts, analysis }: WeekSummaryProps) {
   const { disciplineScore, disciplineTotal, postsToday, streaks } = analysis;
   const pct = Math.round((disciplineScore / disciplineTotal) * 100);
 
-  const done = CONTENT_TYPES.filter((t) => {
-    const count = weekCounts[t] ?? 0;
-    return getNormStatus(count, NORMS[t]) === "done";
-  }).length;
-
   const over = CONTENT_TYPES.filter((t) => {
     const count = weekCounts[t] ?? 0;
     return getNormStatus(count, NORMS[t]) === "over";
   }).length;
+
+  const inRange = disciplineScore - over;
 
   return (
     <div className="grid gap-3 sm:grid-cols-3">
@@ -75,13 +72,13 @@ export function WeekSummary({ weekCounts, analysis }: WeekSummaryProps) {
         </p>
         <div className="mt-3 flex flex-col gap-2 text-sm">
           <div>
-            <span className="text-emerald-400 font-semibold">{done}</span>
-            <span className="text-zinc-500"> норм закрито</span>
+            <span className="text-emerald-400 font-semibold">{disciplineScore}</span>
+            <span className="text-zinc-500"> закрито</span>
           </div>
           {over > 0 && (
-            <div>
-              <span className="text-red-400 font-semibold">{over}</span>
-              <span className="text-zinc-500"> понад ліміт</span>
+            <div className="text-xs text-zinc-500">
+              {inRange} в нормі ·{" "}
+              <span className="text-red-400">{over} over</span>
             </div>
           )}
         </div>

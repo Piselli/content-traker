@@ -47,13 +47,16 @@ export function ActivityHeatmap({ logs, type }: ActivityHeatmapProps) {
   }
 
   return (
-    <div className="mt-3">
-      <div className="flex flex-wrap gap-[3px]">
+    <div className="mt-3 min-w-0">
+      <div
+        className="grid gap-px"
+        style={{ gridTemplateColumns: `repeat(${cells.length}, minmax(0, 1fr))` }}
+      >
         {cells.map((c) => (
           <div
             key={c.key}
             title={`${c.key}: ${c.count} post(s)`}
-            className={`h-2.5 w-2.5 rounded-sm ${LEVEL_CLASS[level(c.count)]}`}
+            className={`aspect-square rounded-sm ${LEVEL_CLASS[level(c.count)]}`}
           />
         ))}
       </div>

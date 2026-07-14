@@ -177,7 +177,7 @@ export function Dashboard() {
             <h2 className="text-xs font-medium uppercase tracking-widest text-zinc-500">
               Звички
             </h2>
-            <div className="rounded-xl border border-zinc-800/80 bg-zinc-900/50 px-3 py-2">
+            <div className="min-w-0 w-full sm:w-auto rounded-xl border border-zinc-800/80 bg-zinc-900/50 px-3 py-2">
               <p className="text-[10px] uppercase tracking-widest text-zinc-600">Активність</p>
               <ActivityHeatmap logs={data.logs} />
             </div>

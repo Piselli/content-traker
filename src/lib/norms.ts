@@ -31,6 +31,11 @@ export function getNormStatus(count: number, norm: Norm): NormStatus {
   return "idle";
 }
 
+/** Norm closed for the week — hit target or exceeded max (still disciplined). */
+export function isNormClosed(status: NormStatus): boolean {
+  return status === "done" || status === "over";
+}
+
 export function progressPercent(count: number, norm: Norm): number {
   const target = norm.min ?? norm.max ?? 1;
   return Math.min(100, Math.round((count / target) * 100));

@@ -1,6 +1,6 @@
 import { BUCKET_TARGETS, type Bucket } from "./buckets";
 import { likeRatePercent, repliesPer1k, replyRatePercent } from "./engagement";
-import { getNormStatus, NORMS, normLabel } from "./norms";
+import { getNormStatus, isNormClosed, NORMS, normLabel } from "./norms";
 import { allDisplayTypes, comboTraits, normTypes, SLOT_COMBOS } from "./traits";
 import type { ContentType, LogEntry, PostSlot } from "./types";
 import { CONTENT_TYPES } from "./types";
@@ -151,7 +151,7 @@ function weekDisciplineScore(weekCounts: Record<ContentType, number>): number {
   let score = 0;
   for (const type of CONTENT_TYPES) {
     const count = weekCounts[type] ?? 0;
-    if (getNormStatus(count, NORMS[type]) === "done") score += 1;
+    if (isNormClosed(getNormStatus(count, NORMS[type]))) score += 1;
   }
   return score;
 }
@@ -292,7 +292,7 @@ export function buildWeekAnalysis(
   const normGaps: NormGap[] = [];
   const doneTypes: ContentType[] = [];
   const overTypes: ContentType[] = [];
-  let disciplineScore = 0;
+  const disciplineScore = weekDisciplineScore(weekCounts);
 
   for (const type of CONTENT_TYPES) {
     const count = weekCounts[type] ?? 0;
@@ -300,10 +300,7 @@ export function buildWeekAnalysis(
     const status = getNormStatus(count, norm);
     const needed = normGapNeeded(type, count);
 
-    if (status === "done") {
-      doneTypes.push(type);
-      disciplineScore += 1;
-    }
+    if (status === "done") doneTypes.push(type);
     if (status === "over") overTypes.push(type);
     if (needed > 0 || (status === "progress" && norm.min != null)) {
       normGaps.push({
