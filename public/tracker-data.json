@@ -1,6 +1,6 @@
 {
-  "syncVersion": 271,
-  "updatedAt": "2026-07-14T14:15:05.000Z",
+  "syncVersion": 272,
+  "updatedAt": "2026-07-14T14:15:37.552Z",
   "logs": [
     {
       "id": "strategic-qt-meme-wale-holiday-ruined-jul14",
@@ -20,10 +20,10 @@
       "note": "QT @waleswoosh BTC pattern / 'we are so back' irony — chalk-noir 'thanks, wale' balloon-pop meme; 'ok, a little pump is enough / thanks, holiday ruined'.",
       "ageHours": 1,
       "views": 32,
-      "likes": 4,
+      "likes": 6,
       "replies": 1,
-      "updatedAt": "2026-07-14T14:15:05.000Z",
-      "syncedAt": "2026-07-14T14:15:05.000Z",
+      "updatedAt": "2026-07-14T14:15:37.552Z",
+      "syncedAt": "2026-07-14T14:15:37.552Z",
       "snapshots": [
         {
           "ageHours": 1,
@@ -1151,8 +1151,8 @@
       "likes": 40,
       "replies": 11,
       "note": "QT @madiweb3 apology - founders get cooked for rugs, friends get therapy-circle replies; principles get flexible when it is someone you like.",
-      "ageHours": 185,
-      "updatedAt": "2026-07-14T14:13:06.412Z",
+      "ageHours": 186,
+      "updatedAt": "2026-07-14T14:15:37.552Z",
       "snapshots": [
         {
           "ageHours": 113,
@@ -1190,7 +1190,7 @@
           "checkedAt": "2026-07-07T21:40:00.000Z"
         }
       ],
-      "syncedAt": "2026-07-14T14:13:06.412Z"
+      "syncedAt": "2026-07-14T14:15:37.552Z"
     },
     {
       "id": "hot-topic-ronaldo-forever-1000th-goal-jul6",
@@ -2140,7 +2140,7 @@
       "visualCluster": "text-only",
       "at": "2026-07-02T11:45:05.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2072647747883168101",
-      "ageHours": 290,
+      "ageHours": 291,
       "views": 173,
       "likes": 17,
       "replies": 4,
@@ -2210,8 +2210,8 @@
           "checkedAt": "2026-07-02T15:46:55.926Z"
         }
       ],
-      "updatedAt": "2026-07-14T14:13:06.412Z",
-      "syncedAt": "2026-07-14T14:13:06.412Z"
+      "updatedAt": "2026-07-14T14:15:37.552Z",
+      "syncedAt": "2026-07-14T14:15:37.552Z"
     },
     {
       "id": "meme-ronaldo-reach-playbook-jul2",
@@ -4262,9 +4262,9 @@
       "slot": 21,
       "bucket": "football",
       "at": "2026-06-23T13:45:00.000Z",
-      "updatedAt": "2026-07-14T14:13:06.412Z",
+      "updatedAt": "2026-07-14T14:15:37.552Z",
       "tweetUrl": "https://x.com/piselliii/status/2069461926807994462",
-      "ageHours": 504,
+      "ageHours": 505,
       "views": 907,
       "likes": 39,
       "replies": 13,
@@ -4313,7 +4313,7 @@
         }
       ],
       "note": "QT Deestar Ronaldo one job — fake 5-0 scorecard manifesting; Messi fans excluded punchline; Portugal vs Uzbekistan WC day",
-      "syncedAt": "2026-07-14T14:13:06.412Z",
+      "syncedAt": "2026-07-14T14:15:37.552Z",
       "visualCluster": "scorecard"
     },
     {
@@ -5310,9 +5310,9 @@
       "slot": 3,
       "bucket": "CT",
       "at": "2026-06-17T16:45:00.000Z",
-      "updatedAt": "2026-07-14T14:13:06.412Z",
+      "updatedAt": "2026-07-14T14:15:37.552Z",
       "tweetUrl": "https://x.com/piselliii/status/2067287441891832184",
-      "ageHours": 645,
+      "ageHours": 646,
       "views": 195,
       "likes": 12,
       "replies": 1,
@@ -5347,7 +5347,7 @@
         }
       ],
       "note": "Kaito influence wave on CT — hot topic only",
-      "syncedAt": "2026-07-14T14:13:06.412Z",
+      "syncedAt": "2026-07-14T14:15:37.552Z",
       "visualCluster": "text-only"
     },
     {
