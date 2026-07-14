@@ -1,7 +1,17 @@
 {
-  "syncVersion": 10,
-  "updatedAt": "2026-07-13T23:00:00.000Z",
+  "syncVersion": 11,
+  "updatedAt": "2026-07-14T14:10:06.000Z",
   "records": [
+    {
+      "id": "jr-20260714-wale-holiday",
+      "at": "2026-07-14T13:37:38.000Z",
+      "decision": "QT @waleswoosh BTC-pattern post with chalk-noir 'thanks, wale' meme — irony that wale posting = holiday ruined / top signal; punchline without lecture.",
+      "prediction": "3h: ≥3 replies OR ≥1 reply from a CT account with >5k followers; ≥150 views (visual meme QT, not text-only).",
+      "reviewAt": "2026-07-14T16:37:38.000Z",
+      "confidence": 60,
+      "status": "open",
+      "evidenceUrl": "https://x.com/piselliii/status/2077024726069690406"
+    },
     {
       "id": "jr-20260714-rh-wallets-sticky",
       "at": "2026-07-13T22:52:00.000Z",

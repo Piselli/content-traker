@@ -1,7 +1,39 @@
 {
-  "syncVersion": 270,
-  "updatedAt": "2026-07-14T14:13:06.412Z",
+  "syncVersion": 271,
+  "updatedAt": "2026-07-14T14:15:05.000Z",
   "logs": [
+    {
+      "id": "strategic-qt-meme-wale-holiday-ruined-jul14",
+      "type": "strategic QT",
+      "fullTypes": [
+        "strategic QT",
+        "meme"
+      ],
+      "traits": [
+        "provocative"
+      ],
+      "slot": 3,
+      "bucket": "CT",
+      "visualCluster": "meme",
+      "at": "2026-07-14T13:37:38.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2077024726069690406",
+      "note": "QT @waleswoosh BTC pattern / 'we are so back' irony — chalk-noir 'thanks, wale' balloon-pop meme; 'ok, a little pump is enough / thanks, holiday ruined'.",
+      "ageHours": 1,
+      "views": 32,
+      "likes": 4,
+      "replies": 1,
+      "updatedAt": "2026-07-14T14:15:05.000Z",
+      "syncedAt": "2026-07-14T14:15:05.000Z",
+      "snapshots": [
+        {
+          "ageHours": 1,
+          "views": 32,
+          "likes": 4,
+          "replies": 1,
+          "checkedAt": "2026-07-14T14:15:05.000Z"
+        }
+      ]
+    },
     {
       "id": "strategic-qt-robinhood-wallets-sticky-minh-jul14",
       "type": "strategic QT",
@@ -22,9 +54,23 @@
       "ageHours": 15,
       "likes": 16,
       "replies": 5,
-      "updatedAt": "2026-07-14T14:13:06.412Z",
-      "syncedAt": "2026-07-14T14:13:06.412Z",
+      "updatedAt": "2026-07-14T14:15:05.000Z",
+      "syncedAt": "2026-07-14T14:15:05.000Z",
       "snapshots": [
+        {
+          "ageHours": 15,
+          "views": 335,
+          "likes": 16,
+          "replies": 5,
+          "checkedAt": "2026-07-14T14:15:05.000Z"
+        },
+        {
+          "ageHours": 15,
+          "views": null,
+          "likes": 16,
+          "replies": 5,
+          "checkedAt": "2026-07-14T14:13:06.412Z"
+        },
         {
           "ageHours": 12,
           "likes": 12,
@@ -49,7 +95,8 @@
           "replies": 0,
           "checkedAt": "2026-07-14T00:01:42.099Z"
         }
-      ]
+      ],
+      "views": 335
     },
     {
       "id": "hot-topic-provocative-ascii-alpha-wasted-qt-jul13",
@@ -66,14 +113,28 @@
       "visualCluster": "collage",
       "at": "2026-07-13T17:21:58.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2076718793506586848",
-      "views": 281,
+      "views": 425,
       "likes": 22,
       "replies": 3,
       "note": "QT @ChampLottery ASCII Cats sniper thread — unlabeled 'alpha' callout; WASTED collage; sniper 13% / open admin 55k / phishing mint / DEV dump+relaunch; reply bait on #ad ethics. Replaced cold open (deleted, didn't take off).",
       "ageHours": 21,
-      "updatedAt": "2026-07-14T14:13:06.412Z",
-      "syncedAt": "2026-07-14T14:13:06.412Z",
+      "updatedAt": "2026-07-14T14:15:05.000Z",
+      "syncedAt": "2026-07-14T14:15:05.000Z",
       "snapshots": [
+        {
+          "ageHours": 21,
+          "views": 425,
+          "likes": 22,
+          "replies": 3,
+          "checkedAt": "2026-07-14T14:15:05.000Z"
+        },
+        {
+          "ageHours": 21,
+          "views": 281,
+          "likes": 22,
+          "replies": 3,
+          "checkedAt": "2026-07-14T14:13:06.412Z"
+        },
         {
           "ageHours": 18,
           "views": 281,
@@ -157,14 +218,28 @@
       "visualCluster": "collage",
       "at": "2026-07-13T08:42:11.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2076587985114374353",
-      "views": 336,
+      "views": 371,
       "likes": 19,
       "replies": 8,
       "note": "CASHDOG scam alert on Robinhood — legit ~$1.3M vs honeypot clone; verify CA, ignore honeypot banners; collage REAL vs SCAM charts. Replaced cold open (deleted tombstone 2076447153170297133).",
       "ageHours": 30,
-      "updatedAt": "2026-07-14T14:13:06.412Z",
-      "syncedAt": "2026-07-14T14:13:06.412Z",
+      "updatedAt": "2026-07-14T14:15:05.000Z",
+      "syncedAt": "2026-07-14T14:15:05.000Z",
       "snapshots": [
+        {
+          "ageHours": 30,
+          "views": 371,
+          "likes": 19,
+          "replies": 8,
+          "checkedAt": "2026-07-14T14:15:05.000Z"
+        },
+        {
+          "ageHours": 30,
+          "views": 336,
+          "likes": 19,
+          "replies": 8,
+          "checkedAt": "2026-07-14T14:13:06.412Z"
+        },
         {
           "ageHours": 26,
           "views": 336,
@@ -196,9 +271,23 @@
       "ageHours": 41,
       "likes": 18,
       "replies": 2,
-      "updatedAt": "2026-07-14T14:13:06.412Z",
-      "syncedAt": "2026-07-14T14:13:06.412Z",
+      "updatedAt": "2026-07-14T14:15:05.000Z",
+      "syncedAt": "2026-07-14T14:15:05.000Z",
       "snapshots": [
+        {
+          "ageHours": 41,
+          "views": 559,
+          "likes": 18,
+          "replies": 2,
+          "checkedAt": "2026-07-14T14:15:05.000Z"
+        },
+        {
+          "ageHours": 41,
+          "views": 517,
+          "likes": 18,
+          "replies": 2,
+          "checkedAt": "2026-07-14T14:13:06.412Z"
+        },
         {
           "ageHours": 27,
           "likes": 18,
@@ -248,7 +337,7 @@
           "checkedAt": "2026-07-12T21:15:00.000Z"
         }
       ],
-      "views": 517
+      "views": 559
     },
     {
       "id": "provocative-robinhood-tenev-illusion-onboarding-jul11",
@@ -270,9 +359,23 @@
       "ageHours": 62,
       "likes": 24,
       "replies": 6,
-      "updatedAt": "2026-07-14T14:13:06.412Z",
-      "syncedAt": "2026-07-14T14:13:06.412Z",
+      "updatedAt": "2026-07-14T14:15:05.000Z",
+      "syncedAt": "2026-07-14T14:15:05.000Z",
       "snapshots": [
+        {
+          "ageHours": 62,
+          "views": 892,
+          "likes": 24,
+          "replies": 6,
+          "checkedAt": "2026-07-14T14:15:05.000Z"
+        },
+        {
+          "ageHours": 62,
+          "views": 884,
+          "likes": 24,
+          "replies": 6,
+          "checkedAt": "2026-07-14T14:13:06.412Z"
+        },
         {
           "ageHours": 48,
           "likes": 24,
@@ -298,7 +401,7 @@
           "checkedAt": "2026-07-12T21:15:00.000Z"
         }
       ],
-      "views": 884
+      "views": 892
     },
     {
       "id": "hot-topic-exit-liquidity-loshmi-yeon-proof-jul11",
@@ -311,13 +414,27 @@
       "visualCluster": "text-only",
       "at": "2026-07-11T12:49:07.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2075925350802940008",
-      "views": 651,
+      "views": 657,
       "likes": 21,
       "replies": 6,
       "note": "Exit-liquidity follow-up — loshmi -$400 vs @yeonwoo1102 CASHDOG +970%; same 4 rules proven in practice.",
       "ageHours": 73,
-      "updatedAt": "2026-07-14T14:13:06.412Z",
+      "updatedAt": "2026-07-14T14:15:05.000Z",
       "snapshots": [
+        {
+          "ageHours": 73,
+          "views": 657,
+          "likes": 21,
+          "replies": 6,
+          "checkedAt": "2026-07-14T14:15:05.000Z"
+        },
+        {
+          "ageHours": 73,
+          "views": 651,
+          "likes": 21,
+          "replies": 6,
+          "checkedAt": "2026-07-14T14:13:06.412Z"
+        },
         {
           "ageHours": 59,
           "views": 19,
@@ -368,7 +485,7 @@
           "checkedAt": "2026-07-11T18:32:00.000Z"
         }
       ],
-      "syncedAt": "2026-07-14T14:13:06.412Z"
+      "syncedAt": "2026-07-14T14:15:05.000Z"
     },
     {
       "id": "useful-exit-liquidity-yeon-4-rules-cashcat-jul10",
@@ -382,13 +499,27 @@
       "visualCluster": "screenshot",
       "at": "2026-07-10T13:18:02.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2075570242370015679",
-      "views": 924,
+      "views": 935,
       "likes": 34,
       "replies": 11,
       "note": "4-rule framework from Yeon/CASHCAT at 40k mcap — catalyst, lore, s-tier KOL narrative, meme already alive; ends on Robinhood final-stop question.",
       "ageHours": 97,
-      "updatedAt": "2026-07-14T14:13:06.412Z",
+      "updatedAt": "2026-07-14T14:15:05.000Z",
       "snapshots": [
+        {
+          "ageHours": 97,
+          "views": 935,
+          "likes": 34,
+          "replies": 11,
+          "checkedAt": "2026-07-14T14:15:05.000Z"
+        },
+        {
+          "ageHours": 97,
+          "views": 924,
+          "likes": 34,
+          "replies": 11,
+          "checkedAt": "2026-07-14T14:13:06.412Z"
+        },
         {
           "ageHours": 83,
           "views": 192,
@@ -418,7 +549,7 @@
           "checkedAt": "2026-07-11T18:32:00.000Z"
         }
       ],
-      "syncedAt": "2026-07-14T14:13:06.412Z"
+      "syncedAt": "2026-07-14T14:15:05.000Z"
     },
     {
       "id": "bait-morocco-france-million-vs-thousand-jul9",
