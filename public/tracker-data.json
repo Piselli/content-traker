@@ -1,7 +1,35 @@
 {
-  "syncVersion": 272,
-  "updatedAt": "2026-07-14T14:15:37.552Z",
+  "syncVersion": 273,
+  "updatedAt": "2026-07-14T16:22:25.153Z",
   "logs": [
+    {
+      "id": "hot-topic-btc-cpi-poi-61k-jul14",
+      "type": "hot topic",
+      "traits": [
+        "bait",
+        "provocative"
+      ],
+      "slot": 2,
+      "bucket": "CT",
+      "visualCluster": "chart",
+      "at": "2026-07-14T15:57:08.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2077059831324647833",
+      "note": "EN chart take: soft CPI (3.5% vs 3.8%, MoM -0.4%) = relief pump into POI / weekly range top; fade back, first target ~61k. Hook on @waleswoosh 'we are back' blame + reply bait.",
+      "ageHours": 0,
+      "views": 38,
+      "likes": 5,
+      "replies": 1,
+      "updatedAt": "2026-07-14T16:22:25.153Z",
+      "snapshots": [
+        {
+          "ageHours": 0,
+          "views": 38,
+          "likes": 5,
+          "replies": 1,
+          "checkedAt": "2026-07-14T16:22:25.153Z"
+        }
+      ]
+    },
     {
       "id": "strategic-qt-meme-wale-holiday-ruined-jul14",
       "type": "strategic QT",

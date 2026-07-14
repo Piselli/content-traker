@@ -1,7 +1,17 @@
 {
-  "syncVersion": 11,
-  "updatedAt": "2026-07-14T14:10:06.000Z",
+  "syncVersion": 12,
+  "updatedAt": "2026-07-14T16:22:25.153Z",
   "records": [
+    {
+      "id": "jr-20260714-btc-cpi-poi-61k",
+      "at": "2026-07-14T15:57:08.000Z",
+      "decision": "Post EN BTC chart take: soft CPI relief pump delivered into POI / weekly range top; fade thesis first target ~61k; Wale 'we are back' hook + reply bait.",
+      "prediction": "By 2026-07-21: BTC revisits ≤61.5k at least once, without first printing a daily close above 65.5k.",
+      "reviewAt": "2026-07-21T15:57:08.000Z",
+      "confidence": 60,
+      "status": "open",
+      "evidenceUrl": "https://x.com/piselliii/status/2077059831324647833"
+    },
     {
       "id": "jr-20260714-wale-holiday",
       "at": "2026-07-14T13:37:38.000Z",
