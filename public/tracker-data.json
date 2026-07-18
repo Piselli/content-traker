@@ -1,6 +1,6 @@
 {
-  "syncVersion": 309,
-  "updatedAt": "2026-07-18T06:48:31Z",
+  "syncVersion": 310,
+  "updatedAt": "2026-07-18T06:48:44.664Z",
   "logs": [
     {
       "id": "meme-hot-topic-tenev-why-not-both-jul18",
@@ -21,9 +21,9 @@
       "views": 23,
       "likes": 2,
       "replies": 1,
-      "ageHours": 0,
-      "updatedAt": "2026-07-18T06:37:10Z",
-      "syncedAt": "2026-07-18T06:37:10Z",
+      "ageHours": 1,
+      "updatedAt": "2026-07-18T06:48:44.664Z",
+      "syncedAt": "2026-07-18T06:48:44.664Z",
       "snapshots": [
         {
           "ageHours": 0,
@@ -1181,8 +1181,8 @@
       "likes": 34,
       "replies": 11,
       "note": "4-rule framework from Yeon/CASHCAT at 40k mcap — catalyst, lore, s-tier KOL narrative, meme already alive; ends on Robinhood final-stop question.",
-      "ageHours": 185,
-      "updatedAt": "2026-07-18T06:41:11.510Z",
+      "ageHours": 186,
+      "updatedAt": "2026-07-18T06:48:44.664Z",
       "snapshots": [
         {
           "ageHours": 97,
@@ -1227,7 +1227,7 @@
           "checkedAt": "2026-07-11T18:32:00.000Z"
         }
       ],
-      "syncedAt": "2026-07-18T06:41:11.510Z"
+      "syncedAt": "2026-07-18T06:48:44.664Z"
     },
     {
       "id": "bait-morocco-france-million-vs-thousand-jul9",
