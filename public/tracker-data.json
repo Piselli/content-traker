@@ -1,6 +1,6 @@
 {
-  "syncVersion": 305,
-  "updatedAt": "2026-07-18T06:45:26Z",
+  "syncVersion": 306,
+  "updatedAt": "2026-07-18T06:45:39.351Z",
   "logs": [
     {
       "id": "meme-hot-topic-tenev-why-not-both-jul18",
@@ -53,9 +53,9 @@
       "views": 265,
       "likes": 13,
       "replies": 2,
-      "ageHours": 11,
-      "updatedAt": "2026-07-18T06:41:11.510Z",
-      "syncedAt": "2026-07-18T06:41:11.510Z",
+      "ageHours": 12,
+      "updatedAt": "2026-07-18T06:45:39.351Z",
+      "syncedAt": "2026-07-18T06:45:39.351Z",
       "snapshots": [
         {
           "ageHours": 11,
@@ -937,11 +937,11 @@
       "at": "2026-07-12T21:13:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2076414547787743380",
       "note": "Reply-bait — Chalk Noir alpha-call vs pump+exit panels; invites criteria in comments, not a verdict.",
-      "ageHours": 129,
+      "ageHours": 130,
       "likes": 18,
       "replies": 2,
-      "updatedAt": "2026-07-18T06:41:11.510Z",
-      "syncedAt": "2026-07-18T06:41:11.510Z",
+      "updatedAt": "2026-07-18T06:45:39.351Z",
+      "syncedAt": "2026-07-18T06:45:39.351Z",
       "snapshots": [
         {
           "ageHours": 68,
@@ -1291,8 +1291,8 @@
       "likes": 25,
       "replies": 4,
       "note": "QF MoveMatch squad locked without Messi — Mbappe/Haaland/Kane; QT @MoveMatchxyz 0% fees round.",
-      "ageHours": 208,
-      "updatedAt": "2026-07-18T06:41:11.510Z",
+      "ageHours": 209,
+      "updatedAt": "2026-07-18T06:45:39.351Z",
       "snapshots": [
         {
           "ageHours": 56,
@@ -1309,7 +1309,7 @@
           "checkedAt": "2026-07-11T18:32:00.000Z"
         }
       ],
-      "syncedAt": "2026-07-18T06:41:11.510Z"
+      "syncedAt": "2026-07-18T06:45:39.351Z"
     },
     {
       "id": "bait-content-theft-bandosei-wasted-jul8",
@@ -5138,9 +5138,9 @@
       "slot": 18,
       "bucket": "CT",
       "at": "2026-06-22T14:15:00.000Z",
-      "updatedAt": "2026-07-18T06:41:11.510Z",
+      "updatedAt": "2026-07-18T06:45:39.351Z",
       "tweetUrl": "https://x.com/piselliii/status/2069107016178467222",
-      "ageHours": 616,
+      "ageHours": 617,
       "views": 119,
       "likes": 11,
       "replies": 2,
@@ -5189,7 +5189,7 @@
         }
       ],
       "note": "QT Jeremybtc notification-as-impression theory — contrarian: algo boost on alerts is logical; mid-account mutual circle flatline; Nikita W or L?",
-      "syncedAt": "2026-07-18T06:41:11.510Z",
+      "syncedAt": "2026-07-18T06:45:39.351Z",
       "visualCluster": "text-only"
     },
     {
@@ -5581,9 +5581,9 @@
       "slot": 10,
       "bucket": "CT",
       "at": "2026-06-19T19:13:00.000Z",
-      "updatedAt": "2026-07-18T06:41:11.510Z",
+      "updatedAt": "2026-07-18T06:45:39.351Z",
       "tweetUrl": "https://x.com/piselliii/status/2068049512992854458",
-      "ageHours": 683,
+      "ageHours": 684,
       "views": 417,
       "likes": 34,
       "replies": 10,
@@ -5639,7 +5639,7 @@
         }
       ],
       "note": "bear market × PM meta essay + Homelander clip (Wen POLY / we're back); casino relocated funnel didn't",
-      "syncedAt": "2026-07-18T06:41:11.510Z",
+      "syncedAt": "2026-07-18T06:45:39.351Z",
       "visualCluster": "meme"
     },
     {
