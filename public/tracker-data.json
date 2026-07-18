@@ -1,6 +1,6 @@
 {
-  "syncVersion": 310,
-  "updatedAt": "2026-07-18T06:48:44.664Z",
+  "syncVersion": 311,
+  "updatedAt": "2026-07-18T07:09:22Z",
   "logs": [
     {
       "id": "meme-hot-topic-tenev-why-not-both-jul18",
@@ -153,8 +153,9 @@
     },
     {
       "id": "bait-meme-who-runs-account-selfie-jul16",
-      "type": "bait",
+      "type": "strategic QT",
       "traits": [
+        "bait",
         "meta reach"
       ],
       "slot": 2,
@@ -162,12 +163,12 @@
       "visualCluster": "screenshot",
       "at": "2026-07-16T14:07:58.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2077757135945904146",
-      "note": "EN bait: QT @eeelistar 'this is who runs this account' — selfie reply bait 'show me your photo'; engagement chain.",
+      "note": "EN strategic QT: QT @eeelistar 'this is who runs this account' — selfie reply bait 'show me your photo'; engagement chain.",
       "views": 1139,
       "likes": 36,
       "replies": 11,
       "ageHours": 41,
-      "updatedAt": "2026-07-18T06:47:25Z",
+      "updatedAt": "2026-07-18T07:09:22Z",
       "syncedAt": "2026-07-18T06:41:11.510Z",
       "snapshots": [
         {
@@ -258,22 +259,22 @@
       "type": "meme",
       "fullTypes": [
         "meme",
-        "provocative"
+        "bait"
       ],
       "traits": [
-        "bait"
+        "provocative"
       ],
       "slot": 3,
       "bucket": "football",
       "visualCluster": "meme",
       "at": "2026-07-15T19:52:52.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2077481544466239994",
-      "note": "EN meme+provocative: ENG–ARG HT sub OFF Elfath / ON Infantino — 'yellow cards don’t apply to Argentina'; AI sub-scene meme.",
+      "note": "EN meme+bait: ENG–ARG HT sub OFF Elfath / ON Infantino — 'yellow cards don’t apply to Argentina'; AI sub-scene.",
       "views": 437,
       "likes": 21,
       "replies": 5,
       "ageHours": 59,
-      "updatedAt": "2026-07-18T06:37:10Z",
+      "updatedAt": "2026-07-18T07:09:22Z",
       "syncedAt": "2026-07-18T06:37:10Z",
       "snapshots": [
         {
@@ -315,18 +316,18 @@
     },
     {
       "id": "bait-meme-ct-leaders-anime-kun-jul15",
-      "type": "bait",
+      "type": "provocative",
       "slot": 3,
       "bucket": "CT",
       "visualCluster": "collage",
       "at": "2026-07-15T16:48:43.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2077435201488032036",
-      "note": "EN bait: 'any typical CT post like underrated accounts / creators / future CT leaders / new KOLs' — anime-kun CT leaders collage; reply bait on CT list tropes.",
+      "note": "EN provocative+bait: 'any typical CT post like underrated accounts / creators / future CT leaders / new KOLs' — anime-kun CT leaders collage; reply bait on CT list tropes.",
       "views": 213,
       "likes": 23,
       "replies": 2,
       "ageHours": 62,
-      "updatedAt": "2026-07-18T06:47:25Z",
+      "updatedAt": "2026-07-18T07:09:22Z",
       "snapshots": [
         {
           "ageHours": 42,
@@ -357,26 +358,26 @@
           "checkedAt": "2026-07-15T17:10:52Z"
         }
       ],
-      "syncedAt": "2026-07-18T06:41:11.510Z"
+      "syncedAt": "2026-07-18T06:41:11.510Z",
+      "fullTypes": [
+        "provocative",
+        "bait"
+      ]
     },
     {
       "id": "provocative-bait-argentina-hate-dossier-jul15",
       "type": "provocative",
-      "fullTypes": [
-        "provocative",
-        "bait"
-      ],
       "slot": 2,
       "bucket": "football",
       "visualCluster": "collage",
       "at": "2026-07-15T13:41:48.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2077388161395589180",
-      "note": "EN carousel hate-dossier: OF vs Argentina fan hook; VAR Against 0.0 outlier; Infantino DSports slip «heart tonight»→neutral; Molina AFA–FIFA probe. 4×1:1 collage slides.",
+      "note": "EN provocative+bait-trait: carousel hate-dossier: OF vs Argentina fan hook; VAR Against 0.0 outlier; Infantino DSports slip; Molina AFA–FIFA probe. 4×1:1 collage slides.",
       "views": 673,
       "likes": 21,
       "replies": 1,
       "ageHours": 65,
-      "updatedAt": "2026-07-18T06:41:11.510Z",
+      "updatedAt": "2026-07-18T07:09:22Z",
       "snapshots": [
         {
           "ageHours": 45,
@@ -400,15 +401,14 @@
           "checkedAt": "2026-07-15T17:10:52Z"
         }
       ],
-      "syncedAt": "2026-07-18T06:41:11.510Z"
+      "syncedAt": "2026-07-18T06:41:11.510Z",
+      "traits": [
+        "bait"
+      ]
     },
     {
       "id": "hot-topic-bait-deeddit-polymarket-france-spain-jul14",
       "type": "hot topic",
-      "fullTypes": [
-        "hot topic",
-        "bait"
-      ],
       "traits": [
         "strategic QT",
         "provocative"
@@ -418,12 +418,12 @@
       "visualCluster": "screenshot",
       "at": "2026-07-14T19:45:01.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2077117181330964709",
-      "note": "QT DEEDDIT $10.9M Polymarket France/Spain — 'time machine or Next mode'; minutes before Spain penalty; reply bait explain-this.",
+      "note": "QT DEEDDIT $10.9M Polymarket France/Spain — 'time machine or Next mode'; minutes before Spain penalty.",
       "views": 478,
       "likes": 24,
       "replies": 7,
       "ageHours": 83,
-      "updatedAt": "2026-07-18T06:41:11.510Z",
+      "updatedAt": "2026-07-18T07:09:22Z",
       "snapshots": [
         {
           "ageHours": 63,
@@ -550,10 +550,6 @@
     {
       "id": "strategic-qt-meme-wale-holiday-ruined-jul14",
       "type": "strategic QT",
-      "fullTypes": [
-        "strategic QT",
-        "meme"
-      ],
       "traits": [
         "provocative"
       ],
@@ -562,12 +558,12 @@
       "visualCluster": "meme",
       "at": "2026-07-14T13:37:38.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2077024726069690406",
-      "note": "QT @waleswoosh BTC pattern / 'we are so back' irony — chalk-noir 'thanks, wale' balloon-pop meme; 'ok, a little pump is enough / thanks, holiday ruined'.",
+      "note": "QT @waleswoosh BTC pattern / 'we are so back' irony — chalk-noir 'thanks, wale' balloon-pop; 'ok, a little pump is enough / thanks, holiday ruined'.",
       "ageHours": 89,
       "views": 233,
       "likes": 17,
       "replies": 1,
-      "updatedAt": "2026-07-18T06:41:11.510Z",
+      "updatedAt": "2026-07-18T07:09:22Z",
       "syncedAt": "2026-07-18T06:41:11.510Z",
       "snapshots": [
         {
