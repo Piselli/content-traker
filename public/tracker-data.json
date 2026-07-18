@@ -1,6 +1,6 @@
 {
-  "syncVersion": 304,
-  "updatedAt": "2026-07-18T06:41:11.510Z",
+  "syncVersion": 305,
+  "updatedAt": "2026-07-18T06:45:26Z",
   "logs": [
     {
       "id": "meme-hot-topic-tenev-why-not-both-jul18",
@@ -69,10 +69,6 @@
     {
       "id": "bait-meme-paid-subs-trader-qt-jul17",
       "type": "bait",
-      "fullTypes": [
-        "bait",
-        "meme"
-      ],
       "traits": [
         "hot topic"
       ],
@@ -81,12 +77,12 @@
       "visualCluster": "chart",
       "at": "2026-07-17T15:53:28.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2078146074116600298",
-      "note": "EN bait+meme: self-QT CPI/61k chart — 'hey @X, urgently need paid subscribers / might be a pretty good trader'; ironic flex progress check.",
+      "note": "EN bait: self-QT CPI/61k chart — 'hey @X, urgently need paid subscribers / might be a pretty good trader'; ironic flex progress check.",
       "views": 152,
       "likes": 9,
       "replies": 1,
       "ageHours": 15,
-      "updatedAt": "2026-07-18T06:37:10Z",
+      "updatedAt": "2026-07-18T06:45:26Z",
       "syncedAt": "2026-07-18T06:37:10Z",
       "snapshots": [
         {
