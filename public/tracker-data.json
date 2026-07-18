@@ -1,7 +1,192 @@
 {
-  "syncVersion": 302,
-  "updatedAt": "2026-07-18T03:30:24.422Z",
+  "syncVersion": 303,
+  "updatedAt": "2026-07-18T06:37:10Z",
   "logs": [
+    {
+      "id": "meme-hot-topic-tenev-why-not-both-jul18",
+      "type": "meme",
+      "fullTypes": [
+        "meme",
+        "hot topic"
+      ],
+      "traits": [
+        "provocative"
+      ],
+      "slot": 1,
+      "bucket": "CT",
+      "visualCluster": "meme",
+      "at": "2026-07-18T06:17:50.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2078363596157768143",
+      "note": "EN meme+hot-topic: QT Tenev 'why not both?' — RWA↔memes flip timeline (Jul 2/8/16/18); Durov two-chairs edit with Tenev grabbing both.",
+      "views": 23,
+      "likes": 2,
+      "replies": 1,
+      "ageHours": 0,
+      "updatedAt": "2026-07-18T06:37:10Z",
+      "syncedAt": "2026-07-18T06:37:10Z",
+      "snapshots": [
+        {
+          "ageHours": 0,
+          "views": 23,
+          "likes": 2,
+          "replies": 1,
+          "checkedAt": "2026-07-18T06:34:36Z"
+        }
+      ]
+    },
+    {
+      "id": "bait-meme-real-ct-checklist-jul17",
+      "type": "bait",
+      "fullTypes": [
+        "bait",
+        "meme"
+      ],
+      "traits": [
+        "provocative"
+      ],
+      "slot": 3,
+      "bucket": "CT",
+      "visualCluster": "screenshot",
+      "at": "2026-07-17T19:13:20.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2078196372096860308",
+      "note": "EN bait+meme: 'you're not real CT until you've' checklist (true story / crop 9 L / opposite theses / called a rug) + 'what else?'; anonymized true-story screenshot.",
+      "views": 265,
+      "likes": 12,
+      "replies": 2,
+      "ageHours": 11,
+      "updatedAt": "2026-07-18T06:37:10Z",
+      "syncedAt": "2026-07-18T06:37:10Z",
+      "snapshots": [
+        {
+          "ageHours": 11,
+          "views": 265,
+          "likes": 12,
+          "replies": 2,
+          "checkedAt": "2026-07-18T06:34:36Z"
+        }
+      ]
+    },
+    {
+      "id": "bait-meme-paid-subs-trader-qt-jul17",
+      "type": "bait",
+      "fullTypes": [
+        "bait",
+        "meme"
+      ],
+      "traits": [
+        "hot topic"
+      ],
+      "slot": 3,
+      "bucket": "CT",
+      "visualCluster": "chart",
+      "at": "2026-07-17T15:53:28.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2078146074116600298",
+      "note": "EN bait+meme: self-QT CPI/61k chart — 'hey @X, urgently need paid subscribers / might be a pretty good trader'; ironic flex progress check.",
+      "views": 152,
+      "likes": 9,
+      "replies": 1,
+      "ageHours": 15,
+      "updatedAt": "2026-07-18T06:37:10Z",
+      "syncedAt": "2026-07-18T06:37:10Z",
+      "snapshots": [
+        {
+          "ageHours": 15,
+          "views": 152,
+          "likes": 9,
+          "replies": 1,
+          "checkedAt": "2026-07-18T06:34:36Z"
+        }
+      ]
+    },
+    {
+      "id": "meme-provocative-cashcat-hamster-jul17",
+      "type": "meme",
+      "fullTypes": [
+        "meme",
+        "provocative"
+      ],
+      "traits": [
+        "bait"
+      ],
+      "slot": 2,
+      "bucket": "CT",
+      "visualCluster": "meme",
+      "at": "2026-07-17T11:21:09.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2078077543488340404",
+      "note": "EN meme+provocative+bait: $CASHCAT post-Jul11 buyers — 'how much from Hamster Kombat airdrop?'; same late-hype cage gag; chalk-noir pepe cage visual.",
+      "views": 159,
+      "likes": 18,
+      "replies": 4,
+      "ageHours": 19,
+      "updatedAt": "2026-07-18T06:37:10Z",
+      "syncedAt": "2026-07-18T06:37:10Z",
+      "snapshots": [
+        {
+          "ageHours": 19,
+          "views": 159,
+          "likes": 18,
+          "replies": 4,
+          "checkedAt": "2026-07-18T06:34:36Z"
+        }
+      ]
+    },
+    {
+      "id": "builder-movematch-stableyard-onboarding-jul16",
+      "type": "builder",
+      "slot": 3,
+      "bucket": "football",
+      "visualCluster": "screenshot",
+      "at": "2026-07-16T20:29:28.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2077853142696280112",
+      "note": "EN builder: MoveMatch onboarding gap (CT not on Movement / bridge friction) → Stableyard cross-chain fund at signup (USDCx ~30s +2 MOVE gas); QT @MoveMatchxyz + thanks @Stableyard @miteshmetha.",
+      "views": 408,
+      "likes": 31,
+      "replies": 8,
+      "ageHours": 34,
+      "updatedAt": "2026-07-18T06:37:10Z",
+      "syncedAt": "2026-07-18T06:37:10Z",
+      "snapshots": [
+        {
+          "ageHours": 34,
+          "views": 408,
+          "likes": 31,
+          "replies": 8,
+          "checkedAt": "2026-07-18T06:34:36Z"
+        }
+      ]
+    },
+    {
+      "id": "bait-meme-who-runs-account-selfie-jul16",
+      "type": "bait",
+      "fullTypes": [
+        "bait",
+        "meme"
+      ],
+      "traits": [
+        "meta reach"
+      ],
+      "slot": 2,
+      "bucket": "CT",
+      "visualCluster": "meme",
+      "at": "2026-07-16T14:07:58.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2077757135945904146",
+      "note": "EN bait+meme: QT @eeelistar 'this is who runs this account' — selfie reply bait 'show me your photo'; engagement chain.",
+      "views": 1139,
+      "likes": 36,
+      "replies": 11,
+      "ageHours": 40,
+      "updatedAt": "2026-07-18T06:37:10Z",
+      "syncedAt": "2026-07-18T06:37:10Z",
+      "snapshots": [
+        {
+          "ageHours": 40,
+          "views": 1139,
+          "likes": 36,
+          "replies": 11,
+          "checkedAt": "2026-07-18T06:34:36Z"
+        }
+      ]
+    },
     {
       "id": "hot-topic-bait-messi-coma-ballon-dor-jul16",
       "type": "hot topic",
@@ -18,13 +203,20 @@
       "at": "2026-07-16T10:32:09.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2077702822884253827",
       "note": "EN hot-topic+bait: 12-year coma parallel (ARG still WC final / Messi still Polymarket Bd'Or fav / England still shit) — 'does he deserve it?'; Polymarket Ballon d'Or chart.",
-      "views": 72,
+      "views": 276,
       "likes": 22,
       "replies": 4,
-      "ageHours": 41,
-      "updatedAt": "2026-07-18T03:30:24.422Z",
-      "syncedAt": "2026-07-18T03:30:24.422Z",
+      "ageHours": 44,
+      "updatedAt": "2026-07-18T06:37:10Z",
+      "syncedAt": "2026-07-18T06:37:10Z",
       "snapshots": [
+        {
+          "ageHours": 44,
+          "views": 276,
+          "likes": 22,
+          "replies": 4,
+          "checkedAt": "2026-07-18T06:34:36Z"
+        },
         {
           "ageHours": 24,
           "views": 72,
@@ -85,13 +277,20 @@
       "at": "2026-07-15T19:52:52.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2077481544466239994",
       "note": "EN meme+provocative: ENG–ARG HT sub OFF Elfath / ON Infantino — 'yellow cards don’t apply to Argentina'; AI sub-scene meme.",
-      "views": 361,
+      "views": 437,
       "likes": 21,
       "replies": 5,
-      "ageHours": 56,
-      "updatedAt": "2026-07-18T03:30:24.422Z",
-      "syncedAt": "2026-07-18T03:30:24.422Z",
+      "ageHours": 59,
+      "updatedAt": "2026-07-18T06:37:10Z",
+      "syncedAt": "2026-07-18T06:37:10Z",
       "snapshots": [
+        {
+          "ageHours": 59,
+          "views": 437,
+          "likes": 21,
+          "replies": 5,
+          "checkedAt": "2026-07-18T06:34:36Z"
+        },
         {
           "ageHours": 39,
           "views": 361,
