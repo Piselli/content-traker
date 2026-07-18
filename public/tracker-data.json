@@ -1,6 +1,6 @@
 {
-  "syncVersion": 306,
-  "updatedAt": "2026-07-18T06:45:39.351Z",
+  "syncVersion": 307,
+  "updatedAt": "2026-07-18T06:47:25Z",
   "logs": [
     {
       "id": "meme-hot-topic-tenev-why-not-both-jul18",
@@ -154,24 +154,20 @@
     {
       "id": "bait-meme-who-runs-account-selfie-jul16",
       "type": "bait",
-      "fullTypes": [
-        "bait",
-        "meme"
-      ],
       "traits": [
         "meta reach"
       ],
       "slot": 2,
       "bucket": "CT",
-      "visualCluster": "meme",
+      "visualCluster": "screenshot",
       "at": "2026-07-16T14:07:58.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2077757135945904146",
-      "note": "EN bait+meme: QT @eeelistar 'this is who runs this account' — selfie reply bait 'show me your photo'; engagement chain.",
+      "note": "EN bait: QT @eeelistar 'this is who runs this account' — selfie reply bait 'show me your photo'; engagement chain.",
       "views": 1139,
       "likes": 36,
       "replies": 11,
       "ageHours": 41,
-      "updatedAt": "2026-07-18T06:41:11.510Z",
+      "updatedAt": "2026-07-18T06:47:25Z",
       "syncedAt": "2026-07-18T06:41:11.510Z",
       "snapshots": [
         {
@@ -320,21 +316,17 @@
     {
       "id": "bait-meme-ct-leaders-anime-kun-jul15",
       "type": "bait",
-      "fullTypes": [
-        "bait",
-        "meme"
-      ],
       "slot": 3,
       "bucket": "CT",
       "visualCluster": "collage",
       "at": "2026-07-15T16:48:43.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2077435201488032036",
-      "note": "EN bait+meme: 'any typical CT post like underrated accounts / creators / future CT leaders / new KOLs' — anime-kun CT leaders collage; reply bait on CT list tropes.",
+      "note": "EN bait: 'any typical CT post like underrated accounts / creators / future CT leaders / new KOLs' — anime-kun CT leaders collage; reply bait on CT list tropes.",
       "views": 213,
       "likes": 23,
       "replies": 2,
       "ageHours": 62,
-      "updatedAt": "2026-07-18T06:41:11.510Z",
+      "updatedAt": "2026-07-18T06:47:25Z",
       "snapshots": [
         {
           "ageHours": 42,
