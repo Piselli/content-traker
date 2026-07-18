@@ -1,6 +1,6 @@
 {
-  "syncVersion": 307,
-  "updatedAt": "2026-07-18T06:47:25Z",
+  "syncVersion": 308,
+  "updatedAt": "2026-07-18T06:47:37.956Z",
   "logs": [
     {
       "id": "meme-hot-topic-tenev-why-not-both-jul18",
@@ -4876,9 +4876,9 @@
       "slot": 22,
       "bucket": "football",
       "at": "2026-06-23T15:17:00.000Z",
-      "updatedAt": "2026-07-18T06:41:11.510Z",
+      "updatedAt": "2026-07-18T06:47:37.956Z",
       "tweetUrl": "https://x.com/piselliii/status/2069485060080718193",
-      "ageHours": 591,
+      "ageHours": 592,
       "views": 356,
       "likes": 25,
       "replies": 8,
@@ -4927,7 +4927,7 @@
         }
       ],
       "note": "QT Loshmi Ronaldo apology — never-doubted contrarian; CWC fantasy lineup 84pts (Júnior C, Mbappé 15); cheering squad vs sweating PM; lineup + Ronaldo goals-left bait",
-      "syncedAt": "2026-07-18T06:41:11.510Z",
+      "syncedAt": "2026-07-18T06:47:37.956Z",
       "visualCluster": "screenshot"
     },
     {
@@ -6091,9 +6091,9 @@
       "slot": 1,
       "bucket": "CT",
       "at": "2026-06-17T10:17:00.000Z",
-      "updatedAt": "2026-07-18T06:41:11.510Z",
+      "updatedAt": "2026-07-18T06:47:37.956Z",
       "tweetUrl": "https://x.com/piselliii/status/2067189878350049777",
-      "ageHours": 740,
+      "ageHours": 741,
       "views": 242,
       "likes": 17,
       "replies": 6,
@@ -6128,7 +6128,7 @@
         }
       ],
       "note": "gambling meta discourse on CT — take on the moment, delivered as pick-one poll",
-      "syncedAt": "2026-07-18T06:41:11.510Z",
+      "syncedAt": "2026-07-18T06:47:37.956Z",
       "visualCluster": "text-only"
     }
   ],
