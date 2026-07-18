@@ -1,6 +1,6 @@
 {
-  "syncVersion": 308,
-  "updatedAt": "2026-07-18T06:47:37.956Z",
+  "syncVersion": 309,
+  "updatedAt": "2026-07-18T06:48:31Z",
   "logs": [
     {
       "id": "meme-hot-topic-tenev-why-not-both-jul18",
@@ -451,18 +451,18 @@
     },
     {
       "id": "hot-topic-btc-cpi-poi-61k-jul14",
-      "type": "hot topic",
+      "type": "useful",
       "slot": 2,
       "bucket": "CT",
       "visualCluster": "chart",
       "at": "2026-07-14T15:57:08.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2077059831324647833",
-      "note": "EN chart take: soft CPI (3.5% vs 3.8%, MoM -0.4%) = relief pump into POI / weekly range top; fade back, first target ~61k. Hook on @waleswoosh 'we are back' blame + reply bait.",
+      "note": "EN useful+hot-topic: soft CPI (3.5% vs 3.8%, MoM -0.4%) = relief pump into POI / weekly range top; fade back, first target ~61k. Hook on @waleswoosh 'we are back' blame + reply bait.",
       "ageHours": 87,
       "views": 232,
       "likes": 20,
       "replies": 4,
-      "updatedAt": "2026-07-18T06:41:11.510Z",
+      "updatedAt": "2026-07-18T06:48:31Z",
       "snapshots": [
         {
           "ageHours": 44,
@@ -542,7 +542,10 @@
           "checkedAt": "2026-07-15T16:44:41.938Z"
         }
       ],
-      "syncedAt": "2026-07-18T06:41:11.510Z"
+      "syncedAt": "2026-07-18T06:41:11.510Z",
+      "traits": [
+        "hot topic"
+      ]
     },
     {
       "id": "strategic-qt-meme-wale-holiday-ruined-jul14",
