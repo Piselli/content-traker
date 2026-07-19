@@ -38,7 +38,8 @@ export function ActivityHeatmap({ logs, type }: ActivityHeatmapProps) {
   }
 
   const cells: { key: string; count: number }[] = [];
-  for (let i = WEEKS * 7 - 1; i >= 0; i--) {
+  // Left → right: today first, then older days (reads LTR from "now").
+  for (let i = 0; i < WEEKS * 7; i++) {
     const d = new Date(
       Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() - i),
     );
