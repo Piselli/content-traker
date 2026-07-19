@@ -1,6 +1,6 @@
 {
-  "syncVersion": 331,
-  "updatedAt": "2026-07-19T23:16:09.761Z",
+  "syncVersion": 332,
+  "updatedAt": "2026-07-19T23:26:27.878Z",
   "logs": [
     {
       "id": "hot-topic-spain-gracias-wc-champions-jul19",
@@ -88,25 +88,18 @@
       ]
     },
     {
-      "id": "bait-meme-ct-nine-sins-jul19",
-      "type": "bait",
-      "fullTypes": [
-        "bait",
-        "meme"
-      ],
-      "traits": [
-        "provocative"
-      ],
+      "id": "useful-ct-nine-sins-jul19",
+      "type": "useful",
       "slot": 1,
       "bucket": "CT",
       "visualCluster": "collage",
       "at": "2026-07-19T15:02:27.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2078858008503710185",
-      "note": "EN bait+meme: 9 CT sins character grid (Yes Man/Belfort/Gríma/Pinocchio/Two-Face/Zuck/Ursula/Wormtail/Goodfellas) — dealbreaker vs live-with for interaction.",
+      "note": "EN useful: 9 CT sins character grid (Yes Man/Belfort/Gríma/Pinocchio/Two-Face/Zuck/Ursula/Wormtail/Goodfellas) — dealbreaker vs live-with taxonomy, not bait/meme.",
       "likes": 19,
       "replies": 3,
       "ageHours": 8,
-      "updatedAt": "2026-07-19T23:11:56.580Z",
+      "updatedAt": "2026-07-19T23:26:27.878Z",
       "syncedAt": "2026-07-19T23:11:56.580Z",
       "snapshots": [
         {
@@ -164,25 +157,18 @@
       "views": 262
     },
     {
-      "id": "meme-bait-nikita-algo-girlfriend-feed-jul18",
-      "type": "meme",
-      "fullTypes": [
-        "meme",
-        "bait"
-      ],
-      "traits": [
-        "meta reach"
-      ],
+      "id": "meta-reach-nikita-algo-girlfriend-feed-jul18",
+      "type": "meta reach",
       "slot": 2,
       "bucket": "CT",
       "visualCluster": "collage",
       "at": "2026-07-18T08:07:23.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2078391167377371504",
-      "note": "EN meme+bait: girlfriend-feed collage — For You flooded after Nikita old-new algo; 'hot singles in your area' punch; blame product not accounts.",
+      "note": "EN meta reach: girlfriend-feed collage — For You flooded after Nikita old-new algo; 'hot singles in your area' punch; blame product not accounts.",
       "likes": 34,
       "replies": 13,
       "ageHours": 39,
-      "updatedAt": "2026-07-19T23:11:56.580Z",
+      "updatedAt": "2026-07-19T23:26:27.878Z",
       "syncedAt": "2026-07-19T23:11:56.580Z",
       "snapshots": [
         {
