@@ -173,14 +173,12 @@ export function Dashboard() {
         )}
 
         <section className="mt-8">
-          <div className="mb-3 flex flex-wrap items-end justify-between gap-2">
-            <h2 className="text-xs font-medium uppercase tracking-widest text-zinc-500">
-              Звички
-            </h2>
-            <div className="min-w-0 w-full max-w-md rounded-xl border border-zinc-800/80 bg-zinc-900/50 px-3 py-2 sm:ml-auto">
-              <p className="text-[10px] uppercase tracking-widest text-zinc-600">Активність</p>
-              <ActivityHeatmap logs={data.logs} />
-            </div>
+          <h2 className="mb-3 text-xs font-medium uppercase tracking-widest text-zinc-500">
+            Звички
+          </h2>
+          <div className="mb-3 w-full min-w-0 rounded-xl border border-zinc-800/80 bg-zinc-900/50 px-3 py-2">
+            <p className="text-[10px] uppercase tracking-widest text-zinc-600">Активність</p>
+            <ActivityHeatmap logs={data.logs} />
           </div>
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
             {CONTENT_TYPES.map((type) => (

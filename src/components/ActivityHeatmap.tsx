@@ -47,13 +47,13 @@ export function ActivityHeatmap({ logs, type }: ActivityHeatmapProps) {
   }
 
   return (
-    <div className="mt-3">
-      <div className="flex flex-wrap gap-[3px]">
+    <div className="mt-3 w-full min-w-0">
+      <div className="flex w-full gap-px">
         {cells.map((c) => (
           <div
             key={c.key}
             title={`${c.key}: ${c.count} post(s)`}
-            className={`h-2.5 w-2.5 shrink-0 rounded-sm ${LEVEL_CLASS[level(c.count)]}`}
+            className={`h-2.5 min-w-0 flex-1 rounded-sm ${LEVEL_CLASS[level(c.count)]}`}
           />
         ))}
       </div>
