@@ -1,7 +1,96 @@
 {
-  "syncVersion": 327,
-  "updatedAt": "2026-07-19T22:08:07.961Z",
+  "syncVersion": 328,
+  "updatedAt": "2026-07-19T23:11:56.580Z",
   "logs": [
+    {
+      "id": "hot-topic-spain-gracias-wc-champions-jul19",
+      "type": "hot topic",
+      "slot": 4,
+      "bucket": "football",
+      "visualCluster": "screenshot",
+      "at": "2026-07-19T22:59:56.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2078978170489840040",
+      "note": "EN hot-topic: Gracias España WC champions — identity football, Yamal/Cubarsí at 19, last WC for Messi & CR7 era closeout.",
+      "views": 15,
+      "likes": 1,
+      "replies": 0,
+      "ageHours": 0,
+      "updatedAt": "2026-07-19T23:11:56.580Z",
+      "syncedAt": "2026-07-19T23:11:56.580Z",
+      "snapshots": [
+        {
+          "ageHours": 0,
+          "views": 15,
+          "likes": 1,
+          "replies": 0,
+          "checkedAt": "2026-07-19T23:11:56.580Z"
+        }
+      ]
+    },
+    {
+      "id": "provocative-meme-argentina-one-goal-spain-xg-jul19",
+      "type": "provocative",
+      "fullTypes": [
+        "provocative",
+        "meme"
+      ],
+      "traits": [
+        "hot topic"
+      ],
+      "slot": 3,
+      "bucket": "football",
+      "visualCluster": "screenshot",
+      "at": "2026-07-19T20:56:31.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2078947114688680257",
+      "note": "EN provocative+meme: Argentina forgot Spain has a goal too — 74' 0-0 stats (62% poss / 0.72 xG / 8-0 shots); where is Messi punch.",
+      "views": 67,
+      "likes": 4,
+      "replies": 1,
+      "ageHours": 2,
+      "updatedAt": "2026-07-19T23:11:56.580Z",
+      "syncedAt": "2026-07-19T23:11:56.580Z",
+      "snapshots": [
+        {
+          "ageHours": 2,
+          "views": 67,
+          "likes": 4,
+          "replies": 1,
+          "checkedAt": "2026-07-19T23:11:56.580Z"
+        }
+      ]
+    },
+    {
+      "id": "meme-provocative-argentina-fans-greentext-video-jul19",
+      "type": "meme",
+      "fullTypes": [
+        "meme",
+        "provocative"
+      ],
+      "traits": [
+        "hot topic"
+      ],
+      "slot": 2,
+      "bucket": "football",
+      "visualCluster": "meme",
+      "at": "2026-07-19T18:47:33.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2078914659361448060",
+      "note": "EN meme+provocative: greentext Argentina bandwagon fans talk too much — video punchline \"just better...\".",
+      "views": 116,
+      "likes": 14,
+      "replies": 3,
+      "ageHours": 4,
+      "updatedAt": "2026-07-19T23:11:56.580Z",
+      "syncedAt": "2026-07-19T23:11:56.580Z",
+      "snapshots": [
+        {
+          "ageHours": 4,
+          "views": 116,
+          "likes": 14,
+          "replies": 3,
+          "checkedAt": "2026-07-19T23:11:56.580Z"
+        }
+      ]
+    },
     {
       "id": "bait-meme-ct-nine-sins-jul19",
       "type": "bait",
@@ -18,19 +107,26 @@
       "at": "2026-07-19T15:02:27.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2078858008503710185",
       "note": "EN bait+meme: 9 CT sins character grid (Yes Man/Belfort/Gríma/Pinocchio/Two-Face/Zuck/Ursula/Wormtail/Goodfellas) — dealbreaker vs live-with for interaction.",
-      "likes": 18,
+      "likes": 19,
       "replies": 3,
-      "ageHours": 7,
-      "updatedAt": "2026-07-19T22:08:07.961Z",
-      "syncedAt": "2026-07-19T22:08:07.961Z",
+      "ageHours": 8,
+      "updatedAt": "2026-07-19T23:11:56.580Z",
+      "syncedAt": "2026-07-19T23:11:56.580Z",
       "snapshots": [
+        {
+          "ageHours": 7,
+          "likes": 18,
+          "replies": 3,
+          "checkedAt": "2026-07-19T23:11:56.580Z"
+        },
         {
           "ageHours": 4,
           "likes": 16,
           "replies": 3,
           "checkedAt": "2026-07-19T18:45:51.041Z"
         }
-      ]
+      ],
+      "views": 160
     },
     {
       "id": "hot-topic-england-france-6-4-jul18",
@@ -44,12 +140,18 @@
       "at": "2026-07-18T23:35:49.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2078624813510271074",
       "note": "EN hot-topic: England 6–4 France WC — 10 goals, Mbappé WC tally, Deschamps last match, England best finish since 1966; process + celebration-of-football angle.",
-      "likes": 20,
+      "likes": 21,
       "replies": 5,
-      "ageHours": 23,
-      "updatedAt": "2026-07-19T22:08:07.961Z",
-      "syncedAt": "2026-07-19T22:08:07.961Z",
+      "ageHours": 24,
+      "updatedAt": "2026-07-19T23:11:56.580Z",
+      "syncedAt": "2026-07-19T23:11:56.580Z",
       "snapshots": [
+        {
+          "ageHours": 23,
+          "likes": 20,
+          "replies": 5,
+          "checkedAt": "2026-07-19T23:11:56.580Z"
+        },
         {
           "ageHours": 20,
           "likes": 18,
@@ -62,7 +164,8 @@
           "replies": 5,
           "checkedAt": "2026-07-19T18:45:51.041Z"
         }
-      ]
+      ],
+      "views": 262
     },
     {
       "id": "meme-bait-nikita-algo-girlfriend-feed-jul18",
@@ -82,17 +185,24 @@
       "note": "EN meme+bait: girlfriend-feed collage — For You flooded after Nikita old-new algo; 'hot singles in your area' punch; blame product not accounts.",
       "likes": 34,
       "replies": 13,
-      "ageHours": 38,
-      "updatedAt": "2026-07-19T22:08:07.961Z",
-      "syncedAt": "2026-07-19T22:08:07.961Z",
+      "ageHours": 39,
+      "updatedAt": "2026-07-19T23:11:56.580Z",
+      "syncedAt": "2026-07-19T23:11:56.580Z",
       "snapshots": [
+        {
+          "ageHours": 38,
+          "likes": 34,
+          "replies": 13,
+          "checkedAt": "2026-07-19T23:11:56.580Z"
+        },
         {
           "ageHours": 35,
           "likes": 33,
           "replies": 13,
           "checkedAt": "2026-07-19T18:45:51.041Z"
         }
-      ]
+      ],
+      "views": 893
     },
     {
       "id": "meme-hot-topic-tenev-why-not-both-jul18",
@@ -110,13 +220,20 @@
       "at": "2026-07-18T06:17:50.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2078363596157768143",
       "note": "EN meme+hot-topic: QT Tenev 'why not both?' — RWA↔memes flip timeline (Jul 2/8/16/18); Durov two-chairs edit with Tenev grabbing both.",
-      "views": 23,
-      "likes": 20,
+      "views": 422,
+      "likes": 21,
       "replies": 2,
-      "ageHours": 40,
-      "updatedAt": "2026-07-19T22:08:07.961Z",
-      "syncedAt": "2026-07-19T22:08:07.961Z",
+      "ageHours": 41,
+      "updatedAt": "2026-07-19T23:11:56.580Z",
+      "syncedAt": "2026-07-19T23:11:56.580Z",
       "snapshots": [
+        {
+          "ageHours": 40,
+          "views": 23,
+          "likes": 20,
+          "replies": 2,
+          "checkedAt": "2026-07-19T23:11:56.580Z"
+        },
         {
           "ageHours": 36,
           "views": 23,
@@ -205,13 +322,20 @@
       "at": "2026-07-17T19:13:20.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2078196372096860308",
       "note": "EN bait+meme: 'you're not real CT until you've' checklist (true story / crop 9 L / opposite theses / called a rug) + 'what else?'; anonymized true-story screenshot.",
-      "views": 265,
+      "views": 361,
       "likes": 23,
       "replies": 2,
-      "ageHours": 51,
-      "updatedAt": "2026-07-19T22:08:07.961Z",
-      "syncedAt": "2026-07-19T22:08:07.961Z",
+      "ageHours": 52,
+      "updatedAt": "2026-07-19T23:11:56.580Z",
+      "syncedAt": "2026-07-19T23:11:56.580Z",
       "snapshots": [
+        {
+          "ageHours": 51,
+          "views": 265,
+          "likes": 23,
+          "replies": 2,
+          "checkedAt": "2026-07-19T23:11:56.580Z"
+        },
         {
           "ageHours": 48,
           "views": 265,
@@ -282,13 +406,20 @@
       "at": "2026-07-17T15:53:28.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2078146074116600298",
       "note": "EN bait: self-QT CPI/61k chart — 'hey @X, urgently need paid subscribers / might be a pretty good trader'; ironic flex progress check.",
-      "views": 152,
+      "views": 234,
       "likes": 14,
       "replies": 1,
-      "ageHours": 54,
-      "updatedAt": "2026-07-19T22:08:07.961Z",
-      "syncedAt": "2026-07-19T22:08:07.961Z",
+      "ageHours": 55,
+      "updatedAt": "2026-07-19T23:11:56.580Z",
+      "syncedAt": "2026-07-19T23:11:56.580Z",
       "snapshots": [
+        {
+          "ageHours": 54,
+          "views": 152,
+          "likes": 14,
+          "replies": 1,
+          "checkedAt": "2026-07-19T23:11:56.580Z"
+        },
         {
           "ageHours": 51,
           "views": 152,
@@ -349,13 +480,20 @@
       "at": "2026-07-17T11:21:09.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2078077543488340404",
       "note": "EN meme+provocative+bait: $CASHCAT post-Jul11 buyers — 'how much from Hamster Kombat airdrop?'; same late-hype cage gag; chalk-noir pepe cage visual.",
-      "views": 159,
+      "views": 184,
       "likes": 20,
       "replies": 4,
-      "ageHours": 59,
-      "updatedAt": "2026-07-19T22:08:07.961Z",
-      "syncedAt": "2026-07-19T22:08:07.961Z",
+      "ageHours": 60,
+      "updatedAt": "2026-07-19T23:11:56.580Z",
+      "syncedAt": "2026-07-19T23:11:56.580Z",
       "snapshots": [
+        {
+          "ageHours": 59,
+          "views": 159,
+          "likes": 20,
+          "replies": 4,
+          "checkedAt": "2026-07-19T23:11:56.580Z"
+        },
         {
           "ageHours": 55,
           "views": 159,
@@ -395,13 +533,20 @@
       "at": "2026-07-16T20:29:28.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2077853142696280112",
       "note": "EN builder: MoveMatch onboarding gap (CT not on Movement / bridge friction) → Stableyard cross-chain fund at signup (USDCx ~30s +2 MOVE gas); QT @MoveMatchxyz + thanks @Stableyard @miteshmetha.",
-      "views": 408,
+      "views": 452,
       "likes": 33,
       "replies": 9,
-      "ageHours": 74,
-      "updatedAt": "2026-07-19T22:08:07.961Z",
-      "syncedAt": "2026-07-19T22:08:07.961Z",
+      "ageHours": 75,
+      "updatedAt": "2026-07-19T23:11:56.580Z",
+      "syncedAt": "2026-07-19T23:11:56.580Z",
       "snapshots": [
+        {
+          "ageHours": 74,
+          "views": 408,
+          "likes": 33,
+          "replies": 9,
+          "checkedAt": "2026-07-19T23:11:56.580Z"
+        },
         {
           "ageHours": 70,
           "views": 408,
@@ -431,13 +576,20 @@
       "at": "2026-07-16T14:07:58.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2077757135945904146",
       "note": "EN strategic QT: QT @eeelistar 'this is who runs this account' — selfie reply bait 'show me your photo'; engagement chain.",
-      "views": 1139,
+      "views": 1200,
       "likes": 36,
       "replies": 11,
-      "ageHours": 80,
-      "updatedAt": "2026-07-19T22:08:07.961Z",
-      "syncedAt": "2026-07-19T22:08:07.961Z",
+      "ageHours": 81,
+      "updatedAt": "2026-07-19T23:11:56.580Z",
+      "syncedAt": "2026-07-19T23:11:56.580Z",
       "snapshots": [
+        {
+          "ageHours": 80,
+          "views": 1139,
+          "likes": 36,
+          "replies": 11,
+          "checkedAt": "2026-07-19T23:11:56.580Z"
+        },
         {
           "ageHours": 77,
           "views": 1139,
