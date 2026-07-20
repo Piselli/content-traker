@@ -1,7 +1,125 @@
 {
-  "syncVersion": 337,
-  "updatedAt": "2026-07-20T19:55:39.768Z",
+  "syncVersion": 338,
+  "updatedAt": "2026-07-20T20:17:01.074Z",
   "logs": [
+    {
+      "id": "strategic-qt-useful-creator-demand-side-chog-jul20",
+      "type": "strategic QT",
+      "traits": [
+        "useful",
+        "provocative"
+      ],
+      "slot": 4,
+      "bucket": "CT",
+      "visualCluster": "screenshot",
+      "note": "EN strategic QT @bigchog: demand-side layer — free 5-figure X shoutout = 0 follows/clicks; organic TG mention = 30 clicks / 33% convert; visibility ≠ results.",
+      "at": "2026-07-20T16:58:11.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2079249524090974648",
+      "views": 143,
+      "likes": 16,
+      "replies": 3,
+      "ageHours": 3,
+      "updatedAt": "2026-07-20T20:17:01.074Z",
+      "syncedAt": "2026-07-20T20:17:01.074Z",
+      "snapshots": [
+        {
+          "ageHours": 3,
+          "views": 143,
+          "likes": 16,
+          "replies": 3,
+          "checkedAt": "2026-07-20T20:17:01.074Z"
+        }
+      ]
+    },
+    {
+      "id": "provocative-strategic-qt-brian-vs-tenev-loshmi-jul20",
+      "type": "provocative",
+      "traits": [
+        "strategic QT",
+        "hot topic"
+      ],
+      "slot": 3,
+      "bucket": "CT",
+      "visualCluster": "screenshot",
+      "note": "EN provocative QT @loshmi: Brian not larping wolves/retail ≠ lack of accountability; Tenev GME receipts; RH for two-chairs tweets not crypto culture.",
+      "at": "2026-07-20T15:37:59.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2079229341687287972",
+      "views": 162,
+      "likes": 9,
+      "replies": 1,
+      "ageHours": 5,
+      "updatedAt": "2026-07-20T20:17:01.074Z",
+      "syncedAt": "2026-07-20T20:17:01.074Z",
+      "snapshots": [
+        {
+          "ageHours": 5,
+          "views": 162,
+          "likes": 9,
+          "replies": 1,
+          "checkedAt": "2026-07-20T20:17:01.074Z"
+        }
+      ]
+    },
+    {
+      "id": "meta-reach-gm-ai-trigger-not-ban-wals-jul20",
+      "type": "meta reach",
+      "traits": [
+        "useful"
+      ],
+      "slot": 2,
+      "bucket": "CT",
+      "visualCluster": "screenshot",
+      "note": "EN meta reach QT @walsxbt: gm/gn alone ≠ ban criteria — AI trigger + manual review; bans usually more than gm; organic > engagement farm; 'no gm' still gm punch.",
+      "at": "2026-07-20T11:26:20.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2079166008506401131",
+      "views": 260,
+      "likes": 25,
+      "replies": 6,
+      "ageHours": 9,
+      "updatedAt": "2026-07-20T20:17:01.074Z",
+      "syncedAt": "2026-07-20T20:17:01.074Z",
+      "snapshots": [
+        {
+          "ageHours": 9,
+          "views": 260,
+          "likes": 25,
+          "replies": 6,
+          "checkedAt": "2026-07-20T20:17:01.074Z"
+        }
+      ]
+    },
+    {
+      "id": "provocative-hot-topic-erequendi-ban-hypocrisy-jul20",
+      "type": "provocative",
+      "fullTypes": [
+        "provocative",
+        "hot topic"
+      ],
+      "traits": [
+        "hot topic"
+      ],
+      "slot": 1,
+      "bucket": "CT",
+      "visualCluster": "screenshot",
+      "note": "EN provocative+hot-topic QT @0xerequendi: fake giveaways/engagement farm/content theft → ban unsurprising; call out reply hypocrisy & fake politeness = engagement groups.",
+      "at": "2026-07-20T08:12:13.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2079117157204664392",
+      "views": 326,
+      "likes": 21,
+      "replies": 4,
+      "ageHours": 12,
+      "updatedAt": "2026-07-20T20:17:01.074Z",
+      "syncedAt": "2026-07-20T20:17:01.074Z",
+      "snapshots": [
+        {
+          "ageHours": 12,
+          "views": 326,
+          "likes": 21,
+          "replies": 4,
+          "checkedAt": "2026-07-20T20:17:01.074Z"
+        }
+      ]
+    },
     {
       "id": "hot-topic-spain-gracias-wc-champions-jul19",
       "type": "hot topic",
@@ -11,13 +129,20 @@
       "at": "2026-07-19T22:59:56.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2078978170489840040",
       "note": "EN hot-topic: Gracias España WC champions — identity football, Yamal/Cubarsí at 19, last WC for Messi & CR7 era closeout.",
-      "views": 15,
+      "views": 221,
       "likes": 17,
       "replies": 2,
       "ageHours": 21,
-      "updatedAt": "2026-07-20T19:55:39.768Z",
-      "syncedAt": "2026-07-20T19:55:39.768Z",
+      "updatedAt": "2026-07-20T20:17:01.074Z",
+      "syncedAt": "2026-07-20T20:17:01.074Z",
       "snapshots": [
+        {
+          "ageHours": 21,
+          "views": 15,
+          "likes": 17,
+          "replies": 2,
+          "checkedAt": "2026-07-20T20:17:01.074Z"
+        },
         {
           "ageHours": 18,
           "views": 15,
@@ -99,13 +224,20 @@
       "at": "2026-07-19T18:47:33.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2078914659361448060",
       "note": "EN meme+provocative: greentext Argentina bandwagon fans talk too much — video punchline \"just better...\".",
-      "views": 116,
+      "views": 230,
       "likes": 19,
       "replies": 5,
       "ageHours": 25,
-      "updatedAt": "2026-07-20T19:55:39.768Z",
-      "syncedAt": "2026-07-20T19:55:39.768Z",
+      "updatedAt": "2026-07-20T20:17:01.074Z",
+      "syncedAt": "2026-07-20T20:17:01.074Z",
       "snapshots": [
+        {
+          "ageHours": 25,
+          "views": 116,
+          "likes": 19,
+          "replies": 5,
+          "checkedAt": "2026-07-20T20:17:01.074Z"
+        },
         {
           "ageHours": 22,
           "views": 116,
@@ -155,9 +287,16 @@
       "likes": 23,
       "replies": 3,
       "ageHours": 29,
-      "updatedAt": "2026-07-20T19:55:39.768Z",
-      "syncedAt": "2026-07-20T19:55:39.768Z",
+      "updatedAt": "2026-07-20T20:17:01.074Z",
+      "syncedAt": "2026-07-20T20:17:01.074Z",
       "snapshots": [
+        {
+          "ageHours": 29,
+          "views": 160,
+          "likes": 23,
+          "replies": 3,
+          "checkedAt": "2026-07-20T20:17:01.074Z"
+        },
         {
           "ageHours": 19,
           "views": 160,
@@ -185,7 +324,7 @@
           "checkedAt": "2026-07-19T18:45:51.041Z"
         }
       ],
-      "views": 160
+      "views": 256
     },
     {
       "id": "hot-topic-england-france-6-4-jul18",
@@ -201,10 +340,17 @@
       "note": "EN hot-topic: England 6–4 France WC — 10 goals, Mbappé WC tally, Deschamps last match, England best finish since 1966; process + celebration-of-football angle.",
       "likes": 23,
       "replies": 5,
-      "ageHours": 44,
-      "updatedAt": "2026-07-20T19:55:39.768Z",
-      "syncedAt": "2026-07-20T19:55:39.768Z",
+      "ageHours": 45,
+      "updatedAt": "2026-07-20T20:17:01.074Z",
+      "syncedAt": "2026-07-20T20:17:01.074Z",
       "snapshots": [
+        {
+          "ageHours": 44,
+          "views": 262,
+          "likes": 23,
+          "replies": 5,
+          "checkedAt": "2026-07-20T20:17:01.074Z"
+        },
         {
           "ageHours": 41,
           "views": 262,
@@ -238,7 +384,7 @@
           "checkedAt": "2026-07-19T18:45:51.041Z"
         }
       ],
-      "views": 262
+      "views": 374
     },
     {
       "id": "meta-reach-nikita-algo-girlfriend-feed-jul18",
@@ -249,12 +395,19 @@
       "at": "2026-07-18T08:07:23.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2078391167377371504",
       "note": "EN meta reach: girlfriend-feed collage — For You flooded after Nikita old-new algo; 'hot singles in your area' punch; blame product not accounts.",
-      "likes": 35,
+      "likes": 34,
       "replies": 13,
       "ageHours": 60,
-      "updatedAt": "2026-07-20T19:55:39.768Z",
-      "syncedAt": "2026-07-20T19:55:39.768Z",
+      "updatedAt": "2026-07-20T20:17:01.074Z",
+      "syncedAt": "2026-07-20T20:17:01.074Z",
       "snapshots": [
+        {
+          "ageHours": 60,
+          "views": 893,
+          "likes": 35,
+          "replies": 13,
+          "checkedAt": "2026-07-20T20:17:01.074Z"
+        },
         {
           "ageHours": 57,
           "views": 893,
@@ -275,7 +428,7 @@
           "checkedAt": "2026-07-19T18:45:51.041Z"
         }
       ],
-      "views": 893
+      "views": 917
     },
     {
       "id": "meme-hot-topic-tenev-why-not-both-jul18",
@@ -293,13 +446,20 @@
       "at": "2026-07-18T06:17:50.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2078363596157768143",
       "note": "EN meme+hot-topic: QT Tenev 'why not both?' — RWA↔memes flip timeline (Jul 2/8/16/18); Durov two-chairs edit with Tenev grabbing both.",
-      "views": 422,
+      "views": 440,
       "likes": 22,
       "replies": 2,
       "ageHours": 62,
-      "updatedAt": "2026-07-20T19:55:39.768Z",
-      "syncedAt": "2026-07-20T19:55:39.768Z",
+      "updatedAt": "2026-07-20T20:17:01.074Z",
+      "syncedAt": "2026-07-20T20:17:01.074Z",
       "snapshots": [
+        {
+          "ageHours": 62,
+          "views": 422,
+          "likes": 22,
+          "replies": 2,
+          "checkedAt": "2026-07-20T20:17:01.074Z"
+        },
         {
           "ageHours": 58,
           "views": 422,
@@ -402,13 +562,20 @@
       "at": "2026-07-17T19:13:20.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2078196372096860308",
       "note": "EN bait+meme: 'you're not real CT until you've' checklist (true story / crop 9 L / opposite theses / called a rug) + 'what else?'; anonymized true-story screenshot.",
-      "views": 361,
+      "views": 371,
       "likes": 23,
       "replies": 2,
       "ageHours": 73,
-      "updatedAt": "2026-07-20T19:55:39.768Z",
-      "syncedAt": "2026-07-20T19:55:39.768Z",
+      "updatedAt": "2026-07-20T20:17:01.074Z",
+      "syncedAt": "2026-07-20T20:17:01.074Z",
       "snapshots": [
+        {
+          "ageHours": 73,
+          "views": 361,
+          "likes": 23,
+          "replies": 2,
+          "checkedAt": "2026-07-20T20:17:01.074Z"
+        },
         {
           "ageHours": 51,
           "views": 265,
