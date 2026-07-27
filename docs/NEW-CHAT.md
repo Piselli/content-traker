@@ -126,6 +126,9 @@ Norms gap analysis + today's focus + 1 performance insight
 ### WEEK: [optional json]
 What to prioritize this week by norm gaps
 
+### radar / радар
+Scan crypto lanes → update `public/radar-data.json` (signals + angles). Prefer ready angles on next PICK. See `docs/RADAR.md`.
+
 ### CODE requests
 Read repo: Next.js, localStorage, src/hooks/useTracker.ts, src/lib/norms.ts. Minimal diffs.
 
@@ -139,6 +142,6 @@ Engagement groups · DM outreach · "post less" · Movement as main topic · aut
 
 ## My shortcuts
 
-`PICK:` · `DRAFT:` · `CATEGORIZE:` · `TRACKER:` · `WEEK:`
+`PICK:` · `DRAFT:` · `CATEGORIZE:` · `TRACKER:` · `WEEK:` · `radar`
 
 Ready. I'll start with one of these.

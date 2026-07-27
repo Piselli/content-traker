@@ -1,0 +1,259 @@
+{
+  "updatedAt": "2026-07-27T20:10:00.000Z",
+  "lanes": [
+    {
+      "id": "defi-infra",
+      "label": "DeFi infra",
+      "watch": "DEX/AMM/perps venues, hooks, allowlists, new market types"
+    },
+    {
+      "id": "rwa-compliance",
+      "label": "RWA / compliance rails",
+      "watch": "Tokenized assets, KYC secondary markets, permissioned trading"
+    },
+    {
+      "id": "capital-flows",
+      "label": "Capital flows",
+      "watch": "ETF flows, treasuries, unlocks, raises"
+    },
+    {
+      "id": "regulation",
+      "label": "Regulation",
+      "watch": "Bills, SEC/CFTC, enforcement, clarity drafts"
+    },
+    {
+      "id": "cex-tradfi",
+      "label": "CEX × TradFi",
+      "watch": "Brokerage crypto, prediction-market M&A, Wall Street onchain"
+    },
+    {
+      "id": "l1-l2",
+      "label": "L1 / L2",
+      "watch": "Launches, migrations, fee wars, sequencer drama"
+    },
+    {
+      "id": "stables-payments",
+      "label": "Stables / payments",
+      "watch": "Stablecoin rails, banking partners, settlement"
+    },
+    {
+      "id": "memes-casino",
+      "label": "Memes / casino",
+      "watch": "Pump metas, casino overlay, narrative flips for liquidity"
+    },
+    {
+      "id": "ai-crypto",
+      "label": "AI × crypto",
+      "watch": "Agent tokens, AI infra narratives — skeptical default"
+    },
+    {
+      "id": "narrative-rotation",
+      "label": "Narrative rotation",
+      "watch": "Sector leadership shifts: DeFi vs RWA vs meme vs majors"
+    }
+  ],
+  "signals": [
+    {
+      "id": "sig-20260723-uni-permissioned-pools",
+      "at": "2026-07-23",
+      "scannedAt": "2026-07-27T20:10:00.000Z",
+      "lane": "defi-infra",
+      "kind": "shipping",
+      "what": "Uniswap v4 ships Permissioned Pools — issuer allowlist enforced onchain via hooks (not frontend gate).",
+      "why": "Major DEX productizes KYC secondary markets for tokenized assets.",
+      "source": "Uniswap Labs blog",
+      "url": "https://blog.uniswap.org/introducing-permissioned-pools-on-uniswap-v4",
+      "status": "open"
+    },
+    {
+      "id": "sig-20260723-ray-permissioned-amm",
+      "at": "2026-07-23",
+      "scannedAt": "2026-07-27T20:10:00.000Z",
+      "lane": "defi-infra",
+      "kind": "shipping",
+      "what": "Raydium ships Permissioned AMMs same day; Superstate first partner for KYC-gated tokenized equities on Solana.",
+      "why": "ETH + SOL top DEXs ship the same compliance primitive in parallel — Superstate on both.",
+      "source": "SolanaFloor / Raydium",
+      "url": "https://solanafloor.com/news/raydium-opens-de-fi-liquidity-to-regulated-assets-with-permissioned-amms",
+      "status": "open"
+    },
+    {
+      "id": "sig-20260727-hl-allowlist-markets",
+      "at": "2026-07-27",
+      "scannedAt": "2026-07-27T20:10:00.000Z",
+      "lane": "defi-infra",
+      "kind": "shipping",
+      "what": "Hyperliquid adds address-allowlisted markets (CT reporting; week of permissioned venue infrastructure).",
+      "why": "Third major venue in ~same week enabling issuer-restricted secondary trading onchain.",
+      "source": "CT / @0xAbhiP synthesis",
+      "url": "https://x.com/0xAbhiP",
+      "status": "open"
+    },
+    {
+      "id": "sig-20260719-hl-rwa-volume-majority",
+      "at": "2026-07-19",
+      "scannedAt": "2026-07-27T20:10:00.000Z",
+      "lane": "rwa-compliance",
+      "kind": "metric",
+      "what": "HL week Jul 13–19: RWA perps ~52–54% of venue volume (~$25B), first time RWA > crypto categories; single stocks ~61% of RWA.",
+      "why": "Demand already flipped before permissioned-pool week — rails catching up to flow.",
+      "source": "CoinTelegraph / ARK Valente via Blockworks",
+      "url": "https://cointelegraph.com/news/hyperliquid-rwa-volume-crypto-trading-first-time",
+      "status": "open"
+    },
+    {
+      "id": "sig-20260724-eth-etf-gt-btc",
+      "at": "2026-07-24",
+      "scannedAt": "2026-07-27T20:10:00.000Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "Week ended Jul 24: spot ETH ETFs +$104M vs BTC ETFs +$34M; 2nd straight week ETH out-raised BTC. BlackRock ETHA +$96M while IBIT saw heavy late-week outflows.",
+      "why": "Institutional marginal dollar rotating ETH over BTC — pairs with ETH/BTC breakout narrative.",
+      "source": "The Defiant / Farside",
+      "url": "https://thedefiant.io/converge/markets/ether-etfs-pull-104m-tripling-bitcoin-s-weekly-inflows",
+      "status": "open"
+    },
+    {
+      "id": "sig-20260727-clarity-factsheet",
+      "at": "2026-07-27",
+      "scannedAt": "2026-07-27T20:10:00.000Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "Senate leaders push CLARITY Act fact sheet; combined draft + ethics language in play, still multi-step before law. Schwab: Clarity odds explained ~4% of BTC daily moves YTD.",
+      "why": "Policy theater vs price — useful for provocative 'bill as narrative, not catalyst' take.",
+      "source": "CoinEdition / CoinDesk",
+      "url": "https://coinedition.com/deconstructing-the-clarity-act-senate-leaders-push-back-on-critics/",
+      "status": "open"
+    },
+    {
+      "id": "sig-20260727-hormuz-pause-riskon",
+      "at": "2026-07-27",
+      "scannedAt": "2026-07-27T20:10:00.000Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "US–Iran Hormuz pause day 2; Brent −~7%; BTC ~$65k; DeFi tokens lead bounce (AAVE/LDO/ONDO); Fed decision Wed with hike odds trimmed.",
+      "why": "Macro risk-on backdrop — weak alone, strong as timing context for RWA/DeFi posts.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/07/27/crypto-steadies-as-iran-u-s-pause-sends-oil-tumbling-lifts-risk-assets",
+      "status": "open"
+    },
+    {
+      "id": "sig-20260727-pump-mcap-run",
+      "at": "2026-07-27",
+      "scannedAt": "2026-07-27T20:10:00.000Z",
+      "lane": "memes-casino",
+      "kind": "metric",
+      "what": "PUMP +~12% day, mcap toward ~$800M from ~$570M two weeks ago — speculative bid alongside DeFi bounce.",
+      "why": "Same week as permissioned RWA rails: casino and compliance narratives running in parallel.",
+      "source": "CoinDesk markets",
+      "url": "https://www.coindesk.com/markets/2026/07/27/crypto-steadies-as-iran-u-s-pause-sends-oil-tumbling-lifts-risk-assets",
+      "status": "open"
+    }
+  ],
+  "angles": [
+    {
+      "id": "ang-20260727-permissioned-dex-week",
+      "at": "2026-07-27T20:10:00.000Z",
+      "thesis": "In one week the largest open DEX venues shipped issuer allowlists for secondary trading — permissionless branding stays, compliant rails become the RWA product.",
+      "voiceHook": "DeFi didn't get regulated. It productized the velvet rope.",
+      "signalIds": [
+        "sig-20260723-uni-permissioned-pools",
+        "sig-20260723-ray-permissioned-amm",
+        "sig-20260727-hl-allowlist-markets"
+      ],
+      "lanes": ["defi-infra", "rwa-compliance"],
+      "pattern": "same-week-convergence",
+      "suggestedType": "useful",
+      "visualHint": "3-panel dated logos (UNI 23 / RAY 23 / HL 27) + one punchline — Abhi shape, your voice",
+      "expiresAt": "2026-07-29T23:59:00.000Z",
+      "status": "ready"
+    },
+    {
+      "id": "ang-20260727-rwa-demand-then-rails",
+      "at": "2026-07-27T20:10:00.000Z",
+      "thesis": "HL RWA volume already > crypto (Jul 13–19) before UNI/RAY permissioned pools (Jul 23) — infra is chasing flow, not inventing demand.",
+      "voiceHook": "They didn't build RWA because it's cool. The volume already left crypto-native.",
+      "signalIds": [
+        "sig-20260719-hl-rwa-volume-majority",
+        "sig-20260723-uni-permissioned-pools",
+        "sig-20260723-ray-permissioned-amm"
+      ],
+      "lanes": ["rwa-compliance", "defi-infra", "narrative-rotation"],
+      "pattern": "demand-flip",
+      "suggestedType": "hot topic",
+      "visualHint": "simple before/after: HL category mix chart → then two DEX ship dates",
+      "expiresAt": "2026-07-30T23:59:00.000Z",
+      "status": "ready"
+    },
+    {
+      "id": "ang-20260727-eth-over-btc-flows",
+      "at": "2026-07-27T20:10:00.000Z",
+      "thesis": "Second straight week institutional wrappers prefer ETH: ETHA absorbs while IBIT bleeds late-week — rotation is in flows, not just CT ratio charts.",
+      "voiceHook": "The 'ETH season' call is boring. The BlackRock print isn't.",
+      "signalIds": ["sig-20260724-eth-etf-gt-btc"],
+      "lanes": ["capital-flows"],
+      "pattern": "capital-rotation",
+      "suggestedType": "useful",
+      "visualHint": "week bar: ETH ETF vs BTC ETF inflows + one-line IBIT vs ETHA",
+      "expiresAt": "2026-07-31T23:59:00.000Z",
+      "status": "ready"
+    },
+    {
+      "id": "ang-20260727-clarity-vs-price",
+      "at": "2026-07-27T20:10:00.000Z",
+      "thesis": "CLARITY fact-sheet week + Schwab saying bill odds explain ~4% of BTC moves — market prices oil/Fed first, bill as narrative second.",
+      "voiceHook": "Washington dropped a PDF. Oil dropped 7%. Guess which one moved risk.",
+      "signalIds": [
+        "sig-20260727-clarity-factsheet",
+        "sig-20260727-hormuz-pause-riskon"
+      ],
+      "lanes": ["regulation", "narrative-rotation"],
+      "pattern": "timeline-flip",
+      "suggestedType": "provocative",
+      "visualHint": "two receipts side by side: fact sheet headline vs Brent −7%",
+      "expiresAt": "2026-07-30T23:59:00.000Z",
+      "status": "ready"
+    },
+    {
+      "id": "ang-20260727-compliance-and-casino",
+      "at": "2026-07-27T20:10:00.000Z",
+      "thesis": "Same window: permissioned RWA rails ship while PUMP mcap runs — crypto still sells both velvet-rope institutions and casino overlay as 'the future'.",
+      "voiceHook": "One timeline, two products: KYC pools and a memecoin printer.",
+      "signalIds": [
+        "sig-20260723-uni-permissioned-pools",
+        "sig-20260723-ray-permissioned-amm",
+        "sig-20260727-pump-mcap-run"
+      ],
+      "lanes": ["rwa-compliance", "memes-casino"],
+      "pattern": "illusion-of-earn",
+      "suggestedType": "provocative",
+      "visualHint": "split collage: permissioned pool graphic vs PUMP chart",
+      "expiresAt": "2026-07-30T23:59:00.000Z",
+      "status": "ready"
+    }
+  ],
+  "days": [
+    {
+      "date": "2026-07-27",
+      "at": "2026-07-27T20:10:00.000Z",
+      "note": "Bootstrap scan. Strongest cluster = permissioned DEX week (UNI+RAY Jul 23, HL allowlist Jul 27) + HL RWA already majority volume prior week. Parallel: ETH ETF > BTC flows; Clarity theater vs oil-driven risk-on; PUMP run as casino counterpoint. Abhi already posted the convergence shape — our angles differentiate via demand-first / velvet-rope / casino-parallel voice.",
+      "signalIdsAdded": [
+        "sig-20260723-uni-permissioned-pools",
+        "sig-20260723-ray-permissioned-amm",
+        "sig-20260727-hl-allowlist-markets",
+        "sig-20260719-hl-rwa-volume-majority",
+        "sig-20260724-eth-etf-gt-btc",
+        "sig-20260727-clarity-factsheet",
+        "sig-20260727-hormuz-pause-riskon",
+        "sig-20260727-pump-mcap-run"
+      ],
+      "angleIdsTouched": [
+        "ang-20260727-permissioned-dex-week",
+        "ang-20260727-rwa-demand-then-rails",
+        "ang-20260727-eth-over-btc-flows",
+        "ang-20260727-clarity-vs-price",
+        "ang-20260727-compliance-and-casino"
+      ]
+    }
+  ]
+}

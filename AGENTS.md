@@ -19,12 +19,21 @@ npm run build
 ```
 src/app/page.tsx              → Dashboard
 public/tracker-data.json      → repo sync (agent commits; site merges on load)
+public/radar-data.json        → crypto signals → angles (daily `radar`)
+docs/RADAR.md                 → radar agent contract
 src/hooks/useTracker.ts       → localStorage + repo merge
 src/lib/norms.ts              → weekly norm definitions
 src/lib/analysis.ts           → insights, slots, buckets, engagement
 JARVIS.md                     → X content strategy
-.cursor/rules/project.mdc     → logging workflow (always on)
+.cursor/rules/project.mdc     → logging + radar + judgment workflows
 ```
+
+## Agent: `radar` / `радар`
+
+1. Follow `docs/RADAR.md` — scan lanes, upsert signals, cluster angles
+2. Write `public/radar-data.json` → **commit + push** (same as tracker logging)
+3. UA reply: ready angles + forming clusters (not a news digest)
+4. On PICK: read ready angles first
 
 ## Agent: screenshot + URL from user
 

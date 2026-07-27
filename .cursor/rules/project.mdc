@@ -22,7 +22,9 @@ Next.js 16 App Router · TypeScript · Tailwind · `public/tracker-data.json` sy
 
 - `public/tracker-data.json` — **source of truth** agent commits after user sends tweet data
 - `public/judgment-data.json` — Judgment OS records (decision → prediction → review)
+- `public/radar-data.json` — Crypto Radar: signals → angles for Abhi-style pattern posts
 - `docs/JUDGMENT-RECORD.md` — schema + agent contract for judgment records
+- `docs/RADAR.md` — radar lanes, patterns, daily `radar` workflow
 - `src/lib/norms.ts` — weekly targets
 - `src/lib/analysis.ts` — insights, next slot, bucket mix
 - `src/hooks/useTracker.ts` — state + repo merge
@@ -72,6 +74,16 @@ Goal: improve judgment via stakes, not accumulate a wiki. See `docs/JUDGMENT-REC
 **On / after `reviewAt`:** ask for outcome vs prediction → `result: expected|surprise` + one-line `judgmentUpdate` → close record → commit + push. Agent role = catch where judgment was wrong today, not librarian.
 
 **First-class file rule:** if a doc doesn't force predict → check → update judgment, it's not judgment-layer (ops/agent contracts are the allowed exception).
+
+## Crypto Radar (from 2026-07-27)
+
+Goal: catch multi-signal patterns (permissioned DEX week, capital rotation, demand flips) so PICK has fuel before CT already posted the Abhi shape. See `docs/RADAR.md`.
+
+**When user writes `radar` / `радар`:** scan all lanes (or focus) → upsert signals + cluster angles in `public/radar-data.json` → **commit + push** → short UA summary (ready angles, not news dump).
+
+**Mid-day link/screenshot:** upsert as signal (`radar add` or bare URL in radar context).
+
+**On PICK / WEEK / «що постити»:** read open/ready angles first; prefer those matching norm gaps. After user posts from an angle → mark `used` + `usedTweetUrl`.
 
 ## Do NOT
 

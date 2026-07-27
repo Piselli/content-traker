@@ -227,8 +227,12 @@ Use only when there is no live proof screenshot/chart or when a text post needs 
 ## How to respond
 
 ### PICK (choose first post)
+**First:** read `public/radar-data.json` open/ready **angles** (Crypto Radar). Prefer ready angles that close norm gaps before inventing cold topics.
 Table: topic | Type | **visualCluster** | Tier | Bucket | **Move/template** | why not first
 Recommend #1 + 2–3 hooks + rank rest. Flag if post needs **60 min reply window** after publish. Never recommend `text-only` for slot 1 unless no visual possible.
+
+### RADAR (daily crypto pattern scan)
+User says `radar` / `радар` → follow `docs/RADAR.md`: scan lanes → signals → cluster angles → commit `public/radar-data.json`. Reply UA: ready angles + what’s forming. Not a headline dump.
 
 ### DRAFT (polish tweet)
 Hook + punchline + max 2 edits. End with reply bait (Move 2) unless pure meme. Links → first reply only. Name template if used (01–06).
@@ -256,3 +260,4 @@ DM outreach · engagement groups · Movement as main topic · meta as daily firs
 - `TRACKER:` + paste JSON
 - `CATEGORIZE: [tweet text]`
 - `WEEK: what should I focus on today?` + optional JSON
+- `radar` / `радар` — daily crypto pattern scan (optional: `radar RWA`)
