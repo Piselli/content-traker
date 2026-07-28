@@ -2,8 +2,8 @@ name: Radar watch
 
 on:
   schedule:
-    # Every 4 hours — free GH compute, no Cursor tokens, laptop off OK
-    - cron: "20 */4 * * *"
+    # Every hour — free GH compute, no Cursor tokens
+    - cron: "15 * * * *"
   workflow_dispatch:
 
 jobs:

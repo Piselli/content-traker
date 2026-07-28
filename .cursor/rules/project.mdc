@@ -79,7 +79,7 @@ Goal: improve judgment via stakes, not accumulate a wiki. See `docs/JUDGMENT-REC
 
 Goal: accumulate crypto facts across L1/L2, bridges, perps, DEX, DeFi, RWA, AI, campaigns, capital flows, **shutdowns/rugs/exploits/violent dumps** — cluster into takes when they rhyme. See `docs/RADAR.md`. Not locked to any one CT template.
 
-**Automated watcher:** GitHub Action `radar-watch` every 4h (`scripts/radar-watch.mjs`) accumulates signals and ntfy-pings only on spike/pattern — **no Cursor tokens**. Chat `радар` remains the judgment pass.
+**Automated watcher:** GitHub Action `radar-watch` **hourly** (`scripts/radar-watch.mjs`) accumulates signals and ntfy-pings only on spike/pattern — **no Cursor tokens**. Chat `радар` remains the judgment pass.
 
 **Mid-day link/screenshot:** upsert as signal (`radar add` or bare URL in radar context); quiet unless noteworthy.
 
