@@ -77,7 +77,7 @@ Goal: improve judgment via stakes, not accumulate a wiki. See `docs/JUDGMENT-REC
 
 ## Crypto Radar (from 2026-07-27)
 
-Goal: accumulate crypto facts across L1/L2, bridges, perps, DEX, DeFi, RWA, AI, incentive campaigns, capital flows — cluster into takes when they rhyme. See `docs/RADAR.md`. Not locked to any one CT template.
+Goal: accumulate crypto facts across L1/L2, bridges, perps, DEX, DeFi, RWA, AI, campaigns, capital flows, **shutdowns/rugs/exploits/violent dumps** — cluster into takes when they rhyme. See `docs/RADAR.md`. Not locked to any one CT template.
 
 **When user writes `radar` / `радар`:** scan all lanes (or focus) → upsert signals + cluster angles in `public/radar-data.json` → **commit + push** → **quiet UA ack** unless spike/pattern/`noteworthy` (then short ping). No daily digest.
 

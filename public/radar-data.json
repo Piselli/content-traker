@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T16:45:00.000Z",
+  "updatedAt": "2026-07-28T16:50:00.000Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -60,6 +60,11 @@
       "id": "ai-crypto",
       "label": "AI × crypto",
       "watch": "Agent infra/payments — ship > vibes"
+    },
+    {
+      "id": "failures-rugs",
+      "label": "Failures / rugs",
+      "watch": "Shutdowns, delistings, rugs, honeypots, exploits, withdrawal pauses, violent dumps with a cause"
     },
     {
       "id": "narrative-rotation",

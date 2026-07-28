@@ -57,7 +57,10 @@ Do **not** list every ready angle every day. Do **not** name-check other CT acco
 | `stables-payments` | Stablecoin rails, banking partners, settlement, issuer moves |
 | `memes-casino` | Pump metas, casino overlay, narrative flips for liquidity |
 | `ai-crypto` | AI agents, infra, payments rails — ship > vibes |
+| `failures-rugs` | Project/exchange **shutdowns**, delistings, insolvency, **rugs**, honeypots, exploit drains, “we’re pausing withdrawals” |
 | `narrative-rotation` | What’s hot → cold; sector / chain leadership |
+
+Also watch (any lane): **violent dumps / flash crashes** with a clear mechanism (not “BTC −2%”) — venue blowup, oracle fail, unlock cliff, cascade liquidations.
 
 Football / CT meta stay in normal PICK — radar is **crypto take fuel**.
 
@@ -74,6 +77,8 @@ Football / CT meta stay in normal PICK — radar is **crypto take fuel**.
 7. **Illusion-of-earn** — usage collapses if incentive / casino overlay removed.
 8. **Campaign gravity** — points/airdrop/incentive sucks liquidity or mindshare for a window.
 9. **Winner tape** — fees, users, OI, or bridge share concentrates in a clear leader.
+10. **Failure / rug** — shutdown, exit scam, exchange death, or exploit that reveals how the sausage was made.
+11. **Violent move** — outsized crash/spike with a named cause (flash crash, cascade, unlock, delist).
 
 ---
 
@@ -87,7 +92,7 @@ type RadarSignal = {
   at: string;           // ISO date of event (not scan day)
   scannedAt: string;    // ISO when logged
   lane: string;
-  kind: "shipping" | "capital" | "policy" | "metric" | "flip" | "narrative" | "campaign";
+  kind: "shipping" | "capital" | "policy" | "metric" | "flip" | "narrative" | "campaign" | "failure" | "exploit";
   what: string;         // one line fact
   why: string;          // why it might matter for a post
   source: string;       // outlet / blog / account
@@ -142,7 +147,7 @@ Keep **open** signals ≤ ~40; expire older than 14d unless tied to an open angl
 1. Read `public/radar-data.json` (+ this doc if needed).
 2. Expire: `expiresAt` past → `expired`; signals >14d with no angle → `expired`.
 3. **Scan breadth (same hunt as before, wider):** web search + DefiLlama / L2Beat / bridges / ETF trackers + protocol blogs + CoinDesk/Defiant/Blockworks-class — not random CT rumor. Do not drop the news-hunt; dashboards are additive.
-4. Explicitly check: **L1/L2 winners**, **bridge net flows**, **perp OI share**, **incentive campaigns**, **AI shipping**, **RWA/DEX/perps**, **regulation/TradFi**, **stables** — anything that can become a take.
+4. Explicitly check: **L1/L2 winners**, **bridge net flows**, **perp OI share**, **incentive campaigns**, **AI shipping**, **RWA/DEX/perps**, **regulation/TradFi**, **stables**, **shutdowns / rugs / exploits / violent dumps** — anything that can become a take.
 5. Add only **new** signals (dedupe by same actor+event). Skip price-only noise unless it proves a rotation (`capital` / `metric` with numbers). Prefer logging **event `at` = real date**; backlog older than ~5–7d only if it unlocks a fresh cluster.
 6. **Cluster:** if ≥2 open signals rhyme → create/update an `angle` (`ready` if ≥2 solid receipts). Mark `noteworthy: true` only for spike/pattern with a **fresh** receipt in the last ~48–72h.
 7. Append a `days[]` entry for today (note is for agents, not a user dump).
