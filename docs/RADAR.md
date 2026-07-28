@@ -185,6 +185,26 @@ Strong post shape = **several dated receipts → one structural claim → your v
 
 ---
 
+## Automated watcher (no Cursor tokens)
+
+**Goal:** monitor continuously in the cloud; ping phone only on spike or when receipts converge into a pattern. Laptop can be off. Does **not** use Cursor Auto / agent tokens.
+
+| Piece | Role |
+|-------|------|
+| `scripts/radar-watch.mjs` | RSS ingest → upsert signals → tag clusters → ntfy if spike/pattern |
+| `.github/workflows/radar-watch.yml` | cron every 4h (+ manual dispatch) on GitHub Actions |
+| ntfy topic | same as reminders (`NTFY_TOPIC` secret, default `piselliii-content-tracker`) |
+
+**Notify when:**
+1. **Spike** — single strong headline (hack/rug/shutdown/ETF launch/lawsuit/big drain…)
+2. **Pattern** — ≥2 related open signals in ~7d share a cluster tag (wrappers, bridge-fail, HL/RWA, Clarity…) and newest receipt is fresh
+
+Otherwise only commits into `public/radar-data.json` (quiet accumulate).
+
+**You still:** open Cursor and type `радар` / PICK when ntfy fires (or once a day) for voice + final take. Watcher is the inbox; chat agent is the editor.
+
+Local smoke: `DRY_RUN=1 npm run radar:watch`
+
 ## Git
 
-Updating radar = `git commit` + `git push origin main` immediately. No ask.
+Updating radar (agent or watcher commit) = push to `main`. Agent runs: commit + push immediately, no ask.

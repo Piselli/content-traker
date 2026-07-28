@@ -23,6 +23,7 @@
 # misc
 .DS_Store
 .ntfy-reminder-state.json
+.radar-watch-state.json
 *.pem
 
 # debug
