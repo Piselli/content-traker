@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T16:50:00.000Z",
+  "updatedAt": "2026-07-28T17:00:00.000Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -336,6 +336,54 @@
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/07/28/perpetuals-tied-to-sk-hynix-suffer-a-flash-crash-to-usd900-on-hyperliquid",
       "status": "open"
+    },
+    {
+      "id": "sig-20260728-ms-eth-sol-etp",
+      "at": "2026-07-28",
+      "scannedAt": "2026-07-28T17:00:00.000Z",
+      "lane": "capital-flows",
+      "kind": "shipping",
+      "what": "Morgan Stanley launches ETH (MSSE) + SOL (MSOL) ETPs on NYSE Arca: 0.14% fee (market-low), staking rewards passed to investors; builds on MSBT BTC ~$381M AUM.",
+      "why": "Major bank distribution beyond BTC into ETH+SOL same day as Clarity delay — wrappers keep expanding while policy stalls.",
+      "source": "Morgan Stanley / CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/07/28/morgan-stanley-debuts-ether-and-solana-etps-after-bitcoin-fund-success",
+      "status": "open"
+    },
+    {
+      "id": "sig-20260726-garden-solver-450k",
+      "at": "2026-07-26",
+      "scannedAt": "2026-07-28T17:00:00.000Z",
+      "lane": "failures-rugs",
+      "kind": "exploit",
+      "what": "Garden Finance takes app offline after ~$450k USDT drain via compromised independent solver off-chain DB (HTLCs on ETH/Base/ARB/BSC); protocol says contracts/user funds untouched.",
+      "why": "Bridge/swap trust lives in solver ops, not just contracts — failure-mode take.",
+      "source": "Cointelegraph / Blockaid",
+      "url": "https://cointelegraph.com/news/garden-finance-app-offline-450k-htlc-exploit",
+      "status": "open"
+    },
+    {
+      "id": "sig-20260726-wemix-mint-freeze",
+      "at": "2026-07-26",
+      "scannedAt": "2026-07-28T17:00:00.000Z",
+      "lane": "failures-rugs",
+      "kind": "failure",
+      "what": "WEMIX3.0 freezes bridges/LPs/services after compromised owner mints ~5.23M unauthorized WEMIX$; converted to WEMIX + USDC.e and bridged out.",
+      "why": "Stablecoin mint via key/owner compromise → full network pause — classic failure tape.",
+      "source": "CryptoSlate",
+      "url": "https://cryptoslate.com/wemix-owner-breach-minted-5-23m-tokens-outside-its-100-backed-stablecoin-controls/",
+      "status": "open"
+    },
+    {
+      "id": "sig-20260722-afx-bridge-24m",
+      "at": "2026-07-22",
+      "scannedAt": "2026-07-28T17:00:00.000Z",
+      "lane": "failures-rugs",
+      "kind": "exploit",
+      "what": "AFX Trade Arbitrum bridge drained ~$24.15M USDC (validator keys/quorum); native Arbitrum bridge unaffected; funds swapped to ~12.5k ETH.",
+      "why": "Custom bridge ≠ L2 security — backdrop for Garden/solver week.",
+      "source": "The Defiant / Blockaid",
+      "url": "https://thedefiant.io/news/hacks/attacker-drains-usd24m-in-usdc-from-afx-bridge-on-arbitrum",
+      "status": "open"
     }
   ],
   "angles": [
@@ -384,13 +432,14 @@
     },
     {
       "id": "ang-20260727-eth-over-btc-flows",
-      "at": "2026-07-28T16:45:00.000Z",
+      "at": "2026-07-28T17:00:00.000Z",
       "thesis": "Wrappers beyond BTC still get the dollar: week ETH>BTC, Jul 27 BTC ETF red / ETH green, SOL ETFs ~$904M AUM and HYPE ETFs ~$350M since May.",
       "voiceHook": "Not 'ETH season'. Consecutive days where IBIT bleeds and ETH wrappers still take the dollar.",
       "signalIds": [
         "sig-20260724-eth-etf-gt-btc",
         "sig-20260727-btc-out-eth-in",
-        "sig-20260727-sol-hype-etf-inflows"
+        "sig-20260727-sol-hype-etf-inflows",
+        "sig-20260728-ms-eth-sol-etp"
       ],
       "lanes": [
         "capital-flows"
@@ -424,7 +473,7 @@
       "visualHint": "two receipts side by side: fact sheet headline vs Brent −7%",
       "expiresAt": "2026-07-31T23:59:00.000Z",
       "status": "ready",
-      "noteworthy": true
+      "noteworthy": false
     },
     {
       "id": "ang-20260727-compliance-and-casino",
@@ -512,6 +561,49 @@
       "expiresAt": "2026-08-02T23:59:00.000Z",
       "status": "ready",
       "noteworthy": false
+    },
+    {
+      "id": "ang-20260728-ms-eth-sol-wrappers",
+      "at": "2026-07-28T17:00:00.000Z",
+      "thesis": "Jul 28: Morgan Stanley ships ETH+SOL ETPs (0.14%, staking passthrough) the same day Senate shelves Clarity — TradFi distribution expands while DC stalls.",
+      "voiceHook": "Banks listed ETH and SOL. Congress shelved the PDF. Guess who shipped.",
+      "signalIds": [
+        "sig-20260728-ms-eth-sol-etp",
+        "sig-20260728-clarity-shelved",
+        "sig-20260727-sol-hype-etf-inflows"
+      ],
+      "lanes": [
+        "capital-flows",
+        "regulation",
+        "cex-tradfi"
+      ],
+      "pattern": "timeline-flip",
+      "suggestedType": "hot topic",
+      "visualHint": "two receipts: MSSE/MSOL launch vs Clarity shelved headline",
+      "expiresAt": "2026-07-31T23:59:00.000Z",
+      "status": "ready",
+      "noteworthy": true
+    },
+    {
+      "id": "ang-20260728-bridge-trust-failures",
+      "at": "2026-07-28T17:00:00.000Z",
+      "thesis": "Same week: AFX custom bridge −$24M (keys), Garden solver DB −$450k, WEMIX owner mint freeze — bridges/solvers keep dying in the ops layer while 'L2 secure' headlines stay clean.",
+      "voiceHook": "The L2 wasn't hacked. Your bridge's keys were. Again.",
+      "signalIds": [
+        "sig-20260722-afx-bridge-24m",
+        "sig-20260726-garden-solver-450k",
+        "sig-20260726-wemix-mint-freeze"
+      ],
+      "lanes": [
+        "failures-rugs",
+        "bridges-liquidity"
+      ],
+      "pattern": "failure-rug",
+      "suggestedType": "provocative",
+      "visualHint": "3-row table: AFX / Garden / WEMIX — vector + $",
+      "expiresAt": "2026-08-02T23:59:00.000Z",
+      "status": "ready",
+      "noteworthy": false
     }
   ],
   "days": [
@@ -539,22 +631,21 @@
     },
     {
       "date": "2026-07-28",
-      "at": "2026-07-28T16:45:00.000Z",
-      "note": "Freshness rule: demoted Jul 22 bridge angle from noteworthy. Added Jul 28 Clarity shelved + Kospi risk-off (noteworthy). SOL/HYPE ETF AUM Jul 27 into capital angle. Keep web-hunt + dashboards. Also: Coinbase Launches tab Jul 27; HL SK Hynix flash Jul 28 (accumulate).",
+      "at": "2026-07-28T17:00:00.000Z",
+      "note": "Evening rescan. Fresh: MS ETH+SOL ETPs (noteworthy). Failures lane: Garden solver, WEMIX freeze, AFX bridge backdrop → bridge-trust angle (quiet). Clarity already logged earlier.",
       "signalIdsAdded": [
-        "sig-20260728-clarity-shelved",
-        "sig-20260728-kospi-riskoff",
-        "sig-20260727-sol-hype-etf-inflows",
-        "sig-20260727-coinbase-launches-tab",
-        "sig-20260728-hl-sk-hynix-flash"
+        "sig-20260728-ms-eth-sol-etp",
+        "sig-20260726-garden-solver-450k",
+        "sig-20260726-wemix-mint-freeze",
+        "sig-20260722-afx-bridge-24m"
       ],
       "angleIdsTouched": [
-        "ang-20260727-clarity-vs-price",
-        "ang-20260727-eth-over-btc-flows",
-        "ang-20260728-liquidity-to-hl"
+        "ang-20260728-ms-eth-sol-wrappers",
+        "ang-20260728-bridge-trust-failures",
+        "ang-20260727-eth-over-btc-flows"
       ],
       "noteworthyIds": [
-        "ang-20260727-clarity-vs-price"
+        "ang-20260728-ms-eth-sol-wrappers"
       ]
     }
   ]
