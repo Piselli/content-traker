@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T20:10:00.000Z",
+  "updatedAt": "2026-07-28T16:10:00.000Z",
   "lanes": [
     {
       "id": "defi-infra",
@@ -148,6 +148,42 @@
       "source": "CoinDesk markets",
       "url": "https://www.coindesk.com/markets/2026/07/27/crypto-steadies-as-iran-u-s-pause-sends-oil-tumbling-lifts-risk-assets",
       "status": "open"
+    },
+    {
+      "id": "sig-20260728-cme-sues-cftc-perps",
+      "at": "2026-07-28",
+      "scannedAt": "2026-07-28T16:10:00.000Z",
+      "lane": "cex-tradfi",
+      "kind": "policy",
+      "what": "CoinDesk Jul 28: CME sued CFTC/Chair Selig over approving crypto perps for Kalshi + Coinbase; CME also blocked on 24/7 WTI while HL oil/RWA perps already run offshore.",
+      "why": "Incumbent TradFi using court + regulator fight to slow US onchain perps — same week HL RWA already majority venue volume.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/07/28/inside-the-cme-and-cftc-s-battle-over-onchain-perpetual-futures",
+      "status": "open"
+    },
+    {
+      "id": "sig-20260727-btc-out-eth-in",
+      "at": "2026-07-27",
+      "scannedAt": "2026-07-28T16:10:00.000Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "Jul 27 spot ETF day: BTC −$11.64M (IBIT −$8.8M) vs ETH +$9.23M, SOL +$1.03M, XRP +$0.59M — third consecutive BTC outflow day after week ETH > BTC.",
+      "why": "Rotation not just weekly print: daily split still prefers ETH/alts wrappers over BTC.",
+      "source": "SoSoValue / Cointelegraph flash",
+      "url": "https://www.kucoin.com/news/flash/july-27-etf-flows-bitcoin-posts-11-64m-outflows-as-ethereum-solana-xrp-see-inflows",
+      "status": "open"
+    },
+    {
+      "id": "sig-20260728-polymarket-fed-hike",
+      "at": "2026-07-28",
+      "scannedAt": "2026-07-28T16:10:00.000Z",
+      "lane": "cex-tradfi",
+      "kind": "metric",
+      "what": "Polymarket July Fed event ~$110M volume: hike ~25% vs cut ~0.3%; odds whipsawed ~7% (Hormuz pause) → ~25–27% into FOMC Jul 28–29.",
+      "why": "Crypto prediction market is the live Fed thermometer — pairs with oil/risk narrative, not CLARITY PDF.",
+      "source": "Polymarket / FinanceFeeds",
+      "url": "https://financefeeds.com/fed-rate-hike-odds-25-percent-cut-priced-0-3-percent/",
+      "status": "open"
     }
   ],
   "angles": [
@@ -161,7 +197,10 @@
         "sig-20260723-ray-permissioned-amm",
         "sig-20260727-hl-allowlist-markets"
       ],
-      "lanes": ["defi-infra", "rwa-compliance"],
+      "lanes": [
+        "defi-infra",
+        "rwa-compliance"
+      ],
       "pattern": "same-week-convergence",
       "suggestedType": "useful",
       "visualHint": "3-panel dated logos (UNI 23 / RAY 23 / HL 27) + one punchline — Abhi shape, your voice",
@@ -178,7 +217,11 @@
         "sig-20260723-uni-permissioned-pools",
         "sig-20260723-ray-permissioned-amm"
       ],
-      "lanes": ["rwa-compliance", "defi-infra", "narrative-rotation"],
+      "lanes": [
+        "rwa-compliance",
+        "defi-infra",
+        "narrative-rotation"
+      ],
       "pattern": "demand-flip",
       "suggestedType": "hot topic",
       "visualHint": "simple before/after: HL category mix chart → then two DEX ship dates",
@@ -187,27 +230,37 @@
     },
     {
       "id": "ang-20260727-eth-over-btc-flows",
-      "at": "2026-07-27T20:10:00.000Z",
-      "thesis": "Second straight week institutional wrappers prefer ETH: ETHA absorbs while IBIT bleeds late-week — rotation is in flows, not just CT ratio charts.",
-      "voiceHook": "The 'ETH season' call is boring. The BlackRock print isn't.",
-      "signalIds": ["sig-20260724-eth-etf-gt-btc"],
-      "lanes": ["capital-flows"],
+      "at": "2026-07-28T16:10:00.000Z",
+      "thesis": "Institutional wrappers still prefer ETH over BTC: week Jul 20–24 ETH ETFs +$104M vs BTC +$34M, then Jul 27 BTC −$11.6M while ETH +$9.2M (SOL/XRP green too).",
+      "voiceHook": "Not 'ETH season'. Consecutive days where IBIT bleeds and ETH wrappers still take the dollar.",
+      "signalIds": [
+        "sig-20260724-eth-etf-gt-btc",
+        "sig-20260727-btc-out-eth-in"
+      ],
+      "lanes": [
+        "capital-flows"
+      ],
       "pattern": "capital-rotation",
       "suggestedType": "useful",
       "visualHint": "week bar: ETH ETF vs BTC ETF inflows + one-line IBIT vs ETHA",
-      "expiresAt": "2026-07-31T23:59:00.000Z",
+      "expiresAt": "2026-08-01T23:59:00.000Z",
       "status": "ready"
     },
     {
       "id": "ang-20260727-clarity-vs-price",
-      "at": "2026-07-27T20:10:00.000Z",
-      "thesis": "CLARITY fact-sheet week + Schwab saying bill odds explain ~4% of BTC moves — market prices oil/Fed first, bill as narrative second.",
-      "voiceHook": "Washington dropped a PDF. Oil dropped 7%. Guess which one moved risk.",
+      "at": "2026-07-28T16:10:00.000Z",
+      "thesis": "CLARITY PDF week vs what actually moves risk: oil/Hormuz, then Polymarket Fed hike odds whipsaw (~7%→~25%) into FOMC — bill is narrative, Fed+oil are the trade.",
+      "voiceHook": "Washington dropped a PDF. Prediction markets repriced the Fed twice in 48h. Guess which one traders watched.",
       "signalIds": [
         "sig-20260727-clarity-factsheet",
-        "sig-20260727-hormuz-pause-riskon"
+        "sig-20260727-hormuz-pause-riskon",
+        "sig-20260728-polymarket-fed-hike"
       ],
-      "lanes": ["regulation", "narrative-rotation"],
+      "lanes": [
+        "regulation",
+        "narrative-rotation",
+        "cex-tradfi"
+      ],
       "pattern": "timeline-flip",
       "suggestedType": "provocative",
       "visualHint": "two receipts side by side: fact sheet headline vs Brent −7%",
@@ -224,11 +277,35 @@
         "sig-20260723-ray-permissioned-amm",
         "sig-20260727-pump-mcap-run"
       ],
-      "lanes": ["rwa-compliance", "memes-casino"],
+      "lanes": [
+        "rwa-compliance",
+        "memes-casino"
+      ],
       "pattern": "illusion-of-earn",
       "suggestedType": "provocative",
       "visualHint": "split collage: permissioned pool graphic vs PUMP chart",
       "expiresAt": "2026-07-30T23:59:00.000Z",
+      "status": "ready"
+    },
+    {
+      "id": "ang-20260728-cme-vs-onchain-perps",
+      "at": "2026-07-28T16:10:00.000Z",
+      "thesis": "CME sues its own regulator to slow US crypto/onchain perps (Kalshi/Coinbase) while Hyperliquid already runs the RWA+commodity perp book offshore — incumbents police the onshore copy, not the volume leader.",
+      "voiceHook": "Wall Street isn't anti-perps. It's anti-anyone-else's-perps.",
+      "signalIds": [
+        "sig-20260728-cme-sues-cftc-perps",
+        "sig-20260719-hl-rwa-volume-majority",
+        "sig-20260727-hl-allowlist-markets"
+      ],
+      "lanes": [
+        "cex-tradfi",
+        "regulation",
+        "defi-infra"
+      ],
+      "pattern": "silent-standard",
+      "suggestedType": "provocative",
+      "visualHint": "2-column: CME lawsuit headline vs HL RWA>crypto volume bar — same week timeline",
+      "expiresAt": "2026-07-31T23:59:00.000Z",
       "status": "ready"
     }
   ],
@@ -252,6 +329,24 @@
         "ang-20260727-rwa-demand-then-rails",
         "ang-20260727-eth-over-btc-flows",
         "ang-20260727-clarity-vs-price",
+        "ang-20260727-compliance-and-casino"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "at": "2026-07-28T16:10:00.000Z",
+      "note": "Day-2 scan. Fresh: CME vs CFTC perps lawsuit deep-dive (CoinDesk) → new TradFi-incumbent angle vs HL RWA volume. Jul 27 ETF split extends ETH>BTC. Polymarket Fed hike whipsaw upgrades Clarity-vs-price. Permissioned DEX week still ready (expires tomorrow) — Abhi shape crowded, prefer demand-first / CME fight / casino-parallel voice.",
+      "signalIdsAdded": [
+        "sig-20260728-cme-sues-cftc-perps",
+        "sig-20260727-btc-out-eth-in",
+        "sig-20260728-polymarket-fed-hike"
+      ],
+      "angleIdsTouched": [
+        "ang-20260728-cme-vs-onchain-perps",
+        "ang-20260727-eth-over-btc-flows",
+        "ang-20260727-clarity-vs-price",
+        "ang-20260727-permissioned-dex-week",
+        "ang-20260727-rwa-demand-then-rails",
         "ang-20260727-compliance-and-casino"
       ]
     }
