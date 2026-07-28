@@ -192,7 +192,7 @@ Strong post shape = **several dated receipts → one structural claim → your v
 | Piece | Role |
 |-------|------|
 | `scripts/radar-watch.mjs` | RSS ingest → upsert signals → tag clusters → ntfy if spike/pattern |
-| `.github/workflows/radar-watch.yml` | cron **hourly** (+ manual dispatch) on GitHub Actions |
+| `.github/workflows/radar-watch.yml` | cron **every 30 min** (+ manual dispatch) on GitHub Actions |
 | ntfy topic | same as reminders (`NTFY_TOPIC` secret, default `piselliii-content-tracker`) |
 
 **Notify when:**
