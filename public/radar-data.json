@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T16:35:00.000Z",
+  "updatedAt": "2026-07-28T16:45:00.000Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -271,6 +271,66 @@
       "source": "MetaMask blog",
       "url": "https://metamask.io/news/introducing-metamask-rewards",
       "status": "expired"
+    },
+    {
+      "id": "sig-20260728-clarity-shelved",
+      "at": "2026-07-28",
+      "scannedAt": "2026-07-28T16:45:00.000Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "U.S. Senate shelves Crypto Clarity Act for now (Russia sanctions + nominations first); ~2 weeks floor time before Aug 8 recess — bill path this year uncertain.",
+      "why": "Same-day policy print that actually moved risk tape with Fed/Kospi — upgrades Clarity-as-narrative thesis with a dated delay receipt.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/07/28/bitcoin-drops-as-south-korean-stocks-tumble-senate-shelves-crypto-clarity-act",
+      "status": "open"
+    },
+    {
+      "id": "sig-20260728-kospi-riskoff",
+      "at": "2026-07-28",
+      "scannedAt": "2026-07-28T16:45:00.000Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Jul 28 risk-off: Kospi −~11% (worst day in years); BTC ~−2–3%; AI/L1 tokens (FET/NEAR/HYPE) hit hardest into Fed decision day.",
+      "why": "Macro tape > crypto-native catalyst for the day — pairs with Clarity delay + Fed.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/07/28/bitcoin-drops-as-south-korean-stocks-tumble-senate-shelves-crypto-clarity-act",
+      "status": "open"
+    },
+    {
+      "id": "sig-20260727-sol-hype-etf-inflows",
+      "at": "2026-07-27",
+      "scannedAt": "2026-07-28T16:45:00.000Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "Jul 27 reporting: SOL ETFs ~$904M AUM; HYPE ETFs ~$350M since May launch — inflows continuing while BTC ETF complex has been in outflow streak narrative.",
+      "why": "Alt wrappers still taking dollars — extends rotation beyond ETH-only story.",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/07/27/solana-and-hyperliquid-etfs-continue-to-see-new-in/",
+      "status": "open"
+    },
+    {
+      "id": "sig-20260727-coinbase-launches-tab",
+      "at": "2026-07-27",
+      "scannedAt": "2026-07-28T16:45:00.000Z",
+      "lane": "cex-tradfi",
+      "kind": "shipping",
+      "what": "Coinbase opens Launches tab (Jul 27): trade newly minted Base + Solana tokens in-app via DEX (Jupiter for SOL) without CEX listing wait.",
+      "why": "CEX distribution layer for casino/new-launch meta — 100M-user funnel into onchain launches.",
+      "source": "Coinbase / Solana Compass",
+      "url": "https://solanacompass.com/news/coinbase-opens-launches-tab-for-instant-dex-trading-of-new-base-and-solana-tokens",
+      "status": "open"
+    },
+    {
+      "id": "sig-20260728-hl-sk-hynix-flash",
+      "at": "2026-07-28",
+      "scannedAt": "2026-07-28T16:45:00.000Z",
+      "lane": "perps-derivatives",
+      "kind": "metric",
+      "what": "HL SK Hynix USDC perp flash −~20% to $900 in 1 min then rebound; preceded Kospi/chip selloff (Hynix shares ~−15%, Kospi −11%).",
+      "why": "RWA/stock perps on HL now front-run TradFi tape — same venue as RWA volume majority story.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/07/28/perpetuals-tied-to-sk-hynix-suffer-a-flash-crash-to-usd900-on-hyperliquid",
+      "status": "open"
     }
   ],
   "angles": [
@@ -319,12 +379,13 @@
     },
     {
       "id": "ang-20260727-eth-over-btc-flows",
-      "at": "2026-07-28T16:10:00.000Z",
-      "thesis": "Institutional wrappers still prefer ETH over BTC: week Jul 20–24 ETH ETFs +$104M vs BTC +$34M, then Jul 27 BTC −$11.6M while ETH +$9.2M (SOL/XRP green too).",
+      "at": "2026-07-28T16:45:00.000Z",
+      "thesis": "Wrappers beyond BTC still get the dollar: week ETH>BTC, Jul 27 BTC ETF red / ETH green, SOL ETFs ~$904M AUM and HYPE ETFs ~$350M since May.",
       "voiceHook": "Not 'ETH season'. Consecutive days where IBIT bleeds and ETH wrappers still take the dollar.",
       "signalIds": [
         "sig-20260724-eth-etf-gt-btc",
-        "sig-20260727-btc-out-eth-in"
+        "sig-20260727-btc-out-eth-in",
+        "sig-20260727-sol-hype-etf-inflows"
       ],
       "lanes": [
         "capital-flows"
@@ -338,13 +399,15 @@
     },
     {
       "id": "ang-20260727-clarity-vs-price",
-      "at": "2026-07-28T16:10:00.000Z",
-      "thesis": "CLARITY PDF week vs what actually moves risk: oil/Hormuz, then Polymarket Fed hike odds whipsaw (~7%→~25%) into FOMC — bill is narrative, Fed+oil are the trade.",
-      "voiceHook": "Washington dropped a PDF. Prediction markets repriced the Fed twice in 48h. Guess which one traders watched.",
+      "at": "2026-07-28T16:45:00.000Z",
+      "thesis": "Jul 28: Senate shelves Clarity while Kospi crashes and Fed decision looms — bill was never the primary tape; oil/Fed/Asia risk move first, PDF second.",
+      "voiceHook": "They shelved the bill. Asia dumped 11%. Fed tomorrow. Your Clarity thesis can wait.",
       "signalIds": [
         "sig-20260727-clarity-factsheet",
         "sig-20260727-hormuz-pause-riskon",
-        "sig-20260728-polymarket-fed-hike"
+        "sig-20260728-polymarket-fed-hike",
+        "sig-20260728-clarity-shelved",
+        "sig-20260728-kospi-riskoff"
       ],
       "lanes": [
         "regulation",
@@ -354,9 +417,9 @@
       "pattern": "timeline-flip",
       "suggestedType": "provocative",
       "visualHint": "two receipts side by side: fact sheet headline vs Brent −7%",
-      "expiresAt": "2026-07-30T23:59:00.000Z",
+      "expiresAt": "2026-07-31T23:59:00.000Z",
       "status": "ready",
-      "noteworthy": false
+      "noteworthy": true
     },
     {
       "id": "ang-20260727-compliance-and-casino",
@@ -381,13 +444,14 @@
     },
     {
       "id": "ang-20260728-cme-vs-onchain-perps",
-      "at": "2026-07-28T16:10:00.000Z",
+      "at": "2026-07-28T16:45:00.000Z",
       "thesis": "CME sues its own regulator to slow US crypto/onchain perps (Kalshi/Coinbase) while Hyperliquid already runs the RWA+commodity perp book offshore — incumbents police the onshore copy, not the volume leader.",
       "voiceHook": "Wall Street isn't anti-perps. It's anti-anyone-else's-perps.",
       "signalIds": [
         "sig-20260728-cme-sues-cftc-perps",
         "sig-20260719-hl-rwa-volume-majority",
-        "sig-20260727-hl-allowlist-markets"
+        "sig-20260727-hl-allowlist-markets",
+        "sig-20260728-hl-sk-hynix-flash"
       ],
       "lanes": [
         "cex-tradfi",
@@ -422,7 +486,7 @@
       "visualHint": "net bridge bar: HL +462 vs ARB −527 + one line RWA>crypto on HL",
       "expiresAt": "2026-08-01T23:59:00.000Z",
       "status": "ready",
-      "noteworthy": true
+      "noteworthy": false
     },
     {
       "id": "ang-20260728-volume-vs-tvl-winners",
@@ -470,23 +534,22 @@
     },
     {
       "date": "2026-07-28",
-      "at": "2026-07-28T16:35:00.000Z",
-      "note": "Contract widened: bridges/L1 winners/campaigns/AI. Added HL vs ARB bridge migrate (noteworthy), SOL vol vs ETH TVL + Tron fees winner-tape, Relay bridge share. Expired stale May signals not tied to angles. Quiet UX from now — only ping noteworthy.",
+      "at": "2026-07-28T16:45:00.000Z",
+      "note": "Freshness rule: demoted Jul 22 bridge angle from noteworthy. Added Jul 28 Clarity shelved + Kospi risk-off (noteworthy). SOL/HYPE ETF AUM Jul 27 into capital angle. Keep web-hunt + dashboards. Also: Coinbase Launches tab Jul 27; HL SK Hynix flash Jul 28 (accumulate).",
       "signalIdsAdded": [
-        "sig-20260722-hl-bridge-in-arb-out",
-        "sig-20260728-sol-dex-share-vs-tvl",
-        "sig-20260728-tron-fees-leader",
-        "sig-20260728-relay-bridge-share",
-        "sig-20260511-circle-agent-stack",
-        "sig-20260506-metamask-rewards-relaunch"
+        "sig-20260728-clarity-shelved",
+        "sig-20260728-kospi-riskoff",
+        "sig-20260727-sol-hype-etf-inflows",
+        "sig-20260727-coinbase-launches-tab",
+        "sig-20260728-hl-sk-hynix-flash"
       ],
       "angleIdsTouched": [
-        "ang-20260728-liquidity-to-hl",
-        "ang-20260728-volume-vs-tvl-winners",
-        "ang-20260728-cme-vs-onchain-perps"
+        "ang-20260727-clarity-vs-price",
+        "ang-20260727-eth-over-btc-flows",
+        "ang-20260728-liquidity-to-hl"
       ],
       "noteworthyIds": [
-        "ang-20260728-liquidity-to-hl"
+        "ang-20260727-clarity-vs-price"
       ]
     }
   ]

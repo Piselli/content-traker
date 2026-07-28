@@ -35,6 +35,8 @@ On most `radar` runs:
 2. **Pattern** — ≥2 solid receipts rhyme into a ready angle the user hasn’t seen yet.
 3. User asks (`що є`, `PICK`, `що постити`, focus lane).
 
+**Freshness for pings:** noteworthy / user-facing alerts = events dated **last ~48–72h** (from scan day). Older receipts stay in JSON as backdrop for clusters — do **not** wake the user with “week of Jul 22” as if it were today’s news. Prefer newest confirming print when updating an angle.
+
 Do **not** list every ready angle every day. Do **not** name-check other CT accounts as the quality bar.
 
 ---
@@ -139,10 +141,10 @@ Keep **open** signals ≤ ~40; expire older than 14d unless tied to an open angl
 
 1. Read `public/radar-data.json` (+ this doc if needed).
 2. Expire: `expiresAt` past → `expired`; signals >14d with no angle → `expired`.
-3. **Scan breadth:** all lanes (or user subset). Prefer DefiLlama / L2Beat / bridge dashboards, protocol blogs, CoinDesk/Defiant/Blockworks-class, ETF trackers — not random CT rumor.
-4. Explicitly check: **L1/L2 winners**, **bridge net flows**, **perp OI share**, **incentive campaigns**, **AI shipping**, **RWA/DEX/perps** — anything that can become a take.
-5. Add only **new** signals (dedupe by same actor+event). Skip price-only noise unless it proves a rotation (`capital` / `metric` with numbers).
-6. **Cluster:** if ≥2 open signals rhyme → create/update an `angle` (`ready` if ≥2 solid receipts). Mark `noteworthy: true` only for spike/pattern cases.
+3. **Scan breadth (same hunt as before, wider):** web search + DefiLlama / L2Beat / bridges / ETF trackers + protocol blogs + CoinDesk/Defiant/Blockworks-class — not random CT rumor. Do not drop the news-hunt; dashboards are additive.
+4. Explicitly check: **L1/L2 winners**, **bridge net flows**, **perp OI share**, **incentive campaigns**, **AI shipping**, **RWA/DEX/perps**, **regulation/TradFi**, **stables** — anything that can become a take.
+5. Add only **new** signals (dedupe by same actor+event). Skip price-only noise unless it proves a rotation (`capital` / `metric` with numbers). Prefer logging **event `at` = real date**; backlog older than ~5–7d only if it unlocks a fresh cluster.
+6. **Cluster:** if ≥2 open signals rhyme → create/update an `angle` (`ready` if ≥2 solid receipts). Mark `noteworthy: true` only for spike/pattern with a **fresh** receipt in the last ~48–72h.
 7. Append a `days[]` entry for today (note is for agents, not a user dump).
 8. **Commit + push** `public/radar-data.json`.
 9. Reply UA per **Reply UX** above.
