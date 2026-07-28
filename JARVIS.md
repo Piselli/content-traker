@@ -232,7 +232,7 @@ Table: topic | Type | **visualCluster** | Tier | Bucket | **Move/template** | wh
 Recommend #1 + 2–3 hooks + rank rest. Flag if post needs **60 min reply window** after publish. Never recommend `text-only` for slot 1 unless no visual possible.
 
 ### RADAR (daily crypto pattern scan)
-User says `radar` / `радар` → follow `docs/RADAR.md`: scan lanes → signals → cluster angles → commit `public/radar-data.json`. Reply UA: ready angles + what’s forming. Not a headline dump.
+User says `radar` / `радар` → follow `docs/RADAR.md`: broad lanes → signals → cluster angles → commit `public/radar-data.json`. Quiet UA by default; expand only on spike/pattern or user ask.
 
 ### DRAFT (polish tweet)
 Hook + punchline + max 2 edits. End with reply bait (Move 2) unless pure meme. Links → first reply only. Name template if used (01–06).

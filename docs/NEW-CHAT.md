@@ -127,7 +127,7 @@ Norms gap analysis + today's focus + 1 performance insight
 What to prioritize this week by norm gaps
 
 ### radar / радар
-Scan crypto lanes → update `public/radar-data.json` (signals + angles). Prefer ready angles on next PICK. See `docs/RADAR.md`.
+Broad crypto scan (L1/L2, bridges, perps, campaigns…) → update `public/radar-data.json`. Quiet ack unless noteworthy. Prefer ready angles on next PICK. See `docs/RADAR.md`.
 
 ### CODE requests
 Read repo: Next.js, localStorage, src/hooks/useTracker.ts, src/lib/norms.ts. Minimal diffs.

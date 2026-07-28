@@ -1,15 +1,30 @@
 {
-  "updatedAt": "2026-07-28T16:10:00.000Z",
+  "updatedAt": "2026-07-28T16:35:00.000Z",
   "lanes": [
+    {
+      "id": "l1-l2",
+      "label": "L1 / L2",
+      "watch": "All major L1s+L2s: launches, migrations, fee wars, winners by TVL/fees/users"
+    },
+    {
+      "id": "bridges-liquidity",
+      "label": "Bridges / liquidity",
+      "watch": "Bridge volumes, chain↔chain flows, weird spikes, liquidity migrate"
+    },
     {
       "id": "defi-infra",
       "label": "DeFi infra",
-      "watch": "DEX/AMM/perps venues, hooks, allowlists, new market types"
+      "watch": "DEX/AMM/hooks, new market types, venue shipping"
+    },
+    {
+      "id": "perps-derivatives",
+      "label": "Perps / derivatives",
+      "watch": "Perp venues, OI flips, listings, venue share"
     },
     {
       "id": "rwa-compliance",
-      "label": "RWA / compliance rails",
-      "watch": "Tokenized assets, KYC secondary markets, permissioned trading"
+      "label": "RWA / compliance",
+      "watch": "Tokenized assets, KYC rails, permissioned secondary markets"
     },
     {
       "id": "capital-flows",
@@ -17,19 +32,19 @@
       "watch": "ETF flows, treasuries, unlocks, raises"
     },
     {
+      "id": "incentives-campaigns",
+      "label": "Incentives / campaigns",
+      "watch": "Points, airdrops, LM, grants — who buys attention"
+    },
+    {
       "id": "regulation",
       "label": "Regulation",
-      "watch": "Bills, SEC/CFTC, enforcement, clarity drafts"
+      "watch": "Bills, SEC/CFTC, enforcement, court fights"
     },
     {
       "id": "cex-tradfi",
       "label": "CEX × TradFi",
-      "watch": "Brokerage crypto, prediction-market M&A, Wall Street onchain"
-    },
-    {
-      "id": "l1-l2",
-      "label": "L1 / L2",
-      "watch": "Launches, migrations, fee wars, sequencer drama"
+      "watch": "Brokerage crypto, prediction markets, Wall Street onchain"
     },
     {
       "id": "stables-payments",
@@ -39,17 +54,17 @@
     {
       "id": "memes-casino",
       "label": "Memes / casino",
-      "watch": "Pump metas, casino overlay, narrative flips for liquidity"
+      "watch": "Pump metas, casino overlay, narrative flips"
     },
     {
       "id": "ai-crypto",
       "label": "AI × crypto",
-      "watch": "Agent tokens, AI infra narratives — skeptical default"
+      "watch": "Agent infra/payments — ship > vibes"
     },
     {
       "id": "narrative-rotation",
       "label": "Narrative rotation",
-      "watch": "Sector leadership shifts: DeFi vs RWA vs meme vs majors"
+      "watch": "Hot→cold; sector/chain leadership"
     }
   ],
   "signals": [
@@ -83,10 +98,10 @@
       "scannedAt": "2026-07-27T20:10:00.000Z",
       "lane": "defi-infra",
       "kind": "shipping",
-      "what": "Hyperliquid adds address-allowlisted markets (CT reporting; week of permissioned venue infrastructure).",
+      "what": "Hyperliquid adds address-allowlisted markets in the same week major DEXs ship permissioned pools (CT/venue reporting).",
       "why": "Third major venue in ~same week enabling issuer-restricted secondary trading onchain.",
-      "source": "CT / @0xAbhiP synthesis",
-      "url": "https://x.com/0xAbhiP",
+      "source": "CT synthesis / venue week reporting",
+      "url": "https://www.coindesk.com/policy/2026/07/28/inside-the-cme-and-cftc-s-battle-over-onchain-perpetual-futures",
       "status": "open"
     },
     {
@@ -184,6 +199,78 @@
       "source": "Polymarket / FinanceFeeds",
       "url": "https://financefeeds.com/fed-rate-hike-odds-25-percent-cut-priced-0-3-percent/",
       "status": "open"
+    },
+    {
+      "id": "sig-20260722-hl-bridge-in-arb-out",
+      "at": "2026-07-22",
+      "scannedAt": "2026-07-28T16:35:00.000Z",
+      "lane": "bridges-liquidity",
+      "kind": "metric",
+      "what": "Week to ~Jul 22: Hyperliquid net bridge inflows +$462M (#1); Arbitrum net −$527M (largest outflow). ETH also net positive ~+$137M.",
+      "why": "Clear liquidity migrate: capital leaving a major L2 into a perp/L1 venue — pairs with HL RWA/perp dominance.",
+      "source": "TokenPost / bridge flow trackers",
+      "url": "https://www.tokenpost.com/news/insights/22246",
+      "status": "open"
+    },
+    {
+      "id": "sig-20260728-sol-dex-share-vs-tvl",
+      "at": "2026-07-28",
+      "scannedAt": "2026-07-28T16:35:00.000Z",
+      "lane": "l1-l2",
+      "kind": "metric",
+      "what": "DefiLlama snapshot: ETH DeFi TVL ~$41.8B vs SOL ~$5.0B; SOL 24h DEX vol ~$1.50B vs ETH ~$1.13B — SOL leads trade activity, ETH leads locked capital. Base ~$4.65B TVL (top L2 band).",
+      "why": "Winner tape split: volume chain ≠ TVL chain — useful for 'where activity actually is' takes.",
+      "source": "DefiLlama chains",
+      "url": "https://defillama.com/chains",
+      "status": "open"
+    },
+    {
+      "id": "sig-20260728-tron-fees-leader",
+      "at": "2026-07-28",
+      "scannedAt": "2026-07-28T16:35:00.000Z",
+      "lane": "l1-l2",
+      "kind": "metric",
+      "what": "Same DefiLlama pull: Tron 24h chain fees ~$955k (ahead of ETH ~$240k / SOL ~$456k) with ~4.24M active addresses — fee winner ≠ narrative winner.",
+      "why": "Quiet fee leadership often ignored in CT 'L1 wars' posts.",
+      "source": "DefiLlama chains",
+      "url": "https://defillama.com/chains",
+      "status": "open"
+    },
+    {
+      "id": "sig-20260728-relay-bridge-share",
+      "at": "2026-07-28",
+      "scannedAt": "2026-07-28T16:35:00.000Z",
+      "lane": "bridges-liquidity",
+      "kind": "metric",
+      "what": "DefiLlama bridges: Relay leads ~$175M 24h / ~$1.01B 7d volume; USDT0 ~$130M 24h; Across ~$124M — bridge share concentrating in routing/stable layers.",
+      "why": "Infra for liquidity migrate is itself a winner tape — not only destination chains.",
+      "source": "DefiLlama bridges",
+      "url": "https://defillama.com/bridges",
+      "status": "open"
+    },
+    {
+      "id": "sig-20260511-circle-agent-stack",
+      "at": "2026-05-11",
+      "scannedAt": "2026-07-28T16:35:00.000Z",
+      "lane": "ai-crypto",
+      "kind": "shipping",
+      "what": "Circle Agent Stack (wallets, nanopayments to $0.000001 USDC, marketplace) live; later open-source kits for LangChain/Claude Agent SDK. USDC cited ~99.8% of x402 agent payments.",
+      "why": "AI×crypto with real rails — still relevant backdrop if agent-payment narrative reheats; expire if unused.",
+      "source": "Circle / CryptoBriefing",
+      "url": "https://cryptobriefing.com/circle-open-source-agent-stack-usdc-ai/",
+      "status": "expired"
+    },
+    {
+      "id": "sig-20260506-metamask-rewards-relaunch",
+      "at": "2026-05-06",
+      "scannedAt": "2026-07-28T16:35:00.000Z",
+      "lane": "incentives-campaigns",
+      "kind": "campaign",
+      "what": "MetaMask Rewards relaunched May 6 with challenges/airdrops/Benefits tab after Season 1 LINEA drop; ongoing points for swaps/perps/card/predictions.",
+      "why": "Wallet-layer money campaign still active — gravity for retail flow into MetaMask perps/swaps.",
+      "source": "MetaMask blog",
+      "url": "https://metamask.io/news/introducing-metamask-rewards",
+      "status": "expired"
     }
   ],
   "angles": [
@@ -203,9 +290,10 @@
       ],
       "pattern": "same-week-convergence",
       "suggestedType": "useful",
-      "visualHint": "3-panel dated logos (UNI 23 / RAY 23 / HL 27) + one punchline — Abhi shape, your voice",
+      "visualHint": "3-panel dated logos (UNI 23 / RAY 23 / HL 27) + one punchline",
       "expiresAt": "2026-07-29T23:59:00.000Z",
-      "status": "ready"
+      "status": "ready",
+      "noteworthy": false
     },
     {
       "id": "ang-20260727-rwa-demand-then-rails",
@@ -226,7 +314,8 @@
       "suggestedType": "hot topic",
       "visualHint": "simple before/after: HL category mix chart → then two DEX ship dates",
       "expiresAt": "2026-07-30T23:59:00.000Z",
-      "status": "ready"
+      "status": "ready",
+      "noteworthy": false
     },
     {
       "id": "ang-20260727-eth-over-btc-flows",
@@ -244,7 +333,8 @@
       "suggestedType": "useful",
       "visualHint": "week bar: ETH ETF vs BTC ETF inflows + one-line IBIT vs ETHA",
       "expiresAt": "2026-08-01T23:59:00.000Z",
-      "status": "ready"
+      "status": "ready",
+      "noteworthy": false
     },
     {
       "id": "ang-20260727-clarity-vs-price",
@@ -265,7 +355,8 @@
       "suggestedType": "provocative",
       "visualHint": "two receipts side by side: fact sheet headline vs Brent −7%",
       "expiresAt": "2026-07-30T23:59:00.000Z",
-      "status": "ready"
+      "status": "ready",
+      "noteworthy": false
     },
     {
       "id": "ang-20260727-compliance-and-casino",
@@ -285,7 +376,8 @@
       "suggestedType": "provocative",
       "visualHint": "split collage: permissioned pool graphic vs PUMP chart",
       "expiresAt": "2026-07-30T23:59:00.000Z",
-      "status": "ready"
+      "status": "ready",
+      "noteworthy": false
     },
     {
       "id": "ang-20260728-cme-vs-onchain-perps",
@@ -306,7 +398,51 @@
       "suggestedType": "provocative",
       "visualHint": "2-column: CME lawsuit headline vs HL RWA>crypto volume bar — same week timeline",
       "expiresAt": "2026-07-31T23:59:00.000Z",
-      "status": "ready"
+      "status": "ready",
+      "noteworthy": false
+    },
+    {
+      "id": "ang-20260728-liquidity-to-hl",
+      "at": "2026-07-28T16:35:00.000Z",
+      "thesis": "Weekly bridge tape: Hyperliquid took ~$462M net while Arbitrum bled ~$527M — liquidity is rotating into the venue that already runs majority RWA perp volume, not into classic L2 TVL leaders.",
+      "voiceHook": "They're not 'leaving Ethereum'. They're leaving the L2 story for the perp machine.",
+      "signalIds": [
+        "sig-20260722-hl-bridge-in-arb-out",
+        "sig-20260719-hl-rwa-volume-majority",
+        "sig-20260728-cme-sues-cftc-perps"
+      ],
+      "lanes": [
+        "bridges-liquidity",
+        "perps-derivatives",
+        "l1-l2",
+        "cex-tradfi"
+      ],
+      "pattern": "liquidity-migrate",
+      "suggestedType": "hot topic",
+      "visualHint": "net bridge bar: HL +462 vs ARB −527 + one line RWA>crypto on HL",
+      "expiresAt": "2026-08-01T23:59:00.000Z",
+      "status": "ready",
+      "noteworthy": true
+    },
+    {
+      "id": "ang-20260728-volume-vs-tvl-winners",
+      "at": "2026-07-28T16:35:00.000Z",
+      "thesis": "Same day DefiLlama: SOL leads DEX volume with ~1/8 ETH's DeFi TVL; Tron quietly prints the highest chain fees — 'winner' depends on which tape you open.",
+      "voiceHook": "Pick your leaderboard. TVL, volume, or fees. They don't agree.",
+      "signalIds": [
+        "sig-20260728-sol-dex-share-vs-tvl",
+        "sig-20260728-tron-fees-leader"
+      ],
+      "lanes": [
+        "l1-l2",
+        "narrative-rotation"
+      ],
+      "pattern": "winner-tape",
+      "suggestedType": "useful",
+      "visualHint": "3 bars: TVL / 24h DEX vol / 24h fees for ETH SOL TRON BASE",
+      "expiresAt": "2026-08-02T23:59:00.000Z",
+      "status": "ready",
+      "noteworthy": false
     }
   ],
   "days": [
@@ -334,20 +470,23 @@
     },
     {
       "date": "2026-07-28",
-      "at": "2026-07-28T16:10:00.000Z",
-      "note": "Day-2 scan. Fresh: CME vs CFTC perps lawsuit deep-dive (CoinDesk) → new TradFi-incumbent angle vs HL RWA volume. Jul 27 ETF split extends ETH>BTC. Polymarket Fed hike whipsaw upgrades Clarity-vs-price. Permissioned DEX week still ready (expires tomorrow) — Abhi shape crowded, prefer demand-first / CME fight / casino-parallel voice.",
+      "at": "2026-07-28T16:35:00.000Z",
+      "note": "Contract widened: bridges/L1 winners/campaigns/AI. Added HL vs ARB bridge migrate (noteworthy), SOL vol vs ETH TVL + Tron fees winner-tape, Relay bridge share. Expired stale May signals not tied to angles. Quiet UX from now — only ping noteworthy.",
       "signalIdsAdded": [
-        "sig-20260728-cme-sues-cftc-perps",
-        "sig-20260727-btc-out-eth-in",
-        "sig-20260728-polymarket-fed-hike"
+        "sig-20260722-hl-bridge-in-arb-out",
+        "sig-20260728-sol-dex-share-vs-tvl",
+        "sig-20260728-tron-fees-leader",
+        "sig-20260728-relay-bridge-share",
+        "sig-20260511-circle-agent-stack",
+        "sig-20260506-metamask-rewards-relaunch"
       ],
       "angleIdsTouched": [
-        "ang-20260728-cme-vs-onchain-perps",
-        "ang-20260727-eth-over-btc-flows",
-        "ang-20260727-clarity-vs-price",
-        "ang-20260727-permissioned-dex-week",
-        "ang-20260727-rwa-demand-then-rails",
-        "ang-20260727-compliance-and-casino"
+        "ang-20260728-liquidity-to-hl",
+        "ang-20260728-volume-vs-tvl-winners",
+        "ang-20260728-cme-vs-onchain-perps"
+      ],
+      "noteworthyIds": [
+        "ang-20260728-liquidity-to-hl"
       ]
     }
   ]

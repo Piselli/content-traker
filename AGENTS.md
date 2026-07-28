@@ -30,10 +30,10 @@ JARVIS.md                     → X content strategy
 
 ## Agent: `radar` / `радар`
 
-1. Follow `docs/RADAR.md` — scan lanes, upsert signals, cluster angles
+1. Follow `docs/RADAR.md` — broad lanes (L1/L2, bridges, perps, campaigns…), upsert signals, cluster angles
 2. Write `public/radar-data.json` → **commit + push** (same as tracker logging)
-3. UA reply: ready angles + forming clusters (not a news digest)
-4. On PICK: read ready angles first
+3. UA reply: **quiet by default** (1 line). Expand only on spike/pattern / user ask
+4. On PICK: read ready / noteworthy angles first
 
 ## Agent: screenshot + URL from user
 

@@ -1,24 +1,41 @@
 # Crypto Radar — agent contract
 
-Working memory for **Abhi-style** posts: multi-signal patterns across a week, not a news dump.
+Working memory for **crypto takes**: dated facts across many lanes → cluster when they rhyme → fuel for PICK. Not a news digest. Not locked to any one CT style or one example week.
 
-Trigger: user writes **`radar`** / **`радар`** (optionally with focus: `radar RWA`, `radar only DeFi`).
+Trigger: user writes **`radar`** / **`радар`** (optionally with focus: `radar bridges`, `radar only L2`).
 
-Goal: cover many lanes → keep **signals** → promote **angles** when 2+ receipts rhyme → surface on **PICK**.
+Goal: **accumulate broadly** in `public/radar-data.json`. Surface to the user **only** when something is genuinely strong or a clear pattern formed. Quiet the rest.
 
 ---
 
 ## Lifecycle
 
 ```
-daily radar → add signals → cluster into angles → expire / use → (optional) promote thesis later
+daily radar → add signals → cluster angles when ready → expire / use
 ```
 
-- **Signal** = one dated fact + source (shipping, capital, policy, metric, flip, narrative).
-- **Angle** = publishable thesis built from ≥2 signals (or 1 very strong + clear mechanism).
-- **Pattern** = recurring shape (same-week convergence, capital rotation, timeline flip, silent standard).
+- **Signal** = one dated fact + source (shipping, capital, policy, metric, flip, narrative, campaign).
+- **Angle** = publishable thesis from ≥2 signals (or 1 very strong + clear mechanism).
+- **Pattern** = shape name (see below) — any recurring structure, not a fixed checklist from one viral post.
 
 Not a wiki. Not Judgment OS. If it can’t become a tweet within ~7 days, expire or demote.
+
+---
+
+## Reply UX (critical)
+
+On most `radar` runs:
+
+- Upsert signals / angles → **commit + push**.
+- Reply **Ukrainian, one short line**: scanned, N new signals, done — **no digest**.
+
+**Only interrupt / expand** when at least one of:
+
+1. **Spike** — one fact is unusually strong alone (weird bridge spike, major L1 liquidity migrate, huge campaign, regulatory hammer).
+2. **Pattern** — ≥2 solid receipts rhyme into a ready angle the user hasn’t seen yet.
+3. User asks (`що є`, `PICK`, `що постити`, focus lane).
+
+Do **not** list every ready angle every day. Do **not** name-check other CT accounts as the quality bar.
 
 ---
 
@@ -26,29 +43,35 @@ Not a wiki. Not Judgment OS. If it can’t become a tweet within ~7 days, expire
 
 | id | What to watch |
 |----|----------------|
-| `defi-infra` | DEX / AMM / perps venues, hooks, allowlists, new market types |
+| `l1-l2` | **All major L1s + L2s**: launches, migrations, fee wars, sequencer drama, “winners” by TVL/fees/users |
+| `bridges-liquidity` | Bridge volumes, chain↔chain flows, weird spikes, liquidity leaving/entering ecosystems |
+| `defi-infra` | DEX / AMM / hooks / new market types / venue shipping |
+| `perps-derivatives` | Perp venues, OI flips, new listings, venue share shifts |
 | `rwa-compliance` | Tokenized assets, KYC rails, permissioned secondary markets |
-| `capital-flows` | ETF inflows/outflows, treasury buys, unlocks, raises |
-| `regulation` | Bills, SEC/CFTC, bans, clarity drafts, enforcement |
-| `cex-tradfi` | CEX × TradFi bridges, brokerage crypto, prediction markets M&A |
-| `l1-l2` | Chain launches, migrations, fee wars, sequencer drama |
-| `stables-payments` | Stablecoin rails, banking partners, settlement |
+| `capital-flows` | ETF flows, treasuries, unlocks, raises, incentive / points **money campaigns** |
+| `incentives-campaigns` | Airdrop seasons, points programs, liquidity mining, grant races — who is buying attention |
+| `regulation` | Bills, SEC/CFTC, bans, enforcement, court fights |
+| `cex-tradfi` | CEX × TradFi, brokerage crypto, prediction markets |
+| `stables-payments` | Stablecoin rails, banking partners, settlement, issuer moves |
 | `memes-casino` | Pump metas, casino overlay, narrative flips for liquidity |
-| `ai-crypto` | AI agent tokens, infra narratives (skeptical by default) |
-| `narrative-rotation` | What’s hot → cold; sector leadership (DeFi vs RWA vs meme) |
+| `ai-crypto` | AI agents, infra, payments rails — ship > vibes |
+| `narrative-rotation` | What’s hot → cold; sector / chain leadership |
 
-Football / CT meta stay in normal PICK — radar is **crypto pattern fuel**.
+Football / CT meta stay in normal PICK — radar is **crypto take fuel**.
 
 ---
 
-## Pattern shapes (prefer these)
+## Pattern shapes (examples, not a closed list)
 
-1. **Same-week convergence** — 2–3 major actors ship the *same* capability (Abhi: UNI + Raydium + HL permissioned).
-2. **Demand flip** — volume/flows move to a new category (e.g. RWA > crypto on a venue).
-3. **Capital rotation** — ETF / treasury / sector money switches (ETH vs BTC week).
-4. **Timeline flip** — same actor said X, did Y (receipts + dates).
-5. **Silent standard** — compliance/permissioning becomes default without debate.
-6. **Illusion-of-earn** — product usage collapses if casino overlay removed.
+1. **Same-week convergence** — 2–3 major actors ship the *same* capability.
+2. **Demand flip** — volume/flows move to a new category or chain.
+3. **Capital rotation** — ETF / treasury / sector / chain money switches.
+4. **Liquidity migrate** — TVL, bridge net flows, or LP inventory clearly leaves A → B.
+5. **Timeline flip** — same actor said X, did Y (receipts + dates).
+6. **Silent standard** — a practice becomes default without debate.
+7. **Illusion-of-earn** — usage collapses if incentive / casino overlay removed.
+8. **Campaign gravity** — points/airdrop/incentive sucks liquidity or mindshare for a window.
+9. **Winner tape** — fees, users, OI, or bridge share concentrates in a clear leader.
 
 ---
 
@@ -62,7 +85,7 @@ type RadarSignal = {
   at: string;           // ISO date of event (not scan day)
   scannedAt: string;    // ISO when logged
   lane: string;
-  kind: "shipping" | "capital" | "policy" | "metric" | "flip" | "narrative";
+  kind: "shipping" | "capital" | "policy" | "metric" | "flip" | "narrative" | "campaign";
   what: string;         // one line fact
   why: string;          // why it might matter for a post
   source: string;       // outlet / blog / account
@@ -83,14 +106,16 @@ type RadarAngle = {
   expiresAt: string;    // ISO — usually +48–72h for hot, +7d for structural
   status: "open" | "ready" | "used" | "expired" | "killed";
   usedTweetUrl?: string;
+  noteworthy?: boolean; // true = worth surfacing to user on next radar / PICK
 };
 
 type RadarDay = {
   date: string;         // YYYY-MM-DD
   at: string;
-  note: string;         // 2–4 lines: what changed / what’s forming
+  note: string;         // internal: what changed (not dumped to user by default)
   signalIdsAdded: string[];
   angleIdsTouched: string[];
+  noteworthyIds?: string[]; // angles/signals worth a user ping
 };
 ```
 
@@ -114,30 +139,27 @@ Keep **open** signals ≤ ~40; expire older than 14d unless tied to an open angl
 
 1. Read `public/radar-data.json` (+ this doc if needed).
 2. Expire: `expiresAt` past → `expired`; signals >14d with no angle → `expired`.
-3. **Scan breadth:** web search / reliable sources across **all lanes** (or user subset). Prefer primary blogs, CoinDesk/Defiant/Blockworks-class, protocol announcements — not random CT rumor.
-4. Add only **new** signals (dedupe by same actor+event). Skip price-only noise unless it proves a rotation (`capital` / `metric` with numbers).
-5. **Cluster:** if ≥2 open signals rhyme → create/update an `angle` (`ready` if ≥2 solid receipts).
-6. Append a `days[]` entry for today.
-7. **Commit + push** `public/radar-data.json` (same urgency as tracker/judgment logging).
-8. Reply **Ukrainian**, short:
-   - new signals count by lane
-   - ready angles (thesis + voiceHook + expires)
-   - 1 line: what’s *forming* but not ready yet
-   - do **not** dump a full news digest
+3. **Scan breadth:** all lanes (or user subset). Prefer DefiLlama / L2Beat / bridge dashboards, protocol blogs, CoinDesk/Defiant/Blockworks-class, ETF trackers — not random CT rumor.
+4. Explicitly check: **L1/L2 winners**, **bridge net flows**, **perp OI share**, **incentive campaigns**, **AI shipping**, **RWA/DEX/perps** — anything that can become a take.
+5. Add only **new** signals (dedupe by same actor+event). Skip price-only noise unless it proves a rotation (`capital` / `metric` with numbers).
+6. **Cluster:** if ≥2 open signals rhyme → create/update an `angle` (`ready` if ≥2 solid receipts). Mark `noteworthy: true` only for spike/pattern cases.
+7. Append a `days[]` entry for today (note is for agents, not a user dump).
+8. **Commit + push** `public/radar-data.json`.
+9. Reply UA per **Reply UX** above.
 
 ### Optional focus
 
-- `radar RWA` / `radar capital` → still peek adjacent lanes for convergence.
-- Paste a link/screenshot mid-day → upsert as signal without full scan (`radar add` / just the URL).
+- `radar bridges` / `radar L2` / `radar AI` → still peek adjacent lanes for convergence.
+- Paste a link/screenshot mid-day → upsert as signal without full scan (`radar add` / just the URL). Quiet ack unless noteworthy.
 
 ---
 
 ## On PICK / WEEK / «що постити»
 
-1. Load open/ready angles from radar **before** inventing topics.
-2. Prefer `ready` angles that match norm gaps (`useful` / `hot topic` / `provocative`).
+1. Load open/ready angles from radar **before** inventing topics — prefer `noteworthy` then other `ready`.
+2. Prefer angles that match norm gaps (`useful` / `hot topic` / `provocative`).
 3. Mark angle `used` + `usedTweetUrl` when user posts from it (with tracker log).
-4. Never force a dead angle — if expired or crowded (everyone already posted the Abhi shape), kill it.
+4. Kill crowded or dead angles; don’t force yesterday’s cluster.
 
 ---
 
@@ -149,9 +171,10 @@ Keep **open** signals ≤ ~40; expire older than 14d unless tied to an open angl
 | Mechanism thesis | “Notable shift” corporate tone |
 | Cynical voiceHook | Essay dumps into JSON |
 | Expire aggressively | Infinite archive of headlines |
-| Same-week tables / timelines as visualHint | Fake precision |
+| Tables / flow diagrams as visualHint | Fake precision |
+| Broad “winners + flows” hunt | Fixate on one viral template or one account |
 
-Reference bar: Abhi permissioned-DEX week — three dated shipping events → one structural claim. Your version adds **voice** + **visual**, not softer language.
+Strong post shape = **several dated receipts → one structural claim → your voice + visual**. The example that seeded this system was one such week — not the only shape to chase.
 
 ---
 

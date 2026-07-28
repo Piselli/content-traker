@@ -22,7 +22,7 @@ Next.js 16 App Router · TypeScript · Tailwind · `public/tracker-data.json` sy
 
 - `public/tracker-data.json` — **source of truth** agent commits after user sends tweet data
 - `public/judgment-data.json` — Judgment OS records (decision → prediction → review)
-- `public/radar-data.json` — Crypto Radar: signals → angles for Abhi-style pattern posts
+- `public/radar-data.json` — Crypto Radar: signals → angles for crypto takes
 - `docs/JUDGMENT-RECORD.md` — schema + agent contract for judgment records
 - `docs/RADAR.md` — radar lanes, patterns, daily `radar` workflow
 - `src/lib/norms.ts` — weekly targets
@@ -77,13 +77,13 @@ Goal: improve judgment via stakes, not accumulate a wiki. See `docs/JUDGMENT-REC
 
 ## Crypto Radar (from 2026-07-27)
 
-Goal: catch multi-signal patterns (permissioned DEX week, capital rotation, demand flips) so PICK has fuel before CT already posted the Abhi shape. See `docs/RADAR.md`.
+Goal: accumulate crypto facts across L1/L2, bridges, perps, DEX, DeFi, RWA, AI, incentive campaigns, capital flows — cluster into takes when they rhyme. See `docs/RADAR.md`. Not locked to any one CT template.
 
-**When user writes `radar` / `радар`:** scan all lanes (or focus) → upsert signals + cluster angles in `public/radar-data.json` → **commit + push** → short UA summary (ready angles, not news dump).
+**When user writes `radar` / `радар`:** scan all lanes (or focus) → upsert signals + cluster angles in `public/radar-data.json` → **commit + push** → **quiet UA ack** unless spike/pattern/`noteworthy` (then short ping). No daily digest.
 
-**Mid-day link/screenshot:** upsert as signal (`radar add` or bare URL in radar context).
+**Mid-day link/screenshot:** upsert as signal (`radar add` or bare URL in radar context); quiet unless noteworthy.
 
-**On PICK / WEEK / «що постити»:** read open/ready angles first; prefer those matching norm gaps. After user posts from an angle → mark `used` + `usedTweetUrl`.
+**On PICK / WEEK / «що постити»:** read open/ready angles first (prefer `noteworthy`); prefer those matching norm gaps. After user posts from an angle → mark `used` + `usedTweetUrl`.
 
 ## Do NOT
 
