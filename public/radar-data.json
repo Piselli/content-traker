@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T17:00:00.000Z",
+  "updatedAt": "2026-07-28T18:52:13.204Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -83,7 +83,8 @@
       "why": "Major DEX productizes KYC secondary markets for tokenized assets.",
       "source": "Uniswap Labs blog",
       "url": "https://blog.uniswap.org/introducing-permissioned-pools-on-uniswap-v4",
-      "status": "open"
+      "status": "open",
+      "tags": []
     },
     {
       "id": "sig-20260723-ray-permissioned-amm",
@@ -95,7 +96,8 @@
       "why": "ETH + SOL top DEXs ship the same compliance primitive in parallel — Superstate on both.",
       "source": "SolanaFloor / Raydium",
       "url": "https://solanafloor.com/news/raydium-opens-de-fi-liquidity-to-regulated-assets-with-permissioned-amms",
-      "status": "open"
+      "status": "open",
+      "tags": []
     },
     {
       "id": "sig-20260727-hl-allowlist-markets",
@@ -107,7 +109,10 @@
       "why": "Third major venue in ~same week enabling issuer-restricted secondary trading onchain.",
       "source": "CT synthesis / venue week reporting",
       "url": "https://www.coindesk.com/policy/2026/07/28/inside-the-cme-and-cftc-s-battle-over-onchain-perpetual-futures",
-      "status": "open"
+      "status": "open",
+      "tags": [
+        "hl-perps-rwa"
+      ]
     },
     {
       "id": "sig-20260719-hl-rwa-volume-majority",
@@ -131,7 +136,10 @@
       "why": "Institutional marginal dollar rotating ETH over BTC — pairs with ETH/BTC breakout narrative.",
       "source": "The Defiant / Farside",
       "url": "https://thedefiant.io/converge/markets/ether-etfs-pull-104m-tripling-bitcoin-s-weekly-inflows",
-      "status": "open"
+      "status": "open",
+      "tags": [
+        "wrappers-etf"
+      ]
     },
     {
       "id": "sig-20260727-clarity-factsheet",
@@ -143,7 +151,10 @@
       "why": "Policy theater vs price — useful for provocative 'bill as narrative, not catalyst' take.",
       "source": "CoinEdition / CoinDesk",
       "url": "https://coinedition.com/deconstructing-the-clarity-act-senate-leaders-push-back-on-critics/",
-      "status": "open"
+      "status": "open",
+      "tags": [
+        "clarity-policy"
+      ]
     },
     {
       "id": "sig-20260727-hormuz-pause-riskon",
@@ -155,7 +166,8 @@
       "why": "Macro risk-on backdrop — weak alone, strong as timing context for RWA/DeFi posts.",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/07/27/crypto-steadies-as-iran-u-s-pause-sends-oil-tumbling-lifts-risk-assets",
-      "status": "open"
+      "status": "open",
+      "tags": []
     },
     {
       "id": "sig-20260727-pump-mcap-run",
@@ -167,7 +179,8 @@
       "why": "Same week as permissioned RWA rails: casino and compliance narratives running in parallel.",
       "source": "CoinDesk markets",
       "url": "https://www.coindesk.com/markets/2026/07/27/crypto-steadies-as-iran-u-s-pause-sends-oil-tumbling-lifts-risk-assets",
-      "status": "open"
+      "status": "open",
+      "tags": []
     },
     {
       "id": "sig-20260728-cme-sues-cftc-perps",
@@ -179,7 +192,8 @@
       "why": "Incumbent TradFi using court + regulator fight to slow US onchain perps — same week HL RWA already majority venue volume.",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/policy/2026/07/28/inside-the-cme-and-cftc-s-battle-over-onchain-perpetual-futures",
-      "status": "open"
+      "status": "open",
+      "tags": []
     },
     {
       "id": "sig-20260727-btc-out-eth-in",
@@ -191,7 +205,10 @@
       "why": "Rotation not just weekly print: daily split still prefers ETH/alts wrappers over BTC.",
       "source": "SoSoValue / Cointelegraph flash",
       "url": "https://www.kucoin.com/news/flash/july-27-etf-flows-bitcoin-posts-11-64m-outflows-as-ethereum-solana-xrp-see-inflows",
-      "status": "open"
+      "status": "open",
+      "tags": [
+        "wrappers-etf"
+      ]
     },
     {
       "id": "sig-20260728-polymarket-fed-hike",
@@ -203,7 +220,8 @@
       "why": "Crypto prediction market is the live Fed thermometer — pairs with oil/risk narrative, not CLARITY PDF.",
       "source": "Polymarket / FinanceFeeds",
       "url": "https://financefeeds.com/fed-rate-hike-odds-25-percent-cut-priced-0-3-percent/",
-      "status": "open"
+      "status": "open",
+      "tags": []
     },
     {
       "id": "sig-20260722-hl-bridge-in-arb-out",
@@ -215,7 +233,10 @@
       "why": "Clear liquidity migrate: capital leaving a major L2 into a perp/L1 venue — pairs with HL RWA/perp dominance.",
       "source": "TokenPost / bridge flow trackers",
       "url": "https://www.tokenpost.com/news/insights/22246",
-      "status": "open"
+      "status": "open",
+      "tags": [
+        "hl-perps-rwa"
+      ]
     },
     {
       "id": "sig-20260728-sol-dex-share-vs-tvl",
@@ -227,7 +248,10 @@
       "why": "Winner tape split: volume chain ≠ TVL chain — useful for 'where activity actually is' takes.",
       "source": "DefiLlama chains",
       "url": "https://defillama.com/chains",
-      "status": "open"
+      "status": "open",
+      "tags": [
+        "l1-winners"
+      ]
     },
     {
       "id": "sig-20260728-tron-fees-leader",
@@ -239,7 +263,10 @@
       "why": "Quiet fee leadership often ignored in CT 'L1 wars' posts.",
       "source": "DefiLlama chains",
       "url": "https://defillama.com/chains",
-      "status": "open"
+      "status": "open",
+      "tags": [
+        "l1-winners"
+      ]
     },
     {
       "id": "sig-20260728-relay-bridge-share",
@@ -251,7 +278,8 @@
       "why": "Infra for liquidity migrate is itself a winner tape — not only destination chains.",
       "source": "DefiLlama bridges",
       "url": "https://defillama.com/bridges",
-      "status": "open"
+      "status": "open",
+      "tags": []
     },
     {
       "id": "sig-20260511-circle-agent-stack",
@@ -287,7 +315,10 @@
       "why": "Same-day policy print that actually moved risk tape with Fed/Kospi — upgrades Clarity-as-narrative thesis with a dated delay receipt.",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/07/28/bitcoin-drops-as-south-korean-stocks-tumble-senate-shelves-crypto-clarity-act",
-      "status": "open"
+      "status": "open",
+      "tags": [
+        "clarity-policy"
+      ]
     },
     {
       "id": "sig-20260728-kospi-riskoff",
@@ -299,7 +330,10 @@
       "why": "Macro tape > crypto-native catalyst for the day — pairs with Clarity delay + Fed.",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/07/28/bitcoin-drops-as-south-korean-stocks-tumble-senate-shelves-crypto-clarity-act",
-      "status": "open"
+      "status": "open",
+      "tags": [
+        "hl-perps-rwa"
+      ]
     },
     {
       "id": "sig-20260727-sol-hype-etf-inflows",
@@ -311,7 +345,11 @@
       "why": "Alt wrappers still taking dollars — extends rotation beyond ETH-only story.",
       "source": "Motley Fool",
       "url": "https://www.fool.com/investing/2026/07/27/solana-and-hyperliquid-etfs-continue-to-see-new-in/",
-      "status": "open"
+      "status": "open",
+      "tags": [
+        "wrappers-etf",
+        "hl-perps-rwa"
+      ]
     },
     {
       "id": "sig-20260727-coinbase-launches-tab",
@@ -323,7 +361,8 @@
       "why": "CEX distribution layer for casino/new-launch meta — 100M-user funnel into onchain launches.",
       "source": "Coinbase / Solana Compass",
       "url": "https://solanacompass.com/news/coinbase-opens-launches-tab-for-instant-dex-trading-of-new-base-and-solana-tokens",
-      "status": "open"
+      "status": "open",
+      "tags": []
     },
     {
       "id": "sig-20260728-hl-sk-hynix-flash",
@@ -335,7 +374,8 @@
       "why": "RWA/stock perps on HL now front-run TradFi tape — same venue as RWA volume majority story.",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/07/28/perpetuals-tied-to-sk-hynix-suffer-a-flash-crash-to-usd900-on-hyperliquid",
-      "status": "open"
+      "status": "open",
+      "tags": []
     },
     {
       "id": "sig-20260728-ms-eth-sol-etp",
@@ -347,7 +387,10 @@
       "why": "Major bank distribution beyond BTC into ETH+SOL same day as Clarity delay — wrappers keep expanding while policy stalls.",
       "source": "Morgan Stanley / CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/07/28/morgan-stanley-debuts-ether-and-solana-etps-after-bitcoin-fund-success",
-      "status": "open"
+      "status": "open",
+      "tags": [
+        "wrappers-etf"
+      ]
     },
     {
       "id": "sig-20260726-garden-solver-450k",
@@ -359,7 +402,8 @@
       "why": "Bridge/swap trust lives in solver ops, not just contracts — failure-mode take.",
       "source": "Cointelegraph / Blockaid",
       "url": "https://cointelegraph.com/news/garden-finance-app-offline-450k-htlc-exploit",
-      "status": "open"
+      "status": "open",
+      "tags": []
     },
     {
       "id": "sig-20260726-wemix-mint-freeze",
@@ -371,7 +415,8 @@
       "why": "Stablecoin mint via key/owner compromise → full network pause — classic failure tape.",
       "source": "CryptoSlate",
       "url": "https://cryptoslate.com/wemix-owner-breach-minted-5-23m-tokens-outside-its-100-backed-stablecoin-controls/",
-      "status": "open"
+      "status": "open",
+      "tags": []
     },
     {
       "id": "sig-20260722-afx-bridge-24m",
@@ -383,7 +428,293 @@
       "why": "Custom bridge ≠ L2 security — backdrop for Garden/solver week.",
       "source": "The Defiant / Blockaid",
       "url": "https://thedefiant.io/news/hacks/attacker-drains-usd24m-in-usdc-from-afx-bridge-on-arbitrum",
-      "status": "open"
+      "status": "open",
+      "tags": []
+    },
+    {
+      "id": "sig-20260728-summerfi-to-wind-down-after--cc5b002e",
+      "at": "2026-07-28",
+      "scannedAt": "2026-07-28T18:52:13.204Z",
+      "lane": "failures-rugs",
+      "kind": "exploit",
+      "what": "SummerFi to Wind Down After Seven Years, Citing Exploit",
+      "why": "Watcher spike: strong failure/shipping/capital headline — check for take.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/defi/summerfi-to-wind-down-after-seven-years-citing-exploit",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260726-bitmart-to-wind-down-exchang-da5f6ead",
+      "at": "2026-07-26",
+      "scannedAt": "2026-07-28T18:52:13.204Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "BitMart to Wind Down Exchange, End Trading by Aug. 26",
+      "why": "Watcher spike: strong failure/shipping/capital headline — check for take.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/converge/cefi/bitmart-to-wind-down-exchange-end-trading-by-aug-26",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260724-perp-dex-dango-to-wind-down--a267a875",
+      "at": "2026-07-24",
+      "scannedAt": "2026-07-28T18:52:13.204Z",
+      "lane": "perps-derivatives",
+      "kind": "narrative",
+      "what": "Perp DEX Dango to Wind Down, Will Halt Trading July 29",
+      "why": "Watcher spike: strong failure/shipping/capital headline — check for take.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/defi/perp-dex-dango-to-wind-down-will-halt-trading-july-29",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260728-wall-street-veteran-don-wils-39fed5dc",
+      "at": "2026-07-28",
+      "scannedAt": "2026-07-28T18:52:13.204Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Wall Street veteran Don Wilson says regulators are getting perps all wrong",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/07/28/wall-street-veteran-don-wilson-says-regulators-are-getting-crypto-s-biggest-trading-innovation-all-wrong",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260728-blackrock-fidelity-other-wal-752f1305",
+      "at": "2026-07-28",
+      "scannedAt": "2026-07-28T18:52:13.204Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "BlackRock, Fidelity, other Wall Street giants back the Clarity Act",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/policy/2026/07/28/blackrock-fidelity-other-wall-street-giants-back-the-clarity-act",
+      "status": "open",
+      "tags": [
+        "wrappers-etf",
+        "clarity-policy"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260728-ethereum-startup-ethsystems--451d68c5",
+      "at": "2026-07-28",
+      "scannedAt": "2026-07-28T18:52:13.204Z",
+      "lane": "l1-l2",
+      "kind": "narrative",
+      "what": "Ethereum startup EthSystems bets privacy is key to getting banks on public blockchains",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/tech/2026/07/28/ethereum-startup-ethsystems-bets-privacy-is-key-to-getting-banks-on-public-blockchains",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260728-russia-outlines-new-digital--243b5ca1",
+      "at": "2026-07-28",
+      "scannedAt": "2026-07-28T18:52:13.204Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Russia outlines new digital depository rules ahead of fall crypto framework roll-out",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/policy/2026/07/28/russia-outlines-new-digital-depository-rules-ahead-of-fall-crypto-framework-roll-out",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260728-hyperliquid-is-taking-crypto-3f4e43d0",
+      "at": "2026-07-28",
+      "scannedAt": "2026-07-28T18:52:13.204Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Hyperliquid is taking crypto perps deep into DeFi’s ‘money LEGO’ land",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/07/28/hyperliquid-is-taking-crypto-perps-deep-into-defi-s-money-lego-land",
+      "status": "open",
+      "tags": [
+        "hl-perps-rwa"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260728-zcash-seals-1-7-billion-shie-027f8844",
+      "at": "2026-07-28",
+      "scannedAt": "2026-07-28T18:52:13.204Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Zcash seals $1.7 billion shielded pool as Ironwood upgrade activates",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/tech/2026/07/28/zcash-seals-usd1-7-billion-shielded-pool-as-ironwood-upgrade-activates",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260728-core-scientific-lands-amd-ai-f6b075d8",
+      "at": "2026-07-28",
+      "scannedAt": "2026-07-28T18:52:13.204Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Core Scientific lands AMD AI deal as bitcoin mining operation winds down",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/07/28/core-scientific-lands-amd-ai-deal-as-bitcoin-mining-operation-winds-down",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260728-binance-makes-fighting-crypt-b8445934",
+      "at": "2026-07-28",
+      "scannedAt": "2026-07-28T18:52:13.204Z",
+      "lane": "cex-tradfi",
+      "kind": "narrative",
+      "what": "Binance makes fighting crypto crime more difficult, says new report",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/07/28/binance-makes-fighting-crypto-crime-more-difficult-says-new-nyt-article",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260728-apple-kept-fake-bitcoin-wall-2da2ba6b",
+      "at": "2026-07-28",
+      "scannedAt": "2026-07-28T18:52:13.204Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "Apple kept fake bitcoin wallet on App Store after $875,000 theft report, lawsuit alleges",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/07/28/apple-kept-fake-bitcoin-wallet-on-app-store-after-usd875-000-theft-report-lawsuit-alleges",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260728-bitcoin-s-recent-stability-h-847e25b2",
+      "at": "2026-07-28",
+      "scannedAt": "2026-07-28T18:52:13.204Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin’s recent stability hasn't been enough to spark a broader altcoin rally",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/daybook-us/2026/07/28/bitcoin-s-recent-stability-hasn-t-been-enough-to-spark-a-broader-altcoin-rally",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260728-1inch-opens-aqua-liquidity-p-b56b977e",
+      "at": "2026-07-28",
+      "scannedAt": "2026-07-28T18:52:13.204Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "1inch opens Aqua liquidity protocol across 13 chains",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/web3/2026/07/27/1inch-opens-aqua-liquidity-protocol-across-13-chains",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260728-bitmex-and-bitmart-may-be-fi-ecf44374",
+      "at": "2026-07-28",
+      "scannedAt": "2026-07-28T18:52:13.204Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "BitMEX and BitMart may be first casualties of crypto trading slump",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/07/28/bitmex-and-bitmart-may-be-first-casualties-of-crypto-trading-slump",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260728-hong-kong-s-central-bank-put-578f2b28",
+      "at": "2026-07-28",
+      "scannedAt": "2026-07-28T18:52:13.204Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Hong Kong’s central bank puts a number on lenders' quantum preparedness. It's very low.",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/07/28/hong-kong-s-central-bank-puts-a-number-on-lenders-quantum-preparedness-it-s-very-low",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260728-live-updates-crypto-climbs-o-62c52da4",
+      "at": "2026-07-28",
+      "scannedAt": "2026-07-28T18:52:13.204Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Live updates: Crypto climbs off worst levels as stock selloff is contained to AI names",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/07/28/bitcoin-recovers-from-asian-session-lows-nasdaq-futures-remain-under-pressure",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260728-bitcoin-slides-2-after-u-s-c-18a7328a",
+      "at": "2026-07-28",
+      "scannedAt": "2026-07-28T18:52:13.204Z",
+      "lane": "narrative-rotation",
+      "kind": "metric",
+      "what": "Bitcoin slides 2% after U.S. close while Korea’s Kospi plunges 10%",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/07/28/bitcoin-slides-2-after-u-s-close-while-korea-s-kospi-plunges-10",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260728-etoro-takes-strategic-stake--f0a2b6fd",
+      "at": "2026-07-28",
+      "scannedAt": "2026-07-28T18:52:13.204Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "eToro Takes Strategic Stake in Onchain Derivatives Exchange Extended, Plans Zengo Tie-Up",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/cefi/etoro-strategic-stake-onchain-derivatives-extended-zengo",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260728-near-governance-votes-to-scr-e6437a61",
+      "at": "2026-07-28",
+      "scannedAt": "2026-07-28T18:52:13.204Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "NEAR Governance Votes to Scrap Developer Gas Rebate",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/blockchains/near-governance-votes-to-scrap-developer-gas-rebate",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -604,6 +935,77 @@
       "expiresAt": "2026-08-02T23:59:00.000Z",
       "status": "ready",
       "noteworthy": false
+    },
+    {
+      "id": "ang-watch-hl-perps-rwa",
+      "at": "2026-07-28T18:52:13.204Z",
+      "thesis": "Watcher cluster [hl-perps-rwa]: 5 related receipts in ~7d across defi-infra, bridges-liquidity, narrative-rotation, capital-flows.",
+      "voiceHook": "Pattern forming: hl perps rwa.",
+      "signalIds": [
+        "sig-20260728-kospi-riskoff",
+        "sig-20260728-hyperliquid-is-taking-crypto-3f4e43d0",
+        "sig-20260727-hl-allowlist-markets",
+        "sig-20260727-sol-hype-etf-inflows",
+        "sig-20260722-hl-bridge-in-arb-out"
+      ],
+      "lanes": [
+        "defi-infra",
+        "bridges-liquidity",
+        "narrative-rotation",
+        "capital-flows"
+      ],
+      "pattern": "same-week-convergence",
+      "suggestedType": "hot topic",
+      "visualHint": "Receipts for hl-perps-rwa: dates + sources",
+      "expiresAt": "2026-08-01T18:52:13.204Z",
+      "status": "ready",
+      "noteworthy": true,
+      "watcher": true
+    },
+    {
+      "id": "ang-watch-wrappers-etf",
+      "at": "2026-07-28T18:52:13.204Z",
+      "thesis": "Watcher cluster [wrappers-etf]: 5 related receipts in ~7d across capital-flows, regulation.",
+      "voiceHook": "Pattern forming: wrappers etf.",
+      "signalIds": [
+        "sig-20260728-ms-eth-sol-etp",
+        "sig-20260728-blackrock-fidelity-other-wal-752f1305",
+        "sig-20260727-btc-out-eth-in",
+        "sig-20260727-sol-hype-etf-inflows",
+        "sig-20260724-eth-etf-gt-btc"
+      ],
+      "lanes": [
+        "capital-flows",
+        "regulation"
+      ],
+      "pattern": "same-week-convergence",
+      "suggestedType": "hot topic",
+      "visualHint": "Receipts for wrappers-etf: dates + sources",
+      "expiresAt": "2026-08-01T18:52:13.204Z",
+      "status": "ready",
+      "noteworthy": true,
+      "watcher": true
+    },
+    {
+      "id": "ang-watch-clarity-policy",
+      "at": "2026-07-28T18:52:13.204Z",
+      "thesis": "Watcher cluster [clarity-policy]: 3 related receipts in ~7d across regulation.",
+      "voiceHook": "Pattern forming: clarity policy.",
+      "signalIds": [
+        "sig-20260728-clarity-shelved",
+        "sig-20260728-blackrock-fidelity-other-wal-752f1305",
+        "sig-20260727-clarity-factsheet"
+      ],
+      "lanes": [
+        "regulation"
+      ],
+      "pattern": "same-week-convergence",
+      "suggestedType": "hot topic",
+      "visualHint": "Receipts for clarity-policy: dates + sources",
+      "expiresAt": "2026-08-01T18:52:13.204Z",
+      "status": "ready",
+      "noteworthy": true,
+      "watcher": true
     }
   ],
   "days": [
@@ -646,6 +1048,46 @@
       ],
       "noteworthyIds": [
         "ang-20260728-ms-eth-sol-wrappers"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "at": "2026-07-28T18:52:13.204Z",
+      "note": "Watcher: +20 signals, spikes=3, patternPings=3.",
+      "signalIdsAdded": [
+        "sig-20260728-summerfi-to-wind-down-after--cc5b002e",
+        "sig-20260726-bitmart-to-wind-down-exchang-da5f6ead",
+        "sig-20260724-perp-dex-dango-to-wind-down--a267a875",
+        "sig-20260728-wall-street-veteran-don-wils-39fed5dc",
+        "sig-20260728-blackrock-fidelity-other-wal-752f1305",
+        "sig-20260728-ethereum-startup-ethsystems--451d68c5",
+        "sig-20260728-russia-outlines-new-digital--243b5ca1",
+        "sig-20260728-hyperliquid-is-taking-crypto-3f4e43d0",
+        "sig-20260728-zcash-seals-1-7-billion-shie-027f8844",
+        "sig-20260728-core-scientific-lands-amd-ai-f6b075d8",
+        "sig-20260728-binance-makes-fighting-crypt-b8445934",
+        "sig-20260728-apple-kept-fake-bitcoin-wall-2da2ba6b",
+        "sig-20260728-bitcoin-s-recent-stability-h-847e25b2",
+        "sig-20260728-1inch-opens-aqua-liquidity-p-b56b977e",
+        "sig-20260728-bitmex-and-bitmart-may-be-fi-ecf44374",
+        "sig-20260728-hong-kong-s-central-bank-put-578f2b28",
+        "sig-20260728-live-updates-crypto-climbs-o-62c52da4",
+        "sig-20260728-bitcoin-slides-2-after-u-s-c-18a7328a",
+        "sig-20260728-etoro-takes-strategic-stake--f0a2b6fd",
+        "sig-20260728-near-governance-votes-to-scr-e6437a61"
+      ],
+      "angleIdsTouched": [
+        "ang-watch-hl-perps-rwa",
+        "ang-watch-wrappers-etf",
+        "ang-watch-clarity-policy"
+      ],
+      "noteworthyIds": [
+        "sig-20260728-summerfi-to-wind-down-after--cc5b002e",
+        "sig-20260726-bitmart-to-wind-down-exchang-da5f6ead",
+        "sig-20260724-perp-dex-dango-to-wind-down--a267a875",
+        "ang-watch-hl-perps-rwa",
+        "ang-watch-wrappers-etf",
+        "ang-watch-clarity-policy"
       ]
     }
   ]
