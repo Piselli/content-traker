@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T10:27:22.936Z",
+  "updatedAt": "2026-07-29T12:27:48.181Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -514,7 +514,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/tech/2026/07/28/ethereum-startup-ethsystems-bets-privacy-is-key-to-getting-banks-on-public-blockchains",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -528,7 +528,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/policy/2026/07/28/russia-outlines-new-digital-depository-rules-ahead-of-fall-crypto-framework-roll-out",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -558,7 +558,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/tech/2026/07/28/zcash-seals-usd1-7-billion-shielded-pool-as-ironwood-upgrade-activates",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -572,7 +572,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/07/28/core-scientific-lands-amd-ai-deal-as-bitcoin-mining-operation-winds-down",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -586,7 +586,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/07/28/binance-makes-fighting-crypto-crime-more-difficult-says-new-nyt-article",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -2099,6 +2099,104 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260729-bny-targets-8-6-trillion-tra-6974b8e2",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T12:27:48.181Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "BNY targets $8.6 trillion transfer agency market on blockchain rails",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/07/29/bny-targets-usd8-6-trillion-transfer-agency-market-on-blockchain-rails",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-3-reasons-wednesday-s-fed-me-61c720e3",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T12:27:48.181Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "3 reasons Wednesday's Fed meeting is pivotal for BTC",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/daybook-us/2026/07/29/3-reasons-wednesday-s-fed-meeting-is-pivotal-for-btc",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-bitcoin-steadies-above-64-00-ef0c3451",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T12:27:48.181Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin steadies above $64,000 as crypto looks to Fed interest-rate decision",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/07/29/bitcoin-steadies-above-usd64-000-as-crypto-looks-to-fed-interest-rate-decision",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-emirates-enables-uae-residen-4f09cbf4",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T12:27:48.181Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Emirates enables UAE residents to pay for flights through Crypto.com",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/emirates-starts-letting-uae-residents-pay-for-flights-through-cryptocom?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-binance-disappears-from-goog-efc947af",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T12:27:48.181Z",
+      "lane": "cex-tradfi",
+      "kind": "narrative",
+      "what": "Binance disappears from Google Play in certain EU countries",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/binance-disappears-android-google-play-certain-eu-countries?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-morning-minute-claude-mythos-e7ad1e60",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T12:27:48.181Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Morning Minute: Claude Mythos Breaks Post-Quantum Cryptography",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374637/morning-minute-claude-mythos-breaks-post-quantum-cryptography",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-crypto-scams-cost-americans--0f80414c",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T12:27:48.181Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Crypto Scams Cost Americans an Estimated $80.7B in 2025: Report",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374638/crypto-scams-cost-americans-an-estimated-80-7b-in-2025-report",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -2467,23 +2565,19 @@
     },
     {
       "date": "2026-07-29",
-      "at": "2026-07-29T10:27:22.936Z",
-      "note": "Watcher: +9 signals, spikes=1, patternPings=0.",
+      "at": "2026-07-29T12:27:48.181Z",
+      "note": "Watcher: +7 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260729-apple-sued-after-fake-iphone-6be094c1",
-        "sig-20260729-binance-offers-gold-and-silv-0a4f6b5a",
-        "sig-20260729-ionic-digital-jumps-26-in-na-e118924d",
-        "sig-20260729-russia-charges-telegram-foun-a16425ba",
-        "sig-20260729-spacex-is-a-battleground-sol-04047d2c",
-        "sig-20260729-crypto-tradfi-grows-fivefold-c3c6850a",
-        "sig-20260729-hungary-repeals-crypto-check-62cc3056",
-        "sig-20260729-trump-teleprompter-operator--63a20ac7",
-        "sig-20260729-russia-charges-telegram-s-pa-689fba65"
+        "sig-20260729-bny-targets-8-6-trillion-tra-6974b8e2",
+        "sig-20260729-3-reasons-wednesday-s-fed-me-61c720e3",
+        "sig-20260729-bitcoin-steadies-above-64-00-ef0c3451",
+        "sig-20260729-emirates-enables-uae-residen-4f09cbf4",
+        "sig-20260729-binance-disappears-from-goog-efc947af",
+        "sig-20260729-morning-minute-claude-mythos-e7ad1e60",
+        "sig-20260729-crypto-scams-cost-americans--0f80414c"
       ],
       "angleIdsTouched": [],
-      "noteworthyIds": [
-        "sig-20260729-apple-sued-after-fake-iphone-6be094c1"
-      ]
+      "noteworthyIds": []
     }
   ]
 }
