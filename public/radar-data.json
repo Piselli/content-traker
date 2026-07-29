@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T04:39:43.577Z",
+  "updatedAt": "2026-07-29T07:36:10.803Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -726,7 +726,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/07/28/ondo-drops-tokenized-asset-blockchain-plans-for-private-high-speed-trading-network",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -740,7 +740,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "thedefiant",
       "url": "https://thedefiant.io/news/tradfi-and-fintech/bitmine-adds-73-million-in-eth-pushing-holdings-to-4-8-of-supply",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -754,7 +754,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "thedefiant",
       "url": "https://thedefiant.io/converge/tradfi-and-fintech/edx-markets-closes-76m-series-c-led-by-sbi-holdings",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -768,7 +768,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "thedefiant",
       "url": "https://thedefiant.io/converge/cefi/tether-s-former-cio-heathcote-plans-to-sell-equity-stake",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -782,7 +782,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "thedefiant",
       "url": "https://thedefiant.io/news/blockchains/robinhood-chain-tops-solana-in-tokenized-stock-volume-via-memecoin-pairs",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -796,7 +796,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "thedefiant",
       "url": "https://thedefiant.io/news/infrastructure/zama-ceo-claims-1-000-confidential-transfers-per-second-on-gpus",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -810,7 +810,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "thedefiant",
       "url": "https://thedefiant.io/news/defi/1inch-commits-10m-1inch-500k-usdc-to-aqua-lp-rewards",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -824,7 +824,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "thedefiant",
       "url": "https://thedefiant.io/news/nfts-and-web3/ethereum-gacha-protocol-fake-world-assets-flips-collector-crypt-in-daily-revenue",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -1861,6 +1861,118 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260729-live-updates-bitcoin-clears--591faa84",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T07:36:10.803Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Live updates: Bitcoin clears $64,000 in Asia hours ahead of Fed decision",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/tech/2026/07/29/live-updates-bitcoin-clears-usd64-000-in-asia-hours-ahead-of-fed-decision",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-company-behind-ai-trade-that-7fbcd953",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T07:36:10.803Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Company behind AI trade that caused $60 million crypto liquidations to cover all losses",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/07/29/company-behind-ai-trade-that-caused-usd60-million-crypto-liquidations-to-cover-all-losses",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-citadel-bets-on-a-fed-rate-h-0fc29dbe",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T07:36:10.803Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Citadel bets on a Fed rate hike Wednesday as bitcoin analysts call a hold. Someone will be wrong.",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/07/29/citadel-bets-on-a-fed-rate-hike-wednesday-as-bitcoin-analysts-call-a-hold-someone-will-be-wrong",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-bitcoin-etfs-extend-outflow--27ebc16f",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T07:36:10.803Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "Bitcoin ETFs extend outflow streak as BTC fails to hold $65K",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/bitcoin-etf-extend-outflow-streak-btc-slips-below-65k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-uk-policy-sprint-finds-cross-bb356fe9",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T07:36:10.803Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "UK policy sprint finds cross-border payments are stablecoins’ top use case",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/uk-policy-cross-border-payments-stablecoins-use-case?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-telegram-founder-pavel-durov-6827dac2",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T07:36:10.803Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Telegram founder Pavel Durov internationally wanted, Russia’s FSB says",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/telegram-founder-wanted-internationally-russia?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-trade-xyz-to-cover-sk-hynix--770972db",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T07:36:10.803Z",
+      "lane": "perps-derivatives",
+      "kind": "narrative",
+      "what": "Trade.xyz to cover SK Hynix perp liquidation losses tied to price anomaly",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/trade-xyz-sk-hynix-perp-liquidations-price-anomaly?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-uniswap-founder-rejects-clai-27832a9c",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T07:36:10.803Z",
+      "lane": "defi-infra",
+      "kind": "narrative",
+      "what": "Uniswap founder rejects claims v4 fees reduce LP earnings",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/uniswap-founder-rejects-v4-fees-reduce-lp-earnings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -2229,12 +2341,17 @@
     },
     {
       "date": "2026-07-29",
-      "at": "2026-07-29T04:39:43.577Z",
-      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
+      "at": "2026-07-29T07:36:10.803Z",
+      "note": "Watcher: +8 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260729-south-korea-plans-stablecoin-fd75ff3b",
-        "sig-20260729-celsius-linked-bitcoin-miner-1622c0ee",
-        "sig-20260729-tether-signs-tokenization-de-ab86252d"
+        "sig-20260729-live-updates-bitcoin-clears--591faa84",
+        "sig-20260729-company-behind-ai-trade-that-7fbcd953",
+        "sig-20260729-citadel-bets-on-a-fed-rate-h-0fc29dbe",
+        "sig-20260729-bitcoin-etfs-extend-outflow--27ebc16f",
+        "sig-20260729-uk-policy-sprint-finds-cross-bb356fe9",
+        "sig-20260729-telegram-founder-pavel-durov-6827dac2",
+        "sig-20260729-trade-xyz-to-cover-sk-hynix--770972db",
+        "sig-20260729-uniswap-founder-rejects-clai-27832a9c"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
