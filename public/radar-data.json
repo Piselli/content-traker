@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T14:39:49.052Z",
+  "updatedAt": "2026-07-29T16:14:37.463Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -2367,6 +2367,150 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260729-the-traditional-9-to-5-banki-8759149a",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T16:14:37.463Z",
+      "lane": "cex-tradfi",
+      "kind": "narrative",
+      "what": "The traditional 9-to-5 banking day is officially dying, says Morgan Stanley execs",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/07/29/morgan-stanley-execs-admit-the-traditional-9-to-5-banking-day-is-officially-dying",
+      "status": "open",
+      "tags": [
+        "wrappers-etf"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-stablecoin-firm-brale-says-n-2ed70216",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T16:14:37.463Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Stablecoin firm Brale says new protocol can remove a major hurdle to scaling custom tokens",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/07/29/stablecoin-firm-brale-says-new-protocol-can-remove-a-major-hurdle-to-scaling-custom-tokens",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-coinbase-hit-by-spot-trading-1f8ab6c8",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T16:14:37.463Z",
+      "lane": "cex-tradfi",
+      "kind": "narrative",
+      "what": "Coinbase hit by spot trading slump: Wall Street trims expectations ahead of earnings",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/07/29/investors-look-past-expected-weak-q2-earnings-to-focus-on-coinbase-s-political-future",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-crypto-long-short-what-this--587c6313",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T16:14:37.463Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Crypto Long & Short: What this year's $972 million crypto hacks actually tell us about security",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/07/29/crypto-long-and-short-what-this-year-s-usd972-million-crypto-hacks-actually-tell-us-about-security",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-sofi-says-sofiusd-settlement-8788c919",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T16:14:37.463Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "SoFi Says SoFiUSD Settlement Now Live on Q2 Earnings Call",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/converge/tradfi-and-fintech/sofi-says-sofiusd-settlement-now-live-on-q2-earnings-call",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-morpho-signs-first-hong-kong-cc4b39b2",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T16:14:37.463Z",
+      "lane": "defi-infra",
+      "kind": "narrative",
+      "what": "Morpho Signs First Hong Kong Partnership With HashKey's HSK Chain",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/defi/morpho-signs-first-hong-kong-partnership-with-hashkey-s-hsk-chain",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-safe-logs-130m-transactions--83dd3612",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T16:14:37.463Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Safe Logs 130M Transactions in Q2, a Quarterly Record",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/infrastructure/safe-logs-130m-transactions-in-q2-a-quarterly-record",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-10-european-banks-launch-rl1-22958c4e",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T16:14:37.463Z",
+      "lane": "narrative-rotation",
+      "kind": "shipping",
+      "what": "10 European Banks Launch RL1 Blockchain Cooperative",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/converge/tradfi-and-fintech/10-european-banks-launch-rl1-blockchain-cooperative",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-crypto-hacks-hit-record-212--49c0e20f",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T16:14:37.463Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Crypto Hacks Hit Record 212 Incidents in H1 2026: Blockaid",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/hacks/crypto-hacks-hit-record-212-incidents-in-h1-2026-blockaid",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-sec-ready-to-provide-crypto--790c09f7",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T16:14:37.463Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "SEC Ready to Provide Crypto Rules if Clarity Act Flounders: Chair Atkins",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374643/sec-ready-to-provide-crypto-rules-if-clarity-act-flounders-chair-atkins",
+      "status": "open",
+      "tags": [
+        "clarity-policy"
+      ],
+      "watcher": true
     }
   ],
   "angles": [
@@ -2616,8 +2760,8 @@
     },
     {
       "id": "ang-watch-wrappers-etf",
-      "at": "2026-07-29T14:39:49.052Z",
-      "thesis": "Watcher cluster [wrappers-etf]: 8 related receipts in ~7d across capital-flows, regulation, cex-tradfi.",
+      "at": "2026-07-29T16:14:37.463Z",
+      "thesis": "Watcher cluster [wrappers-etf]: 9 related receipts in ~7d across capital-flows, regulation, cex-tradfi.",
       "voiceHook": "Pattern forming: wrappers etf.",
       "signalIds": [
         "sig-20260728-ms-eth-sol-etp",
@@ -2636,14 +2780,14 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for wrappers-etf: dates + sources",
-      "expiresAt": "2026-08-02T14:39:49.052Z",
+      "expiresAt": "2026-08-02T16:14:37.463Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
     },
     {
       "id": "ang-watch-clarity-policy",
-      "at": "2026-07-28T23:48:59.709Z",
+      "at": "2026-07-29T16:14:37.463Z",
       "thesis": "Watcher cluster [clarity-policy]: 7 related receipts in ~7d across regulation.",
       "voiceHook": "Pattern forming: clarity policy.",
       "signalIds": [
@@ -2652,7 +2796,8 @@
         "sig-20260727-clarity-factsheet",
         "sig-20260728-franklin-templeton-backs-cla-89502eae",
         "sig-20260728-xrp-price-slides-as-senate-d-2d0ca427",
-        "sig-20260727-u-s-senate-puts-off-crypto-c-46c3ed12"
+        "sig-20260727-u-s-senate-puts-off-crypto-c-46c3ed12",
+        "sig-20260729-sec-ready-to-provide-crypto--790c09f7"
       ],
       "lanes": [
         "regulation"
@@ -2660,9 +2805,9 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for clarity-policy: dates + sources",
-      "expiresAt": "2026-08-01T23:48:59.709Z",
+      "expiresAt": "2026-08-02T16:14:37.463Z",
       "status": "ready",
-      "noteworthy": false,
+      "noteworthy": true,
       "watcher": true
     }
   ],
@@ -2736,27 +2881,27 @@
     },
     {
       "date": "2026-07-29",
-      "at": "2026-07-29T14:39:49.052Z",
-      "note": "Watcher: +12 signals, spikes=0, patternPings=1.",
+      "at": "2026-07-29T16:14:37.463Z",
+      "note": "Watcher: +10 signals, spikes=0, patternPings=2.",
       "signalIdsAdded": [
-        "sig-20260729-ethereum-foundation-names-pc-cc0e266b",
-        "sig-20260729-the-inside-story-of-how-a-hi-663ba428",
-        "sig-20260729-about-80-million-zec-crosses-bdcdf5d7",
-        "sig-20260729-the-systemic-risk-debate-ove-d0d98d84",
-        "sig-20260729-bny-to-bring-transfer-agency-0e21ceab",
-        "sig-20260729-the-100x-obsession-fundament-4bc4b165",
-        "sig-20260729-trade-xyz-to-cover-sk-hynix--36b9e964",
-        "sig-20260729-tether-signs-tokenization-de-8d7c18bf",
-        "sig-20260729-european-financial-instituti-e2e6277d",
-        "sig-20260728-visa-outlines-stablecoin-str-5964bcc2",
-        "sig-20260728-morgan-stanley-expands-crypt-20304e5e",
-        "sig-20260728-kraken-opens-jersey-mike-s-i-045bfb16"
+        "sig-20260729-the-traditional-9-to-5-banki-8759149a",
+        "sig-20260729-stablecoin-firm-brale-says-n-2ed70216",
+        "sig-20260729-coinbase-hit-by-spot-trading-1f8ab6c8",
+        "sig-20260729-crypto-long-short-what-this--587c6313",
+        "sig-20260729-sofi-says-sofiusd-settlement-8788c919",
+        "sig-20260729-morpho-signs-first-hong-kong-cc4b39b2",
+        "sig-20260729-safe-logs-130m-transactions--83dd3612",
+        "sig-20260729-10-european-banks-launch-rl1-22958c4e",
+        "sig-20260729-crypto-hacks-hit-record-212--49c0e20f",
+        "sig-20260729-sec-ready-to-provide-crypto--790c09f7"
       ],
       "angleIdsTouched": [
-        "ang-watch-wrappers-etf"
+        "ang-watch-wrappers-etf",
+        "ang-watch-clarity-policy"
       ],
       "noteworthyIds": [
-        "ang-watch-wrappers-etf"
+        "ang-watch-wrappers-etf",
+        "ang-watch-clarity-policy"
       ]
     }
   ]
