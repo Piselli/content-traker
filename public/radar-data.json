@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T21:24:39.217Z",
+  "updatedAt": "2026-07-29T22:26:03.915Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -2779,6 +2779,48 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260729-robinhood-posts-record-quart-9da124a7",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T22:26:03.915Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Robinhood posts record quarter, but crypto revenue slides 38%",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/robinhood-record-quarter-crypto-revenue-slides?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-binance-us-to-attempt-predic-9d151319",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T22:26:03.915Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "Binance.US to attempt prediction markets entry as CFTC-licensed entity, says CEO",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/binance-us-prediction-markets-cftc-designated-contract-market?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-robinhood-posts-best-quarter-1c0133c2",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T22:26:03.915Z",
+      "lane": "cex-tradfi",
+      "kind": "narrative",
+      "what": "Robinhood Posts Best Quarter Ever as Prediction Market and Robinhood Chain Take Off",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374693/robinhood-earnings-best-quarter-ever-crypto",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -3149,13 +3191,12 @@
     },
     {
       "date": "2026-07-29",
-      "at": "2026-07-29T21:24:39.217Z",
-      "note": "Watcher: +4 signals, spikes=0, patternPings=0.",
+      "at": "2026-07-29T22:26:03.915Z",
+      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260729-robinhood-slides-4-despite-e-585a6e77",
-        "sig-20260729-crypto-entering-biggest-cons-51ecd0b3",
-        "sig-20260729-tennessee-county-passes-anot-7d6f209a",
-        "sig-20260729-flock-cameras-face-growing-b-bfc7fc3a"
+        "sig-20260729-robinhood-posts-record-quart-9da124a7",
+        "sig-20260729-binance-us-to-attempt-predic-9d151319",
+        "sig-20260729-robinhood-posts-best-quarter-1c0133c2"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
