@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T22:26:03.915Z",
+  "updatedAt": "2026-07-29T23:28:34.797Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -2821,6 +2821,36 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260729-senators-said-to-hatch-idea--a4d17bea",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T23:28:34.797Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "Senators said to hatch idea to toughen Trump's concession on Clarity Act's crypto limits",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/policy/2026/07/29/senators-said-to-strike-idea-to-toughen-trump-s-concession-on-clarity-act-s-crypto-limits",
+      "status": "open",
+      "tags": [
+        "clarity-policy"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-microsoft-quietly-adds-new-w-d652eb15",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T23:28:34.797Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Microsoft Quietly Adds New Windows App That Wants to Scan Your Face",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374688/microsoft-quietly-adds-windows-app-wants-scan-face-onedrive",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -3097,8 +3127,8 @@
     },
     {
       "id": "ang-watch-clarity-policy",
-      "at": "2026-07-29T16:14:37.463Z",
-      "thesis": "Watcher cluster [clarity-policy]: 7 related receipts in ~7d across regulation.",
+      "at": "2026-07-29T23:28:34.797Z",
+      "thesis": "Watcher cluster [clarity-policy]: 8 related receipts in ~7d across regulation.",
       "voiceHook": "Pattern forming: clarity policy.",
       "signalIds": [
         "sig-20260728-clarity-shelved",
@@ -3107,7 +3137,8 @@
         "sig-20260728-franklin-templeton-backs-cla-89502eae",
         "sig-20260728-xrp-price-slides-as-senate-d-2d0ca427",
         "sig-20260727-u-s-senate-puts-off-crypto-c-46c3ed12",
-        "sig-20260729-sec-ready-to-provide-crypto--790c09f7"
+        "sig-20260729-sec-ready-to-provide-crypto--790c09f7",
+        "sig-20260729-senators-said-to-hatch-idea--a4d17bea"
       ],
       "lanes": [
         "regulation"
@@ -3115,7 +3146,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for clarity-policy: dates + sources",
-      "expiresAt": "2026-08-02T16:14:37.463Z",
+      "expiresAt": "2026-08-02T23:28:34.797Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -3191,15 +3222,18 @@
     },
     {
       "date": "2026-07-29",
-      "at": "2026-07-29T22:26:03.915Z",
-      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
+      "at": "2026-07-29T23:28:34.797Z",
+      "note": "Watcher: +2 signals, spikes=0, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260729-robinhood-posts-record-quart-9da124a7",
-        "sig-20260729-binance-us-to-attempt-predic-9d151319",
-        "sig-20260729-robinhood-posts-best-quarter-1c0133c2"
+        "sig-20260729-senators-said-to-hatch-idea--a4d17bea",
+        "sig-20260729-microsoft-quietly-adds-new-w-d652eb15"
       ],
-      "angleIdsTouched": [],
-      "noteworthyIds": []
+      "angleIdsTouched": [
+        "ang-watch-clarity-policy"
+      ],
+      "noteworthyIds": [
+        "ang-watch-clarity-policy"
+      ]
     }
   ]
 }
