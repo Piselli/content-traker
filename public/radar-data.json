@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T23:48:59.709Z",
+  "updatedAt": "2026-07-29T01:23:34.726Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -882,7 +882,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/galaxy-mara-texas-land-deals-ai-bitcoin-data-centers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -896,7 +896,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/markets/bitcoin-lows-pierce-63k-as-asia-chip-stock-crash-spills?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -1777,6 +1777,48 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260729-zcash-says-ironwood-proof-ru-beb4240c",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T01:23:34.726Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Zcash says Ironwood proof rules out undetectable counterfeiting bugs",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/zcash-ironwood-proof-counterfeiting-orchard-flaw?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-european-financial-instituti-33fa4512",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T01:23:34.726Z",
+      "lane": "narrative-rotation",
+      "kind": "shipping",
+      "what": "European financial institutions launch RL1 cooperative blockchain network",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/european-financial-institutions-launch-rl1-blockchain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260728-coinbase-wants-to-be-canada--ae3a0240",
+      "at": "2026-07-28",
+      "scannedAt": "2026-07-29T01:23:34.726Z",
+      "lane": "cex-tradfi",
+      "kind": "narrative",
+      "what": "Coinbase wants to be Canada’s ‘everything exchange,’ but says clearer rules are needed first",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/policy/2026/07/28/coinbase-wants-to-be-canada-s-everything-exchange-but-says-clearer-rules-are-needed-first",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -2141,6 +2183,18 @@
       "angleIdsTouched": [
         "ang-watch-clarity-policy"
       ],
+      "noteworthyIds": []
+    },
+    {
+      "date": "2026-07-29",
+      "at": "2026-07-29T01:23:34.726Z",
+      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [
+        "sig-20260729-zcash-says-ironwood-proof-ru-beb4240c",
+        "sig-20260729-european-financial-instituti-33fa4512",
+        "sig-20260728-coinbase-wants-to-be-canada--ae3a0240"
+      ],
+      "angleIdsTouched": [],
       "noteworthyIds": []
     }
   ]
