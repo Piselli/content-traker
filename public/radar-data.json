@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T07:36:10.803Z",
+  "updatedAt": "2026-07-29T10:27:22.936Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -600,7 +600,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/07/28/apple-kept-fake-bitcoin-wallet-on-app-store-after-usd875-000-theft-report-lawsuit-alleges",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -614,7 +614,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/daybook-us/2026/07/28/bitcoin-s-recent-stability-hasn-t-been-enough-to-spark-a-broader-altcoin-rally",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -628,7 +628,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/web3/2026/07/27/1inch-opens-aqua-liquidity-protocol-across-13-chains",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -642,7 +642,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/07/28/bitmex-and-bitmart-may-be-first-casualties-of-crypto-trading-slump",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -656,7 +656,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/07/28/hong-kong-s-central-bank-puts-a-number-on-lenders-quantum-preparedness-it-s-very-low",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -670,7 +670,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/07/28/bitcoin-recovers-from-asian-session-lows-nasdaq-futures-remain-under-pressure",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -684,7 +684,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/07/28/bitcoin-slides-2-after-u-s-close-while-korea-s-kospi-plunges-10",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -698,7 +698,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "thedefiant",
       "url": "https://thedefiant.io/news/cefi/etoro-strategic-stake-onchain-derivatives-extended-zengo",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -712,7 +712,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "thedefiant",
       "url": "https://thedefiant.io/news/blockchains/near-governance-votes-to-scrap-developer-gas-rebate",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -1973,6 +1973,132 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260729-apple-sued-after-fake-iphone-6be094c1",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T10:27:22.936Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Apple Sued After Fake iPhone Wallet App Drained $1.8M in Bitcoin",
+      "why": "Watcher spike: strong failure/shipping/capital headline — check for take.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374628/apple-sued-after-fake-iphone-wallet-app-drained-1-8m-in-bitcoin",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-binance-offers-gold-and-silv-0a4f6b5a",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T10:27:22.936Z",
+      "lane": "cex-tradfi",
+      "kind": "metric",
+      "what": "Binance offers gold and silver options after commodity futures pull in billions in daily volume",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/07/29/binance-offers-gold-and-silver-options-after-commodity-futures-pull-in-billions-in-daily-volume",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-ionic-digital-jumps-26-in-na-e118924d",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T10:27:22.936Z",
+      "lane": "narrative-rotation",
+      "kind": "shipping",
+      "what": "Ionic Digital jumps 26% in Nasdaq debut, giving Celsius Network claimholders an exit route",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/07/29/ionic-digital-jumps-26-in-nasdaq-debut-giving-celsius-network-claimholders-an-exit-route",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-russia-charges-telegram-foun-a16425ba",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T10:27:22.936Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Russia charges Telegram founder Pavel Durov with aiding terrorism",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/policy/2026/07/29/russia-charges-telegram-founder-pavel-durov-with-aiding-terrorism",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-spacex-is-a-battleground-sol-04047d2c",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T10:27:22.936Z",
+      "lane": "l1-l2",
+      "kind": "narrative",
+      "what": "SpaceX is a battleground Solana must win",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/opinion/2026/07/29/spacex-is-a-battleground-solana-must-win",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-crypto-tradfi-grows-fivefold-c3c6850a",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T10:27:22.936Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Crypto TradFi grows fivefold to $6.6B as exchanges expand into stocks, commodities: Report",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/crypto-exchanges-tokenized-assets-market-6-6-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-hungary-repeals-crypto-check-62cc3056",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T10:27:22.936Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Hungary repeals crypto checks as first MiCA license is granted",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/hungary-repeals-crypto-checks-first-mica-license-granted?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-trump-teleprompter-operator--63a20ac7",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T10:27:22.936Z",
+      "lane": "cex-tradfi",
+      "kind": "narrative",
+      "what": "Trump teleprompter operator accused over Kalshi bets leaves government: AP",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/trump-teleprompter-kalshi-bets-government-ap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-russia-charges-telegram-s-pa-689fba65",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T10:27:22.936Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Russia Charges Telegram's Pavel Durov With Aiding Terrorism",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374625/russia-charges-telegrams-pavel-durov-with-aiding-terrorism",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -2341,20 +2467,23 @@
     },
     {
       "date": "2026-07-29",
-      "at": "2026-07-29T07:36:10.803Z",
-      "note": "Watcher: +8 signals, spikes=0, patternPings=0.",
+      "at": "2026-07-29T10:27:22.936Z",
+      "note": "Watcher: +9 signals, spikes=1, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260729-live-updates-bitcoin-clears--591faa84",
-        "sig-20260729-company-behind-ai-trade-that-7fbcd953",
-        "sig-20260729-citadel-bets-on-a-fed-rate-h-0fc29dbe",
-        "sig-20260729-bitcoin-etfs-extend-outflow--27ebc16f",
-        "sig-20260729-uk-policy-sprint-finds-cross-bb356fe9",
-        "sig-20260729-telegram-founder-pavel-durov-6827dac2",
-        "sig-20260729-trade-xyz-to-cover-sk-hynix--770972db",
-        "sig-20260729-uniswap-founder-rejects-clai-27832a9c"
+        "sig-20260729-apple-sued-after-fake-iphone-6be094c1",
+        "sig-20260729-binance-offers-gold-and-silv-0a4f6b5a",
+        "sig-20260729-ionic-digital-jumps-26-in-na-e118924d",
+        "sig-20260729-russia-charges-telegram-foun-a16425ba",
+        "sig-20260729-spacex-is-a-battleground-sol-04047d2c",
+        "sig-20260729-crypto-tradfi-grows-fivefold-c3c6850a",
+        "sig-20260729-hungary-repeals-crypto-check-62cc3056",
+        "sig-20260729-trump-teleprompter-operator--63a20ac7",
+        "sig-20260729-russia-charges-telegram-s-pa-689fba65"
       ],
       "angleIdsTouched": [],
-      "noteworthyIds": []
+      "noteworthyIds": [
+        "sig-20260729-apple-sued-after-fake-iphone-6be094c1"
+      ]
     }
   ]
 }
