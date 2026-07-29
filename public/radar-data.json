@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T12:27:48.181Z",
+  "updatedAt": "2026-07-29T14:39:49.052Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -278,7 +278,7 @@
       "why": "Infra for liquidity migrate is itself a winner tape — not only destination chains.",
       "source": "DefiLlama bridges",
       "url": "https://defillama.com/bridges",
-      "status": "open",
+      "status": "expired",
       "tags": []
     },
     {
@@ -441,7 +441,7 @@
       "why": "Watcher spike: strong failure/shipping/capital headline — check for take.",
       "source": "thedefiant",
       "url": "https://thedefiant.io/news/defi/summerfi-to-wind-down-after-seven-years-citing-exploit",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -483,7 +483,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/07/28/wall-street-veteran-don-wilson-says-regulators-are-getting-crypto-s-biggest-trading-innovation-all-wrong",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -2197,6 +2197,176 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260729-ethereum-foundation-names-pc-cc0e266b",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T14:39:49.052Z",
+      "lane": "l1-l2",
+      "kind": "narrative",
+      "what": "Ethereum Foundation names pcaversaccio to board amid leadership changes",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/tech/2026/07/29/ethereum-foundation-names-pcaversaccio-to-board-amid-leadership-changes",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-the-inside-story-of-how-a-hi-663ba428",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T14:39:49.052Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "The inside story of how a hike in Hong Kong changed crypto trading forever",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/07/29/the-inside-story-of-how-a-hike-in-hong-kong-changed-crypto-trading-forever",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-about-80-million-zec-crosses-bdcdf5d7",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T14:39:49.052Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "About $80 million ZEC crosses into Zcash's new Ironwood pool in the first day",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/tech/2026/07/29/about-usd80-million-zec-crosses-into-zcash-s-new-ironwood-pool-in-the-first-day",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-the-systemic-risk-debate-ove-d0d98d84",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T14:39:49.052Z",
+      "lane": "perps-derivatives",
+      "kind": "narrative",
+      "what": "The systemic-risk debate over perpetual futures is aimed at the wrong target",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/opinion/2026/07/29/the-systemic-risk-debate-over-perpetual-futures-is-aimed-at-the-wrong-target",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-bny-to-bring-transfer-agency-0e21ceab",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T14:39:49.052Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "BNY to bring transfer agency records onchain in blockchain push",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/bny-transfer-agency-records-blockchain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-the-100x-obsession-fundament-4bc4b165",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T14:39:49.052Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "The 100x obsession: Fundamentals grow in importance as crypto matures",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/magazine/the-100x-obsession-why-great-crypto-projects-keep-losing-to-great-stories?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-trade-xyz-to-cover-sk-hynix--36b9e964",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T14:39:49.052Z",
+      "lane": "perps-derivatives",
+      "kind": "narrative",
+      "what": "Trade.xyz to cover SK Hynix perp liquidation losses tied to price anomaly",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/trade-xyz-sk-hynix-perp-liquidations-price-anomaly?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-tether-signs-tokenization-de-8d7c18bf",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T14:39:49.052Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Tether signs tokenization deal with Nairobi Securities Exchange",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/tether-signs-tokenization-deal-with-nairobi-securities-exchange?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-european-financial-instituti-e2e6277d",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T14:39:49.052Z",
+      "lane": "narrative-rotation",
+      "kind": "shipping",
+      "what": "European financial institutions launch RL1 cooperative blockchain network",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/european-financial-institutions-launch-rl1-blockchain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260728-visa-outlines-stablecoin-str-5964bcc2",
+      "at": "2026-07-28",
+      "scannedAt": "2026-07-29T14:39:49.052Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Visa outlines stablecoin strategy during Q3 earnings call",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/visa-earnings-stablecoin-strategy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260728-morgan-stanley-expands-crypt-20304e5e",
+      "at": "2026-07-28",
+      "scannedAt": "2026-07-29T14:39:49.052Z",
+      "lane": "cex-tradfi",
+      "kind": "narrative",
+      "what": "Morgan Stanley expands crypto lineup with Ether, Solana ETPs",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/morgan-stanley-expands-crypto-lineup-with-ether-solana-etps?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [
+        "wrappers-etf"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260728-kraken-opens-jersey-mike-s-i-045bfb16",
+      "at": "2026-07-28",
+      "scannedAt": "2026-07-29T14:39:49.052Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Kraken opens Jersey Mike’s IPO to retail investors through tokenized shares and direct allocations",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/kraken-opens-jersey-mikes-ipo-to-retail-investors-through-tokenized-shares-and-direct-allocations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -2446,8 +2616,8 @@
     },
     {
       "id": "ang-watch-wrappers-etf",
-      "at": "2026-07-28T21:35:44.441Z",
-      "thesis": "Watcher cluster [wrappers-etf]: 7 related receipts in ~7d across capital-flows, regulation, cex-tradfi.",
+      "at": "2026-07-29T14:39:49.052Z",
+      "thesis": "Watcher cluster [wrappers-etf]: 8 related receipts in ~7d across capital-flows, regulation, cex-tradfi.",
       "voiceHook": "Pattern forming: wrappers etf.",
       "signalIds": [
         "sig-20260728-ms-eth-sol-etp",
@@ -2456,7 +2626,8 @@
         "sig-20260727-sol-hype-etf-inflows",
         "sig-20260724-eth-etf-gt-btc",
         "sig-20260728-morgan-stanley-expands-crypt-6a588d07",
-        "sig-20260728-morgan-stanley-expands-crypt-75f68cd3"
+        "sig-20260728-morgan-stanley-expands-crypt-75f68cd3",
+        "sig-20260728-morgan-stanley-expands-crypt-20304e5e"
       ],
       "lanes": [
         "capital-flows",
@@ -2465,7 +2636,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for wrappers-etf: dates + sources",
-      "expiresAt": "2026-08-01T21:35:44.441Z",
+      "expiresAt": "2026-08-02T14:39:49.052Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -2565,19 +2736,28 @@
     },
     {
       "date": "2026-07-29",
-      "at": "2026-07-29T12:27:48.181Z",
-      "note": "Watcher: +7 signals, spikes=0, patternPings=0.",
+      "at": "2026-07-29T14:39:49.052Z",
+      "note": "Watcher: +12 signals, spikes=0, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260729-bny-targets-8-6-trillion-tra-6974b8e2",
-        "sig-20260729-3-reasons-wednesday-s-fed-me-61c720e3",
-        "sig-20260729-bitcoin-steadies-above-64-00-ef0c3451",
-        "sig-20260729-emirates-enables-uae-residen-4f09cbf4",
-        "sig-20260729-binance-disappears-from-goog-efc947af",
-        "sig-20260729-morning-minute-claude-mythos-e7ad1e60",
-        "sig-20260729-crypto-scams-cost-americans--0f80414c"
+        "sig-20260729-ethereum-foundation-names-pc-cc0e266b",
+        "sig-20260729-the-inside-story-of-how-a-hi-663ba428",
+        "sig-20260729-about-80-million-zec-crosses-bdcdf5d7",
+        "sig-20260729-the-systemic-risk-debate-ove-d0d98d84",
+        "sig-20260729-bny-to-bring-transfer-agency-0e21ceab",
+        "sig-20260729-the-100x-obsession-fundament-4bc4b165",
+        "sig-20260729-trade-xyz-to-cover-sk-hynix--36b9e964",
+        "sig-20260729-tether-signs-tokenization-de-8d7c18bf",
+        "sig-20260729-european-financial-instituti-e2e6277d",
+        "sig-20260728-visa-outlines-stablecoin-str-5964bcc2",
+        "sig-20260728-morgan-stanley-expands-crypt-20304e5e",
+        "sig-20260728-kraken-opens-jersey-mike-s-i-045bfb16"
       ],
-      "angleIdsTouched": [],
-      "noteworthyIds": []
+      "angleIdsTouched": [
+        "ang-watch-wrappers-etf"
+      ],
+      "noteworthyIds": [
+        "ang-watch-wrappers-etf"
+      ]
     }
   ]
 }
