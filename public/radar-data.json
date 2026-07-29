@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T20:06:44.680Z",
+  "updatedAt": "2026-07-29T21:24:39.217Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -2723,6 +2723,62 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260729-robinhood-slides-4-despite-e-585a6e77",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T21:24:39.217Z",
+      "lane": "narrative-rotation",
+      "kind": "metric",
+      "what": "Robinhood slides 4% despite earnings beat as crypto revenue cools",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/07/29/robinhood-slides-4-despite-earnings-beat-as-crypto-revenue-cools",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-crypto-entering-biggest-cons-51ecd0b3",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T21:24:39.217Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Crypto entering biggest consolidation phase in history, says ARK analyst",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/crypto-entering-biggest-consolidation-phase-in-history-says-ark-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-tennessee-county-passes-anot-7d6f209a",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T21:24:39.217Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "Tennessee county passes another ban on crypto operations",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/tennessee-county-ban-crypto-operations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-flock-cameras-face-growing-b-bfc7fc3a",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T21:24:39.217Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Flock Cameras Face Growing Backlash as Privacy Concerns Reach Capitol Hill",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374603/flock-cameras-backlash-privacy-concerns-capitol-hill",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -3093,13 +3149,13 @@
     },
     {
       "date": "2026-07-29",
-      "at": "2026-07-29T20:06:44.680Z",
+      "at": "2026-07-29T21:24:39.217Z",
       "note": "Watcher: +4 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260729-bitcoin-slips-below-64k-afte-2c762699",
-        "sig-20260729-us-prosecutors-propose-chang-a2e7315e",
-        "sig-20260729-there-s-a-new-way-to-protect-311d1603",
-        "sig-20260729-moonpay-s-paybox-puts-a-cryp-fc2f230b"
+        "sig-20260729-robinhood-slides-4-despite-e-585a6e77",
+        "sig-20260729-crypto-entering-biggest-cons-51ecd0b3",
+        "sig-20260729-tennessee-county-passes-anot-7d6f209a",
+        "sig-20260729-flock-cameras-face-growing-b-bfc7fc3a"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
