@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T16:14:37.463Z",
+  "updatedAt": "2026-07-29T17:44:53.542Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -2511,6 +2511,120 @@
         "clarity-policy"
       ],
       "watcher": true
+    },
+    {
+      "id": "sig-20260729-morgan-stanley-launches-spot-fede8505",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T17:44:53.542Z",
+      "lane": "cex-tradfi",
+      "kind": "narrative",
+      "what": "Morgan Stanley Launches Spot Ether, Solana ETPs on NYSE Arca",
+      "why": "Watcher spike: strong failure/shipping/capital headline — check for take.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/converge/tradfi-and-fintech/morgan-stanley-launches-spot-ether-solana-etps-on-nyse-arca",
+      "status": "expired",
+      "tags": [
+        "wrappers-etf"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-active-crypto-vc-firms-fall--c09d70e7",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T17:44:53.542Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Active Crypto VC Firms Fall to 150, Lowest Since 2020",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/tradfi-and-fintech/active-crypto-vc-firms-fall-to-150-lowest-since-2020",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-binance-launches-regulated-g-5cd08d37",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T17:44:53.542Z",
+      "lane": "cex-tradfi",
+      "kind": "narrative",
+      "what": "Binance launches regulated gold, silver options through ADGM exchange",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/binance-launches-regulated-gold-silver-options-through-adgm-exchange?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-moonpay-vault-enables-chatgp-ce970112",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T17:44:53.542Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "MoonPay vault enables ChatGPT and Claude users to authorize crypto transactions",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/moonpay-launches-ai-payment-vault-for-chatgpt-and-claude-with-crypto-transaction-support?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-cost-to-insure-ai-debt-reach-41d75224",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T17:44:53.542Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Cost to insure AI debt reaches record high amid Asian semiconductor tumble",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/cost-to-insure-ai-debt-reaches-new-all-time-high-amid-asian-semiconductor-tumble?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-what-is-zcash-zec-the-privac-79037f9c",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T17:44:53.542Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "What is Zcash (ZEC)? The Privacy Coin Using Zero-Knowledge Proofs",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/resources/zcash",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-ai-book-burning-companies-ar-268783a8",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T17:44:53.542Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "AI Book Burning? Companies Are Destroying Millions of Books to Feed Chatbots",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374646/ai-book-burning-companies-destroying-millions-books-chatbots",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-openai-s-rogue-ai-hacked-fou-73290fca",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T17:44:53.542Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "OpenAI's Rogue AI Hacked Four More Platforms Besides Hugging Face",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374645/openais-rogue-ai-hacked-four-more-platforms-besides-hugging-face",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -2760,8 +2874,8 @@
     },
     {
       "id": "ang-watch-wrappers-etf",
-      "at": "2026-07-29T16:14:37.463Z",
-      "thesis": "Watcher cluster [wrappers-etf]: 9 related receipts in ~7d across capital-flows, regulation, cex-tradfi.",
+      "at": "2026-07-29T17:44:53.542Z",
+      "thesis": "Watcher cluster [wrappers-etf]: 10 related receipts in ~7d across capital-flows, regulation, cex-tradfi.",
       "voiceHook": "Pattern forming: wrappers etf.",
       "signalIds": [
         "sig-20260728-ms-eth-sol-etp",
@@ -2780,7 +2894,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for wrappers-etf: dates + sources",
-      "expiresAt": "2026-08-02T16:14:37.463Z",
+      "expiresAt": "2026-08-02T17:44:53.542Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -2881,27 +2995,24 @@
     },
     {
       "date": "2026-07-29",
-      "at": "2026-07-29T16:14:37.463Z",
-      "note": "Watcher: +10 signals, spikes=0, patternPings=2.",
+      "at": "2026-07-29T17:44:53.542Z",
+      "note": "Watcher: +8 signals, spikes=1, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260729-the-traditional-9-to-5-banki-8759149a",
-        "sig-20260729-stablecoin-firm-brale-says-n-2ed70216",
-        "sig-20260729-coinbase-hit-by-spot-trading-1f8ab6c8",
-        "sig-20260729-crypto-long-short-what-this--587c6313",
-        "sig-20260729-sofi-says-sofiusd-settlement-8788c919",
-        "sig-20260729-morpho-signs-first-hong-kong-cc4b39b2",
-        "sig-20260729-safe-logs-130m-transactions--83dd3612",
-        "sig-20260729-10-european-banks-launch-rl1-22958c4e",
-        "sig-20260729-crypto-hacks-hit-record-212--49c0e20f",
-        "sig-20260729-sec-ready-to-provide-crypto--790c09f7"
+        "sig-20260729-morgan-stanley-launches-spot-fede8505",
+        "sig-20260729-active-crypto-vc-firms-fall--c09d70e7",
+        "sig-20260729-binance-launches-regulated-g-5cd08d37",
+        "sig-20260729-moonpay-vault-enables-chatgp-ce970112",
+        "sig-20260729-cost-to-insure-ai-debt-reach-41d75224",
+        "sig-20260729-what-is-zcash-zec-the-privac-79037f9c",
+        "sig-20260729-ai-book-burning-companies-ar-268783a8",
+        "sig-20260729-openai-s-rogue-ai-hacked-fou-73290fca"
       ],
       "angleIdsTouched": [
-        "ang-watch-wrappers-etf",
-        "ang-watch-clarity-policy"
+        "ang-watch-wrappers-etf"
       ],
       "noteworthyIds": [
-        "ang-watch-wrappers-etf",
-        "ang-watch-clarity-policy"
+        "sig-20260729-morgan-stanley-launches-spot-fede8505",
+        "ang-watch-wrappers-etf"
       ]
     }
   ]
