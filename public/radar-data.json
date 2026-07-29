@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T01:23:34.726Z",
+  "updatedAt": "2026-07-29T04:39:43.577Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -854,7 +854,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/americanfortress-proposes-quantum-safe-crypto-wallet-protection-without-fund-migration?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -868,7 +868,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -1819,6 +1819,48 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260729-south-korea-plans-stablecoin-fd75ff3b",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T04:39:43.577Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "South Korea plans stablecoin rules as opposition pushes crypto tax repeal",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/south-korea-consolidated-crypto-law-tax-repeal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-celsius-linked-bitcoin-miner-1622c0ee",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T04:39:43.577Z",
+      "lane": "narrative-rotation",
+      "kind": "shipping",
+      "what": "Celsius-linked Bitcoin miner Ionic Digital gains 26% in Nasdaq debut",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/celsius-bitcoin-miner-ionic-digital-nasdaq-debut?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-tether-signs-tokenization-de-ab86252d",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-29T04:39:43.577Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Tether signs tokenization deal with Nairobi Securities Exchange",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/tether-signs-tokenization-deal-with-nairobi-securities-exchange?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -2187,12 +2229,12 @@
     },
     {
       "date": "2026-07-29",
-      "at": "2026-07-29T01:23:34.726Z",
+      "at": "2026-07-29T04:39:43.577Z",
       "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260729-zcash-says-ironwood-proof-ru-beb4240c",
-        "sig-20260729-european-financial-instituti-33fa4512",
-        "sig-20260728-coinbase-wants-to-be-canada--ae3a0240"
+        "sig-20260729-south-korea-plans-stablecoin-fd75ff3b",
+        "sig-20260729-celsius-linked-bitcoin-miner-1622c0ee",
+        "sig-20260729-tether-signs-tokenization-de-ab86252d"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
