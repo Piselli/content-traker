@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T21:07:31.843Z",
+  "updatedAt": "2026-07-30T22:32:47.539Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -3789,6 +3789,92 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260730-everything-is-becoming-a-per-baac349f",
+      "at": "2026-07-30",
+      "scannedAt": "2026-07-30T22:32:47.539Z",
+      "lane": "perps-derivatives",
+      "kind": "narrative",
+      "what": "Everything is becoming a perp",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/opinion/2026/07/28/everything-is-becoming-a-perp",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260730-polygon-turns-kansai-electri-af6b5f68",
+      "at": "2026-07-30",
+      "scannedAt": "2026-07-30T22:32:47.539Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Polygon Turns Kansai Electric Loyalty Points Into JPYC Spending",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/tokens/polygon-turns-kansai-electric-loyalty-points-into-jpyc-spending",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260730-us-senators-sent-revised-eth-c66d49f9",
+      "at": "2026-07-30",
+      "scannedAt": "2026-07-30T22:32:47.539Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "US Senators sent revised ethics rules to White House for CLARITY Act: Report",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/us-senators-revised-ethics-rules-white-house-clarity-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [
+        "clarity-policy"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260730-strategy-posts-8-2b-q2-loss--74686786",
+      "at": "2026-07-30",
+      "scannedAt": "2026-07-30T22:32:47.539Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Strategy posts $8.2B Q2 loss as Bitcoin slump drives unrealized losses",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/strategy-reports-q2-2026-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260730-world-cup-generated-20b-in-b-59dc6c99",
+      "at": "2026-07-30",
+      "scannedAt": "2026-07-30T22:32:47.539Z",
+      "lane": "cex-tradfi",
+      "kind": "metric",
+      "what": "World Cup generated $20B in blockchain prediction market volume: Chainalysis",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/world-cup-generated-20b-prediction-market-volume-chainalysis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260730-coinbase-misses-on-q2-earnin-0ec492ad",
+      "at": "2026-07-30",
+      "scannedAt": "2026-07-30T22:32:47.539Z",
+      "lane": "cex-tradfi",
+      "kind": "narrative",
+      "what": "Coinbase Misses on Q2 Earnings as Crypto Trading Activity Slows",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374761/coinbase-misses-q2-earnings-crypto-trading-activity-slows",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -4065,7 +4151,7 @@
     },
     {
       "id": "ang-watch-clarity-policy",
-      "at": "2026-07-30T19:58:50.572Z",
+      "at": "2026-07-30T22:32:47.539Z",
       "thesis": "Watcher cluster [clarity-policy]: 11 related receipts in ~7d across regulation.",
       "voiceHook": "Pattern forming: clarity policy.",
       "signalIds": [
@@ -4084,7 +4170,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for clarity-policy: dates + sources",
-      "expiresAt": "2026-08-03T19:58:50.572Z",
+      "expiresAt": "2026-08-03T22:32:47.539Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -4282,17 +4368,22 @@
     },
     {
       "date": "2026-07-30",
-      "at": "2026-07-30T21:07:31.843Z",
-      "note": "Watcher: +5 signals, spikes=0, patternPings=0.",
+      "at": "2026-07-30T22:32:47.539Z",
+      "note": "Watcher: +6 signals, spikes=0, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260730-strategy-books-8-2-billion-q-fa895445",
-        "sig-20260730-coinbase-sinks-5-after-missi-7ed78e79",
-        "sig-20260730-ens-scales-back-plan-to-move-f5b17af7",
-        "sig-20260730-uniswap-protocol-revenue-nea-999ec75f",
-        "sig-20260730-coinbase-q2-profit-misses-es-ef2fc2a8"
+        "sig-20260730-everything-is-becoming-a-per-baac349f",
+        "sig-20260730-polygon-turns-kansai-electri-af6b5f68",
+        "sig-20260730-us-senators-sent-revised-eth-c66d49f9",
+        "sig-20260730-strategy-posts-8-2b-q2-loss--74686786",
+        "sig-20260730-world-cup-generated-20b-in-b-59dc6c99",
+        "sig-20260730-coinbase-misses-on-q2-earnin-0ec492ad"
       ],
-      "angleIdsTouched": [],
-      "noteworthyIds": []
+      "angleIdsTouched": [
+        "ang-watch-clarity-policy"
+      ],
+      "noteworthyIds": [
+        "ang-watch-clarity-policy"
+      ]
     }
   ]
 }
