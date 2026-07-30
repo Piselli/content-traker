@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T11:26:37.328Z",
+  "updatedAt": "2026-07-30T13:02:13.728Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -2002,7 +2002,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/07/29/binance-offers-gold-and-silver-options-after-commodity-futures-pull-in-billions-in-daily-volume",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -2016,7 +2016,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/07/29/ionic-digital-jumps-26-in-nasdaq-debut-giving-celsius-network-claimholders-an-exit-route",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -2030,7 +2030,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/policy/2026/07/29/russia-charges-telegram-founder-pavel-durov-with-aiding-terrorism",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -2044,7 +2044,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/opinion/2026/07/29/spacex-is-a-battleground-solana-must-win",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -2058,7 +2058,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/crypto-exchanges-tokenized-assets-market-6-6-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -3191,6 +3191,76 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260730-telegram-faces-terror-relate-bb49bff3",
+      "at": "2026-07-30",
+      "scannedAt": "2026-07-30T13:02:13.728Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Telegram faces terror-related legal action in Australia one day after founder is charged by Russia",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/policy/2026/07/30/telegram-faces-terror-related-legal-action-in-australia-one-day-after-founder-is-charged-by-russia",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260730-samsung-unit-explores-stable-341d2c6a",
+      "at": "2026-07-30",
+      "scannedAt": "2026-07-30T13:02:13.728Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Samsung unit explores stablecoin infrastructure with Upbit’s operator",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/samsung-sds-stablecoin-infrastructure-dunamu?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260730-hedge-fund-with-1-1b-in-bitc-ce967926",
+      "at": "2026-07-30",
+      "scannedAt": "2026-07-30T13:02:13.728Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Hedge fund with $1.1B in Bitcoin miner stocks seeks capital after AI sell-off: FT",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/hedge-fund-with-11b-in-bitcoin-miner-stocks-seeks-capital-after-ai-sell-off-ft?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260730-morning-minute-robinhood-pos-6888fe0a",
+      "at": "2026-07-30",
+      "scannedAt": "2026-07-30T13:02:13.728Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Morning Minute: Robinhood Posts Its Best Quarter Ever",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374702/morning-minute-robinhood-posts-its-best-quarter-ever",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260730-crypto-exchange-luno-cuts-gl-20238cce",
+      "at": "2026-07-30",
+      "scannedAt": "2026-07-30T13:02:13.728Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Crypto Exchange Luno Cuts Global Staff By a Fifth, Citing Automation",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374699/crypto-exchange-luno-cuts-global-staff-by-a-fifth-citing-automation",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -3626,21 +3696,17 @@
     },
     {
       "date": "2026-07-30",
-      "at": "2026-07-30T11:26:37.328Z",
-      "note": "Watcher: +7 signals, spikes=1, patternPings=0.",
+      "at": "2026-07-30T13:02:13.728Z",
+      "note": "Watcher: +5 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260730-fake-flare-network-staking-s-1940ceb0",
-        "sig-20260730-bitcoin-etfs-on-track-for-th-fcb8e057",
-        "sig-20260730-south-korea-plans-to-tax-cry-4ebab97b",
-        "sig-20260730-crypto-s-resilience-tested-a-1ae3f1b6",
-        "sig-20260730-bitriver-founder-charged-in--693862d7",
-        "sig-20260730-crypto-exchange-luno-cuts-20-43b3b062",
-        "sig-20260729-robinhood-posts-record-quart-0ccc09ad"
+        "sig-20260730-telegram-faces-terror-relate-bb49bff3",
+        "sig-20260730-samsung-unit-explores-stable-341d2c6a",
+        "sig-20260730-hedge-fund-with-1-1b-in-bitc-ce967926",
+        "sig-20260730-morning-minute-robinhood-pos-6888fe0a",
+        "sig-20260730-crypto-exchange-luno-cuts-gl-20238cce"
       ],
       "angleIdsTouched": [],
-      "noteworthyIds": [
-        "sig-20260730-fake-flare-network-staking-s-1940ceb0"
-      ]
+      "noteworthyIds": []
     }
   ]
 }
