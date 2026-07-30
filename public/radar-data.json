@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T00:25:38.368Z",
+  "updatedAt": "2026-07-30T00:32:33.149Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -2865,18 +2865,20 @@
     {
       "id": "sig-20260729-moonpay-paybox-x",
       "at": "2026-07-29",
-      "scannedAt": "2026-07-30T00:25:38.368Z",
-      "lane": "ai-crypto",
-      "kind": "shipping",
-      "what": "MoonPay PayBox live (Jul 29): every Claude/ChatGPT user can trade on Solana via conversation — non-custodial payment vault for AI agents (prompt → approve → pay).",
-      "why": "Retail AI×crypto shipping: connectors inside ChatGPT/Claude, not a crypto-native wallet only. Clusters with Circle Agent Stack / x402.",
+      "scannedAt": "2026-07-30T00:32:33.149Z",
+      "lane": "incentives-campaigns",
+      "kind": "campaign",
+      "what": "MoonPay PayBox launch window: CT reports USDC drip $5–$600 for connecting ChatGPT or Claude (+ X) — product shipping wrapped in paid connect campaign.",
+      "why": "Campaign gravity, not just AI wallet narrative: buy installs/connectors with USDC range that screenshots well. Pairs with agent-payments rail thesis.",
       "source": "MoonPay / X",
       "url": "https://x.com/moonpay/status/2082459328208839074",
       "status": "open",
       "tags": [
         "stables-ai",
-        "agent-payments"
-      ]
+        "agent-payments",
+        "campaign-gravity"
+      ],
+      "note": "User receipt Jul 30: payouts $5–600 USDC for ChatGPT/Claude (+X) connect. Press covered vault only."
     }
   ],
   "angles": [
@@ -3180,8 +3182,8 @@
     {
       "id": "ang-20260729-ai-agent-payments",
       "at": "2026-07-30",
-      "thesis": "Jul 29 MoonPay PayBox puts spend/trade inside ChatGPT+Claude (passkey approve); Circle already shipped Agent Stack/x402 rails in May — agent payments leaving crypto-native UX into consumer chat.",
-      "voiceHook": "Your chatbot got a wallet. Custody theater optional.",
+      "thesis": "MoonPay PayBox (Jul 29) ships ChatGPT/Claude spend/trade vault AND pays $5–$600 USDC for connecting (+X) — agent rails launch bought with classic CT campaign drip.",
+      "voiceHook": "AI wallet launch. Paid you $5–$600 USDC to plug ChatGPT in. Same playbook, new connector.",
       "signalIds": [
         "sig-20260729-moonpay-paybox-x",
         "sig-20260729-moonpay-s-paybox-puts-a-cryp-fc2f230b",
@@ -3189,12 +3191,13 @@
         "sig-20260511-circle-agent-stack"
       ],
       "lanes": [
+        "incentives-campaigns",
         "ai-crypto",
         "stables-payments"
       ],
-      "pattern": "same-week-convergence",
+      "pattern": "campaign-gravity",
       "suggestedType": "hot topic",
-      "visualHint": "Timeline: Circle Agent Stack (May) → MoonPay PayBox in ChatGPT/Claude (Jul 29) + Solana trade claim",
+      "visualHint": "Range card: $5 → $600 USDC for ChatGPT/Claude connect + PayBox product shot",
       "expiresAt": "2026-08-04T00:25:38.375Z",
       "status": "ready",
       "noteworthy": true
@@ -3290,6 +3293,18 @@
       "signalIdsAdded": [
         "sig-20260729-moonpay-paybox-x"
       ],
+      "angleIdsTouched": [
+        "ang-20260729-ai-agent-payments"
+      ],
+      "noteworthyIds": [
+        "ang-20260729-ai-agent-payments"
+      ]
+    },
+    {
+      "date": "2026-07-30",
+      "at": "2026-07-30T00:32:33.149Z",
+      "note": "Corrected MoonPay angle: not refund — USDC campaign drip $5–600 for ChatGPT/Claude (+X) connect during PayBox launch.",
+      "signalIdsAdded": [],
       "angleIdsTouched": [
         "ang-20260729-ai-agent-payments"
       ],
