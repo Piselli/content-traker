@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T22:32:47.539Z",
+  "updatedAt": "2026-07-30T23:52:14.668Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -4368,22 +4368,11 @@
     },
     {
       "date": "2026-07-30",
-      "at": "2026-07-30T22:32:47.539Z",
-      "note": "Watcher: +6 signals, spikes=0, patternPings=1.",
-      "signalIdsAdded": [
-        "sig-20260730-everything-is-becoming-a-per-baac349f",
-        "sig-20260730-polygon-turns-kansai-electri-af6b5f68",
-        "sig-20260730-us-senators-sent-revised-eth-c66d49f9",
-        "sig-20260730-strategy-posts-8-2b-q2-loss--74686786",
-        "sig-20260730-world-cup-generated-20b-in-b-59dc6c99",
-        "sig-20260730-coinbase-misses-on-q2-earnin-0ec492ad"
-      ],
-      "angleIdsTouched": [
-        "ang-watch-clarity-policy"
-      ],
-      "noteworthyIds": [
-        "ang-watch-clarity-policy"
-      ]
+      "at": "2026-07-30T23:52:14.668Z",
+      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [],
+      "angleIdsTouched": [],
+      "noteworthyIds": []
     }
   ]
 }
