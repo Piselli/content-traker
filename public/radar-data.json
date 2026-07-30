@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T23:28:34.797Z",
+  "updatedAt": "2026-07-30T00:25:38.368Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -291,7 +291,11 @@
       "why": "AI×crypto with real rails — still relevant backdrop if agent-payment narrative reheats; expire if unused.",
       "source": "Circle / CryptoBriefing",
       "url": "https://cryptobriefing.com/circle-open-source-agent-stack-usdc-ai/",
-      "status": "expired"
+      "status": "open",
+      "tags": [
+        "stables-ai",
+        "agent-payments"
+      ]
     },
     {
       "id": "sig-20260506-metamask-rewards-relaunch",
@@ -2560,14 +2564,17 @@
       "id": "sig-20260729-moonpay-vault-enables-chatgp-ce970112",
       "at": "2026-07-29",
       "scannedAt": "2026-07-29T17:44:53.542Z",
-      "lane": "narrative-rotation",
-      "kind": "narrative",
+      "lane": "ai-crypto",
+      "kind": "shipping",
       "what": "MoonPay vault enables ChatGPT and Claude users to authorize crypto transactions",
-      "why": "Watcher inbox — accumulate for clusters.",
+      "why": "Consumer AI agents can spend/trade crypto from chat (x402/PayBox) — same rail thesis as Circle Agent Stack.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/moonpay-launches-ai-payment-vault-for-chatgpt-and-claude-with-crypto-transaction-support?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "expired",
-      "tags": [],
+      "status": "open",
+      "tags": [
+        "stables-ai",
+        "agent-payments"
+      ],
       "watcher": true
     },
     {
@@ -2714,14 +2721,17 @@
       "id": "sig-20260729-moonpay-s-paybox-puts-a-cryp-fc2f230b",
       "at": "2026-07-29",
       "scannedAt": "2026-07-29T20:06:44.680Z",
-      "lane": "narrative-rotation",
-      "kind": "narrative",
+      "lane": "ai-crypto",
+      "kind": "shipping",
       "what": "MoonPay's PayBox Puts a Crypto Wallet Inside Claude and ChatGPT—And Lets It Pay for Things",
-      "why": "Watcher inbox — accumulate for clusters.",
+      "why": "Consumer AI agents can spend/trade crypto from chat (x402/PayBox) — same rail thesis as Circle Agent Stack.",
       "source": "decrypt",
       "url": "https://decrypt.co/374687/moonpays-paybox-crypto-wallet-claude-chatgpt",
-      "status": "expired",
-      "tags": [],
+      "status": "open",
+      "tags": [
+        "stables-ai",
+        "agent-payments"
+      ],
       "watcher": true
     },
     {
@@ -2851,6 +2861,22 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260729-moonpay-paybox-x",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-30T00:25:38.368Z",
+      "lane": "ai-crypto",
+      "kind": "shipping",
+      "what": "MoonPay PayBox live (Jul 29): every Claude/ChatGPT user can trade on Solana via conversation — non-custodial payment vault for AI agents (prompt → approve → pay).",
+      "why": "Retail AI×crypto shipping: connectors inside ChatGPT/Claude, not a crypto-native wallet only. Clusters with Circle Agent Stack / x402.",
+      "source": "MoonPay / X",
+      "url": "https://x.com/moonpay/status/2082459328208839074",
+      "status": "open",
+      "tags": [
+        "stables-ai",
+        "agent-payments"
+      ]
     }
   ],
   "angles": [
@@ -3150,6 +3176,28 @@
       "status": "ready",
       "noteworthy": true,
       "watcher": true
+    },
+    {
+      "id": "ang-20260729-ai-agent-payments",
+      "at": "2026-07-30",
+      "thesis": "Jul 29 MoonPay PayBox puts spend/trade inside ChatGPT+Claude (passkey approve); Circle already shipped Agent Stack/x402 rails in May — agent payments leaving crypto-native UX into consumer chat.",
+      "voiceHook": "Your chatbot got a wallet. Custody theater optional.",
+      "signalIds": [
+        "sig-20260729-moonpay-paybox-x",
+        "sig-20260729-moonpay-s-paybox-puts-a-cryp-fc2f230b",
+        "sig-20260729-moonpay-vault-enables-chatgp-ce970112",
+        "sig-20260511-circle-agent-stack"
+      ],
+      "lanes": [
+        "ai-crypto",
+        "stables-payments"
+      ],
+      "pattern": "same-week-convergence",
+      "suggestedType": "hot topic",
+      "visualHint": "Timeline: Circle Agent Stack (May) → MoonPay PayBox in ChatGPT/Claude (Jul 29) + Solana trade claim",
+      "expiresAt": "2026-08-04T00:25:38.375Z",
+      "status": "ready",
+      "noteworthy": true
     }
   ],
   "days": [
@@ -3233,6 +3281,20 @@
       ],
       "noteworthyIds": [
         "ang-watch-clarity-policy"
+      ]
+    },
+    {
+      "date": "2026-07-30",
+      "at": "2026-07-30T00:25:38.368Z",
+      "note": "User ping: MoonPay PayBox X post missed ntfy (watcher ingested as narrative noise, no spike/tags). Restored as noteworthy ai-agent-payments angle.",
+      "signalIdsAdded": [
+        "sig-20260729-moonpay-paybox-x"
+      ],
+      "angleIdsTouched": [
+        "ang-20260729-ai-agent-payments"
+      ],
+      "noteworthyIds": [
+        "ang-20260729-ai-agent-payments"
       ]
     }
   ]

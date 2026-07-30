@@ -44,7 +44,7 @@ const LANE_RULES = [
   { lane: "rwa-compliance", re: /\b(RWA|tokeniz|permissioned|KYC|allowlist)\b/i },
   { lane: "bridges-liquidity", re: /\b(bridge|bridged|cross-?chain|net flow)\b/i },
   { lane: "stables-payments", re: /\b(stablecoin|USDC|USDT|Circle|Tether|payments rail)\b/i },
-  { lane: "ai-crypto", re: /\b(AI agent|agentic|x402|LLM)\b/i },
+  { lane: "ai-crypto", re: /\b(AI agent|agentic|x402|LLM|ChatGPT|Claude|PayBox|MoonPay|agent payments?|payment vault)\b/i },
   { lane: "cex-tradfi", re: /\b(Coinbase|Binance|Kalshi|Polymarket|prediction market|Morgan Stanley|BlackRock|Fidelity)\b/i },
   { lane: "incentives-campaigns", re: /\b(airdrop|points program|liquidity mining|incentive)\b/i },
   { lane: "l1-l2", re: /\b(Solana|Ethereum|Base|Arbitrum|Optimism|Tron|L2|mainnet|Alpenglow)\b/i },
@@ -54,7 +54,7 @@ const LANE_RULES = [
 
 /** Spike: notify even as a single signal — keep strict to avoid spam */
 const SPIKE_RE =
-  /\b((hack|exploit|breach|drain).{0,40}\$\d|\b\$\d+(\.\d+)?\s*(M|B|million|billion)\b.{0,40}(hack|exploit|drain|stolen)|rug\s*pull|exit\s*scam|insolven|wind(ing)?\s+down|shuts?\s+down|shutdown|paused withdrawals|flash crash|launches?\s+.{0,30}\b(ETF|ETP)s?\b|(ETF|ETP)s?\s+.{0,20}(launch|debut)|sues?\s+.{0,20}(SEC|CFTC|Coinbase|Binance|Apple))\b/i;
+  /\b((hack|exploit|breach|drain).{0,40}\$\d|\b\$\d+(\.\d+)?\s*(M|B|million|billion)\b.{0,40}(hack|exploit|drain|stolen)|rug\s*pull|exit\s*scam|insolven|wind(ing)?\s+down|shuts?\s+down|shutdown|paused withdrawals|flash crash|launches?\s+.{0,30}\b(ETF|ETP)s?\b|(ETF|ETP)s?\s+.{0,20}(launch|debut)|sues?\s+.{0,20}(SEC|CFTC|Coinbase|Binance|Apple)|PayBox|(MoonPay|Circle).{0,40}(ChatGPT|Claude|AI agent|payment vault)|Crypto wallet inside (Claude|ChatGPT))\b/i;
 
 const CLUSTER_TAGS = [
   { tag: "wrappers-etf", re: /\b(ETF|ETP|BlackRock|Fidelity|Morgan Stanley|IBIT|ETHA|MSSE|MSOL)\b/i },
@@ -62,7 +62,7 @@ const CLUSTER_TAGS = [
   { tag: "bridge-fail", re: /\b(bridge.{0,40}(hack|exploit|drain)|solver.{0,30}(breach|compromise)|HTLC)\b/i },
   { tag: "clarity-policy", re: /\b(CLARITY Act|Senate.{0,20}crypto|CFTC.{0,20}(sue|perp))\b/i },
   { tag: "l1-winners", re: /\b(TVL|DEX volume|chain fees|Alpenglow)\b/i },
-  { tag: "stables-ai", re: /\b(stablecoin yield|Agent Stack|x402|Circle Agent)\b/i },
+  { tag: "stables-ai", re: /\b(stablecoin yield|Agent Stack|x402|Circle Agent|PayBox|MoonPay|ChatGPT|Claude|payment vault|agent payments?)\b/i },
 ];
 
 function slug(s, max = 40) {
