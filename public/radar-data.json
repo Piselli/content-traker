@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T15:28:57.981Z",
+  "updatedAt": "2026-07-30T16:59:18.997Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -1792,7 +1792,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/zcash-ironwood-proof-counterfeiting-orchard-flaw?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -1806,7 +1806,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/european-financial-institutions-launch-rl1-blockchain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -3435,6 +3435,148 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260730-aave-moves-to-retire-50-low--2e8ed0a9",
+      "at": "2026-07-30",
+      "scannedAt": "2026-07-30T16:59:18.997Z",
+      "lane": "defi-infra",
+      "kind": "narrative",
+      "what": "Aave Moves to Retire 50 Low-Adoption Assets, Wind Down Six Chains",
+      "why": "Watcher spike: strong failure/shipping/capital headline — check for take.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/defi/aave-moves-to-retire-50-low-adoption-assets-wind-down-six-chains",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260730-ondo-finance-weighs-acquisit-2753c91d",
+      "at": "2026-07-30",
+      "scannedAt": "2026-07-30T16:59:18.997Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Ondo Finance weighs acquisition worth up to $500 million",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/07/29/ondo-finance-weighs-acquisition-worth-up-to-usd500-million",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260730-banco-santander-discloses-sp-dd68c2c1",
+      "at": "2026-07-30",
+      "scannedAt": "2026-07-30T16:59:18.997Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "Banco Santander Discloses Spot Bitcoin ETF Stake in 13F Filing",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/converge/tradfi-and-fintech/banco-santander-discloses-spot-bitcoin-etf-stake-in-13f-filing",
+      "status": "expired",
+      "tags": [
+        "wrappers-etf"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260730-us-sanctions-iranian-marine--419f0680",
+      "at": "2026-07-30",
+      "scannedAt": "2026-07-30T16:59:18.997Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "US Sanctions Iranian Marine Insurers Taking Bitcoin for Strait of Hormuz Passage",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/converge/regulation/us-sanctions-iranian-marine-insurers-taking-bitcoin-for-strait-of-hormuz-passage",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260730-bitcoin-stable-as-fed-fave-p-a1d7d85c",
+      "at": "2026-07-30",
+      "scannedAt": "2026-07-30T16:59:18.997Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin stable as Fed fave PCE inflation sees first monthly drop in six years",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/bitcoin-crypto-stable-as-us-pce-inflation-sees-first-monthly-drop-in-six-years?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260730-hyperscale-data-sells-100-bt-ba9fddb4",
+      "at": "2026-07-30",
+      "scannedAt": "2026-07-30T16:59:18.997Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Hyperscale Data sells 100 BTC to fund Michigan AI data center",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/hyperscale-data-taps-bitcoin-treasury-btc-backed-credit-to-fund-ai-data-center?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260730-tokenized-gold-passes-defi-s-ec15b546",
+      "at": "2026-07-30",
+      "scannedAt": "2026-07-30T16:59:18.997Z",
+      "lane": "narrative-rotation",
+      "kind": "metric",
+      "what": "Tokenized gold passes DeFi stress test, but less than 2% is used as collateral",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/tokenized-gold-defi-stress-test-collateral-adoption-redstone?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260730-your-sexual-wellness-pills-o-046c9212",
+      "at": "2026-07-30",
+      "scannedAt": "2026-07-30T16:59:18.997Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Your 'Sexual Wellness' Pills Order Info From Hims Got Shared With Meta, Says FTC",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374736/ftc-sues-hims-hers-sexual-wellness-health-data-sharing-meta",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260730-cathie-wood-s-ark-invest-sel-77bcce7f",
+      "at": "2026-07-30",
+      "scannedAt": "2026-07-30T16:59:18.997Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Cathie Wood's Ark Invest Sells Bitmine While Adding to Coinbase and Circle Holdings",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374738/cathie-wood-ark-invest-sells-bitmine-adds-coinbase-circle",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260730-elon-musk-s-xai-sues-minneso-da10b4db",
+      "at": "2026-07-30",
+      "scannedAt": "2026-07-30T16:59:18.997Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "Elon Musk's xAI Sues Minnesota to Kill the US's First AI Nudification Law",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374728/elon-musk-xai-sues-minnesota-ai-nudification-law",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -3684,8 +3826,8 @@
     },
     {
       "id": "ang-watch-wrappers-etf",
-      "at": "2026-07-30T09:10:00.298Z",
-      "thesis": "Watcher cluster [wrappers-etf]: 9 related receipts in ~7d across capital-flows, regulation, cex-tradfi.",
+      "at": "2026-07-30T16:59:18.997Z",
+      "thesis": "Watcher cluster [wrappers-etf]: 10 related receipts in ~7d across capital-flows, regulation, cex-tradfi.",
       "voiceHook": "Pattern forming: wrappers etf.",
       "signalIds": [
         "sig-20260728-ms-eth-sol-etp",
@@ -3704,7 +3846,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for wrappers-etf: dates + sources",
-      "expiresAt": "2026-08-03T09:10:00.298Z",
+      "expiresAt": "2026-08-03T16:59:18.997Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -3893,30 +4035,26 @@
     },
     {
       "date": "2026-07-30",
-      "at": "2026-07-30T15:28:57.981Z",
-      "note": "Watcher: +12 signals, spikes=1, patternPings=2.",
+      "at": "2026-07-30T16:59:18.997Z",
+      "note": "Watcher: +10 signals, spikes=1, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260730-fake-staking-site-drains-8-5-10f11658",
-        "sig-20260730-crypto-for-advisors-is-the-c-930db6ea",
-        "sig-20260730-cme-s-duffy-warns-an-overloo-f3936528",
-        "sig-20260730-the-economics-behind-aave-pr-275fabf5",
-        "sig-20260730-jpmorgan-says-fading-clarity-ac9b553f",
-        "sig-20260730-institutional-crypto-trading-fc173f33",
-        "sig-20260730-ethereum-enters-its-second-d-f99e11cb",
-        "sig-20260730-lightning-labs-launches-site-1b7eea1f",
-        "sig-20260730-south-korean-crypto-trading--31147d9e",
-        "sig-20260730-bitriver-founder-charged-in--a112c7bb",
-        "sig-20260730-australia-sues-telegram-for--7a7332e6",
-        "sig-20260730-completely-legal-grapheneos--ca221194"
+        "sig-20260730-aave-moves-to-retire-50-low--2e8ed0a9",
+        "sig-20260730-ondo-finance-weighs-acquisit-2753c91d",
+        "sig-20260730-banco-santander-discloses-sp-dd68c2c1",
+        "sig-20260730-us-sanctions-iranian-marine--419f0680",
+        "sig-20260730-bitcoin-stable-as-fed-fave-p-a1d7d85c",
+        "sig-20260730-hyperscale-data-sells-100-bt-ba9fddb4",
+        "sig-20260730-tokenized-gold-passes-defi-s-ec15b546",
+        "sig-20260730-your-sexual-wellness-pills-o-046c9212",
+        "sig-20260730-cathie-wood-s-ark-invest-sel-77bcce7f",
+        "sig-20260730-elon-musk-s-xai-sues-minneso-da10b4db"
       ],
       "angleIdsTouched": [
-        "ang-watch-clarity-policy",
-        "ang-watch-stables-ai"
+        "ang-watch-wrappers-etf"
       ],
       "noteworthyIds": [
-        "sig-20260730-fake-staking-site-drains-8-5-10f11658",
-        "ang-watch-clarity-policy",
-        "ang-watch-stables-ai"
+        "sig-20260730-aave-moves-to-retire-50-low--2e8ed0a9",
+        "ang-watch-wrappers-etf"
       ]
     }
   ]
