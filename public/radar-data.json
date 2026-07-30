@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T19:44:40.000Z",
+  "updatedAt": "2026-07-30T19:46:28.000Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -3633,21 +3633,6 @@
       "status": "expired",
       "tags": [],
       "watcher": true
-    },
-    {
-      "id": "sig-20260730-aave-deprecate-6-chains",
-      "at": "2026-07-30",
-      "lane": "defi-infra",
-      "kind": "shipping",
-      "what": "Aave ARFC (LlamaRisk / Stani): deprecate 50 low-adoption reserves + orderly wind-down of 6 deployments (Sonic, Scroll, zkSync, Metis, Soneium, Aptos) + 21 matured Pendle PTs; ~$98.1M supply / $15.6M debt. Six chains each <$5k quarterly revenue (some <$1k).",
-      "url": "https://www.coindesk.com/tech/2026/07/30/the-economics-behind-the-aave-proposal-to-ditch-6-chains-that-earn-chump-change",
-      "why": "Largest DeFi lender pruning multi-chain sprawl — cost/risk > footprint; table-stakes for 'deploy everywhere' thesis.",
-      "tags": [
-        "aave",
-        "deprecation",
-        "l2-exits",
-        "risk"
-      ]
     }
   ],
   "angles": [
@@ -4006,7 +3991,8 @@
         "failures-rugs"
       ],
       "signalIds": [
-        "sig-20260730-aave-deprecate-6-chains"
+        "sig-20260730-aave-moves-to-retire-50-low--2e8ed0a9",
+        "sig-20260730-the-economics-behind-aave-pr-275fabf5"
       ],
       "thesis": "Aave proposes ditching 6 chains + 50 dead reserves: each deployment under ~$5k/quarter revenue vs keep-alive cost (oracles, liquidations, monitoring). Multi-chain as growth strategy reversing into concentration.",
       "voiceHook": "Aave isn’t expanding — it’s deleting six chains that paid under $5k a quarter. Multi-chain was the pitch. Concentration is the product.",
@@ -4139,10 +4125,10 @@
     },
     {
       "date": "2026-07-30",
-      "at": "2026-07-30T19:44:40.000Z",
-      "note": "User ask: Aave moves — missed by watcher. Upserted deprecate-6-chains + 50 reserves as noteworthy.",
+      "at": "2026-07-30T19:46:28.000Z",
+      "note": "Correction: Aave WAS a watcher spike (~2h earlier, The Defiant) + ntfy fired. Chat agent read stale local radar (no pull) and wrongly said missed. Angle linked to sig-20260730-aave-moves-to-retire-50-low--2e8ed0a9.",
       "signalIdsAdded": [
-        "sig-20260730-aave-deprecate-6-chains"
+        "sig-20260730-aave-moves-to-retire-50-low--2e8ed0a9"
       ],
       "angleIdsTouched": [
         "ang-20260730-aave-prune-multichain"

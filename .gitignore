@@ -41,3 +41,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Arc gateway local secrets/state
+scripts/arc-gateway/.env
+scripts/arc-gateway/.last-attestation.json
+scripts/arc-gateway/node_modules/
