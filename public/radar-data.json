@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T09:10:00.298Z",
+  "updatedAt": "2026-07-30T11:26:37.328Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -2072,7 +2072,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/hungary-repeals-crypto-checks-first-mica-license-granted?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -2086,7 +2086,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/trump-teleprompter-kalshi-bets-government-ap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -2100,7 +2100,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/374625/russia-charges-telegrams-pavel-durov-with-aiding-terrorism",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -2114,7 +2114,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/07/29/bny-targets-usd8-6-trillion-transfer-agency-market-on-blockchain-rails",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -2128,7 +2128,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/daybook-us/2026/07/29/3-reasons-wednesday-s-fed-meeting-is-pivotal-for-btc",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -2142,7 +2142,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/07/29/bitcoin-steadies-above-usd64-000-as-crypto-looks-to-fed-interest-rate-decision",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -3093,6 +3093,104 @@
         "wrappers-etf"
       ],
       "watcher": true
+    },
+    {
+      "id": "sig-20260730-fake-flare-network-staking-s-1940ceb0",
+      "at": "2026-07-30",
+      "scannedAt": "2026-07-30T11:26:37.328Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Fake Flare Network Staking Site Drained $8.5M in XRP: Seoul Police",
+      "why": "Watcher spike: strong failure/shipping/capital headline — check for take.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374696/fake-flare-network-staking-site-drained-8-5m-in-xrp-seoul-police",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260730-bitcoin-etfs-on-track-for-th-fcb8e057",
+      "at": "2026-07-30",
+      "scannedAt": "2026-07-30T11:26:37.328Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin ETFs on track for the smallest monthly inflows ever",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/daybook-us/2026/07/30/bitcoin-etfs-on-track-for-the-smallest-monthly-inflows-ever",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260730-south-korea-plans-to-tax-cry-4ebab97b",
+      "at": "2026-07-30",
+      "scannedAt": "2026-07-30T11:26:37.328Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "South Korea plans to tax crypto gains over $1,740 as political battle moves to parliament",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/policy/2026/07/30/south-korea-s-long-delayed-crypto-tax-set-to-start-in-2027",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260730-crypto-s-resilience-tested-a-1ae3f1b6",
+      "at": "2026-07-30",
+      "scannedAt": "2026-07-30T11:26:37.328Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Crypto's resilience tested as oil rises after Iran strikes, Fed signals rates could still rise",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/07/30/crypto-s-resilience-tested-as-oil-rises-after-iran-strikes-fed-signals-rates-could-still-rise",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260730-bitriver-founder-charged-in--693862d7",
+      "at": "2026-07-30",
+      "scannedAt": "2026-07-30T11:26:37.328Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "BitRiver founder charged in Russia with $12.5 million fraud",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/policy/2026/07/30/bitriver-founder-charged-in-russia-with-usd12-5-million-fraud",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260730-crypto-exchange-luno-cuts-20-43b3b062",
+      "at": "2026-07-30",
+      "scannedAt": "2026-07-30T11:26:37.328Z",
+      "lane": "narrative-rotation",
+      "kind": "metric",
+      "what": "Crypto exchange Luno cuts 20% of staff amid automation push and retail trading slumps",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/07/30/crypto-exchange-luno-cuts-20-of-staff-amid-automation-push-and-retail-trading-slumps",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260729-robinhood-posts-record-quart-0ccc09ad",
+      "at": "2026-07-29",
+      "scannedAt": "2026-07-30T11:26:37.328Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Robinhood posts record quarter as crypto revenue slides 38%",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/robinhood-record-quarter-crypto-revenue-slides?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -3528,22 +3626,20 @@
     },
     {
       "date": "2026-07-30",
-      "at": "2026-07-30T09:10:00.298Z",
-      "note": "Watcher: +7 signals, spikes=0, patternPings=1.",
+      "at": "2026-07-30T11:26:37.328Z",
+      "note": "Watcher: +7 signals, spikes=1, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260730-live-updates-bitcoin-holds-n-3d85bd95",
-        "sig-20260730-bitcoin-and-ether-markets-ar-52325bcc",
-        "sig-20260730-bitcoin-ether-whipsaw-wipes--51bd5344",
-        "sig-20260730-bitcoin-analysts-agree-the-f-bc327d68",
-        "sig-20260730-australia-sues-telegram-over-20651878",
-        "sig-20260730-chinese-newspaper-warns-of-b-edc2600b",
-        "sig-20260730-bitcoin-etf-inflows-return-a-384d35fe"
+        "sig-20260730-fake-flare-network-staking-s-1940ceb0",
+        "sig-20260730-bitcoin-etfs-on-track-for-th-fcb8e057",
+        "sig-20260730-south-korea-plans-to-tax-cry-4ebab97b",
+        "sig-20260730-crypto-s-resilience-tested-a-1ae3f1b6",
+        "sig-20260730-bitriver-founder-charged-in--693862d7",
+        "sig-20260730-crypto-exchange-luno-cuts-20-43b3b062",
+        "sig-20260729-robinhood-posts-record-quart-0ccc09ad"
       ],
-      "angleIdsTouched": [
-        "ang-watch-wrappers-etf"
-      ],
+      "angleIdsTouched": [],
       "noteworthyIds": [
-        "ang-watch-wrappers-etf"
+        "sig-20260730-fake-flare-network-staking-s-1940ceb0"
       ]
     }
   ]
