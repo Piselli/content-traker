@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T06:16:54.024Z",
+  "updatedAt": "2026-07-30T09:10:00.298Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -2156,7 +2156,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/emirates-starts-letting-uae-residents-pay-for-flights-through-cryptocom?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -2170,7 +2170,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/binance-disappears-android-google-play-certain-eu-countries?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -2184,7 +2184,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/374637/morning-minute-claude-mythos-breaks-post-quantum-cryptography",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "stables-ai"
       ],
@@ -2200,7 +2200,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/374638/crypto-scams-cost-americans-an-estimated-80-7b-in-2025-report",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -2214,7 +2214,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/tech/2026/07/29/ethereum-foundation-names-pcaversaccio-to-board-amid-leadership-changes",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -2228,7 +2228,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/07/29/the-inside-story-of-how-a-hike-in-hong-kong-changed-crypto-trading-forever",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -2242,7 +2242,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/tech/2026/07/29/about-usd80-million-zec-crosses-into-zcash-s-new-ironwood-pool-in-the-first-day",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -2993,6 +2993,106 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260730-live-updates-bitcoin-holds-n-3d85bd95",
+      "at": "2026-07-30",
+      "scannedAt": "2026-07-30T09:10:00.298Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Live updates: Bitcoin holds near $64,000 as Microsoft's AI payoff lifts stocks",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/tech/2026/07/30/live-updates-bitcoin-holds-near-usd64-000-as-microsoft-s-ai-payoff-lifts-stocks",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260730-bitcoin-and-ether-markets-ar-52325bcc",
+      "at": "2026-07-30",
+      "scannedAt": "2026-07-30T09:10:00.298Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin and ether markets are ruled by perps. SpaceX showed how far their influence can go",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/07/30/bitcoin-and-ether-markets-are-ruled-by-perps-spacex-showed-how-far-their-influence-can-go",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260730-bitcoin-ether-whipsaw-wipes--51bd5344",
+      "at": "2026-07-30",
+      "scannedAt": "2026-07-30T09:10:00.298Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin, ether whipsaw wipes out $286 million in leveraged bets",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/07/30/bitcoin-ether-whipsaw-wipes-out-usd280-million-even-as-prices-remain-flat-over-24-hours",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260730-bitcoin-analysts-agree-the-f-bc327d68",
+      "at": "2026-07-30",
+      "scannedAt": "2026-07-30T09:10:00.298Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin analysts agree the Fed's hold was hawkish. They are split on what happens next.",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/07/30/bitcoin-analysts-agree-the-fed-s-hold-was-hawkish-they-don-t-agree-on-what-happens-next",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260730-australia-sues-telegram-over-20651878",
+      "at": "2026-07-30",
+      "scannedAt": "2026-07-30T09:10:00.298Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "Australia sues Telegram over alleged failures to remove terror content",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/australia-telegram-alleged-failures-terror-content?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260730-chinese-newspaper-warns-of-b-edc2600b",
+      "at": "2026-07-30",
+      "scannedAt": "2026-07-30T09:10:00.298Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Chinese newspaper warns of Bitcoin extortion scam using its name",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/chinese-newspaper-bitcoin-extortion-scam-name?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260730-bitcoin-etf-inflows-return-a-384d35fe",
+      "at": "2026-07-30",
+      "scannedAt": "2026-07-30T09:10:00.298Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "Bitcoin ETF inflows return as Ether funds slip into outflows",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/bitcoin-etf-inflows-return-ether-funds-outflows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [
+        "wrappers-etf"
+      ],
+      "watcher": true
     }
   ],
   "angles": [
@@ -3242,8 +3342,8 @@
     },
     {
       "id": "ang-watch-wrappers-etf",
-      "at": "2026-07-29T17:44:53.542Z",
-      "thesis": "Watcher cluster [wrappers-etf]: 10 related receipts in ~7d across capital-flows, regulation, cex-tradfi.",
+      "at": "2026-07-30T09:10:00.298Z",
+      "thesis": "Watcher cluster [wrappers-etf]: 9 related receipts in ~7d across capital-flows, regulation, cex-tradfi.",
       "voiceHook": "Pattern forming: wrappers etf.",
       "signalIds": [
         "sig-20260728-ms-eth-sol-etp",
@@ -3262,7 +3362,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for wrappers-etf: dates + sources",
-      "expiresAt": "2026-08-02T17:44:53.542Z",
+      "expiresAt": "2026-08-03T09:10:00.298Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -3428,17 +3528,23 @@
     },
     {
       "date": "2026-07-30",
-      "at": "2026-07-30T06:16:54.024Z",
-      "note": "Watcher: +5 signals, spikes=0, patternPings=0.",
+      "at": "2026-07-30T09:10:00.298Z",
+      "note": "Watcher: +7 signals, spikes=0, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260730-ether-xrp-flat-as-chip-stock-a07e5721",
-        "sig-20260730-bitcoin-s-quantum-plan-assum-643d8d64",
-        "sig-20260730-south-korea-report-proposes--2d86f0c3",
-        "sig-20260730-us-sanctions-iranian-maritim-cc45fa29",
-        "sig-20260730-luno-cuts-20-of-staff-as-cry-c37fbdaa"
+        "sig-20260730-live-updates-bitcoin-holds-n-3d85bd95",
+        "sig-20260730-bitcoin-and-ether-markets-ar-52325bcc",
+        "sig-20260730-bitcoin-ether-whipsaw-wipes--51bd5344",
+        "sig-20260730-bitcoin-analysts-agree-the-f-bc327d68",
+        "sig-20260730-australia-sues-telegram-over-20651878",
+        "sig-20260730-chinese-newspaper-warns-of-b-edc2600b",
+        "sig-20260730-bitcoin-etf-inflows-return-a-384d35fe"
       ],
-      "angleIdsTouched": [],
-      "noteworthyIds": []
+      "angleIdsTouched": [
+        "ang-watch-wrappers-etf"
+      ],
+      "noteworthyIds": [
+        "ang-watch-wrappers-etf"
+      ]
     }
   ]
 }
