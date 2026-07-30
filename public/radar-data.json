@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T18:15:13.435Z",
+  "updatedAt": "2026-07-30T19:44:40.000Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -3633,6 +3633,21 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260730-aave-deprecate-6-chains",
+      "at": "2026-07-30",
+      "lane": "defi-infra",
+      "kind": "shipping",
+      "what": "Aave ARFC (LlamaRisk / Stani): deprecate 50 low-adoption reserves + orderly wind-down of 6 deployments (Sonic, Scroll, zkSync, Metis, Soneium, Aptos) + 21 matured Pendle PTs; ~$98.1M supply / $15.6M debt. Six chains each <$5k quarterly revenue (some <$1k).",
+      "url": "https://www.coindesk.com/tech/2026/07/30/the-economics-behind-the-aave-proposal-to-ditch-6-chains-that-earn-chump-change",
+      "why": "Largest DeFi lender pruning multi-chain sprawl — cost/risk > footprint; table-stakes for 'deploy everywhere' thesis.",
+      "tags": [
+        "aave",
+        "deprecation",
+        "l2-exits",
+        "risk"
+      ]
     }
   ],
   "angles": [
@@ -3978,6 +3993,26 @@
       "status": "ready",
       "noteworthy": true,
       "watcher": true
+    },
+    {
+      "id": "ang-20260730-aave-prune-multichain",
+      "at": "2026-07-30T19:45:00.000Z",
+      "status": "ready",
+      "noteworthy": true,
+      "pattern": "winner-tape",
+      "lanes": [
+        "defi-infra",
+        "l1-l2",
+        "failures-rugs"
+      ],
+      "signalIds": [
+        "sig-20260730-aave-deprecate-6-chains"
+      ],
+      "thesis": "Aave proposes ditching 6 chains + 50 dead reserves: each deployment under ~$5k/quarter revenue vs keep-alive cost (oracles, liquidations, monitoring). Multi-chain as growth strategy reversing into concentration.",
+      "voiceHook": "Aave isn’t expanding — it’s deleting six chains that paid under $5k a quarter. Multi-chain was the pitch. Concentration is the product.",
+      "suggestedType": "hot topic",
+      "visualHint": "screenshot of Stani post or chain list vs revenue",
+      "expiresAt": "2026-08-03T23:59:00.000Z"
     }
   ],
   "days": [
@@ -4101,6 +4136,20 @@
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
+    },
+    {
+      "date": "2026-07-30",
+      "at": "2026-07-30T19:44:40.000Z",
+      "note": "User ask: Aave moves — missed by watcher. Upserted deprecate-6-chains + 50 reserves as noteworthy.",
+      "signalIdsAdded": [
+        "sig-20260730-aave-deprecate-6-chains"
+      ],
+      "angleIdsTouched": [
+        "ang-20260730-aave-prune-multichain"
+      ],
+      "noteworthyIds": [
+        "ang-20260730-aave-prune-multichain"
+      ]
     }
   ]
 }
