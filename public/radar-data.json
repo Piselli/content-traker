@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T21:34:00.509Z",
+  "updatedAt": "2026-07-31T22:49:16.301Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -5166,19 +5166,11 @@
     },
     {
       "date": "2026-07-31",
-      "at": "2026-07-31T21:34:00.509Z",
-      "note": "Watcher: +5 signals, spikes=1, patternPings=0.",
-      "signalIdsAdded": [
-        "sig-20260731-ygg-play-shuts-down-services-07cb878c",
-        "sig-20260731-bitcoin-holds-monthly-gain-f-95187872",
-        "sig-20260731-metronome-discloses-15-7-mil-09511fad",
-        "sig-20260731-bank-of-italy-finds-no-consi-38d48ded",
-        "sig-20260731-google-yanks-google-earth-ai-f5892670"
-      ],
+      "at": "2026-07-31T22:49:16.301Z",
+      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [],
       "angleIdsTouched": [],
-      "noteworthyIds": [
-        "sig-20260731-ygg-play-shuts-down-services-07cb878c"
-      ]
+      "noteworthyIds": []
     }
   ]
 }
