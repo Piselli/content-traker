@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T20:13:33.375Z",
+  "updatedAt": "2026-07-31T21:34:00.509Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -4593,6 +4593,76 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260731-ygg-play-shuts-down-services-07cb878c",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T21:34:00.509Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "YGG Play Shuts Down Services as Yield Guild Pivots to AI Data",
+      "why": "Watcher spike: strong failure/shipping/capital headline — check for take.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/nfts-and-web3/ygg-play-shuts-down-services-as-yield-guild-pivots-to-ai-data",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260731-bitcoin-holds-monthly-gain-f-95187872",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T21:34:00.509Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin holds monthly gain, faces 'choppy' August as 'forced-selling' exhausted, analysts say",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/07/31/bitcoin-holds-onto-july-gain-as-forced-selling-fuel-was-already-spent-analysts-say",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260731-metronome-discloses-15-7-mil-09511fad",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T21:34:00.509Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Metronome Discloses $15.7 Million Synth Shortfall, Blames Oracle Lag in Swap Module",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/defi/metronome-discloses-usd15-7-million-synth-shortfall-blames-oracle-lag-in-swap-module",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260731-bank-of-italy-finds-no-consi-38d48ded",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T21:34:00.509Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Bank of Italy finds no consistent cost advantage for stablecoin remittances",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/bank-of-italy-study-no-stablecoin-remittance-cost-advantages?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260731-google-yanks-google-earth-ai-f5892670",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T21:34:00.509Z",
+      "lane": "narrative-rotation",
+      "kind": "shipping",
+      "what": "Google Yanks Google Earth AI Image Tool a Day After Launch Over Deepfake Fears",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374805/google-yanks-google-earth-ai-image-tool-deepfake-fears",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -5096,15 +5166,19 @@
     },
     {
       "date": "2026-07-31",
-      "at": "2026-07-31T20:13:33.375Z",
-      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
+      "at": "2026-07-31T21:34:00.509Z",
+      "note": "Watcher: +5 signals, spikes=1, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260731-pump-fun-laid-off-workers-be-30c5819c",
-        "sig-20260731-ai-music-company-suno-loses--32d08f39",
-        "sig-20260731-us-is-banning-foreign-robots-f8d1a3ac"
+        "sig-20260731-ygg-play-shuts-down-services-07cb878c",
+        "sig-20260731-bitcoin-holds-monthly-gain-f-95187872",
+        "sig-20260731-metronome-discloses-15-7-mil-09511fad",
+        "sig-20260731-bank-of-italy-finds-no-consi-38d48ded",
+        "sig-20260731-google-yanks-google-earth-ai-f5892670"
       ],
       "angleIdsTouched": [],
-      "noteworthyIds": []
+      "noteworthyIds": [
+        "sig-20260731-ygg-play-shuts-down-services-07cb878c"
+      ]
     }
   ]
 }
