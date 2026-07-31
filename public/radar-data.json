@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T17:16:44.871Z",
+  "updatedAt": "2026-07-31T18:49:29.488Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -4523,6 +4523,34 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260731-tether-posts-1-5-billion-ope-540c5f0f",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T18:49:29.488Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Tether posts $1.5 billion operating profit in Q2 as reserve buffer falls by half",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/07/31/tether-posts-usd1-5-billion-operating-profit-in-q2-as-reserve-buffer-falls-by-half",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260731-the-good-and-the-bad-of-perp-0b47bb8b",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T18:49:29.488Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "The good and the bad of perps, according to crypto traders",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/07/31/the-good-and-the-bad-of-perps-according-to-crypto-traders",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -5026,18 +5054,11 @@
     },
     {
       "date": "2026-07-31",
-      "at": "2026-07-31T17:16:44.871Z",
-      "note": "Watcher: +9 signals, spikes=0, patternPings=0.",
+      "at": "2026-07-31T18:49:29.488Z",
+      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260731-coldcard-s-38-million-so-far-3b7393fc",
-        "sig-20260731-quantum-computing-nears-comm-a6833884",
-        "sig-20260731-coinbase-says-revenue-from-i-5a9aac35",
-        "sig-20260731-bitcoin-lags-stock-rally-aft-bbb6f4a6",
-        "sig-20260731-ex-ftx-users-report-funds-be-2bbb81e9",
-        "sig-20260731-tether-earns-1-5b-in-q2-as-u-4a2cbd65",
-        "sig-20260731-bybit-adds-tokenized-nvidia--934550e3",
-        "sig-20260731-us-treasury-yields-rise-as-t-55661afd",
-        "sig-20260731-tether-reports-1-5b-q2-profi-f46bb894"
+        "sig-20260731-tether-posts-1-5-billion-ope-540c5f0f",
+        "sig-20260731-the-good-and-the-bad-of-perp-0b47bb8b"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
