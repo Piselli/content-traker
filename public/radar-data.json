@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T13:10:33.025Z",
+  "updatedAt": "2026-07-31T15:33:58.765Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -2934,7 +2934,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/07/30/ether-xrp-flat-as-chip-stocks-steady-on-samsung-s-250-fold-profit-surge",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -2948,7 +2948,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/tech/2026/07/29/bitcoin-s-quantum-plan-assumes-some-algorithms-break-ai-just-weakened-one-in-60-hours",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -2962,7 +2962,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/south-korea-report-stablecoin-rules-crypto-law?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -2976,7 +2976,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/us-sanctions-iran-hormuzsafe-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -2990,7 +2990,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/luno-cuts-staff-crypto-layoffs-july?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -3004,7 +3004,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/tech/2026/07/30/live-updates-bitcoin-holds-near-usd64-000-as-microsoft-s-ai-payoff-lifts-stocks",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -3018,7 +3018,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/07/30/bitcoin-and-ether-markets-are-ruled-by-perps-spacex-showed-how-far-their-influence-can-go",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -3032,7 +3032,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/07/30/bitcoin-ether-whipsaw-wipes-out-usd280-million-even-as-prices-remain-flat-over-24-hours",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -3046,7 +3046,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/07/30/bitcoin-analysts-agree-the-fed-s-hold-was-hawkish-they-don-t-agree-on-what-happens-next",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -3060,7 +3060,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/australia-telegram-alleged-failures-terror-content?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -3074,7 +3074,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/chinese-newspaper-bitcoin-extortion-scam-name?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -3088,7 +3088,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/markets/bitcoin-etf-inflows-return-ether-funds-outflows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "wrappers-etf"
       ],
@@ -4227,6 +4227,176 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260731-crypto-faces-3-barriers-to-n-26288fdd",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T15:33:58.765Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Crypto faces 3 barriers to next bull run, STS Digital CEO says",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/07/31/crypto-faces-3-barriers-to-next-bull-run-sts-digital-ceo-says",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260731-circle-secures-new-york-trus-add90be2",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T15:33:58.765Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Circle secures New York trust charter as crypto regulatory push accelerates",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/policy/2026/07/31/circle-secures-new-york-trust-charter-as-crypto-regulatory-push-accelerates",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260731-coinbase-s-weak-quarter-leav-9f8be6d3",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T15:33:58.765Z",
+      "lane": "cex-tradfi",
+      "kind": "narrative",
+      "what": "Coinbase's weak quarter leaves Wall Street split on timing of a recovery",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/07/31/coinbase-s-weak-quarter-leaves-wall-street-split-on-timing-of-a-recovery",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260731-ecb-says-digital-euro-app-wi-5b8c5e7b",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T15:33:58.765Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "ECB says digital euro app will exceed EU accessibility standards",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/ecb-digital-euros-accessibility-payment-providers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260731-amlbot-launches-ai-tracer-fo-ca97cd40",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T15:33:58.765Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "AMLBot launches AI Tracer for self-service blockchain investigations",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/crypto-forensics-firm-launches-ai-tracing-service-track-your-stolen-coins?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260731-circle-receives-new-york-tru-fdcf415e",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T15:33:58.765Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Circle receives New York trust charter for subsidiary",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/circle-receives-new-york-trust-charter-for-subsidiary?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260731-boj-intervenes-to-defend-yen-80deab58",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T15:33:58.765Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "BOJ intervenes to defend yen near 160, holds rates steady",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/boj-intervenes-to-defend-yen-near-160-holds-rates-steady?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260731-circle-lands-new-york-trust--5e7349f0",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T15:33:58.765Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Circle Lands New York Trust Charter as Stablecoin Issuer Expands Regulatory Footprint",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374791/circle-new-york-trust-charter-stablecoin-issuer",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260731-us-treasury-sanctions-irania-ba682da3",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T15:33:58.765Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "US Treasury Sanctions Iranian Firms Taking Bitcoin for Hormuz Passage",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374789/us-treasury-sanctions-iranian-firms-taking-bitcoin-for-hormuz-passage",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260731-xdc-ai-and-the-rise-of-agent-f7bbe52d",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T15:33:58.765Z",
+      "lane": "ai-crypto",
+      "kind": "narrative",
+      "what": "XDC AI and the Rise of Agentic Finance: When AI Agents Learn to Pay",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374741/xdc-ai-and-the-rise-of-agentic-finance-when-ai-agents-learn-to-pay",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260731-ai-company-sues-town-for-try-4a7be8a9",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T15:33:58.765Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "AI Company Sues Town for Trying to Block Data Center Near National Park",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374764/ai-company-sues-town-data-center-national-park",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260731-claude-hacked-three-companie-5ddbc8ce",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T15:33:58.765Z",
+      "lane": "ai-crypto",
+      "kind": "narrative",
+      "what": "Claude Hacked Three Companies in Internal Testing: Anthropic",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374784/claude-hacked-three-companies-in-internal-testing-anthropic",
+      "status": "open",
+      "tags": [
+        "stables-ai"
+      ],
+      "watcher": true
     }
   ],
   "angles": [
@@ -4553,14 +4723,15 @@
     },
     {
       "id": "ang-watch-stables-ai",
-      "at": "2026-07-30T15:28:57.981Z",
-      "thesis": "Watcher cluster [stables-ai]: 4 related receipts in ~7d across ai-crypto, incentives-campaigns.",
+      "at": "2026-07-31T15:33:58.765Z",
+      "thesis": "Watcher cluster [stables-ai]: 5 related receipts in ~7d across ai-crypto, incentives-campaigns.",
       "voiceHook": "Pattern forming: stables ai.",
       "signalIds": [
         "sig-20260730-lightning-labs-launches-site-1b7eea1f",
         "sig-20260729-moonpay-vault-enables-chatgp-ce970112",
         "sig-20260729-moonpay-s-paybox-puts-a-cryp-fc2f230b",
-        "sig-20260729-moonpay-paybox-x"
+        "sig-20260729-moonpay-paybox-x",
+        "sig-20260731-claude-hacked-three-companie-5ddbc8ce"
       ],
       "lanes": [
         "ai-crypto",
@@ -4569,7 +4740,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for stables-ai: dates + sources",
-      "expiresAt": "2026-08-03T15:28:57.981Z",
+      "expiresAt": "2026-08-04T15:33:58.765Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -4729,22 +4900,28 @@
     },
     {
       "date": "2026-07-31",
-      "at": "2026-07-31T13:10:33.025Z",
-      "note": "Watcher: +10 signals, spikes=0, patternPings=0.",
+      "at": "2026-07-31T15:33:58.765Z",
+      "note": "Watcher: +12 signals, spikes=0, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260731-rwa-perps-will-outpace-token-441d3dda",
-        "sig-20260731-dubai-based-crypto-exchange--10341f42",
-        "sig-20260731-world-cup-bets-smash-records-0b5e6c73",
-        "sig-20260731-u-s-sanctions-iran-linked-bi-d55f8aa3",
-        "sig-20260731-traders-brace-for-an-august--3cede1ec",
-        "sig-20260731-bitcoin-ether-fall-equities--a7a569e3",
-        "sig-20260731-citadel-buys-bulk-of-situati-f282c053",
-        "sig-20260731-bis-project-agor-settles-1-m-a1da6b9a",
-        "sig-20260731-morning-minute-coinbase-post-0491ef32",
-        "sig-20260731-crypto-kiosk-scams-cost-texa-aa34ea26"
+        "sig-20260731-crypto-faces-3-barriers-to-n-26288fdd",
+        "sig-20260731-circle-secures-new-york-trus-add90be2",
+        "sig-20260731-coinbase-s-weak-quarter-leav-9f8be6d3",
+        "sig-20260731-ecb-says-digital-euro-app-wi-5b8c5e7b",
+        "sig-20260731-amlbot-launches-ai-tracer-fo-ca97cd40",
+        "sig-20260731-circle-receives-new-york-tru-fdcf415e",
+        "sig-20260731-boj-intervenes-to-defend-yen-80deab58",
+        "sig-20260731-circle-lands-new-york-trust--5e7349f0",
+        "sig-20260731-us-treasury-sanctions-irania-ba682da3",
+        "sig-20260731-xdc-ai-and-the-rise-of-agent-f7bbe52d",
+        "sig-20260731-ai-company-sues-town-for-try-4a7be8a9",
+        "sig-20260731-claude-hacked-three-companie-5ddbc8ce"
       ],
-      "angleIdsTouched": [],
-      "noteworthyIds": []
+      "angleIdsTouched": [
+        "ang-watch-stables-ai"
+      ],
+      "noteworthyIds": [
+        "ang-watch-stables-ai"
+      ]
     }
   ]
 }
