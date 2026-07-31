@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T18:49:29.488Z",
+  "updatedAt": "2026-07-31T20:13:33.375Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -4551,6 +4551,48 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260731-pump-fun-laid-off-workers-be-30c5819c",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T20:13:33.375Z",
+      "lane": "memes-casino",
+      "kind": "narrative",
+      "what": "Pump.fun laid off workers before they received millions in PUMP tokens: Report",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/pump-fun-employees-fired-tokens-vest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260731-ai-music-company-suno-loses--32d08f39",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T20:13:33.375Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "AI Music Company Suno Loses Copyright Case in Germany",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374802/suno-ai-music-copyright-case-germany",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260731-us-is-banning-foreign-robots-f8d1a3ac",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T20:13:33.375Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "US Is Banning Foreign Robots—Even Roombas",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374799/fcc-bans-foreign-humanoid-robots-china-roombas",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -5054,11 +5096,12 @@
     },
     {
       "date": "2026-07-31",
-      "at": "2026-07-31T18:49:29.488Z",
-      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
+      "at": "2026-07-31T20:13:33.375Z",
+      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260731-tether-posts-1-5-billion-ope-540c5f0f",
-        "sig-20260731-the-good-and-the-bad-of-perp-0b47bb8b"
+        "sig-20260731-pump-fun-laid-off-workers-be-30c5819c",
+        "sig-20260731-ai-music-company-suno-loses--32d08f39",
+        "sig-20260731-us-is-banning-foreign-robots-f8d1a3ac"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
