@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T11:03:09.737Z",
+  "updatedAt": "2026-07-31T13:10:33.025Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -3104,7 +3104,7 @@
       "why": "Watcher spike: strong failure/shipping/capital headline — check for take.",
       "source": "decrypt",
       "url": "https://decrypt.co/374696/fake-flare-network-staking-site-drained-8-5m-in-xrp-seoul-police",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -3118,7 +3118,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/daybook-us/2026/07/30/bitcoin-etfs-on-track-for-the-smallest-monthly-inflows-ever",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -3132,7 +3132,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/policy/2026/07/30/south-korea-s-long-delayed-crypto-tax-set-to-start-in-2027",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -3146,7 +3146,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/07/30/crypto-s-resilience-tested-as-oil-rises-after-iran-strikes-fed-signals-rates-could-still-rise",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -3160,7 +3160,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/policy/2026/07/30/bitriver-founder-charged-in-russia-with-usd12-5-million-fraud",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -3174,7 +3174,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/07/30/crypto-exchange-luno-cuts-20-of-staff-amid-automation-push-and-retail-trading-slumps",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -3202,7 +3202,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/policy/2026/07/30/telegram-faces-terror-related-legal-action-in-australia-one-day-after-founder-is-charged-by-russia",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -3216,7 +3216,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/samsung-sds-stablecoin-infrastructure-dunamu?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -3230,7 +3230,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/markets/hedge-fund-with-11b-in-bitcoin-miner-stocks-seeks-capital-after-ai-sell-off-ft?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -3244,7 +3244,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/374702/morning-minute-robinhood-posts-its-best-quarter-ever",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -4087,6 +4087,146 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260731-rwa-perps-will-outpace-token-441d3dda",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T13:10:33.025Z",
+      "lane": "rwa-compliance",
+      "kind": "narrative",
+      "what": "RWA perps will outpace tokenization",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/opinion/2026/07/31/rwa-perps-will-outpace-tokenization",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260731-dubai-based-crypto-exchange--10341f42",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T13:10:33.025Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Dubai-based crypto exchange tied to $4 billion Iran sanctioned-evasion network",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/07/31/dubai-based-crypto-exchange-tied-to-usd4-billion-iran-sanctioned-evasion-network-reuters",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260731-world-cup-bets-smash-records-0b5e6c73",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T13:10:33.025Z",
+      "lane": "narrative-rotation",
+      "kind": "metric",
+      "what": "World Cup bets smash records as prediction markets hit $20 billion in volume",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/07/31/world-cup-bets-smash-records-as-prediction-markets-hit-usd20-billion-in-volume",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260731-u-s-sanctions-iran-linked-bi-d55f8aa3",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T13:10:33.025Z",
+      "lane": "narrative-rotation",
+      "kind": "shipping",
+      "what": "U.S. sanctions Iran-linked bitcoin insurance scheme for Strait of Hormuz ships",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/policy/2026/07/31/u-s-sanctions-iran-linked-bitcoin-insurance-scheme-for-strait-of-hormuz-ships",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260731-traders-brace-for-an-august--3cede1ec",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T13:10:33.025Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "​Traders brace for an August crypto pull-back as protection against $60,000 bitcoin dip becomes top trade",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/daybook-us/2026/07/31/bitcoin-usd60-000-put-leads-the-pack-as-mood-swings-bearish-for-august",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260731-bitcoin-ether-fall-equities--a7a569e3",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T13:10:33.025Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin, ether fall, equities rally with broader crypto market on track for best month in a year",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/07/31/bitcoin-ether-fall-equities-rally-with-broader-crypto-market-on-track-for-best-month-in-a-year",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260731-citadel-buys-bulk-of-situati-f282c053",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T13:10:33.025Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Citadel buys bulk of Situational Awareness stock portfolio after AI rout: Reports",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/citadel-situational-awareness-stock-portfolio-ai-rout-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260731-bis-project-agor-settles-1-m-a1da6b9a",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T13:10:33.025Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "BIS Project Agorá settles $1 million in tokenized cross-border payment trials",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/bis-project-agor-tokenized-cross-border-payment-trials?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260731-morning-minute-coinbase-post-0491ef32",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T13:10:33.025Z",
+      "lane": "cex-tradfi",
+      "kind": "narrative",
+      "what": "Morning Minute: Coinbase Posts Surprise Loss as Crypto Trading Dries Up",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374781/morning-minute-coinbase-posts-surprise-loss-as-crypto-trading-dries-up",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260731-crypto-kiosk-scams-cost-texa-aa34ea26",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T13:10:33.025Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "Crypto Kiosk Scams Cost Texans $57M as Lawmakers Weigh a Ban",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374778/crypto-kiosk-scams-cost-texans-57m-as-lawmakers-weigh-a-ban",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -4589,24 +4729,22 @@
     },
     {
       "date": "2026-07-31",
-      "at": "2026-07-31T11:03:09.737Z",
-      "note": "Watcher: +8 signals, spikes=0, patternPings=1.",
+      "at": "2026-07-31T13:10:33.025Z",
+      "note": "Watcher: +10 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260731-new-york-sues-kalshi-alleges-7d327364",
-        "sig-20260731-quantum-solutions-hyperscale-8d1aae33",
-        "sig-20260731-bitcoin-s-calm-is-back-and-s-2022d798",
-        "sig-20260731-new-york-sues-kalshi-over-al-20de2c7f",
-        "sig-20260731-aave-weighs-closing-6-v3-blo-e3a7ead4",
-        "sig-20260731-rwa-perpetual-futures-volume-b14edd19",
-        "sig-20260731-new-york-ag-seeks-36b-from-k-d37500c3",
-        "sig-20260731-38m-in-bitcoin-drained-by-co-14756f50"
+        "sig-20260731-rwa-perps-will-outpace-token-441d3dda",
+        "sig-20260731-dubai-based-crypto-exchange--10341f42",
+        "sig-20260731-world-cup-bets-smash-records-0b5e6c73",
+        "sig-20260731-u-s-sanctions-iran-linked-bi-d55f8aa3",
+        "sig-20260731-traders-brace-for-an-august--3cede1ec",
+        "sig-20260731-bitcoin-ether-fall-equities--a7a569e3",
+        "sig-20260731-citadel-buys-bulk-of-situati-f282c053",
+        "sig-20260731-bis-project-agor-settles-1-m-a1da6b9a",
+        "sig-20260731-morning-minute-coinbase-post-0491ef32",
+        "sig-20260731-crypto-kiosk-scams-cost-texa-aa34ea26"
       ],
-      "angleIdsTouched": [
-        "ang-watch-hl-perps-rwa"
-      ],
-      "noteworthyIds": [
-        "ang-watch-hl-perps-rwa"
-      ]
+      "angleIdsTouched": [],
+      "noteworthyIds": []
     }
   ]
 }
