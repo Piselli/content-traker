@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T15:33:58.765Z",
+  "updatedAt": "2026-07-31T17:16:44.871Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -2892,7 +2892,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/aaa-web3-panel-crypto-blockchain-disputes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -2906,7 +2906,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/japanese-game-developer-bitcoin-altcoin-fund?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -2920,7 +2920,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/ethereum-foundation-seal-911-pascal-caversaccio-board?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -4397,6 +4397,132 @@
         "stables-ai"
       ],
       "watcher": true
+    },
+    {
+      "id": "sig-20260731-coldcard-s-38-million-so-far-3b7393fc",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T17:16:44.871Z",
+      "lane": "failures-rugs",
+      "kind": "exploit",
+      "what": "Coldcard's $38 million (so far) exploit shakes faith in self-custody, may push investors to ETFs",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/07/31/coldcard-s-usd38-million-so-far-exploit-shakes-faith-in-self-custody-may-push-investors-to-etfs",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260731-quantum-computing-nears-comm-a6833884",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T17:16:44.871Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Quantum computing nears commercial breakthrough, IBM CEO says",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/07/31/quantum-computing-nears-commercial-breakthrough-ibm-ceo-says",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260731-coinbase-says-revenue-from-i-5a9aac35",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T17:16:44.871Z",
+      "lane": "cex-tradfi",
+      "kind": "metric",
+      "what": "Coinbase Says Revenue From Its Base Layer 2 Fell Despite Record Volume",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/cefi/coinbase-says-revenue-from-its-base-layer-2-fell-despite-record-volume",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260731-bitcoin-lags-stock-rally-aft-bbb6f4a6",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T17:16:44.871Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin Lags Stock Rally After Hawkish Fed Hold",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/markets/bitcoin-lags-stock-rally-after-hawkish-fed-hold",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260731-ex-ftx-users-report-funds-be-2bbb81e9",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T17:16:44.871Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Ex-FTX users report funds being released in $900M distribution round",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/ftx-users-funds-released-fifth-distribution-round?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260731-tether-earns-1-5b-in-q2-as-u-4a2cbd65",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T17:16:44.871Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "Tether earns $1.5B in Q2 as US Treasury holdings fuel profits",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/tether-q2-profit-us-treasury-holdings-usdt-supply?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260731-bybit-adds-tokenized-nvidia--934550e3",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T17:16:44.871Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bybit adds tokenized Nvidia, Apple, Tesla stocks as loan collateral",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/bybit-tokenized-stocks-collateral-margin-loans?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260731-us-treasury-yields-rise-as-t-55661afd",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T17:16:44.871Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "US Treasury yields rise as TIPS challenge the inflation narrative",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/us-treasury-yields-rise-as-tips-challenge-the-inflation-narrative?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260731-tether-reports-1-5b-q2-profi-f46bb894",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T17:16:44.871Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Tether Reports $1.5B Q2 Profit as USDT Supply Grows, Gold Holdings Rise",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374796/tether-reports-1-5b-q2-profit-usdt-supply-grows",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -4900,28 +5026,21 @@
     },
     {
       "date": "2026-07-31",
-      "at": "2026-07-31T15:33:58.765Z",
-      "note": "Watcher: +12 signals, spikes=0, patternPings=1.",
+      "at": "2026-07-31T17:16:44.871Z",
+      "note": "Watcher: +9 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260731-crypto-faces-3-barriers-to-n-26288fdd",
-        "sig-20260731-circle-secures-new-york-trus-add90be2",
-        "sig-20260731-coinbase-s-weak-quarter-leav-9f8be6d3",
-        "sig-20260731-ecb-says-digital-euro-app-wi-5b8c5e7b",
-        "sig-20260731-amlbot-launches-ai-tracer-fo-ca97cd40",
-        "sig-20260731-circle-receives-new-york-tru-fdcf415e",
-        "sig-20260731-boj-intervenes-to-defend-yen-80deab58",
-        "sig-20260731-circle-lands-new-york-trust--5e7349f0",
-        "sig-20260731-us-treasury-sanctions-irania-ba682da3",
-        "sig-20260731-xdc-ai-and-the-rise-of-agent-f7bbe52d",
-        "sig-20260731-ai-company-sues-town-for-try-4a7be8a9",
-        "sig-20260731-claude-hacked-three-companie-5ddbc8ce"
+        "sig-20260731-coldcard-s-38-million-so-far-3b7393fc",
+        "sig-20260731-quantum-computing-nears-comm-a6833884",
+        "sig-20260731-coinbase-says-revenue-from-i-5a9aac35",
+        "sig-20260731-bitcoin-lags-stock-rally-aft-bbb6f4a6",
+        "sig-20260731-ex-ftx-users-report-funds-be-2bbb81e9",
+        "sig-20260731-tether-earns-1-5b-in-q2-as-u-4a2cbd65",
+        "sig-20260731-bybit-adds-tokenized-nvidia--934550e3",
+        "sig-20260731-us-treasury-yields-rise-as-t-55661afd",
+        "sig-20260731-tether-reports-1-5b-q2-profi-f46bb894"
       ],
-      "angleIdsTouched": [
-        "ang-watch-stables-ai"
-      ],
-      "noteworthyIds": [
-        "ang-watch-stables-ai"
-      ]
+      "angleIdsTouched": [],
+      "noteworthyIds": []
     }
   ]
 }
