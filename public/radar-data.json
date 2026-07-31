@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T08:13:29.331Z",
+  "updatedAt": "2026-07-31T11:03:09.737Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -3258,7 +3258,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/374699/crypto-exchange-luno-cuts-global-staff-by-a-fifth-citing-automation",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -3272,7 +3272,7 @@
       "why": "Watcher spike: strong failure/shipping/capital headline — check for take.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/07/30/fake-staking-site-drains-usd8-5-million-in-xrp-from-dozens-of-investors-promising-easy-yield",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -3286,7 +3286,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/coindesk-indices/2026/07/30/crypto-for-advisors-is-the-clarity-act-dead",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "clarity-policy"
       ],
@@ -3302,7 +3302,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/policy/2026/07/30/cme-s-duffy-warns-an-overlooked-tax-risk-looms-over-u-s-perpetual-futures",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -3330,7 +3330,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/policy/2026/07/30/jpmorgan-says-fading-clarity-act-odds-weigh-on-crypto-outlook",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "clarity-policy"
       ],
@@ -3346,7 +3346,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/07/30/institutional-trading-hits-a-record-72-as-wall-street-quietens-down-crypto-s-wild-swings",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -3360,7 +3360,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/tech/2026/07/30/ethereum-enters-its-second-decade-after-a-year-of-upheaval-at-the-foundation",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -3973,6 +3973,120 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260731-new-york-sues-kalshi-alleges-7d327364",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T11:03:09.737Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "New York sues Kalshi, alleges it offers a gambling platform 'plain and simple'",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/policy/2026/07/31/new-york-sues-kalshi-alleges-it-offers-a-gambling-platform-plain-and-simple",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260731-quantum-solutions-hyperscale-8d1aae33",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T11:03:09.737Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Quantum Solutions, Hyperscale Data tap crypto treasuries to fund AI data centers",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/07/31/quantum-solutions-hyperscale-data-tap-crypto-treasuries-to-fund-ai-data-centers",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260731-bitcoin-s-calm-is-back-and-s-2022d798",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T11:03:09.737Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin’s calm is back and so is the setup for a volatility explosion",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/07/31/bitcoin-s-calm-is-back-and-so-is-the-setup-for-a-volatility-explosion",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260731-new-york-sues-kalshi-over-al-20de2c7f",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T11:03:09.737Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "New York sues Kalshi over alleged illegal gambling operation",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/new-york-sues-kalshi-gambling-operation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260731-aave-weighs-closing-6-v3-blo-e3a7ead4",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T11:03:09.737Z",
+      "lane": "defi-infra",
+      "kind": "narrative",
+      "what": "Aave weighs closing 6 V3 blockchain markets, offboarding 50 low-use reserves",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/aave-weighs-closing-6-v3-blockchain-markets-offboarding-50-low-use-reserves?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260731-rwa-perpetual-futures-volume-b14edd19",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T11:03:09.737Z",
+      "lane": "perps-derivatives",
+      "kind": "metric",
+      "what": "RWA perpetual futures volume nears Bitcoin on Hyperliquid, Binance",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/rwa-perpetual-futures-bitcoin-hyperliquid-binance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [
+        "hl-perps-rwa"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260731-new-york-ag-seeks-36b-from-k-d37500c3",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T11:03:09.737Z",
+      "lane": "cex-tradfi",
+      "kind": "narrative",
+      "what": "New York AG Seeks $36B From Kalshi Over 'Illegal Gambling'",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374775/new-york-ag-seeks-36b-from-kalshi-over-illegal-gambling",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260731-38m-in-bitcoin-drained-by-co-14756f50",
+      "at": "2026-07-31",
+      "scannedAt": "2026-07-31T11:03:09.737Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "$38M in Bitcoin Drained by Coldcard Key Flaw Its Maker Thinks AI Found",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374766/38m-in-bitcoin-drained-by-coldcard-key-flaw-its-maker-thinks-ai-found",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -4196,15 +4310,16 @@
     },
     {
       "id": "ang-watch-hl-perps-rwa",
-      "at": "2026-07-28T18:52:13.204Z",
-      "thesis": "Watcher cluster [hl-perps-rwa]: 5 related receipts in ~7d across defi-infra, bridges-liquidity, narrative-rotation, capital-flows.",
+      "at": "2026-07-31T11:03:09.737Z",
+      "thesis": "Watcher cluster [hl-perps-rwa]: 5 related receipts in ~7d across defi-infra, narrative-rotation, capital-flows, perps-derivatives.",
       "voiceHook": "Pattern forming: hl perps rwa.",
       "signalIds": [
         "sig-20260728-kospi-riskoff",
         "sig-20260728-hyperliquid-is-taking-crypto-3f4e43d0",
         "sig-20260727-hl-allowlist-markets",
         "sig-20260727-sol-hype-etf-inflows",
-        "sig-20260722-hl-bridge-in-arb-out"
+        "sig-20260722-hl-bridge-in-arb-out",
+        "sig-20260731-rwa-perpetual-futures-volume-b14edd19"
       ],
       "lanes": [
         "defi-infra",
@@ -4215,7 +4330,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for hl-perps-rwa: dates + sources",
-      "expiresAt": "2026-08-01T18:52:13.204Z",
+      "expiresAt": "2026-08-04T11:03:09.737Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -4474,15 +4589,24 @@
     },
     {
       "date": "2026-07-31",
-      "at": "2026-07-31T08:13:29.331Z",
-      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
+      "at": "2026-07-31T11:03:09.737Z",
+      "note": "Watcher: +8 signals, spikes=0, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260731-live-updates-bitcoin-steady--60f41ea7",
-        "sig-20260731-bitcoin-flat-near-64-000-as--02d03b04",
-        "sig-20260731-bitcoin-etfs-post-233m-inflo-cc2bc675"
+        "sig-20260731-new-york-sues-kalshi-alleges-7d327364",
+        "sig-20260731-quantum-solutions-hyperscale-8d1aae33",
+        "sig-20260731-bitcoin-s-calm-is-back-and-s-2022d798",
+        "sig-20260731-new-york-sues-kalshi-over-al-20de2c7f",
+        "sig-20260731-aave-weighs-closing-6-v3-blo-e3a7ead4",
+        "sig-20260731-rwa-perpetual-futures-volume-b14edd19",
+        "sig-20260731-new-york-ag-seeks-36b-from-k-d37500c3",
+        "sig-20260731-38m-in-bitcoin-drained-by-co-14756f50"
       ],
-      "angleIdsTouched": [],
-      "noteworthyIds": []
+      "angleIdsTouched": [
+        "ang-watch-hl-perps-rwa"
+      ],
+      "noteworthyIds": [
+        "ang-watch-hl-perps-rwa"
+      ]
     }
   ]
 }
