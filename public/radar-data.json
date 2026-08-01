@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T15:33:40.210Z",
+  "updatedAt": "2026-08-01T16:45:12.502Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -4252,7 +4252,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/policy/2026/07/31/circle-secures-new-york-trust-charter-as-crypto-regulatory-push-accelerates",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -4266,7 +4266,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/07/31/coinbase-s-weak-quarter-leaves-wall-street-split-on-timing-of-a-recovery",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -4280,7 +4280,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/ecb-digital-euros-accessibility-payment-providers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -4294,7 +4294,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/crypto-forensics-firm-launches-ai-tracing-service-track-your-stolen-coins?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -4308,7 +4308,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/circle-receives-new-york-trust-charter-for-subsidiary?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -4786,6 +4786,76 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/374794/more-americans-know-about-ai-less-they-like-gallup",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260801-bank-of-italy-research-sugge-2c2181ff",
+      "at": "2026-08-01",
+      "scannedAt": "2026-08-01T16:45:12.502Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bank of Italy research suggests stablecoins aren't necessarily cheaper for remittances",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/01/bank-of-italy-research-suggests-stablecoins-aren-t-necessarily-cheaper-for-remittances",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260801-bitcoin-mining-difficulty-sh-c16fc4ea",
+      "at": "2026-08-01",
+      "scannedAt": "2026-08-01T16:45:12.502Z",
+      "lane": "narrative-rotation",
+      "kind": "metric",
+      "what": "Bitcoin mining difficulty shrinks 14% from this year's high as plunging revenues force operators to pivot",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/01/bitcoin-mining-difficulty-shrinks-14-from-this-year-s-high-as-plunging-revenues-force-operators-to-pivot",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260801-sec-to-review-nasdaq-bitcoin-a72da6ad",
+      "at": "2026-08-01",
+      "scannedAt": "2026-08-01T16:45:12.502Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "SEC to review Nasdaq bitcoin options approval after CME challenge",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/policy/2026/08/01/sec-to-review-nasdaq-bitcoin-options-approval-after-cme-challenge",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260801-crypto-pac-pours-another-1m--34d3e9b0",
+      "at": "2026-08-01",
+      "scannedAt": "2026-08-01T16:45:12.502Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Crypto PAC pours another $1M into Michigan House race",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/crypto-pac-michigan-thanedar-mckinney?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260801-cz-warns-bitcoin-holders-aft-fcc69d98",
+      "at": "2026-08-01",
+      "scannedAt": "2026-08-01T16:45:12.502Z",
+      "lane": "failures-rugs",
+      "kind": "exploit",
+      "what": "CZ Warns Bitcoin Holders After $70 Million Wallet Exploit: 'Nothing Is 100%'",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374810/cz-warns-bitcoin-holders-70-million-coldcard-wallet-exploit",
       "status": "open",
       "tags": [],
       "watcher": true
@@ -5300,10 +5370,14 @@
     },
     {
       "date": "2026-08-01",
-      "at": "2026-08-01T15:33:40.210Z",
-      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-01T16:45:12.502Z",
+      "note": "Watcher: +5 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260801-the-more-americans-know-abou-c7323d21"
+        "sig-20260801-bank-of-italy-research-sugge-2c2181ff",
+        "sig-20260801-bitcoin-mining-difficulty-sh-c16fc4ea",
+        "sig-20260801-sec-to-review-nasdaq-bitcoin-a72da6ad",
+        "sig-20260801-crypto-pac-pours-another-1m--34d3e9b0",
+        "sig-20260801-cz-warns-bitcoin-holders-aft-fcc69d98"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
