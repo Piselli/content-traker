@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T01:43:59.853Z",
+  "updatedAt": "2026-08-01T05:15:41.091Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -166,7 +166,7 @@
       "why": "Macro risk-on backdrop — weak alone, strong as timing context for RWA/DeFi posts.",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/07/27/crypto-steadies-as-iran-u-s-pause-sends-oil-tumbling-lifts-risk-assets",
-      "status": "open",
+      "status": "expired",
       "tags": []
     },
     {
@@ -220,7 +220,7 @@
       "why": "Crypto prediction market is the live Fed thermometer — pairs with oil/risk narrative, not CLARITY PDF.",
       "source": "Polymarket / FinanceFeeds",
       "url": "https://financefeeds.com/fed-rate-hike-odds-25-percent-cut-priced-0-3-percent/",
-      "status": "open",
+      "status": "expired",
       "tags": []
     },
     {
@@ -378,7 +378,7 @@
       "why": "RWA/stock perps on HL now front-run TradFi tape — same venue as RWA volume majority story.",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/07/28/perpetuals-tied-to-sk-hynix-suffer-a-flash-crash-to-usd900-on-hyperliquid",
-      "status": "open",
+      "status": "expired",
       "tags": []
     },
     {
@@ -5174,7 +5174,7 @@
     },
     {
       "date": "2026-08-01",
-      "at": "2026-08-01T01:43:59.853Z",
+      "at": "2026-08-01T05:15:41.091Z",
       "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [],
       "angleIdsTouched": [],
