@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T22:24:35.605Z",
+  "updatedAt": "2026-08-01T23:24:47.005Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -5440,12 +5440,9 @@
     },
     {
       "date": "2026-08-01",
-      "at": "2026-08-01T22:24:35.605Z",
-      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [
-        "sig-20260801-strategy-holds-strc-dividend-99c8bcac",
-        "sig-20260801-onchain-in-court-what-happen-dc5082c9"
-      ],
+      "at": "2026-08-01T23:24:47.005Z",
+      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
