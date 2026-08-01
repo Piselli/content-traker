@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T17:50:22.544Z",
+  "updatedAt": "2026-08-01T18:51:08.849Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -4224,7 +4224,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/374778/crypto-kiosk-scams-cost-texans-57m-as-lawmakers-weigh-a-ban",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -4873,6 +4873,20 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260801-minnesota-crypto-atm-ban-goe-0a2d84c4",
+      "at": "2026-08-01",
+      "scannedAt": "2026-08-01T18:51:08.849Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "Minnesota crypto ATM ban goes into effect after reported $1M losses",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/minnesota-crypto-atm-ban-losses-scams?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -5384,10 +5398,10 @@
     },
     {
       "date": "2026-08-01",
-      "at": "2026-08-01T17:50:22.544Z",
+      "at": "2026-08-01T18:51:08.849Z",
       "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260801-tokenized-stock-trading-surg-8846c151"
+        "sig-20260801-minnesota-crypto-atm-ban-goe-0a2d84c4"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
