@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T05:15:41.091Z",
+  "updatedAt": "2026-08-01T07:39:38.005Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -4408,7 +4408,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/07/31/coldcard-s-usd38-million-so-far-exploit-shakes-faith-in-self-custody-may-push-investors-to-etfs",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -4422,7 +4422,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/07/31/quantum-computing-nears-commercial-breakthrough-ibm-ceo-says",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -4436,7 +4436,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "thedefiant",
       "url": "https://thedefiant.io/news/cefi/coinbase-says-revenue-from-its-base-layer-2-fell-despite-record-volume",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -4661,6 +4661,48 @@
       "source": "decrypt",
       "url": "https://decrypt.co/374805/google-yanks-google-earth-ai-image-tool-deepfake-fears",
       "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260801-xrp-ledger-upgrade-brings-ba-2fb744c0",
+      "at": "2026-08-01",
+      "scannedAt": "2026-08-01T07:39:38.005Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "XRP Ledger upgrade brings back features once pulled over critical bugs",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/tech/2026/08/01/xrp-ledger-upgrade-brings-back-features-once-pulled-over-critical-bugs",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260801-how-bitcoin-cold-wallets-los-9d1d4e40",
+      "at": "2026-08-01",
+      "scannedAt": "2026-08-01T07:39:38.005Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "How bitcoin cold wallets lost $70 million in an attack that never touched the devices",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/tech/2026/08/01/how-bitcoin-cold-wallets-lost-usd70-million-in-an-attack-that-never-touched-the-devices",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260801-bitcoin-etfs-end-july-in-the-cb39b833",
+      "at": "2026-08-01",
+      "scannedAt": "2026-08-01T07:39:38.005Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin ETFs end July in the green despite late-month selling",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/bitcoin-etfs-july-green-despite-late-month-selling?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
       "tags": [],
       "watcher": true
     }
@@ -5174,9 +5216,13 @@
     },
     {
       "date": "2026-08-01",
-      "at": "2026-08-01T05:15:41.091Z",
-      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [],
+      "at": "2026-08-01T07:39:38.005Z",
+      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [
+        "sig-20260801-xrp-ledger-upgrade-brings-ba-2fb744c0",
+        "sig-20260801-how-bitcoin-cold-wallets-los-9d1d4e40",
+        "sig-20260801-bitcoin-etfs-end-july-in-the-cb39b833"
+      ],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
