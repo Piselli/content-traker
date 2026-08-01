@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T09:48:09.648Z",
+  "updatedAt": "2026-08-01T11:09:19.663Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -4364,7 +4364,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/374741/xdc-ai-and-the-rise-of-agentic-finance-when-ai-agents-learn-to-pay",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -4730,6 +4730,20 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/coldcard-bitcoin-loss-estimate-70-million-galaxy-analysis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260801-russia-expands-crypto-mining-3ec731ee",
+      "at": "2026-08-01",
+      "scannedAt": "2026-08-01T11:09:19.663Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "Russia expands crypto mining ban to Moscow through 2032",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/russia-expands-crypto-mining-ban-moscow-2032?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "status": "open",
       "tags": [],
       "watcher": true
@@ -5244,11 +5258,10 @@
     },
     {
       "date": "2026-08-01",
-      "at": "2026-08-01T09:48:09.648Z",
-      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-01T11:09:19.663Z",
+      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260801-binance-founder-cz-calls-for-3c85220a",
-        "sig-20260801-coldcard-bitcoin-loss-estima-4ff05bf2"
+        "sig-20260801-russia-expands-crypto-mining-3ec731ee"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
