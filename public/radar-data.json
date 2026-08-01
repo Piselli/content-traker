@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T12:31:43.188Z",
+  "updatedAt": "2026-08-01T14:20:30.600Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -4336,7 +4336,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/374791/circle-new-york-trust-charter-stablecoin-issuer",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -4350,7 +4350,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/374789/us-treasury-sanctions-iranian-firms-taking-bitcoin-for-hormuz-passage",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -4744,6 +4744,34 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/russia-expands-crypto-mining-ban-moscow-2032?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260801-solana-foundation-s-new-ciso-7e819356",
+      "at": "2026-08-01",
+      "scannedAt": "2026-08-01T14:20:30.600Z",
+      "lane": "l1-l2",
+      "kind": "narrative",
+      "what": "Solana Foundation's new CISO warns AI is making crypto scams more convincing",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/tech/2026/07/31/solana-foundation-s-new-ciso-warns-ai-is-making-crypto-scams-more-convincing",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260801-everyone-has-the-perps-conve-b86d11f9",
+      "at": "2026-08-01",
+      "scannedAt": "2026-08-01T14:20:30.600Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Everyone has the perps convergence backwards",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/opinion/2026/08/01/everyone-has-the-perps-convergence-backwards",
       "status": "open",
       "tags": [],
       "watcher": true
@@ -5258,9 +5286,12 @@
     },
     {
       "date": "2026-08-01",
-      "at": "2026-08-01T12:31:43.188Z",
-      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [],
+      "at": "2026-08-01T14:20:30.600Z",
+      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [
+        "sig-20260801-solana-foundation-s-new-ciso-7e819356",
+        "sig-20260801-everyone-has-the-perps-conve-b86d11f9"
+      ],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
