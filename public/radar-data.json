@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T14:20:30.600Z",
+  "updatedAt": "2026-08-01T15:33:40.210Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -4322,7 +4322,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/markets/boj-intervenes-to-defend-yen-near-160-holds-rates-steady?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -4772,6 +4772,20 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/opinion/2026/08/01/everyone-has-the-perps-convergence-backwards",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260801-the-more-americans-know-abou-c7323d21",
+      "at": "2026-08-01",
+      "scannedAt": "2026-08-01T15:33:40.210Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "The More Americans Know About AI, the Less They Like It: Gallup",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374794/more-americans-know-about-ai-less-they-like-gallup",
       "status": "open",
       "tags": [],
       "watcher": true
@@ -5286,11 +5300,10 @@
     },
     {
       "date": "2026-08-01",
-      "at": "2026-08-01T14:20:30.600Z",
-      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-01T15:33:40.210Z",
+      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260801-solana-foundation-s-new-ciso-7e819356",
-        "sig-20260801-everyone-has-the-perps-conve-b86d11f9"
+        "sig-20260801-the-more-americans-know-abou-c7323d21"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
