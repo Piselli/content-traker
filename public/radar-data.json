@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T23:51:45.360Z",
+  "updatedAt": "2026-08-01T01:43:59.853Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -4751,7 +4751,7 @@
       "suggestedType": "provocative",
       "visualHint": "two receipts side by side: fact sheet headline vs Brent −7%",
       "expiresAt": "2026-07-31T23:59:00.000Z",
-      "status": "ready",
+      "status": "expired",
       "noteworthy": false
     },
     {
@@ -4795,7 +4795,7 @@
       "suggestedType": "provocative",
       "visualHint": "2-column: CME lawsuit headline vs HL RWA>crypto volume bar — same week timeline",
       "expiresAt": "2026-07-31T23:59:00.000Z",
-      "status": "ready",
+      "status": "expired",
       "noteworthy": false
     },
     {
@@ -4860,8 +4860,8 @@
       "suggestedType": "hot topic",
       "visualHint": "two receipts: MSSE/MSOL launch vs Clarity shelved headline",
       "expiresAt": "2026-07-31T23:59:00.000Z",
-      "status": "ready",
-      "noteworthy": true
+      "status": "expired",
+      "noteworthy": false
     },
     {
       "id": "ang-20260728-bridge-trust-failures",
@@ -5167,6 +5167,14 @@
     {
       "date": "2026-07-31",
       "at": "2026-07-31T23:51:45.360Z",
+      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [],
+      "angleIdsTouched": [],
+      "noteworthyIds": []
+    },
+    {
+      "date": "2026-08-01",
+      "at": "2026-08-01T01:43:59.853Z",
       "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [],
       "angleIdsTouched": [],
