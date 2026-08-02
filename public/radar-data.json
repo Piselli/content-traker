@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T09:30:00.750Z",
+  "updatedAt": "2026-08-02T11:00:15.973Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -4154,7 +4154,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/daybook-us/2026/07/31/bitcoin-usd60-000-put-leads-the-pack-as-mood-swings-bearish-for-august",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -4943,6 +4943,20 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260802-trump-media-sells-another-2--1daa189e",
+      "at": "2026-08-02",
+      "scannedAt": "2026-08-02T11:00:15.973Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Trump Media sells another 2,628 BTC, holdings fall to 4,261 BTC",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/trump-media-2628-btc-crypto-com-4261-btc-holdings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -5462,10 +5476,10 @@
     },
     {
       "date": "2026-08-02",
-      "at": "2026-08-02T09:30:00.750Z",
+      "at": "2026-08-02T11:00:15.973Z",
       "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260802-coldcard-hack-sparks-biggest-b9e11223"
+        "sig-20260802-trump-media-sells-another-2--1daa189e"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
