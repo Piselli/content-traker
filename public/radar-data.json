@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T17:51:34.656Z",
+  "updatedAt": "2026-08-02T18:51:41.368Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -4026,7 +4026,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/new-york-sues-kalshi-gambling-operation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5069,6 +5069,20 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260802-counting-down-the-days-state-10073e1a",
+      "at": "2026-08-02",
+      "scannedAt": "2026-08-02T18:51:41.368Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Counting down the days: State of Crypto",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/policy/2026/08/02/counting-down-the-days-state-of-crypto",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -5588,11 +5602,10 @@
     },
     {
       "date": "2026-08-02",
-      "at": "2026-08-02T17:51:34.656Z",
-      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-02T18:51:41.368Z",
+      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260802-why-a-defi-platform-ditched--e0e7d924",
-        "sig-20260802-coldcard-bitcoin-exploit-bal-2d5a9e24"
+        "sig-20260802-counting-down-the-days-state-10073e1a"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
