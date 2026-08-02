@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T01:02:15.099Z",
+  "updatedAt": "2026-08-02T04:46:41.510Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -124,7 +124,7 @@
       "why": "Demand already flipped before permissioned-pool week — rails catching up to flow.",
       "source": "CoinTelegraph / ARK Valente via Blockworks",
       "url": "https://cointelegraph.com/news/hyperliquid-rwa-volume-crypto-trading-first-time",
-      "status": "open"
+      "status": "expired"
     },
     {
       "id": "sig-20260724-eth-etf-gt-btc",
@@ -192,7 +192,7 @@
       "why": "Incumbent TradFi using court + regulator fight to slow US onchain perps — same week HL RWA already majority venue volume.",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/policy/2026/07/28/inside-the-cme-and-cftc-s-battle-over-onchain-perpetual-futures",
-      "status": "open",
+      "status": "expired",
       "tags": []
     },
     {
@@ -5448,7 +5448,7 @@
     },
     {
       "date": "2026-08-02",
-      "at": "2026-08-02T01:02:15.099Z",
+      "at": "2026-08-02T04:46:41.510Z",
       "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [],
       "angleIdsTouched": [],
