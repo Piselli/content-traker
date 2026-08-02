@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T23:24:47.005Z",
+  "updatedAt": "2026-08-02T01:02:15.099Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -4993,7 +4993,7 @@
       "suggestedType": "useful",
       "visualHint": "week bar: ETH ETF vs BTC ETF inflows + one-line IBIT vs ETHA",
       "expiresAt": "2026-08-01T23:59:00.000Z",
-      "status": "ready",
+      "status": "expired",
       "noteworthy": false
     },
     {
@@ -5084,7 +5084,7 @@
       "suggestedType": "hot topic",
       "visualHint": "net bridge bar: HL +462 vs ARB −527 + one line RWA>crypto on HL",
       "expiresAt": "2026-08-01T23:59:00.000Z",
-      "status": "ready",
+      "status": "expired",
       "noteworthy": false
     },
     {
@@ -5441,6 +5441,14 @@
     {
       "date": "2026-08-01",
       "at": "2026-08-01T23:24:47.005Z",
+      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [],
+      "angleIdsTouched": [],
+      "noteworthyIds": []
+    },
+    {
+      "date": "2026-08-02",
+      "at": "2026-08-02T01:02:15.099Z",
       "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [],
       "angleIdsTouched": [],
