@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T12:32:52.892Z",
+  "updatedAt": "2026-08-02T14:22:18.121Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -4112,7 +4112,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/07/31/dubai-based-crypto-exchange-tied-to-usd4-billion-iran-sanctioned-evasion-network-reuters",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -4985,6 +4985,20 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260802-the-reverse-bridge-crypto-me-ee2cdb60",
+      "at": "2026-08-02",
+      "scannedAt": "2026-08-02T14:22:18.121Z",
+      "lane": "bridges-liquidity",
+      "kind": "narrative",
+      "what": "The reverse bridge: Crypto meets Wall Street using perps",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/02/the-reverse-bridge-crypto-meets-wall-street-using-perps",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -5504,11 +5518,10 @@
     },
     {
       "date": "2026-08-02",
-      "at": "2026-08-02T12:32:52.892Z",
-      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-02T14:22:18.121Z",
+      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260802-unlike-the-ftx-collapse-the--5baabe49",
-        "sig-20260802-bnb-chain-pursues-legal-acti-323fe429"
+        "sig-20260802-the-reverse-bridge-crypto-me-ee2cdb60"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
