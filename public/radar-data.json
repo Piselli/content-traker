@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T14:11:49.422Z",
+  "updatedAt": "2026-08-03T16:44:38.232Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -4940,7 +4940,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/coldcard-biggest-sub-1-btc-transfer-ftx-cryptoquant?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -4954,7 +4954,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/trump-media-2628-btc-crypto-com-4261-btc-holdings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -4968,7 +4968,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/02/unlike-the-ftx-collapse-the-usd88-million-coldcard-exploit-has-investors-sending-bitcoin-back-to-exchanges",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -4982,7 +4982,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/bnb-chain-legal-action-ex-employee-memecoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -4996,7 +4996,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/02/the-reverse-bridge-crypto-meets-wall-street-using-perps",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5595,6 +5595,164 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260803-trump-linked-american-bitcoi-4aa7619c",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T16:44:38.232Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Trump-linked American Bitcoin president Matt Prusak departs for Giga Energy",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/03/trump-linked-american-bitcoin-president-matt-prusak-departs-for-giga-energy",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260803-u-s-japan-intervention-reviv-27eab27b",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T16:44:38.232Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "U.S.-Japan intervention revives yen carry trade fears for bitcoin",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/03/u-s-japan-intervention-revives-yen-carry-trade-fears-for-bitcoin",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260803-strategy-sells-1-638-bitcoin-0c6811aa",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T16:44:38.232Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Strategy Sells 1,638 Bitcoin for $105M, Splits Proceeds Between Dividends and STRC Buyback",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/cefi/strategy-sells-1-638-bitcoin-for-105m-splits-proceeds-between-dividends-and-strc-buyback",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260803-i-did-everything-right-coldc-64cb3c14",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T16:44:38.232Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "'I Did Everything Right': Coldcard Victims Recount Losing Life Savings",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/hacks/i-did-everything-right-coldcard-victims-recount-losing-life-savings",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260803-the-114-trillion-question-ho-e0cd48cf",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T16:44:38.232Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "The $114 Trillion Question: How DTCC Is Tokenizing the Entire U.S. Market",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/podcasts-and-videos/podcast/the-usd114-trillion-question-how-dtcc-is-tokenizing-the-entire-u-s-market",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260803-coldcard-thefts-near-114-mil-a8846aac",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T16:44:38.232Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Coldcard Thefts Near $114 Million as Fourth Attack Wave Hits",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/security/coldcard-thefts-near-usd114-million-as-fourth-attack-wave-hits",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260803-blackrock-launches-tokenized-47ae6fa6",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T16:44:38.232Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "BlackRock launches tokenized money market funds for stablecoin reserves",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/blackrock-launches-tokenized-money-market-funds-stablecoin-reserves?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [
+        "wrappers-etf"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260803-hashdex-to-shut-smallest-bit-b2c9a376",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T16:44:38.232Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "Hashdex to shut smallest Bitcoin ETF after more than two years",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/hashdex-to-shut-smallest-bitcoin-etf-after-more-than-two-years?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [
+        "wrappers-etf"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260803-us-hints-at-more-yen-interve-2d1922e9",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T16:44:38.232Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "US hints at more yen intervention: Five things to know in Bitcoin this week",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/us-hints-at-more-yen-intervention-five-things-to-know-in-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260803-trump-family-s-american-bitc-0a4f9ec9",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T16:44:38.232Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Trump Family’s American Bitcoin Tops 8,000 BTC After Record Mining Quarter",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374850/trump-american-bitcoin-8000-btc-record-mining-quarter",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260803-tom-lee-s-bitmine-buys-more--37d2484d",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T16:44:38.232Z",
+      "lane": "l1-l2",
+      "kind": "narrative",
+      "what": "Tom Lee’s Bitmine Buys More Ethereum, Adds to Stock Buyback",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374836/tom-lee-bitmine-buys-more-ethereum-adds-stock-buyback",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -5845,8 +6003,8 @@
     },
     {
       "id": "ang-watch-wrappers-etf",
-      "at": "2026-08-03T14:11:49.422Z",
-      "thesis": "Watcher cluster [wrappers-etf]: 9 related receipts in ~7d across capital-flows, regulation, cex-tradfi, stables-payments.",
+      "at": "2026-08-03T16:44:38.232Z",
+      "thesis": "Watcher cluster [wrappers-etf]: 11 related receipts in ~7d across capital-flows, regulation, cex-tradfi, stables-payments.",
       "voiceHook": "Pattern forming: wrappers etf.",
       "signalIds": [
         "sig-20260728-ms-eth-sol-etp",
@@ -5865,7 +6023,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for wrappers-etf: dates + sources",
-      "expiresAt": "2026-08-07T14:11:49.422Z",
+      "expiresAt": "2026-08-07T16:44:38.232Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -6122,28 +6280,25 @@
     },
     {
       "date": "2026-08-03",
-      "at": "2026-08-03T14:11:49.422Z",
-      "note": "Watcher: +12 signals, spikes=0, patternPings=2.",
+      "at": "2026-08-03T16:44:38.232Z",
+      "note": "Watcher: +11 signals, spikes=0, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260803-circle-slides-after-morgan-s-0d0d9199",
-        "sig-20260803-bernstein-sees-another-leg-l-3f2df5f4",
-        "sig-20260803-blackrock-expands-tokenized--08167fc3",
-        "sig-20260803-tom-lee-s-bitmine-bought-mor-a92e4790",
-        "sig-20260803-strategy-sold-another-105-mi-8e84d611",
-        "sig-20260803-bitget-set-to-exit-japan-clo-063d271c",
-        "sig-20260803-how-fake-world-assets-and-on-62fd86a0",
-        "sig-20260803-strategy-sells-1-638-bitcoin-fe88ca7d",
-        "sig-20260803-bithumb-sets-2028-ipo-timeta-14c1eabd",
-        "sig-20260803-clarity-act-failure-could-se-ce26ea9c",
-        "sig-20260803-morning-minute-the-coldcard--4052e6db",
-        "sig-20260803-strategy-sells-105m-in-bitco-91158395"
+        "sig-20260803-trump-linked-american-bitcoi-4aa7619c",
+        "sig-20260803-u-s-japan-intervention-reviv-27eab27b",
+        "sig-20260803-strategy-sells-1-638-bitcoin-0c6811aa",
+        "sig-20260803-i-did-everything-right-coldc-64cb3c14",
+        "sig-20260803-the-114-trillion-question-ho-e0cd48cf",
+        "sig-20260803-coldcard-thefts-near-114-mil-a8846aac",
+        "sig-20260803-blackrock-launches-tokenized-47ae6fa6",
+        "sig-20260803-hashdex-to-shut-smallest-bit-b2c9a376",
+        "sig-20260803-us-hints-at-more-yen-interve-2d1922e9",
+        "sig-20260803-trump-family-s-american-bitc-0a4f9ec9",
+        "sig-20260803-tom-lee-s-bitmine-buys-more--37d2484d"
       ],
       "angleIdsTouched": [
-        "ang-watch-clarity-policy",
         "ang-watch-wrappers-etf"
       ],
       "noteworthyIds": [
-        "ang-watch-clarity-policy",
         "ang-watch-wrappers-etf"
       ]
     }
