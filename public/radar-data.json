@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T20:19:48.426Z",
+  "updatedAt": "2026-08-03T21:35:42.205Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -5925,6 +5925,64 @@
         "wrappers-etf"
       ],
       "watcher": true
+    },
+    {
+      "id": "sig-20260803-robinhood-s-second-venture-f-3314a2bf",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T21:35:42.205Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Robinhood's Second Venture Fund Targets Y Combinator Startups in $200 Million IPO",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/tradfi-and-fintech/robinhood-s-second-venture-fund-targets-y-combinator-startups-in-usd200-million-ipo",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260803-bessent-s-top-crypto-adviser-d4a34273",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T21:35:42.205Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "Bessent’s top crypto adviser Tyler Williams exits US Treasury: Report",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/bessent-top-crypto-adviser-tyler-williams-leaves-us-treasury-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260803-former-fbi-agent-charged-wit-8ea885d1",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T21:35:42.205Z",
+      "lane": "ai-crypto",
+      "kind": "narrative",
+      "what": "Former FBI Agent Charged With Stealing Nearly $1 Million in Crypto and Using ChatGPT for Investment Advice",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374871/former-fbi-agent-charged-stealing-crypto-using-chatgpt-advice",
+      "status": "open",
+      "tags": [
+        "stables-ai"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260803-what-is-an-air-gapped-bitcoi-8034cd50",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T21:35:42.205Z",
+      "lane": "failures-rugs",
+      "kind": "exploit",
+      "what": "What Is an Air-Gapped Bitcoin Wallet? Why the Coldcard Exploit Changes the Conversation About Offline Security",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374868/what-is-air-gapped-bitcoin-wallet-coldcard-exploit-security",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -6252,15 +6310,16 @@
     },
     {
       "id": "ang-watch-stables-ai",
-      "at": "2026-07-31T15:33:58.765Z",
-      "thesis": "Watcher cluster [stables-ai]: 5 related receipts in ~7d across ai-crypto, incentives-campaigns.",
+      "at": "2026-08-03T21:35:42.205Z",
+      "thesis": "Watcher cluster [stables-ai]: 6 related receipts in ~7d across ai-crypto, incentives-campaigns.",
       "voiceHook": "Pattern forming: stables ai.",
       "signalIds": [
         "sig-20260730-lightning-labs-launches-site-1b7eea1f",
         "sig-20260729-moonpay-vault-enables-chatgp-ce970112",
         "sig-20260729-moonpay-s-paybox-puts-a-cryp-fc2f230b",
         "sig-20260729-moonpay-paybox-x",
-        "sig-20260731-claude-hacked-three-companie-5ddbc8ce"
+        "sig-20260731-claude-hacked-three-companie-5ddbc8ce",
+        "sig-20260803-former-fbi-agent-charged-wit-8ea885d1"
       ],
       "lanes": [
         "ai-crypto",
@@ -6269,7 +6328,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for stables-ai: dates + sources",
-      "expiresAt": "2026-08-04T15:33:58.765Z",
+      "expiresAt": "2026-08-07T21:35:42.205Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -6453,24 +6512,19 @@
     },
     {
       "date": "2026-08-03",
-      "at": "2026-08-03T20:19:48.426Z",
-      "note": "Watcher: +7 signals, spikes=0, patternPings=2.",
+      "at": "2026-08-03T21:35:42.205Z",
+      "note": "Watcher: +4 signals, spikes=0, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260803-bitcoin-bridge-boltz-halts-s-d4e5daee",
-        "sig-20260803-tornado-cash-logs-968-deposi-91fe1529",
-        "sig-20260803-flap-overtakes-pump-fun-in-d-cb30cc79",
-        "sig-20260803-dex-spot-volume-hit-a-record-bb9dd3a7",
-        "sig-20260803-rwas-topped-half-of-hyperliq-166c7752",
-        "sig-20260803-falconx-cuts-10-of-workforce-5ec01084",
-        "sig-20260803-blackrock-launches-tokenized-c18a9cfd"
+        "sig-20260803-robinhood-s-second-venture-f-3314a2bf",
+        "sig-20260803-bessent-s-top-crypto-adviser-d4a34273",
+        "sig-20260803-former-fbi-agent-charged-wit-8ea885d1",
+        "sig-20260803-what-is-an-air-gapped-bitcoi-8034cd50"
       ],
       "angleIdsTouched": [
-        "ang-watch-hl-perps-rwa",
-        "ang-watch-wrappers-etf"
+        "ang-watch-stables-ai"
       ],
       "noteworthyIds": [
-        "ang-watch-hl-perps-rwa",
-        "ang-watch-wrappers-etf"
+        "ang-watch-stables-ai"
       ]
     }
   ]
