@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T04:55:42.830Z",
+  "updatedAt": "2026-08-03T08:20:26.044Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -3886,7 +3886,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/bhutan-gelephu-3iq-bitcoin-treasury?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -3900,7 +3900,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/tech/2026/07/31/major-bitcoin-wallet-flaw-drains-594-btc-in-25-minute-sweep",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -3914,7 +3914,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/crypto-next-altseason-fewer-winners-wintermute?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -3928,7 +3928,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/coldcard-mk3-warning-594-btc-sweep?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -3942,7 +3942,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/07/31/live-updates-bitcoin-steady-as-japan-holds-rates-at-1-keeping-the-yen-carry-trade-alive",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -3956,7 +3956,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/07/31/bitcoin-flat-near-usd64-000-as-kospi-s-record-17-surge-leaves-crypto-untouched",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5139,6 +5139,90 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260803-u-s-jobs-circle-galaxy-ameri-16a69122",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T08:20:26.044Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "U.S. Jobs, Circle, Galaxy, American Bitcoin earnings: Crypto Week Ahead",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/03/u-s-jobs-circle-galaxy-american-bitcoin-earnings-crypto-week-ahead",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260803-bitcoin-slips-under-63-000-d-5568bc02",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T08:20:26.044Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin slips under $63,000 despite Iran deal hopes as Coldcard losses rattle market",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/03/bitcoin-slips-under-usd63-000-despite-iran-deal-hopes-as-coldcard-losses-rattle-market",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260803-trump-media-s-bitcoin-stash--abc70285",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T08:20:26.044Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Trump Media’s bitcoin stash may be down to loan collateral after $165 million BTC move",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/03/trump-media-s-bitcoin-stash-may-be-down-to-loan-collateral-after-usd165-million-btc-move",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260803-michael-saylor-s-strategy-is-aef4cb42",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T08:20:26.044Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Michael Saylor’s Strategy is now tracking bitcoin’s 200-week moving average",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/03/michael-saylor-s-strategy-is-now-tracking-bitcoin-s-200-week-moving-average",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260803-crypto-treasury-firm-zerosta-8e63306a",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T08:20:26.044Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "Crypto treasury firm ZeroStack warns of survival risk amid $82.5M loss",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/zerostack-survival-risk-82m-crypto-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260803-bitcoin-hits-62k-while-coinb-d28b2cef",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T08:20:26.044Z",
+      "lane": "cex-tradfi",
+      "kind": "narrative",
+      "what": "Bitcoin hits $62K while Coinbase premium hits 77-day negative streak",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/bitcoin-hits-62k-while-coinbase-premium-hits-77-day-negative-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -5666,12 +5750,15 @@
     },
     {
       "date": "2026-08-03",
-      "at": "2026-08-03T04:55:42.830Z",
-      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-03T08:20:26.044Z",
+      "note": "Watcher: +6 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260803-coldcard-s-5-year-flaw-revea-1892a178",
-        "sig-20260803-south-korean-stablecoin-outf-e230683e",
-        "sig-20260803-suspected-4th-coldcard-attac-1d1c3632"
+        "sig-20260803-u-s-jobs-circle-galaxy-ameri-16a69122",
+        "sig-20260803-bitcoin-slips-under-63-000-d-5568bc02",
+        "sig-20260803-trump-media-s-bitcoin-stash--abc70285",
+        "sig-20260803-michael-saylor-s-strategy-is-aef4cb42",
+        "sig-20260803-crypto-treasury-firm-zerosta-8e63306a",
+        "sig-20260803-bitcoin-hits-62k-while-coinb-d28b2cef"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
