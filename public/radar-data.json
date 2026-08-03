@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T01:02:34.386Z",
+  "updatedAt": "2026-08-03T04:55:42.830Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -248,7 +248,7 @@
       "why": "Winner tape split: volume chain ≠ TVL chain — useful for 'where activity actually is' takes.",
       "source": "DefiLlama chains",
       "url": "https://defillama.com/chains",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "l1-winners"
       ]
@@ -263,7 +263,7 @@
       "why": "Quiet fee leadership often ignored in CT 'L1 wars' posts.",
       "source": "DefiLlama chains",
       "url": "https://defillama.com/chains",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "l1-winners"
       ]
@@ -406,7 +406,7 @@
       "why": "Bridge/swap trust lives in solver ops, not just contracts — failure-mode take.",
       "source": "Cointelegraph / Blockaid",
       "url": "https://cointelegraph.com/news/garden-finance-app-offline-450k-htlc-exploit",
-      "status": "open",
+      "status": "expired",
       "tags": []
     },
     {
@@ -419,7 +419,7 @@
       "why": "Stablecoin mint via key/owner compromise → full network pause — classic failure tape.",
       "source": "CryptoSlate",
       "url": "https://cryptoslate.com/wemix-owner-breach-minted-5-23m-tokens-outside-its-100-backed-stablecoin-controls/",
-      "status": "open",
+      "status": "expired",
       "tags": []
     },
     {
@@ -432,7 +432,7 @@
       "why": "Custom bridge ≠ L2 security — backdrop for Garden/solver week.",
       "source": "The Defiant / Blockaid",
       "url": "https://thedefiant.io/news/hacks/attacker-drains-usd24m-in-usdc-from-afx-bridge-on-arbitrum",
-      "status": "open",
+      "status": "expired",
       "tags": []
     },
     {
@@ -3970,7 +3970,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/markets/bitcoin-etfs-inflows-week-back-green?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -3984,7 +3984,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/policy/2026/07/31/new-york-sues-kalshi-alleges-it-offers-a-gambling-platform-plain-and-simple",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -3998,7 +3998,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/07/31/quantum-solutions-hyperscale-data-tap-crypto-treasuries-to-fund-ai-data-centers",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5097,6 +5097,48 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260803-coldcard-s-5-year-flaw-revea-1892a178",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T04:55:42.830Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Coldcard’s 5-year flaw reveals hardware wallet testing gap: Kraken’s security chief",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/coldcards-5-year-flaw-reveals-hardware-wallet-testing-gap-krakens-security-chief?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260803-south-korean-stablecoin-outf-e230683e",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T04:55:42.830Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "South Korean stablecoin outflows top $367M in June: Report",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/south-korea-stablecoin-outflows-overseas-exchanges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260803-suspected-4th-coldcard-attac-1d1c3632",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T04:55:42.830Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Suspected 4th Coldcard attack wave sweeps 448 Bitcoin: Galaxy’s Thorn",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/suspected-4th-coldcard-attack-wave-sweeps-389-bitcoin-galaxys-thorn?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -5624,10 +5666,12 @@
     },
     {
       "date": "2026-08-03",
-      "at": "2026-08-03T01:02:34.386Z",
-      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-03T04:55:42.830Z",
+      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260802-coldcard-exploit-sparks-bitc-4dd8becd"
+        "sig-20260803-coldcard-s-5-year-flaw-revea-1892a178",
+        "sig-20260803-south-korean-stablecoin-outf-e230683e",
+        "sig-20260803-suspected-4th-coldcard-attac-1d1c3632"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
