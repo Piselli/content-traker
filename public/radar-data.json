@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T22:50:03.988Z",
+  "updatedAt": "2026-08-03T23:58:11.412Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -6540,12 +6540,9 @@
     },
     {
       "date": "2026-08-03",
-      "at": "2026-08-03T22:50:03.988Z",
-      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [
-        "sig-20260803-u-s-fbi-intelligence-agent-a-4c38dac0",
-        "sig-20260803-marmot-researchers-turn-to-o-5c30b3c1"
-      ],
+      "at": "2026-08-03T23:58:11.412Z",
+      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
