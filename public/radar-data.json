@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T21:35:42.205Z",
+  "updatedAt": "2026-08-03T22:50:03.988Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -5983,6 +5983,34 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260803-u-s-fbi-intelligence-agent-a-4c38dac0",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T22:50:03.988Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "U.S. FBI intelligence agent arrested in connection with theft of $1 million in crypto",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/policy/2026/08/03/u-s-fbi-intelligence-agent-arrested-in-connection-with-theft-of-usd1-million-in-crypto",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260803-marmot-researchers-turn-to-o-5c30b3c1",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T22:50:03.988Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "Marmot Researchers Turn to OnlyFans for Funding—And There Are Meme Coins Too",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374874/marmot-researchers-onlyfans-memecoins-solana-onlymarms",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -6512,20 +6540,14 @@
     },
     {
       "date": "2026-08-03",
-      "at": "2026-08-03T21:35:42.205Z",
-      "note": "Watcher: +4 signals, spikes=0, patternPings=1.",
+      "at": "2026-08-03T22:50:03.988Z",
+      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260803-robinhood-s-second-venture-f-3314a2bf",
-        "sig-20260803-bessent-s-top-crypto-adviser-d4a34273",
-        "sig-20260803-former-fbi-agent-charged-wit-8ea885d1",
-        "sig-20260803-what-is-an-air-gapped-bitcoi-8034cd50"
+        "sig-20260803-u-s-fbi-intelligence-agent-a-4c38dac0",
+        "sig-20260803-marmot-researchers-turn-to-o-5c30b3c1"
       ],
-      "angleIdsTouched": [
-        "ang-watch-stables-ai"
-      ],
-      "noteworthyIds": [
-        "ang-watch-stables-ai"
-      ]
+      "angleIdsTouched": [],
+      "noteworthyIds": []
     }
   ]
 }
