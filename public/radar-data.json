@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T16:44:38.232Z",
+  "updatedAt": "2026-08-03T18:30:38.305Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -5753,6 +5753,76 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260803-crypto-card-volume-hits-748--039cd067",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T18:30:38.305Z",
+      "lane": "narrative-rotation",
+      "kind": "metric",
+      "what": "Crypto Card Volume Hits $748.7M in July, a Fifth Straight Monthly Gain: Paymentscan",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/tradfi-and-fintech/crypto-card-volume-hits-748-7m-in-july-a-fifth-straight-monthly-gain-paymentscan",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260803-kenya-moves-30-million-acade-021ef966",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T18:30:38.305Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Kenya moves 30 million academic credentials onto Avalanche blockchain",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/kenya-avalanche-blockchain-academic-credentials-verification?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260803-xrp-holders-can-now-borrow-r-b6e79747",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T18:30:38.305Z",
+      "lane": "l1-l2",
+      "kind": "narrative",
+      "what": "XRP Holders Can Now Borrow Ripple's RLUSD on Ethereum Without Selling Their Crypto",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374862/xrp-holders-borrow-ripple-rlusd-ethereum-without-selling",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260803-crypto-privacy-tools-serve-e-3dce820c",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T18:30:38.305Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Crypto Privacy Tools Serve ‘Essential Protective Functions’: Report by ChangeNOW, CoinRabbit",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374838/crypto-privacy-tools-serve-essential-protective-functions-report-by-changenow-coinrabbit",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260803-solo-bitcoin-miner-hits-jack-9d55ede2",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T18:30:38.305Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Solo Bitcoin Miner Hits Jackpot, Scoring $200K BTC Reward",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374859/solo-bitcoin-miner-hits-jackpot-scoring-200k-btc-reward",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -6280,27 +6350,17 @@
     },
     {
       "date": "2026-08-03",
-      "at": "2026-08-03T16:44:38.232Z",
-      "note": "Watcher: +11 signals, spikes=0, patternPings=1.",
+      "at": "2026-08-03T18:30:38.305Z",
+      "note": "Watcher: +5 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260803-trump-linked-american-bitcoi-4aa7619c",
-        "sig-20260803-u-s-japan-intervention-reviv-27eab27b",
-        "sig-20260803-strategy-sells-1-638-bitcoin-0c6811aa",
-        "sig-20260803-i-did-everything-right-coldc-64cb3c14",
-        "sig-20260803-the-114-trillion-question-ho-e0cd48cf",
-        "sig-20260803-coldcard-thefts-near-114-mil-a8846aac",
-        "sig-20260803-blackrock-launches-tokenized-47ae6fa6",
-        "sig-20260803-hashdex-to-shut-smallest-bit-b2c9a376",
-        "sig-20260803-us-hints-at-more-yen-interve-2d1922e9",
-        "sig-20260803-trump-family-s-american-bitc-0a4f9ec9",
-        "sig-20260803-tom-lee-s-bitmine-buys-more--37d2484d"
+        "sig-20260803-crypto-card-volume-hits-748--039cd067",
+        "sig-20260803-kenya-moves-30-million-acade-021ef966",
+        "sig-20260803-xrp-holders-can-now-borrow-r-b6e79747",
+        "sig-20260803-crypto-privacy-tools-serve-e-3dce820c",
+        "sig-20260803-solo-bitcoin-miner-hits-jack-9d55ede2"
       ],
-      "angleIdsTouched": [
-        "ang-watch-wrappers-etf"
-      ],
-      "noteworthyIds": [
-        "ang-watch-wrappers-etf"
-      ]
+      "angleIdsTouched": [],
+      "noteworthyIds": []
     }
   ]
 }
