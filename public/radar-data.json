@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T11:52:13.075Z",
+  "updatedAt": "2026-08-03T14:11:49.422Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -4674,7 +4674,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/tech/2026/08/01/xrp-ledger-upgrade-brings-back-features-once-pulled-over-critical-bugs",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -4688,7 +4688,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/tech/2026/08/01/how-bitcoin-cold-wallets-lost-usd70-million-in-an-attack-that-never-touched-the-devices",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -4702,7 +4702,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/markets/bitcoin-etfs-july-green-despite-late-month-selling?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -4716,7 +4716,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/01/binance-founder-cz-says-diversify-your-wallets-following-usd70-million-coldcard-exploit",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -4730,7 +4730,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/coldcard-bitcoin-loss-estimate-70-million-galaxy-analysis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5010,7 +5010,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/strategy-leaves-preferred-strc-dividend-at-12-price-still-below-par?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5024,7 +5024,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/374808/whats-the-deal-with-meta-pervert-glasses",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5038,7 +5038,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/tech/2026/08/02/the-future-of-crypto-payments-won-t-include-on-ramps-or-bridges-fun-ceo-says",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5052,7 +5052,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/web3/2026/08/02/why-a-defi-platform-ditched-its-consumer-app-to-become-the-secret-backend-for-tech-giants",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5066,7 +5066,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/374817/coldcard-bitcoin-exploit-88-million-attackers-draining-wallets",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5080,7 +5080,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/policy/2026/08/02/counting-down-the-days-state-of-crypto",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5094,7 +5094,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/magazine/coldcard-exploit-sparks-bitcoin-flight-clarity-act-no-vote-or-no-vote-hodlers-digest-august-2?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5419,6 +5419,182 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260803-circle-slides-after-morgan-s-0d0d9199",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T14:11:49.422Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Circle slides after Morgan Stanley downgrade, cut in price target",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/03/circle-internet-slides-after-morgan-stanley-downgrade-cut-in-price-target",
+      "status": "open",
+      "tags": [
+        "wrappers-etf"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260803-bernstein-sees-another-leg-l-3f2df5f4",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T14:11:49.422Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "Bernstein sees another leg lower for crypto markets if Clarity Act stalls",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/policy/2026/08/03/bernstein-sees-another-leg-lower-for-crypto-markets-if-clarity-act-stalls",
+      "status": "open",
+      "tags": [
+        "clarity-policy"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260803-blackrock-expands-tokenized--08167fc3",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T14:11:49.422Z",
+      "lane": "cex-tradfi",
+      "kind": "narrative",
+      "what": "BlackRock expands tokenized cash with new blockchain-based money market offerings",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/03/blackrock-expands-tokenized-cash-with-new-blockchain-based-money-market-offerings",
+      "status": "open",
+      "tags": [
+        "wrappers-etf"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260803-tom-lee-s-bitmine-bought-mor-a92e4790",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T14:11:49.422Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Tom Lee's Bitmine bought more ether, added to stock buyback last week",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/03/bitmine-bought-more-ether-added-to-stock-buyback-last-week",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260803-strategy-sold-another-105-mi-8e84d611",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T14:11:49.422Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Strategy sold another $105 million of bitcoin last week, repurchased $81.2 million of STRC",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/03/strategy-sold-another-usd105-million-of-bitcoin-last-week-repurchased-usd81-2-million-of-strc",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260803-bitget-set-to-exit-japan-clo-063d271c",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T14:11:49.422Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitget set to exit Japan, close all remaining positions by year-end",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/policy/2026/08/03/bitget-set-to-exit-japan-close-all-remaining-positions-by-year-end",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260803-how-fake-world-assets-and-on-62fd86a0",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T14:11:49.422Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "How Fake World Assets and onchain gacha became crypto’s latest craze",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/magazine/how-fake-world-assets-and-online-gacha-became-cryptos-latest-craze?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260803-strategy-sells-1-638-bitcoin-fe88ca7d",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T14:11:49.422Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Strategy sells 1,638 Bitcoin to fund dividends and STRC repurchases",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/strategy-sells-bitcoin-dividend-strc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260803-bithumb-sets-2028-ipo-timeta-14c1eabd",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T14:11:49.422Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bithumb sets 2028 IPO timetable as it overhauls internal controls",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/bithumb-ipo-timetable-internal-controls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260803-clarity-act-failure-could-se-ce26ea9c",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T14:11:49.422Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "CLARITY Act failure could send crypto valuations lower: Bernstein",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/clarity-act-failure-crypto-valuations-lower-bernstein?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [
+        "clarity-policy"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260803-morning-minute-the-coldcard--4052e6db",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T14:11:49.422Z",
+      "lane": "failures-rugs",
+      "kind": "exploit",
+      "what": "Morning Minute: The Coldcard Bitcoin Hack Nears $114 Million in Potential Losses",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374830/morning-minute-the-coldcard-bitcoin-hack-nears-114-million-in-potential-losses",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260803-strategy-sells-105m-in-bitco-91158395",
+      "at": "2026-08-03",
+      "scannedAt": "2026-08-03T14:11:49.422Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Strategy Sells $105M in Bitcoin as Dollar Reserve Hits $4B",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374831/strategy-sells-105m-in-bitcoin-as-dollar-reserve-hits-4b",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -5669,8 +5845,8 @@
     },
     {
       "id": "ang-watch-wrappers-etf",
-      "at": "2026-07-30T16:59:18.997Z",
-      "thesis": "Watcher cluster [wrappers-etf]: 10 related receipts in ~7d across capital-flows, regulation, cex-tradfi.",
+      "at": "2026-08-03T14:11:49.422Z",
+      "thesis": "Watcher cluster [wrappers-etf]: 9 related receipts in ~7d across capital-flows, regulation, cex-tradfi, stables-payments.",
       "voiceHook": "Pattern forming: wrappers etf.",
       "signalIds": [
         "sig-20260728-ms-eth-sol-etp",
@@ -5689,15 +5865,15 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for wrappers-etf: dates + sources",
-      "expiresAt": "2026-08-03T16:59:18.997Z",
+      "expiresAt": "2026-08-07T14:11:49.422Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
     },
     {
       "id": "ang-watch-clarity-policy",
-      "at": "2026-07-30T22:32:47.539Z",
-      "thesis": "Watcher cluster [clarity-policy]: 11 related receipts in ~7d across regulation.",
+      "at": "2026-08-03T14:11:49.422Z",
+      "thesis": "Watcher cluster [clarity-policy]: 10 related receipts in ~7d across regulation.",
       "voiceHook": "Pattern forming: clarity policy.",
       "signalIds": [
         "sig-20260728-clarity-shelved",
@@ -5715,7 +5891,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for clarity-policy: dates + sources",
-      "expiresAt": "2026-08-03T22:32:47.539Z",
+      "expiresAt": "2026-08-07T14:11:49.422Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -5946,26 +6122,30 @@
     },
     {
       "date": "2026-08-03",
-      "at": "2026-08-03T11:52:13.075Z",
-      "note": "Watcher: +14 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-03T14:11:49.422Z",
+      "note": "Watcher: +12 signals, spikes=0, patternPings=2.",
       "signalIdsAdded": [
-        "sig-20260803-solo-bitcoin-miner-nets-200--e5ecb7df",
-        "sig-20260803-bitcoin-ether-decline-as-col-ba2f3e28",
-        "sig-20260803-bithumb-now-targets-2028-ipo-e34b3e9e",
-        "sig-20260803-live-updates-traders-say-bit-28d3389b",
-        "sig-20260803-the-bitcoin-futures-yield-co-5652119f",
-        "sig-20260803-robinhood-wins-uk-crypto-reg-02a62d0b",
-        "sig-20260803-coldcard-wallet-losses-may-n-8b92e7af",
-        "sig-20260803-trumps-american-bitcoin-repo-d51eb2bf",
-        "sig-20260803-ripple-invests-in-zilo-and-l-d9c94280",
-        "sig-20260803-bitcoin-may-find-bear-market-7391a9bb",
-        "sig-20260803-hashkey-receives-jpmorgan-ap-92aa7a7c",
-        "sig-20260803-bitget-to-exit-japan-close-r-bc33ebb4",
-        "sig-20260803-south-korean-exchange-bithum-4dadd334",
-        "sig-20260803-coldcard-losses-near-114m-as-1c218c56"
+        "sig-20260803-circle-slides-after-morgan-s-0d0d9199",
+        "sig-20260803-bernstein-sees-another-leg-l-3f2df5f4",
+        "sig-20260803-blackrock-expands-tokenized--08167fc3",
+        "sig-20260803-tom-lee-s-bitmine-bought-mor-a92e4790",
+        "sig-20260803-strategy-sold-another-105-mi-8e84d611",
+        "sig-20260803-bitget-set-to-exit-japan-clo-063d271c",
+        "sig-20260803-how-fake-world-assets-and-on-62fd86a0",
+        "sig-20260803-strategy-sells-1-638-bitcoin-fe88ca7d",
+        "sig-20260803-bithumb-sets-2028-ipo-timeta-14c1eabd",
+        "sig-20260803-clarity-act-failure-could-se-ce26ea9c",
+        "sig-20260803-morning-minute-the-coldcard--4052e6db",
+        "sig-20260803-strategy-sells-105m-in-bitco-91158395"
       ],
-      "angleIdsTouched": [],
-      "noteworthyIds": []
+      "angleIdsTouched": [
+        "ang-watch-clarity-policy",
+        "ang-watch-wrappers-etf"
+      ],
+      "noteworthyIds": [
+        "ang-watch-clarity-policy",
+        "ang-watch-wrappers-etf"
+      ]
     }
   ]
 }
