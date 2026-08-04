@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T02:08:29.784Z",
+  "updatedAt": "2026-08-04T05:28:05.007Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -291,7 +291,7 @@
       "why": "AI×crypto with real rails — still relevant backdrop if agent-payment narrative reheats; expire if unused.",
       "source": "Circle / CryptoBriefing",
       "url": "https://cryptobriefing.com/circle-open-source-agent-stack-usdc-ai/",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "stables-ai",
         "agent-payments"
@@ -3316,7 +3316,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/tech/2026/07/30/the-economics-behind-the-aave-proposal-to-ditch-6-chains-that-earn-chump-change",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -3446,7 +3446,7 @@
       "why": "Watcher spike: strong failure/shipping/capital headline — check for take.",
       "source": "thedefiant",
       "url": "https://thedefiant.io/news/defi/aave-moves-to-retire-50-low-adoption-assets-wind-down-six-chains",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5562,7 +5562,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/clarity-act-failure-crypto-valuations-lower-bernstein?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "clarity-policy"
       ],
@@ -5578,7 +5578,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/374830/morning-minute-the-coldcard-bitcoin-hack-nears-114-million-in-potential-losses",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5592,7 +5592,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/374831/strategy-sells-105m-in-bitcoin-as-dollar-reserve-hits-4b",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5606,7 +5606,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/03/trump-linked-american-bitcoin-president-matt-prusak-departs-for-giga-energy",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5620,7 +5620,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/03/u-s-japan-intervention-revives-yen-carry-trade-fears-for-bitcoin",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5634,7 +5634,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "thedefiant",
       "url": "https://thedefiant.io/news/cefi/strategy-sells-1-638-bitcoin-for-105m-splits-proceeds-between-dividends-and-strc-buyback",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -6036,6 +6036,90 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/boltz-pauses-service-after-wave-of-ai-assisted-hacking-attempts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-bitcoin-nears-64-000-as-trad-b2d9a6a5",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T05:28:05.007Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin nears $64,000 as traders look past the fourth Coldcard sweep",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/04/bitcoin-nears-usd64-000-as-traders-look-past-the-fourth-coldcard-sweep",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-a-bitcoin-wallet-dormant-sin-55b75136",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T05:28:05.007Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "A bitcoin wallet dormant since 2013 moved $31 million, and it's not the only one",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/04/a-bitcoin-wallet-dormant-since-2013-moved-usd31-million-and-it-s-not-the-only-one",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-coldcard-bitcoin-theft-tops--bc48617a",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T05:28:05.007Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Coldcard Bitcoin theft tops $100M across 3 confirmed attack waves: Galaxy",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/coldcard-bitcoin-theft-100-million-three-waves?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-bitmine-adds-19-6m-in-eth-re-5aa5baf9",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T05:28:05.007Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitmine adds $19.6M in ETH, repurchases 4.5M shares",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/bitmine-buys-10399-eth-repurchases-4-5-million-shares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-mastercard-completes-1-8b-bv-eb97cc82",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T05:28:05.007Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Mastercard completes $1.8B BVNK acquisition in stablecoin push",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/mastercard-completes-bvnk-acquisition-stablecoin-push?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-malaysia-blockchain-week-s-o-274e55e6",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T05:28:05.007Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Malaysia Blockchain Week’s OnlyFans scandal, lonely heart scammed for $3.3M: Asia Express",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/magazine/hong-kong-lonely-heart-scammed-out-of-33m-in-crypto-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "status": "open",
       "tags": [],
       "watcher": true
@@ -6576,11 +6660,15 @@
     },
     {
       "date": "2026-08-04",
-      "at": "2026-08-04T02:08:29.784Z",
-      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-04T05:28:05.007Z",
+      "note": "Watcher: +6 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260804-caleb-brown-expands-to-uk-be-8a014ccc",
-        "sig-20260804-boltz-pauses-service-after-w-727d7514"
+        "sig-20260804-bitcoin-nears-64-000-as-trad-b2d9a6a5",
+        "sig-20260804-a-bitcoin-wallet-dormant-sin-55b75136",
+        "sig-20260804-coldcard-bitcoin-theft-tops--bc48617a",
+        "sig-20260804-bitmine-adds-19-6m-in-eth-re-5aa5baf9",
+        "sig-20260804-mastercard-completes-1-8b-bv-eb97cc82",
+        "sig-20260804-malaysia-blockchain-week-s-o-274e55e6"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
