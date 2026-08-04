@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T10:40:56.687Z",
+  "updatedAt": "2026-08-04T12:57:04.251Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -5192,7 +5192,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/03/michael-saylor-s-strategy-is-now-tracking-bitcoin-s-200-week-moving-average",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5206,7 +5206,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/zerostack-survival-risk-82m-crypto-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5220,7 +5220,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/markets/bitcoin-hits-62k-while-coinbase-premium-hits-77-day-negative-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5234,7 +5234,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/daybook-us/2026/08/03/solo-bitcoin-miner-nets-usd200-000-as-coldcard-hardware-wallet-drains-rocks-sentiment",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5248,7 +5248,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/03/bitcoin-ether-decline-as-coldcard-exploit-enters-a-fifth-day",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5262,7 +5262,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/03/bithumb-now-targets-2028-ip-after-major-internal-restructuring",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5276,7 +5276,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/03/live-updates-traders-say-bitcoin-sell-off-from-usd65-000-points-to-thin-volume-not-panic-selling",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5290,7 +5290,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/03/the-bitcoin-futures-yield-collapse-once-over-20-now-less-than-treasury-notes",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5304,7 +5304,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/policy/2026/08/03/robinhood-wins-uk-crypto-registration-before-new-regulatory-regime-kicks-off",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5318,7 +5318,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/tech/2026/08/03/coldcard-wallet-losses-may-near-usd114-million-as-possible-fourth-sweep-emerges",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5332,7 +5332,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/trumps-american-bitcoin-output-narrower-q2-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -6337,6 +6337,164 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260804-bny-to-add-crypto-staking-to-b79bc05d",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T12:57:04.251Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "BNY to add crypto staking to digital asset custody platform",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/04/bny-to-add-crypto-staking-to-digital-asset-custody-platform",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-coldcard-urges-users-to-move-503e0d14",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T12:57:04.251Z",
+      "lane": "failures-rugs",
+      "kind": "exploit",
+      "what": "Coldcard urges users to move bitcoin as exploit is still in progress",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/tech/2026/08/04/coldcard-urges-users-to-move-bitcoin-as-active-wallet-exploit-continues",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-the-bitcoin-market-has-plent-b16a32f2",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T12:57:04.251Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "The bitcoin market has plenty of reasons to freak out, yet calm pervades",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/daybook-us/2026/08/04/the-bitcoin-market-has-plenty-of-reasons-to-freak-out-yet-calm-pervades",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-south-african-lawmakers-prop-92a26467",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T12:57:04.251Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "South African lawmakers propose draft rules on cross-border crypto transactions",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/policy/2026/08/04/south-african-lawmakers-propose-draft-rules-on-cross-border-crypto-transactions",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-texas-electric-grid-moratori-4986811e",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T12:57:04.251Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Texas electric grid moratorium won’t have big impact on BTC miners: Bernstein",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/texas-electric-grid-moratorim-btc-miners-bernstein?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-tether-gold-reserves-rise-9--dfa99872",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T12:57:04.251Z",
+      "lane": "stables-payments",
+      "kind": "metric",
+      "what": "Tether Gold reserves rise 9.5% as gold posts worst quarter in 13 years",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/tether-gold-rise-q2-sharpest-quarterly-gold-correction?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-italy-s-biggest-bank-triples-b25a5350",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T12:57:04.251Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "Italy’s biggest bank triples staked Ether ETF holdings while cutting IBIT shares",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/intesa-sanpaolo-bank-staked-ether-etf-ibit-shares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [
+        "wrappers-etf"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-jim-cramer-plans-to-sell-his-8706208b",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T12:57:04.251Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Jim Cramer plans to sell his Bitcoin over quantum fears as BTC rises 1.6%",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/jim-cramer-sell-bitcoin-quantum-fears-btc-rises?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-morning-minute-saylor-sells--76ac5273",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T12:57:04.251Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Morning Minute: Saylor Sells Bitcoin Again",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374897/morning-minute-saylor-sells-bitcoin-again",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-blackrock-tokenizes-311b-of--3e593668",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T12:57:04.251Z",
+      "lane": "cex-tradfi",
+      "kind": "narrative",
+      "what": "BlackRock Tokenizes $311B of European Money Market Funds With JP Morgan's Kinexys",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374894/blackrock-tokenizes-311b-of-european-money-market-funds-with-jp-morgans-kinexys",
+      "status": "open",
+      "tags": [
+        "wrappers-etf"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-hardware-wallet-firms-warn-o-661ee46e",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T12:57:04.251Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Hardware Wallet Firms Warn of Phishing Surge as Coldcard Losses Near $130M",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374891/hardware-wallet-firms-warn-of-phishing-surge-as-coldcard-losses-near-130m",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -6588,8 +6746,8 @@
     },
     {
       "id": "ang-watch-wrappers-etf",
-      "at": "2026-08-04T10:40:56.687Z",
-      "thesis": "Watcher cluster [wrappers-etf]: 9 related receipts in ~7d across capital-flows, regulation, cex-tradfi, stables-payments.",
+      "at": "2026-08-04T12:57:04.251Z",
+      "thesis": "Watcher cluster [wrappers-etf]: 9 related receipts in ~7d across capital-flows, regulation, cex-tradfi.",
       "voiceHook": "Pattern forming: wrappers etf.",
       "signalIds": [
         "sig-20260728-ms-eth-sol-etp",
@@ -6608,7 +6766,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for wrappers-etf: dates + sources",
-      "expiresAt": "2026-08-08T10:40:56.687Z",
+      "expiresAt": "2026-08-08T12:57:04.251Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -6874,18 +7032,20 @@
     },
     {
       "date": "2026-08-04",
-      "at": "2026-08-04T10:40:56.687Z",
-      "note": "Watcher: +9 signals, spikes=0, patternPings=1.",
+      "at": "2026-08-04T12:57:04.251Z",
+      "note": "Watcher: +11 signals, spikes=0, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260804-blackrock-debuts-tokenized-a-ca4ce91a",
-        "sig-20260804-first-u-s-spot-bitcoin-etf-t-6d6615a5",
-        "sig-20260804-live-updates-bitcoin-at-63-6-d41b574e",
-        "sig-20260804-why-jim-cramer-s-quantum-pan-ae4b0c3d",
-        "sig-20260804-former-fbi-supervisor-admits-f4fb157e",
-        "sig-20260804-strategy-s-strc-retakes-90-a-7a80e485",
-        "sig-20260804-us-yen-intervention-puts-bit-7c1561a5",
-        "sig-20260804-apple-briefly-removes-telegr-2c2b8a78",
-        "sig-20260804-five-convicted-of-imprisonin-d6f15b42"
+        "sig-20260804-bny-to-add-crypto-staking-to-b79bc05d",
+        "sig-20260804-coldcard-urges-users-to-move-503e0d14",
+        "sig-20260804-the-bitcoin-market-has-plent-b16a32f2",
+        "sig-20260804-south-african-lawmakers-prop-92a26467",
+        "sig-20260804-texas-electric-grid-moratori-4986811e",
+        "sig-20260804-tether-gold-reserves-rise-9--dfa99872",
+        "sig-20260804-italy-s-biggest-bank-triples-b25a5350",
+        "sig-20260804-jim-cramer-plans-to-sell-his-8706208b",
+        "sig-20260804-morning-minute-saylor-sells--76ac5273",
+        "sig-20260804-blackrock-tokenizes-311b-of--3e593668",
+        "sig-20260804-hardware-wallet-firms-warn-o-661ee46e"
       ],
       "angleIdsTouched": [
         "ang-watch-wrappers-etf"
