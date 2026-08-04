@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T12:57:04.251Z",
+  "updatedAt": "2026-08-04T15:15:07.831Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -5108,7 +5108,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/coldcards-5-year-flaw-reveals-hardware-wallet-testing-gap-krakens-security-chief?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5122,7 +5122,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/south-korea-stablecoin-outflows-overseas-exchanges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5136,7 +5136,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/suspected-4th-coldcard-attack-wave-sweeps-389-bitcoin-galaxys-thorn?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5150,7 +5150,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/03/u-s-jobs-circle-galaxy-american-bitcoin-earnings-crypto-week-ahead",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5164,7 +5164,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/03/bitcoin-slips-under-usd63-000-despite-iran-deal-hopes-as-coldcard-losses-rattle-market",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5178,7 +5178,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/03/trump-media-s-bitcoin-stash-may-be-down-to-loan-collateral-after-usd165-million-btc-move",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -6495,6 +6495,136 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260804-bitcoin-s-63-000-zone-emerge-157d4a91",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T15:15:07.831Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin’s $63,000 zone emerges as key battleground for buyers: Glassnode",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/04/bitcoin-s-usd63-000-zone-emerges-as-key-battleground-for-buyers-glassnode",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-polymarket-targets-20-billio-b5fbe0c5",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T15:15:07.831Z",
+      "lane": "cex-tradfi",
+      "kind": "narrative",
+      "what": "Polymarket targets $20 billion valuation as competition heats up in prediction market sector",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/04/polymarket-targets-usd20-billion-valuation-as-competition-heats-up-in-prediction-markets",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-intesa-sanpaolo-slashed-ibit-b715119f",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T15:15:07.831Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "Intesa Sanpaolo slashed IBIT stake by 94% in 2Q, tripled ether ETF holding as crypto prices slumped",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/04/intesa-sanpaolo-slashed-ibit-stake-by-94-in-2q-tripled-ether-etf-holding-as-crypto-prices-slumped",
+      "status": "open",
+      "tags": [
+        "wrappers-etf"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-dinari-brings-tokenized-u-s--4114b455",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T15:15:07.831Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Dinari brings tokenized U.S. stocks to American investors as equity race heats up",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/04/dinari-brings-tokenized-u-s-stocks-to-american-investors-as-equity-race-heats-up",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-as-clarity-act-teeters-myste-9bb75558",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T15:15:07.831Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "As Clarity Act teeters, mystery group hammers away at crypto in Washington ads",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/policy/2026/08/03/as-clarity-act-teeters-mystery-group-hammers-away-at-crypto-in-washington-ads",
+      "status": "open",
+      "tags": [
+        "clarity-policy"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-bitgo-s-wbtc-move-pushes-lay-5219ae35",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T15:15:07.831Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "BitGo’s WBTC move pushes LayerZero-to-Chainlink tally near $15 billion",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/04/bitgo-s-wbtc-move-pushes-layerzero-to-chainlink-tally-near-usd15-billion",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-at-least-15-attackers-exploi-1ed8250c",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T15:15:07.831Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "At least 15 attackers exploited Coldcard vulnerability: Galaxy",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/15-attackers-exploited-coldcard-vulnerability-galaxy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-sorry-everyone-bitcoin-is-he-deacdf48",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T15:15:07.831Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Sorry everyone, Bitcoin is headed down to $43,500: Michael Terpin",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/magazine/bitcoin-to-go-down-into-the-40s-before-next-bull-run-michael-terpin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-apple-s-ai-slop-problem-left-629cce54",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T15:15:07.831Z",
+      "lane": "failures-rugs",
+      "kind": "exploit",
+      "what": "Apple's AI Slop Problem Left a $200K macOS Exploit Unreported",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374900/apples-ai-slop-problem-left-a-200k-macos-exploit-unreported",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -6746,8 +6876,8 @@
     },
     {
       "id": "ang-watch-wrappers-etf",
-      "at": "2026-08-04T12:57:04.251Z",
-      "thesis": "Watcher cluster [wrappers-etf]: 9 related receipts in ~7d across capital-flows, regulation, cex-tradfi.",
+      "at": "2026-08-04T15:15:07.831Z",
+      "thesis": "Watcher cluster [wrappers-etf]: 10 related receipts in ~7d across capital-flows, regulation, cex-tradfi.",
       "voiceHook": "Pattern forming: wrappers etf.",
       "signalIds": [
         "sig-20260728-ms-eth-sol-etp",
@@ -6766,15 +6896,15 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for wrappers-etf: dates + sources",
-      "expiresAt": "2026-08-08T12:57:04.251Z",
+      "expiresAt": "2026-08-08T15:15:07.831Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
     },
     {
       "id": "ang-watch-clarity-policy",
-      "at": "2026-08-03T14:11:49.422Z",
-      "thesis": "Watcher cluster [clarity-policy]: 10 related receipts in ~7d across regulation.",
+      "at": "2026-08-04T15:15:07.831Z",
+      "thesis": "Watcher cluster [clarity-policy]: 7 related receipts in ~7d across regulation.",
       "voiceHook": "Pattern forming: clarity policy.",
       "signalIds": [
         "sig-20260728-clarity-shelved",
@@ -6792,7 +6922,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for clarity-policy: dates + sources",
-      "expiresAt": "2026-08-07T14:11:49.422Z",
+      "expiresAt": "2026-08-08T15:15:07.831Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -7032,25 +7162,25 @@
     },
     {
       "date": "2026-08-04",
-      "at": "2026-08-04T12:57:04.251Z",
-      "note": "Watcher: +11 signals, spikes=0, patternPings=1.",
+      "at": "2026-08-04T15:15:07.831Z",
+      "note": "Watcher: +9 signals, spikes=0, patternPings=2.",
       "signalIdsAdded": [
-        "sig-20260804-bny-to-add-crypto-staking-to-b79bc05d",
-        "sig-20260804-coldcard-urges-users-to-move-503e0d14",
-        "sig-20260804-the-bitcoin-market-has-plent-b16a32f2",
-        "sig-20260804-south-african-lawmakers-prop-92a26467",
-        "sig-20260804-texas-electric-grid-moratori-4986811e",
-        "sig-20260804-tether-gold-reserves-rise-9--dfa99872",
-        "sig-20260804-italy-s-biggest-bank-triples-b25a5350",
-        "sig-20260804-jim-cramer-plans-to-sell-his-8706208b",
-        "sig-20260804-morning-minute-saylor-sells--76ac5273",
-        "sig-20260804-blackrock-tokenizes-311b-of--3e593668",
-        "sig-20260804-hardware-wallet-firms-warn-o-661ee46e"
+        "sig-20260804-bitcoin-s-63-000-zone-emerge-157d4a91",
+        "sig-20260804-polymarket-targets-20-billio-b5fbe0c5",
+        "sig-20260804-intesa-sanpaolo-slashed-ibit-b715119f",
+        "sig-20260804-dinari-brings-tokenized-u-s--4114b455",
+        "sig-20260804-as-clarity-act-teeters-myste-9bb75558",
+        "sig-20260804-bitgo-s-wbtc-move-pushes-lay-5219ae35",
+        "sig-20260804-at-least-15-attackers-exploi-1ed8250c",
+        "sig-20260804-sorry-everyone-bitcoin-is-he-deacdf48",
+        "sig-20260804-apple-s-ai-slop-problem-left-629cce54"
       ],
       "angleIdsTouched": [
+        "ang-watch-clarity-policy",
         "ang-watch-wrappers-etf"
       ],
       "noteworthyIds": [
+        "ang-watch-clarity-policy",
         "ang-watch-wrappers-etf"
       ]
     }
