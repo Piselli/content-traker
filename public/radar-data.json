@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T08:00:01.094Z",
+  "updatedAt": "2026-08-04T10:40:56.687Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -5346,7 +5346,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/ripple-invests-zilo-licuido-tokenized-capital-markets-push?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5360,7 +5360,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/markets/bitcoin-find-bear-market-bottom-august-10x-research?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5374,7 +5374,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/hashkey-jpmorgan-client-money-account?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5388,7 +5388,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/bitget-exit-japan-account-restrictions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5402,7 +5402,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/374823/south-korean-exchange-bithumb-targets-2028-ipo",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5416,7 +5416,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/374820/coldcard-losses-near-114m-as-small-bitcoin-transfers-spike",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5430,7 +5430,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/03/circle-internet-slides-after-morgan-stanley-downgrade-cut-in-price-target",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "wrappers-etf"
       ],
@@ -5446,7 +5446,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/policy/2026/08/03/bernstein-sees-another-leg-lower-for-crypto-markets-if-clarity-act-stalls",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "clarity-policy"
       ],
@@ -5462,7 +5462,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/03/blackrock-expands-tokenized-cash-with-new-blockchain-based-money-market-offerings",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "wrappers-etf"
       ],
@@ -6207,6 +6207,136 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260804-blackrock-debuts-tokenized-a-ca4ce91a",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T10:40:56.687Z",
+      "lane": "cex-tradfi",
+      "kind": "narrative",
+      "what": "BlackRock debuts tokenized access to $311 billion of money market funds in Europe",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/04/blackrock-debuts-tokenized-access-to-usd311-billion-of-money-market-funds-in-europe",
+      "status": "open",
+      "tags": [
+        "wrappers-etf"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-first-u-s-spot-bitcoin-etf-t-6d6615a5",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T10:40:56.687Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "First U.S. spot bitcoin ETF to close as inflows dwindle, investors chase AI returns",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/04/first-u-s-spot-bitcoin-etf-to-close-as-inflows-dwindle-investors-chase-ai-returns",
+      "status": "open",
+      "tags": [
+        "wrappers-etf"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-live-updates-bitcoin-at-63-6-d41b574e",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T10:40:56.687Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Live updates: Bitcoin at $63,600 as rare US-Japan yen action tests carry-trade fears",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/04/live-updates-bitcoin-at-usd63-600-as-rare-us-japan-yen-action-tests-carry-trade-fears",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-why-jim-cramer-s-quantum-pan-ae4b0c3d",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T10:40:56.687Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Why Jim Cramer’s quantum panic isn’t rattling bitcoin as price holds steady around $64,000",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/04/why-jim-cramer-s-quantum-panic-isn-t-rattling-bitcoin-as-price-holds-steady-around-usd64-000",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-former-fbi-supervisor-admits-f4fb157e",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T10:40:56.687Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Former FBI supervisor admits guilt in $1M crypto theft",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/former-fbi-supervisor-charged-1m-crypto-theft?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-strategy-s-strc-retakes-90-a-7a80e485",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T10:40:56.687Z",
+      "lane": "narrative-rotation",
+      "kind": "metric",
+      "what": "Strategy’s STRC retakes $90 after 24% rebound from June closing low",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/strategy-strc-stock-above-90-june-recovery?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-us-yen-intervention-puts-bit-7c1561a5",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T10:40:56.687Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "US yen intervention puts Bitcoin, risk assets on notice for liquidity flux",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/us-yen-intervention-puts-bitcoin-risk-assets-on-notice-for-liquidity-flux?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-apple-briefly-removes-telegr-2c2b8a78",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T10:40:56.687Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Apple briefly removes Telegram from App Store, Gram rebounds",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/apple-telegram-app-store-gram-rebounds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-five-convicted-of-imprisonin-d6f15b42",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T10:40:56.687Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Five Convicted of Imprisoning Crypto Millionaires in London 'Torture' Ordeal",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374889/five-convicted-of-imprisoning-crypto-millionaires-in-london-torture-ordeal",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -6458,8 +6588,8 @@
     },
     {
       "id": "ang-watch-wrappers-etf",
-      "at": "2026-08-03T20:19:48.426Z",
-      "thesis": "Watcher cluster [wrappers-etf]: 10 related receipts in ~7d across capital-flows, regulation, cex-tradfi, stables-payments.",
+      "at": "2026-08-04T10:40:56.687Z",
+      "thesis": "Watcher cluster [wrappers-etf]: 9 related receipts in ~7d across capital-flows, regulation, cex-tradfi, stables-payments.",
       "voiceHook": "Pattern forming: wrappers etf.",
       "signalIds": [
         "sig-20260728-ms-eth-sol-etp",
@@ -6478,7 +6608,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for wrappers-etf: dates + sources",
-      "expiresAt": "2026-08-07T20:19:48.426Z",
+      "expiresAt": "2026-08-08T10:40:56.687Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -6744,18 +6874,25 @@
     },
     {
       "date": "2026-08-04",
-      "at": "2026-08-04T08:00:01.094Z",
-      "note": "Watcher: +6 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-04T10:40:56.687Z",
+      "note": "Watcher: +9 signals, spikes=0, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260804-bhutan-s-gmc-puts-part-of-it-983b9cb2",
-        "sig-20260804-xrp-holders-can-now-borrow-r-2eba4e07",
-        "sig-20260804-a-new-solana-proposal-aims-t-bfa29782",
-        "sig-20260804-ny-judge-denies-cftc-motion--e3bc16ac",
-        "sig-20260804-nigeria-sets-crypto-tax-coll-64be79f5",
-        "sig-20260804-crypto-firms-still-seeking-f-af65e1fb"
+        "sig-20260804-blackrock-debuts-tokenized-a-ca4ce91a",
+        "sig-20260804-first-u-s-spot-bitcoin-etf-t-6d6615a5",
+        "sig-20260804-live-updates-bitcoin-at-63-6-d41b574e",
+        "sig-20260804-why-jim-cramer-s-quantum-pan-ae4b0c3d",
+        "sig-20260804-former-fbi-supervisor-admits-f4fb157e",
+        "sig-20260804-strategy-s-strc-retakes-90-a-7a80e485",
+        "sig-20260804-us-yen-intervention-puts-bit-7c1561a5",
+        "sig-20260804-apple-briefly-removes-telegr-2c2b8a78",
+        "sig-20260804-five-convicted-of-imprisonin-d6f15b42"
       ],
-      "angleIdsTouched": [],
-      "noteworthyIds": []
+      "angleIdsTouched": [
+        "ang-watch-wrappers-etf"
+      ],
+      "noteworthyIds": [
+        "ang-watch-wrappers-etf"
+      ]
     }
   ]
 }
