@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T17:10:11.948Z",
+  "updatedAt": "2026-08-04T19:01:31.074Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -6769,6 +6769,92 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260804-open-usd-rattled-circle-s-st-ff8d012a",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T19:01:31.074Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Open USD rattled Circle's stock, but its key backers still support USDC",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/03/open-usd-rattled-circle-s-stock-but-its-key-backers-still-support-usdc",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-samsung-is-poised-to-become--5e856d04",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T19:01:31.074Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Samsung is poised to become a dominant stablecoin distributor, analysts say",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/04/samsung-is-poised-to-become-a-dominant-stablecoin-distributor-analysts-say",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-western-union-and-rain-launc-2d638ba7",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T19:01:31.074Z",
+      "lane": "stables-payments",
+      "kind": "shipping",
+      "what": "Western Union and Rain Launch Stablecoin Card in 37 Markets",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/converge/tradfi-and-fintech/western-union-and-rain-launch-stablecoin-card-in-37-markets",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-bny-to-offer-institutional-c-88b51a29",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T19:01:31.074Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "BNY to offer institutional crypto staking through Galaxy partnership",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/bny-galaxy-institutional-crypto-staking-custody?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-solana-proposal-would-increa-a06fb2bf",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T19:01:31.074Z",
+      "lane": "l1-l2",
+      "kind": "narrative",
+      "what": "Solana Proposal Would Increase Daily SOL Burns More Than 10-Fold",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374915/solana-proposal-increase-daily-sol-burns-10-fold",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-alibaba-just-gave-away-its-b-ad61f80e",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T19:01:31.074Z",
+      "lane": "ai-crypto",
+      "kind": "narrative",
+      "what": "Alibaba Just Gave Away Its Best AI Model For Free, Almost Matching Claude and ChatGPT",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374906/alibaba-best-ai-model-qwen-free-claude-chatgpt",
+      "status": "open",
+      "tags": [
+        "stables-ai"
+      ],
+      "watcher": true
     }
   ],
   "angles": [
@@ -7096,8 +7182,8 @@
     },
     {
       "id": "ang-watch-stables-ai",
-      "at": "2026-08-03T21:35:42.205Z",
-      "thesis": "Watcher cluster [stables-ai]: 6 related receipts in ~7d across ai-crypto, incentives-campaigns.",
+      "at": "2026-08-04T19:01:31.074Z",
+      "thesis": "Watcher cluster [stables-ai]: 7 related receipts in ~7d across ai-crypto, incentives-campaigns.",
       "voiceHook": "Pattern forming: stables ai.",
       "signalIds": [
         "sig-20260730-lightning-labs-launches-site-1b7eea1f",
@@ -7105,7 +7191,8 @@
         "sig-20260729-moonpay-s-paybox-puts-a-cryp-fc2f230b",
         "sig-20260729-moonpay-paybox-x",
         "sig-20260731-claude-hacked-three-companie-5ddbc8ce",
-        "sig-20260803-former-fbi-agent-charged-wit-8ea885d1"
+        "sig-20260803-former-fbi-agent-charged-wit-8ea885d1",
+        "sig-20260804-alibaba-just-gave-away-its-b-ad61f80e"
       ],
       "lanes": [
         "ai-crypto",
@@ -7114,7 +7201,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for stables-ai: dates + sources",
-      "expiresAt": "2026-08-07T21:35:42.205Z",
+      "expiresAt": "2026-08-08T19:01:31.074Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -7306,28 +7393,21 @@
     },
     {
       "date": "2026-08-04",
-      "at": "2026-08-04T17:10:11.948Z",
-      "note": "Watcher: +10 signals, spikes=1, patternPings=2.",
+      "at": "2026-08-04T19:01:31.074Z",
+      "note": "Watcher: +6 signals, spikes=0, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260804-hashdex-to-shut-down-bitcoin-9fca23be",
-        "sig-20260804-clarity-act-sits-idle-over-t-c92362e2",
-        "sig-20260804-wells-fargo-joins-jpmorgan-a-bc4e7164",
-        "sig-20260804-new-ethereum-proposal-would--d0b37ffe",
-        "sig-20260804-wells-fargo-to-launch-tokeni-c546d34b",
-        "sig-20260804-bitgo-names-chainlink-ccip-e-fabf87ca",
-        "sig-20260804-bitmine-buys-10-399-more-eth-e8953601",
-        "sig-20260804-fake-world-assets-boosts-buy-8e2507db",
-        "sig-20260804-bitcoin-coils-at-64k-as-horm-cc5d0304",
-        "sig-20260804-bitdeer-expands-ai-infrastru-8f30563f"
+        "sig-20260804-open-usd-rattled-circle-s-st-ff8d012a",
+        "sig-20260804-samsung-is-poised-to-become--5e856d04",
+        "sig-20260804-western-union-and-rain-launc-2d638ba7",
+        "sig-20260804-bny-to-offer-institutional-c-88b51a29",
+        "sig-20260804-solana-proposal-would-increa-a06fb2bf",
+        "sig-20260804-alibaba-just-gave-away-its-b-ad61f80e"
       ],
       "angleIdsTouched": [
-        "ang-watch-clarity-policy",
-        "ang-watch-wrappers-etf"
+        "ang-watch-stables-ai"
       ],
       "noteworthyIds": [
-        "sig-20260804-hashdex-to-shut-down-bitcoin-9fca23be",
-        "ang-watch-clarity-policy",
-        "ang-watch-wrappers-etf"
+        "ang-watch-stables-ai"
       ]
     }
   ]
