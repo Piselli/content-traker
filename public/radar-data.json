@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T05:28:05.007Z",
+  "updatedAt": "2026-08-04T08:00:01.094Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -5478,7 +5478,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/03/bitmine-bought-more-ether-added-to-stock-buyback-last-week",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5492,7 +5492,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/03/strategy-sold-another-usd105-million-of-bitcoin-last-week-repurchased-usd81-2-million-of-strc",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5506,7 +5506,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/policy/2026/08/03/bitget-set-to-exit-japan-close-all-remaining-positions-by-year-end",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5520,7 +5520,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/magazine/how-fake-world-assets-and-online-gacha-became-cryptos-latest-craze?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5534,7 +5534,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/strategy-sells-bitcoin-dividend-strc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -5548,7 +5548,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/bithumb-ipo-timetable-internal-controls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -6123,6 +6123,90 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260804-bhutan-s-gmc-puts-part-of-it-983b9cb2",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T08:00:01.094Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "Bhutan's GMC puts part of its bitcoin treasury to work after 10,000 BTC pledge",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/04/bhutan-s-gmc-puts-part-of-its-bitcoin-treasury-to-work-after-10-000-btc-pledge",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-xrp-holders-can-now-borrow-r-2eba4e07",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T08:00:01.094Z",
+      "lane": "l1-l2",
+      "kind": "narrative",
+      "what": "XRP holders can now borrow RLUSD on Ethereum through $280 million lending pool",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/04/flare-s-wrapped-xrp-wins-approval-in-a-usd280-million-rlusd-lending-vault",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-a-new-solana-proposal-aims-t-bfa29782",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T08:00:01.094Z",
+      "lane": "l1-l2",
+      "kind": "narrative",
+      "what": "A new Solana proposal aims to ramp up daily SOL Burns from $47,000 to $650,000",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/tech/2026/08/04/a-new-solana-proposal-would-take-daily-sol-burns-from-usd47-000-to-usd650-000",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-ny-judge-denies-cftc-motion--e3bc16ac",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T08:00:01.094Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "NY judge denies CFTC motion to halt enforcement action against Kalshi",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/ny-judge-denies-cftc-motion-enforcement-kalshi?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-nigeria-sets-crypto-tax-coll-64be79f5",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T08:00:01.094Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Nigeria sets crypto tax collection rules for digital asset platforms",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/nigeria-crypto-tax-rules-digital-asset-platforms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-crypto-firms-still-seeking-f-af65e1fb",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T08:00:01.094Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Crypto firms still seeking frontier AI access; only select few have it",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/few-crypto-firms-have-access-to-frontier-ai-as-cyber-threats-escalate?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -6660,15 +6744,15 @@
     },
     {
       "date": "2026-08-04",
-      "at": "2026-08-04T05:28:05.007Z",
+      "at": "2026-08-04T08:00:01.094Z",
       "note": "Watcher: +6 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260804-bitcoin-nears-64-000-as-trad-b2d9a6a5",
-        "sig-20260804-a-bitcoin-wallet-dormant-sin-55b75136",
-        "sig-20260804-coldcard-bitcoin-theft-tops--bc48617a",
-        "sig-20260804-bitmine-adds-19-6m-in-eth-re-5aa5baf9",
-        "sig-20260804-mastercard-completes-1-8b-bv-eb97cc82",
-        "sig-20260804-malaysia-blockchain-week-s-o-274e55e6"
+        "sig-20260804-bhutan-s-gmc-puts-part-of-it-983b9cb2",
+        "sig-20260804-xrp-holders-can-now-borrow-r-2eba4e07",
+        "sig-20260804-a-new-solana-proposal-aims-t-bfa29782",
+        "sig-20260804-ny-judge-denies-cftc-motion--e3bc16ac",
+        "sig-20260804-nigeria-sets-crypto-tax-coll-64be79f5",
+        "sig-20260804-crypto-firms-still-seeking-f-af65e1fb"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
