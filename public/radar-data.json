@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T15:15:07.831Z",
+  "updatedAt": "2026-08-04T17:10:11.948Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -6625,6 +6625,150 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260804-hashdex-to-shut-down-bitcoin-9fca23be",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T17:10:11.948Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "Hashdex to Shut Down Bitcoin ETF After Struggling to Gain Assets",
+      "why": "Watcher spike: strong failure/shipping/capital headline — check for take.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374903/hashdex-shut-down-bitcoin-etf",
+      "status": "expired",
+      "tags": [
+        "wrappers-etf"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-clarity-act-sits-idle-over-t-c92362e2",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T17:10:11.948Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "Clarity Act sits idle over Trump ethics question as Warren asks SEC to investigate him",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/policy/2026/08/04/clarity-act-sits-idle-over-trump-ethics-question-as-warren-asks-sec-to-investigate-him",
+      "status": "expired",
+      "tags": [
+        "clarity-policy"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-wells-fargo-joins-jpmorgan-a-bc4e7164",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T17:10:11.948Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Wells Fargo joins JPMorgan and Citi in the race to tokenize Wall Street’s settlement rails",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/04/wells-fargo-to-offer-tokenized-deposits-for-24-7-corporate-payments",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-new-ethereum-proposal-would--d0b37ffe",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T17:10:11.948Z",
+      "lane": "incentives-campaigns",
+      "kind": "campaign",
+      "what": "New Ethereum Proposal Would Burn Validator Rewards to Kill the Incentive to Stake More",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/blockchains/eip-8361-tapered-issuance-burn-ethereum-staking-yield",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-wells-fargo-to-launch-tokeni-c546d34b",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T17:10:11.948Z",
+      "lane": "narrative-rotation",
+      "kind": "shipping",
+      "what": "Wells Fargo to Launch Tokenized Deposits for Corporate Clients This Fall",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/converge/tradfi-and-fintech/wells-fargo-tokenized-deposits-corporate-clients-fall-2026",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-bitgo-names-chainlink-ccip-e-fabf87ca",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T17:10:11.948Z",
+      "lane": "bridges-liquidity",
+      "kind": "narrative",
+      "what": "BitGo Names Chainlink CCIP Exclusive Cross-Chain Provider for $7.7 Billion WBTC",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/infrastructure/bitgo-chainlink-ccip-exclusive-cross-chain-provider-wbtc",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-bitmine-buys-10-399-more-eth-e8953601",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T17:10:11.948Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "BitMine Buys 10,399 More ETH but Reported Holdings Fall to $11.3B",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/tradfi-and-fintech/bitmine-buys-10-399-more-eth-but-reported-holdings-fall-to-11-3b",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-fake-world-assets-boosts-buy-8e2507db",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T17:10:11.948Z",
+      "lane": "narrative-rotation",
+      "kind": "metric",
+      "what": "Fake World Assets Boosts Buybacks to 80% of Fees After Token Crashes to Record Low",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/nfts-and-web3/fake-world-assets-boosts-buybacks-to-80-of-fees-after-token-crashes-to-record-low",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-bitcoin-coils-at-64k-as-horm-cc5d0304",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T17:10:11.948Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin coils at $64K as Hormuz reopening timeline sends S&P 500 to $70T record",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/bitcoin-coils-as-hormuz-reopening-time-line-sends-sp-500-to-new-record-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260804-bitdeer-expands-ai-infrastru-8f30563f",
+      "at": "2026-08-04",
+      "scannedAt": "2026-08-04T17:10:11.948Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitdeer expands AI infrastructure with long-term $4.7B data center lease",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/bitdeer-ai-data-center-lease-norway?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -6876,8 +7020,8 @@
     },
     {
       "id": "ang-watch-wrappers-etf",
-      "at": "2026-08-04T15:15:07.831Z",
-      "thesis": "Watcher cluster [wrappers-etf]: 10 related receipts in ~7d across capital-flows, regulation, cex-tradfi.",
+      "at": "2026-08-04T17:10:11.948Z",
+      "thesis": "Watcher cluster [wrappers-etf]: 11 related receipts in ~7d across capital-flows, regulation, cex-tradfi.",
       "voiceHook": "Pattern forming: wrappers etf.",
       "signalIds": [
         "sig-20260728-ms-eth-sol-etp",
@@ -6896,15 +7040,15 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for wrappers-etf: dates + sources",
-      "expiresAt": "2026-08-08T15:15:07.831Z",
+      "expiresAt": "2026-08-08T17:10:11.948Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
     },
     {
       "id": "ang-watch-clarity-policy",
-      "at": "2026-08-04T15:15:07.831Z",
-      "thesis": "Watcher cluster [clarity-policy]: 7 related receipts in ~7d across regulation.",
+      "at": "2026-08-04T17:10:11.948Z",
+      "thesis": "Watcher cluster [clarity-policy]: 8 related receipts in ~7d across regulation.",
       "voiceHook": "Pattern forming: clarity policy.",
       "signalIds": [
         "sig-20260728-clarity-shelved",
@@ -6922,7 +7066,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for clarity-policy: dates + sources",
-      "expiresAt": "2026-08-08T15:15:07.831Z",
+      "expiresAt": "2026-08-08T17:10:11.948Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -7162,24 +7306,26 @@
     },
     {
       "date": "2026-08-04",
-      "at": "2026-08-04T15:15:07.831Z",
-      "note": "Watcher: +9 signals, spikes=0, patternPings=2.",
+      "at": "2026-08-04T17:10:11.948Z",
+      "note": "Watcher: +10 signals, spikes=1, patternPings=2.",
       "signalIdsAdded": [
-        "sig-20260804-bitcoin-s-63-000-zone-emerge-157d4a91",
-        "sig-20260804-polymarket-targets-20-billio-b5fbe0c5",
-        "sig-20260804-intesa-sanpaolo-slashed-ibit-b715119f",
-        "sig-20260804-dinari-brings-tokenized-u-s--4114b455",
-        "sig-20260804-as-clarity-act-teeters-myste-9bb75558",
-        "sig-20260804-bitgo-s-wbtc-move-pushes-lay-5219ae35",
-        "sig-20260804-at-least-15-attackers-exploi-1ed8250c",
-        "sig-20260804-sorry-everyone-bitcoin-is-he-deacdf48",
-        "sig-20260804-apple-s-ai-slop-problem-left-629cce54"
+        "sig-20260804-hashdex-to-shut-down-bitcoin-9fca23be",
+        "sig-20260804-clarity-act-sits-idle-over-t-c92362e2",
+        "sig-20260804-wells-fargo-joins-jpmorgan-a-bc4e7164",
+        "sig-20260804-new-ethereum-proposal-would--d0b37ffe",
+        "sig-20260804-wells-fargo-to-launch-tokeni-c546d34b",
+        "sig-20260804-bitgo-names-chainlink-ccip-e-fabf87ca",
+        "sig-20260804-bitmine-buys-10-399-more-eth-e8953601",
+        "sig-20260804-fake-world-assets-boosts-buy-8e2507db",
+        "sig-20260804-bitcoin-coils-at-64k-as-horm-cc5d0304",
+        "sig-20260804-bitdeer-expands-ai-infrastru-8f30563f"
       ],
       "angleIdsTouched": [
         "ang-watch-clarity-policy",
         "ang-watch-wrappers-etf"
       ],
       "noteworthyIds": [
+        "sig-20260804-hashdex-to-shut-down-bitcoin-9fca23be",
         "ang-watch-clarity-policy",
         "ang-watch-wrappers-etf"
       ]
