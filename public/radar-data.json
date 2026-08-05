@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T06:17:45.094Z",
+  "updatedAt": "2026-08-05T09:15:53.940Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -6362,7 +6362,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/tech/2026/08/04/coldcard-urges-users-to-move-bitcoin-as-active-wallet-exploit-continues",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -6376,7 +6376,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/daybook-us/2026/08/04/the-bitcoin-market-has-plenty-of-reasons-to-freak-out-yet-calm-pervades",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -6390,7 +6390,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/policy/2026/08/04/south-african-lawmakers-propose-draft-rules-on-cross-border-crypto-transactions",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -6404,7 +6404,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/texas-electric-grid-moratorim-btc-miners-bernstein?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -6418,7 +6418,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/tether-gold-rise-q2-sharpest-quarterly-gold-correction?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -6432,7 +6432,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/intesa-sanpaolo-bank-staked-ether-etf-ibit-shares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "wrappers-etf"
       ],
@@ -6448,7 +6448,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/markets/jim-cramer-sell-bitcoin-quantum-fears-btc-rises?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -6462,7 +6462,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/374897/morning-minute-saylor-sells-bitcoin-again",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -6476,7 +6476,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/374894/blackrock-tokenizes-311b-of-european-money-market-funds-with-jp-morgans-kinexys",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "wrappers-etf"
       ],
@@ -6492,7 +6492,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/374891/hardware-wallet-firms-warn-of-phishing-surge-as-coldcard-losses-near-130m",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -7081,6 +7081,146 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260805-why-bitcoin-s-500-day-rule-f-43846200",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T09:15:53.940Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Why bitcoin’s ‘500-day rule’ faces its biggest test yet",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/05/why-bitcoin-s-500-day-rule-faces-its-biggest-test-yet",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-live-updates-an-ai-credit-bu-6085d0a2",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T09:15:53.940Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Live updates: An AI credit bubble could set up bitcoin’s path to $1 million",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/05/live-updates-an-ai-credit-bubble-could-set-up-bitcoin-s-path-to-usd1-million",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-the-worst-chart-for-bitcoin--76981634",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T09:15:53.940Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "The worst chart for bitcoin bulls right now",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/05/the-worst-chart-for-bitcoin-bulls-right-now",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-forgd-brings-its-crypto-mark-9149ab2e",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T09:15:53.940Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Forgd brings its crypto market-maker leaderboard to DefiLlama",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/forgd-market-maker-leaderboard-defillama?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-boerse-stuttgart-digital-tra-5db87bc6",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T09:15:53.940Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Boerse Stuttgart Digital, Tradias close European crypto merger",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/boerse-stuttgart-digital-tradias-european-crypto-merger?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-mica-list-expands-with-12-co-d06dea55",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T09:15:53.940Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "MiCA list expands with 12 companies in fourth post-deadline update",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/mica-register-casps-fourth-post-deadline-update?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-taiwan-plans-travel-rule-for-390db94d",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T09:15:53.940Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Taiwan plans Travel Rule for domestic crypto transfers from October",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/taiwan-crypto-travel-rule-domestic-vasp-transfers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-missouri-trio-charged-over-a-fb08ed2b",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T09:15:53.940Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Missouri trio charged over alleged Bitcoin kidnapping plot",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/three-missouri-men-charged-bitcoin-kidnapping?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-cloudflare-introduces-wallet-915fdcef",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T09:15:53.940Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Cloudflare introduces wallets for AI agents, plans stablecoin payments",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/cloudflare-wallets-ai-agents-stablecoin-payments-plan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-ai-credit-bubble-could-fuel--ff4f31de",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T09:15:53.940Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "AI credit bubble could fuel Bitcoin ‘crack-up boom’ past $1M: Hayes",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/arthur-hayes-ai-credit-crisis-bitcoin-1-million?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -7635,14 +7775,19 @@
     },
     {
       "date": "2026-08-05",
-      "at": "2026-08-05T06:17:45.094Z",
-      "note": "Watcher: +5 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-05T09:15:53.940Z",
+      "note": "Watcher: +10 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260805-new-ethereum-proposal-would--874d0099",
-        "sig-20260805-you-stole-please-return-some-b3488518",
-        "sig-20260805-bitcoin-flat-at-64-000-as-st-f1ad5473",
-        "sig-20260805-clarity-or-not-crypto-isn-t--be9afa8d",
-        "sig-20260805-bybit-s-eu-payments-arm-secu-bb413195"
+        "sig-20260805-why-bitcoin-s-500-day-rule-f-43846200",
+        "sig-20260805-live-updates-an-ai-credit-bu-6085d0a2",
+        "sig-20260805-the-worst-chart-for-bitcoin--76981634",
+        "sig-20260805-forgd-brings-its-crypto-mark-9149ab2e",
+        "sig-20260805-boerse-stuttgart-digital-tra-5db87bc6",
+        "sig-20260805-mica-list-expands-with-12-co-d06dea55",
+        "sig-20260805-taiwan-plans-travel-rule-for-390db94d",
+        "sig-20260805-missouri-trio-charged-over-a-fb08ed2b",
+        "sig-20260805-cloudflare-introduces-wallet-915fdcef",
+        "sig-20260805-ai-credit-bubble-could-fuel--ff4f31de"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
