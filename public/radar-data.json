@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T20:25:37.867Z",
+  "updatedAt": "2026-08-05T21:40:48.113Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -7919,6 +7919,50 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260805-senator-warren-questions-us--c5610c7f",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T21:40:48.113Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Senator Warren questions US AI chip policy after Trump crypto investment: Report",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/senator-warren-us-policy-uae-ai-chips-trump-crypto-investment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-meta-debuts-ai-coding-agent--6b48fd78",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T21:40:48.113Z",
+      "lane": "ai-crypto",
+      "kind": "narrative",
+      "what": "Meta Debuts AI Coding Agent Muse: Here’s How It Compares to Claude Code and Codex",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375001/muse-code-meta-ai-coding-agent-claude-codex",
+      "status": "expired",
+      "tags": [
+        "stables-ai"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-cloudflare-os-here-s-what-s--8ba7025b",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T21:40:48.113Z",
+      "lane": "ai-crypto",
+      "kind": "narrative",
+      "what": "Cloudflare OS: Here’s What’s Inside the Open-Source AI Agent Platform",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374997/cloudflare-os-inside-open-source-ai-agent-platform",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -8246,8 +8290,8 @@
     },
     {
       "id": "ang-watch-stables-ai",
-      "at": "2026-08-05T13:38:42.859Z",
-      "thesis": "Watcher cluster [stables-ai]: 9 related receipts in ~7d across ai-crypto, incentives-campaigns.",
+      "at": "2026-08-05T21:40:48.113Z",
+      "thesis": "Watcher cluster [stables-ai]: 10 related receipts in ~7d across ai-crypto, incentives-campaigns.",
       "voiceHook": "Pattern forming: stables ai.",
       "signalIds": [
         "sig-20260730-lightning-labs-launches-site-1b7eea1f",
@@ -8266,7 +8310,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for stables-ai: dates + sources",
-      "expiresAt": "2026-08-09T13:38:42.859Z",
+      "expiresAt": "2026-08-09T21:40:48.113Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -8473,22 +8517,18 @@
     },
     {
       "date": "2026-08-05",
-      "at": "2026-08-05T20:25:37.867Z",
-      "note": "Watcher: +7 signals, spikes=0, patternPings=1.",
+      "at": "2026-08-05T21:40:48.113Z",
+      "note": "Watcher: +3 signals, spikes=0, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260805-aave-and-ether-fi-founders-l-3b20339c",
-        "sig-20260805-traders-push-clarity-act-odd-bf3adcce",
-        "sig-20260805-senator-lummis-still-pushing-62589160",
-        "sig-20260805-marex-invests-in-digital-pri-2c23ec8d",
-        "sig-20260805-perplexity-wins-appeal-again-871e06a3",
-        "sig-20260805-visa-widens-stablecoin-payou-52e375b5",
-        "sig-20260805-openai-and-anthropic-s-rogue-3c46fb3c"
+        "sig-20260805-senator-warren-questions-us--c5610c7f",
+        "sig-20260805-meta-debuts-ai-coding-agent--6b48fd78",
+        "sig-20260805-cloudflare-os-here-s-what-s--8ba7025b"
       ],
       "angleIdsTouched": [
-        "ang-watch-clarity-policy"
+        "ang-watch-stables-ai"
       ],
       "noteworthyIds": [
-        "ang-watch-clarity-policy"
+        "ang-watch-stables-ai"
       ]
     }
   ]
