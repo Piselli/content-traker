@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T18:59:01.192Z",
+  "updatedAt": "2026-08-05T20:25:37.867Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -7819,6 +7819,106 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260805-aave-and-ether-fi-founders-l-3b20339c",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T20:25:37.867Z",
+      "lane": "l1-l2",
+      "kind": "narrative",
+      "what": "Aave And ether.fi Founders Lead Opposition To Ethereum's Staking Yield Burn",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/blockchains/eip-8363-staking-issuance-burn-reaction-kulechov-silagadze",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-traders-push-clarity-act-odd-bf3adcce",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T20:25:37.867Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "Traders Push CLARITY Act Odds Into 2027 After Thune Skips Cloture Filing",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/regulation/traders-push-clarity-act-odds-into-2027-after-thune-skips-cloture-filing",
+      "status": "expired",
+      "tags": [
+        "clarity-policy"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-senator-lummis-still-pushing-62589160",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T20:25:37.867Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "Senator Lummis still pushing for CLARITY vote before August recess",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/senator-lummis-clarity-vote-movement-calendar?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-marex-invests-in-digital-pri-2c23ec8d",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T20:25:37.867Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Marex invests in Digital Prime to expand institutional crypto lending",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/marex-digital-prime-tokenet-institutional-crypto-lending?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-perplexity-wins-appeal-again-871e06a3",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T20:25:37.867Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "Perplexity Wins Appeal Against Amazon in AI Agent Shopping Lawsuit",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374996/perplexity-amazon-ai-agent-lawsuit",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-visa-widens-stablecoin-payou-52e375b5",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T20:25:37.867Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Visa Widens Stablecoin Payouts via Zerohash Rails",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374994/visa-stablecoin-payouts-zerohash",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-openai-and-anthropic-s-rogue-3c46fb3c",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T20:25:37.867Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "OpenAI and Anthropic's Rogue Models Hacked Real Companies. The Law Has No Answer",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374991/openai-anthropic-rogue-ai-models-hacked-law",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -8097,8 +8197,8 @@
     },
     {
       "id": "ang-watch-clarity-policy",
-      "at": "2026-08-04T17:10:11.948Z",
-      "thesis": "Watcher cluster [clarity-policy]: 8 related receipts in ~7d across regulation.",
+      "at": "2026-08-05T20:25:37.867Z",
+      "thesis": "Watcher cluster [clarity-policy]: 3 related receipts in ~7d across regulation.",
       "voiceHook": "Pattern forming: clarity policy.",
       "signalIds": [
         "sig-20260728-clarity-shelved",
@@ -8116,7 +8216,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for clarity-policy: dates + sources",
-      "expiresAt": "2026-08-08T17:10:11.948Z",
+      "expiresAt": "2026-08-09T20:25:37.867Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -8373,20 +8473,22 @@
     },
     {
       "date": "2026-08-05",
-      "at": "2026-08-05T18:59:01.192Z",
-      "note": "Watcher: +5 signals, spikes=0, patternPings=1.",
+      "at": "2026-08-05T20:25:37.867Z",
+      "note": "Watcher: +7 signals, spikes=0, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260805-crypto-s-campaign-efforts-se-6efe8fd1",
-        "sig-20260805-dinari-opens-724-tokenized-u-051d25a1",
-        "sig-20260805-circle-names-blackrock-visa--d63a1379",
-        "sig-20260805-feds-say-an-nft-founder-rais-d92d3551",
-        "sig-20260805-bitcoin-tests-market-s-patie-42584889"
+        "sig-20260805-aave-and-ether-fi-founders-l-3b20339c",
+        "sig-20260805-traders-push-clarity-act-odd-bf3adcce",
+        "sig-20260805-senator-lummis-still-pushing-62589160",
+        "sig-20260805-marex-invests-in-digital-pri-2c23ec8d",
+        "sig-20260805-perplexity-wins-appeal-again-871e06a3",
+        "sig-20260805-visa-widens-stablecoin-payou-52e375b5",
+        "sig-20260805-openai-and-anthropic-s-rogue-3c46fb3c"
       ],
       "angleIdsTouched": [
-        "ang-watch-wrappers-etf"
+        "ang-watch-clarity-policy"
       ],
       "noteworthyIds": [
-        "ang-watch-wrappers-etf"
+        "ang-watch-clarity-policy"
       ]
     }
   ]
