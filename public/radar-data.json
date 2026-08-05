@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T00:55:42.813Z",
+  "updatedAt": "2026-08-05T03:52:18.944Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -6580,7 +6580,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/04/bitgo-s-wbtc-move-pushes-layerzero-to-chainlink-tally-near-usd15-billion",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -6996,6 +6996,20 @@
       "tags": [
         "stables-ai"
       ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-ethereum-researchers-want-to-32b25adb",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T03:52:18.944Z",
+      "lane": "l1-l2",
+      "kind": "narrative",
+      "what": "Ethereum researchers want to rein in staking, critics say it could backfire",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/ethereum-researchers-want-to-rein-in-staking-critics-say-it-could-backfire?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
       "watcher": true
     }
   ],
@@ -7551,9 +7565,11 @@
     },
     {
       "date": "2026-08-05",
-      "at": "2026-08-05T00:55:42.813Z",
-      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [],
+      "at": "2026-08-05T03:52:18.944Z",
+      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [
+        "sig-20260805-ethereum-researchers-want-to-32b25adb"
+      ],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
