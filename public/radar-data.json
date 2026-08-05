@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T11:34:33.262Z",
+  "updatedAt": "2026-08-05T13:38:42.859Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -6036,7 +6036,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/boltz-pauses-service-after-wave-of-ai-assisted-hacking-attempts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -6050,7 +6050,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/04/bitcoin-nears-usd64-000-as-traders-look-past-the-fourth-coldcard-sweep",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -6064,7 +6064,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/04/a-bitcoin-wallet-dormant-since-2013-moved-usd31-million-and-it-s-not-the-only-one",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -6078,7 +6078,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/coldcard-bitcoin-theft-100-million-three-waves?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -6092,7 +6092,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/bitmine-buys-10399-eth-repurchases-4-5-million-shares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -6106,7 +6106,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/mastercard-completes-bvnk-acquisition-stablecoin-push?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -6120,7 +6120,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/magazine/hong-kong-lonely-heart-scammed-out-of-33m-in-crypto-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -6134,7 +6134,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/04/bhutan-s-gmc-puts-part-of-its-bitcoin-treasury-to-work-after-10-000-btc-pledge",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -6148,7 +6148,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/04/flare-s-wrapped-xrp-wins-approval-in-a-usd280-million-rlusd-lending-vault",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -6162,7 +6162,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/tech/2026/08/04/a-new-solana-proposal-would-take-daily-sol-burns-from-usd47-000-to-usd650-000",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -6176,7 +6176,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/ny-judge-denies-cftc-motion-enforcement-kalshi?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -6190,7 +6190,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/nigeria-crypto-tax-rules-digital-asset-platforms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -6204,7 +6204,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/few-crypto-firms-have-access-to-frontier-ai-as-cyber-threats-escalate?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -7365,6 +7365,190 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260805-nomura-s-laser-digital-backs-9435d69c",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T13:38:42.859Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Nomura’s Laser Digital backs ZIGChain for onchain private credit push in UAE",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/05/noumura-s-laser-digital-backs-zigchain-for-onchain-private-credit-push-in-uae",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-crypto-may-have-institutiona-3cc7ec29",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T13:38:42.859Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Crypto may have institutionalized, but it still trades like a rumor mill",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/opinion/2026/08/05/crypto-may-have-institutionalized-but-it-still-trades-like-a-rumor-mill",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-galaxy-digital-shares-slip-5-ab13cfe4",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T13:38:42.859Z",
+      "lane": "narrative-rotation",
+      "kind": "metric",
+      "what": "Galaxy Digital shares slip 5% after second-quarter results",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/05/galaxy-digital-shares-slip-5-after-second-quarter-results",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-ai-agent-token-once-worth-2--ff266468",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T13:38:42.859Z",
+      "lane": "ai-crypto",
+      "kind": "narrative",
+      "what": "AI agent token once worth $2.4 billion ends with founder calling it dead",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/05/ai-agent-token-once-worth-usd2-4-billion-ends-with-founder-calling-it-dead",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-spacex-extends-decline-to-11-75d3f947",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T13:38:42.859Z",
+      "lane": "narrative-rotation",
+      "kind": "metric",
+      "what": "SpaceX extends decline to 11% on lockup expiration and capex spending fears",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/05/spacex-stock-drops-11-premarket-as-lockup-spending-fears-hit-first-earnings",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-yellow-card-raises-40-millio-4081e61e",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T13:38:42.859Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Yellow Card raises $40 million to link banks to stablecoin processing",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/05/yellow-card-raises-usd40-million-to-link-banks-to-stablecoin-processing",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-do-the-coldcard-attacks-mean-92fe1423",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T13:38:42.859Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Do the Coldcard attacks mean all hardware wallets are now insecure?",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/magazine/does-the-coldcard-attack-mean-all-hardware-wallets-are-now-insecure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-galaxy-reports-85m-net-loss--90bc8687",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T13:38:42.859Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Galaxy reports $85M net loss amid Q2 crypto market slump",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/galaxy-85m-loss-q2-crypto-market-slump?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-mastercard-borderless-test-s-1740c81c",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T13:38:42.859Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Mastercard, Borderless test shared identity checks for stablecoin transfers",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/mastercard-borderless-test-identity-checks-stablecoin-transfers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-binance-sues-redotpay-over-a-4431a9db",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T13:38:42.859Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "Binance sues RedotPay over alleged $473 million user losses: Report",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/binance-redotpay-lawsuit-alleged-473-million-losses?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-circle-q2-revenue-falls-shor-82632e4c",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T13:38:42.859Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Circle Q2 revenue falls short of Wall Street estimates",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/circle-q2-revenue-misses-wall-street-estimates?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-anthropic-s-claude-mythos-5--24764c62",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T13:38:42.859Z",
+      "lane": "ai-crypto",
+      "kind": "narrative",
+      "what": "Anthropic's Claude Mythos 5 'Targeted Real People' in UK Cyber Tests: AISI",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374948/anthropics-claude-mythos-5-targeted-real-people-in-uk-cyber-tests-aisi",
+      "status": "open",
+      "tags": [
+        "stables-ai"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-morning-minute-jim-cramer-se-1ff68f12",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T13:38:42.859Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Morning Minute: Jim Cramer Sells His Bitcoin Over Quantum Fears",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374947/morning-minute-jim-cramer-sells-his-bitcoin-over-quantum-fears",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -7692,8 +7876,8 @@
     },
     {
       "id": "ang-watch-stables-ai",
-      "at": "2026-08-04T23:29:55.958Z",
-      "thesis": "Watcher cluster [stables-ai]: 8 related receipts in ~7d across ai-crypto, incentives-campaigns.",
+      "at": "2026-08-05T13:38:42.859Z",
+      "thesis": "Watcher cluster [stables-ai]: 9 related receipts in ~7d across ai-crypto, incentives-campaigns.",
       "voiceHook": "Pattern forming: stables ai.",
       "signalIds": [
         "sig-20260730-lightning-labs-launches-site-1b7eea1f",
@@ -7712,7 +7896,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for stables-ai: dates + sources",
-      "expiresAt": "2026-08-08T23:29:55.958Z",
+      "expiresAt": "2026-08-09T13:38:42.859Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -7919,26 +8103,28 @@
     },
     {
       "date": "2026-08-05",
-      "at": "2026-08-05T11:34:33.262Z",
-      "note": "Watcher: +10 signals, spikes=1, patternPings=1.",
+      "at": "2026-08-05T13:38:42.859Z",
+      "note": "Watcher: +13 signals, spikes=0, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260805-proof-of-play-to-shut-down-a-59db037c",
-        "sig-20260805-the-120-million-coldcard-hac-9c88acca",
-        "sig-20260805-circle-shares-jump-as-earnin-5b1f4e45",
-        "sig-20260805-bitcoin-broader-market-fail--77ac94b7",
-        "sig-20260805-coldcard-hack-sparks-a-self--be547cf6",
-        "sig-20260805-bitcoin-etfs-log-inflows-as--d9a36169",
-        "sig-20260805-s-p-gives-blackrock-tokenize-1892ba89",
-        "sig-20260805-blackrock-brings-tokenized-m-0a500105",
-        "sig-20260805-ethereum-proposal-would-burn-7aad08ee",
-        "sig-20260805-ex-lapd-officer-gets-life-pl-a42a995a"
+        "sig-20260805-nomura-s-laser-digital-backs-9435d69c",
+        "sig-20260805-crypto-may-have-institutiona-3cc7ec29",
+        "sig-20260805-galaxy-digital-shares-slip-5-ab13cfe4",
+        "sig-20260805-ai-agent-token-once-worth-2--ff266468",
+        "sig-20260805-spacex-extends-decline-to-11-75d3f947",
+        "sig-20260805-yellow-card-raises-40-millio-4081e61e",
+        "sig-20260805-do-the-coldcard-attacks-mean-92fe1423",
+        "sig-20260805-galaxy-reports-85m-net-loss--90bc8687",
+        "sig-20260805-mastercard-borderless-test-s-1740c81c",
+        "sig-20260805-binance-sues-redotpay-over-a-4431a9db",
+        "sig-20260805-circle-q2-revenue-falls-shor-82632e4c",
+        "sig-20260805-anthropic-s-claude-mythos-5--24764c62",
+        "sig-20260805-morning-minute-jim-cramer-se-1ff68f12"
       ],
       "angleIdsTouched": [
-        "ang-watch-wrappers-etf"
+        "ang-watch-stables-ai"
       ],
       "noteworthyIds": [
-        "sig-20260805-proof-of-play-to-shut-down-a-59db037c",
-        "ang-watch-wrappers-etf"
+        "ang-watch-stables-ai"
       ]
     }
   ]
