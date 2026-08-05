@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T09:15:53.940Z",
+  "updatedAt": "2026-08-05T11:34:33.262Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -6218,7 +6218,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/04/blackrock-debuts-tokenized-access-to-usd311-billion-of-money-market-funds-in-europe",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "wrappers-etf"
       ],
@@ -6234,7 +6234,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/04/first-u-s-spot-bitcoin-etf-to-close-as-inflows-dwindle-investors-chase-ai-returns",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "wrappers-etf"
       ],
@@ -6250,7 +6250,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/04/live-updates-bitcoin-at-usd63-600-as-rare-us-japan-yen-action-tests-carry-trade-fears",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -6264,7 +6264,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/04/why-jim-cramer-s-quantum-panic-isn-t-rattling-bitcoin-as-price-holds-steady-around-usd64-000",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -6278,7 +6278,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/former-fbi-supervisor-charged-1m-crypto-theft?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -6292,7 +6292,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/markets/strategy-strc-stock-above-90-june-recovery?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -6306,7 +6306,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/markets/us-yen-intervention-puts-bitcoin-risk-assets-on-notice-for-liquidity-flux?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -6320,7 +6320,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/apple-telegram-app-store-gram-rebounds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -6334,7 +6334,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/374889/five-convicted-of-imprisoning-crypto-millionaires-in-london-torture-ordeal",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -6348,7 +6348,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/04/bny-to-add-crypto-staking-to-digital-asset-custody-platform",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -7221,6 +7221,150 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260805-proof-of-play-to-shut-down-a-59db037c",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T11:34:33.262Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Proof of Play to shut down after blockchain gaming thesis falls short",
+      "why": "Watcher spike: strong failure/shipping/capital headline — check for take.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/proof-of-play-shut-blockchain-gaming-thesis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-the-120-million-coldcard-hac-9c88acca",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T11:34:33.262Z",
+      "lane": "failures-rugs",
+      "kind": "exploit",
+      "what": "The $120 million Coldcard hack lights up Bitcoin's memory pool",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/daybook-us/2026/08/05/the-usd120-million-coldcard-hack-lights-up-bitcoin-s-memory-pool",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-circle-shares-jump-as-earnin-5b1f4e45",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T11:34:33.262Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Circle shares jump as earnings beat offsets revenue miss, Arc blockchain gains Wall Street backing",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/05/circle-shares-jump-as-earnings-beat-offsets-revenue-miss-arc-blockchain-gains-wall-street-backing",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-bitcoin-broader-market-fail--77ac94b7",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T11:34:33.262Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin, broader market fail to keep pace as global equities hit record highs",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/05/bitcoin-broader-market-fail-to-keep-pace-as-global-equities-hit-record-highs",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-coldcard-hack-sparks-a-self--be547cf6",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T11:34:33.262Z",
+      "lane": "failures-rugs",
+      "kind": "exploit",
+      "what": "Coldcard hack sparks a self-custody security overhaul: Cory Klippsten",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/05/coldcard-hack-sparks-a-self-custody-security-overhaul-cory-klippsten",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-bitcoin-etfs-log-inflows-as--d9a36169",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T11:34:33.262Z",
+      "lane": "failures-rugs",
+      "kind": "exploit",
+      "what": "Bitcoin ETFs log inflows as cold wallet hack reignites custody debate",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/bitcoin-etfs-inflows-cold-wallet-hack-custody-debate?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-s-p-gives-blackrock-tokenize-1892ba89",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T11:34:33.262Z",
+      "lane": "cex-tradfi",
+      "kind": "narrative",
+      "what": "S&P gives BlackRock tokenized reserve fund top stability rating",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/sp-blackrock-tokenized-reserve-fund-stability?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [
+        "wrappers-etf"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-blackrock-brings-tokenized-m-0a500105",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T11:34:33.262Z",
+      "lane": "cex-tradfi",
+      "kind": "narrative",
+      "what": "BlackRock brings tokenized money market funds to Europe via JPMorgan",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/blackrock-jpmorgan-tokenized-money-market-funds-europe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [
+        "wrappers-etf"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-ethereum-proposal-would-burn-7aad08ee",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T11:34:33.262Z",
+      "lane": "l1-l2",
+      "kind": "narrative",
+      "what": "Ethereum Proposal Would Burn Staking Rewards to Zero if Half of ETH Is Staked",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374944/ethereum-proposal-would-burn-staking-rewards-to-zero-if-half-of-eth-is-staked",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-ex-lapd-officer-gets-life-pl-a42a995a",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T11:34:33.262Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Ex-LAPD Officer Gets Life Plus 15 Years Over $350K Bitcoin Robbery",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374941/ex-lapd-officer-gets-life-plus-15-years-over-350k-bitcoin-robbery",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -7472,8 +7616,8 @@
     },
     {
       "id": "ang-watch-wrappers-etf",
-      "at": "2026-08-04T17:10:11.948Z",
-      "thesis": "Watcher cluster [wrappers-etf]: 11 related receipts in ~7d across capital-flows, regulation, cex-tradfi.",
+      "at": "2026-08-05T11:34:33.262Z",
+      "thesis": "Watcher cluster [wrappers-etf]: 4 related receipts in ~7d across cex-tradfi, capital-flows.",
       "voiceHook": "Pattern forming: wrappers etf.",
       "signalIds": [
         "sig-20260728-ms-eth-sol-etp",
@@ -7492,7 +7636,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for wrappers-etf: dates + sources",
-      "expiresAt": "2026-08-08T17:10:11.948Z",
+      "expiresAt": "2026-08-09T11:34:33.262Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -7775,22 +7919,27 @@
     },
     {
       "date": "2026-08-05",
-      "at": "2026-08-05T09:15:53.940Z",
-      "note": "Watcher: +10 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-05T11:34:33.262Z",
+      "note": "Watcher: +10 signals, spikes=1, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260805-why-bitcoin-s-500-day-rule-f-43846200",
-        "sig-20260805-live-updates-an-ai-credit-bu-6085d0a2",
-        "sig-20260805-the-worst-chart-for-bitcoin--76981634",
-        "sig-20260805-forgd-brings-its-crypto-mark-9149ab2e",
-        "sig-20260805-boerse-stuttgart-digital-tra-5db87bc6",
-        "sig-20260805-mica-list-expands-with-12-co-d06dea55",
-        "sig-20260805-taiwan-plans-travel-rule-for-390db94d",
-        "sig-20260805-missouri-trio-charged-over-a-fb08ed2b",
-        "sig-20260805-cloudflare-introduces-wallet-915fdcef",
-        "sig-20260805-ai-credit-bubble-could-fuel--ff4f31de"
+        "sig-20260805-proof-of-play-to-shut-down-a-59db037c",
+        "sig-20260805-the-120-million-coldcard-hac-9c88acca",
+        "sig-20260805-circle-shares-jump-as-earnin-5b1f4e45",
+        "sig-20260805-bitcoin-broader-market-fail--77ac94b7",
+        "sig-20260805-coldcard-hack-sparks-a-self--be547cf6",
+        "sig-20260805-bitcoin-etfs-log-inflows-as--d9a36169",
+        "sig-20260805-s-p-gives-blackrock-tokenize-1892ba89",
+        "sig-20260805-blackrock-brings-tokenized-m-0a500105",
+        "sig-20260805-ethereum-proposal-would-burn-7aad08ee",
+        "sig-20260805-ex-lapd-officer-gets-life-pl-a42a995a"
       ],
-      "angleIdsTouched": [],
-      "noteworthyIds": []
+      "angleIdsTouched": [
+        "ang-watch-wrappers-etf"
+      ],
+      "noteworthyIds": [
+        "sig-20260805-proof-of-play-to-shut-down-a-59db037c",
+        "ang-watch-wrappers-etf"
+      ]
     }
   ]
 }
