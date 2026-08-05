@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T15:53:00.458Z",
+  "updatedAt": "2026-08-05T17:16:53.940Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -7691,6 +7691,62 @@
         "wrappers-etf"
       ],
       "watcher": true
+    },
+    {
+      "id": "sig-20260805-pirate-nation-studio-proof-o-8a59e53a",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T17:16:53.940Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Pirate Nation Studio Proof of Play Shuts Down, Open-Sources Code and Art",
+      "why": "Watcher spike: strong failure/shipping/capital headline — check for take.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/nfts-and-web3/pirate-nation-studio-proof-of-play-shuts-down-open-sources-code-and-art",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-nomura-s-laser-digital-backs-b0e6b980",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T17:16:53.940Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Nomura’s Laser Digital Backs ZIGChain’s Emerging-Market Private Credit Push",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/converge/defi/nomura-laser-digital-zigchain-private-credit",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-crypto-backed-michigan-house-88fab2eb",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T17:16:53.940Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Crypto-backed Michigan House incumbent loses primary despite $2M PAC support",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/michigan-house-rep-loses-primary-support-crypto-pac?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-western-union-brings-stablec-2a115e89",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T17:16:53.940Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Western Union brings stablecoin remittances to Visa network with Stablecard",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/western-union-stablecard-stablecoin-remittances-visa?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -8245,26 +8301,17 @@
     },
     {
       "date": "2026-08-05",
-      "at": "2026-08-05T15:53:00.458Z",
-      "note": "Watcher: +10 signals, spikes=1, patternPings=1.",
+      "at": "2026-08-05T17:16:53.940Z",
+      "note": "Watcher: +4 signals, spikes=1, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260805-eliza-founder-declares-ai-to-fffbba55",
-        "sig-20260805-coldcard-exploit-could-boost-9db5e5a3",
-        "sig-20260805-crypto-long-short-putting-th-87c3d841",
-        "sig-20260805-strategy-s-strc-rebounds-30--c4617e4d",
-        "sig-20260805-ondo-finance-hires-former-bl-971c0d67",
-        "sig-20260805-eliza-labs-shaw-walters-says-4c5bc05d",
-        "sig-20260805-mastercard-extends-crypto-cr-1f0fdcf1",
-        "sig-20260805-gold-hits-six-week-highs-on--4cde313a",
-        "sig-20260805-crypto-whales-accumulate-as--8dc35e44",
-        "sig-20260805-circle-taps-visa-mastercard--f5cef517"
+        "sig-20260805-pirate-nation-studio-proof-o-8a59e53a",
+        "sig-20260805-nomura-s-laser-digital-backs-b0e6b980",
+        "sig-20260805-crypto-backed-michigan-house-88fab2eb",
+        "sig-20260805-western-union-brings-stablec-2a115e89"
       ],
-      "angleIdsTouched": [
-        "ang-watch-wrappers-etf"
-      ],
+      "angleIdsTouched": [],
       "noteworthyIds": [
-        "sig-20260805-eliza-founder-declares-ai-to-fffbba55",
-        "ang-watch-wrappers-etf"
+        "sig-20260805-pirate-nation-studio-proof-o-8a59e53a"
       ]
     }
   ]
