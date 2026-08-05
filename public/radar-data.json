@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T17:16:53.940Z",
+  "updatedAt": "2026-08-05T18:59:01.192Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -7747,6 +7747,78 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260805-crypto-s-campaign-efforts-se-6efe8fd1",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T18:59:01.192Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Crypto's campaign efforts see rare loss, but crypto roster in Congress likely to grow",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/policy/2026/08/05/crypto-s-campaign-efforts-see-rare-loss-but-crypto-roster-in-congress-likely-to-grow",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-dinari-opens-724-tokenized-u-051d25a1",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T18:59:01.192Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Dinari Opens 724 Tokenized US Stocks to Eligible US Investors",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/tradfi-and-fintech/dinari-opens-724-tokenized-us-stocks-to-eligible-us-investors",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-circle-names-blackrock-visa--d63a1379",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T18:59:01.192Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Circle Names BlackRock, Visa, ICE and DTCC Among 11 Founding Arc Validators",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/converge/blockchains/circle-names-blackrock-visa-ice-and-dtcc-among-11-founding-arc-validators",
+      "status": "expired",
+      "tags": [
+        "wrappers-etf"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-feds-say-an-nft-founder-rais-d92d3551",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T18:59:01.192Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Feds Say an NFT Founder Raised $10 Million Only to Blow It All on Gambling, Trading, and a DJ Hobby",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374986/nft-founder-10-million-fraud-gambling-dj-hobby",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-bitcoin-tests-market-s-patie-42584889",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T18:59:01.192Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin Tests Market’s Patience as Zcash Gives Holders Hope: Analysis",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374975/bitcoin-price-test-zcash-holds-golden-cross",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -7998,7 +8070,7 @@
     },
     {
       "id": "ang-watch-wrappers-etf",
-      "at": "2026-08-05T15:53:00.458Z",
+      "at": "2026-08-05T18:59:01.192Z",
       "thesis": "Watcher cluster [wrappers-etf]: 3 related receipts in ~7d across cex-tradfi, stables-payments.",
       "voiceHook": "Pattern forming: wrappers etf.",
       "signalIds": [
@@ -8018,7 +8090,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for wrappers-etf: dates + sources",
-      "expiresAt": "2026-08-09T15:53:00.458Z",
+      "expiresAt": "2026-08-09T18:59:01.192Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -8301,17 +8373,20 @@
     },
     {
       "date": "2026-08-05",
-      "at": "2026-08-05T17:16:53.940Z",
-      "note": "Watcher: +4 signals, spikes=1, patternPings=0.",
+      "at": "2026-08-05T18:59:01.192Z",
+      "note": "Watcher: +5 signals, spikes=0, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260805-pirate-nation-studio-proof-o-8a59e53a",
-        "sig-20260805-nomura-s-laser-digital-backs-b0e6b980",
-        "sig-20260805-crypto-backed-michigan-house-88fab2eb",
-        "sig-20260805-western-union-brings-stablec-2a115e89"
+        "sig-20260805-crypto-s-campaign-efforts-se-6efe8fd1",
+        "sig-20260805-dinari-opens-724-tokenized-u-051d25a1",
+        "sig-20260805-circle-names-blackrock-visa--d63a1379",
+        "sig-20260805-feds-say-an-nft-founder-rais-d92d3551",
+        "sig-20260805-bitcoin-tests-market-s-patie-42584889"
       ],
-      "angleIdsTouched": [],
+      "angleIdsTouched": [
+        "ang-watch-wrappers-etf"
+      ],
       "noteworthyIds": [
-        "sig-20260805-pirate-nation-studio-proof-o-8a59e53a"
+        "ang-watch-wrappers-etf"
       ]
     }
   ]
