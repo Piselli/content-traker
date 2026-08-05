@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T13:38:42.859Z",
+  "updatedAt": "2026-08-05T15:53:00.458Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -6022,7 +6022,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/caleb-brown-expands-to-uk-betting-on-untapped-crypto-demand?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -7549,6 +7549,148 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260805-eliza-founder-declares-ai-to-fffbba55",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T15:53:00.458Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "Eliza Founder Declares AI Token 'Dead,' Shuts Down Foundation After Lawsuit Settlement",
+      "why": "Watcher spike: strong failure/shipping/capital headline — check for take.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374958/eliza-ai-token-dead-shuts-down-foundation-lawsuit",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-coldcard-exploit-could-boost-9db5e5a3",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T15:53:00.458Z",
+      "lane": "failures-rugs",
+      "kind": "exploit",
+      "what": "Coldcard exploit could boost demand for regulated bitcoin exposure, analysts say",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/tech/2026/08/05/coldcard-exploit-could-boost-demand-for-regulated-bitcoin-exposure-analysts-say",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-crypto-long-short-putting-th-87c3d841",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T15:53:00.458Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Crypto Long & Short: Putting the bitcoin sizing question to the test",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/08/05/crypto-long-and-short-putting-the-bitcoin-sizing-question-to-the-test",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-strategy-s-strc-rebounds-30--c4617e4d",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T15:53:00.458Z",
+      "lane": "narrative-rotation",
+      "kind": "metric",
+      "what": "Strategy’s STRC rebounds 30% as company builds cash reserve, bitcoin price stabilizes",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/05/strategy-s-strc-rebounds-30-as-company-builds-cash-reserve-bitcoin-price-stabilizes",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-ondo-finance-hires-former-bl-971c0d67",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T15:53:00.458Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Ondo Finance hires former Blockchain.com CFO Adam Schlisman",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/05/ondo-finance-hires-former-blockchain-com-cfo-adam-schlisman",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-eliza-labs-shaw-walters-says-4c5bc05d",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T15:53:00.458Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Eliza Labs' Shaw Walters Says ai16z Token Is 'Dead' After Settling Burwick Law Class Action",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/tokens/eliza-labs-shaw-walters-says-ai16z-token-is-dead-after-settling-burwick-law-class-action",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-mastercard-extends-crypto-cr-1f0fdcf1",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T15:53:00.458Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Mastercard Extends Crypto Credential to Cross-Border Stablecoin Payments in Borderless.xyz Pilot",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/converge/tradfi-and-fintech/mastercard-extends-crypto-credential-to-stablecoin-payments-in-borderless-pilot",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-gold-hits-six-week-highs-on--4cde313a",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T15:53:00.458Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Gold hits six-week highs on China demand as Bitcoin ignores fresh S&P 500 record",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/gold-hits-six-week-highs-on-china-demand?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-crypto-whales-accumulate-as--8dc35e44",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T15:53:00.458Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Crypto whales accumulate as bear market nears late stage: CryptoQuant",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/crypto-whales-buy-bear-market-late-stage-cryptoquant?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-circle-taps-visa-mastercard--f5cef517",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T15:53:00.458Z",
+      "lane": "stables-payments",
+      "kind": "shipping",
+      "what": "Circle Taps Visa, Mastercard and BlackRock as Validators for September Arc Launch",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/374961/circle-taps-visa-mastercard-and-blackrock-as-validators-for-september-arc-launch",
+      "status": "expired",
+      "tags": [
+        "wrappers-etf"
+      ],
+      "watcher": true
     }
   ],
   "angles": [
@@ -7800,8 +7942,8 @@
     },
     {
       "id": "ang-watch-wrappers-etf",
-      "at": "2026-08-05T11:34:33.262Z",
-      "thesis": "Watcher cluster [wrappers-etf]: 4 related receipts in ~7d across cex-tradfi, capital-flows.",
+      "at": "2026-08-05T15:53:00.458Z",
+      "thesis": "Watcher cluster [wrappers-etf]: 3 related receipts in ~7d across cex-tradfi, stables-payments.",
       "voiceHook": "Pattern forming: wrappers etf.",
       "signalIds": [
         "sig-20260728-ms-eth-sol-etp",
@@ -7820,7 +7962,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for wrappers-etf: dates + sources",
-      "expiresAt": "2026-08-09T11:34:33.262Z",
+      "expiresAt": "2026-08-09T15:53:00.458Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -8103,28 +8245,26 @@
     },
     {
       "date": "2026-08-05",
-      "at": "2026-08-05T13:38:42.859Z",
-      "note": "Watcher: +13 signals, spikes=0, patternPings=1.",
+      "at": "2026-08-05T15:53:00.458Z",
+      "note": "Watcher: +10 signals, spikes=1, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260805-nomura-s-laser-digital-backs-9435d69c",
-        "sig-20260805-crypto-may-have-institutiona-3cc7ec29",
-        "sig-20260805-galaxy-digital-shares-slip-5-ab13cfe4",
-        "sig-20260805-ai-agent-token-once-worth-2--ff266468",
-        "sig-20260805-spacex-extends-decline-to-11-75d3f947",
-        "sig-20260805-yellow-card-raises-40-millio-4081e61e",
-        "sig-20260805-do-the-coldcard-attacks-mean-92fe1423",
-        "sig-20260805-galaxy-reports-85m-net-loss--90bc8687",
-        "sig-20260805-mastercard-borderless-test-s-1740c81c",
-        "sig-20260805-binance-sues-redotpay-over-a-4431a9db",
-        "sig-20260805-circle-q2-revenue-falls-shor-82632e4c",
-        "sig-20260805-anthropic-s-claude-mythos-5--24764c62",
-        "sig-20260805-morning-minute-jim-cramer-se-1ff68f12"
+        "sig-20260805-eliza-founder-declares-ai-to-fffbba55",
+        "sig-20260805-coldcard-exploit-could-boost-9db5e5a3",
+        "sig-20260805-crypto-long-short-putting-th-87c3d841",
+        "sig-20260805-strategy-s-strc-rebounds-30--c4617e4d",
+        "sig-20260805-ondo-finance-hires-former-bl-971c0d67",
+        "sig-20260805-eliza-labs-shaw-walters-says-4c5bc05d",
+        "sig-20260805-mastercard-extends-crypto-cr-1f0fdcf1",
+        "sig-20260805-gold-hits-six-week-highs-on--4cde313a",
+        "sig-20260805-crypto-whales-accumulate-as--8dc35e44",
+        "sig-20260805-circle-taps-visa-mastercard--f5cef517"
       ],
       "angleIdsTouched": [
-        "ang-watch-stables-ai"
+        "ang-watch-wrappers-etf"
       ],
       "noteworthyIds": [
-        "ang-watch-stables-ai"
+        "sig-20260805-eliza-founder-declares-ai-to-fffbba55",
+        "ang-watch-wrappers-etf"
       ]
     }
   ]
