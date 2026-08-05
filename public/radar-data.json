@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T03:52:18.944Z",
+  "updatedAt": "2026-08-05T06:17:45.094Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -6506,7 +6506,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/04/bitcoin-s-usd63-000-zone-emerges-as-key-battleground-for-buyers-glassnode",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -6520,7 +6520,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/04/polymarket-targets-usd20-billion-valuation-as-competition-heats-up-in-prediction-markets",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -6534,7 +6534,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/04/intesa-sanpaolo-slashed-ibit-stake-by-94-in-2q-tripled-ether-etf-holding-as-crypto-prices-slumped",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "wrappers-etf"
       ],
@@ -6550,7 +6550,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/04/dinari-brings-tokenized-u-s-stocks-to-american-investors-as-equity-race-heats-up",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -6564,7 +6564,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/policy/2026/08/03/as-clarity-act-teeters-mystery-group-hammers-away-at-crypto-in-washington-ads",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "clarity-policy"
       ],
@@ -7008,6 +7008,76 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/ethereum-researchers-want-to-rein-in-staking-critics-say-it-could-backfire?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-new-ethereum-proposal-would--874d0099",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T06:17:45.094Z",
+      "lane": "l1-l2",
+      "kind": "narrative",
+      "what": "New Ethereum proposal would cut issuance to zero if staked ETH reaches $112 billion",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/tech/2026/08/05/new-ethereum-proposal-would-cut-issuance-to-zero-if-staked-eth-reaches-usd112-billion",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-you-stole-please-return-some-b3488518",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T06:17:45.094Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "\"You stole, please return some.\" Coldcard hacker's wallet becomes a graffiti wall of pleas and hustles",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/05/you-stole-please-return-some-coldcard-hacker-s-wallet-becomes-a-graffiti-wall-of-pleas-and-hustles",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-bitcoin-flat-at-64-000-as-st-f1ad5473",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T06:17:45.094Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin flat at $64,000 as stocks print records and Hormuz deal nears",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/05/bitcoin-flat-at-usd64-000-as-stocks-print-records-and-hormuz-deal-nears",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-clarity-or-not-crypto-isn-t--be9afa8d",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T06:17:45.094Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "CLARITY or not, crypto isn’t going back in the bottle: Bitwise",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/clarity-or-not-crypto-isnt-going-back-in-the-bottle-bitwise?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260805-bybit-s-eu-payments-arm-secu-bb413195",
+      "at": "2026-08-05",
+      "scannedAt": "2026-08-05T06:17:45.094Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bybit’s EU payments arm secures Austrian e-money license",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/bybit-austria-electronic-money-license-europe-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "status": "open",
       "tags": [],
       "watcher": true
@@ -7565,10 +7635,14 @@
     },
     {
       "date": "2026-08-05",
-      "at": "2026-08-05T03:52:18.944Z",
-      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-05T06:17:45.094Z",
+      "note": "Watcher: +5 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260805-ethereum-researchers-want-to-32b25adb"
+        "sig-20260805-new-ethereum-proposal-would--874d0099",
+        "sig-20260805-you-stole-please-return-some-b3488518",
+        "sig-20260805-bitcoin-flat-at-64-000-as-st-f1ad5473",
+        "sig-20260805-clarity-or-not-crypto-isn-t--be9afa8d",
+        "sig-20260805-bybit-s-eu-payments-arm-secu-bb413195"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
