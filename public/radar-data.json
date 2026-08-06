@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T07:31:14.025Z",
+  "updatedAt": "2026-08-06T10:24:58.532Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -7260,7 +7260,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/05/circle-shares-jump-as-earnings-beat-offsets-revenue-miss-arc-blockchain-gains-wall-street-backing",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -7274,7 +7274,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/05/bitcoin-broader-market-fail-to-keep-pace-as-global-equities-hit-record-highs",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -7288,7 +7288,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/05/coldcard-hack-sparks-a-self-custody-security-overhaul-cory-klippsten",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -7302,7 +7302,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/markets/bitcoin-etfs-inflows-cold-wallet-hack-custody-debate?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -7316,7 +7316,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/sp-blackrock-tokenized-reserve-fund-stability?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "wrappers-etf"
       ],
@@ -7332,7 +7332,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/blackrock-jpmorgan-tokenized-money-market-funds-europe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "wrappers-etf"
       ],
@@ -7348,7 +7348,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/374944/ethereum-proposal-would-burn-staking-rewards-to-zero-if-half-of-eth-is-staked",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -8201,6 +8201,104 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260806-nft-startup-founder-charged--fde17df1",
+      "at": "2026-08-06",
+      "scannedAt": "2026-08-06T10:24:58.532Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "NFT startup founder charged with misusing funds from $10 million fundraising",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/policy/2026/08/06/nft-startup-founder-charged-with-misusing-funds-from-usd10-million-fundraising",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260806-bitcoin-developers-flag-85-c-f596b06a",
+      "at": "2026-08-06",
+      "scannedAt": "2026-08-06T10:24:58.532Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin developers flag 85 critical bugs in an \"extremely bad\" situation",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/tech/2026/08/06/bitcoin-developers-flag-85-critical-bugs-in-an-extremely-bad-situation",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260806-russian-president-signs-cryp-0efbe873",
+      "at": "2026-08-06",
+      "scannedAt": "2026-08-06T10:24:58.532Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Russian president signs crypto law, core rules take effect in 2026",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/putin-signs-crypto-law-core-rules-take-effect-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260806-rwas-buck-defi-slowdown-as-t-01d83954",
+      "at": "2026-08-06",
+      "scannedAt": "2026-08-06T10:24:58.532Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "RWAs buck DeFi slowdown as tokenized assets gain traction: CoinShares",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/rwa-buck-defi-slowdown-tokenization-coinshares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260806-yen-stablecoin-issuer-jpyc-s-4ae41a39",
+      "at": "2026-08-06",
+      "scannedAt": "2026-08-06T10:24:58.532Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Yen stablecoin issuer JPYC’s Series B reaches $38M",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/jpyc-series-b-funding-az-com?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260806-bitcoin-backed-loan-refinanc-3987fd15",
+      "at": "2026-08-06",
+      "scannedAt": "2026-08-06T10:24:58.532Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin-backed loan refinances PowerCompute’s $18M debt at 2%",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-collateral-cuts-powercompute-debt-rate?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260806-bitcoin-ai-security-audit-fi-699f6715",
+      "at": "2026-08-06",
+      "scannedAt": "2026-08-06T10:24:58.532Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin AI Security Audit Files 4,962 Findings Across 390 Projects",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375029/bitcoin-ai-security-audit-files-4962-findings-across-390-projects",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -8765,17 +8863,16 @@
     },
     {
       "date": "2026-08-06",
-      "at": "2026-08-06T07:31:14.025Z",
-      "note": "Watcher: +8 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-06T10:24:58.532Z",
+      "note": "Watcher: +7 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260806-live-updates-bitcoin-nears-6-cd588aa2",
-        "sig-20260806-s-p-500-has-added-crypto-s-2-6783c9eb",
-        "sig-20260806-bitcoin-steadies-above-64-00-a8fce2b1",
-        "sig-20260806-xrp-whales-keep-buying-the-d-fed450d3",
-        "sig-20260806-bitcoin-etfs-pull-in-244m-3--31ab3b09",
-        "sig-20260806-eu-watchdogs-warn-of-imperso-a9231897",
-        "sig-20260806-fed-s-cook-says-she-d-suppor-029f080b",
-        "sig-20260806-elizaos-token-sinks-19-to-re-141e3e9f"
+        "sig-20260806-nft-startup-founder-charged--fde17df1",
+        "sig-20260806-bitcoin-developers-flag-85-c-f596b06a",
+        "sig-20260806-russian-president-signs-cryp-0efbe873",
+        "sig-20260806-rwas-buck-defi-slowdown-as-t-01d83954",
+        "sig-20260806-yen-stablecoin-issuer-jpyc-s-4ae41a39",
+        "sig-20260806-bitcoin-backed-loan-refinanc-3987fd15",
+        "sig-20260806-bitcoin-ai-security-audit-fi-699f6715"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
