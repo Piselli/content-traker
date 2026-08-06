@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T04:36:39.606Z",
+  "updatedAt": "2026-08-06T07:31:14.025Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -7362,7 +7362,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/374941/ex-lapd-officer-gets-life-plus-15-years-over-350k-bitcoin-robbery",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -7376,7 +7376,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/05/noumura-s-laser-digital-backs-zigchain-for-onchain-private-credit-push-in-uae",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -7390,7 +7390,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/opinion/2026/08/05/crypto-may-have-institutionalized-but-it-still-trades-like-a-rumor-mill",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -7404,7 +7404,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/05/galaxy-digital-shares-slip-5-after-second-quarter-results",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -7418,7 +7418,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/05/ai-agent-token-once-worth-usd2-4-billion-ends-with-founder-calling-it-dead",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -7432,7 +7432,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/05/spacex-stock-drops-11-premarket-as-lockup-spending-fears-hit-first-earnings",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -7446,7 +7446,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/05/yellow-card-raises-usd40-million-to-link-banks-to-stablecoin-processing",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -7460,7 +7460,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/magazine/does-the-coldcard-attack-mean-all-hardware-wallets-are-now-insecure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -8089,6 +8089,118 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260806-live-updates-bitcoin-nears-6-cd588aa2",
+      "at": "2026-08-06",
+      "scannedAt": "2026-08-06T07:31:14.025Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Live updates: Bitcoin nears $65,000 as oil, inflation hopes keep macro bid alive",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/tech/2026/08/06/live-updates-bitcoin-nears-usd65-000-as-oil-inflation-hopes-keep-macro-bid-alive",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260806-s-p-500-has-added-crypto-s-2-6783c9eb",
+      "at": "2026-08-06",
+      "scannedAt": "2026-08-06T07:31:14.025Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "S&P 500 has added crypto's $2 trillion market cap this month. Bitcoin is not impressed. Here's why",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/06/s-and-p-500-has-added-crypto-s-usd2-trillion-market-cap-this-month-bitcoin-is-not-impressed-here-s-why",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260806-bitcoin-steadies-above-64-00-a8fce2b1",
+      "at": "2026-08-06",
+      "scannedAt": "2026-08-06T07:31:14.025Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin steadies above $64,000 as traders watch $100 billion SpaceX unlock",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/06/bitcoin-steadies-above-usd64-000-as-traders-watch-usd100-billion-spacex-unlock",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260806-xrp-whales-keep-buying-the-d-fed450d3",
+      "at": "2026-08-06",
+      "scannedAt": "2026-08-06T07:31:14.025Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "XRP whales keep buying the dip, but ether shows deeper capitulation",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/06/xrp-whales-keep-buying-the-dip-but-ether-shows-deeper-capitulation",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260806-bitcoin-etfs-pull-in-244m-3--31ab3b09",
+      "at": "2026-08-06",
+      "scannedAt": "2026-08-06T07:31:14.025Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "Bitcoin ETFs pull in $244M, 3-day inflow streak tops $626M",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/bitcoin-etf-244-million-three-day-inflow-streak-626-million?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260806-eu-watchdogs-warn-of-imperso-a9231897",
+      "at": "2026-08-06",
+      "scannedAt": "2026-08-06T07:31:14.025Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "EU watchdogs warn of impersonation scams amid MiCA licensing shakeout",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/eu-watchdogs-mica-crypto-impersonation-scams?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260806-fed-s-cook-says-she-d-suppor-029f080b",
+      "at": "2026-08-06",
+      "scannedAt": "2026-08-06T07:31:14.025Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Fed’s Cook says she’d support rate hike if disinflation stalls",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/feds-cook-warns-persistent-inflation-could-prompt-rate-hike?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260806-elizaos-token-sinks-19-to-re-141e3e9f",
+      "at": "2026-08-06",
+      "scannedAt": "2026-08-06T07:31:14.025Z",
+      "lane": "narrative-rotation",
+      "kind": "metric",
+      "what": "ElizaOS token sinks 19% to record low after founder declares it ‘dead’",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/elizaos-token-record-low-founder-declares-dead?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -8653,14 +8765,17 @@
     },
     {
       "date": "2026-08-06",
-      "at": "2026-08-06T04:36:39.606Z",
-      "note": "Watcher: +5 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-06T07:31:14.025Z",
+      "note": "Watcher: +8 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260806-cashcat-jumps-120-in-a-week--f7158d5b",
-        "sig-20260806-here-are-the-possible-outcom-1609cfe2",
-        "sig-20260806-meta-latest-ai-firm-to-see-m-179754ea",
-        "sig-20260806-block-raises-2026-outlook-on-57509f26",
-        "sig-20260806-mysten-labs-tech-chief-joins-39b3ab1c"
+        "sig-20260806-live-updates-bitcoin-nears-6-cd588aa2",
+        "sig-20260806-s-p-500-has-added-crypto-s-2-6783c9eb",
+        "sig-20260806-bitcoin-steadies-above-64-00-a8fce2b1",
+        "sig-20260806-xrp-whales-keep-buying-the-d-fed450d3",
+        "sig-20260806-bitcoin-etfs-pull-in-244m-3--31ab3b09",
+        "sig-20260806-eu-watchdogs-warn-of-imperso-a9231897",
+        "sig-20260806-fed-s-cook-says-she-d-suppor-029f080b",
+        "sig-20260806-elizaos-token-sinks-19-to-re-141e3e9f"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
