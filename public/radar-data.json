@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T12:23:41.008Z",
+  "updatedAt": "2026-08-06T14:42:32.764Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -7008,7 +7008,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/ethereum-researchers-want-to-rein-in-staking-critics-say-it-could-backfire?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -7022,7 +7022,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/tech/2026/08/05/new-ethereum-proposal-would-cut-issuance-to-zero-if-staked-eth-reaches-usd112-billion",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -7036,7 +7036,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/05/you-stole-please-return-some-coldcard-hacker-s-wallet-becomes-a-graffiti-wall-of-pleas-and-hustles",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -7050,7 +7050,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/05/bitcoin-flat-at-usd64-000-as-stocks-print-records-and-hormuz-deal-nears",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -7064,7 +7064,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/clarity-or-not-crypto-isnt-going-back-in-the-bottle-bitwise?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -7078,7 +7078,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/bybit-austria-electronic-money-license-europe-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -7092,7 +7092,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/05/why-bitcoin-s-500-day-rule-faces-its-biggest-test-yet",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -8453,6 +8453,123 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260806-jpmorgan-says-hyperliquid-et-912c8e9b",
+      "at": "2026-08-06",
+      "scannedAt": "2026-08-06T14:42:32.764Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "JPMorgan says Hyperliquid ETF inflows have stalled as competition mounts",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/06/jpmorgan-says-hyperliquid-etf-inflows-have-stalled-as-competition-mounts",
+      "status": "open",
+      "tags": [
+        "wrappers-etf",
+        "hl-perps-rwa"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260806-step-app-winds-down-after-fo-dc0fedfe",
+      "at": "2026-08-06",
+      "scannedAt": "2026-08-06T14:42:32.764Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Step App winds down after four years as FITFI token sinks",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/step-app-winds-down-four-years-move-to-earn?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260806-10-weirdest-things-ever-toke-4cc03786",
+      "at": "2026-08-06",
+      "scannedAt": "2026-08-06T14:42:32.764Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "10 weirdest things ever tokenized... including farts",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/magazine/the-10-weirdest-things-already-finding-a-home-onchain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260806-blockchain-com-wins-cayman-c-2010389b",
+      "at": "2026-08-06",
+      "scannedAt": "2026-08-06T14:42:32.764Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Blockchain.com wins Cayman custody license after MiCA and FCA approvals",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/blockchain-com-cayman-custody-license?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260806-hyperliquid-rwa-contracts-gr-1ba92e5a",
+      "at": "2026-08-06",
+      "scannedAt": "2026-08-06T14:42:32.764Z",
+      "lane": "rwa-compliance",
+      "kind": "metric",
+      "what": "Hyperliquid RWA contracts grow to 32% of trading activity in Q2",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/hyperliquid-rwa-contracts-rise-32-trading-q2?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [
+        "hl-perps-rwa"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260806-what-is-arc-the-stablecoin-b-c73c3ca3",
+      "at": "2026-08-06",
+      "scannedAt": "2026-08-06T14:42:32.764Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "What Is Arc? The Stablecoin Blockchain From USDC Issuer Circle",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/resources/what-is-arc-the-stablecoin-blockchain-from-usdc-issuer-circle",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260806-scammers-pose-as-eu-regulato-74eaeb5d",
+      "at": "2026-08-06",
+      "scannedAt": "2026-08-06T14:42:32.764Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Scammers Pose as EU Regulators to Prey on MiCA Deadline Fallout",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375034/scammers-pose-as-eu-regulators-to-prey-on-mica-deadline-fallout",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260806-morning-minute-uniswap-enter-932dfa0d",
+      "at": "2026-08-06",
+      "scannedAt": "2026-08-06T14:42:32.764Z",
+      "lane": "defi-infra",
+      "kind": "narrative",
+      "what": "Morning Minute: Uniswap Enters the Launchpad Wars on Robinhood Chain",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375031/morning-minute-uniswap-enters-the-launchpad-wars-on-robinhood-chain",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -8676,8 +8793,8 @@
     },
     {
       "id": "ang-watch-hl-perps-rwa",
-      "at": "2026-08-03T20:19:48.426Z",
-      "thesis": "Watcher cluster [hl-perps-rwa]: 6 related receipts in ~7d across defi-infra, narrative-rotation, capital-flows, perps-derivatives.",
+      "at": "2026-08-06T14:42:32.764Z",
+      "thesis": "Watcher cluster [hl-perps-rwa]: 4 related receipts in ~7d across perps-derivatives, narrative-rotation, capital-flows, rwa-compliance.",
       "voiceHook": "Pattern forming: hl perps rwa.",
       "signalIds": [
         "sig-20260728-kospi-riskoff",
@@ -8686,7 +8803,8 @@
         "sig-20260727-sol-hype-etf-inflows",
         "sig-20260722-hl-bridge-in-arb-out",
         "sig-20260731-rwa-perpetual-futures-volume-b14edd19",
-        "sig-20260803-rwas-topped-half-of-hyperliq-166c7752"
+        "sig-20260803-rwas-topped-half-of-hyperliq-166c7752",
+        "sig-20260806-jpmorgan-says-hyperliquid-et-912c8e9b"
       ],
       "lanes": [
         "defi-infra",
@@ -8697,7 +8815,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for hl-perps-rwa: dates + sources",
-      "expiresAt": "2026-08-07T20:19:48.426Z",
+      "expiresAt": "2026-08-10T14:42:32.764Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -9017,23 +9135,24 @@
     },
     {
       "date": "2026-08-06",
-      "at": "2026-08-06T12:23:41.008Z",
-      "note": "Watcher: +11 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-06T14:42:32.764Z",
+      "note": "Watcher: +8 signals, spikes=0, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260806-bitcoin-s-low-volatility-doe-aa880075",
-        "sig-20260806-free-markets-and-innovation--709dfe6e",
-        "sig-20260806-why-sandisk-and-western-digi-a3c9abef",
-        "sig-20260806-jpyc-raises-38-million-serie-307ef5a0",
-        "sig-20260806-bitcoin-ether-benefit-as-tra-b8aa7e4f",
-        "sig-20260806-zeus-wallet-taken-offline-af-993fafec",
-        "sig-20260806-crypto-wrench-attacks-steal--ac772d02",
-        "sig-20260806-bitcoin-treasury-trade-break-4d9bbbb5",
-        "sig-20260806-coldcard-hackers-transfer-64-1cc7265e",
-        "sig-20260806-situational-awareness-return-b4c020ea",
-        "sig-20260806-crypto-wrench-attacks-on-pac-255e8040"
+        "sig-20260806-jpmorgan-says-hyperliquid-et-912c8e9b",
+        "sig-20260806-step-app-winds-down-after-fo-dc0fedfe",
+        "sig-20260806-10-weirdest-things-ever-toke-4cc03786",
+        "sig-20260806-blockchain-com-wins-cayman-c-2010389b",
+        "sig-20260806-hyperliquid-rwa-contracts-gr-1ba92e5a",
+        "sig-20260806-what-is-arc-the-stablecoin-b-c73c3ca3",
+        "sig-20260806-scammers-pose-as-eu-regulato-74eaeb5d",
+        "sig-20260806-morning-minute-uniswap-enter-932dfa0d"
       ],
-      "angleIdsTouched": [],
-      "noteworthyIds": []
+      "angleIdsTouched": [
+        "ang-watch-hl-perps-rwa"
+      ],
+      "noteworthyIds": [
+        "ang-watch-hl-perps-rwa"
+      ]
     }
   ]
 }
