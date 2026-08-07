@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T14:42:32.764Z",
+  "updatedAt": "2026-08-07T00:20:47.249Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -8553,7 +8553,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375034/scammers-pose-as-eu-regulators-to-prey-on-mica-deadline-fallout",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -8567,6 +8567,292 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375031/morning-minute-uniswap-enters-the-launchpad-wars-on-robinhood-chain",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260807-crypto-market-maker-wintermu-d2016a52",
+      "at": "2026-08-07",
+      "scannedAt": "2026-08-07T00:20:47.249Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Crypto market maker Wintermute launches US broker-dealer",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/crypto-market-maker-wintermute-launches-us-broker-dealer?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260806-power-struggle-erupts-at-ond-bbc923ac",
+      "at": "2026-08-06",
+      "scannedAt": "2026-08-07T00:20:47.249Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Power struggle erupts at Ondo Finance after founder’s death",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/policy/2026/08/06/power-struggle-erupts-at-ondo-finance-after-founder-s-death",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260806-tether-expands-tokenization--44625621",
+      "at": "2026-08-06",
+      "scannedAt": "2026-08-07T00:20:47.249Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Tether expands tokenization business into Saudi Arabia, starting with real estate",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/06/tether-expands-tokenization-business-into-saudi-arabia-starting-with-real-estate",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260806-crypto-for-advisors-europe-s-6c1efef3",
+      "at": "2026-08-06",
+      "scannedAt": "2026-08-07T00:20:47.249Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Crypto for Advisors: Europe's crypto rules, U.S. Preview",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/08/06/crypto-for-advisors-europe-s-crypto-rules-u-s-preview",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260806-black-lake-launches-harbor-v-5d014265",
+      "at": "2026-08-06",
+      "scannedAt": "2026-08-07T00:20:47.249Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Black Lake Launches Harbor Verify to Bring Verifiable Credit to Onchain Markets",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/tradfi-and-fintech/black-lake-harbor-verify-onchain-credit-verification",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260806-ether-fi-removes-restaking-f-103ee9a3",
+      "at": "2026-08-06",
+      "scannedAt": "2026-08-07T00:20:47.249Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "ether.fi Removes Restaking From weETH, Nearing A Full EigenLayer Exit",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/defi/etherfi-removes-restaking-from-weeth-nearing-full-eigenlayer-exit",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260806-uniswap-s-new-launchpad-out--434ce72a",
+      "at": "2026-08-06",
+      "scannedAt": "2026-08-07T00:20:47.249Z",
+      "lane": "defi-infra",
+      "kind": "narrative",
+      "what": "Uniswap's New Launchpad Out-Launched Pons On Its First Day On Robinhood Chain",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/defi/uniswaps-new-launchpad-out-launched-pons-on-its-first-day-on-robinhood-chain",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260806-robinhood-chain-s-dex-volume-477f5685",
+      "at": "2026-08-06",
+      "scannedAt": "2026-08-07T00:20:47.249Z",
+      "lane": "defi-infra",
+      "kind": "metric",
+      "what": "Robinhood Chain's DEX Volume Fell 72% While Transactions And Deposits Set Records",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/blockchains/robinhood-chains-dex-volume-fell-72-while-transactions-and-deposits-set-records",
+      "status": "expired",
+      "tags": [
+        "l1-winners"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260806-a16z-s-miles-jennings-says-b-4c8c1130",
+      "at": "2026-08-06",
+      "scannedAt": "2026-08-07T00:20:47.249Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "a16z's Miles Jennings Says Banks Fighting the CLARITY Act Are 'Accelerating Their Own Obsolescence'",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/regulation/a16z-s-miles-jennings-says-banks-fighting-the-clarity-act-are-accelerating-their-own-obsolescenc",
+      "status": "expired",
+      "tags": [
+        "clarity-policy"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260806-sentora-opens-a-lending-vaul-62135bd2",
+      "at": "2026-08-06",
+      "scannedAt": "2026-08-07T00:20:47.249Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Sentora Opens A Lending Vault Against Wellington's First Native Onchain Credit Strategy",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/converge/defi/sentora-opens-a-lending-vault-against-wellingtons-first-native-onchain-credit-strategy",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260806-following-primary-loss-crypt-3238ac2f",
+      "at": "2026-08-06",
+      "scannedAt": "2026-08-07T00:20:47.249Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Following primary loss, crypto PACs invest $1.5M in 3 US state races",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/crypto-pac-florida-alaska-wyoming-primary-races?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260806-bitcoin-etf-inflows-surge-af-888506b0",
+      "at": "2026-08-06",
+      "scannedAt": "2026-08-07T00:20:47.249Z",
+      "lane": "failures-rugs",
+      "kind": "exploit",
+      "what": "Bitcoin ETF inflows surge after Coldcard hack, but link is unclear: Bloomberg analyst",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-etf-inflows-coldcard-hack-bloomberg-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [
+        "wrappers-etf"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260806-us-appellate-court-mandate-a-09907cd7",
+      "at": "2026-08-06",
+      "scannedAt": "2026-08-07T00:20:47.249Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "US appellate court mandate affirms Sam Bankman-Fried conviction",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/us-appellate-court-mandate-sam-bankman-fried?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260806-us-senate-will-vote-on-clari-85e1e99c",
+      "at": "2026-08-06",
+      "scannedAt": "2026-08-07T00:20:47.249Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "US Senate will vote on CLARITY crypto bill ‘without any question’ this week: Tim Scott",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/us-senate-vote-clarity-act-tim-scott?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260806-bitcoin-miners-ai-pivot-lose-507f94a7",
+      "at": "2026-08-06",
+      "scannedAt": "2026-08-07T00:20:47.249Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin miners’ AI pivot loses Wall Street’s wow factor",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-miners-ai-infrastructure-deals-wall-street-reaction?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260806-sec-bought-a-billion-airline-df76419a",
+      "at": "2026-08-06",
+      "scannedAt": "2026-08-07T00:20:47.249Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "SEC Bought a Billion Airline Records to Track Travelers—Likely Without a Warrant",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375078/sec-billion-airline-records-track-travelers",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260806-tokyo-tells-trump-to-stop-me-3dcf602f",
+      "at": "2026-08-06",
+      "scannedAt": "2026-08-07T00:20:47.249Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Tokyo Tells Trump to Stop Meme-ing Mario",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375069/tokyo-trump-mario-naruto-pokemon-memes",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260806-meta-says-its-ai-model-escap-aa273628",
+      "at": "2026-08-06",
+      "scannedAt": "2026-08-07T00:20:47.249Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Meta Says Its AI Model Escaped and Hacked a Third-Party Company Too",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375070/meta-says-ai-model-escaped-hack-third-party",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260806-senators-push-cftc-to-ban-wi-1005e3d0",
+      "at": "2026-08-06",
+      "scannedAt": "2026-08-07T00:20:47.249Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "Senators Push CFTC to Ban Wildfire Bets on Prediction Markets",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375066/senators-push-cftc-ban-wildfire-bets-prediction-markets",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260806-putin-signs-russia-s-first-c-f62afb37",
+      "at": "2026-08-06",
+      "scannedAt": "2026-08-07T00:20:47.249Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Putin Signs Russia's First Crypto Law: Trading Is Legal, Payments Stay Banned",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375062/putin-signs-russia-first-crypto-trading-payments",
       "status": "expired",
       "tags": [],
       "watcher": true
@@ -8822,8 +9108,8 @@
     },
     {
       "id": "ang-watch-wrappers-etf",
-      "at": "2026-08-05T18:59:01.192Z",
-      "thesis": "Watcher cluster [wrappers-etf]: 3 related receipts in ~7d across cex-tradfi, stables-payments.",
+      "at": "2026-08-07T00:20:47.249Z",
+      "thesis": "Watcher cluster [wrappers-etf]: 2 related receipts in ~7d across capital-flows, failures-rugs.",
       "voiceHook": "Pattern forming: wrappers etf.",
       "signalIds": [
         "sig-20260728-ms-eth-sol-etp",
@@ -8842,7 +9128,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for wrappers-etf: dates + sources",
-      "expiresAt": "2026-08-09T18:59:01.192Z",
+      "expiresAt": "2026-08-11T00:20:47.249Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -9152,6 +9438,39 @@
       ],
       "noteworthyIds": [
         "ang-watch-hl-perps-rwa"
+      ]
+    },
+    {
+      "date": "2026-08-07",
+      "at": "2026-08-07T00:20:47.249Z",
+      "note": "Watcher: +20 signals, spikes=0, patternPings=1.",
+      "signalIdsAdded": [
+        "sig-20260807-crypto-market-maker-wintermu-d2016a52",
+        "sig-20260806-power-struggle-erupts-at-ond-bbc923ac",
+        "sig-20260806-tether-expands-tokenization--44625621",
+        "sig-20260806-crypto-for-advisors-europe-s-6c1efef3",
+        "sig-20260806-black-lake-launches-harbor-v-5d014265",
+        "sig-20260806-ether-fi-removes-restaking-f-103ee9a3",
+        "sig-20260806-uniswap-s-new-launchpad-out--434ce72a",
+        "sig-20260806-robinhood-chain-s-dex-volume-477f5685",
+        "sig-20260806-a16z-s-miles-jennings-says-b-4c8c1130",
+        "sig-20260806-sentora-opens-a-lending-vaul-62135bd2",
+        "sig-20260806-following-primary-loss-crypt-3238ac2f",
+        "sig-20260806-bitcoin-etf-inflows-surge-af-888506b0",
+        "sig-20260806-us-appellate-court-mandate-a-09907cd7",
+        "sig-20260806-us-senate-will-vote-on-clari-85e1e99c",
+        "sig-20260806-bitcoin-miners-ai-pivot-lose-507f94a7",
+        "sig-20260806-sec-bought-a-billion-airline-df76419a",
+        "sig-20260806-tokyo-tells-trump-to-stop-me-3dcf602f",
+        "sig-20260806-meta-says-its-ai-model-escap-aa273628",
+        "sig-20260806-senators-push-cftc-to-ban-wi-1005e3d0",
+        "sig-20260806-putin-signs-russia-s-first-c-f62afb37"
+      ],
+      "angleIdsTouched": [
+        "ang-watch-wrappers-etf"
+      ],
+      "noteworthyIds": [
+        "ang-watch-wrappers-etf"
       ]
     }
   ]
