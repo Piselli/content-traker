@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T18:37:23.179Z",
+  "updatedAt": "2026-08-07T19:42:44.657Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -9646,6 +9646,34 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260807-u-s-widens-iran-crypto-crack-91d95bf4",
+      "at": "2026-08-07",
+      "scannedAt": "2026-08-07T19:42:44.657Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "U.S. widens Iran crypto crackdown with sanctions on two exchanges",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/policy/2026/08/07/u-s-widens-iran-crypto-crackdown-with-sanctions-on-two-exchanges",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260807-flock-wanted-to-turn-350-000-2f0c4baa",
+      "at": "2026-08-07",
+      "scannedAt": "2026-08-07T19:42:44.657Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Flock Wanted to Turn 350,000 Uber Drivers Into a Nationwide Plate-Scanning Fleet",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375149/flock-cameras-uber-drivers-nationwide-plate-scanning-fleet",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -10232,10 +10260,11 @@
     },
     {
       "date": "2026-08-07",
-      "at": "2026-08-07T18:37:23.179Z",
-      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-07T19:42:44.657Z",
+      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260807-sharplink-opposes-ethereum-p-5e50af2c"
+        "sig-20260807-u-s-widens-iran-crypto-crack-91d95bf4",
+        "sig-20260807-flock-wanted-to-turn-350-000-2f0c4baa"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
