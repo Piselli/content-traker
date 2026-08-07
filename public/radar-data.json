@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T12:04:34.628Z",
+  "updatedAt": "2026-08-07T13:45:08.342Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -8086,7 +8086,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/mysten-labs-tech-chief-joins-anthropic-to-work-on-ai-security?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -8100,7 +8100,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/tech/2026/08/06/live-updates-bitcoin-nears-usd65-000-as-oil-inflation-hopes-keep-macro-bid-alive",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -8114,7 +8114,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/06/s-and-p-500-has-added-crypto-s-usd2-trillion-market-cap-this-month-bitcoin-is-not-impressed-here-s-why",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -8128,7 +8128,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/06/bitcoin-steadies-above-usd64-000-as-traders-watch-usd100-billion-spacex-unlock",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -8142,7 +8142,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/06/xrp-whales-keep-buying-the-dip-but-ether-shows-deeper-capitulation",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -8156,7 +8156,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/markets/bitcoin-etf-244-million-three-day-inflow-streak-626-million?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -8170,7 +8170,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/eu-watchdogs-mica-crypto-impersonation-scams?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -9304,6 +9304,104 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260807-u-s-unexpectedly-shed-23-000-68ac2716",
+      "at": "2026-08-07",
+      "scannedAt": "2026-08-07T13:45:08.342Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "U.S. unexpectedly shed 23,000 jobs in July, putting Fed rate hikes in question",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/07/the-u-s-lost-23-000-jobs-in-july-far-shy-of-forecasts-for-a-gain-of-80-000",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260807-fierce-backlash-to-ethereum--b9ba3e4e",
+      "at": "2026-08-07",
+      "scannedAt": "2026-08-07T13:45:08.342Z",
+      "lane": "l1-l2",
+      "kind": "narrative",
+      "what": "Fierce backlash to Ethereum’s EIP-8363 staking proposal",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/magazine/fierce-backlash-to-ethereums-latest-staking-proposal-eip-8363?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260807-bitcoiners-turn-to-dice-thro-37da37f9",
+      "at": "2026-08-07",
+      "scannedAt": "2026-08-07T13:45:08.342Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoiners turn to dice throws as self-custody setups are re-evaluated",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/features/bitcoiners-turn-to-dice-throws-as-self-custody-setups-are-re-evaluated?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260807-russia-cracks-down-on-9-cryp-8c6045f7",
+      "at": "2026-08-07",
+      "scannedAt": "2026-08-07T13:45:08.342Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Russia cracks down on 9 crypto exchanges in Moscow City",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/russia-shuts-down-crypto-exchanges-moscow-city?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260807-cex-perpetual-futures-volume-872b0d86",
+      "at": "2026-08-07",
+      "scannedAt": "2026-08-07T13:45:08.342Z",
+      "lane": "perps-derivatives",
+      "kind": "metric",
+      "what": "CEX perpetual futures volume falls to $4T, lowest since late 2023",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/cex-futures-volume-falls-4t-july-lowest-level-2023?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260807-tokenized-asset-deposits-tri-11361226",
+      "at": "2026-08-07",
+      "scannedAt": "2026-08-07T13:45:08.342Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Tokenized Asset Deposits Tripled to $7.4B as DeFi Shrank: CoinShares",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375099/tokenized-asset-deposits-tripled-to-7-4b-as-defi-shrank-coinshares",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260807-china-s-kimi-k3-broke-out-of-6b75e643",
+      "at": "2026-08-07",
+      "scannedAt": "2026-08-07T13:45:08.342Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "China’s Kimi K3 Broke Out of Its Sandbox to Look Up Test Answers",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375096/chinas-kimi-k3-broke-out-of-its-sandbox-to-look-up-test-answers",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -9890,21 +9988,19 @@
     },
     {
       "date": "2026-08-07",
-      "at": "2026-08-07T12:04:34.628Z",
-      "note": "Watcher: +5 signals, spikes=0, patternPings=1.",
+      "at": "2026-08-07T13:45:08.342Z",
+      "note": "Watcher: +7 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260807-after-a-clarity-act-funeral--2cfddb60",
-        "sig-20260807-why-bitcoin-s-bip-110-refuse-eccb5fb2",
-        "sig-20260807-bitcoin-s-volatility-has-nea-6fce8892",
-        "sig-20260807-binance-bitcoin-volume-ratio-f0e18b09",
-        "sig-20260807-morning-minute-metamask-hand-95265200"
+        "sig-20260807-u-s-unexpectedly-shed-23-000-68ac2716",
+        "sig-20260807-fierce-backlash-to-ethereum--b9ba3e4e",
+        "sig-20260807-bitcoiners-turn-to-dice-thro-37da37f9",
+        "sig-20260807-russia-cracks-down-on-9-cryp-8c6045f7",
+        "sig-20260807-cex-perpetual-futures-volume-872b0d86",
+        "sig-20260807-tokenized-asset-deposits-tri-11361226",
+        "sig-20260807-china-s-kimi-k3-broke-out-of-6b75e643"
       ],
-      "angleIdsTouched": [
-        "ang-watch-clarity-policy"
-      ],
-      "noteworthyIds": [
-        "ang-watch-clarity-policy"
-      ]
+      "angleIdsTouched": [],
+      "noteworthyIds": []
     }
   ]
 }
