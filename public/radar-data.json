@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T10:25:19.949Z",
+  "updatedAt": "2026-08-07T11:13:32.431Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -8254,7 +8254,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/rwa-buck-defi-slowdown-tokenization-coinshares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -8268,7 +8268,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/jpyc-series-b-funding-az-com?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -9204,6 +9204,34 @@
         "clarity-policy"
       ],
       "watcher": true
+    },
+    {
+      "id": "sig-20260807-bitcoin-hovers-below-65-000--3ad1642d",
+      "at": "2026-08-07",
+      "scannedAt": "2026-08-07T11:13:32.431Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin hovers below $65,000 as Middle East tensions escalate further",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/07/cmt",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260807-mytrade-founder-fined-10k-ov-b2f4ab9f",
+      "at": "2026-08-07",
+      "scannedAt": "2026-08-07T11:13:32.431Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "MyTrade Founder Fined $10K Over Bots That Wash Traded 60 Cryptocurrencies",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375085/mytrade-founder-fined-10k-over-bots-that-wash-traded-60-cryptocurrencies",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -9790,9 +9818,12 @@
     },
     {
       "date": "2026-08-07",
-      "at": "2026-08-07T10:25:19.949Z",
-      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [],
+      "at": "2026-08-07T11:13:32.431Z",
+      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [
+        "sig-20260807-bitcoin-hovers-below-65-000--3ad1642d",
+        "sig-20260807-mytrade-founder-fined-10k-ov-b2f4ab9f"
+      ],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
