@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T11:13:32.431Z",
+  "updatedAt": "2026-08-07T12:04:34.628Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -8184,7 +8184,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/markets/feds-cook-warns-persistent-inflation-could-prompt-rate-hike?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -8198,7 +8198,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/markets/elizaos-token-record-low-founder-declares-dead?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -8212,7 +8212,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/policy/2026/08/06/nft-startup-founder-charged-with-misusing-funds-from-usd10-million-fundraising",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -8226,7 +8226,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/tech/2026/08/06/bitcoin-developers-flag-85-critical-bugs-in-an-extremely-bad-situation",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -8240,7 +8240,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/putin-signs-crypto-law-core-rules-take-effect-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -9232,6 +9232,78 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260807-after-a-clarity-act-funeral--2cfddb60",
+      "at": "2026-08-07",
+      "scannedAt": "2026-08-07T12:04:34.628Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "After a Clarity Act funeral, the crypto world would keep turning",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/news-analysis/2026/08/06/after-a-clarity-act-funeral-the-crypto-world-would-keep-turning",
+      "status": "open",
+      "tags": [
+        "clarity-policy"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260807-why-bitcoin-s-bip-110-refuse-eccb5fb2",
+      "at": "2026-08-07",
+      "scannedAt": "2026-08-07T12:04:34.628Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Why Bitcoin's BIP-110 refuses to die despite near-zero miner support",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/tech/2026/08/06/why-bitcoin-s-bip-110-refuses-to-die-despite-near-zero-miner-support",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260807-bitcoin-s-volatility-has-nea-6fce8892",
+      "at": "2026-08-07",
+      "scannedAt": "2026-08-07T12:04:34.628Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin’s volatility has nearly disappeared. The risk hasn’t.",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/daybook-us/2026/08/07/bitcoin-s-volatility-has-nearly-disappeared-the-risk-hasn-t",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260807-binance-bitcoin-volume-ratio-f0e18b09",
+      "at": "2026-08-07",
+      "scannedAt": "2026-08-07T12:04:34.628Z",
+      "lane": "cex-tradfi",
+      "kind": "metric",
+      "what": "Binance Bitcoin volume ratio hits record as futures outweigh spot eight times over",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/binance-bitcoin-volume-ratio-hits-record-as-futures-outweigh-spot-eight-times-over?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260807-morning-minute-metamask-hand-95265200",
+      "at": "2026-08-07",
+      "scannedAt": "2026-08-07T12:04:34.628Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Morning Minute: MetaMask Hands AI Agents a Wallet",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375093/morning-minute-metamask-hands-ai-agents-a-wallet",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -9511,8 +9583,8 @@
     },
     {
       "id": "ang-watch-clarity-policy",
-      "at": "2026-08-07T09:28:46.456Z",
-      "thesis": "Watcher cluster [clarity-policy]: 5 related receipts in ~7d across regulation.",
+      "at": "2026-08-07T12:04:34.628Z",
+      "thesis": "Watcher cluster [clarity-policy]: 6 related receipts in ~7d across regulation.",
       "voiceHook": "Pattern forming: clarity policy.",
       "signalIds": [
         "sig-20260728-clarity-shelved",
@@ -9530,7 +9602,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for clarity-policy: dates + sources",
-      "expiresAt": "2026-08-11T09:28:46.456Z",
+      "expiresAt": "2026-08-11T12:04:34.628Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -9818,14 +9890,21 @@
     },
     {
       "date": "2026-08-07",
-      "at": "2026-08-07T11:13:32.431Z",
-      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-07T12:04:34.628Z",
+      "note": "Watcher: +5 signals, spikes=0, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260807-bitcoin-hovers-below-65-000--3ad1642d",
-        "sig-20260807-mytrade-founder-fined-10k-ov-b2f4ab9f"
+        "sig-20260807-after-a-clarity-act-funeral--2cfddb60",
+        "sig-20260807-why-bitcoin-s-bip-110-refuse-eccb5fb2",
+        "sig-20260807-bitcoin-s-volatility-has-nea-6fce8892",
+        "sig-20260807-binance-bitcoin-volume-ratio-f0e18b09",
+        "sig-20260807-morning-minute-metamask-hand-95265200"
       ],
-      "angleIdsTouched": [],
-      "noteworthyIds": []
+      "angleIdsTouched": [
+        "ang-watch-clarity-policy"
+      ],
+      "noteworthyIds": [
+        "ang-watch-clarity-policy"
+      ]
     }
   ]
 }
