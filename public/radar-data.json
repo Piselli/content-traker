@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T19:42:44.657Z",
+  "updatedAt": "2026-08-07T20:27:24.974Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -9674,6 +9674,62 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260807-solana-perp-dex-flash-trade--f8a00a6b",
+      "at": "2026-08-07",
+      "scannedAt": "2026-08-07T20:27:24.974Z",
+      "lane": "perps-derivatives",
+      "kind": "narrative",
+      "what": "Solana Perp DEX Flash Trade to Wind Down Unless It Finds a Buyer",
+      "why": "Watcher spike: strong failure/shipping/capital headline — check for take.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/defi/solana-perp-dex-flash-trade-to-wind-down-unless-it-finds-a-buyer",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260807-lightning-nodes-drained-as-b-8a1678bd",
+      "at": "2026-08-07",
+      "scannedAt": "2026-08-07T20:27:24.974Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Lightning Nodes Drained As BTCPay Server Users Race To Patch",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/hacks/btcpay-server-tells-operators-to-update-or-shut-down-over-actively-exploited-flaw",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260807-us-treasury-s-ofac-sanctions-f6ffa220",
+      "at": "2026-08-07",
+      "scannedAt": "2026-08-07T20:27:24.974Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "US Treasury’s OFAC sanctions 2 Iran-linked crypto exchanges",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/us-treasury-sanctions-iran-crypto-exchanges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260807-bitcoin-payment-service-btcp-7d922fdd",
+      "at": "2026-08-07",
+      "scannedAt": "2026-08-07T20:27:24.974Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin Payment Service BTCPay Warns Critical Flaw Is Under Active Attack",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375159/bitcoin-payment-service-btcpay-critical-flaw-active-attack",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -10260,14 +10316,18 @@
     },
     {
       "date": "2026-08-07",
-      "at": "2026-08-07T19:42:44.657Z",
-      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-07T20:27:24.974Z",
+      "note": "Watcher: +4 signals, spikes=1, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260807-u-s-widens-iran-crypto-crack-91d95bf4",
-        "sig-20260807-flock-wanted-to-turn-350-000-2f0c4baa"
+        "sig-20260807-solana-perp-dex-flash-trade--f8a00a6b",
+        "sig-20260807-lightning-nodes-drained-as-b-8a1678bd",
+        "sig-20260807-us-treasury-s-ofac-sanctions-f6ffa220",
+        "sig-20260807-bitcoin-payment-service-btcp-7d922fdd"
       ],
       "angleIdsTouched": [],
-      "noteworthyIds": []
+      "noteworthyIds": [
+        "sig-20260807-solana-perp-dex-flash-trade--f8a00a6b"
+      ]
     }
   ]
 }
