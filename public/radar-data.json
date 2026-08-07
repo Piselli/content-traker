@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T13:45:08.342Z",
+  "updatedAt": "2026-08-07T14:43:55.970Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -8058,7 +8058,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/meta-latest-ai-firm-to-see-model-go-rogue-during-testing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -8072,7 +8072,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/markets/block-raises-2026-outlook-strong-quarter-says-ai-touches-nearly-all-code?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -9402,6 +9402,36 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260807-a-part-of-ftx-survived-and-i-40191ad7",
+      "at": "2026-08-07",
+      "scannedAt": "2026-08-07T14:43:55.970Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "A part of FTX survived, and it’s the case for the CLARITY Act",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/opinion/2026/08/07/a-part-of-ftx-survived-and-it-s-the-case-for-the-clarity-act",
+      "status": "open",
+      "tags": [
+        "clarity-policy"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260807-russia-cracks-down-on-unlice-51fc4ee0",
+      "at": "2026-08-07",
+      "scannedAt": "2026-08-07T14:43:55.970Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Russia cracks down on unlicensed crypto exchanges it claims are linked to Ukraine",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/policy/2026/08/07/russia-cracks-down-on-unlicensed-crypto-exchanges-it-claims-are-linked-to-ukraine",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -9681,8 +9711,8 @@
     },
     {
       "id": "ang-watch-clarity-policy",
-      "at": "2026-08-07T12:04:34.628Z",
-      "thesis": "Watcher cluster [clarity-policy]: 6 related receipts in ~7d across regulation.",
+      "at": "2026-08-07T14:43:55.970Z",
+      "thesis": "Watcher cluster [clarity-policy]: 7 related receipts in ~7d across regulation.",
       "voiceHook": "Pattern forming: clarity policy.",
       "signalIds": [
         "sig-20260728-clarity-shelved",
@@ -9700,7 +9730,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for clarity-policy: dates + sources",
-      "expiresAt": "2026-08-11T12:04:34.628Z",
+      "expiresAt": "2026-08-11T14:43:55.970Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -9988,19 +10018,18 @@
     },
     {
       "date": "2026-08-07",
-      "at": "2026-08-07T13:45:08.342Z",
-      "note": "Watcher: +7 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-07T14:43:55.970Z",
+      "note": "Watcher: +2 signals, spikes=0, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260807-u-s-unexpectedly-shed-23-000-68ac2716",
-        "sig-20260807-fierce-backlash-to-ethereum--b9ba3e4e",
-        "sig-20260807-bitcoiners-turn-to-dice-thro-37da37f9",
-        "sig-20260807-russia-cracks-down-on-9-cryp-8c6045f7",
-        "sig-20260807-cex-perpetual-futures-volume-872b0d86",
-        "sig-20260807-tokenized-asset-deposits-tri-11361226",
-        "sig-20260807-china-s-kimi-k3-broke-out-of-6b75e643"
+        "sig-20260807-a-part-of-ftx-survived-and-i-40191ad7",
+        "sig-20260807-russia-cracks-down-on-unlice-51fc4ee0"
       ],
-      "angleIdsTouched": [],
-      "noteworthyIds": []
+      "angleIdsTouched": [
+        "ang-watch-clarity-policy"
+      ],
+      "noteworthyIds": [
+        "ang-watch-clarity-policy"
+      ]
     }
   ]
 }
