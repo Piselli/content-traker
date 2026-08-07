@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T08:04:40.803Z",
+  "updatedAt": "2026-08-07T09:28:46.456Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -8282,7 +8282,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/bitcoin-collateral-cuts-powercompute-debt-rate?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -8296,7 +8296,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375029/bitcoin-ai-security-audit-files-4962-findings-across-390-projects",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -8310,7 +8310,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/daybook-us/2026/08/06/bitcoin-s-low-volatility-doesn-t-necessarily-mean-low-risk",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -8324,7 +8324,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/opinion/2026/08/06/free-markets-and-innovation-sort-of",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -8338,7 +8338,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/06/why-sandisk-and-western-digital-crashed-10-and-what-it-means-for-bitcoin",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -8352,7 +8352,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/06/jpyc-raises-usd38-million-series-b-led-by-major-japanese-logistics-firm-az-com-maruwa",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -8366,7 +8366,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/06/bitcoin-ether-benefit-as-traders-seek-safety-of-largest-tokens",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -9100,6 +9100,110 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260807-coldcard-fallout-shows-up-on-35a7d315",
+      "at": "2026-08-07",
+      "scannedAt": "2026-08-07T09:28:46.456Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Coldcard fallout shows up onchain as 210,000 bitcoin leaves old wallets",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/07/coldcard-fallout-shows-up-onchain-as-210-000-bitcoin-leaves-old-wallets",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260807-crypto-market-maker-wintermu-20c53e86",
+      "at": "2026-08-07",
+      "scannedAt": "2026-08-07T09:28:46.456Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "Crypto market maker Wintermute lands SEC approval to trade equities and ETF blocks",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/07/wintermute-gains-u-s-broker-dealer-status-in-wall-street-push",
+      "status": "open",
+      "tags": [
+        "wrappers-etf"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260807-cleanspark-misses-wall-stree-160c2ec4",
+      "at": "2026-08-07",
+      "scannedAt": "2026-08-07T09:28:46.456Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "CleanSpark misses Wall Street revenue estimates as shares sink",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/cleanspark-wall-street-revenue-estimates-shares-sink?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260807-stripe-owned-bridge-joins-eu-1681d147",
+      "at": "2026-08-07",
+      "scannedAt": "2026-08-07T09:28:46.456Z",
+      "lane": "bridges-liquidity",
+      "kind": "narrative",
+      "what": "Stripe-owned Bridge joins EU MiCA register after Luxembourg approval",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/bridge-mica-stablecoin-issuer-esma-register?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260807-clarity-act-delay-gives-asia-e770b7a6",
+      "at": "2026-08-07",
+      "scannedAt": "2026-08-07T09:28:46.456Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "CLARITY Act delay gives Asian financial hubs an opening: First Digital CEO",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/clarity-act-delay-asian-crypto-hubs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [
+        "clarity-policy"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260807-coldcard-exploit-pushes-july-f10abb19",
+      "at": "2026-08-07",
+      "scannedAt": "2026-08-07T09:28:46.456Z",
+      "lane": "failures-rugs",
+      "kind": "exploit",
+      "what": "Coldcard exploit pushes July losses to $247M as second-worst month of 2026",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/coldcard-exploit-july-second-worst-month-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260807-senate-punts-clarity-act-vot-dc305192",
+      "at": "2026-08-07",
+      "scannedAt": "2026-08-07T09:28:46.456Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "Senate Punts Clarity Act Vote to September as Democrats Hold Out",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375082/senate-punts-clarity-act-vote-to-september-as-democrats-hold-out",
+      "status": "open",
+      "tags": [
+        "clarity-policy"
+      ],
+      "watcher": true
     }
   ],
   "angles": [
@@ -9352,8 +9456,8 @@
     },
     {
       "id": "ang-watch-wrappers-etf",
-      "at": "2026-08-07T00:20:47.249Z",
-      "thesis": "Watcher cluster [wrappers-etf]: 2 related receipts in ~7d across capital-flows, failures-rugs.",
+      "at": "2026-08-07T09:28:46.456Z",
+      "thesis": "Watcher cluster [wrappers-etf]: 2 related receipts in ~7d across capital-flows, regulation.",
       "voiceHook": "Pattern forming: wrappers etf.",
       "signalIds": [
         "sig-20260728-ms-eth-sol-etp",
@@ -9372,15 +9476,15 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for wrappers-etf: dates + sources",
-      "expiresAt": "2026-08-11T00:20:47.249Z",
+      "expiresAt": "2026-08-11T09:28:46.456Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
     },
     {
       "id": "ang-watch-clarity-policy",
-      "at": "2026-08-07T05:09:32.326Z",
-      "thesis": "Watcher cluster [clarity-policy]: 3 related receipts in ~7d across regulation.",
+      "at": "2026-08-07T09:28:46.456Z",
+      "thesis": "Watcher cluster [clarity-policy]: 5 related receipts in ~7d across regulation.",
       "voiceHook": "Pattern forming: clarity policy.",
       "signalIds": [
         "sig-20260728-clarity-shelved",
@@ -9398,7 +9502,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for clarity-policy: dates + sources",
-      "expiresAt": "2026-08-11T05:09:32.326Z",
+      "expiresAt": "2026-08-11T09:28:46.456Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -9686,14 +9790,25 @@
     },
     {
       "date": "2026-08-07",
-      "at": "2026-08-07T08:04:40.803Z",
-      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-07T09:28:46.456Z",
+      "note": "Watcher: +7 signals, spikes=0, patternPings=2.",
       "signalIdsAdded": [
-        "sig-20260807-ethereum-staking-token-weeth-a8c170f4",
-        "sig-20260807-live-updates-bitcoin-flat-at-a052defd"
+        "sig-20260807-coldcard-fallout-shows-up-on-35a7d315",
+        "sig-20260807-crypto-market-maker-wintermu-20c53e86",
+        "sig-20260807-cleanspark-misses-wall-stree-160c2ec4",
+        "sig-20260807-stripe-owned-bridge-joins-eu-1681d147",
+        "sig-20260807-clarity-act-delay-gives-asia-e770b7a6",
+        "sig-20260807-coldcard-exploit-pushes-july-f10abb19",
+        "sig-20260807-senate-punts-clarity-act-vot-dc305192"
       ],
-      "angleIdsTouched": [],
-      "noteworthyIds": []
+      "angleIdsTouched": [
+        "ang-watch-wrappers-etf",
+        "ang-watch-clarity-policy"
+      ],
+      "noteworthyIds": [
+        "ang-watch-wrappers-etf",
+        "ang-watch-clarity-policy"
+      ]
     }
   ]
 }
