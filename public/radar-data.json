@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T22:02:21.014Z",
+  "updatedAt": "2026-08-07T23:01:16.656Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -10386,13 +10386,9 @@
     },
     {
       "date": "2026-08-07",
-      "at": "2026-08-07T22:02:21.014Z",
-      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [
-        "sig-20260807-trump-media-pulls-back-from--509fe3e8",
-        "sig-20260807-trump-backed-american-bitcoi-b6501144",
-        "sig-20260807-donald-trump-s-media-company-2a5a5a9b"
-      ],
+      "at": "2026-08-07T23:01:16.656Z",
+      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
