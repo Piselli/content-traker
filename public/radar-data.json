@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T14:43:55.970Z",
+  "updatedAt": "2026-08-07T15:42:24.882Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -8002,7 +8002,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/bitcoin-red-team-reports-5k-findings-in-sweeping-security-audit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -8016,7 +8016,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/block-raises-2026-outlook-on-strong-quarter-says-ai-touches-nearly-all-code?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -8030,7 +8030,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/05/cashcat-jumps-120-in-a-week-as-robinhood-chain-tvl-hits-usd774-million",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -8044,7 +8044,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/policy/2026/08/05/here-are-the-possible-outcomes-for-clarity-right-now",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -9432,6 +9432,64 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260807-okx-s-rafique-doubts-clarity-1c5dbd10",
+      "at": "2026-08-07",
+      "scannedAt": "2026-08-07T15:42:24.882Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "OKX's Rafique doubts Clarity Act will pass, warns optimism is already priced into bitcoin",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/policy/2026/08/04/okx-s-rafique-doubts-clarity-act-will-pass-warns-optimism-is-already-priced-into-bitcoin",
+      "status": "open",
+      "tags": [
+        "clarity-policy"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260807-how-a-five-second-trick-let--031bdc3c",
+      "at": "2026-08-07",
+      "scannedAt": "2026-08-07T15:42:24.882Z",
+      "lane": "failures-rugs",
+      "kind": "exploit",
+      "what": "How a five-second trick let traders drain millions from Polymarket",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/07/how-a-five-second-trick-let-traders-drain-millions-from-polymarket",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260807-crypto-biz-crypto-s-biggest--8c37a5b9",
+      "at": "2026-08-07",
+      "scannedAt": "2026-08-07T15:42:24.882Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Crypto Biz: Crypto’s biggest business is starting to look a lot like banking",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/crypto-biz-crypto-business-converges-traditional-banking?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260807-bitcoin-wallet-dormant-since-bb424e16",
+      "at": "2026-08-07",
+      "scannedAt": "2026-08-07T15:42:24.882Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin Wallet Dormant Since 2011 Moves Millions in BTC",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375114/bitcoin-wallet-dormant-since-2011-moves-millions-btc",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -9711,8 +9769,8 @@
     },
     {
       "id": "ang-watch-clarity-policy",
-      "at": "2026-08-07T14:43:55.970Z",
-      "thesis": "Watcher cluster [clarity-policy]: 7 related receipts in ~7d across regulation.",
+      "at": "2026-08-07T15:42:24.882Z",
+      "thesis": "Watcher cluster [clarity-policy]: 8 related receipts in ~7d across regulation.",
       "voiceHook": "Pattern forming: clarity policy.",
       "signalIds": [
         "sig-20260728-clarity-shelved",
@@ -9730,7 +9788,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for clarity-policy: dates + sources",
-      "expiresAt": "2026-08-11T14:43:55.970Z",
+      "expiresAt": "2026-08-11T15:42:24.882Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -10018,11 +10076,13 @@
     },
     {
       "date": "2026-08-07",
-      "at": "2026-08-07T14:43:55.970Z",
-      "note": "Watcher: +2 signals, spikes=0, patternPings=1.",
+      "at": "2026-08-07T15:42:24.882Z",
+      "note": "Watcher: +4 signals, spikes=0, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260807-a-part-of-ftx-survived-and-i-40191ad7",
-        "sig-20260807-russia-cracks-down-on-unlice-51fc4ee0"
+        "sig-20260807-okx-s-rafique-doubts-clarity-1c5dbd10",
+        "sig-20260807-how-a-five-second-trick-let--031bdc3c",
+        "sig-20260807-crypto-biz-crypto-s-biggest--8c37a5b9",
+        "sig-20260807-bitcoin-wallet-dormant-since-bb424e16"
       ],
       "angleIdsTouched": [
         "ang-watch-clarity-policy"
