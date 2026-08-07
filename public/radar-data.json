@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T09:28:46.456Z",
+  "updatedAt": "2026-08-07T10:25:19.949Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -9790,25 +9790,11 @@
     },
     {
       "date": "2026-08-07",
-      "at": "2026-08-07T09:28:46.456Z",
-      "note": "Watcher: +7 signals, spikes=0, patternPings=2.",
-      "signalIdsAdded": [
-        "sig-20260807-coldcard-fallout-shows-up-on-35a7d315",
-        "sig-20260807-crypto-market-maker-wintermu-20c53e86",
-        "sig-20260807-cleanspark-misses-wall-stree-160c2ec4",
-        "sig-20260807-stripe-owned-bridge-joins-eu-1681d147",
-        "sig-20260807-clarity-act-delay-gives-asia-e770b7a6",
-        "sig-20260807-coldcard-exploit-pushes-july-f10abb19",
-        "sig-20260807-senate-punts-clarity-act-vot-dc305192"
-      ],
-      "angleIdsTouched": [
-        "ang-watch-wrappers-etf",
-        "ang-watch-clarity-policy"
-      ],
-      "noteworthyIds": [
-        "ang-watch-wrappers-etf",
-        "ang-watch-clarity-policy"
-      ]
+      "at": "2026-08-07T10:25:19.949Z",
+      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [],
+      "angleIdsTouched": [],
+      "noteworthyIds": []
     }
   ]
 }
