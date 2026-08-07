@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T15:42:24.882Z",
+  "updatedAt": "2026-08-07T16:39:47.310Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -9490,6 +9490,62 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260807-bybit-sues-north-korea-and-l-aabed7ed",
+      "at": "2026-08-07",
+      "scannedAt": "2026-08-07T16:39:47.310Z",
+      "lane": "failures-rugs",
+      "kind": "exploit",
+      "what": "Bybit sues North Korea and Lazarus Group over $1.5 billion hack, secures asset freeze",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/policy/2026/08/07/bybit-sues-north-korea-and-lazarus-group-over-usd1-5-billion-hack-secures-asset-freeze",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260807-hackers-use-bnb-chain-to-spr-6ee402d4",
+      "at": "2026-08-07",
+      "scannedAt": "2026-08-07T16:39:47.310Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Hackers Use BNB Chain to Spread Malware Through Fake CAPTCHAs",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375133/hackers-use-bnb-chain-spread-malware-fake-captchas",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260807-bitcoin-still-in-death-cross-34ec150e",
+      "at": "2026-08-07",
+      "scannedAt": "2026-08-07T16:39:47.310Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin Still in Death Cross as Jobs Miss Cuts Rate-Hike Odds",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375118/bitcoin-price-death-cross-jobs-miss-rate-hike-odds",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260807-openai-s-first-device-is-a-3-05611e75",
+      "at": "2026-08-07",
+      "scannedAt": "2026-08-07T16:39:47.310Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "OpenAI's First Device Is a $300-Plus Doughnut-Shaped Speaker: Report",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375117/openais-first-device-is-a-300-plus-doughnut-shaped-speaker-report",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -10076,20 +10132,16 @@
     },
     {
       "date": "2026-08-07",
-      "at": "2026-08-07T15:42:24.882Z",
-      "note": "Watcher: +4 signals, spikes=0, patternPings=1.",
+      "at": "2026-08-07T16:39:47.310Z",
+      "note": "Watcher: +4 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260807-okx-s-rafique-doubts-clarity-1c5dbd10",
-        "sig-20260807-how-a-five-second-trick-let--031bdc3c",
-        "sig-20260807-crypto-biz-crypto-s-biggest--8c37a5b9",
-        "sig-20260807-bitcoin-wallet-dormant-since-bb424e16"
+        "sig-20260807-bybit-sues-north-korea-and-l-aabed7ed",
+        "sig-20260807-hackers-use-bnb-chain-to-spr-6ee402d4",
+        "sig-20260807-bitcoin-still-in-death-cross-34ec150e",
+        "sig-20260807-openai-s-first-device-is-a-3-05611e75"
       ],
-      "angleIdsTouched": [
-        "ang-watch-clarity-policy"
-      ],
-      "noteworthyIds": [
-        "ang-watch-clarity-policy"
-      ]
+      "angleIdsTouched": [],
+      "noteworthyIds": []
     }
   ]
 }
