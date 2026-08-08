@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T17:28:46.472Z",
+  "updatedAt": "2026-08-08T17:57:22.194Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -9273,7 +9273,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/daybook-us/2026/08/07/bitcoin-s-volatility-has-nearly-disappeared-the-risk-hasn-t",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -9287,7 +9287,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/markets/binance-bitcoin-volume-ratio-hits-record-as-futures-outweigh-spot-eight-times-over?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -10004,6 +10004,34 @@
         "clarity-policy"
       ],
       "watcher": true
+    },
+    {
+      "id": "sig-20260808-hardware-wallet-sales-in-rus-bbe631d0",
+      "at": "2026-08-08",
+      "scannedAt": "2026-08-08T17:57:22.194Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Hardware wallet sales in Russia more than double as new crypto rules near",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/08/hardware-wallet-sales-in-russia-more-than-double-as-new-crypto-rules-near",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260808-bitcoin-red-team-says-ai-is--6dc96b59",
+      "at": "2026-08-08",
+      "scannedAt": "2026-08-08T17:57:22.194Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin Red Team Says AI Is Finding Critical Exploits Across Core Projects",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375169/bitcoin-red-team-ai-finding-critical-vulnerabilities",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -10598,9 +10626,12 @@
     },
     {
       "date": "2026-08-08",
-      "at": "2026-08-08T17:28:46.472Z",
-      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [],
+      "at": "2026-08-08T17:57:22.194Z",
+      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [
+        "sig-20260808-hardware-wallet-sales-in-rus-bbe631d0",
+        "sig-20260808-bitcoin-red-team-says-ai-is--6dc96b59"
+      ],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
