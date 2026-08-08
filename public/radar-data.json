@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T21:51:54.193Z",
+  "updatedAt": "2026-08-08T22:15:57.411Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -10654,11 +10654,9 @@
     },
     {
       "date": "2026-08-08",
-      "at": "2026-08-08T21:51:54.193Z",
-      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [
-        "sig-20260808-bitcoin-s-bip-110-enters-man-c859af69"
-      ],
+      "at": "2026-08-08T22:15:57.411Z",
+      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
