@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T12:22:26.845Z",
+  "updatedAt": "2026-08-08T13:24:10.817Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -9399,7 +9399,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375096/chinas-kimi-k3-broke-out-of-its-sandbox-to-look-up-test-answers",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -9886,6 +9886,22 @@
         "clarity-policy"
       ],
       "watcher": true
+    },
+    {
+      "id": "sig-20260808-why-trillion-dollar-asset-ma-4ec144ec",
+      "at": "2026-08-08",
+      "scannedAt": "2026-08-08T13:24:10.817Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "Why trillion-dollar asset manager T. Rowe Price put memecoins in its crypto ETF",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/06/why-trillion-dollar-asset-manager-t-rowe-price-put-memecoins-in-its-crypto-etf",
+      "status": "open",
+      "tags": [
+        "wrappers-etf"
+      ],
+      "watcher": true
     }
   ],
   "angles": [
@@ -10138,8 +10154,8 @@
     },
     {
       "id": "ang-watch-wrappers-etf",
-      "at": "2026-08-07T09:28:46.456Z",
-      "thesis": "Watcher cluster [wrappers-etf]: 2 related receipts in ~7d across capital-flows, regulation.",
+      "at": "2026-08-08T13:24:10.817Z",
+      "thesis": "Watcher cluster [wrappers-etf]: 3 related receipts in ~7d across capital-flows, regulation.",
       "voiceHook": "Pattern forming: wrappers etf.",
       "signalIds": [
         "sig-20260728-ms-eth-sol-etp",
@@ -10158,7 +10174,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for wrappers-etf: dates + sources",
-      "expiresAt": "2026-08-11T09:28:46.456Z",
+      "expiresAt": "2026-08-12T13:24:10.817Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -10480,11 +10496,17 @@
     },
     {
       "date": "2026-08-08",
-      "at": "2026-08-08T12:22:26.845Z",
-      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [],
-      "angleIdsTouched": [],
-      "noteworthyIds": []
+      "at": "2026-08-08T13:24:10.817Z",
+      "note": "Watcher: +1 signals, spikes=0, patternPings=1.",
+      "signalIdsAdded": [
+        "sig-20260808-why-trillion-dollar-asset-ma-4ec144ec"
+      ],
+      "angleIdsTouched": [
+        "ang-watch-wrappers-etf"
+      ],
+      "noteworthyIds": [
+        "ang-watch-wrappers-etf"
+      ]
     }
   ]
 }
