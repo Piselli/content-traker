@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T15:17:52.797Z",
+  "updatedAt": "2026-08-08T15:52:40.777Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -9329,7 +9329,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/magazine/fierce-backlash-to-ethereums-latest-staking-proposal-eip-8363?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -9343,7 +9343,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/features/bitcoiners-turn-to-dice-throws-as-self-custody-setups-are-re-evaluated?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -9944,6 +9944,36 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260808-brazil-s-central-bank-orders-ef2d0177",
+      "at": "2026-08-08",
+      "scannedAt": "2026-08-08T15:52:40.777Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Brazil's central bank orders exchanges to delay large crypto transfers abroad",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/08/brazil-s-central-bank-orders-exchanges-to-delay-large-crypto-transfers-abroad",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260808-us-senate-to-vote-on-advanci-bf9129c8",
+      "at": "2026-08-08",
+      "scannedAt": "2026-08-08T15:52:40.777Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "US Senate to vote on advancing CLARITY Act in September after Thune files cloture",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/us-senate-clarity-act-september-vote-thune-cloture?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [
+        "clarity-policy"
+      ],
+      "watcher": true
     }
   ],
   "angles": [
@@ -10223,7 +10253,7 @@
     },
     {
       "id": "ang-watch-clarity-policy",
-      "at": "2026-08-08T10:00:06.325Z",
+      "at": "2026-08-08T15:52:40.777Z",
       "thesis": "Watcher cluster [clarity-policy]: 8 related receipts in ~7d across regulation.",
       "voiceHook": "Pattern forming: clarity policy.",
       "signalIds": [
@@ -10242,7 +10272,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for clarity-policy: dates + sources",
-      "expiresAt": "2026-08-12T10:00:06.325Z",
+      "expiresAt": "2026-08-12T15:52:40.777Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -10538,11 +10568,18 @@
     },
     {
       "date": "2026-08-08",
-      "at": "2026-08-08T15:17:52.797Z",
-      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [],
-      "angleIdsTouched": [],
-      "noteworthyIds": []
+      "at": "2026-08-08T15:52:40.777Z",
+      "note": "Watcher: +2 signals, spikes=0, patternPings=1.",
+      "signalIdsAdded": [
+        "sig-20260808-brazil-s-central-bank-orders-ef2d0177",
+        "sig-20260808-us-senate-to-vote-on-advanci-bf9129c8"
+      ],
+      "angleIdsTouched": [
+        "ang-watch-clarity-policy"
+      ],
+      "noteworthyIds": [
+        "ang-watch-clarity-policy"
+      ]
     }
   ]
 }
