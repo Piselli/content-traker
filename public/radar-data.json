@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T16:18:30.538Z",
+  "updatedAt": "2026-08-08T16:59:08.263Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -9301,7 +9301,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375093/morning-minute-metamask-hands-ai-agents-a-wallet",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -9315,7 +9315,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/07/the-u-s-lost-23-000-jobs-in-july-far-shy-of-forecasts-for-a-gain-of-80-000",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -9974,6 +9974,36 @@
         "clarity-policy"
       ],
       "watcher": true
+    },
+    {
+      "id": "sig-20260808-us-spot-bitcoin-etfs-post-be-b93577c8",
+      "at": "2026-08-08",
+      "scannedAt": "2026-08-08T16:59:08.263Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "US spot Bitcoin ETFs post best week since April with $1B inflows",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/us-bitcoin-etfs-best-weekly-inflows-april-coldcard-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260808-senate-keeps-clarity-act-ali-f6c46090",
+      "at": "2026-08-08",
+      "scannedAt": "2026-08-08T16:59:08.263Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "Senate Keeps Clarity Act Alive With Crypto Bill Vote Set for September",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375174/senate-keeps-clarity-act-alive-with-crypto-bill-vote-set-for-september",
+      "status": "open",
+      "tags": [
+        "clarity-policy"
+      ],
+      "watcher": true
     }
   ],
   "angles": [
@@ -10253,8 +10283,8 @@
     },
     {
       "id": "ang-watch-clarity-policy",
-      "at": "2026-08-08T15:52:40.777Z",
-      "thesis": "Watcher cluster [clarity-policy]: 8 related receipts in ~7d across regulation.",
+      "at": "2026-08-08T16:59:08.263Z",
+      "thesis": "Watcher cluster [clarity-policy]: 9 related receipts in ~7d across regulation.",
       "voiceHook": "Pattern forming: clarity policy.",
       "signalIds": [
         "sig-20260728-clarity-shelved",
@@ -10272,7 +10302,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for clarity-policy: dates + sources",
-      "expiresAt": "2026-08-12T15:52:40.777Z",
+      "expiresAt": "2026-08-12T16:59:08.263Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -10568,11 +10598,18 @@
     },
     {
       "date": "2026-08-08",
-      "at": "2026-08-08T16:18:30.538Z",
-      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [],
-      "angleIdsTouched": [],
-      "noteworthyIds": []
+      "at": "2026-08-08T16:59:08.263Z",
+      "note": "Watcher: +2 signals, spikes=0, patternPings=1.",
+      "signalIdsAdded": [
+        "sig-20260808-us-spot-bitcoin-etfs-post-be-b93577c8",
+        "sig-20260808-senate-keeps-clarity-act-ali-f6c46090"
+      ],
+      "angleIdsTouched": [
+        "ang-watch-clarity-policy"
+      ],
+      "noteworthyIds": [
+        "ang-watch-clarity-policy"
+      ]
     }
   ]
 }
