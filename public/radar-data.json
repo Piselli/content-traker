@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T05:13:01.829Z",
+  "updatedAt": "2026-08-08T06:02:33.555Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -10436,11 +10436,9 @@
     },
     {
       "date": "2026-08-08",
-      "at": "2026-08-08T05:13:01.829Z",
-      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [
-        "sig-20260808-us-court-backs-bybit-s-bid-t-b0016da8"
-      ],
+      "at": "2026-08-08T06:02:33.555Z",
+      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
