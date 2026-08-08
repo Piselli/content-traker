@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T20:15:36.314Z",
+  "updatedAt": "2026-08-08T20:54:49.025Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -10640,11 +10640,9 @@
     },
     {
       "date": "2026-08-08",
-      "at": "2026-08-08T20:15:36.314Z",
-      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [
-        "sig-20260808-bitcoin-hits-block-961-632-a-46aef823"
-      ],
+      "at": "2026-08-08T20:54:49.025Z",
+      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
