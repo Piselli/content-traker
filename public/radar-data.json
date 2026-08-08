@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T19:49:21.343Z",
+  "updatedAt": "2026-08-08T20:15:36.314Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -9259,7 +9259,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/tech/2026/08/06/why-bitcoin-s-bip-110-refuses-to-die-despite-near-zero-miner-support",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -10032,6 +10032,20 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260808-bitcoin-hits-block-961-632-a-46aef823",
+      "at": "2026-08-08",
+      "scannedAt": "2026-08-08T20:15:36.314Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin hits block 961,632 as the controversial BIP-110 soft fork attempt begins",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/tech/2026/08/07/frame-bitcoin-s-bip-110-enters-mandatory-signaling-with-less-than-3-miner-support",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -10626,9 +10640,11 @@
     },
     {
       "date": "2026-08-08",
-      "at": "2026-08-08T19:49:21.343Z",
-      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [],
+      "at": "2026-08-08T20:15:36.314Z",
+      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [
+        "sig-20260808-bitcoin-hits-block-961-632-a-46aef823"
+      ],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
