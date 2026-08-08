@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T10:00:06.325Z",
+  "updatedAt": "2026-08-08T10:35:02.985Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -10480,17 +10480,11 @@
     },
     {
       "date": "2026-08-08",
-      "at": "2026-08-08T10:00:06.325Z",
-      "note": "Watcher: +1 signals, spikes=0, patternPings=1.",
-      "signalIdsAdded": [
-        "sig-20260808-u-s-senate-opens-first-stage-11eb7895"
-      ],
-      "angleIdsTouched": [
-        "ang-watch-clarity-policy"
-      ],
-      "noteworthyIds": [
-        "ang-watch-clarity-policy"
-      ]
+      "at": "2026-08-08T10:35:02.985Z",
+      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [],
+      "angleIdsTouched": [],
+      "noteworthyIds": []
     }
   ]
 }
