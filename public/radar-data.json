@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T16:59:08.263Z",
+  "updatedAt": "2026-08-08T17:28:46.472Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -10598,18 +10598,11 @@
     },
     {
       "date": "2026-08-08",
-      "at": "2026-08-08T16:59:08.263Z",
-      "note": "Watcher: +2 signals, spikes=0, patternPings=1.",
-      "signalIdsAdded": [
-        "sig-20260808-us-spot-bitcoin-etfs-post-be-b93577c8",
-        "sig-20260808-senate-keeps-clarity-act-ali-f6c46090"
-      ],
-      "angleIdsTouched": [
-        "ang-watch-clarity-policy"
-      ],
-      "noteworthyIds": [
-        "ang-watch-clarity-policy"
-      ]
+      "at": "2026-08-08T17:28:46.472Z",
+      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [],
+      "angleIdsTouched": [],
+      "noteworthyIds": []
     }
   ]
 }
