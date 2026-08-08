@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T02:48:16.438Z",
+  "updatedAt": "2026-08-08T04:02:42.932Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -9473,7 +9473,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/crypto-biz-crypto-business-converges-traditional-banking?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -9811,6 +9811,20 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/tech/2026/08/08/bitcoin-holders-risk-losing-real-btc-if-they-sell-coins-from-bip-110-fork-says-developer",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260808-new-xrp-ledger-amendments-ta-5e46cd3a",
+      "at": "2026-08-08",
+      "scannedAt": "2026-08-08T04:02:42.932Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "New XRP Ledger amendments target $530 million in tokenized Wall Street assets",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/tech/2026/08/07/new-xrp-ledger-amendments-target-usd530-million-in-tokenized-wall-street-assets",
       "status": "open",
       "tags": [],
       "watcher": true
@@ -10408,10 +10422,10 @@
     },
     {
       "date": "2026-08-08",
-      "at": "2026-08-08T02:48:16.438Z",
+      "at": "2026-08-08T04:02:42.932Z",
       "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260808-bitcoin-holders-risk-losing--c1983b73"
+        "sig-20260808-new-xrp-ledger-amendments-ta-5e46cd3a"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
