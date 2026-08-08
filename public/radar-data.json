@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T06:02:33.555Z",
+  "updatedAt": "2026-08-08T07:26:34.717Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -9443,7 +9443,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/policy/2026/08/04/okx-s-rafique-doubts-clarity-act-will-pass-warns-optimism-is-already-priced-into-bitcoin",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "clarity-policy"
       ],
@@ -9839,6 +9839,20 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/bybit-us-court-trace-funds-north-korea-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260808-domestic-stablecoins-could-b-33d9b0e4",
+      "at": "2026-08-08",
+      "scannedAt": "2026-08-08T07:26:34.717Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Domestic stablecoins could boost demand for dollar-backed tokens: IMF",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/imf-domestic-stablecoins-dollar-token-demand?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "status": "open",
       "tags": [],
       "watcher": true
@@ -10436,9 +10450,11 @@
     },
     {
       "date": "2026-08-08",
-      "at": "2026-08-08T06:02:33.555Z",
-      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [],
+      "at": "2026-08-08T07:26:34.717Z",
+      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [
+        "sig-20260808-domestic-stablecoins-could-b-33d9b0e4"
+      ],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
