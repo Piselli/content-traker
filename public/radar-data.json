@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T15:52:40.777Z",
+  "updatedAt": "2026-08-08T16:18:30.538Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -10568,18 +10568,11 @@
     },
     {
       "date": "2026-08-08",
-      "at": "2026-08-08T15:52:40.777Z",
-      "note": "Watcher: +2 signals, spikes=0, patternPings=1.",
-      "signalIdsAdded": [
-        "sig-20260808-brazil-s-central-bank-orders-ef2d0177",
-        "sig-20260808-us-senate-to-vote-on-advanci-bf9129c8"
-      ],
-      "angleIdsTouched": [
-        "ang-watch-clarity-policy"
-      ],
-      "noteworthyIds": [
-        "ang-watch-clarity-policy"
-      ]
+      "at": "2026-08-08T16:18:30.538Z",
+      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [],
+      "angleIdsTouched": [],
+      "noteworthyIds": []
     }
   ]
 }
