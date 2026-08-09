@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T22:17:52.427Z",
+  "updatedAt": "2026-08-09T22:56:25.713Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -2572,7 +2572,7 @@
       "why": "Consumer AI agents can spend/trade crypto from chat (x402/PayBox) — same rail thesis as Circle Agent Stack.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/moonpay-launches-ai-payment-vault-for-chatgpt-and-claude-with-crypto-transaction-support?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "stables-ai",
         "agent-payments"
@@ -2729,7 +2729,7 @@
       "why": "Consumer AI agents can spend/trade crypto from chat (x402/PayBox) — same rail thesis as Circle Agent Stack.",
       "source": "decrypt",
       "url": "https://decrypt.co/374687/moonpays-paybox-crypto-wallet-claude-chatgpt",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "stables-ai",
         "agent-payments"
@@ -2874,7 +2874,7 @@
       "why": "Campaign gravity, not just AI wallet narrative: buy installs/connectors with USDC range that screenshots well. Pairs with agent-payments rail thesis.",
       "source": "MoonPay / X",
       "url": "https://x.com/moonpay/status/2082459328208839074",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "stables-ai",
         "agent-payments",
@@ -3374,7 +3374,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "thedefiant",
       "url": "https://thedefiant.io/news/infrastructure/lightning-labs-launches-site-for-l402-bitcoin-agent-payments",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "stables-ai"
       ],
@@ -4392,7 +4392,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/374784/claude-hacked-three-companies-in-internal-testing-anthropic",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "stables-ai"
       ],
@@ -5964,7 +5964,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/374871/former-fbi-agent-charged-stealing-crypto-using-chatgpt-advice",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "stables-ai"
       ],
@@ -6850,7 +6850,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/374906/alibaba-best-ai-model-qwen-free-claude-chatgpt",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "stables-ai"
       ],
@@ -6992,7 +6992,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/374930/ai-enthusiast-bugged-toddler-sleepover-claude",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "stables-ai"
       ],
@@ -10792,7 +10792,7 @@
     },
     {
       "date": "2026-08-09",
-      "at": "2026-08-09T22:17:52.427Z",
+      "at": "2026-08-09T22:56:25.713Z",
       "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [],
       "angleIdsTouched": [],
