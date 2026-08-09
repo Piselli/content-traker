@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T14:58:33.243Z",
+  "updatedAt": "2026-08-09T15:29:02.775Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -9141,7 +9141,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/cleanspark-wall-street-revenue-estimates-shares-sink?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -10146,6 +10146,22 @@
         "wrappers-etf"
       ],
       "watcher": true
+    },
+    {
+      "id": "sig-20260809-hyperliquid-s-rwa-perps-boom-358b7529",
+      "at": "2026-08-09",
+      "scannedAt": "2026-08-09T15:29:02.775Z",
+      "lane": "rwa-compliance",
+      "kind": "narrative",
+      "what": "Hyperliquid’s RWA perps boom is eating into the revenue that backs HYPE",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/09/hyperliquid-s-rwa-perps-boom-is-eating-into-the-revenue-that-backs-hype",
+      "status": "open",
+      "tags": [
+        "hl-perps-rwa"
+      ],
+      "watcher": true
     }
   ],
   "angles": [
@@ -10369,8 +10385,8 @@
     },
     {
       "id": "ang-watch-hl-perps-rwa",
-      "at": "2026-08-06T14:42:32.764Z",
-      "thesis": "Watcher cluster [hl-perps-rwa]: 4 related receipts in ~7d across perps-derivatives, narrative-rotation, capital-flows, rwa-compliance.",
+      "at": "2026-08-09T15:29:02.775Z",
+      "thesis": "Watcher cluster [hl-perps-rwa]: 3 related receipts in ~7d across narrative-rotation, capital-flows, rwa-compliance.",
       "voiceHook": "Pattern forming: hl perps rwa.",
       "signalIds": [
         "sig-20260728-kospi-riskoff",
@@ -10391,7 +10407,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for hl-perps-rwa: dates + sources",
-      "expiresAt": "2026-08-10T14:42:32.764Z",
+      "expiresAt": "2026-08-13T15:29:02.775Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -10748,16 +10764,16 @@
     },
     {
       "date": "2026-08-09",
-      "at": "2026-08-09T14:58:33.243Z",
+      "at": "2026-08-09T15:29:02.775Z",
       "note": "Watcher: +1 signals, spikes=0, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260809-bitcoin-investors-pour-853-m-5d150598"
+        "sig-20260809-hyperliquid-s-rwa-perps-boom-358b7529"
       ],
       "angleIdsTouched": [
-        "ang-watch-wrappers-etf"
+        "ang-watch-hl-perps-rwa"
       ],
       "noteworthyIds": [
-        "ang-watch-wrappers-etf"
+        "ang-watch-hl-perps-rwa"
       ]
     }
   ]
