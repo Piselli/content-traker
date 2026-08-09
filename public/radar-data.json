@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T09:08:06.303Z",
+  "updatedAt": "2026-08-09T10:02:09.692Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -9199,7 +9199,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375082/senate-punts-clarity-act-vote-to-september-as-democrats-hold-out",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "clarity-policy"
       ],
@@ -10088,6 +10088,20 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260809-brazil-targets-crypto-fraud--7ec42d75",
+      "at": "2026-08-09",
+      "scannedAt": "2026-08-09T10:02:09.692Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Brazil targets crypto fraud with up to 24-hour transfer hold",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/brazil-targets-crypto-fraud-with-up-to-24-hour-transfer-hold?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -10690,9 +10704,11 @@
     },
     {
       "date": "2026-08-09",
-      "at": "2026-08-09T09:08:06.303Z",
-      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [],
+      "at": "2026-08-09T10:02:09.692Z",
+      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [
+        "sig-20260809-brazil-targets-crypto-fraud--7ec42d75"
+      ],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
