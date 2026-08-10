@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T21:08:19.349Z",
+  "updatedAt": "2026-08-10T22:03:42.727Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -10998,6 +10998,48 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260810-two-prediction-markets-shut--05bd7f27",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T22:03:42.727Z",
+      "lane": "cex-tradfi",
+      "kind": "metric",
+      "what": "Two Prediction Markets Shut Down Hours Apart as Kalshi and Polymarket Take 93% of Volume",
+      "why": "Watcher spike: strong failure/shipping/capital headline — check for take.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/defi/two-prediction-markets-shut-down-hours-apart-as-kalshi-and-polymarket-take-93-of-volume",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260810-trump-media-s-bitcoin-holdin-cdedcc97",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T22:03:42.727Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Trump Media’s bitcoin holdings shrink as crypto losses hit $361 million",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/10/trump-media-s-bitcoin-holdings-shrink-as-crypto-losses-hit-usd361-million",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260810-vitalik-buterin-says-ethereu-ff2d36e6",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T22:03:42.727Z",
+      "lane": "l1-l2",
+      "kind": "narrative",
+      "what": "Vitalik Buterin Says Ethereum Is Betting Its Future on Quantum Security and AI",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375285/vitalik-buterin-ethereum-betting-future-quantum-ai",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -11608,15 +11650,17 @@
     },
     {
       "date": "2026-08-10",
-      "at": "2026-08-10T21:08:19.349Z",
-      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-10T22:03:42.727Z",
+      "note": "Watcher: +3 signals, spikes=1, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260810-bitwise-s-rasmussen-circle-i-383fc17f",
-        "sig-20260810-judge-stays-cftc-s-case-agai-d547ae67",
-        "sig-20260810-bitcoin-atms-pulled-in-austr-787e9945"
+        "sig-20260810-two-prediction-markets-shut--05bd7f27",
+        "sig-20260810-trump-media-s-bitcoin-holdin-cdedcc97",
+        "sig-20260810-vitalik-buterin-says-ethereu-ff2d36e6"
       ],
       "angleIdsTouched": [],
-      "noteworthyIds": []
+      "noteworthyIds": [
+        "sig-20260810-two-prediction-markets-shut--05bd7f27"
+      ]
     }
   ]
 }
