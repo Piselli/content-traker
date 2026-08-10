@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T12:40:35.947Z",
+  "updatedAt": "2026-08-10T14:11:01.300Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -9811,7 +9811,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/tech/2026/08/08/bitcoin-holders-risk-losing-real-btc-if-they-sell-coins-from-bip-110-fork-says-developer",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -9825,7 +9825,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/tech/2026/08/07/new-xrp-ledger-amendments-target-usd530-million-in-tokenized-wall-street-assets",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -9839,7 +9839,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/bybit-us-court-trace-funds-north-korea-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -10187,7 +10187,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375177/bitcoin-anti-spam-fork-splutters-halt-mining-just-two-blocks",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -10583,6 +10583,62 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375192/bitcoin-etfs-draw-854m-over-five-days-as-rate-hike-bets-fade",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260810-bitmine-s-eth-buying-slows-a-36178443",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T14:11:01.300Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitmine’s ETH buying slows as Tom Lee's firm shifts capital to share buybacks",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/10/bitmine-s-eth-buying-slows-as-tom-lee-s-firm-shifts-capital-to-share-buybacks",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260810-solana-gets-its-first-strate-ccd45045",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T14:11:01.300Z",
+      "lane": "l1-l2",
+      "kind": "narrative",
+      "what": "Solana gets its first Strategy STRC product through Solstice Finance",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/10/solstice-rolls-out-strategy-s-strc-preferred-stock-income-to-solana",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260810-bitdeer-increased-bitcoin-mi-bb43457d",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T14:11:01.300Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitdeer increased Bitcoin mining output by nearly fivefold in Q2",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/bitdeer-bitcoin-mining-output-fivefold-q2?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260810-strategy-turns-1-690-btc-int-3e9429ef",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T14:11:01.300Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Strategy turns 1,690 BTC into $108.6M STRC buyback",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/strategy-sells-1690-btc-buy-back-108-6-million-strc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "status": "open",
       "tags": [],
       "watcher": true
@@ -11196,14 +11252,13 @@
     },
     {
       "date": "2026-08-10",
-      "at": "2026-08-10T12:40:35.947Z",
-      "note": "Watcher: +5 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-10T14:11:01.300Z",
+      "note": "Watcher: +4 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260810-strategy-sells-1-690-bitcoin-0a984459",
-        "sig-20260810-tokenized-rwa-surge-to-4t-ma-004c2f8b",
-        "sig-20260810-morning-minute-bitcoin-etfs--254cf116",
-        "sig-20260810-strategy-sells-109m-in-bitco-12ac9fe2",
-        "sig-20260810-bitcoin-etfs-draw-854m-over--3dbc109b"
+        "sig-20260810-bitmine-s-eth-buying-slows-a-36178443",
+        "sig-20260810-solana-gets-its-first-strate-ccd45045",
+        "sig-20260810-bitdeer-increased-bitcoin-mi-bb43457d",
+        "sig-20260810-strategy-turns-1-690-btc-int-3e9429ef"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
