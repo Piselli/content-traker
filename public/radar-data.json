@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T10:55:56.479Z",
+  "updatedAt": "2026-08-10T11:41:24.990Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -9927,7 +9927,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/magazine/bitcoin-will-never-fall-below-60k-again-nansen-founder?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -9941,7 +9941,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375158/robinhood-crypto-two-wolves-robinhood-chain-rwa-meme-coins",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -9955,7 +9955,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/08/brazil-s-central-bank-orders-exchanges-to-delay-large-crypto-transfers-abroad",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -9969,7 +9969,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/us-senate-clarity-act-september-vote-thune-cloture?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "clarity-policy"
       ],
@@ -10457,6 +10457,62 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375189/standard-chartered-sees-4t-tokenization-driving-chainlink-to-200-by-2030",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260810-crypto-exchange-coinsbuy-los-0215d5b0",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T11:41:24.990Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Crypto exchange Coinsbuy loses $8 million in coordinated two-blockchain attack",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/10/crypto-exchange-coinsbuy-loses-usd8-million-in-coordinated-two-blockchain-attack",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260810-why-the-uk-financial-watchdo-c9893666",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T11:41:24.990Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Why the UK financial watchdog is drafting new rules for tokenized gold",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/10/why-the-uk-financial-watchdog-is-drafting-new-rules-for-tokenized-gold",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260810-bitcoin-s-bip-110-episode-is-bff2bb72",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T11:41:24.990Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin's BIP-110 episode is free-market capitalism in purest form",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/daybook-us/2026/08/10/bitcoin-s-bip-110-episode-is-free-market-capitalism-in-purest-form",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260810-markets-flip-for-fed-rate-hi-e75236ce",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T11:41:24.990Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Markets flip for Fed rate-hike pause into CPI: Five things to know in Bitcoin this week",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/markets-drop-september-rate-hike-bet-into-cpi-five-things-to-know-in-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "status": "open",
       "tags": [],
       "watcher": true
@@ -11070,13 +11126,13 @@
     },
     {
       "date": "2026-08-10",
-      "at": "2026-08-10T10:55:56.479Z",
+      "at": "2026-08-10T11:41:24.990Z",
       "note": "Watcher: +4 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260810-bitcoin-steadies-above-65-00-9b4306f7",
-        "sig-20260810-bitcoin-volatility-is-in-mel-7dd41609",
-        "sig-20260810-h100-becomes-europe-s-no-2-b-fadb93b2",
-        "sig-20260810-standard-chartered-sees-4t-t-9a158b03"
+        "sig-20260810-crypto-exchange-coinsbuy-los-0215d5b0",
+        "sig-20260810-why-the-uk-financial-watchdo-c9893666",
+        "sig-20260810-bitcoin-s-bip-110-episode-is-bff2bb72",
+        "sig-20260810-markets-flip-for-fed-rate-hi-e75236ce"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
