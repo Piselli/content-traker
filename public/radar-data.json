@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T09:54:08.512Z",
+  "updatedAt": "2026-08-10T10:55:56.479Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -9985,7 +9985,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/us-bitcoin-etfs-best-weekly-inflows-april-coldcard-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -9999,7 +9999,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375174/senate-keeps-clarity-act-alive-with-crypto-bill-vote-set-for-september",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "clarity-policy"
       ],
@@ -10015,7 +10015,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/08/hardware-wallet-sales-in-russia-more-than-double-as-new-crypto-rules-near",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -10029,7 +10029,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375169/bitcoin-red-team-ai-finding-critical-vulnerabilities",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -10401,6 +10401,62 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375180/bybit-sues-north-korea-over-1-5b-hack-wins-order-freezing-assets",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260810-bitcoin-steadies-above-65-00-9b4306f7",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T10:55:56.479Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin steadies above $65,000 as Iran-Oman deal talk eases Hormuz concerns, lifts risk assets",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/10/bitcoin-steadies-above-usd65-000-as-iran-oman-deal-talk-eases-hormuz-concerns-lifts-risk-assets",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260810-bitcoin-volatility-is-in-mel-7dd41609",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T10:55:56.479Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin volatility is in meltdown, but downside protection still commands a premium",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/10/bitcoin-volatility-is-in-meltdown-but-downside-protection-still-commands-a-premium",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260810-h100-becomes-europe-s-no-2-b-fadb93b2",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T10:55:56.479Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "H100 becomes Europe’s No. 2 Bitcoin treasury after 2,455 BTC deal",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/sweden-h100-bitcoin-treasury-btc-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260810-standard-chartered-sees-4t-t-9a158b03",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T10:55:56.479Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Standard Chartered Sees $4T Tokenization Driving Chainlink to $200 by 2030",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375189/standard-chartered-sees-4t-tokenization-driving-chainlink-to-200-by-2030",
       "status": "open",
       "tags": [],
       "watcher": true
@@ -11014,12 +11070,13 @@
     },
     {
       "date": "2026-08-10",
-      "at": "2026-08-10T09:54:08.512Z",
-      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-10T10:55:56.479Z",
+      "note": "Watcher: +4 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260810-a-rare-cme-shift-hedge-funds-ee387966",
-        "sig-20260810-u-s-cpi-inflation-securitize-3b8a2385",
-        "sig-20260810-bybit-sues-north-korea-over--3d0375a8"
+        "sig-20260810-bitcoin-steadies-above-65-00-9b4306f7",
+        "sig-20260810-bitcoin-volatility-is-in-mel-7dd41609",
+        "sig-20260810-h100-becomes-europe-s-no-2-b-fadb93b2",
+        "sig-20260810-standard-chartered-sees-4t-t-9a158b03"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
