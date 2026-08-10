@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T06:47:56.531Z",
+  "updatedAt": "2026-08-10T08:20:12.578Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -8867,7 +8867,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/policy/2026/08/06/senate-won-t-vote-on-crypto-clarity-act-before-its-summer-break",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "clarity-policy"
       ],
@@ -8883,7 +8883,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/us-senate-pushes-clarity-act-vote-to-september-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "clarity-policy"
       ],
@@ -8899,7 +8899,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/markets/mara-swings-to-q2-loss-as-bitcoins-slump-masks-higher-output?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -8983,7 +8983,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/07/bitcoin-wallet-dormant-since-2011-moves-usd3-2-million-toward-falconx-linked-address",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -10304,6 +10304,64 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260810-inside-stablecoin-firm-bvnk--c23091f9",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T08:20:12.578Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Inside stablecoin firm BVNK’s journey to a $1.8B acquisition by Mastercard",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/10/inside-stablecoin-firm-bvnk-s-journey-to-a-usd1-8b-acquisition-by-mastercard",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260810-robinhood-brings-crypto-trad-155394e2",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T08:20:12.578Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Robinhood brings crypto trading to UK in AI-powered all-in-one app",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/07/robinhood-introduces-no-fee-crypto-trading-in-the-uk-with-ai-assistance",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260810-live-updates-btc-above-65-00-ccc36e9d",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T08:20:12.578Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "Live updates: BTC above $65,000 even as the Senate punts the CLARITY Act to the fall",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/10/live-updates-btc-above-usd65-000-even-as-the-senate-punts-the-clarity-act-to-the-fall",
+      "status": "open",
+      "tags": [
+        "clarity-policy"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260810-uk-regulators-to-prepare-tok-f03b2a7d",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T08:20:12.578Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "UK regulators to prepare tokenized gold framework: Report",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/uk-regulators-tokenized-gold-framework-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -10583,7 +10641,7 @@
     },
     {
       "id": "ang-watch-clarity-policy",
-      "at": "2026-08-10T00:50:10.449Z",
+      "at": "2026-08-10T08:20:12.578Z",
       "thesis": "Watcher cluster [clarity-policy]: 7 related receipts in ~7d across regulation.",
       "voiceHook": "Pattern forming: clarity policy.",
       "signalIds": [
@@ -10602,7 +10660,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for clarity-policy: dates + sources",
-      "expiresAt": "2026-08-14T00:50:10.449Z",
+      "expiresAt": "2026-08-14T08:20:12.578Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -10914,14 +10972,20 @@
     },
     {
       "date": "2026-08-10",
-      "at": "2026-08-10T06:47:56.531Z",
-      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-10T08:20:12.578Z",
+      "note": "Watcher: +4 signals, spikes=0, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260810-this-bitcoin-miner-rejected--ee19dc36",
-        "sig-20260810-bitcoin-red-team-founder-tur-2e195940"
+        "sig-20260810-inside-stablecoin-firm-bvnk--c23091f9",
+        "sig-20260810-robinhood-brings-crypto-trad-155394e2",
+        "sig-20260810-live-updates-btc-above-65-00-ccc36e9d",
+        "sig-20260810-uk-regulators-to-prepare-tok-f03b2a7d"
       ],
-      "angleIdsTouched": [],
-      "noteworthyIds": []
+      "angleIdsTouched": [
+        "ang-watch-clarity-policy"
+      ],
+      "noteworthyIds": [
+        "ang-watch-clarity-policy"
+      ]
     }
   ]
 }
