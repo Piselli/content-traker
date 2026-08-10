@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T19:27:06.963Z",
+  "updatedAt": "2026-08-10T20:07:08.922Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -10886,6 +10886,76 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260810-strategy-builds-4-75-billion-b9bbc951",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T20:07:08.922Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Strategy builds $4.75 billion cash cushion as only bitcoin isn’t enough for investors",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/coindesk-news/2026/08/10/strategy-builds-usd4-75-billion-cash-cushion-as-only-bitcoin-isn-t-enough-for-investors",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260810-robinhood-s-head-of-product--04b0fe99",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T20:07:08.922Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Robinhood's Head of Product Reveals How Robinhood Chain Hit 200M Transactions in 30 Days",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/converge/podcast/robinhood-s-head-of-product-reveals-how-robinhood-chain-hit-200m-transactions-in-30-days",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260810-tron-usdt-supply-hits-87-9b--c3a9ae0a",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T20:07:08.922Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "TRON USDT supply hits $87.9B as transfers reach $2.1T in Q2: Messari",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/tron-usdt-supply-hits-879b-as-transfers-reach-21t-in-q2-messari?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260810-uk-money-laundering-suspect--0cf70060",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T20:07:08.922Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "UK money laundering suspect bought $100M in Trump crypto business: NYT",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/world-liberty-financial-uk-money-laundering-donald-trump?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260810-hidden-text-in-pdfs-is-hijac-7509a917",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T20:07:08.922Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Hidden Text in PDFs Is Hijacking This AI Assistant",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375269/hidden-text-pdfs-hijacking-ai-assistant-prompt-injection",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -11496,13 +11566,14 @@
     },
     {
       "date": "2026-08-10",
-      "at": "2026-08-10T19:27:06.963Z",
-      "note": "Watcher: +4 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-10T20:07:08.922Z",
+      "note": "Watcher: +5 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260810-vitalik-buterin-s-ethereum-r-d35aad32",
-        "sig-20260810-coinsbuy-offers-100k-reward--5ed9ff69",
-        "sig-20260810-another-dormant-bitcoin-wall-3ba30060",
-        "sig-20260810-wall-street-is-starting-to-t-c256406c"
+        "sig-20260810-strategy-builds-4-75-billion-b9bbc951",
+        "sig-20260810-robinhood-s-head-of-product--04b0fe99",
+        "sig-20260810-tron-usdt-supply-hits-87-9b--c3a9ae0a",
+        "sig-20260810-uk-money-laundering-suspect--0cf70060",
+        "sig-20260810-hidden-text-in-pdfs-is-hijac-7509a917"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
