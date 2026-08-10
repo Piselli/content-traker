@@ -20,7 +20,10 @@ npm run build
 src/app/page.tsx              → Dashboard
 public/tracker-data.json      → repo sync (agent commits; site merges on load)
 public/radar-data.json        → crypto signals → angles (daily `radar`)
+public/solana-daily.json      → Solana metrics + quiet news (`solana день`)
+public/stonkfun-revenue.json  → StonkFun UTC daily revenue
 docs/RADAR.md                 → radar agent contract
+docs/SOLANA-DAILY.md          → Solana daily agent contract
 src/hooks/useTracker.ts       → localStorage + repo merge
 src/lib/norms.ts              → weekly norm definitions
 src/lib/analysis.ts           → insights, slots, buckets, engagement
@@ -34,6 +37,13 @@ JARVIS.md                     → X content strategy
 2. Write `public/radar-data.json` → **commit + push** (same as tracker logging)
 3. UA reply: **quiet by default** (1 line). Expand only on spike/pattern / user ask
 4. On PICK: read ready / noteworthy angles first
+
+## Agent: `solana день` / `solana day`
+
+1. Follow `docs/SOLANA-DAILY.md` — Solana-only metrics + quiet Solana news (not full radar)
+2. Read `public/solana-daily.json` (+ `stonkfun-revenue.json`); run `npm run solana:daily` if stale
+3. UA: fresh numbers + **1–2 tweet ideas**. No full digest unless asked
+4. Auto: GH Action 00:10 UTC; **ntfy only on ±25% spikes** vs ~7d median
 
 ## Agent: screenshot + URL from user
 

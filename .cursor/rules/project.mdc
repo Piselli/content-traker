@@ -23,6 +23,8 @@ Next.js 16 App Router · TypeScript · Tailwind · `public/tracker-data.json` sy
 - `public/tracker-data.json` — **source of truth** agent commits after user sends tweet data
 - `public/judgment-data.json` — Judgment OS records (decision → prediction → review)
 - `public/radar-data.json` — Crypto Radar: signals → angles for crypto takes
+- `public/solana-daily.json` — Solana-only daily metrics + quiet news (`solana день`)
+- `public/stonkfun-revenue.json` — StonkFun UTC daily revenue snapshots
 - `docs/JUDGMENT-RECORD.md` — schema + agent contract for judgment records
 - `docs/RADAR.md` — radar lanes, patterns, daily `radar` workflow
 - `src/lib/norms.ts` — weekly targets
@@ -80,6 +82,14 @@ Goal: improve judgment via stakes, not accumulate a wiki. See `docs/JUDGMENT-REC
 Goal: accumulate crypto facts across L1/L2, bridges, perps, DEX, DeFi, RWA, AI, campaigns, capital flows, **shutdowns/rugs/exploits/violent dumps** — cluster into takes when they rhyme. See `docs/RADAR.md`. Not locked to any one CT template.
 
 **Automated watcher:** GitHub Action `radar-watch` **every 30 min** (`scripts/radar-watch.mjs`) accumulates signals and ntfy-pings only on spike/pattern — **no Cursor tokens**. Chat `радар` remains the judgment pass.
+
+## Solana daily (from 2026-08-10)
+
+Solana-exclusive metrics + quiet Solana news — complements global radar. See `docs/SOLANA-DAILY.md`.
+
+**Automated:** GH Action `solana-daily` at **00:10 UTC** (`scripts/solana-daily.mjs`) → `public/solana-daily.json`. **ntfy only on ±25% spikes** vs ~7d median. Chat **`solana день`**: fresh numbers + 1–2 tweet ideas.
+
+**StonkFun revenue:** separate `stonkfun-daily` at 00:05 UTC → `public/stonkfun-revenue.json` (daily close + ntfy on close).
 
 **Mid-day link/screenshot:** upsert as signal (`radar add` or bare URL in radar context); quiet unless noteworthy.
 

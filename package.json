@@ -10,7 +10,8 @@
     "sync:x": "node scripts/sync-x.mjs",
     "reminders": "node scripts/ntfy-reminders.mjs",
     "radar:watch": "node scripts/radar-watch.mjs",
-    "stonkfun:daily": "node scripts/stonkfun-daily.mjs"
+    "stonkfun:daily": "node scripts/stonkfun-daily.mjs",
+    "solana:daily": "node scripts/solana-daily.mjs"
   },
   "dependencies": {
     "next": "16.2.9",
