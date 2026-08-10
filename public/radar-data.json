@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T03:05:07.820Z",
+  "updatedAt": "2026-08-10T05:01:20.381Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -9027,7 +9027,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/bitget-explores-licensed-crypto-presence-in-bhutan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -9041,7 +9041,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/07/bitcoin-whales-load-up-on-usd1-2-billion-in-btc-as-etfs-attract-usd750-million",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -9055,7 +9055,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/japan-fsa-crypto-exchanges-withdrawal-delays-scams?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -9069,7 +9069,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/proposed-clarity-ethics-deal-could-save-trump-millions-in-taxes-bloomberg?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -10220,6 +10220,62 @@
         "clarity-policy"
       ],
       "watcher": true
+    },
+    {
+      "id": "sig-20260810-bitcoin-tops-65-000-with-us--8e1ab3e4",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T05:01:20.381Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin tops $65,000 with US inflation data due this week",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/10/bitcoin-tops-usd65-000-with-us-inflation-data-due-this-week",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260810-xrp-is-getting-left-behind-i-89945e48",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T05:01:20.381Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "XRP is getting left behind in the crypto bounce even as ETFs keep attracting investor money",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/10/xrp-is-getting-left-behind-in-the-crypto-bounce-even-as-etfs-keep-attracting-investor-money",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260810-australia-orders-cryptolink--38251d67",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T05:01:20.381Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Australia orders Cryptolink Bitcoin ATMs offline over ‘basic reporting’ failures",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/australia-orders-cryptolink-bitcoin-atms-offline-over-basic-reporting-failures?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260810-crypto-s-first-quantum-attac-25a57423",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T05:01:20.381Z",
+      "lane": "failures-rugs",
+      "kind": "exploit",
+      "what": "Crypto’s first quantum attack will look like unexplained breach: Quantus founder",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/cryptos-first-quantum-attack-look-like-ordinary-key-theft-quantus-founder?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -10830,9 +10886,14 @@
     },
     {
       "date": "2026-08-10",
-      "at": "2026-08-10T03:05:07.820Z",
-      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [],
+      "at": "2026-08-10T05:01:20.381Z",
+      "note": "Watcher: +4 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [
+        "sig-20260810-bitcoin-tops-65-000-with-us--8e1ab3e4",
+        "sig-20260810-xrp-is-getting-left-behind-i-89945e48",
+        "sig-20260810-australia-orders-cryptolink--38251d67",
+        "sig-20260810-crypto-s-first-quantum-attac-25a57423"
+      ],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
