@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T00:50:10.449Z",
+  "updatedAt": "2026-08-10T03:05:07.820Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -10830,18 +10830,11 @@
     },
     {
       "date": "2026-08-10",
-      "at": "2026-08-10T00:50:10.449Z",
-      "note": "Watcher: +2 signals, spikes=0, patternPings=1.",
-      "signalIdsAdded": [
-        "sig-20260810-bip-110-dies-with-a-whimper--b1ef6df5",
-        "sig-20260810-ex-us-defense-secretary-call-d089645a"
-      ],
-      "angleIdsTouched": [
-        "ang-watch-clarity-policy"
-      ],
-      "noteworthyIds": [
-        "ang-watch-clarity-policy"
-      ]
+      "at": "2026-08-10T03:05:07.820Z",
+      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [],
+      "angleIdsTouched": [],
+      "noteworthyIds": []
     }
   ]
 }
