@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T15:28:46.259Z",
+  "updatedAt": "2026-08-10T16:22:24.558Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -10085,7 +10085,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/btcpay-restricts-remote-lightning-access-after-attackers-steal-funds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -10099,7 +10099,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/brazil-targets-crypto-fraud-with-up-to-24-hour-transfer-hold?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -10113,7 +10113,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/bitcoin-bip-110-branch-stalls-miner-support?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -10700,6 +10700,50 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260810-blackrock-launches-two-canad-29cadb99",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T16:22:24.558Z",
+      "lane": "cex-tradfi",
+      "kind": "metric",
+      "what": "BlackRock launches two Canada ETFs, with one allocating 3% to Bitcoin",
+      "why": "Watcher spike: strong failure/shipping/capital headline — check for take.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/blackrock-launches-two-canada-etfs-with-one-allocating-3-to-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [
+        "wrappers-etf"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260810-hackers-drain-8-million-from-2e655e1c",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T16:22:24.558Z",
+      "lane": "failures-rugs",
+      "kind": "exploit",
+      "what": "Hackers Drain $8 Million From Crypto Exchange Across Two Blockchains",
+      "why": "Watcher spike: strong failure/shipping/capital headline — check for take.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375213/hackers-drain-8-million-from-crypto-platform-coinsbuy",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260810-xrp-price-weakens-as-crypto--9c5d7c4c",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T16:22:24.558Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "XRP Price Weakens as Crypto Market Awaits Clarity",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375214/xrp-price-weakens-crypto-market-awaits-clarity",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -10952,7 +10996,7 @@
     },
     {
       "id": "ang-watch-wrappers-etf",
-      "at": "2026-08-10T15:28:46.259Z",
+      "at": "2026-08-10T16:22:24.558Z",
       "thesis": "Watcher cluster [wrappers-etf]: 3 related receipts in ~7d across capital-flows, cex-tradfi.",
       "voiceHook": "Pattern forming: wrappers etf.",
       "signalIds": [
@@ -10972,7 +11016,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for wrappers-etf: dates + sources",
-      "expiresAt": "2026-08-14T15:28:46.259Z",
+      "expiresAt": "2026-08-14T16:22:24.558Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -11310,18 +11354,19 @@
     },
     {
       "date": "2026-08-10",
-      "at": "2026-08-10T15:28:46.259Z",
-      "note": "Watcher: +4 signals, spikes=0, patternPings=1.",
+      "at": "2026-08-10T16:22:24.558Z",
+      "note": "Watcher: +3 signals, spikes=2, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260810-grayscale-quietly-drops-card-32cbd5a0",
-        "sig-20260810-solana-lending-giant-jupiter-03a52857",
-        "sig-20260810-openai-says-its-next-ai-mode-8e93badb",
-        "sig-20260810-tom-lee-s-bitmine-buys-14m-i-a0c81099"
+        "sig-20260810-blackrock-launches-two-canad-29cadb99",
+        "sig-20260810-hackers-drain-8-million-from-2e655e1c",
+        "sig-20260810-xrp-price-weakens-as-crypto--9c5d7c4c"
       ],
       "angleIdsTouched": [
         "ang-watch-wrappers-etf"
       ],
       "noteworthyIds": [
+        "sig-20260810-blackrock-launches-two-canad-29cadb99",
+        "sig-20260810-hackers-drain-8-million-from-2e655e1c",
         "ang-watch-wrappers-etf"
       ]
     }
