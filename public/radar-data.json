@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T14:11:01.300Z",
+  "updatedAt": "2026-08-10T15:28:46.259Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -10127,7 +10127,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/09/crypto-is-going-through-a-massive-dot-com-style-shakeout-as-over-100-projects-fold-in-2026",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -10141,7 +10141,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/09/bitcoin-investors-pour-usd853-million-into-spot-etfs-blackrock-s-ibit-claims-the-bulk",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "wrappers-etf"
       ],
@@ -10157,7 +10157,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/09/hyperliquid-s-rwa-perps-boom-is-eating-into-the-revenue-that-backs-hype",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "hl-perps-rwa"
       ],
@@ -10173,7 +10173,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/policy/2026/08/09/is-clarity-s-delay-a-blessing-in-disguise-state-of-crypto",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -10642,6 +10642,64 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260810-grayscale-quietly-drops-card-32cbd5a0",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T15:28:46.259Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "Grayscale quietly drops Cardano, Polkadot and Hedera ETF plans",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/10/grayscale-quietly-drops-cardano-polkadot-and-hedera-etf-plans",
+      "status": "open",
+      "tags": [
+        "wrappers-etf"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260810-solana-lending-giant-jupiter-03a52857",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T15:28:46.259Z",
+      "lane": "l1-l2",
+      "kind": "narrative",
+      "what": "Solana lending giant Jupiter now lets the same dollar earn twice",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/10/solana-lending-giant-jupiter-now-lets-the-same-dollar-earn-twice",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260810-openai-says-its-next-ai-mode-8e93badb",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T15:28:46.259Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "OpenAI Says Its Next AI Model Astra May Be Too Dangerous, Pauses Development",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375210/openai-pause-astra-ai-model-critical-cyber-capabilities",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260810-tom-lee-s-bitmine-buys-14m-i-a0c81099",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T15:28:46.259Z",
+      "lane": "l1-l2",
+      "kind": "narrative",
+      "what": "Tom Lee's Bitmine Buys $14M in Ethereum as Cash Falls to $104M",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375201/tom-lees-bitmine-buys-14m-in-ethereum-as-cash-falls-to-104m",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -10894,8 +10952,8 @@
     },
     {
       "id": "ang-watch-wrappers-etf",
-      "at": "2026-08-09T14:58:33.243Z",
-      "thesis": "Watcher cluster [wrappers-etf]: 4 related receipts in ~7d across capital-flows, regulation, cex-tradfi.",
+      "at": "2026-08-10T15:28:46.259Z",
+      "thesis": "Watcher cluster [wrappers-etf]: 3 related receipts in ~7d across capital-flows, cex-tradfi.",
       "voiceHook": "Pattern forming: wrappers etf.",
       "signalIds": [
         "sig-20260728-ms-eth-sol-etp",
@@ -10914,7 +10972,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for wrappers-etf: dates + sources",
-      "expiresAt": "2026-08-13T14:58:33.243Z",
+      "expiresAt": "2026-08-14T15:28:46.259Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -11252,16 +11310,20 @@
     },
     {
       "date": "2026-08-10",
-      "at": "2026-08-10T14:11:01.300Z",
-      "note": "Watcher: +4 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-10T15:28:46.259Z",
+      "note": "Watcher: +4 signals, spikes=0, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260810-bitmine-s-eth-buying-slows-a-36178443",
-        "sig-20260810-solana-gets-its-first-strate-ccd45045",
-        "sig-20260810-bitdeer-increased-bitcoin-mi-bb43457d",
-        "sig-20260810-strategy-turns-1-690-btc-int-3e9429ef"
+        "sig-20260810-grayscale-quietly-drops-card-32cbd5a0",
+        "sig-20260810-solana-lending-giant-jupiter-03a52857",
+        "sig-20260810-openai-says-its-next-ai-mode-8e93badb",
+        "sig-20260810-tom-lee-s-bitmine-buys-14m-i-a0c81099"
       ],
-      "angleIdsTouched": [],
-      "noteworthyIds": []
+      "angleIdsTouched": [
+        "ang-watch-wrappers-etf"
+      ],
+      "noteworthyIds": [
+        "ang-watch-wrappers-etf"
+      ]
     }
   ]
 }
