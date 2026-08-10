@@ -1,7 +1,34 @@
 {
-  "syncVersion": 483,
-  "updatedAt": "2026-08-10T16:08:26.601Z",
+  "syncVersion": 484,
+  "updatedAt": "2026-08-10T17:59:17.838254Z",
   "logs": [
+    {
+      "id": "useful-stonkfun-defillama-gap-scorecard-aug10",
+      "type": "useful",
+      "traits": [
+        "provocative"
+      ],
+      "slot": 1,
+      "bucket": "CT",
+      "visualCluster": "scorecard",
+      "note": "EN useful+provocative: StonkFun missing on DefiLlama roundups/leaderboards despite ~$300k fees / $0 raised; scorecard plate Jul23–Aug10.",
+      "at": "2026-08-10T10:18:20.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2086759044358738171",
+      "views": 137,
+      "likes": 13,
+      "replies": 2,
+      "ageHours": 8,
+      "updatedAt": "2026-08-10T17:59:17.838254Z",
+      "snapshots": [
+        {
+          "ageHours": 8,
+          "views": 137,
+          "likes": 13,
+          "replies": 2,
+          "checkedAt": "2026-08-10T17:59:17.838254Z"
+        }
+      ]
+    },
     {
       "id": "strategic-qt-useful-creator-demand-side-chog-jul20",
       "type": "strategic QT",
