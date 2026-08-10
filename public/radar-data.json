@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T20:07:08.922Z",
+  "updatedAt": "2026-08-10T21:08:19.349Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -10956,6 +10956,48 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260810-bitwise-s-rasmussen-circle-i-383fc17f",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T21:08:19.349Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Bitwise's Rasmussen: Circle is mispriced as stablecoins head toward trillions",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/coindesk-news/2026/08/10/bitwise-s-rasmussen-circle-is-mispriced-as-stablecoins-head-toward-trillions",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260810-judge-stays-cftc-s-case-agai-d547ae67",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T21:08:19.349Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "Judge stays CFTC’s case against US soldier over prediction market bets",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/cftc-us-solider-insider-trading-polymarket-nicolas-maduro?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260810-bitcoin-atms-pulled-in-austr-787e9945",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T21:08:19.349Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin ATMs Pulled in Australia as Regulators Signal Wider Crackdown",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375282/bitcoin-atms-pulled-australia-regulators-crackdown",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -11566,14 +11608,12 @@
     },
     {
       "date": "2026-08-10",
-      "at": "2026-08-10T20:07:08.922Z",
-      "note": "Watcher: +5 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-10T21:08:19.349Z",
+      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260810-strategy-builds-4-75-billion-b9bbc951",
-        "sig-20260810-robinhood-s-head-of-product--04b0fe99",
-        "sig-20260810-tron-usdt-supply-hits-87-9b--c3a9ae0a",
-        "sig-20260810-uk-money-laundering-suspect--0cf70060",
-        "sig-20260810-hidden-text-in-pdfs-is-hijac-7509a917"
+        "sig-20260810-bitwise-s-rasmussen-circle-i-383fc17f",
+        "sig-20260810-judge-stays-cftc-s-case-agai-d547ae67",
+        "sig-20260810-bitcoin-atms-pulled-in-austr-787e9945"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
