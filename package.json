@@ -9,7 +9,8 @@
     "lint": "eslint",
     "sync:x": "node scripts/sync-x.mjs",
     "reminders": "node scripts/ntfy-reminders.mjs",
-    "radar:watch": "node scripts/radar-watch.mjs"
+    "radar:watch": "node scripts/radar-watch.mjs",
+    "stonkfun:daily": "node scripts/stonkfun-daily.mjs"
   },
   "dependencies": {
     "next": "16.2.9",

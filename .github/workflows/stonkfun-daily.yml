@@ -1,0 +1,30 @@
+name: StonkFun daily revenue
+
+on:
+  schedule:
+    # 00:05 UTC — close previous UTC day, open today
+    - cron: "5 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Snapshot StonkFun revenue (UTC day close)
+        run: node scripts/stonkfun-daily.mjs
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+
+      - name: Commit stonkfun-revenue.json
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: StonkFun daily revenue snapshot"
+          file_pattern: public/stonkfun-revenue.json

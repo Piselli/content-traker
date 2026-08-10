@@ -1,0 +1,25 @@
+{
+  "updatedAt": "2026-08-10T14:05:44.210Z",
+  "source": "https://www.stonkfun.xyz/api/public/v1/revenue",
+  "latest": {
+    "at": "2026-08-10T14:05:44.129Z",
+    "totalRevenueUsd": 299708.33695981075,
+    "totalBuybackUsd": 176308.07228803824,
+    "buybackCount": 7378,
+    "volume24hUsd": 5758156.386688216,
+    "tokensTotal": 1394,
+    "graduated": 197
+  },
+  "days": [
+    {
+      "date": "2026-08-10",
+      "openTotalUsd": 299708.33695981075,
+      "closeTotalUsd": null,
+      "revenueUsd": null,
+      "closed": false,
+      "openAt": "2026-08-10T14:05:44.185Z",
+      "closeAt": null,
+      "note": "partial UTC day \u2014 baseline taken mid-day Aug 10, not 00:00 open"
+    }
+  ]
+}
