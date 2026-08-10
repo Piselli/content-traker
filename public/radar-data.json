@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T05:01:20.381Z",
+  "updatedAt": "2026-08-10T06:47:56.531Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -8997,7 +8997,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/07/a-case-for-a-bitcoin-surge-to-usd76-000-may-be-building-beneath-the-boring-price-action-but-there-s-a-caveat",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -9011,7 +9011,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/07/bitcoin-stuck-near-usd64-000-as-clarity-act-vote-slips-to-september",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "clarity-policy"
       ],
@@ -10276,6 +10276,34 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260810-this-bitcoin-miner-rejected--ee19dc36",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T06:47:56.531Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "This bitcoin miner rejected BIP-110 despite mining through a pool that supported it",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/10/bitcoin-miner-rejects-bip-110-despite-mining-through-a-pool-that-supported-it",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260810-bitcoin-red-team-founder-tur-2e195940",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T06:47:56.531Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin Red Team founder turns to Chinese AI: ‘It absolutely guts me’",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-red-team-founder-turns-to-chinese-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -10886,13 +10914,11 @@
     },
     {
       "date": "2026-08-10",
-      "at": "2026-08-10T05:01:20.381Z",
-      "note": "Watcher: +4 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-10T06:47:56.531Z",
+      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260810-bitcoin-tops-65-000-with-us--8e1ab3e4",
-        "sig-20260810-xrp-is-getting-left-behind-i-89945e48",
-        "sig-20260810-australia-orders-cryptolink--38251d67",
-        "sig-20260810-crypto-s-first-quantum-attac-25a57423"
+        "sig-20260810-this-bitcoin-miner-rejected--ee19dc36",
+        "sig-20260810-bitcoin-red-team-founder-tur-2e195940"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
