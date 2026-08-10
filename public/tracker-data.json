@@ -1,6 +1,6 @@
 {
-  "syncVersion": 485,
-  "updatedAt": "2026-08-10T18:34:41.461Z",
+  "syncVersion": 486,
+  "updatedAt": "2026-08-10T19:15:38.505Z",
   "logs": [
     {
       "id": "useful-stonkfun-defillama-gap-scorecard-aug10",
@@ -15,11 +15,18 @@
       "at": "2026-08-10T10:18:20.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2086759044358738171",
       "views": 137,
-      "likes": 15,
+      "likes": 16,
       "replies": 4,
-      "ageHours": 8,
-      "updatedAt": "2026-08-10T18:34:41.461Z",
+      "ageHours": 9,
+      "updatedAt": "2026-08-10T19:15:38.505Z",
       "snapshots": [
+        {
+          "ageHours": 8,
+          "views": 137,
+          "likes": 15,
+          "replies": 4,
+          "checkedAt": "2026-08-10T19:15:38.505Z"
+        },
         {
           "ageHours": 8,
           "views": 137,
@@ -28,7 +35,7 @@
           "checkedAt": "2026-08-10T17:59:17.838254Z"
         }
       ],
-      "syncedAt": "2026-08-10T18:34:41.461Z"
+      "syncedAt": "2026-08-10T19:15:38.505Z"
     },
     {
       "id": "strategic-qt-useful-creator-demand-side-chog-jul20",
@@ -138,9 +145,9 @@
       "views": 162,
       "likes": 24,
       "replies": 1,
-      "ageHours": 507,
-      "updatedAt": "2026-08-10T18:34:41.461Z",
-      "syncedAt": "2026-08-10T18:34:41.461Z",
+      "ageHours": 508,
+      "updatedAt": "2026-08-10T19:15:38.505Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z",
       "snapshots": [
         {
           "ageHours": 474,
@@ -236,9 +243,9 @@
       "views": 260,
       "likes": 38,
       "replies": 7,
-      "ageHours": 511,
-      "updatedAt": "2026-08-10T18:34:41.461Z",
-      "syncedAt": "2026-08-10T18:34:41.461Z",
+      "ageHours": 512,
+      "updatedAt": "2026-08-10T19:15:38.505Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z",
       "snapshots": [
         {
           "ageHours": 174,
@@ -331,9 +338,9 @@
       "views": 326,
       "likes": 30,
       "replies": 4,
-      "ageHours": 514,
-      "updatedAt": "2026-08-10T18:34:41.461Z",
-      "syncedAt": "2026-08-10T18:34:41.461Z",
+      "ageHours": 515,
+      "updatedAt": "2026-08-10T19:15:38.505Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z",
       "snapshots": [
         {
           "ageHours": 182,
@@ -704,9 +711,9 @@
       "note": "EN hot-topic: England 6–4 France WC — 10 goals, Mbappé WC tally, Deschamps last match, England best finish since 1966; process + celebration-of-football angle.",
       "likes": 25,
       "replies": 5,
-      "ageHours": 547,
-      "updatedAt": "2026-08-10T18:34:41.461Z",
-      "syncedAt": "2026-08-10T18:34:41.461Z",
+      "ageHours": 548,
+      "updatedAt": "2026-08-10T19:15:38.505Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z",
       "snapshots": [
         {
           "ageHours": 284,
@@ -789,9 +796,9 @@
       "note": "EN meta reach: girlfriend-feed collage — For You flooded after Nikita old-new algo; 'hot singles in your area' punch; blame product not accounts.",
       "likes": 36,
       "replies": 13,
-      "ageHours": 562,
-      "updatedAt": "2026-08-10T18:34:41.461Z",
-      "syncedAt": "2026-08-10T18:34:41.461Z",
+      "ageHours": 563,
+      "updatedAt": "2026-08-10T19:15:38.505Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z",
       "snapshots": [
         {
           "ageHours": 81,
@@ -855,9 +862,9 @@
       "views": 440,
       "likes": 23,
       "replies": 2,
-      "ageHours": 564,
-      "updatedAt": "2026-08-10T18:34:41.461Z",
-      "syncedAt": "2026-08-10T18:34:41.461Z",
+      "ageHours": 565,
+      "updatedAt": "2026-08-10T19:15:38.505Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z",
       "snapshots": [
         {
           "ageHours": 82,
@@ -978,9 +985,9 @@
       "views": 371,
       "likes": 24,
       "replies": 2,
-      "ageHours": 575,
-      "updatedAt": "2026-08-10T18:34:41.461Z",
-      "syncedAt": "2026-08-10T18:34:41.461Z",
+      "ageHours": 576,
+      "updatedAt": "2026-08-10T19:15:38.505Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z",
       "snapshots": [
         {
           "ageHours": 93,
@@ -1157,9 +1164,9 @@
       "views": 184,
       "likes": 21,
       "replies": 4,
-      "ageHours": 583,
-      "updatedAt": "2026-08-10T18:34:41.461Z",
-      "syncedAt": "2026-08-10T18:34:41.461Z",
+      "ageHours": 584,
+      "updatedAt": "2026-08-10T19:15:38.505Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z",
       "snapshots": [
         {
           "ageHours": 101,
@@ -1217,9 +1224,9 @@
       "views": 452,
       "likes": 35,
       "replies": 9,
-      "ageHours": 598,
-      "updatedAt": "2026-08-10T18:34:41.461Z",
-      "syncedAt": "2026-08-10T18:34:41.461Z",
+      "ageHours": 599,
+      "updatedAt": "2026-08-10T19:15:38.505Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z",
       "snapshots": [
         {
           "ageHours": 116,
@@ -1274,9 +1281,9 @@
       "views": 1200,
       "likes": 37,
       "replies": 11,
-      "ageHours": 604,
-      "updatedAt": "2026-08-10T18:34:41.461Z",
-      "syncedAt": "2026-08-10T18:34:41.461Z",
+      "ageHours": 605,
+      "updatedAt": "2026-08-10T19:15:38.505Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z",
       "snapshots": [
         {
           "ageHours": 123,
@@ -1327,9 +1334,9 @@
       "views": 276,
       "likes": 23,
       "replies": 4,
-      "ageHours": 608,
-      "updatedAt": "2026-08-10T18:34:41.461Z",
-      "syncedAt": "2026-08-10T18:34:41.461Z",
+      "ageHours": 609,
+      "updatedAt": "2026-08-10T19:15:38.505Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z",
       "snapshots": [
         {
           "ageHours": 126,
@@ -1525,8 +1532,8 @@
       "views": 673,
       "likes": 22,
       "replies": 1,
-      "ageHours": 629,
-      "updatedAt": "2026-08-10T18:34:41.461Z",
+      "ageHours": 630,
+      "updatedAt": "2026-08-10T19:15:38.505Z",
       "snapshots": [
         {
           "ageHours": 147,
@@ -1557,7 +1564,7 @@
           "checkedAt": "2026-07-15T17:10:52Z"
         }
       ],
-      "syncedAt": "2026-08-10T18:34:41.461Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z",
       "traits": [
         "bait"
       ]
@@ -1578,8 +1585,8 @@
       "views": 478,
       "likes": 24,
       "replies": 7,
-      "ageHours": 647,
-      "updatedAt": "2026-08-10T18:34:41.461Z",
+      "ageHours": 648,
+      "updatedAt": "2026-08-10T19:15:38.505Z",
       "snapshots": [
         {
           "ageHours": 205,
@@ -1631,7 +1638,7 @@
           "checkedAt": "2026-07-15T17:10:52Z"
         }
       ],
-      "syncedAt": "2026-08-10T18:34:41.461Z"
+      "syncedAt": "2026-08-10T19:15:38.505Z"
     },
     {
       "id": "hot-topic-btc-cpi-poi-61k-jul14",
@@ -1750,12 +1757,12 @@
       "at": "2026-07-14T13:37:38.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2077024726069690406",
       "note": "QT @waleswoosh BTC pattern / 'we are so back' irony — chalk-noir 'thanks, wale' balloon-pop; 'ok, a little pump is enough / thanks, holiday ruined'.",
-      "ageHours": 653,
+      "ageHours": 654,
       "views": 233,
       "likes": 18,
       "replies": 1,
-      "updatedAt": "2026-08-10T18:34:41.461Z",
-      "syncedAt": "2026-08-10T18:34:41.461Z",
+      "updatedAt": "2026-08-10T19:15:38.505Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z",
       "snapshots": [
         {
           "ageHours": 171,
@@ -1954,9 +1961,9 @@
       "likes": 26,
       "replies": 3,
       "note": "QT @ChampLottery ASCII Cats sniper thread — unlabeled 'alpha' callout; WASTED collage; sniper 13% / open admin 55k / phishing mint / DEV dump+relaunch; reply bait on #ad ethics. Replaced cold open (deleted, didn't take off).",
-      "ageHours": 673,
-      "updatedAt": "2026-08-10T18:34:41.461Z",
-      "syncedAt": "2026-08-10T18:34:41.461Z",
+      "ageHours": 674,
+      "updatedAt": "2026-08-10T19:15:38.505Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z",
       "snapshots": [
         {
           "ageHours": 191,
@@ -2087,9 +2094,9 @@
       "likes": 20,
       "replies": 8,
       "note": "CASHDOG scam alert on Robinhood — legit ~$1.3M vs honeypot clone; verify CA, ignore honeypot banners; collage REAL vs SCAM charts. Replaced cold open (deleted tombstone 2076447153170297133).",
-      "ageHours": 682,
-      "updatedAt": "2026-08-10T18:34:41.461Z",
-      "syncedAt": "2026-08-10T18:34:41.461Z",
+      "ageHours": 683,
+      "updatedAt": "2026-08-10T19:15:38.505Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z",
       "snapshots": [
         {
           "ageHours": 200,
@@ -2147,11 +2154,11 @@
       "at": "2026-07-12T21:13:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2076414547787743380",
       "note": "Reply-bait — Chalk Noir alpha-call vs pump+exit panels; invites criteria in comments, not a verdict.",
-      "ageHours": 693,
+      "ageHours": 694,
       "likes": 18,
       "replies": 2,
-      "updatedAt": "2026-08-10T18:34:41.461Z",
-      "syncedAt": "2026-08-10T18:34:41.461Z",
+      "updatedAt": "2026-08-10T19:15:38.505Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z",
       "snapshots": [
         {
           "ageHours": 343,
@@ -2424,8 +2431,8 @@
       "likes": 36,
       "replies": 11,
       "note": "4-rule framework from Yeon/CASHCAT at 40k mcap — catalyst, lore, s-tier KOL narrative, meme already alive; ends on Robinhood final-stop question.",
-      "ageHours": 749,
-      "updatedAt": "2026-08-10T18:34:41.461Z",
+      "ageHours": 750,
+      "updatedAt": "2026-08-10T19:15:38.505Z",
       "snapshots": [
         {
           "ageHours": 666,
@@ -2484,7 +2491,7 @@
           "checkedAt": "2026-07-11T18:32:00.000Z"
         }
       ],
-      "syncedAt": "2026-08-10T18:34:41.461Z"
+      "syncedAt": "2026-08-10T19:15:38.505Z"
     },
     {
       "id": "bait-morocco-france-million-vs-thousand-jul9",
@@ -2550,8 +2557,8 @@
       "likes": 26,
       "replies": 4,
       "note": "QF MoveMatch squad locked without Messi — Mbappe/Haaland/Kane; QT @MoveMatchxyz 0% fees round.",
-      "ageHours": 772,
-      "updatedAt": "2026-08-10T18:34:41.461Z",
+      "ageHours": 773,
+      "updatedAt": "2026-08-10T19:15:38.505Z",
       "snapshots": [
         {
           "ageHours": 290,
@@ -2575,7 +2582,7 @@
           "checkedAt": "2026-07-11T18:32:00.000Z"
         }
       ],
-      "syncedAt": "2026-08-10T18:34:41.461Z"
+      "syncedAt": "2026-08-10T19:15:38.505Z"
     },
     {
       "id": "bait-content-theft-bandosei-wasted-jul8",
@@ -2625,8 +2632,8 @@
       "likes": 19,
       "replies": 3,
       "note": "CT account today checklist — Robinhood chain onboarding, $CASHCAT millionaires, WC content drought; what did I miss?",
-      "ageHours": 789,
-      "updatedAt": "2026-08-10T18:34:41.461Z",
+      "ageHours": 790,
+      "updatedAt": "2026-08-10T19:15:38.505Z",
       "snapshots": [
         {
           "ageHours": 308,
@@ -2650,7 +2657,7 @@
           "checkedAt": "2026-07-11T18:32:00.000Z"
         }
       ],
-      "syncedAt": "2026-08-10T18:34:41.461Z"
+      "syncedAt": "2026-08-10T19:15:38.505Z"
     },
     {
       "id": "bait-content-theft-bandosei-alpha-jul8",
@@ -2697,8 +2704,8 @@
       "likes": 21,
       "replies": 4,
       "note": "QT own $CASHCAT thesis after Vlad follow-up - robinhood chain onboarding week is open; pushes marketing-campaign angle.",
-      "ageHours": 798,
-      "updatedAt": "2026-08-10T18:34:41.461Z",
+      "ageHours": 799,
+      "updatedAt": "2026-08-10T19:15:38.505Z",
       "snapshots": [
         {
           "ageHours": 78,
@@ -2771,7 +2778,7 @@
           "checkedAt": "2026-07-08T17:30:00.000Z"
         }
       ],
-      "syncedAt": "2026-08-10T18:34:41.461Z"
+      "syncedAt": "2026-08-10T19:15:38.505Z"
     },
     {
       "id": "hot-topic-cashcat-robinhood-marketing-campaign-jul8",
@@ -2789,8 +2796,8 @@
       "likes": 25,
       "replies": 4,
       "note": "$CASHCAT / Robinhood chain thesis - argues memecoin was a low-cost onboarding and marketing campaign, tied to Vlad RWA vs memes quotes.",
-      "ageHours": 800,
-      "updatedAt": "2026-08-10T18:34:41.461Z",
+      "ageHours": 801,
+      "updatedAt": "2026-08-10T19:15:38.505Z",
       "snapshots": [
         {
           "ageHours": 80,
@@ -2849,7 +2856,7 @@
           "checkedAt": "2026-07-08T17:30:00.000Z"
         }
       ],
-      "syncedAt": "2026-08-10T18:34:41.461Z"
+      "syncedAt": "2026-08-10T19:15:38.505Z"
     },
     {
       "id": "provocative-polymarket-golden-rule-jul7",
@@ -2863,8 +2870,8 @@
       "likes": 26,
       "replies": 6,
       "note": "QT own Polymarket MicroStrategy resolution thread - golden rule: if event is over but odds do not go to 99c, someone is still trying to make rules flexible.",
-      "ageHours": 816,
-      "updatedAt": "2026-08-10T18:34:41.461Z",
+      "ageHours": 817,
+      "updatedAt": "2026-08-10T19:15:38.505Z",
       "snapshots": [
         {
           "ageHours": 96,
@@ -2951,7 +2958,7 @@
           "checkedAt": "2026-07-08T17:30:00.000Z"
         }
       ],
-      "syncedAt": "2026-08-10T18:34:41.461Z"
+      "syncedAt": "2026-08-10T19:15:38.505Z"
     },
     {
       "id": "meme-argentina-infantino-substitute-jul7",
@@ -3035,8 +3042,8 @@
       "likes": 34,
       "replies": 16,
       "note": "QT @Deestar on fake promo investigation - reveal all 23 and credit the 5 creators who rejected the deal; CT accountability angle.",
-      "ageHours": 826,
-      "updatedAt": "2026-08-10T18:34:41.461Z",
+      "ageHours": 827,
+      "updatedAt": "2026-08-10T19:15:38.505Z",
       "snapshots": [
         {
           "ageHours": 55,
@@ -3095,7 +3102,7 @@
           "checkedAt": "2026-07-08T17:30:00.000Z"
         }
       ],
-      "syncedAt": "2026-08-10T18:34:41.461Z"
+      "syncedAt": "2026-08-10T19:15:38.505Z"
     },
     {
       "id": "provocative-madi-undisclosed-rug-flexible-principles-jul6",
@@ -3113,8 +3120,8 @@
       "likes": 40,
       "replies": 11,
       "note": "QT @madiweb3 apology - founders get cooked for rugs, friends get therapy-circle replies; principles get flexible when it is someone you like.",
-      "ageHours": 838,
-      "updatedAt": "2026-08-10T18:34:41.461Z",
+      "ageHours": 839,
+      "updatedAt": "2026-08-10T19:15:38.505Z",
       "snapshots": [
         {
           "ageHours": 113,
@@ -3152,7 +3159,7 @@
           "checkedAt": "2026-07-07T21:40:00.000Z"
         }
       ],
-      "syncedAt": "2026-08-10T18:34:41.461Z"
+      "syncedAt": "2026-08-10T19:15:38.505Z"
     },
     {
       "id": "hot-topic-ronaldo-forever-1000th-goal-jul6",
@@ -3169,8 +3176,8 @@
       "likes": 24,
       "replies": 7,
       "note": "Cristiano Ronaldo tribute video - he gave everything to football and football gave him forever; still celebrate the 1000th goal.",
-      "ageHours": 840,
-      "updatedAt": "2026-08-10T18:34:41.461Z",
+      "ageHours": 841,
+      "updatedAt": "2026-08-10T19:15:38.505Z",
       "snapshots": [
         {
           "ageHours": 47,
@@ -3194,7 +3201,7 @@
           "checkedAt": "2026-07-07T21:40:00.000Z"
         }
       ],
-      "syncedAt": "2026-08-10T18:34:41.461Z"
+      "syncedAt": "2026-08-10T19:15:38.505Z"
     },
     {
       "id": "provocative-ct-5-dollar-pm-shillers-jul6",
@@ -3493,7 +3500,7 @@
       "visualCluster": "text-only",
       "at": "2026-07-04T12:20:00.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2073381326099517814",
-      "ageHours": 894,
+      "ageHours": 895,
       "views": 481,
       "likes": 30,
       "replies": 13,
@@ -3598,8 +3605,8 @@
           "checkedAt": "2026-07-04T13:06:00.000Z"
         }
       ],
-      "updatedAt": "2026-08-10T18:34:41.461Z",
-      "syncedAt": "2026-08-10T18:34:41.461Z"
+      "updatedAt": "2026-08-10T19:15:38.505Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z"
     },
     {
       "id": "useful-ansem-brand-impact-stats-jul4",
@@ -3828,7 +3835,7 @@
       "visualCluster": "collage",
       "at": "2026-07-03T18:25:46.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2073110971946565719",
-      "ageHours": 912,
+      "ageHours": 913,
       "views": 185,
       "likes": 15,
       "replies": 3,
@@ -3919,8 +3926,8 @@
           "checkedAt": "2026-07-03T21:05:00.000Z"
         }
       ],
-      "updatedAt": "2026-08-10T18:34:41.461Z",
-      "syncedAt": "2026-08-10T18:34:41.461Z"
+      "updatedAt": "2026-08-10T19:15:38.505Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z"
     },
     {
       "id": "provocative-wale-whale-typo-qt-jul3",
@@ -3938,7 +3945,7 @@
       "visualCluster": "text-only",
       "at": "2026-07-03T08:27:41.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2072960459381121428",
-      "ageHours": 922,
+      "ageHours": 923,
       "views": 232,
       "likes": 17,
       "replies": 4,
@@ -3980,8 +3987,8 @@
           "checkedAt": "2026-07-03T21:05:00.000Z"
         }
       ],
-      "updatedAt": "2026-08-10T18:34:41.461Z",
-      "syncedAt": "2026-08-10T18:34:41.461Z"
+      "updatedAt": "2026-08-10T19:15:38.505Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z"
     },
     {
       "id": "provocative-betting-vs-investing-qt-deestar-jul2",
@@ -4102,7 +4109,7 @@
       "visualCluster": "text-only",
       "at": "2026-07-02T11:45:05.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2072647747883168101",
-      "ageHours": 943,
+      "ageHours": 944,
       "views": 173,
       "likes": 17,
       "replies": 4,
@@ -4172,8 +4179,8 @@
           "checkedAt": "2026-07-02T15:46:55.926Z"
         }
       ],
-      "updatedAt": "2026-08-10T18:34:41.461Z",
-      "syncedAt": "2026-08-10T18:34:41.461Z"
+      "updatedAt": "2026-08-10T19:15:38.505Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z"
     },
     {
       "id": "meme-ronaldo-reach-playbook-jul2",
@@ -4187,7 +4194,7 @@
       "visualCluster": "text-only",
       "at": "2026-07-02T10:37:35.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2072630759563608092",
-      "ageHours": 944,
+      "ageHours": 945,
       "views": 168,
       "likes": 18,
       "replies": 5,
@@ -4257,8 +4264,8 @@
           "checkedAt": "2026-07-02T15:46:55.926Z"
         }
       ],
-      "updatedAt": "2026-08-10T18:34:41.461Z",
-      "syncedAt": "2026-08-10T18:34:41.461Z"
+      "updatedAt": "2026-08-10T19:15:38.505Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z"
     },
     {
       "id": "hot-topic-wale-england-black-mark-qt-jul1",
@@ -4273,7 +4280,7 @@
       "visualCluster": "screenshot",
       "at": "2026-07-01T16:30:19.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2072357140644180479",
-      "ageHours": 962,
+      "ageHours": 963,
       "views": 269,
       "likes": 23,
       "replies": 7,
@@ -4371,8 +4378,8 @@
           "checkedAt": "2026-07-01T13:35:00.000Z"
         }
       ],
-      "updatedAt": "2026-08-10T18:34:41.461Z",
-      "syncedAt": "2026-08-10T18:34:41.461Z"
+      "updatedAt": "2026-08-10T19:15:38.505Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z"
     },
     {
       "id": "useful-crypto-bottom-monthly-charts-jul1",
@@ -4382,7 +4389,7 @@
       "visualCluster": "chart",
       "at": "2026-07-01T13:22:30.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2072309875082732026",
-      "ageHours": 965,
+      "ageHours": 966,
       "views": 244,
       "likes": 28,
       "replies": 9,
@@ -4473,8 +4480,8 @@
           "checkedAt": "2026-07-01T10:25:00.000Z"
         }
       ],
-      "updatedAt": "2026-08-10T18:34:41.461Z",
-      "syncedAt": "2026-08-10T18:34:41.461Z"
+      "updatedAt": "2026-08-10T19:15:38.505Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z"
     },
     {
       "id": "hot-topic-trump-wallet-move-qt-watcherguru-jul1",
@@ -4732,7 +4739,7 @@
       "visualCluster": "text-only",
       "at": "2026-06-29T21:40:18.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2071710376690094268",
-      "ageHours": 1005,
+      "ageHours": 1006,
       "views": 164,
       "likes": 13,
       "replies": 1,
@@ -4837,8 +4844,8 @@
           "checkedAt": "2026-06-29T21:45:00.000Z"
         }
       ],
-      "updatedAt": "2026-08-10T18:34:41.461Z",
-      "syncedAt": "2026-08-10T18:34:41.461Z"
+      "updatedAt": "2026-08-10T19:15:38.505Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z"
     },
     {
       "id": "meme-ansem-generational-wealth-speedrun-jun29",
@@ -4852,7 +4859,7 @@
       "visualCluster": "meme",
       "at": "2026-06-29T20:25:26.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2071691532604719199",
-      "ageHours": 1006,
+      "ageHours": 1007,
       "views": 94,
       "likes": 12,
       "replies": 2,
@@ -4950,8 +4957,8 @@
           "checkedAt": "2026-06-29T20:30:00.000Z"
         }
       ],
-      "updatedAt": "2026-08-10T18:34:41.461Z",
-      "syncedAt": "2026-08-10T18:34:41.461Z"
+      "updatedAt": "2026-08-10T19:15:38.505Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z"
     },
     {
       "id": "strategic-qt-ansem-creator-bounty-distribution-jun29",
@@ -5327,9 +5334,9 @@
       "slot": 34,
       "bucket": "CT",
       "at": "2026-06-28T20:09:00.000Z",
-      "updatedAt": "2026-08-10T18:34:41.461Z",
+      "updatedAt": "2026-08-10T19:15:38.505Z",
       "tweetUrl": "https://x.com/piselliii/status/2071325017053245938",
-      "ageHours": 1030,
+      "ageHours": 1031,
       "views": 200,
       "likes": 19,
       "replies": 4,
@@ -5413,7 +5420,7 @@
           "checkedAt": "2026-06-28T22:22:11.049Z"
         }
       ],
-      "syncedAt": "2026-08-10T18:34:41.461Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z",
       "visualCluster": "text-only"
     },
     {
@@ -5425,9 +5432,9 @@
       "slot": 33,
       "bucket": "CT",
       "at": "2026-06-26T18:42:25.000Z",
-      "updatedAt": "2026-08-10T18:34:41.461Z",
+      "updatedAt": "2026-08-10T19:15:38.505Z",
       "tweetUrl": "https://x.com/piselliii/status/2070578444535050247",
-      "ageHours": 1080,
+      "ageHours": 1081,
       "views": 217,
       "likes": 23,
       "replies": 8,
@@ -5518,7 +5525,7 @@
           "checkedAt": "2026-06-29T10:00:00.000Z"
         }
       ],
-      "syncedAt": "2026-08-10T18:34:41.461Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z",
       "visualCluster": "text-only"
     },
     {
@@ -5531,9 +5538,9 @@
       "slot": 32,
       "bucket": "CT",
       "at": "2026-06-26T14:35:00.000Z",
-      "updatedAt": "2026-08-10T18:34:41.461Z",
+      "updatedAt": "2026-08-10T19:15:38.505Z",
       "tweetUrl": "https://x.com/piselliii/status/2070516319334642001",
-      "ageHours": 1084,
+      "ageHours": 1085,
       "views": 273,
       "likes": 25,
       "replies": 6,
@@ -5589,7 +5596,7 @@
           "checkedAt": "2026-06-29T10:00:00.000Z"
         }
       ],
-      "syncedAt": "2026-08-10T18:34:41.461Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z",
       "visualCluster": "chart"
     },
     {
@@ -5602,9 +5609,9 @@
       "slot": 31,
       "bucket": "football",
       "at": "2026-06-26T13:20:00.000Z",
-      "updatedAt": "2026-08-10T18:34:41.461Z",
+      "updatedAt": "2026-08-10T19:15:38.505Z",
       "tweetUrl": "https://x.com/piselliii/status/2070497538440847402",
-      "ageHours": 1085,
+      "ageHours": 1086,
       "views": 239,
       "likes": 23,
       "replies": 7,
@@ -5674,7 +5681,7 @@
           "checkedAt": "2026-06-29T10:00:00.000Z"
         }
       ],
-      "syncedAt": "2026-08-10T18:34:41.461Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z",
       "visualCluster": "screenshot"
     },
     {
@@ -5687,9 +5694,9 @@
       "slot": 30,
       "bucket": "CT",
       "at": "2026-06-25T14:31:00.000Z",
-      "updatedAt": "2026-08-10T18:34:41.461Z",
+      "updatedAt": "2026-08-10T19:15:38.505Z",
       "tweetUrl": "https://x.com/piselliii/status/2070152962404401633",
-      "ageHours": 1108,
+      "ageHours": 1109,
       "views": 388,
       "likes": 32,
       "replies": 11,
@@ -5731,7 +5738,7 @@
         }
       ],
       "note": "imagine $10k BTC Apr 12 2021 → $9k now; native chart visual -10% P/L punchline; cynical HODL reality check",
-      "syncedAt": "2026-08-10T18:34:41.461Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z",
       "visualCluster": "chart"
     },
     {
@@ -5744,9 +5751,9 @@
       "slot": 29,
       "bucket": "CT",
       "at": "2026-06-25T14:05:00.000Z",
-      "updatedAt": "2026-08-10T18:34:41.461Z",
+      "updatedAt": "2026-08-10T19:15:38.505Z",
       "tweetUrl": "https://x.com/piselliii/status/2070146335970296250",
-      "ageHours": 1108,
+      "ageHours": 1109,
       "views": 251,
       "likes": 21,
       "replies": 3,
@@ -5802,7 +5809,7 @@
         }
       ],
       "note": "QT lokithebird Messi Panini $175k digital card — Pawn Stars Rick 'best I can do is $5' meme; why buy digital cards you can't pawn",
-      "syncedAt": "2026-08-10T18:34:41.461Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z",
       "visualCluster": "meme"
     },
     {
@@ -5814,9 +5821,9 @@
       "slot": 28,
       "bucket": "football",
       "at": "2026-06-25T12:31:00.000Z",
-      "updatedAt": "2026-08-10T18:34:41.461Z",
+      "updatedAt": "2026-08-10T19:15:38.505Z",
       "tweetUrl": "https://x.com/piselliii/status/2070122800325488958",
-      "ageHours": 1110,
+      "ageHours": 1111,
       "views": 692,
       "likes": 39,
       "replies": 5,
@@ -5865,7 +5872,7 @@
         }
       ],
       "note": "QRT ripchillpill $200 WC Value Challenge entry (contest, not pure strategic QT) — Summerville O0.5 @35¢; ripchillpill RT'd for reach; PM screenshot + form + bonus math",
-      "syncedAt": "2026-08-10T18:34:41.461Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z",
       "visualCluster": "screenshot"
     },
     {
@@ -5997,9 +6004,9 @@
       "slot": 25,
       "bucket": "CT",
       "at": "2026-06-24T18:08:00.000Z",
-      "updatedAt": "2026-08-10T18:34:41.461Z",
+      "updatedAt": "2026-08-10T19:15:38.505Z",
       "tweetUrl": "https://x.com/piselliii/status/2069890461905400116",
-      "ageHours": 1128,
+      "ageHours": 1129,
       "views": 194,
       "likes": 17,
       "replies": 2,
@@ -6055,7 +6062,7 @@
         }
       ],
       "note": "meme punchline on own CT thread — red heatmap visual, be careful what you wish for; self-QT format, not strategic QT",
-      "syncedAt": "2026-08-10T18:34:41.461Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z",
       "visualCluster": "chart"
     },
     {
@@ -6064,9 +6071,9 @@
       "slot": 24,
       "bucket": "CT",
       "at": "2026-06-24T14:32:00.000Z",
-      "updatedAt": "2026-08-10T18:34:41.461Z",
+      "updatedAt": "2026-08-10T19:15:38.505Z",
       "tweetUrl": "https://x.com/piselliii/status/2069835989451735114",
-      "ageHours": 1132,
+      "ageHours": 1133,
       "views": 775,
       "likes": 21,
       "replies": 5,
@@ -6136,7 +6143,7 @@
         }
       ],
       "note": "CT ecosystem reflection — producers > consumers, simulated attention market; QT ripchillpill as hook, not strategic QT or provocative take",
-      "syncedAt": "2026-08-10T18:34:41.461Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z",
       "visualCluster": "text-only"
     },
     {
@@ -6177,9 +6184,9 @@
       "slot": 22,
       "bucket": "football",
       "at": "2026-06-23T15:17:00.000Z",
-      "updatedAt": "2026-08-10T18:34:41.461Z",
+      "updatedAt": "2026-08-10T19:15:38.505Z",
       "tweetUrl": "https://x.com/piselliii/status/2069485060080718193",
-      "ageHours": 1155,
+      "ageHours": 1156,
       "views": 356,
       "likes": 25,
       "replies": 8,
@@ -6228,7 +6235,7 @@
         }
       ],
       "note": "QT Loshmi Ronaldo apology — never-doubted contrarian; CWC fantasy lineup 84pts (Júnior C, Mbappé 15); cheering squad vs sweating PM; lineup + Ronaldo goals-left bait",
-      "syncedAt": "2026-08-10T18:34:41.461Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z",
       "visualCluster": "screenshot"
     },
     {
@@ -6245,9 +6252,9 @@
       "slot": 21,
       "bucket": "football",
       "at": "2026-06-23T13:45:00.000Z",
-      "updatedAt": "2026-08-10T18:34:41.461Z",
+      "updatedAt": "2026-08-10T19:15:38.505Z",
       "tweetUrl": "https://x.com/piselliii/status/2069461926807994462",
-      "ageHours": 1157,
+      "ageHours": 1158,
       "views": 907,
       "likes": 39,
       "replies": 13,
@@ -6296,7 +6303,7 @@
         }
       ],
       "note": "QT Deestar Ronaldo one job — fake 5-0 scorecard manifesting; Messi fans excluded punchline; Portugal vs Uzbekistan WC day",
-      "syncedAt": "2026-08-10T18:34:41.461Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z",
       "visualCluster": "scorecard"
     },
     {
@@ -6366,9 +6373,9 @@
       "slot": 19,
       "bucket": "football",
       "at": "2026-06-22T18:31:00.000Z",
-      "updatedAt": "2026-08-10T18:34:41.461Z",
+      "updatedAt": "2026-08-10T19:15:38.505Z",
       "tweetUrl": "https://x.com/piselliii/status/2069171455368007882",
-      "ageHours": 1176,
+      "ageHours": 1177,
       "views": 279,
       "likes": 19,
       "replies": 6,
@@ -6431,7 +6438,7 @@
         }
       ],
       "note": "WC live France vs Iraq — parental advisory for Messi fans; obscene domination + Mbappé hunting Messi's same-day GOAT record; black scorecard image",
-      "syncedAt": "2026-08-10T18:34:41.461Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z",
       "visualCluster": "scorecard"
     },
     {
@@ -6445,9 +6452,9 @@
       "slot": 18,
       "bucket": "CT",
       "at": "2026-06-22T14:15:00.000Z",
-      "updatedAt": "2026-08-10T18:34:41.461Z",
+      "updatedAt": "2026-08-10T19:15:38.505Z",
       "tweetUrl": "https://x.com/piselliii/status/2069107016178467222",
-      "ageHours": 1180,
+      "ageHours": 1181,
       "views": 119,
       "likes": 11,
       "replies": 2,
@@ -6496,7 +6503,7 @@
         }
       ],
       "note": "QT Jeremybtc notification-as-impression theory — contrarian: algo boost on alerts is logical; mid-account mutual circle flatline; Nikita W or L?",
-      "syncedAt": "2026-08-10T18:34:41.461Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z",
       "visualCluster": "text-only"
     },
     {
@@ -6509,9 +6516,9 @@
       "slot": 17,
       "bucket": "CT",
       "at": "2026-06-22T12:34:00.000Z",
-      "updatedAt": "2026-08-10T18:34:41.461Z",
+      "updatedAt": "2026-08-10T19:15:38.505Z",
       "tweetUrl": "https://x.com/piselliii/status/2069081603754561892",
-      "ageHours": 1182,
+      "ageHours": 1183,
       "views": 141,
       "likes": 17,
       "replies": 3,
@@ -6560,7 +6567,7 @@
         }
       ],
       "note": "dual norm: hot topic + meme — X algo update moment, Sam Altman religious icon as mandatory CT apartment decor",
-      "syncedAt": "2026-08-10T18:34:41.461Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z",
       "visualCluster": "meme"
     },
     {
@@ -6616,9 +6623,9 @@
       "slot": 15,
       "bucket": "CT",
       "at": "2026-06-22T11:34:00.000Z",
-      "updatedAt": "2026-08-10T18:34:41.461Z",
+      "updatedAt": "2026-08-10T19:15:38.505Z",
       "tweetUrl": "https://x.com/piselliii/status/2069066384202440989",
-      "ageHours": 1183,
+      "ageHours": 1184,
       "views": 122,
       "likes": 12,
       "replies": 3,
@@ -6653,7 +6660,7 @@
         }
       ],
       "note": "QT waleswoosh new algo take — crash-test failed; reply: reach compound interest if you already had it",
-      "syncedAt": "2026-08-10T18:34:41.461Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z",
       "visualCluster": "text-only"
     },
     {
@@ -6666,9 +6673,9 @@
       "slot": 14,
       "bucket": "CT",
       "at": "2026-06-22T10:26:00.000Z",
-      "updatedAt": "2026-08-10T18:34:41.461Z",
+      "updatedAt": "2026-08-10T19:15:38.505Z",
       "tweetUrl": "https://x.com/piselliii/status/2069049302974902296",
-      "ageHours": 1184,
+      "ageHours": 1185,
       "views": 87,
       "likes": 11,
       "replies": 1,
@@ -6710,7 +6717,7 @@
         }
       ],
       "note": "greentext reach contrast — QT Jeremybtc on 3k views in 35s vs own 35 views in 3h; algo/botting moment on CT",
-      "syncedAt": "2026-08-10T18:34:41.461Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z",
       "visualCluster": "meme"
     },
     {
@@ -6719,9 +6726,9 @@
       "slot": 13,
       "bucket": "CT",
       "at": "2026-06-21T19:42:00.000Z",
-      "updatedAt": "2026-08-10T18:34:41.461Z",
+      "updatedAt": "2026-08-10T19:15:38.505Z",
       "tweetUrl": "https://x.com/piselliii/status/2068781576100446691",
-      "ageHours": 1199,
+      "ageHours": 1200,
       "views": 270,
       "likes": 26,
       "replies": 5,
@@ -6763,7 +6770,7 @@
         }
       ],
       "note": "meta reach — Movement life arc beyond payout; personal reflection on what the airdrop actually changed",
-      "syncedAt": "2026-08-10T18:34:41.461Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z",
       "visualCluster": "text-only"
     },
     {
@@ -6775,9 +6782,9 @@
       "slot": 12,
       "bucket": "football",
       "at": "2026-06-21T18:34:00.000Z",
-      "updatedAt": "2026-08-10T18:34:41.461Z",
+      "updatedAt": "2026-08-10T19:15:38.505Z",
       "tweetUrl": "https://x.com/piselliii/status/2068764456230736196",
-      "ageHours": 1200,
+      "ageHours": 1201,
       "views": 311,
       "likes": 26,
       "replies": 7,
@@ -6833,7 +6840,7 @@
         }
       ],
       "note": "WC transitive score math — Sweden/Tunisia/Netherlands pick-one (a/b/c/d) + scorecard collage + Punisher wait meme",
-      "syncedAt": "2026-08-10T18:34:41.461Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z",
       "visualCluster": "scorecard"
     },
     {
@@ -6846,9 +6853,9 @@
       "slot": 11,
       "bucket": "CT",
       "at": "2026-06-20T16:10:00.000Z",
-      "updatedAt": "2026-08-10T18:34:41.461Z",
+      "updatedAt": "2026-08-10T19:15:38.505Z",
       "tweetUrl": "https://x.com/piselliii/status/2068411088446603739",
-      "ageHours": 1226,
+      "ageHours": 1227,
       "views": 201,
       "likes": 27,
       "replies": 8,
@@ -6876,7 +6883,7 @@
         }
       ],
       "note": "QT bigchog WC round-trip + replies collage; call out PM propaganda in comments. WC script 120 holders 80% red median −$5873. sources reply: https://x.com/piselliii/status/2068411091659468929 (Sergeenkov, Bloomberg/Dune, HEC paper)",
-      "syncedAt": "2026-08-10T18:34:41.461Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z",
       "visualCluster": "collage"
     },
     {
@@ -6888,9 +6895,9 @@
       "slot": 10,
       "bucket": "CT",
       "at": "2026-06-19T19:13:00.000Z",
-      "updatedAt": "2026-08-10T18:34:41.461Z",
+      "updatedAt": "2026-08-10T19:15:38.505Z",
       "tweetUrl": "https://x.com/piselliii/status/2068049512992854458",
-      "ageHours": 1247,
+      "ageHours": 1248,
       "views": 417,
       "likes": 34,
       "replies": 10,
@@ -6960,7 +6967,7 @@
         }
       ],
       "note": "bear market × PM meta essay + Homelander clip (Wen POLY / we're back); casino relocated funnel didn't",
-      "syncedAt": "2026-08-10T18:34:41.461Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z",
       "visualCluster": "meme"
     },
     {
@@ -6972,9 +6979,9 @@
       "slot": 9,
       "bucket": "CT",
       "at": "2026-06-19T14:06:00.000Z",
-      "updatedAt": "2026-08-10T18:34:41.461Z",
+      "updatedAt": "2026-08-10T19:15:38.505Z",
       "tweetUrl": "https://x.com/piselliii/status/2067972354370576426",
-      "ageHours": 1252,
+      "ageHours": 1253,
       "views": 204,
       "likes": 22,
       "replies": 3,
@@ -7051,7 +7058,7 @@
         }
       ],
       "note": "QT waleswoosh on Polymarket — win/lose both PR; PM entered via free money; hedge without hedging",
-      "syncedAt": "2026-08-10T18:34:41.461Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z",
       "visualCluster": "text-only"
     },
     {
@@ -7060,9 +7067,9 @@
       "slot": 8,
       "bucket": "CT",
       "at": "2026-06-19T11:26:00.000Z",
-      "updatedAt": "2026-08-10T18:34:41.461Z",
+      "updatedAt": "2026-08-10T19:15:38.505Z",
       "tweetUrl": "https://x.com/piselliii/status/2067932072207946168",
-      "ageHours": 1255,
+      "ageHours": 1256,
       "views": 181,
       "likes": 18,
       "replies": 1,
@@ -7104,7 +7111,7 @@
         }
       ],
       "note": "QT bigchog — KOL audience vs product reality, TG vs X founder receipts",
-      "syncedAt": "2026-08-10T18:34:41.461Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z",
       "visualCluster": "text-only"
     },
     {
@@ -7289,9 +7296,9 @@
       "slot": 4,
       "bucket": "football",
       "at": "2026-06-17T18:37:00.000Z",
-      "updatedAt": "2026-08-10T18:34:41.461Z",
+      "updatedAt": "2026-08-10T19:15:38.505Z",
       "tweetUrl": "https://x.com/piselliii/status/2067315608631251004",
-      "ageHours": 1296,
+      "ageHours": 1297,
       "views": 306,
       "likes": 20,
       "replies": 5,
@@ -7326,7 +7333,7 @@
         }
       ],
       "note": "dual norm: hot topic + meme (100% both), builder combo",
-      "syncedAt": "2026-08-10T18:34:41.461Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z",
       "visualCluster": "meme"
     },
     {
@@ -7335,9 +7342,9 @@
       "slot": 3,
       "bucket": "CT",
       "at": "2026-06-17T16:45:00.000Z",
-      "updatedAt": "2026-08-10T18:34:41.461Z",
+      "updatedAt": "2026-08-10T19:15:38.505Z",
       "tweetUrl": "https://x.com/piselliii/status/2067287441891832184",
-      "ageHours": 1298,
+      "ageHours": 1299,
       "views": 195,
       "likes": 12,
       "replies": 1,
@@ -7372,7 +7379,7 @@
         }
       ],
       "note": "Kaito influence wave on CT — hot topic only",
-      "syncedAt": "2026-08-10T18:34:41.461Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z",
       "visualCluster": "text-only"
     },
     {
@@ -7385,9 +7392,9 @@
       "slot": 2,
       "bucket": "CT",
       "at": "2026-06-17T14:19:00.000Z",
-      "updatedAt": "2026-08-10T18:34:41.461Z",
+      "updatedAt": "2026-08-10T19:15:38.505Z",
       "tweetUrl": "https://x.com/piselliii/status/2067250794475204660",
-      "ageHours": 1300,
+      "ageHours": 1301,
       "views": 162,
       "likes": 14,
       "replies": 3,
@@ -7422,7 +7429,7 @@
         }
       ],
       "note": "provocative CT meta expose — combo: strategic QT (~50%) + supplementary bait list",
-      "syncedAt": "2026-08-10T18:34:41.461Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z",
       "visualCluster": "text-only"
     },
     {
@@ -7434,9 +7441,9 @@
       "slot": 1,
       "bucket": "CT",
       "at": "2026-06-17T10:17:00.000Z",
-      "updatedAt": "2026-08-10T18:34:41.461Z",
+      "updatedAt": "2026-08-10T19:15:38.505Z",
       "tweetUrl": "https://x.com/piselliii/status/2067189878350049777",
-      "ageHours": 1304,
+      "ageHours": 1305,
       "views": 242,
       "likes": 17,
       "replies": 6,
@@ -7471,7 +7478,7 @@
         }
       ],
       "note": "gambling meta discourse on CT — take on the moment, delivered as pick-one poll",
-      "syncedAt": "2026-08-10T18:34:41.461Z",
+      "syncedAt": "2026-08-10T19:15:38.505Z",
       "visualCluster": "text-only"
     }
   ],
