@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T22:03:42.727Z",
+  "updatedAt": "2026-08-10T23:02:46.470Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -11040,6 +11040,20 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260810-bitcoin-s-bip-editors-remove-100e2e93",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T23:02:46.470Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin's BIP Editors Remove Luke Dashjr Two Days After BIP-110 Fork Stalled",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/blockchains/bitcoin-bip-editors-remove-luke-dashjr-after-bip-110-fork-stalled",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -11650,17 +11664,13 @@
     },
     {
       "date": "2026-08-10",
-      "at": "2026-08-10T22:03:42.727Z",
-      "note": "Watcher: +3 signals, spikes=1, patternPings=0.",
+      "at": "2026-08-10T23:02:46.470Z",
+      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260810-two-prediction-markets-shut--05bd7f27",
-        "sig-20260810-trump-media-s-bitcoin-holdin-cdedcc97",
-        "sig-20260810-vitalik-buterin-says-ethereu-ff2d36e6"
+        "sig-20260810-bitcoin-s-bip-editors-remove-100e2e93"
       ],
       "angleIdsTouched": [],
-      "noteworthyIds": [
-        "sig-20260810-two-prediction-markets-shut--05bd7f27"
-      ]
+      "noteworthyIds": []
     }
   ]
 }
