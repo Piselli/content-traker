@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T23:02:46.470Z",
+  "updatedAt": "2026-08-10T23:56:59.588Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -11664,11 +11664,9 @@
     },
     {
       "date": "2026-08-10",
-      "at": "2026-08-10T23:02:46.470Z",
-      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [
-        "sig-20260810-bitcoin-s-bip-editors-remove-100e2e93"
-      ],
+      "at": "2026-08-10T23:56:59.588Z",
+      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
