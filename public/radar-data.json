@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T16:22:24.558Z",
+  "updatedAt": "2026-08-10T17:15:14.085Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -10071,7 +10071,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/tech/2026/08/09/controversial-bitcoin-fork-bip-110-mines-two-blocks-then-stops",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -10744,6 +10744,50 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260810-ether-products-lead-600m-cry-e5307f86",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T17:15:14.085Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "Ether Products Lead $600M Crypto ETP Flow Rebound in July",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/tradfi-and-fintech/ether-products-lead-600m-crypto-etp-flow-rebound-in-july",
+      "status": "open",
+      "tags": [
+        "wrappers-etf"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260810-bip-110-bitcoin-fork-stalls--7a7e0d74",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T17:15:14.085Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "BIP-110 Bitcoin Fork Stalls at Two Blocks as Its Only Miner Quits",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/blockchains/bip-110-bitcoin-fork-stalls-at-two-blocks-as-its-only-miner-quits",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260810-web3-is-building-financial-f-0ccc456c",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T17:15:14.085Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Web3 Is Building Financial Freedom Only for People Who Can Afford Mistakes",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375226/web3-is-building-financial-freedom-only-for-people-who-can-afford-mistakes",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -10996,8 +11040,8 @@
     },
     {
       "id": "ang-watch-wrappers-etf",
-      "at": "2026-08-10T16:22:24.558Z",
-      "thesis": "Watcher cluster [wrappers-etf]: 3 related receipts in ~7d across capital-flows, cex-tradfi.",
+      "at": "2026-08-10T17:15:14.085Z",
+      "thesis": "Watcher cluster [wrappers-etf]: 4 related receipts in ~7d across capital-flows, cex-tradfi.",
       "voiceHook": "Pattern forming: wrappers etf.",
       "signalIds": [
         "sig-20260728-ms-eth-sol-etp",
@@ -11016,7 +11060,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for wrappers-etf: dates + sources",
-      "expiresAt": "2026-08-14T16:22:24.558Z",
+      "expiresAt": "2026-08-14T17:15:14.085Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -11354,19 +11398,17 @@
     },
     {
       "date": "2026-08-10",
-      "at": "2026-08-10T16:22:24.558Z",
-      "note": "Watcher: +3 signals, spikes=2, patternPings=1.",
+      "at": "2026-08-10T17:15:14.085Z",
+      "note": "Watcher: +3 signals, spikes=0, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260810-blackrock-launches-two-canad-29cadb99",
-        "sig-20260810-hackers-drain-8-million-from-2e655e1c",
-        "sig-20260810-xrp-price-weakens-as-crypto--9c5d7c4c"
+        "sig-20260810-ether-products-lead-600m-cry-e5307f86",
+        "sig-20260810-bip-110-bitcoin-fork-stalls--7a7e0d74",
+        "sig-20260810-web3-is-building-financial-f-0ccc456c"
       ],
       "angleIdsTouched": [
         "ang-watch-wrappers-etf"
       ],
       "noteworthyIds": [
-        "sig-20260810-blackrock-launches-two-canad-29cadb99",
-        "sig-20260810-hackers-drain-8-million-from-2e655e1c",
         "ang-watch-wrappers-etf"
       ]
     }
