@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T11:41:24.990Z",
+  "updatedAt": "2026-08-10T12:40:35.947Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -9853,7 +9853,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/imf-domestic-stablecoins-dollar-token-demand?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -9867,7 +9867,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/tech/2026/08/08/another-bitcoin-infrastructure-exploit-hits-this-time-draining-merchant-lightning-nodes",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -9881,7 +9881,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/policy/2026/08/08/u-s-senate-opens-first-stage-of-crypto-clarity-act-voting-to-give-bill-a-chance-next-month",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "clarity-policy"
       ],
@@ -9897,7 +9897,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/06/why-trillion-dollar-asset-manager-t-rowe-price-put-memecoins-in-its-crypto-etf",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "wrappers-etf"
       ],
@@ -9913,7 +9913,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/08/trillions-in-institutional-money-to-flow-into-bitcoin-says-bitwise-s-matt-hougan",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -10513,6 +10513,76 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/markets/markets-drop-september-rate-hike-bet-into-cpi-five-things-to-know-in-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260810-strategy-sells-1-690-bitcoin-0a984459",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T12:40:35.947Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Strategy sells 1,690 bitcoin, raises $653 million from MSTR shares",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/10/strategy-sells-1-690-bitcoin-raises-usd653-million-from-mstr-shares",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260810-tokenized-rwa-surge-to-4t-ma-004c2f8b",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T12:40:35.947Z",
+      "lane": "rwa-compliance",
+      "kind": "narrative",
+      "what": "Tokenized RWA surge to $4T may push LINK to $200 by end-2030: Standard Chartered",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/tokenized-rwa-4t-push-link-200-standard-chartered?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260810-morning-minute-bitcoin-etfs--254cf116",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T12:40:35.947Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Morning Minute: Bitcoin ETFs See Biggest Inflows Since May",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375194/morning-minute-bitcoin-etfs-see-biggest-inflows-since-may",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260810-strategy-sells-109m-in-bitco-12ac9fe2",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T12:40:35.947Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Strategy Sells $109M in Bitcoin as Dollar Reserve Tops $4.6B",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375196/strategy-sells-109m-in-bitcoin-as-dollar-reserve-tops-4-6b",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260810-bitcoin-etfs-draw-854m-over--3dbc109b",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T12:40:35.947Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin ETFs Draw $854M Over Five Days as Rate-Hike Bets Fade",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375192/bitcoin-etfs-draw-854m-over-five-days-as-rate-hike-bets-fade",
       "status": "open",
       "tags": [],
       "watcher": true
@@ -11126,13 +11196,14 @@
     },
     {
       "date": "2026-08-10",
-      "at": "2026-08-10T11:41:24.990Z",
-      "note": "Watcher: +4 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-10T12:40:35.947Z",
+      "note": "Watcher: +5 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260810-crypto-exchange-coinsbuy-los-0215d5b0",
-        "sig-20260810-why-the-uk-financial-watchdo-c9893666",
-        "sig-20260810-bitcoin-s-bip-110-episode-is-bff2bb72",
-        "sig-20260810-markets-flip-for-fed-rate-hi-e75236ce"
+        "sig-20260810-strategy-sells-1-690-bitcoin-0a984459",
+        "sig-20260810-tokenized-rwa-surge-to-4t-ma-004c2f8b",
+        "sig-20260810-morning-minute-bitcoin-etfs--254cf116",
+        "sig-20260810-strategy-sells-109m-in-bitco-12ac9fe2",
+        "sig-20260810-bitcoin-etfs-draw-854m-over--3dbc109b"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
