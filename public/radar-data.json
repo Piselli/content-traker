@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T18:10:09.752Z",
+  "updatedAt": "2026-08-10T19:27:06.963Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -10830,6 +10830,62 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260810-vitalik-buterin-s-ethereum-r-d35aad32",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T19:27:06.963Z",
+      "lane": "l1-l2",
+      "kind": "narrative",
+      "what": "Vitalik Buterin's Ethereum Roadmap Prioritizes Quantum Readiness and Privacy",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/blockchains/vitalik-buterin-s-ethereum-roadmap-prioritizes-quantum-readiness-and-privacy",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260810-coinsbuy-offers-100k-reward--5ed9ff69",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T19:27:06.963Z",
+      "lane": "failures-rugs",
+      "kind": "exploit",
+      "what": "Coinsbuy offers $100K reward after Sunday security breach",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/coinsbuy-confirms-security-breach-after-wallets-reportedly-drained-of-79m?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260810-another-dormant-bitcoin-wall-3ba30060",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T19:27:06.963Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Another Dormant Bitcoin Wallet Holding Millions Wakes Up After 12 Years",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375266/dormant-bitcoin-wallet-millions-wakes-up-12-years",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260810-wall-street-is-starting-to-t-c256406c",
+      "at": "2026-08-10",
+      "scannedAt": "2026-08-10T19:27:06.963Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Wall Street Is Starting to Treat Data Center Backlash as a Credit Risk",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375237/wall-street-data-centers-backlash-credit-risk",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -11440,12 +11496,13 @@
     },
     {
       "date": "2026-08-10",
-      "at": "2026-08-10T18:10:09.752Z",
-      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-10T19:27:06.963Z",
+      "note": "Watcher: +4 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260810-disappointing-crypto-advocat-f1dc4f0a",
-        "sig-20260810-brazil-s-319b-crypto-market--bac8081a",
-        "sig-20260810-bitcoin-rally-fades-where-do-40c48d57"
+        "sig-20260810-vitalik-buterin-s-ethereum-r-d35aad32",
+        "sig-20260810-coinsbuy-offers-100k-reward--5ed9ff69",
+        "sig-20260810-another-dormant-bitcoin-wall-3ba30060",
+        "sig-20260810-wall-street-is-starting-to-t-c256406c"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
