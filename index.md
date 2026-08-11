@@ -6,7 +6,7 @@ Router only. Do **not** dump full tracker JSON or AGENT-ONBOARDING into every tu
 |------|------|
 | Log screenshot + URL | `.cursor/rules/project.mdc` (logging) · types/traits/visualCluster |
 | `Ідея:` capture | project.mdc ideas · `public/tracker-data.json` ideas[] |
-| **PICK** / що постити | `JARVIS.md` (short) · `canon/TASTE.md` · week norms/lanes · radar `angles` · solana `angles` |
+| **PICK** / що постити | `JARVIS.md` (short) · `canon/TASTE.md` · week norms/lanes · radar `angles` · solana `angles` · `evidence/examples/solana-value-refs.md` |
 | **DRAFT** | `frameworks/Compression.md` · `canon/TASTE.md` · 1–2 example winners if needed |
 | **radar** / радар | `docs/RADAR.md` · `public/radar-data.json` |
 | **solana день** | `docs/SOLANA-DAILY.md` · `public/solana-daily.json` angles |
