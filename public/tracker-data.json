@@ -1,6 +1,6 @@
 {
-  "syncVersion": 490,
-  "updatedAt": "2026-08-11T00:29:04.144025Z",
+  "syncVersion": 491,
+  "updatedAt": "2026-08-11T00:29:37.776454Z",
   "logs": [
     {
       "id": "useful-stonkfun-defillama-gap-scorecard-aug10",
@@ -8280,7 +8280,8 @@
       "id": "idea-pm-expectations-jun29",
       "text": "PM expectations essay — if Polymarket fails user expectations, what breaks? useful teardown; chart or PM screenshot; NOT slot 1; visual: chart or screenshot",
       "type": "useful",
-      "createdAt": "2026-06-29T08:01:00.000Z"
+      "createdAt": "2026-06-29T08:01:00.000Z",
+      "usedAt": "2026-08-11T00:29:37.776454Z"
     }
   ],
   "deletedUrls": [
