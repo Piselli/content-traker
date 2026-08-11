@@ -1,17 +1,19 @@
 #!/usr/bin/env node
 /**
- * StonkFun daily revenue snapshot (UTC).
+ * StonkFun revenue tracker (UTC) — snapshot-based day boundaries.
  *
- * Fetches public API totals, closes the previous UTC day when the date rolls,
- * appends daily revenue = closeTotal - openTotal.
+ * Every run:
+ *   1) Pull totals → append to snapshots[]
+ *   2) Recompute day open/close from snapshot nearest UTC midnight
+ *   3) ntfy once when a day first closes cleanly
+ *
+ * This survives missed 00:05 GH cron: hourly runs still close days using
+ * the snapshot closest to midnight (not “whenever the job woke up”).
  *
  *   npm run stonkfun:daily
  *   DRY_RUN=1 npm run stonkfun:daily
  *
- * Env:
- *   NTFY_TOPIC — default piselliii-content-tracker
- *   NTFY=0     — skip push
- *   DRY_RUN=1  — no write / no ntfy
+ * Env: NTFY_TOPIC, NTFY=0, DRY_RUN=1
  */
 
 import { readFileSync, writeFileSync, existsSync } from "fs";
@@ -25,15 +27,26 @@ const TOPIC = process.env.NTFY_TOPIC || "piselliii-content-tracker";
 const DRY_RUN = process.env.DRY_RUN === "1";
 const NTFY_OFF = process.env.NTFY === "0";
 
+/** Prefer snapshots within this skew of UTC midnight for a “clean” close */
+const CLEAN_SKEW_MS = 90 * 60 * 1000;
+/** Keep ~16 days of hourly points */
+const MAX_SNAPSHOTS = 24 * 16;
 const API = "https://www.stonkfun.xyz/api/public/v1";
 
 function utcDate(d = new Date()) {
   return d.toISOString().slice(0, 10);
 }
 
+function midnightMs(dateStr) {
+  return Date.parse(`${dateStr}T00:00:00.000Z`);
+}
+
+function nextUtcDate(dateStr) {
+  return new Date(midnightMs(dateStr) + 86400000).toISOString().slice(0, 10);
+}
+
 function prevUtcDate(dateStr) {
-  const t = Date.parse(`${dateStr}T00:00:00.000Z`);
-  return new Date(t - 86400000).toISOString().slice(0, 10);
+  return new Date(midnightMs(dateStr) - 86400000).toISOString().slice(0, 10);
 }
 
 function emptyData() {
@@ -41,13 +54,17 @@ function emptyData() {
     updatedAt: null,
     source: "https://www.stonkfun.xyz/api/public/v1/revenue",
     latest: null,
+    snapshots: [],
     days: [],
   };
 }
 
 function load() {
   if (!existsSync(DATA_PATH)) return emptyData();
-  return JSON.parse(readFileSync(DATA_PATH, "utf8"));
+  const d = JSON.parse(readFileSync(DATA_PATH, "utf8"));
+  d.snapshots ||= [];
+  d.days ||= [];
+  return d;
 }
 
 function save(data) {
@@ -57,7 +74,7 @@ function save(data) {
 
 async function fetchJson(path) {
   const res = await fetch(`${API}${path}`, {
-    headers: { "User-Agent": "content-tracker-stonkfun-daily/1.0" },
+    headers: { "User-Agent": "content-tracker-stonkfun-daily/2.0" },
   });
   if (!res.ok) throw new Error(`HTTP ${res.status} ${path}`);
   return res.json();
@@ -105,21 +122,68 @@ async function ntfy(title, message) {
   if (!res.ok) throw new Error(`ntfy HTTP ${res.status}`);
 }
 
+function pushSnapshot(data, totals) {
+  const at = totals.at || new Date().toISOString();
+  const last = data.snapshots[data.snapshots.length - 1];
+  // Dedup if same minute + same total
+  if (
+    last &&
+    Math.abs(Date.parse(last.at) - Date.parse(at)) < 60_000 &&
+    Math.abs((last.totalRevenueUsd || 0) - totals.totalRevenueUsd) < 0.01
+  ) {
+    return last;
+  }
+  const snap = {
+    at,
+    totalRevenueUsd: totals.totalRevenueUsd,
+    totalBuybackUsd: totals.totalBuybackUsd,
+    buybackCount: totals.buybackCount,
+    volume24hUsd: totals.volume24hUsd,
+    tokensTotal: totals.tokensTotal,
+  };
+  data.snapshots.push(snap);
+  if (data.snapshots.length > MAX_SNAPSHOTS) {
+    data.snapshots = data.snapshots.slice(-MAX_SNAPSHOTS);
+  }
+  return snap;
+}
+
+/** Snapshot closest to target epoch ms */
+function nearestSnapshot(snapshots, targetMs) {
+  if (!snapshots.length) return null;
+  let best = null;
+  let bestDist = Infinity;
+  for (const s of snapshots) {
+    const t = Date.parse(s.at);
+    if (Number.isNaN(t)) continue;
+    const dist = Math.abs(t - targetMs);
+    if (dist < bestDist) {
+      bestDist = dist;
+      best = { snap: s, distMs: dist };
+    }
+  }
+  return best;
+}
+
 function findDay(data, date) {
   return data.days.find((d) => d.date === date);
 }
 
-function ensureOpenDay(data, date, total) {
+function upsertDay(data, date) {
   let day = findDay(data, date);
   if (!day) {
     day = {
       date,
-      openTotalUsd: total,
+      openTotalUsd: null,
       closeTotalUsd: null,
       revenueUsd: null,
       closed: false,
-      openAt: new Date().toISOString(),
+      notified: false,
+      openAt: null,
       closeAt: null,
+      openSkewMin: null,
+      closeSkewMin: null,
+      approximate: false,
     };
     data.days.push(day);
     data.days.sort((a, b) => a.date.localeCompare(b.date));
@@ -128,89 +192,118 @@ function ensureOpenDay(data, date, total) {
 }
 
 /**
- * Close yesterday using current total as yesterday's close.
- * open = yesterday's openTotal (set when that day first appeared, or inherited).
+ * Rebuild open/close for a UTC calendar day from snapshots nearest midnights.
+ * Frozen days (notified or legacy closed without snapshots) are left alone.
  */
-function closeDay(data, date, closeTotal, closeAt) {
-  const day = findDay(data, date);
-  if (!day) {
-    // No open recorded — invent open from previous closed close, else skip close
+function reconcileDay(data, date, nowMs) {
+  const day = upsertDay(data, date);
+  if (day.notified || day.freeze) return { day, newlyClosed: false };
+
+  const openBound = midnightMs(date);
+  const closeBound = midnightMs(nextUtcDate(date));
+  const openHit = nearestSnapshot(data.snapshots, openBound);
+  const closeHit = nearestSnapshot(data.snapshots, closeBound);
+
+  // Open: prefer snap near this day's midnight; else inherit previous close
+  if (openHit && openHit.distMs <= CLEAN_SKEW_MS * 2) {
+    day.openTotalUsd = openHit.snap.totalRevenueUsd;
+    day.openAt = openHit.snap.at;
+    day.openSkewMin = Math.round(openHit.distMs / 60000);
+  } else if (day.openTotalUsd == null) {
     const prev = findDay(data, prevUtcDate(date));
-    const openTotal =
-      prev?.closeTotalUsd ?? data.latest?.totalRevenueUsd ?? null;
-    if (openTotal == null) {
-      console.log(`[skip close] no open baseline for ${date}`);
-      return null;
+    if (prev?.closeTotalUsd != null) {
+      day.openTotalUsd = prev.closeTotalUsd;
+      day.openAt = prev.closeAt;
+      day.openSkewMin = null;
+      day.note = [day.note, "open inherited from previous close"].filter(Boolean).join("; ");
     }
-    const created = {
-      date,
-      openTotalUsd: openTotal,
-      closeTotalUsd: closeTotal,
-      revenueUsd: closeTotal - openTotal,
-      closed: true,
-      openAt: prev?.closeAt || null,
-      closeAt,
-      note: "open inferred from previous close",
-    };
-    data.days.push(created);
-    data.days.sort((a, b) => a.date.localeCompare(b.date));
-    return created;
   }
-  if (day.closed) {
-    console.log(`[already closed] ${date} revenue=${fmtUsd(day.revenueUsd)}`);
-    return day;
+
+  const pastCloseBound = nowMs >= closeBound;
+  const closeOk =
+    closeHit &&
+    pastCloseBound &&
+    closeHit.distMs <= CLEAN_SKEW_MS * 3 &&
+    day.openTotalUsd != null;
+
+  let newlyClosed = false;
+  if (closeOk && !day.closed) {
+    day.closeTotalUsd = closeHit.snap.totalRevenueUsd;
+    day.closeAt = closeHit.snap.at;
+    day.closeSkewMin = Math.round(closeHit.distMs / 60000);
+    day.revenueUsd = day.closeTotalUsd - day.openTotalUsd;
+    day.closed = true;
+    day.approximate = closeHit.distMs > CLEAN_SKEW_MS || (day.openSkewMin != null && day.openSkewMin > 90);
+    newlyClosed = true;
+  } else if (closeOk && day.closed && !day.notified && !day.freeze) {
+    // refine before notify
+    day.closeTotalUsd = closeHit.snap.totalRevenueUsd;
+    day.closeAt = closeHit.snap.at;
+    day.closeSkewMin = Math.round(closeHit.distMs / 60000);
+    day.revenueUsd = day.closeTotalUsd - day.openTotalUsd;
+    day.approximate = closeHit.distMs > CLEAN_SKEW_MS || (day.openSkewMin != null && day.openSkewMin > 90);
   }
-  day.closeTotalUsd = closeTotal;
-  day.revenueUsd = closeTotal - day.openTotalUsd;
-  day.closed = true;
-  day.closeAt = closeAt;
-  return day;
+
+  // Today running: ensure open exists from earliest snap on this UTC date if still null
+  if (!day.closed && day.openTotalUsd == null) {
+    const daySnaps = data.snapshots.filter((s) => utcDate(new Date(s.at)) === date);
+    if (daySnaps.length) {
+      const first = daySnaps[0];
+      day.openTotalUsd = first.totalRevenueUsd;
+      day.openAt = first.at;
+      day.openSkewMin = Math.round(Math.abs(Date.parse(first.at) - openBound) / 60000);
+      day.approximate = true;
+      day.note = [day.note, "open = first snapshot on UTC day (not midnight)"].filter(Boolean).join("; ");
+    }
+  }
+
+  return { day, newlyClosed };
 }
 
 async function main() {
   const now = new Date();
+  const nowMs = now.getTime();
   const today = utcDate(now);
-  const yesterday = prevUtcDate(today);
   const totals = await pullTotals();
 
   const data = load();
   data.latest = totals;
+  pushSnapshot(data, totals);
 
-  const closed = [];
-
-  // If we already have an open day before today, close all gaps up to yesterday
-  const openDays = data.days.filter((d) => !d.closed && d.date < today);
-  if (openDays.length === 0 && data.latest && data.days.length === 0) {
-    // first ever run — just open today
-  } else if (openDays.length > 0) {
-    for (const d of openDays) {
-      if (d.date <= yesterday) {
-        const c = closeDay(data, d.date, totals.totalRevenueUsd, totals.at);
-        if (c) closed.push(c);
-      }
-    }
-  } else if (data.days.length > 0) {
-    // Have history but yesterday not present as open — close yesterday from last close
-    const y = findDay(data, yesterday);
-    if (!y || !y.closed) {
-      const c = closeDay(data, yesterday, totals.totalRevenueUsd, totals.at);
-      if (c) closed.push(c);
+  // Mark legacy closed days as frozen so we don't rewrite partial history
+  for (const d of data.days) {
+    if (d.closed && d.notified == null) {
+      d.notified = true;
+      d.freeze = true;
     }
   }
 
-  // Open today if missing (open = current total at first sight of this UTC day)
-  const todayDay = ensureOpenDay(data, today, totals.totalRevenueUsd);
-  if (!todayDay.openAt) todayDay.openAt = totals.at;
+  const newlyClosed = [];
+  // Reconcile yesterday + today (+ day before if needed)
+  const dates = [prevUtcDate(today), today];
+  // Also any unclosed day still open in file
+  for (const d of data.days) {
+    if (!d.closed && !dates.includes(d.date)) dates.push(d.date);
+  }
+  dates.sort();
 
-  // Running estimate for today = latest - today's open
-  const todayRunning = totals.totalRevenueUsd - todayDay.openTotalUsd;
+  for (const date of dates) {
+    const { day, newlyClosed: nc } = reconcileDay(data, date, nowMs);
+    if (nc) newlyClosed.push(day);
+  }
+
+  const todayDay = findDay(data, today);
+  const todayRunning =
+    todayDay?.openTotalUsd != null
+      ? totals.totalRevenueUsd - todayDay.openTotalUsd
+      : null;
 
   console.log(
-    `[stonkfun] UTC ${today} total=${fmtUsd(totals.totalRevenueUsd)} today_so_far=${fmtUsd(todayRunning)}`,
+    `[stonkfun] UTC ${today} total=${fmtUsd(totals.totalRevenueUsd)} today_so_far=${fmtUsd(todayRunning)} snapshots=${data.snapshots.length}`,
   );
-  for (const c of closed) {
+  for (const d of data.days.slice(-4)) {
     console.log(
-      `[closed] ${c.date} revenue=${fmtUsd(c.revenueUsd)} (open ${fmtUsd(c.openTotalUsd)} → close ${fmtUsd(c.closeTotalUsd)})`,
+      `  day ${d.date} closed=${d.closed} rev=${fmtUsd(d.revenueUsd)} openSkew=${d.openSkewMin ?? "—"}m closeSkew=${d.closeSkewMin ?? "—"}m approx=${!!d.approximate} notified=${!!d.notified}`,
     );
   }
 
@@ -221,17 +314,29 @@ async function main() {
     console.log("[dry-run] no write");
   }
 
-  // Notify on newly closed days (the daily drop)
-  for (const c of closed) {
-    const msg = `${c.date} UTC: ${fmtUsd(c.revenueUsd)} revenue (cum ${fmtUsd(c.closeTotalUsd)})`;
-    if (!DRY_RUN) await ntfy(`StonkFun ${c.date}`, msg);
+  for (const c of newlyClosed) {
+    if (c.notified) continue;
+    const skew = c.closeSkewMin != null ? ` · close±${c.closeSkewMin}m` : "";
+    const approx = c.approximate ? " · approximate" : "";
+    const msg = `${c.date} UTC: ${fmtUsd(c.revenueUsd)} revenue (cum ${fmtUsd(c.closeTotalUsd)})${skew}${approx}`;
+    if (!DRY_RUN) {
+      await ntfy(`StonkFun ${c.date}`, msg);
+      c.notified = true;
+      c.freeze = true;
+      save(data);
+    }
   }
 
-  // First-run / manual: ping baseline so you know watch is live
-  if (!DRY_RUN && closed.length === 0 && data.days.filter((d) => d.closed).length === 0) {
+  // Heartbeat only if zero closed days ever and no prior notify — avoid spam
+  if (
+    !DRY_RUN &&
+    newlyClosed.length === 0 &&
+    data.days.filter((d) => d.closed).length === 0 &&
+    data.snapshots.length <= 2
+  ) {
     await ntfy(
       "StonkFun watch on",
-      `baseline ${today} UTC · cum ${fmtUsd(totals.totalRevenueUsd)} · daily closes 00:05 UTC`,
+      `snapshots live · hourly GH · day close via midnight-nearest snap · cum ${fmtUsd(totals.totalRevenueUsd)}`,
     );
   }
 }

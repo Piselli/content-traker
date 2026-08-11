@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T01:07:08.268Z",
+  "updatedAt": "2026-08-11T01:09:18.942Z",
   "source": "https://www.stonkfun.xyz/api/public/v1/revenue",
   "latest": {
     "at": "2026-08-11T01:06:58.700Z",
@@ -19,7 +19,9 @@
       "closed": true,
       "openAt": "2026-08-10T14:05:44.185Z",
       "closeAt": "2026-08-11T01:06:58.700Z",
-      "note": "partial UTC day — baseline taken mid-day Aug 10, not 00:00 open"
+      "note": "partial UTC day — baseline taken mid-day Aug 10, not 00:00 open",
+      "notified": true,
+      "freeze": true
     },
     {
       "date": "2026-08-11",
@@ -27,8 +29,21 @@
       "closeTotalUsd": null,
       "revenueUsd": null,
       "closed": false,
-      "openAt": "2026-08-11T01:07:08.257Z",
-      "closeAt": null
+      "openAt": "2026-08-11T01:06:58.700Z",
+      "closeAt": null,
+      "openSkewMin": 67,
+      "approximate": true,
+      "note": "late open (~01:07 UTC) — day incomplete; clean days start after hourly snapshots through next midnight"
+    }
+  ],
+  "snapshots": [
+    {
+      "at": "2026-08-11T01:06:58.700Z",
+      "totalRevenueUsd": 355397.37158126035,
+      "totalBuybackUsd": 207817.58470639132,
+      "buybackCount": 8260,
+      "volume24hUsd": 11254142.126092352,
+      "tokensTotal": 1688
     }
   ]
 }

@@ -1,9 +1,12 @@
-name: StonkFun daily revenue
+name: StonkFun revenue snapshots
 
 on:
   schedule:
-    # 00:05 UTC — close previous UTC day, open today
-    - cron: "5 0 * * *"
+    # Every hour — day boundaries use snapshot nearest UTC midnight (survives missed 00:05)
+    - cron: "5 * * * *"
+    # Extra near midnight in case :05 hour is delayed
+    - cron: "20 0 * * *"
+    - cron: "50 23 * * *"
   workflow_dispatch:
 
 jobs:
@@ -18,7 +21,7 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Snapshot StonkFun revenue (UTC day close)
+      - name: Snapshot StonkFun totals
         run: node scripts/stonkfun-daily.mjs
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
@@ -26,5 +29,5 @@ jobs:
       - name: Commit stonkfun-revenue.json
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: StonkFun daily revenue snapshot"
+          commit_message: "chore: StonkFun revenue snapshot"
           file_pattern: public/stonkfun-revenue.json

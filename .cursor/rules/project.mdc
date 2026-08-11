@@ -94,7 +94,7 @@ Solana **tweet-fuel**: Llama + RSS + StonkFun → detectors (ATH, rank flip, sha
 
 **Automated:** GH Action `solana-daily` at **00:10 UTC**. **ntfy only on fresh patterns/spikes** — not a daily digest. Chat **`solana день`**: ready angles → 1–2 hooks; quiet if none.
 
-**StonkFun revenue:** separate `stonkfun-daily` at 00:05 UTC → `public/stonkfun-revenue.json` (daily close + ntfy on close).
+**StonkFun revenue:** `stonkfun-daily` **hourly** (+ near-midnight backups) → snapshots; UTC day close = snapshot nearest midnight → ntfy once per closed day. Survives missed 00:05 cron.
 
 **Mid-day link/screenshot:** upsert as signal (`radar add` or bare URL in radar context); quiet unless noteworthy.
 
