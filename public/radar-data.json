@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T20:32:27.387Z",
+  "updatedAt": "2026-08-11T21:33:45.449Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -12008,6 +12008,104 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260811-cftc-orders-kalshi-to-contin-96a84b70",
+      "at": "2026-08-11",
+      "scannedAt": "2026-08-11T21:33:45.449Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "CFTC orders Kalshi to continue offering prediction markets in New York after state lawsuit",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/policy/2026/08/11/cftc-orders-kalshi-to-continue-offering-prediction-markets-in-new-york-after-state-lawsuit",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260811-cftc-sues-goliath-ventures-o-40016a68",
+      "at": "2026-08-11",
+      "scannedAt": "2026-08-11T21:33:45.449Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "CFTC Sues Goliath Ventures Over Alleged $397M DeFi Liquidity Pool Ponzi",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/regulation/cftc-sues-goliath-ventures-over-alleged-397m-defi-liquidity-pool-ponzi",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260811-riot-signs-9-1b-20-year-ai-d-85c49c5a",
+      "at": "2026-08-11",
+      "scannedAt": "2026-08-11T21:33:45.449Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Riot Signs $9.1B, 20-Year AI Data Center Lease at Its Texas Bitcoin Mine",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/tradfi-and-fintech/riot-signs-9-1b-20-year-ai-data-center-lease-at-its-texas-bitcoin-mine",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260811-sec-to-address-crypto-regula-28b17e58",
+      "at": "2026-08-11",
+      "scannedAt": "2026-08-11T21:33:45.449Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "SEC to address crypto regulations in absence of CLARITY passage",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/sec-crypto-regulations-absence-clarity-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260811-ita-joins-brazil-tokenizatio-8261602d",
+      "at": "2026-08-11",
+      "scannedAt": "2026-08-11T21:33:45.449Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Itaú joins Brazil tokenization pilot with OpenAssets",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/ita-joins-brazil-tokenization-pilot-with-openassets-brief?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260811-btcpay-backers-offer-bitcoin-bf7134e0",
+      "at": "2026-08-11",
+      "scannedAt": "2026-08-11T21:33:45.449Z",
+      "lane": "failures-rugs",
+      "kind": "exploit",
+      "what": "BTCPay Backers Offer Bitcoin Bounty After Wallet Exploit",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375376/btcpay-bitcoin-bounty-critical-wallet-exploit",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260811-the-bull-and-bear-case-for-s-f31fea14",
+      "at": "2026-08-11",
+      "scannedAt": "2026-08-11T21:33:45.449Z",
+      "lane": "l1-l2",
+      "kind": "narrative",
+      "what": "The Bull and Bear Case for Solana’s Next Price Move",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375364/solana-price-death-cross-bull-bear-case-next-move",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -12626,11 +12724,16 @@
     },
     {
       "date": "2026-08-11",
-      "at": "2026-08-11T20:32:27.387Z",
-      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-11T21:33:45.449Z",
+      "note": "Watcher: +7 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260811-moneygram-expands-crypto-cas-d2d0193a",
-        "sig-20260811-sec-prepares-escape-hatch-fr-168cb155"
+        "sig-20260811-cftc-orders-kalshi-to-contin-96a84b70",
+        "sig-20260811-cftc-sues-goliath-ventures-o-40016a68",
+        "sig-20260811-riot-signs-9-1b-20-year-ai-d-85c49c5a",
+        "sig-20260811-sec-to-address-crypto-regula-28b17e58",
+        "sig-20260811-ita-joins-brazil-tokenizatio-8261602d",
+        "sig-20260811-btcpay-backers-offer-bitcoin-bf7134e0",
+        "sig-20260811-the-bull-and-bear-case-for-s-f31fea14"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
