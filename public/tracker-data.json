@@ -1,25 +1,53 @@
 {
-  "syncVersion": 500,
-  "updatedAt": "2026-08-11T10:23:41.482Z",
+  "syncVersion": 501,
+  "updatedAt": "2026-08-11T12:18:19.928Z",
   "logs": [
     {
-      "id": "hot-topic-spritehood-iq-test-aug11",
+      "id": "hot-topic-alon-jew-mode-aug11",
       "type": "hot topic",
-      "traits": [
-        "provocative"
-      ],
       "slot": 2,
       "bucket": "CT",
       "visualCluster": "screenshot",
-      "note": "EN hot-topic+provocative: Spritehood Wisps by Cole = simple IQ test; >3900 unique holders failed (holders screenshot).",
+      "note": "EN hot topic QT @bandosei: Alon/pump.fun $0.10 repost campaign — post-irony FOMO ref or “jew mode” meme back.",
+      "at": "2026-08-11T11:30:50.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2087139673579610308",
+      "views": 71,
+      "likes": 6,
+      "replies": 3,
+      "ageHours": 0,
+      "updatedAt": "2026-08-11T12:18:19.928Z",
+      "snapshots": [
+        {
+          "ageHours": 0,
+          "views": 71,
+          "likes": 6,
+          "replies": 3,
+          "checkedAt": "2026-08-11T12:18:19.928Z"
+        }
+      ]
+    },
+    {
+      "id": "hot-topic-spritehood-iq-test-aug11",
+      "type": "hot topic",
+      "slot": 2,
+      "bucket": "CT",
+      "visualCluster": "screenshot",
+      "note": "EN hot topic: Spritehood Wisps by Cole = simple IQ test; >3900 unique holders failed (holders screenshot).",
       "at": "2026-08-11T10:10:33.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2087119473253744895",
-      "views": 2,
-      "likes": 1,
+      "views": 84,
+      "likes": 3,
       "replies": 1,
-      "ageHours": 0,
-      "updatedAt": "2026-08-11T10:23:41.482Z",
+      "ageHours": 2,
+      "updatedAt": "2026-08-11T12:18:19.928Z",
       "snapshots": [
+        {
+          "ageHours": 2,
+          "views": 84,
+          "likes": 3,
+          "replies": 1,
+          "checkedAt": "2026-08-11T12:18:19.928Z"
+        },
         {
           "ageHours": 0,
           "views": 2,
