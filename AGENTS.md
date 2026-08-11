@@ -28,7 +28,7 @@ src/hooks/useTracker.ts       → localStorage + repo merge
 src/lib/norms.ts              → weekly norm definitions
 src/lib/analysis.ts           → insights, slots, buckets, engagement
 JARVIS.md                     → X content strategy
-.cursor/rules/project.mdc     → logging + radar + judgment workflows
+.cursor/rules/project.mdc     → logging + radar + ideas (`Ідея:`) workflows
 ```
 
 ## Agent: `radar` / `радар`
@@ -52,6 +52,11 @@ JARVIS.md                     → X content strategy
 3. Upsert in `public/tracker-data.json` by tweet URL
 4. `git commit` + `git push origin main` — **always, without asking** when user sends URL+screenshot (overrides general commit-only-when-asked rule)
 5. Reply in Ukrainian with what was logged + confirm push
+6. If open ideas exist (`ideas[]` without `usedAt`), briefly remind (1–3 lines)
+
+### Chat: `Ідея:` / `Idea:`
+
+Append to `tracker-data.json` → `ideas[]` → commit + push → short UA ack. On any tweet work (PICK/DRAFT/опублікував), remind open ideas.
 
 ### Auto-sync (free — no X API)
 

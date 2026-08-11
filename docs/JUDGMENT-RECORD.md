@@ -1,6 +1,12 @@
-# Judgment Record — мінімальний контракт
+# Judgment Record — DEPRECATED
 
-Інфраструктура Judgment OS. Це **не** knowledge base і **не** BELIEFS.
+**Status (2026-08-11): retired.** Do not require Judgment Records before posts. They slow content generation; agents must not prompt for `decision` / `prediction` / `reviewAt`.
+
+File kept as archive only. Active agent contract: `.cursor/rules/project.mdc` (logging + ideas + radar).
+
+---
+
+~~Інфраструктура Judgment OS. Це **не** knowledge base і **не** BELIEFS.~~
 
 Один запис = одна ставка на власне судження.  
 Якщо немає прогнозу й дати перевірки — запис не першого класу (система його не приймає).

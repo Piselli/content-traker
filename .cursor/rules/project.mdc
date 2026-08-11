@@ -20,18 +20,18 @@ Next.js 16 App Router · TypeScript · Tailwind · `public/tracker-data.json` sy
 
 ## Key files
 
-- `public/tracker-data.json` — **source of truth** agent commits after user sends tweet data
-- `public/judgment-data.json` — Judgment OS records (decision → prediction → review)
+- `public/tracker-data.json` — **source of truth** agent commits after user sends tweet data (logs + ideas)
 - `public/radar-data.json` — Crypto Radar: signals → angles for crypto takes
 - `public/solana-daily.json` — Solana-only daily metrics + quiet news (`solana день`)
 - `public/stonkfun-revenue.json` — StonkFun UTC daily revenue snapshots
-- `docs/JUDGMENT-RECORD.md` — schema + agent contract for judgment records
 - `docs/RADAR.md` — radar lanes, patterns, daily `radar` workflow
 - `src/lib/norms.ts` — weekly targets
 - `src/lib/analysis.ts` — insights, next slot, bucket mix
 - `src/hooks/useTracker.ts` — state + repo merge
 - `src/components/Dashboard.tsx` — main UI
 - `JARVIS.md` — X content strategy (PICK, DRAFT, norms)
+
+**Deprecated (do not use):** Judgment OS (`public/judgment-data.json`, `docs/JUDGMENT-RECORD.md`). Never require a Judgment Record before posting — it slows content. Leave files as archive; do not prompt reviews.
 
 ## Logging workflow (when user sends screenshot + URL)
 
@@ -65,23 +65,24 @@ See `JARVIS.md`. User is @piselliii: CT + football + crypto, cynical humor, buck
 
 **Algorithm:** follow `JARVIS.md` § X Growth Playbook (7 Moves, signal weights, templates 01–06). Primary metric = **replies you answer**, not views. After user posts → remind **60 min reply window** (Move 3).
 
-## Judgment OS (from 2026-07-12)
+## Ideas backlog (chat → tracker)
 
-Goal: improve judgment via stakes, not accumulate a wiki. See `docs/JUDGMENT-RECORD.md`.
+Goal: capture fast, surface when useful — **do not** invent a second ideas product.
 
-**Before post / material decision:** if user is about to act, require a Judgment Record: `decision` + checkable `prediction` + `reviewAt` + `confidence` (50–90). Reject vague predictions («зайде»). Upsert into `public/judgment-data.json` → **commit + push** (same as tracker logging).
+**Capture:** user writes `Ідея:` / `Idea:` (+ text). Agent immediately:
+1. Append to `public/tracker-data.json` → `ideas[]` (`id`, `text`, optional `type`, `createdAt`)
+2. Commit + push (same as logging)
+3. UA ack in one short line (saved; open count)
 
-**When user sends «опублікував» + URL:** attach `evidenceUrl` on the open record if it matches; also do normal tracker log.
+**Remind:** whenever the user is working on a tweet (PICK / DRAFT / «опублікував» / classify / «що постити» / draft polish), if there are open ideas (`!usedAt`), **briefly remind** — 1–3 short lines, not a wall. Offer to use one or mark used after publish.
 
-**On / after `reviewAt`:** ask for outcome vs prediction → `result: expected|surprise` + one-line `judgmentUpdate` → close record → commit + push. Agent role = catch where judgment was wrong today, not librarian.
-
-**First-class file rule:** if a doc doesn't force predict → check → update judgment, it's not judgment-layer (ops/agent contracts are the allowed exception).
+**Mark used:** after a post clearly came from an idea → set `usedAt` (or user says «використали / done»). User can also say «закрий ідею X».
 
 ## Crypto Radar (from 2026-07-27)
 
 Goal: accumulate crypto facts across L1/L2, bridges, perps, DEX, DeFi, RWA, AI, campaigns, capital flows, **shutdowns/rugs/exploits/violent dumps** — cluster into takes when they rhyme. See `docs/RADAR.md`. Not locked to any one CT template.
 
-**Automated watcher:** GitHub Action `radar-watch` **every 30 min** (`scripts/radar-watch.mjs`) accumulates signals and ntfy-pings only on spike/pattern — **no Cursor tokens**. Chat `радар` remains the judgment pass.
+**Automated watcher:** GitHub Action `radar-watch` **every 30 min** (`scripts/radar-watch.mjs`) accumulates signals and ntfy-pings only on spike/pattern — **no Cursor tokens**. Chat `радар` = quiet scan + optional angle surface.
 
 ## Solana daily (from 2026-08-10)
 

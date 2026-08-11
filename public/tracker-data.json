@@ -1,6 +1,6 @@
 {
-  "syncVersion": 487,
-  "updatedAt": "2026-08-10T21:57:18.216Z",
+  "syncVersion": 488,
+  "updatedAt": "2026-08-11T00:11:40.433732Z",
   "logs": [
     {
       "id": "useful-stonkfun-defillama-gap-scorecard-aug10",
@@ -14,12 +14,19 @@
       "note": "EN useful+provocative: StonkFun missing on DefiLlama roundups/leaderboards despite ~$300k fees / $0 raised; scorecard plate Jul23–Aug10.",
       "at": "2026-08-10T10:18:20.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2086759044358738171",
-      "views": 137,
+      "views": 558,
       "likes": 21,
       "replies": 4,
       "ageHours": 12,
-      "updatedAt": "2026-08-10T21:57:18.216Z",
+      "updatedAt": "2026-08-11T00:11:40.433732Z",
       "snapshots": [
+        {
+          "ageHours": 12,
+          "views": 558,
+          "likes": 21,
+          "replies": 4,
+          "checkedAt": "2026-08-11T00:11:40.433732Z"
+        },
         {
           "ageHours": 9,
           "views": 137,
@@ -43,6 +50,122 @@
         }
       ],
       "syncedAt": "2026-08-10T21:57:18.216Z"
+    },
+    {
+      "id": "strategic-qt-builder-stonk-listings-aug6",
+      "type": "strategic QT",
+      "traits": [
+        "builder"
+      ],
+      "slot": 2,
+      "bucket": "CT",
+      "visualCluster": "screenshot",
+      "note": "EN strategic QT @LaunchOnSF: STONK multi-listing applications — 'don't say you weren't warned'; soft builder push / look-at-SF.",
+      "at": "2026-08-06T12:35:51.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2085344097850491288",
+      "views": 537,
+      "likes": 33,
+      "replies": 8,
+      "ageHours": 108,
+      "updatedAt": "2026-08-11T00:09:42.834229Z",
+      "syncedAt": "2026-08-11T00:09:42.834229Z",
+      "snapshots": [
+        {
+          "ageHours": 108,
+          "views": 537,
+          "likes": 33,
+          "replies": 8,
+          "checkedAt": "2026-08-11T00:09:42.834229Z"
+        }
+      ]
+    },
+    {
+      "id": "provocative-infofi-kaito-degradation-aug6",
+      "type": "provocative",
+      "traits": [
+        "hot topic",
+        "bait"
+      ],
+      "fullTypes": [
+        "provocative",
+        "hot topic"
+      ],
+      "slot": 1,
+      "bucket": "CT",
+      "visualCluster": "screenshot",
+      "note": "EN provocative+hot-topic QT @Deebs_DeFi: early Kaito 4 figures but InfoFi form degraded CT (AI compliments / Kaito-cluster KOLs); Nikita credit + incentives broke platform.",
+      "at": "2026-08-06T10:05:57.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2085306374217400816",
+      "views": 496,
+      "likes": 26,
+      "replies": 2,
+      "ageHours": 110,
+      "updatedAt": "2026-08-11T00:09:42.834229Z",
+      "syncedAt": "2026-08-11T00:09:42.834229Z",
+      "snapshots": [
+        {
+          "ageHours": 110,
+          "views": 496,
+          "likes": 26,
+          "replies": 2,
+          "checkedAt": "2026-08-11T00:09:42.834229Z"
+        }
+      ]
+    },
+    {
+      "id": "bait-stable-fefer-dead-aug5",
+      "type": "bait",
+      "traits": [
+        "meme",
+        "hot topic"
+      ],
+      "slot": 1,
+      "bucket": "CT",
+      "visualCluster": "screenshot",
+      "note": "EN bait+meme: anyone remember Stable or $FEFER — nothing alive left; dead-meta nostalgia. Best reach in Aug set (~1.8k views).",
+      "at": "2026-08-05T15:59:46.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2085033029672509837",
+      "views": 1789,
+      "likes": 32,
+      "replies": 7,
+      "ageHours": 128,
+      "updatedAt": "2026-08-11T00:09:42.834229Z",
+      "syncedAt": "2026-08-11T00:09:42.834229Z",
+      "snapshots": [
+        {
+          "ageHours": 128,
+          "views": 1789,
+          "likes": 32,
+          "replies": 7,
+          "checkedAt": "2026-08-11T00:09:42.834229Z"
+        }
+      ]
+    },
+    {
+      "id": "hot-topic-kyiv-window-aug4",
+      "type": "hot topic",
+      "traits": [],
+      "slot": 1,
+      "bucket": "CT",
+      "visualCluster": "screenshot",
+      "note": "EN hot-topic personal QT @CaolanReports: Kyiv missile night — view from window; first time talking war reality on X; thanks for attention. Off-lane vs CT/football norms but high reply density.",
+      "at": "2026-08-04T23:31:25.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2084784300373803402",
+      "views": 577,
+      "likes": 25,
+      "replies": 10,
+      "ageHours": 145,
+      "updatedAt": "2026-08-11T00:09:42.834229Z",
+      "syncedAt": "2026-08-11T00:09:42.834229Z",
+      "snapshots": [
+        {
+          "ageHours": 145,
+          "views": 577,
+          "likes": 25,
+          "replies": 10,
+          "checkedAt": "2026-08-11T00:09:42.834229Z"
+        }
+      ]
     },
     {
       "id": "strategic-qt-useful-creator-demand-side-chog-jul20",
