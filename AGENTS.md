@@ -40,10 +40,10 @@ JARVIS.md                     → X content strategy
 
 ## Agent: `solana день` / `solana day`
 
-1. Follow `docs/SOLANA-DAILY.md` — Solana-only metrics + quiet Solana news (not full radar)
-2. Read `public/solana-daily.json` (+ `stonkfun-revenue.json`); run `npm run solana:daily` if stale
-3. UA: fresh numbers + **1–2 tweet ideas**. No full digest unless asked
-4. Auto: GH Action 00:10 UTC; **ntfy only on ±25% spikes** vs ~7d median
+1. Follow `docs/SOLANA-DAILY.md` — pattern detectors → angles (not a metrics dump)
+2. Read `public/solana-daily.json` `angles[]` (+ `stonkfun-revenue.json`); run `npm run solana:daily` if stale
+3. UA: if ready angles → **1–2 tweet hooks**; else quiet 1-liner. No full digest unless asked
+4. Auto: GH Action 00:10 UTC; **ntfy only on fresh patterns/spikes**
 
 ## Agent: screenshot + URL from user
 

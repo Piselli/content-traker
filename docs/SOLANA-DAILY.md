@@ -1,6 +1,6 @@
 # Solana daily — agent contract
 
-Solana-exclusive metrics + quiet news. Complements global `radar` (all chains) and `stonkfun:daily`.
+Solana **tweet-fuel** engine: metrics + detectors → patterns/angles. Complements global `radar` and `stonkfun:daily`.
 
 Trigger in chat: **`solana день`** / **`solana day`**.
 
@@ -8,30 +8,33 @@ Trigger in chat: **`solana день`** / **`solana day`**.
 
 GitHub Action `.github/workflows/solana-daily.yml` at **00:10 UTC** → `scripts/solana-daily.mjs` → `public/solana-daily.json`.
 
-- DefiLlama (free): Solana TVL, fees 24h, revenue 24h, DEX volume 24h, top fee/revenue protocols
-- RSS (Solana-filtered): Solana Compass, SolanaFloor, Helius blog; Blockworks / The Defiant only if title matches Solana
-- Embeds latest StonkFun totals from `public/stonkfun-revenue.json` when present
-- **ntfy only on spike**: metric ±`SPIKE_PCT`% (default **25**) vs ~7d median — otherwise quiet
+Sources:
+- DefiLlama: Solana TVL / fees / revenue / DEX vol + top protocols + 90d charts
+- Cross-chain fees peek (ETH, Base) for comparison detectors
+- RSS (Solana-filtered): Compass, SolanaFloor, Helius; Blockworks / Defiant if Solana in title
+- StonkFun totals from `public/stonkfun-revenue.json`
+
+**Detectors → `patterns[]` / `angles[]`:**
+| kind | When it fires |
+|------|----------------|
+| `ath` | fees/rev/DEX at or near 90d high |
+| `rank-flip` / `leader-change` | protocol climbs board or #1 changes |
+| `share-shift` | launchpad / DEX / apps fee mix moves ≥8pp day |
+| `divergence` | DEX vol vs fees 1d change gap ≥20pp |
+| `cross-chain` | Sol fees > ETH (or ≫ Base) |
+| `stonkfun-gap` | SF printing but absent from Llama boards |
+| `weird-ratio` | fees/TVL elevated vs recent median |
+| `spike` | metric ±`SPIKE_PCT`% (default 25) vs ~7d median |
+
+**ntfy** only on fresh high/med patterns (capped) or classic spikes — not every morning.
 
 ## Agent: `solana день`
 
-1. `git pull` (or read latest `public/solana-daily.json` + `public/stonkfun-revenue.json`)
-2. UA reply with:
-   - key numbers (TVL, fees, rev, DEX vol + 1d change if present)
-   - StonkFun today-so-far / last closed day if available
-   - **1–2 tweet ideas** (cynical CT, scorecard/plate friendly) — not a digest dump
-3. Expand signals only if spike list non-empty or user asks «що є»
-
-Quiet otherwise. Do not ping the user every morning in chat — Action + ntfy cover spikes.
-
-## Tweet idea shapes (pick what fits norms)
-
-1. Missing / under-indexed protocol vs Llama boards
-2. $0-raised fee printers on Solana
-3. Fees vs TVL weirdness
-4. Launchpad / bot / DEX revenue share shift
-5. DEX vol vs app fees divergence
-6. Day spike vs 7d median (only when real)
+1. Read `public/solana-daily.json` (+ `stonkfun-revenue.json`); run `npm run solana:daily` if stale (>~18h)
+2. UA reply:
+   - if `angles` empty / only weak → **1 quiet line** + key numbers optional
+   - if angles ready → **1–2 tweet hooks** from `angles[].hook` (cynical CT, scorecard/plate friendly)
+3. Do **not** dump full Llama tables unless asked
 
 ## Manual
 

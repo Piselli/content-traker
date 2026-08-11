@@ -84,17 +84,17 @@ Goal: accumulate crypto facts across L1/L2, bridges, perps, DEX, DeFi, RWA, AI, 
 
 **Automated watcher:** GitHub Action `radar-watch` **every 30 min** (`scripts/radar-watch.mjs`) accumulates signals and ntfy-pings only on spike/pattern — **no Cursor tokens**. Chat `радар` = quiet scan + optional angle surface.
 
-## Solana daily (from 2026-08-10)
+## Solana daily (from 2026-08-10; pattern engine 2026-08-11)
 
-Solana-exclusive metrics + quiet Solana news — complements global radar. See `docs/SOLANA-DAILY.md`.
+Solana **tweet-fuel**: Llama + RSS + StonkFun → detectors (ATH, rank flip, share shift, divergence, cross-chain, SF gap, spikes) → `patterns[]` / `angles[]`. See `docs/SOLANA-DAILY.md`.
 
-**Automated:** GH Action `solana-daily` at **00:10 UTC** (`scripts/solana-daily.mjs`) → `public/solana-daily.json`. **ntfy only on ±25% spikes** vs ~7d median. Chat **`solana день`**: fresh numbers + 1–2 tweet ideas.
+**Automated:** GH Action `solana-daily` at **00:10 UTC**. **ntfy only on fresh patterns/spikes** — not a daily digest. Chat **`solana день`**: ready angles → 1–2 hooks; quiet if none.
 
 **StonkFun revenue:** separate `stonkfun-daily` at 00:05 UTC → `public/stonkfun-revenue.json` (daily close + ntfy on close).
 
 **Mid-day link/screenshot:** upsert as signal (`radar add` or bare URL in radar context); quiet unless noteworthy.
 
-**On PICK / WEEK / «що постити»:** read open/ready angles first (prefer `noteworthy`); prefer those matching norm gaps. After user posts from an angle → mark `used` + `usedTweetUrl`.
+**On PICK / WEEK / «що постити»:** read radar + solana `angles` (ready); prefer norm gaps. After user posts from an angle → mark `used` + `usedTweetUrl`.
 
 ## Do NOT
 
