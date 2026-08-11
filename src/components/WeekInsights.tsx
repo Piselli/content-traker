@@ -152,6 +152,33 @@ export function WeekInsights({ analysis, logs }: WeekInsightsProps) {
         </div>
       )}
 
+      {analysis.laneMix.some((l) => l.count > 0 || l.needed > 0) && (
+        <div className="mt-5">
+          <p className="text-[10px] font-medium uppercase tracking-widest text-zinc-500">
+            Lanes (тиждень)
+          </p>
+          <ul className="mt-2 space-y-1 text-[11px] text-zinc-400">
+            {analysis.laneMix.map((l) => (
+              <li key={l.lane} className="flex justify-between gap-2">
+                <span>{l.label}</span>
+                <span
+                  className={
+                    l.status === "over"
+                      ? "text-amber-400"
+                      : l.needed > 0
+                        ? "text-rose-400"
+                        : "text-emerald-400/80"
+                  }
+                >
+                  {l.count}/{l.normLabel}
+                  {l.needed > 0 ? ` · +${l.needed}` : ""}
+                </span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
       {analysis.visualClusters.length > 0 && (
         <div className="mt-5">
           <p className="text-[10px] font-medium uppercase tracking-widest text-zinc-500">

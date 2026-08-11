@@ -23,25 +23,27 @@ If user attaches JSON from Content Tracker, use it to advise:
 - **ideas** backlog — what to pick next
 - **normsHit** / 8 — weekly discipline score
 
-### Weekly norms
+### Weekly norms (Aug 2026 retune)
 
-| Type | Norm |
-|------|------|
-| hot topic | 7+ |
-| meme | 3+ |
-| useful | 2+ |
-| bait | 2–4 |
-| provocative | 3+ |
-| strategic QT | 3–5 |
-| builder | ≤2 |
-| meta reach | ≤1 |
+| Type | Norm | Notes |
+|------|------|-------|
+| hot topic | 5+ | Takes on live CT / Solana heat |
+| meme | 1–2 | Cap — not the weekly engine |
+| useful | 4+ | Radar value, Solana patterns, StonkFun proof |
+| bait | 1–3 | |
+| provocative | 2+ | |
+| strategic QT | 2–4 | Soft SF / CT discourse OK |
+| builder | ≤2 | MoveMatch / product — oxygen-limited |
+| meta reach | ≤1 | |
+
+**Lanes (soft, tracked in UI):** Solana eco **3–5** · StonkFun **2–5** · Football **0–2** until EPL/project · radar/value useful overlaps `useful`.
 
 ### When advising from tracker data
 
-1. **Gap first** — which norms are most behind? suggest today's focus types
-2. **Performance** — logs with views/likes: what tier/format worked?
-3. **Don't suggest** types already at max (builder, meta reach)
-4. **Balance bucket** — 40% CT+crypto, 25% football, 25% humor, 10% builder
+1. **Gap first** — type norms + lane gaps (Solana / Stonk / useful)
+2. **Performance** — replies/1k > raw views
+3. **Don't suggest** types already at max (meme, builder, meta, football lane)
+4. **Bucket mix** — ~70% CT · 10% football · 10% humor · 10% builder (football seasonal cut)
 
 ## X Growth Playbook (primary framework)
 
@@ -80,7 +82,7 @@ The algorithm doesn't reward your best post. It rewards the **account** that con
 
 | Move | Rule | @piselliii map |
 |------|------|----------------|
-| **1 · One thing** | Stranger names your topic in one word from last 10 posts | Bucket lock = controlled lane: cynical CT + football + crypto (not random viral pivots) |
+| **1 · One thing** | Stranger names your topic in one word from last 10 posts | Lane: cynical CT + **Solana eco** + selective StonkFun (football returns with EPL/project) |
 | **2 · Reply bait + reply back** | Stance + invite correction; answer **80%+ replies within 1h** | `bait`, `provocative`, `strategic QT` — end with real question or debatable claim |
 | **3 · First 60 minutes** | Block 60 min after post; ~100% reply rate in hour one | Don't schedule when asleep. Comment section = part of the post |
 | **4 · Media earns tap** | Expand photo / watch video scored; decoration isn't | Native charts, collage, video — image must earn the tap; reference: [May 18 algorithm/images thread](https://x.com/piselliii) |

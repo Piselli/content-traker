@@ -1,12 +1,16 @@
 import type { ContentType, Norm } from "./types";
 
+/**
+ * Weekly type norms — Aug 2026 retune:
+ * Solana eco + StonkFun + radar value up; meme capped; football seasonal low (via lanes/buckets).
+ */
 export const NORMS: Record<ContentType, Norm> = {
-  "hot topic": { min: 7, label: "hot topic" },
-  meme: { min: 3, label: "meme" },
-  useful: { min: 2, label: "useful" },
-  bait: { min: 2, max: 4, label: "bait" },
-  provocative: { min: 3, label: "provocative" },
-  "strategic QT": { min: 3, max: 5, label: "strategic QT" },
+  "hot topic": { min: 5, label: "hot topic" },
+  meme: { min: 1, max: 2, label: "meme" },
+  useful: { min: 4, label: "useful" },
+  bait: { min: 1, max: 3, label: "bait" },
+  provocative: { min: 2, label: "provocative" },
+  "strategic QT": { min: 2, max: 4, label: "strategic QT" },
   builder: { max: 2, label: "builder" },
   "meta reach": { max: 1, label: "meta reach" },
 };

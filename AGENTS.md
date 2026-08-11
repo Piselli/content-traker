@@ -28,7 +28,9 @@ src/hooks/useTracker.ts       → localStorage + repo merge
 src/lib/norms.ts              → weekly norm definitions
 src/lib/analysis.ts           → insights, slots, buckets, engagement
 JARVIS.md                     → X content strategy
-.cursor/rules/project.mdc     → logging + radar + ideas (`Ідея:`) workflows
+index.md                      → what to load per task (PICK/DRAFT/log)
+canon/ + frameworks/          → Taste, Beliefs, Compression (thin)
+.cursor/rules/project.mdc     → logging + radar + ideas (`Ідея:`) + lanes
 ```
 
 ## Agent: `radar` / `радар`

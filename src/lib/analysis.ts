@@ -1,5 +1,6 @@
 import { BUCKET_TARGETS, type Bucket } from "./buckets";
 import { likeRatePercent, repliesPer1k, replyRatePercent } from "./engagement";
+import { buildLaneMix, type LaneRow } from "./lanes";
 import { getNormStatus, isNormClosed, NORMS, normLabel } from "./norms";
 import { allDisplayTypes, comboTraits, normTypes, SLOT_COMBOS } from "./traits";
 import type { ContentType, LogEntry, PostSlot } from "./types";
@@ -79,6 +80,7 @@ export interface WeekAnalysis {
   performers: PerformerRow[];
   visualClusters: import("./visualClusters").VisualClusterRow[];
   bucketMix: BucketRow[];
+  laneMix: LaneRow[];
   todayPriority: ContentType[];
   nextSlot: NextSlotHint;
   insights: string[];
@@ -385,6 +387,7 @@ export function buildWeekAnalysis(
 
   const nextSlot = buildNextSlot(normGaps, todayLogs.length);
   const bucketMix = buildBucketMix(logs, now);
+  const laneMix = buildLaneMix(logs, now);
 
   const insights: string[] = [];
 
@@ -392,6 +395,13 @@ export function buildWeekAnalysis(
     const g = normGaps[0];
     insights.push(
       `Найбільше відставання: ${g.type} (${g.count}/${g.normLabel}, потрібно ще +${g.needed}).`,
+    );
+  }
+
+  const laneGap = laneMix.filter((l) => l.needed > 0).sort((a, b) => b.needed - a.needed)[0];
+  if (laneGap) {
+    insights.push(
+      `Lane: ${laneGap.label} ${laneGap.count}/${laneGap.normLabel} (ще +${laneGap.needed}).`,
     );
   }
 
@@ -450,6 +460,7 @@ export function buildWeekAnalysis(
     performers,
     visualClusters,
     bucketMix,
+    laneMix,
     todayPriority,
     nextSlot,
     insights,

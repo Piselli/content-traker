@@ -11,7 +11,8 @@
     "reminders": "node scripts/ntfy-reminders.mjs",
     "radar:watch": "node scripts/radar-watch.mjs",
     "stonkfun:daily": "node scripts/stonkfun-daily.mjs",
-    "solana:daily": "node scripts/solana-daily.mjs"
+    "solana:daily": "node scripts/solana-daily.mjs",
+    "digest:week": "node scripts/weekly-digest.mjs"
   },
   "dependencies": {
     "next": "16.2.9",
