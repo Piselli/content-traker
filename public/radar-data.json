@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T16:44:26.552Z",
+  "updatedAt": "2026-08-11T17:47:07.693Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -11796,6 +11796,90 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260811-etoro-reports-second-quarter-88576ae5",
+      "at": "2026-08-11",
+      "scannedAt": "2026-08-11T17:47:07.693Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "EToro reports second quarter crypto loss even as total profit beats estimates",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/11/digital-broker-etoro-reports-q2-crypto-revenue-dropped-120-compared-to-2025",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260811-flightaware-sues-kalshi-over-588ab086",
+      "at": "2026-08-11",
+      "scannedAt": "2026-08-11T17:47:07.693Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "FlightAware sues Kalshi over flight cancellation data",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/flightaware-lawsuit-kalshi-flight-cancellations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260811-coinbase-backed-flowdesk-sec-d8c90c0d",
+      "at": "2026-08-11",
+      "scannedAt": "2026-08-11T17:47:07.693Z",
+      "lane": "cex-tradfi",
+      "kind": "narrative",
+      "what": "Coinbase-backed Flowdesk secures full broker-dealer license in Dubai",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/flowdesk-dubai-vara-broker-dealer-license?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260811-russia-approves-trading-of-b-2e8cc8f9",
+      "at": "2026-08-11",
+      "scannedAt": "2026-08-11T17:47:07.693Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Russia Approves Trading of Bitcoin, Ethereum and USDT—But No XRP",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375345/russia-approves-trading-bitcoin-ethereum-usdt-no-xrp",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260811-ravencoin-crashes-20-as-crit-8451fde3",
+      "at": "2026-08-11",
+      "scannedAt": "2026-08-11T17:47:07.693Z",
+      "lane": "failures-rugs",
+      "kind": "exploit",
+      "what": "Ravencoin Crashes 20% as Critical Exploit Threatens to Rollback Network",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375330/ravencoin-crashes-critical-exploit-threatens-rollback",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260811-etoro-agrees-to-acquire-trad-961309ff",
+      "at": "2026-08-11",
+      "scannedAt": "2026-08-11T17:47:07.693Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "eToro Agrees to Acquire TradeZero in $231M US Expansion, Stock Tanks 10%",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375324/etoro-acquire-tradezero-us-expansion-stock-tanks",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -12414,12 +12498,15 @@
     },
     {
       "date": "2026-08-11",
-      "at": "2026-08-11T16:44:26.552Z",
-      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-11T17:47:07.693Z",
+      "note": "Watcher: +6 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260811-ens-tokenholders-hand-endowm-17941ff1",
-        "sig-20260811-coinbase-wins-abu-dhabi-lice-d200ab84",
-        "sig-20260811-nasdaq-to-acquire-level-mark-b458c491"
+        "sig-20260811-etoro-reports-second-quarter-88576ae5",
+        "sig-20260811-flightaware-sues-kalshi-over-588ab086",
+        "sig-20260811-coinbase-backed-flowdesk-sec-d8c90c0d",
+        "sig-20260811-russia-approves-trading-of-b-2e8cc8f9",
+        "sig-20260811-ravencoin-crashes-20-as-crit-8451fde3",
+        "sig-20260811-etoro-agrees-to-acquire-trad-961309ff"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
