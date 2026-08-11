@@ -1,0 +1,25 @@
+name: Weekly tracker digest
+
+on:
+  schedule:
+    # Monday 00:20 UTC — previous ISO week slice via script Monday-start
+    - cron: "20 0 * * 1"
+  workflow_dispatch:
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Write evidence/weekly digest
+        run: node scripts/weekly-digest.mjs
+      - name: Commit digest
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: weekly tracker digest"
+          file_pattern: evidence/weekly/*.md

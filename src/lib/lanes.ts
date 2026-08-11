@@ -14,24 +14,35 @@ export const LANE_TARGETS = {
 export type LaneId = keyof typeof LANE_TARGETS;
 
 const SOLANA_RE =
-  /\b(solana|\bsol\b|\$sol|jupiter|raydium|meteora|pump\.fun|jito|kamino|drift|axiom|gmgn|helius|phantom|orca|tensor|fees?\b|dex vol|tvl|llama)\b/i;
-const STONK_RE = /\b(stonk|stonkfun|launchonsf|paybox|sf\b)\b/i;
+  /\b(solana|\bsol\b|\$sol|jupiter|raydium|meteora|pump\.fun|jito|kamino|drift|axiom|gmgn|helius|phantom|orca|tensor|fees?\b|dex vol|tvl|llama|movematch)\b/i;
+const STONK_RE = /\b(stonk|stonkfun|launchonsf|paybox)\b/i;
+/** Substance markers — not enough alone if post is StonkFun support. */
 const RADAR_VALUE_RE =
-  /\b(useful|scorecard|teardown|map of|leaderboard|defillama|fees|revenue|pnl|receipts|data as of)\b/i;
+  /\b(scorecard|teardown|map of|leaderboard|comparison|hack|whale|receipts|data as of|90d|rank|before vs after|\$0 (raised|funding))\b/i;
 
-export function detectLanes(log: Pick<LogEntry, "note" | "id" | "type" | "bucket" | "traits">): LaneId[] {
-  const blob = `${log.note ?? ""} ${log.id ?? ""} ${(log.traits ?? []).join(" ")}`;
+export function detectLanes(
+  log: Pick<LogEntry, "note" | "id" | "type" | "bucket" | "traits" | "fullTypes">,
+): LaneId[] {
+  const blob = `${log.note ?? ""} ${log.id ?? ""} ${(log.traits ?? []).join(" ")} ${(log.fullTypes ?? []).join(" ")}`;
   const lanes: LaneId[] = [];
-  if (STONK_RE.test(blob)) lanes.push("stonkfun");
-  if (SOLANA_RE.test(blob) || lanes.includes("stonkfun")) lanes.push("solana");
+  const isStonk = STONK_RE.test(blob);
+  if (isStonk) lanes.push("stonkfun");
+  if (SOLANA_RE.test(blob) || isStonk) lanes.push("solana");
   if (log.bucket === "football") lanes.push("football");
-  if (
+
+  // Real value useful: useful-type with substance — EXCLUDE pure StonkFun support
+  const isUsefulType =
     log.type === "useful" ||
-    (log.traits ?? []).includes("useful") ||
-    RADAR_VALUE_RE.test(blob)
-  ) {
+    (log.fullTypes ?? []).includes("useful") ||
+    (log.traits ?? []).includes("useful");
+  const hasSubstance = RADAR_VALUE_RE.test(blob) || (isUsefulType && !isStonk);
+  if (hasSubstance && !isStonk) {
+    lanes.push("radarUseful");
+  } else if (hasSubstance && isStonk && RADAR_VALUE_RE.test(blob)) {
+    // rare: Stonk mention inside a real comparison teardown still counts
     lanes.push("radarUseful");
   }
+
   return [...new Set(lanes)];
 }
 

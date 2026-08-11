@@ -6,6 +6,8 @@ Trigger: user writes **`radar`** / **`радар`** (optionally with focus: `rad
 
 Goal: **accumulate broadly** in `public/radar-data.json`. Surface to the user **only** when something is genuinely strong or a clear pattern formed. Quiet the rest.
 
+**Value bar (Aug 2026):** angles for PICK should pass `evidence/examples/solana-value-refs.md` — real reader usefulness (comparison, hot important fact, mechanism, receipt). Essay or visual both OK. Prefer **Solana-weighted** clusters when rhyming with @piselliii lane. Do **not** push Sol-vs-ETH flex or StonkFun-support-as-teardown as “value.”
+
 ---
 
 ## Lifecycle

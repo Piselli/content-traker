@@ -2,7 +2,9 @@
 
 **Status (2026-08-11): retired.** Do not require Judgment Records before posts. They slow content generation; agents must not prompt for `decision` / `prediction` / `reviewAt`.
 
-File kept as archive only. Active agent contract: `.cursor/rules/project.mdc` (logging + ideas + radar).
+All open records in `public/judgment-data.json` were **bulk-closed** the same day (not calibrated reviews). File kept as archive only.
+
+Active agent contract: `.cursor/rules/project.mdc` (logging + ideas + radar).
 
 ---
 

@@ -14,19 +14,19 @@ Sources:
 - RSS (Solana-filtered): Compass, SolanaFloor, Helius; Blockworks / Defiant if Solana in title
 - StonkFun totals from `public/stonkfun-revenue.json`
 
-**Detectors → `patterns[]` / `angles[]`:**
+| **Detectors → `patterns[]` / `angles[]`:**
 | kind | When it fires |
 |------|----------------|
 | `ath` | fees/rev/DEX at or near 90d high |
 | `rank-flip` / `leader-change` | protocol climbs board or #1 changes |
 | `share-shift` | launchpad / DEX / apps fee mix moves ≥8pp day |
 | `divergence` | DEX vol vs fees 1d change gap ≥20pp |
-| `cross-chain` | Sol fees > ETH (or ≫ Base) |
-| `stonkfun-gap` | SF printing but absent from Llama boards |
 | `weird-ratio` | fees/TVL elevated vs recent median |
 | `spike` | metric ±`SPIKE_PCT`% (default 25) vs ~7d median |
 
-**ntfy** only on fresh high/med patterns (capped) or classic spikes — not every morning.
+**Not surfaced (by design):** Sol-vs-ETH/Base chain flex · StonkFun Llama-gap (support lane, not value).
+
+**ntfy** only on fresh high/med patterns (capped) or classic spikes — not a daily digest.
 
 ## Agent: `solana день`
 

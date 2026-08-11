@@ -1,6 +1,6 @@
 {
-  "syncVersion": 12,
-  "updatedAt": "2026-07-14T16:22:25.153Z",
+  "syncVersion": 13,
+  "updatedAt": "2026-08-11T00:59:31.987377Z",
   "records": [
     {
       "id": "jr-20260714-btc-cpi-poi-61k",
@@ -9,8 +9,11 @@
       "prediction": "By 2026-07-21: BTC revisits ≤61.5k at least once, without first printing a daily close above 65.5k.",
       "reviewAt": "2026-07-21T15:57:08.000Z",
       "confidence": 60,
-      "status": "open",
-      "evidenceUrl": "https://x.com/piselliii/status/2077059831324647833"
+      "status": "closed",
+      "evidenceUrl": "https://x.com/piselliii/status/2077059831324647833",
+      "result": "surprise",
+      "judgmentUpdate": "Bulk-closed 2026-08-11: Judgment OS retired — not a calibrated review.",
+      "reviewedAt": "2026-08-11T00:59:31.987377Z"
     },
     {
       "id": "jr-20260714-wale-holiday",
@@ -19,8 +22,11 @@
       "prediction": "3h: ≥3 replies OR ≥1 reply from a CT account with >5k followers; ≥150 views (visual meme QT, not text-only).",
       "reviewAt": "2026-07-14T16:37:38.000Z",
       "confidence": 60,
-      "status": "open",
-      "evidenceUrl": "https://x.com/piselliii/status/2077024726069690406"
+      "status": "closed",
+      "evidenceUrl": "https://x.com/piselliii/status/2077024726069690406",
+      "result": "surprise",
+      "judgmentUpdate": "Bulk-closed 2026-08-11: Judgment OS retired — not a calibrated review.",
+      "reviewedAt": "2026-08-11T00:59:31.987377Z"
     },
     {
       "id": "jr-20260714-rh-wallets-sticky",
@@ -29,8 +35,11 @@
       "prediction": "24h: ≥9 replies · ≥400 views. Thesis: short tweet, low reply friction; key that it pushed in hour one.",
       "reviewAt": "2026-07-14T22:52:00.000Z",
       "confidence": 80,
-      "status": "open",
-      "evidenceUrl": "https://x.com/piselliii/status/2076802010297389437"
+      "status": "closed",
+      "evidenceUrl": "https://x.com/piselliii/status/2076802010297389437",
+      "result": "surprise",
+      "judgmentUpdate": "Bulk-closed 2026-08-11: Judgment OS retired — not a calibrated review.",
+      "reviewedAt": "2026-08-11T00:59:31.987377Z"
     },
     {
       "id": "jr-20260713-ascii-alpha-qt",
@@ -39,8 +48,11 @@
       "prediction": "3h (~20:22 UA): ≥8 replies і ≥300 views (better than cold open baseline).",
       "reviewAt": "2026-07-13T20:21:58.000Z",
       "confidence": 65,
-      "status": "open",
-      "evidenceUrl": "https://x.com/piselliii/status/2076718793506586848"
+      "status": "closed",
+      "evidenceUrl": "https://x.com/piselliii/status/2076718793506586848",
+      "result": "surprise",
+      "judgmentUpdate": "Bulk-closed 2026-08-11: Judgment OS retired — not a calibrated review.",
+      "reviewedAt": "2026-08-11T00:59:31.987377Z"
     },
     {
       "id": "jr-20260713-ascii-alpha",
@@ -62,8 +74,11 @@
       "prediction": "24h: ≥800 views. Якщо <800 — основний ризик = поганий час постінгу (02:22), не слабкий angle.",
       "reviewAt": "2026-07-13T23:22:34.000Z",
       "confidence": 75,
-      "status": "open",
-      "evidenceUrl": "https://x.com/piselliii/status/2076447153170297133"
+      "status": "closed",
+      "evidenceUrl": "https://x.com/piselliii/status/2076447153170297133",
+      "result": "surprise",
+      "judgmentUpdate": "Bulk-closed 2026-08-11: Judgment OS retired — not a calibrated review.",
+      "reviewedAt": "2026-08-11T00:59:31.987377Z"
     },
     {
       "id": "jr-20260712-alpha-exit",
@@ -72,8 +87,11 @@
       "prediction": "24h: ~200 views (діапазон 150–250); 3–4 replies max; переважно слабкі — без keyword/hot-topic lift, слабкий bait, поганий час; пост без сильної ставки на дистрибуцію",
       "reviewAt": "2026-07-13T21:13:00.000Z",
       "confidence": 90,
-      "status": "open",
-      "evidenceUrl": "https://x.com/piselliii/status/2076414547787743380"
+      "status": "closed",
+      "evidenceUrl": "https://x.com/piselliii/status/2076414547787743380",
+      "result": "surprise",
+      "judgmentUpdate": "Bulk-closed 2026-08-11: Judgment OS retired — not a calibrated review.",
+      "reviewedAt": "2026-08-11T00:59:31.987377Z"
     },
     {
       "id": "jr-20260712-exit-liq-ath",
@@ -82,7 +100,10 @@
       "prediction": "24h: ≥4 replies that get the joke (exit liquidity / bagholder); RPV ≥12 if views≥150; visual earns expand (not ignored as generic chart)",
       "reviewAt": "2026-07-13T15:40:00.000Z",
       "confidence": 70,
-      "status": "open"
+      "status": "closed",
+      "result": "surprise",
+      "judgmentUpdate": "Bulk-closed 2026-08-11: Judgment OS retired — not a calibrated review.",
+      "reviewedAt": "2026-08-11T00:59:31.987377Z"
     }
   ]
 }

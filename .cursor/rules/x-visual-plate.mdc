@@ -1,0 +1,51 @@
+---
+description: X tweet visuals — full-bleed Plate style (no nested cards on black). Use when generating collages, screenshot layouts, name tables, proof grids, or any native media for @piselliii posts.
+alwaysApply: true
+---
+
+# X visual: Plate (full-bleed)
+
+Default generated look for @piselliii tweet images (tables, screenshot grids, proof collages). **Not** Chalk Noir (that stays rare — see JARVIS).
+
+## One sentence
+
+The image **is** the plate. X rounds the corners. Never draw a second rounded card inside.
+
+## Canvas
+
+- Full-bleed fill: `#0a0a0a` (or very near — not pure `#000` void around a floating panel)
+- Square image corners in the file (no rounded-rect “app card” chrome)
+- One continuous surface edge-to-edge — padding is margin *inside* the plate, not a black frame outside it
+
+## Layout
+
+- **One composition** on one plate. Adapt the *grid* to the job (2-col proof, 4-col name table, stack of shots) — do not invent a new visual system per task
+- Screenshots / crops sit **flush on the plate** (optional 1px hairline `#1c1c1c`). No nested rounded mini-cards, no glass panels, no drop shadows per tile
+- Labels = typography on the plate (handle + status above/beside the shot), not “card headers” with their own background blocks
+- Thin rules OK (`#1c1c1c`) for row/column structure. No heavy borders, no badge pills, no glow
+
+## Type
+
+- Clean sans (system Arial / SF). High contrast: titles near white, body `#d2d2d2`, labels `#6e6e6e`
+- Bold only for names / key tokens — not whole paragraphs
+- Prefer short bullets over walls; must stay readable when X compresses on mobile
+
+## Do
+
+- Reference look: `assets/project-names-fullbleed-v2.png` (+ UA twin `…-v2-ua.png`)
+- When user pastes screenshots: place them on the plate in a clear grid; status text as plain labels
+- Keep monochrome unless the source screenshot itself needs color
+
+## Don’t (this is the failure mode)
+
+- Black canvas + floating rounded “plaques” / cards (box-in-box; X rounds again → double radius)
+- A column of separate cards each wrapping one screenshot
+- Dashboard / widget / glassmorphism / frosted panels
+- Decorative outer frames, soft shadows, thick outlines around every asset
+- Making the plate smaller than the canvas so a black margin shows in the feed
+
+## Quick self-check before export
+
+1. Sample the four image corners — same plate color, not pure black frame
+2. Count “rounded containers” in the design — must be **0** (X supplies the only round)
+3. Could you describe it as one slab, not a stack of widgets? If no → rebuild

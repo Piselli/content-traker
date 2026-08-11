@@ -174,7 +174,7 @@ Combo allowed — log **primary `type`** + optional **`fullTypes[]`** (2 norms a
 ### Classification rules (agent)
 
 1. **Why now?** → pick lead `type` (first badge)
-2. **MoveMatch / product push?** → **`builder` lead** — squad screenshots, MD announcements, QT of @MoveMatchxyz when the goal is product reach. Do **not** log as strategic QT just because it's a quote tweet.
+2. **MoveMatch / product push?** → **`builder` lead** — squad screenshots, MD announcements, QT of @MoveMatchxyz when the goal is product reach. MoveMatch → **Solana** migration: still `builder`, may count Solana lane. Do **not** log as strategic QT just because it's a quote tweet.
 3. **Platform/ecosystem reflection?** → **`meta reach` lead** — CT meta essays, producers vs consumers, attention market takes. Not provocative just because it's contrarian; not strategic QT if the QT is just a hook for your own thread.
 4. **Visual punchline > text?** → **`meme` lead** — heatmap screenshots, reaction images, self-QT with one-liner punch. Not strategic QT.
 5. **Two types 100%?** → set `fullTypes: [a, b]` (both count in norms)

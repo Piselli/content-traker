@@ -347,7 +347,7 @@ function detectPatterns(data, metrics, stonk) {
         strength: "high",
         title: `Solana ${label} at/near 90d high`,
         detail: `${fmtUsd(cur)} vs prior peak ${fmtUsd(peak)}`,
-        tweetHook: `Solana ${label} just printed a ~90d high (${fmtUsd(cur)}). CT still debating vibes.`,
+        tweetHook: `Solana ${label}: ${fmtUsd(cur)} ≈ 90d high (prior peak ${fmtUsd(peak)}). What’s driving it in the top protocols?`,
       });
     }
   }
@@ -369,7 +369,7 @@ function detectPatterns(data, metrics, stonk) {
           strength: "med",
           title: `${name} climbed fees board (#${old + 1} → #${i + 1})`,
           detail: `${fmtUsd(curTop[i].fees24h)} fees 24h`,
-          tweetHook: `${name} just jumped ${old - i} spots on Solana fees (#${old + 1} → #${i + 1}). Rank flips > vibes.`,
+          tweetHook: `${name} fees rank #${old + 1} → #${i + 1} (${fmtUsd(curTop[i].fees24h)}). Who lost share?`,
         });
       }
     }
@@ -383,7 +383,7 @@ function detectPatterns(data, metrics, stonk) {
         strength: "high",
         title: `Fees leader: ${prev[0].name} → ${curTop[0].name}`,
         detail: `${curTop[0].name} ${fmtUsd(curTop[0].fees24h)} vs old #1 ${prev[0].name}`,
-        tweetHook: `Solana fees crown flipped: ${prev[0].name} → ${curTop[0].name}. Attention follows the printer.`,
+        tweetHook: `Solana fees #1 flipped: ${prev[0].name} → ${curTop[0].name} (${fmtUsd(curTop[0].fees24h)}). Compare the board, not the timeline vibes.`,
       });
     }
   }
@@ -433,56 +433,9 @@ function detectPatterns(data, metrics, stonk) {
     }
   }
 
-  // --- Cross-chain fees ---
-  const solF = metrics.chainFees?.Solana?.fees24hUsd;
-  const ethF = metrics.chainFees?.Ethereum?.fees24hUsd;
-  const baseF = metrics.chainFees?.Base?.fees24hUsd;
-  if (solF != null && ethF != null && solF > ethF) {
-    out.push({
-      id: `xchain-sol-gt-eth-${date}`,
-      kind: "cross-chain",
-      date,
-      at,
-      strength: "high",
-      title: `Solana fees > Ethereum (${fmtUsd(solF)} vs ${fmtUsd(ethF)})`,
-      detail: baseF != null ? `Base ${fmtUsd(baseF)}` : "",
-      tweetHook: `Solana fees (${fmtUsd(solF)}) > Ethereum (${fmtUsd(ethF)}) today. Narratives update slower than printers.`,
-    });
-  }
-  if (solF != null && baseF != null && solF > baseF * 3) {
-    out.push({
-      id: `xchain-sol-vs-base-${date}`,
-      kind: "cross-chain",
-      date,
-      at,
-      strength: "low",
-      title: `Solana fees ≫ Base (${fmtUsd(solF)} vs ${fmtUsd(baseF)})`,
-      detail: "",
-      tweetHook: `Solana still printing ~${(solF / Math.max(baseF, 1)).toFixed(1)}× Base fees. L2 discourse ≠ fee reality.`,
-    });
-  }
-
-  // --- StonkFun missing from Llama boards ---
-  if (stonk?.latestTotalUsd != null || stonk?.todaySoFarUsd != null) {
-    const names = new Set(
-      [...(metrics.topFees || []), ...(metrics.topRevenue || [])].map((p) =>
-        (p.name || "").toLowerCase(),
-      ),
-    );
-    const onBoard = [...names].some((n) => /stonk/.test(n));
-    if (!onBoard) {
-      out.push({
-        id: `stonk-gap-${date}`,
-        kind: "stonkfun-gap",
-        date,
-        at,
-        strength: "med",
-        title: "StonkFun still absent from Llama Solana fee boards",
-        detail: `SF today-so-far ${fmtUsd(stonk.todaySoFarUsd)} · total ${fmtUsd(stonk.latestTotalUsd)}`,
-        tweetHook: `Still won't see StonkFun on DefiLlama Solana roundups. Boards ≠ printers.`,
-      });
-    }
-  }
+  // Cross-chain Sol-vs-ETH / Sol-vs-Base flex: intentionally NOT surfaced
+  // (not @piselliii value bar). chainFees still stored on latest for context.
+  // StonkFun Llama-gap: support lane only — NOT value angles / ntfy.
 
   // --- Weird fees/TVL ratio vs recent median ---
   if (metrics.fees24hUsd != null && metrics.tvlUsd) {
@@ -603,18 +556,25 @@ async function main() {
     });
   }
 
+  const bannedKinds = new Set(["cross-chain", "stonkfun-gap"]);
+  const patternsClean = patterns.filter((p) => !bannedKinds.has(p.kind));
   const prevPat = new Set((data.patterns || []).map((p) => p.id));
-  const freshPatterns = patterns.filter((p) => !prevPat.has(p.id));
-  data.patterns = [...patterns, ...(data.patterns || []).filter((p) => p.date !== metrics.date)].slice(
-    0,
-    80,
-  );
+  const freshPatterns = patternsClean.filter((p) => !prevPat.has(p.id));
+  data.patterns = [
+    ...patternsClean,
+    ...(data.patterns || []).filter((p) => p.date !== metrics.date && !bannedKinds.has(p.kind)),
+  ].slice(0, 80);
 
-  const angles = patternsToAngles(patterns);
-  // replace today's ready angles; keep older unused briefly
+  const angles = patternsToAngles(patternsClean);
+  // replace today's ready angles; drop retired kinds; keep older unused briefly
   data.angles = [
     ...angles,
-    ...(data.angles || []).filter((a) => a.date !== metrics.date && a.status !== "used"),
+    ...(data.angles || []).filter(
+      (a) =>
+        a.date !== metrics.date &&
+        a.status !== "used" &&
+        !bannedKinds.has(a.kind),
+    ),
   ].slice(0, 40);
 
   const prevSpikeKeys = new Set((data.spikes || []).map((s) => `${s.date}:${s.metric}`));
