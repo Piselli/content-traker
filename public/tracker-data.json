@@ -1,6 +1,6 @@
 {
-  "syncVersion": 489,
-  "updatedAt": "2026-08-11T00:11:53.100Z",
+  "syncVersion": 490,
+  "updatedAt": "2026-08-11T00:29:04.144025Z",
   "logs": [
     {
       "id": "useful-stonkfun-defillama-gap-scorecard-aug10",
@@ -166,6 +166,669 @@
           "checkedAt": "2026-08-11T00:09:42.834229Z"
         }
       ]
+    },
+    {
+      "id": "backfill-2084725315138433211",
+      "type": "useful",
+      "traits": [
+        "hot topic",
+        "bait"
+      ],
+      "bucket": "CT",
+      "visualCluster": "screenshot",
+      "note": "EN useful QT @Deestar (S-token hints / not on DefiLlama): ID+buy via PayBox chat — StonkFun adjacent reveal path.",
+      "at": "2026-08-04T19:37:02.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2084725315138433211",
+      "views": 1027,
+      "likes": 30,
+      "replies": 5,
+      "ageHours": 149,
+      "updatedAt": "2026-08-11T00:29:04.144025Z",
+      "syncedAt": "2026-08-11T00:28:32.376965Z",
+      "snapshots": [
+        {
+          "ageHours": 149,
+          "views": 1027,
+          "likes": 30,
+          "replies": 5,
+          "checkedAt": "2026-08-11T00:28:32.376965Z"
+        }
+      ],
+      "slot": 2
+    },
+    {
+      "id": "backfill-2084683928443494480",
+      "type": "provocative",
+      "traits": [
+        "useful",
+        "meta reach"
+      ],
+      "bucket": "CT",
+      "visualCluster": "screenshot",
+      "note": "EN provocative QT @loshmi: CT copies 'honest losses/KOL of people' format; works when you ARE it not seem it.",
+      "at": "2026-08-04T16:52:34.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2084683928443494480",
+      "views": 923,
+      "likes": 36,
+      "replies": 6,
+      "ageHours": 152,
+      "updatedAt": "2026-08-11T00:29:04.144025Z",
+      "syncedAt": "2026-08-11T00:28:32.376965Z",
+      "snapshots": [
+        {
+          "ageHours": 152,
+          "views": 923,
+          "likes": 36,
+          "replies": 6,
+          "checkedAt": "2026-08-11T00:28:32.376965Z"
+        }
+      ],
+      "slot": 1
+    },
+    {
+      "id": "backfill-2084316897445585152",
+      "type": "builder",
+      "traits": [
+        "bait"
+      ],
+      "bucket": "football",
+      "visualCluster": "screenshot",
+      "note": "EN builder+bait: documenting onchain football fantasy rebuild from zero; need name feedback — what lands/doesn't.",
+      "at": "2026-08-03T16:34:07.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2084316897445585152",
+      "views": 748,
+      "likes": 37,
+      "replies": 11,
+      "ageHours": 176,
+      "updatedAt": "2026-08-11T00:29:04.144025Z",
+      "syncedAt": "2026-08-11T00:28:32.376965Z",
+      "snapshots": [
+        {
+          "ageHours": 176,
+          "views": 748,
+          "likes": 37,
+          "replies": 11,
+          "checkedAt": "2026-08-11T00:28:32.376965Z"
+        }
+      ],
+      "slot": 1
+    },
+    {
+      "id": "backfill-2083931445727301761",
+      "type": "hot topic",
+      "traits": [],
+      "bucket": "CT",
+      "visualCluster": "screenshot",
+      "note": "EN personal QT @Xeer: mom lifestyle checklist — proud of her; off-lane trust post; high reply density.",
+      "at": "2026-08-02T15:02:28.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2083931445727301761",
+      "views": 1419,
+      "likes": 38,
+      "replies": 14,
+      "ageHours": 201,
+      "updatedAt": "2026-08-11T00:29:04.144025Z",
+      "syncedAt": "2026-08-11T00:28:32.376965Z",
+      "snapshots": [
+        {
+          "ageHours": 201,
+          "views": 1419,
+          "likes": 38,
+          "replies": 14,
+          "checkedAt": "2026-08-11T00:28:32.376965Z"
+        }
+      ],
+      "slot": 1
+    },
+    {
+      "id": "backfill-2083634210967883830",
+      "type": "meme",
+      "traits": [
+        "provocative"
+      ],
+      "bucket": "CT",
+      "visualCluster": "text-only",
+      "note": "EN meme QT @loshmi ($675k month): also made $0.9T +5kg hemorrhoid — gotta grind harder / lie better.",
+      "at": "2026-08-01T19:21:22.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2083634210967883830",
+      "views": 743,
+      "likes": 23,
+      "replies": 14,
+      "ageHours": 221,
+      "updatedAt": "2026-08-11T00:29:04.144025Z",
+      "syncedAt": "2026-08-11T00:28:32.376965Z",
+      "snapshots": [
+        {
+          "ageHours": 221,
+          "views": 743,
+          "likes": 23,
+          "replies": 14,
+          "checkedAt": "2026-08-11T00:28:32.376965Z"
+        }
+      ],
+      "slot": 4
+    },
+    {
+      "id": "backfill-2083616253004968335",
+      "type": "hot topic",
+      "traits": [
+        "bait",
+        "meme"
+      ],
+      "bucket": "CT",
+      "visualCluster": "screenshot",
+      "note": "EN hot-topic QT @KobeissiLetter: Trump Truth API private channel — next group buy / OTC resale? what stage.",
+      "at": "2026-08-01T18:10:01.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2083616253004968335",
+      "views": 883,
+      "likes": 19,
+      "replies": 1,
+      "ageHours": 222,
+      "updatedAt": "2026-08-11T00:29:04.144025Z",
+      "syncedAt": "2026-08-11T00:28:32.376965Z",
+      "snapshots": [
+        {
+          "ageHours": 222,
+          "views": 883,
+          "likes": 19,
+          "replies": 1,
+          "checkedAt": "2026-08-11T00:28:32.376965Z"
+        }
+      ],
+      "slot": 3
+    },
+    {
+      "id": "backfill-2083560982148702581",
+      "type": "meme",
+      "traits": [
+        "hot topic",
+        "bait"
+      ],
+      "bucket": "CT",
+      "visualCluster": "meme",
+      "note": "EN meme greentext: entire feed PayBox/MoonPay airdrop spam — you already know what's next.",
+      "at": "2026-08-01T14:30:23.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2083560982148702581",
+      "views": 588,
+      "likes": 32,
+      "replies": 7,
+      "ageHours": 226,
+      "updatedAt": "2026-08-11T00:29:04.144025Z",
+      "syncedAt": "2026-08-11T00:28:32.376965Z",
+      "snapshots": [
+        {
+          "ageHours": 226,
+          "views": 588,
+          "likes": 32,
+          "replies": 7,
+          "checkedAt": "2026-08-11T00:28:32.376965Z"
+        }
+      ],
+      "slot": 2
+    },
+    {
+      "id": "backfill-2083364032006787302",
+      "type": "meme",
+      "traits": [
+        "hot topic"
+      ],
+      "bucket": "CT",
+      "visualCluster": "collage",
+      "note": "EN meme: MoonPay owned TL — intern @moonpay hero CT doesn't deserve.",
+      "at": "2026-08-01T01:27:46.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2083364032006787302",
+      "views": 527,
+      "likes": 27,
+      "replies": 5,
+      "ageHours": 239,
+      "updatedAt": "2026-08-11T00:29:04.144025Z",
+      "syncedAt": "2026-08-11T00:28:32.376965Z",
+      "snapshots": [
+        {
+          "ageHours": 239,
+          "views": 527,
+          "likes": 27,
+          "replies": 5,
+          "checkedAt": "2026-08-11T00:28:32.376965Z"
+        }
+      ],
+      "slot": 1
+    },
+    {
+      "id": "backfill-2083277808416026879",
+      "type": "useful",
+      "traits": [
+        "strategic QT",
+        "hot topic"
+      ],
+      "bucket": "CT",
+      "visualCluster": "screenshot",
+      "note": "EN useful: Ansem (@blknoiz06) clipper farm — Mellstroy $200/1M / $24.8M claims; Ansem $400/1M Kick + $10k/mo; distribution outside X.",
+      "at": "2026-07-31T19:45:09.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2083277808416026879",
+      "views": 556,
+      "likes": 23,
+      "replies": 4,
+      "ageHours": 245,
+      "updatedAt": "2026-08-11T00:29:04.144025Z",
+      "syncedAt": "2026-08-11T00:28:32.376965Z",
+      "snapshots": [
+        {
+          "ageHours": 245,
+          "views": 556,
+          "likes": 23,
+          "replies": 4,
+          "checkedAt": "2026-08-11T00:28:32.376965Z"
+        }
+      ],
+      "slot": 2
+    },
+    {
+      "id": "backfill-2083214662166880513",
+      "type": "provocative",
+      "traits": [
+        "meta reach",
+        "bait"
+      ],
+      "bucket": "CT",
+      "visualCluster": "screenshot",
+      "note": "EN provocative+meta: short PnL was @ProprXYZ demo contest; CT image vs is; question success screenshots / MoonPay flex.",
+      "at": "2026-07-31T15:34:14.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2083214662166880513",
+      "views": 951,
+      "likes": 23,
+      "replies": 2,
+      "ageHours": 249,
+      "updatedAt": "2026-08-11T00:29:04.144025Z",
+      "syncedAt": "2026-08-11T00:28:32.376965Z",
+      "snapshots": [
+        {
+          "ageHours": 249,
+          "views": 951,
+          "likes": 23,
+          "replies": 2,
+          "checkedAt": "2026-08-11T00:28:32.376965Z"
+        }
+      ],
+      "fullTypes": [
+        "provocative",
+        "meta reach"
+      ],
+      "slot": 1
+    },
+    {
+      "id": "backfill-2082943816722461156",
+      "type": "hot topic",
+      "traits": [
+        "meme"
+      ],
+      "bucket": "CT",
+      "visualCluster": "screenshot",
+      "note": "EN hot-topic QT @waleswoosh: late Wale tweet — MoonPay bought $1 for $0.1; 200 IQ move.",
+      "at": "2026-07-30T21:37:59.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2082943816722461156",
+      "views": 489,
+      "likes": 12,
+      "replies": 2,
+      "ageHours": 267,
+      "updatedAt": "2026-08-11T00:29:04.144025Z",
+      "syncedAt": "2026-08-11T00:28:32.376965Z",
+      "snapshots": [
+        {
+          "ageHours": 267,
+          "views": 489,
+          "likes": 12,
+          "replies": 2,
+          "checkedAt": "2026-08-11T00:28:32.376965Z"
+        }
+      ],
+      "slot": 2
+    },
+    {
+      "id": "backfill-2082866629650620642",
+      "type": "meta reach",
+      "traits": [
+        "provocative",
+        "useful"
+      ],
+      "bucket": "CT",
+      "visualCluster": "screenshot",
+      "note": "EN meta reach QT @cilinhq: silent eng-group test (reply if only they saw?); discord→X mutual origins; types of replies.",
+      "at": "2026-07-30T16:31:16.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2082866629650620642",
+      "views": 460,
+      "likes": 22,
+      "replies": 6,
+      "ageHours": 272,
+      "updatedAt": "2026-08-11T00:29:04.144025Z",
+      "syncedAt": "2026-08-11T00:28:32.376965Z",
+      "snapshots": [
+        {
+          "ageHours": 272,
+          "views": 460,
+          "likes": 22,
+          "replies": 6,
+          "checkedAt": "2026-08-11T00:28:32.376965Z"
+        }
+      ],
+      "slot": 1
+    },
+    {
+      "id": "backfill-2082458698601857369",
+      "type": "useful",
+      "traits": [
+        "provocative"
+      ],
+      "bucket": "CT",
+      "visualCluster": "screenshot",
+      "note": "EN useful QT @bigchog: successful traders rare; trading toxic; memes = movie ticket; keep chart + rare swings.",
+      "at": "2026-07-29T13:30:18.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2082458698601857369",
+      "views": 451,
+      "likes": 23,
+      "replies": 4,
+      "ageHours": 299,
+      "updatedAt": "2026-08-11T00:29:04.144025Z",
+      "syncedAt": "2026-08-11T00:28:32.376965Z",
+      "snapshots": [
+        {
+          "ageHours": 299,
+          "views": 451,
+          "likes": 23,
+          "replies": 4,
+          "checkedAt": "2026-08-11T00:28:32.376965Z"
+        }
+      ],
+      "slot": 1
+    },
+    {
+      "id": "backfill-2082178998642106421",
+      "type": "bait",
+      "traits": [
+        "meme",
+        "useful"
+      ],
+      "bucket": "CT",
+      "visualCluster": "chart",
+      "note": "EN bait: which chart is scam meme (hacked, confirmed 40m) vs promising community meme — meme trading lesson.",
+      "at": "2026-07-28T18:58:52.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2082178998642106421",
+      "views": 470,
+      "likes": 27,
+      "replies": 5,
+      "ageHours": 317,
+      "updatedAt": "2026-08-11T00:29:04.144025Z",
+      "syncedAt": "2026-08-11T00:28:32.376965Z",
+      "snapshots": [
+        {
+          "ageHours": 317,
+          "views": 470,
+          "likes": 27,
+          "replies": 5,
+          "checkedAt": "2026-08-11T00:28:32.376965Z"
+        }
+      ],
+      "slot": 3
+    },
+    {
+      "id": "backfill-2082110981568622596",
+      "type": "bait",
+      "traits": [
+        "meme",
+        "provocative"
+      ],
+      "bucket": "CT",
+      "visualCluster": "screenshot",
+      "note": "EN bait: 'we're back' vs my short screenshot — setup for later Propr demo reveal.",
+      "at": "2026-07-28T14:28:36.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2082110981568622596",
+      "views": 1447,
+      "likes": 25,
+      "replies": 5,
+      "ageHours": 322,
+      "updatedAt": "2026-08-11T00:29:04.144025Z",
+      "syncedAt": "2026-08-11T00:28:32.376965Z",
+      "snapshots": [
+        {
+          "ageHours": 322,
+          "views": 1447,
+          "likes": 25,
+          "replies": 5,
+          "checkedAt": "2026-08-11T00:28:32.376965Z"
+        }
+      ],
+      "slot": 2
+    },
+    {
+      "id": "backfill-2082038841276244456",
+      "type": "provocative",
+      "traits": [
+        "useful"
+      ],
+      "bucket": "CT",
+      "visualCluster": "screenshot",
+      "note": "EN provocative QT @0xMoei (−12k copytrade agent): real printers don't brand PnL; treat CT as content 99/100.",
+      "at": "2026-07-28T09:41:56.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2082038841276244456",
+      "views": 468,
+      "likes": 26,
+      "replies": 4,
+      "ageHours": 327,
+      "updatedAt": "2026-08-11T00:29:04.144025Z",
+      "syncedAt": "2026-08-11T00:28:32.376965Z",
+      "snapshots": [
+        {
+          "ageHours": 327,
+          "views": 468,
+          "likes": 26,
+          "replies": 4,
+          "checkedAt": "2026-08-11T00:28:32.376965Z"
+        }
+      ],
+      "slot": 1
+    },
+    {
+      "id": "backfill-2081809489838195056",
+      "type": "bait",
+      "traits": [
+        "meme",
+        "hot topic"
+      ],
+      "bucket": "CT",
+      "visualCluster": "screenshot",
+      "note": "EN bait+meme: WC Polymarket grinders now seriously holding [bag/screenshot] — did you notice too?",
+      "at": "2026-07-27T18:30:35.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2081809489838195056",
+      "views": 561,
+      "likes": 29,
+      "replies": 7,
+      "ageHours": 342,
+      "updatedAt": "2026-08-11T00:29:04.144025Z",
+      "syncedAt": "2026-08-11T00:28:32.376965Z",
+      "snapshots": [
+        {
+          "ageHours": 342,
+          "views": 561,
+          "likes": 29,
+          "replies": 7,
+          "checkedAt": "2026-08-11T00:28:32.376965Z"
+        }
+      ],
+      "slot": 1
+    },
+    {
+      "id": "backfill-2081025647166488616",
+      "type": "builder",
+      "traits": [
+        "bait"
+      ],
+      "bucket": "football",
+      "visualCluster": "screenshot",
+      "note": "EN builder+bait: product look vs niche gamble visual language; wants non-gambling unique mechanics (MoveMatch adjacent ask).",
+      "at": "2026-07-25T14:35:52.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2081025647166488616",
+      "views": 618,
+      "likes": 36,
+      "replies": 12,
+      "ageHours": 394,
+      "updatedAt": "2026-08-11T00:29:04.144025Z",
+      "syncedAt": "2026-08-11T00:28:32.376965Z",
+      "snapshots": [
+        {
+          "ageHours": 394,
+          "views": 618,
+          "likes": 36,
+          "replies": 12,
+          "checkedAt": "2026-08-11T00:28:32.376965Z"
+        }
+      ],
+      "slot": 1
+    },
+    {
+      "id": "backfill-2080631643740536839",
+      "type": "meme",
+      "traits": [
+        "hot topic"
+      ],
+      "bucket": "CT",
+      "visualCluster": "meme",
+      "note": "EN meme QT @waleswoosh: everyone in NFTs rn — waiting for InfoFi/NFT comeback.",
+      "at": "2026-07-24T12:30:14.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2080631643740536839",
+      "views": 536,
+      "likes": 38,
+      "replies": 5,
+      "ageHours": 420,
+      "updatedAt": "2026-08-11T00:29:04.144025Z",
+      "syncedAt": "2026-08-11T00:28:32.376965Z",
+      "snapshots": [
+        {
+          "ageHours": 420,
+          "views": 536,
+          "likes": 38,
+          "replies": 5,
+          "checkedAt": "2026-08-11T00:28:32.376965Z"
+        }
+      ],
+      "slot": 1
+    },
+    {
+      "id": "backfill-2080286770567041226",
+      "type": "meme",
+      "traits": [
+        "bait",
+        "hot topic"
+      ],
+      "bucket": "CT",
+      "visualCluster": "screenshot",
+      "note": "EN meme+bait: missed $ANSEM/$CASHCAT, didn't miss $FEFER; called friends in vs RH exit liquidity; EN subs on screenshots.",
+      "at": "2026-07-23T13:39:50.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2080286770567041226",
+      "views": 416,
+      "likes": 30,
+      "replies": 8,
+      "ageHours": 443,
+      "updatedAt": "2026-08-11T00:29:04.144025Z",
+      "syncedAt": "2026-08-11T00:28:32.376965Z",
+      "snapshots": [
+        {
+          "ageHours": 443,
+          "views": 416,
+          "likes": 30,
+          "replies": 8,
+          "checkedAt": "2026-08-11T00:28:32.376965Z"
+        }
+      ],
+      "slot": 1
+    },
+    {
+      "id": "backfill-2079995146850955455",
+      "type": "useful",
+      "traits": [
+        "provocative",
+        "hot topic"
+      ],
+      "bucket": "CT",
+      "visualCluster": "scorecard",
+      "note": "EN useful+provocative: Robinhood chain map — 63% wallets red; 1.5% took 88% profit; $TENDIES −65%; KOLs + exit liquidity.",
+      "at": "2026-07-22T18:21:02.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2079995146850955455",
+      "views": 1429,
+      "likes": 37,
+      "replies": 10,
+      "ageHours": 462,
+      "updatedAt": "2026-08-11T00:29:04.144025Z",
+      "syncedAt": "2026-08-11T00:28:32.376965Z",
+      "snapshots": [
+        {
+          "ageHours": 462,
+          "views": 1429,
+          "likes": 37,
+          "replies": 10,
+          "checkedAt": "2026-08-11T00:28:32.376965Z"
+        }
+      ],
+      "fullTypes": [
+        "useful",
+        "provocative"
+      ],
+      "slot": 1
+    },
+    {
+      "id": "backfill-2079627152723493237",
+      "type": "provocative",
+      "traits": [
+        "useful"
+      ],
+      "bucket": "CT",
+      "visualCluster": "screenshot",
+      "note": "EN provocative QT @tiur_eth (Solstice ambassador lie): be skeptical of crypto first; FOMO industry; verify own take.",
+      "at": "2026-07-21T17:58:45.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2079627152723493237",
+      "views": 680,
+      "likes": 33,
+      "replies": 5,
+      "ageHours": 486,
+      "updatedAt": "2026-08-11T00:29:04.144025Z",
+      "syncedAt": "2026-08-11T00:28:32.376965Z",
+      "snapshots": [
+        {
+          "ageHours": 486,
+          "views": 680,
+          "likes": 33,
+          "replies": 5,
+          "checkedAt": "2026-08-11T00:28:32.376965Z"
+        }
+      ],
+      "slot": 1
+    },
+    {
+      "id": "backfill-2079313333614764533",
+      "type": "bait",
+      "traits": [
+        "hot topic",
+        "meme"
+      ],
+      "bucket": "CT",
+      "visualCluster": "chart",
+      "note": "EN bait: SPCX vs $ANSEM — memecoin or IPO of the century; both −46/−50% from ATH; Musk −$500B Forbes.",
+      "at": "2026-07-20T21:11:45.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2079313333614764533",
+      "views": 622,
+      "likes": 30,
+      "replies": 3,
+      "ageHours": 507,
+      "updatedAt": "2026-08-11T00:29:04.144025Z",
+      "syncedAt": "2026-08-11T00:28:32.376965Z",
+      "snapshots": [
+        {
+          "ageHours": 507,
+          "views": 622,
+          "likes": 30,
+          "replies": 3,
+          "checkedAt": "2026-08-11T00:28:32.376965Z"
+        }
+      ],
+      "slot": 1
     },
     {
       "id": "strategic-qt-useful-creator-demand-side-chog-jul20",
