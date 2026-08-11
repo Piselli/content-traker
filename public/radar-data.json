@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T21:33:45.449Z",
+  "updatedAt": "2026-08-11T22:30:16.521Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -12106,6 +12106,36 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260811-bitcoin-stuck-as-etf-inflows-741acabf",
+      "at": "2026-08-11",
+      "scannedAt": "2026-08-11T22:30:16.521Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "Bitcoin stuck as ETF inflows offset selling, but inflation data could spark a move",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/11/bitcoin-stuck-as-etf-inflows-offset-selling-but-inflation-data-could-spark-a-move",
+      "status": "expired",
+      "tags": [
+        "wrappers-etf"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260811-another-openai-exec-quits-in-3f594e6f",
+      "at": "2026-08-11",
+      "scannedAt": "2026-08-11T22:30:16.521Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Another OpenAI Exec Quits in Leadership Shake-Up as AI Giant Eyes IPO",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375381/openai-exec-brad-lightcap-quits-leadership-shake-up-ipo",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -12358,8 +12388,8 @@
     },
     {
       "id": "ang-watch-wrappers-etf",
-      "at": "2026-08-10T17:15:14.085Z",
-      "thesis": "Watcher cluster [wrappers-etf]: 4 related receipts in ~7d across capital-flows, cex-tradfi.",
+      "at": "2026-08-11T22:30:16.521Z",
+      "thesis": "Watcher cluster [wrappers-etf]: 2 related receipts in ~7d across capital-flows.",
       "voiceHook": "Pattern forming: wrappers etf.",
       "signalIds": [
         "sig-20260728-ms-eth-sol-etp",
@@ -12378,7 +12408,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for wrappers-etf: dates + sources",
-      "expiresAt": "2026-08-14T17:15:14.085Z",
+      "expiresAt": "2026-08-15T22:30:16.521Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -12724,19 +12754,18 @@
     },
     {
       "date": "2026-08-11",
-      "at": "2026-08-11T21:33:45.449Z",
-      "note": "Watcher: +7 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-11T22:30:16.521Z",
+      "note": "Watcher: +2 signals, spikes=0, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260811-cftc-orders-kalshi-to-contin-96a84b70",
-        "sig-20260811-cftc-sues-goliath-ventures-o-40016a68",
-        "sig-20260811-riot-signs-9-1b-20-year-ai-d-85c49c5a",
-        "sig-20260811-sec-to-address-crypto-regula-28b17e58",
-        "sig-20260811-ita-joins-brazil-tokenizatio-8261602d",
-        "sig-20260811-btcpay-backers-offer-bitcoin-bf7134e0",
-        "sig-20260811-the-bull-and-bear-case-for-s-f31fea14"
+        "sig-20260811-bitcoin-stuck-as-etf-inflows-741acabf",
+        "sig-20260811-another-openai-exec-quits-in-3f594e6f"
       ],
-      "angleIdsTouched": [],
-      "noteworthyIds": []
+      "angleIdsTouched": [
+        "ang-watch-wrappers-etf"
+      ],
+      "noteworthyIds": [
+        "ang-watch-wrappers-etf"
+      ]
     }
   ]
 }
