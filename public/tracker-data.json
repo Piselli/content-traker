@@ -1,6 +1,6 @@
 {
-  "syncVersion": 492,
-  "updatedAt": "2026-08-11T00:29:53.725Z",
+  "syncVersion": 493,
+  "updatedAt": "2026-08-11T01:31:00.000Z",
   "logs": [
     {
       "id": "useful-stonkfun-defillama-gap-scorecard-aug10",
@@ -8282,6 +8282,11 @@
       "type": "useful",
       "createdAt": "2026-06-29T08:01:00.000Z",
       "usedAt": "2026-08-11T00:29:37.776454Z"
+    },
+    {
+      "id": "idea-kaito-criminal-pump-aug11",
+      "text": "про злочинний памп Kaito",
+      "createdAt": "2026-08-11T01:31:00.000Z"
     }
   ],
   "deletedUrls": [
