@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T03:13:57.324Z",
+  "updatedAt": "2026-08-11T04:45:50.324Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -10697,7 +10697,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375201/tom-lees-bitmine-buys-14m-in-ethereum-as-cash-falls-to-104m",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -10711,7 +10711,7 @@
       "why": "Watcher spike: strong failure/shipping/capital headline — check for take.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/blackrock-launches-two-canada-etfs-with-one-allocating-3-to-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "wrappers-etf"
       ],
@@ -10727,7 +10727,7 @@
       "why": "Watcher spike: strong failure/shipping/capital headline — check for take.",
       "source": "decrypt",
       "url": "https://decrypt.co/375213/hackers-drain-8-million-from-crypto-platform-coinsbuy",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -10741,7 +10741,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375214/xrp-price-weakens-crypto-market-awaits-clarity",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -11065,6 +11065,62 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/magazine/thailands-0-crypto-tax-bitcoin-red-team-forced-to-use-chinese-ai-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260811-u-s-sec-sets-meeting-to-prop-f43fcff3",
+      "at": "2026-08-11",
+      "scannedAt": "2026-08-11T04:45:50.324Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "U.S. SEC sets meeting to propose Reg Crypto to support certain digital assets offerings",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/policy/2026/08/11/u-s-sec-sets-meeting-to-propose-reg-crypto-to-support-certain-digital-assets-offerings",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260811-bitcoin-s-strongest-hands-ar-91b1acfe",
+      "at": "2026-08-11",
+      "scannedAt": "2026-08-11T04:45:50.324Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin's 'strongest hands' are back, on-chain data show",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/11/bitcoin-s-strongest-hands-are-back-on-chain-data-show",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260811-white-house-vows-to-get-clar-8610dcfa",
+      "at": "2026-08-11",
+      "scannedAt": "2026-08-11T04:45:50.324Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "White House vows to get CLARITY across ‘finish line’ in September",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/white-house-clarity-across-finish-line-september?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260811-trump-media-to-revamp-crypto-a6916c90",
+      "at": "2026-08-11",
+      "scannedAt": "2026-08-11T04:45:50.324Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "Trump Media to revamp crypto treasury strategy after $238M Q2 loss",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/trump-media-crypto-treasury-strategy-after-238m-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "status": "open",
       "tags": [],
       "watcher": true
@@ -11686,10 +11742,13 @@
     },
     {
       "date": "2026-08-11",
-      "at": "2026-08-11T03:13:57.324Z",
-      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-11T04:45:50.324Z",
+      "note": "Watcher: +4 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260811-thailand-s-0-crypto-tax-bitc-ca72f88e"
+        "sig-20260811-u-s-sec-sets-meeting-to-prop-f43fcff3",
+        "sig-20260811-bitcoin-s-strongest-hands-ar-91b1acfe",
+        "sig-20260811-white-house-vows-to-get-clar-8610dcfa",
+        "sig-20260811-trump-media-to-revamp-crypto-a6916c90"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
