@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T18:43:46.885Z",
+  "updatedAt": "2026-08-11T19:53:11.957Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -11922,6 +11922,64 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260811-brazil-s-largest-lender-ita--3703d4d5",
+      "at": "2026-08-11",
+      "scannedAt": "2026-08-11T19:53:11.957Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Brazil's largest lender Itaú is stepping deeper into the tokenization",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/11/brazil-s-largest-lender-itau-is-stepping-deeper-into-the-tokenization",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260811-stablecoin-card-issuer-rain--ad6c4905",
+      "at": "2026-08-11",
+      "scannedAt": "2026-08-11T19:53:11.957Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Stablecoin Card Issuer Rain Buys Merchant Wallet Startup Ansa",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/converge/tradfi-and-fintech/rain-acquires-ansa-stored-value-merchant-wallets",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260811-following-senate-delay-crypt-6a74aec1",
+      "at": "2026-08-11",
+      "scannedAt": "2026-08-11T19:53:11.957Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "Following Senate delay, crypto bill has a narrow window to become law",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/clarity-act-senate-delay-window-become-law-midterm-elections?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [
+        "clarity-policy"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260811-ai-agent-hacks-a-gym-and-the-54c74585",
+      "at": "2026-08-11",
+      "scannedAt": "2026-08-11T19:53:11.957Z",
+      "lane": "ai-crypto",
+      "kind": "narrative",
+      "what": "AI Agent Hacks a Gym—And the Tech World Wonders What's Next",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375358/ai-agent-hacks-gym-membership-tech-world-reacts",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -12540,12 +12598,13 @@
     },
     {
       "date": "2026-08-11",
-      "at": "2026-08-11T18:43:46.885Z",
-      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-11T19:53:11.957Z",
+      "note": "Watcher: +4 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260811-strategy-ceo-says-company-wi-c879e4e7",
-        "sig-20260811-arp-digital-secures-dubai-va-8053b432",
-        "sig-20260811-trump-media-s-crypto-bet-fue-1f3c07bd"
+        "sig-20260811-brazil-s-largest-lender-ita--3703d4d5",
+        "sig-20260811-stablecoin-card-issuer-rain--ad6c4905",
+        "sig-20260811-following-senate-delay-crypt-6a74aec1",
+        "sig-20260811-ai-agent-hacks-a-gym-and-the-54c74585"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
