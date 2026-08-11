@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T11:11:03.752Z",
+  "updatedAt": "2026-08-11T12:04:20.197Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -10315,7 +10315,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/10/inside-stablecoin-firm-bvnk-s-journey-to-a-usd1-8b-acquisition-by-mastercard",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -10329,7 +10329,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/07/robinhood-introduces-no-fee-crypto-trading-in-the-uk-with-ai-assistance",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -10343,7 +10343,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/10/live-updates-btc-above-usd65-000-even-as-the-senate-punts-the-clarity-act-to-the-fall",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "clarity-policy"
       ],
@@ -10359,7 +10359,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/uk-regulators-tokenized-gold-framework-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -10373,7 +10373,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/10/a-rare-cme-shift-hedge-funds-abandon-structural-shorts-to-bet-on-a-bitcoin-rally",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -11432,6 +11432,76 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260811-australian-watchdog-suspends-09546160",
+      "at": "2026-08-11",
+      "scannedAt": "2026-08-11T12:04:20.197Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Australian watchdog suspends Cryptolink, forcing 96 ATMs offline",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/policy/2026/08/11/australian-watchdog-suspends-cryptolink-forcing-96-atms-offline",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260811-ravencoin-could-roll-back-fo-b6619356",
+      "at": "2026-08-11",
+      "scannedAt": "2026-08-11T12:04:20.197Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Ravencoin could roll back four days of transactions after critical block flaw",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/tech/2026/08/11/ravencoin-could-roll-back-four-days-of-transactions-after-critical-block-flaw",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260811-coinbase-picks-abu-dhabi-for-d3cf1992",
+      "at": "2026-08-11",
+      "scannedAt": "2026-08-11T12:04:20.197Z",
+      "lane": "cex-tradfi",
+      "kind": "narrative",
+      "what": "Coinbase picks Abu Dhabi for its global tokenized asset push",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/11/coinbase-picks-abu-dhabi-for-its-global-tokenized-asset-push",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260811-when-safe-assets-compete-wit-19234f5e",
+      "at": "2026-08-11",
+      "scannedAt": "2026-08-11T12:04:20.197Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "When safe assets compete with risk. Lessons from the 1960s–90s for bitcoin and stocks.",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/daybook-us/2026/08/11/when-safe-assets-compete-with-risk-lessons-from-the-1960s-90s-for-bitcoin-and-stocks",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260811-north-korea-now-leans-on-cri-4cc80130",
+      "at": "2026-08-11",
+      "scannedAt": "2026-08-11T12:04:20.197Z",
+      "lane": "failures-rugs",
+      "kind": "exploit",
+      "what": "North Korea Now Leans on Crime Networks to Launder Stolen Crypto: RUSI",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375305/north-korea-now-leans-on-crime-networks-to-launder-stolen-crypto-rusi",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -12050,22 +12120,14 @@
     },
     {
       "date": "2026-08-11",
-      "at": "2026-08-11T11:11:03.752Z",
-      "note": "Watcher: +13 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-11T12:04:20.197Z",
+      "note": "Watcher: +5 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260811-bitcoin-backed-lending-is-en-0dc14bbd",
-        "sig-20260811-bitcoin-stuck-below-65-000-a-a388c347",
-        "sig-20260811-live-updates-bitcoin-slips-a-dc3f93c4",
-        "sig-20260811-flightaware-sues-kalshi-over-87a5cb25",
-        "sig-20260811-software-stocks-break-away-f-216bf1e7",
-        "sig-20260811-luke-dashjr-removed-as-bitco-31a79a52",
-        "sig-20260811-nvidia-s-500-billion-ai-infr-988ebb1d",
-        "sig-20260811-uk-lawmakers-question-lender-322ceb7d",
-        "sig-20260811-riot-platforms-surges-20-in--a84fdf12",
-        "sig-20260811-bitcoin-sell-pressure-closer-4955a3e1",
-        "sig-20260811-coldcard-hack-losses-how-inv-fcacba23",
-        "sig-20260811-keel-shuts-us-bitcoin-mining-2f2320eb",
-        "sig-20260811-coinbase-opens-uk-derivative-55a06999"
+        "sig-20260811-australian-watchdog-suspends-09546160",
+        "sig-20260811-ravencoin-could-roll-back-fo-b6619356",
+        "sig-20260811-coinbase-picks-abu-dhabi-for-d3cf1992",
+        "sig-20260811-when-safe-assets-compete-wit-19234f5e",
+        "sig-20260811-north-korea-now-leans-on-cri-4cc80130"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
