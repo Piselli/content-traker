@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T04:45:50.324Z",
+  "updatedAt": "2026-08-11T05:45:22.598Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -10653,7 +10653,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/10/grayscale-quietly-drops-cardano-polkadot-and-hedera-etf-plans",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "wrappers-etf"
       ],
@@ -10669,7 +10669,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/10/solana-lending-giant-jupiter-now-lets-the-same-dollar-earn-twice",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -10683,7 +10683,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375210/openai-pause-astra-ai-model-critical-cyber-capabilities",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -11121,6 +11121,48 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/trump-media-crypto-treasury-strategy-after-238m-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260811-bitcoin-s-bip-110-fork-is-30-fecc5a9e",
+      "at": "2026-08-11",
+      "scannedAt": "2026-08-11T05:45:22.598Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin’s BIP-110 fork is 300 blocks behind BTC and six years from fixing itself",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/tech/2026/08/11/bitcoin-s-bip-110-fork-is-300-blocks-behind-btc-and-six-years-from-fixing-itself",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260811-xrp-ether-lead-crypto-losses-425bdbdb",
+      "at": "2026-08-11",
+      "scannedAt": "2026-08-11T05:45:22.598Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "XRP, ether lead crypto losses as traders eye $70,000 bitcoin next",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/11/xrp-ether-lead-crypto-losses-as-traders-eye-usd70-000-bitcoin-next",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260811-luke-dashjr-removed-as-bitco-245cc00e",
+      "at": "2026-08-11",
+      "scannedAt": "2026-08-11T05:45:22.598Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Luke Dashjr removed as Bitcoin Improvement Proposal editor",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/luke-dashjr-removed-as-bitcoin-proposal-editor?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "status": "open",
       "tags": [],
       "watcher": true
@@ -11742,13 +11784,12 @@
     },
     {
       "date": "2026-08-11",
-      "at": "2026-08-11T04:45:50.324Z",
-      "note": "Watcher: +4 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-11T05:45:22.598Z",
+      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260811-u-s-sec-sets-meeting-to-prop-f43fcff3",
-        "sig-20260811-bitcoin-s-strongest-hands-ar-91b1acfe",
-        "sig-20260811-white-house-vows-to-get-clar-8610dcfa",
-        "sig-20260811-trump-media-to-revamp-crypto-a6916c90"
+        "sig-20260811-bitcoin-s-bip-110-fork-is-30-fecc5a9e",
+        "sig-20260811-xrp-ether-lead-crypto-losses-425bdbdb",
+        "sig-20260811-luke-dashjr-removed-as-bitco-245cc00e"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
