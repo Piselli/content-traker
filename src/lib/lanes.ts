@@ -6,9 +6,9 @@ import { startOfWeek } from "./week";
 /** Soft weekly lane targets (topic mix) — complementary to CONTENT_TYPES norms. */
 export const LANE_TARGETS = {
   solana: { min: 3, max: 5, label: "Solana eco" },
-  stonkfun: { min: 2, max: 5, label: "StonkFun" },
+  stonkfun: { min: 2, max: 5, label: "StonkFun (support)" },
   football: { min: 0, max: 2, label: "Football (until EPL)" },
-  radarUseful: { min: 3, max: 6, label: "Radar/value useful" },
+  radarUseful: { min: 3, max: 6, label: "Real value useful" },
 } as const satisfies Record<string, Norm>;
 
 export type LaneId = keyof typeof LANE_TARGETS;

@@ -36,7 +36,9 @@ If user attaches JSON from Content Tracker, use it to advise:
 | builder | ≤2 | MoveMatch / product — oxygen-limited |
 | meta reach | ≤1 | |
 
-**Lanes (soft, tracked in UI):** Solana eco **3–5** · StonkFun **2–5** · Football **0–2** until EPL/project · radar/value useful overlaps `useful`.
+**Lanes (soft, tracked in UI):** Solana eco **3–5** · StonkFun **2–5** (support lane — not the serious-value bar) · Football **0–2** until EPL/project · radar/value useful = comparisons / hot intel / mechanisms (essay or visual).
+
+See `evidence/examples/solana-value-refs.md`. Do **not** treat Sol-vs-ETH flex or StonkFun gap as the default “value” template.
 
 ### When advising from tracker data
 
