@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T17:47:07.693Z",
+  "updatedAt": "2026-08-11T18:43:46.885Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -11880,6 +11880,48 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260811-strategy-ceo-says-company-wi-c879e4e7",
+      "at": "2026-08-11",
+      "scannedAt": "2026-08-11T18:43:46.885Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Strategy CEO says company will resume Bitcoin accumulation this year",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/strategy-ceo-resume-bitcoin-accumulation-this-year?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260811-arp-digital-secures-dubai-va-8053b432",
+      "at": "2026-08-11",
+      "scannedAt": "2026-08-11T18:43:46.885Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "ARP Digital secures Dubai VARA broker-dealer license",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/arp-digital-secures-dubai-vara-broker-dealer-license?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260811-trump-media-s-crypto-bet-fue-1f3c07bd",
+      "at": "2026-08-11",
+      "scannedAt": "2026-08-11T18:43:46.885Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Trump Media’s Crypto Bet Fuels Massive $238M Quarterly Loss",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375359/trump-media-crypto-bet-238m-quarterly-loss",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -12498,15 +12540,12 @@
     },
     {
       "date": "2026-08-11",
-      "at": "2026-08-11T17:47:07.693Z",
-      "note": "Watcher: +6 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-11T18:43:46.885Z",
+      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260811-etoro-reports-second-quarter-88576ae5",
-        "sig-20260811-flightaware-sues-kalshi-over-588ab086",
-        "sig-20260811-coinbase-backed-flowdesk-sec-d8c90c0d",
-        "sig-20260811-russia-approves-trading-of-b-2e8cc8f9",
-        "sig-20260811-ravencoin-crashes-20-as-crit-8451fde3",
-        "sig-20260811-etoro-agrees-to-acquire-trad-961309ff"
+        "sig-20260811-strategy-ceo-says-company-wi-c879e4e7",
+        "sig-20260811-arp-digital-secures-dubai-va-8053b432",
+        "sig-20260811-trump-media-s-crypto-bet-fue-1f3c07bd"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
