@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T12:04:20.197Z",
+  "updatedAt": "2026-08-11T13:49:26.310Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -10215,7 +10215,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/ex-us-defense-secretary-calls-clarity-act-a-national-security-bill?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "clarity-policy"
       ],
@@ -10231,7 +10231,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/10/bitcoin-tops-usd65-000-with-us-inflation-data-due-this-week",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -10245,7 +10245,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/10/xrp-is-getting-left-behind-in-the-crypto-bounce-even-as-etfs-keep-attracting-investor-money",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -10259,7 +10259,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/australia-orders-cryptolink-bitcoin-atms-offline-over-basic-reporting-failures?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -10273,7 +10273,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/cryptos-first-quantum-attack-look-like-ordinary-key-theft-quantus-founder?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -10287,7 +10287,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/10/bitcoin-miner-rejects-bip-110-despite-mining-through-a-pool-that-supported-it",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -10301,7 +10301,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/bitcoin-red-team-founder-turns-to-chinese-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -11502,6 +11502,104 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260811-pok-mon-cards-are-becoming-m-c868cca9",
+      "at": "2026-08-11",
+      "scannedAt": "2026-08-11T13:49:26.310Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Pokémon cards are becoming multibillion dollar market. Crypto wants to fix how they trade",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/11/pokemon-cards-are-becoming-multibillion-dollar-market-crypto-wants-to-fix-how-they-trade",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260811-moneygram-expands-on-solana--1a40d246",
+      "at": "2026-08-11",
+      "scannedAt": "2026-08-11T13:49:26.310Z",
+      "lane": "l1-l2",
+      "kind": "narrative",
+      "what": "MoneyGram expands on Solana with global crypto-to-cash service",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/10/moneygram-expands-on-solana-with-global-crypto-to-cash-service",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260811-sharplink-reports-394m-in-q2-982502a5",
+      "at": "2026-08-11",
+      "scannedAt": "2026-08-11T13:49:26.310Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "SharpLink reports $394M in Q2 net loss fueled by ETH decline",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/sharplink-reports-394m-q2-net-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260811-etoro-to-buy-tradezero-as-q2-8a71b2bc",
+      "at": "2026-08-11",
+      "scannedAt": "2026-08-11T13:49:26.310Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "EToro to buy TradeZero as Q2 crypto revenue falls 30%",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/etoro-buy-tradezero-crypto-revenue-falls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260811-russia-proposes-exchange-tra-52cf3a94",
+      "at": "2026-08-11",
+      "scannedAt": "2026-08-11T13:49:26.310Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Russia proposes exchange trading of Bitcoin, Ether and Tether’s USDT",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/bank-of-russia-trading-bitcoin-ether-tether-usdt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260811-luke-dashjr-removed-as-bip-e-b246b24c",
+      "at": "2026-08-11",
+      "scannedAt": "2026-08-11T13:49:26.310Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Luke Dashjr Removed as BIP Editor After BIP-110 Bitcoin Fork Stalls",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375310/luke-dashjr-removed-as-bip-editor-after-bip-110-bitcoin-fork-stalls",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260811-morning-minute-saylor-s-stra-cfd3ee86",
+      "at": "2026-08-11",
+      "scannedAt": "2026-08-11T13:49:26.310Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Morning Minute: Saylor's Strategy Sells Bitcoin for Second Week in a Row",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375304/morning-minute-saylors-strategy-sells-bitcoin-for-second-week-in-a-row",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -12120,14 +12218,16 @@
     },
     {
       "date": "2026-08-11",
-      "at": "2026-08-11T12:04:20.197Z",
-      "note": "Watcher: +5 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-11T13:49:26.310Z",
+      "note": "Watcher: +7 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260811-australian-watchdog-suspends-09546160",
-        "sig-20260811-ravencoin-could-roll-back-fo-b6619356",
-        "sig-20260811-coinbase-picks-abu-dhabi-for-d3cf1992",
-        "sig-20260811-when-safe-assets-compete-wit-19234f5e",
-        "sig-20260811-north-korea-now-leans-on-cri-4cc80130"
+        "sig-20260811-pok-mon-cards-are-becoming-m-c868cca9",
+        "sig-20260811-moneygram-expands-on-solana--1a40d246",
+        "sig-20260811-sharplink-reports-394m-in-q2-982502a5",
+        "sig-20260811-etoro-to-buy-tradezero-as-q2-8a71b2bc",
+        "sig-20260811-russia-proposes-exchange-tra-52cf3a94",
+        "sig-20260811-luke-dashjr-removed-as-bip-e-b246b24c",
+        "sig-20260811-morning-minute-saylor-s-stra-cfd3ee86"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
