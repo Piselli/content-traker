@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T18:13:09.664Z",
+  "updatedAt": "2026-08-12T19:33:05.361Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -12930,6 +12930,92 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260812-marinade-says-28-83-of-solan-ced934df",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T19:33:05.361Z",
+      "lane": "l1-l2",
+      "kind": "metric",
+      "what": "Marinade Says 28.83% of Solana Stake Went Delinquent, Nearing Finality Halt",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/blockchains/marinade-says-28-83-of-solana-stake-went-delinquent-nearing-finality-halt",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-sec-advances-tokenized-secur-90ab412e",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T19:33:05.361Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "SEC Advances Tokenized-Securities Exemption That Could Enable 24/7 Trading",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/converge/regulation/sec-advances-tokenized-securities-exemption-that-could-enable-24-7-trading",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-kraken-adds-s-p-500-to-funde-5d730143",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T19:33:05.361Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Kraken adds S&P 500 to funded trading program, commodities to follow",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/kraken-prop-sp500-perpetual-commodities-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-spacexai-wants-grok-bot-to-d-7bdf25ca",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T19:33:05.361Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "SpaceXAI Wants Grok Bot to Do Your Job—But It Needs Access to Your Accounts",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375490/spacexai-grok-bot-do-job-needs-access-accounts",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-goldman-sachs-2-25b-neos-dea-50c3e044",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T19:33:05.361Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "Goldman Sachs' $2.25B NEOS Deal Hands It Ready-Made Bitcoin Income ETF Business",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375491/goldman-sachs-neos-deal-ready-made-bitcoin-income-etf",
+      "status": "expired",
+      "tags": [
+        "wrappers-etf"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-after-coldcard-was-hacked-15-2e533243",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T19:33:05.361Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "After Coldcard Was Hacked, $15 Billion in Bitcoin Moved to Safety",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375450/coldcard-hack-15-billion-bitcoin-moved-safety",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -13182,7 +13268,7 @@
     },
     {
       "id": "ang-watch-wrappers-etf",
-      "at": "2026-08-12T17:24:42.207Z",
+      "at": "2026-08-12T19:33:05.361Z",
       "thesis": "Watcher cluster [wrappers-etf]: 5 related receipts in ~7d across capital-flows, regulation.",
       "voiceHook": "Pattern forming: wrappers etf.",
       "signalIds": [
@@ -13202,7 +13288,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for wrappers-etf: dates + sources",
-      "expiresAt": "2026-08-16T17:24:42.207Z",
+      "expiresAt": "2026-08-16T19:33:05.361Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -13556,15 +13642,22 @@
     },
     {
       "date": "2026-08-12",
-      "at": "2026-08-12T18:13:09.664Z",
-      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-12T19:33:05.361Z",
+      "note": "Watcher: +6 signals, spikes=0, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260812-goldman-sachs-leaps-into-bit-98b7be84",
-        "sig-20260812-bitwise-cuts-14-of-staff-whi-33803dc7",
-        "sig-20260812-zoomsday-ai-used-to-build-cr-34414dbe"
+        "sig-20260812-marinade-says-28-83-of-solan-ced934df",
+        "sig-20260812-sec-advances-tokenized-secur-90ab412e",
+        "sig-20260812-kraken-adds-s-p-500-to-funde-5d730143",
+        "sig-20260812-spacexai-wants-grok-bot-to-d-7bdf25ca",
+        "sig-20260812-goldman-sachs-2-25b-neos-dea-50c3e044",
+        "sig-20260812-after-coldcard-was-hacked-15-2e533243"
       ],
-      "angleIdsTouched": [],
-      "noteworthyIds": []
+      "angleIdsTouched": [
+        "ang-watch-wrappers-etf"
+      ],
+      "noteworthyIds": [
+        "ang-watch-wrappers-etf"
+      ]
     }
   ]
 }
