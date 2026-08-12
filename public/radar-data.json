@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T06:50:07.178Z",
+  "updatedAt": "2026-08-12T08:07:52.779Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -11471,7 +11471,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/11/coinbase-picks-abu-dhabi-for-its-global-tokenized-asset-push",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -11485,7 +11485,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/daybook-us/2026/08/11/when-safe-assets-compete-with-risk-lessons-from-the-1960s-90s-for-bitcoin-and-stocks",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -12264,6 +12264,34 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260812-live-updates-bitcoin-at-63-6-7ae9c559",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T08:07:52.779Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Live updates: Bitcoin at $63,600 as Japan's Metaplanet moves 3,881 BTC between wallets",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/tech/2026/08/12/live-updates-bitcoin-at-usd63-600-as-japan-s-metaplanet-moves-3-881-btc-between-wallets",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-inside-the-fake-crypto-start-1948a59a",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T08:07:52.779Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Inside the fake crypto startup that fooled North Korean IT workers",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/magazine/fake-crypto-startup-fooled-north-korean-it-workers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -12890,13 +12918,11 @@
     },
     {
       "date": "2026-08-12",
-      "at": "2026-08-12T06:50:07.178Z",
-      "note": "Watcher: +4 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-12T08:07:52.779Z",
+      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260812-crypto-com-rolls-out-tokeniz-71ff6979",
-        "sig-20260812-here-s-what-bitcoin-and-ethe-e43b2e89",
-        "sig-20260812-harmony-s-one-dives-26-after-8763a012",
-        "sig-20260812-harmony-considers-rollback-a-e70438fc"
+        "sig-20260812-live-updates-bitcoin-at-63-6-7ae9c559",
+        "sig-20260812-inside-the-fake-crypto-start-1948a59a"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
