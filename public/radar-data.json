@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T12:40:23.234Z",
+  "updatedAt": "2026-08-12T14:11:50.976Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -11093,7 +11093,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/11/bitcoin-s-strongest-hands-are-back-on-chain-data-show",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -11107,7 +11107,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/white-house-clarity-across-finish-line-september?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -11121,7 +11121,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/trump-media-crypto-treasury-strategy-after-238m-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -11135,7 +11135,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/tech/2026/08/11/bitcoin-s-bip-110-fork-is-300-blocks-behind-btc-and-six-years-from-fixing-itself",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -11149,7 +11149,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/11/xrp-ether-lead-crypto-losses-as-traders-eye-usd70-000-bitcoin-next",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -11163,7 +11163,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/luke-dashjr-removed-as-bitcoin-proposal-editor?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -11177,7 +11177,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/11/btcpay-offers-usd190-000-bounty-after-bitcoin-payment-servers-drained-in-exploit",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -11191,7 +11191,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/south-korea-travel-rule-threshold-crypto-transfers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -11205,7 +11205,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/payments-platform-decta-explores-stablecoin-enabled-treasury-settlement?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -11219,7 +11219,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/11/emb-7-00-utc-a-usd2-trillion-asset-class-is-getting-a-new-blockchain-rail",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -11233,7 +11233,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/anthropic-9b-deal-bitcoin-miner-riot?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -12520,6 +12520,162 @@
         "wrappers-etf"
       ],
       "watcher": true
+    },
+    {
+      "id": "sig-20260812-smart-contract-blockchain-so-bc7fe2cb",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T14:11:50.976Z",
+      "lane": "l1-l2",
+      "kind": "narrative",
+      "what": "Smart contract blockchain Solana nearly froze Wednesday, Marinade Finance says",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/tech/2026/08/12/smart-contract-blockchain-solana-nearly-froze-wednesday-marinade-finance-says",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-standard-chartered-led-ancho-a6d4a78d",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T14:11:50.976Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Standard Chartered-led Anchorpoint launches Hong Kong dollar stablecoin",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/12/standard-chartered-led-anchorpoint-launches-hong-kong-dollar-stablecoin",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-america-doesn-t-need-a-secon-87c0794b",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T14:11:50.976Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "America doesn’t need a second-class payments system",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/opinion/2026/08/12/america-doesn-t-need-a-second-class-payments-system",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-u-s-cpi-inflation-slows-to-3-2e797509",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T14:11:50.976Z",
+      "lane": "narrative-rotation",
+      "kind": "metric",
+      "what": "U.S. CPI inflation slows to 3.4% as expected, bitcoin holds near $64,000",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/12/u-s-cpi-inflation-edges-lower-to-3-4-as-expected",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-harmony-patches-pre-staking--5e001ba6",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T14:11:50.976Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Harmony Patches Pre-Staking Quorum and Receipt-Replay Flaws After ONE Mint Claim",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/hacks/harmony-patches-pre-staking-quorum-and-receipt-replay-flaws-after-one-mint-claim",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-kalshi-launches-sports-and-c-1d3f4562",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T14:11:50.976Z",
+      "lane": "cex-tradfi",
+      "kind": "narrative",
+      "what": "Kalshi launches sports and crypto perps data feed on DoubleZero",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/kalshi-launches-sports-crypto-data-feed-doublezero?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-slovenia-joins-eu-s-mica-sta-1385c310",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T14:11:50.976Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Slovenia joins EU’s MiCA stablecoin register with first issuer",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/slovenia-eu-mica-stablecoin-register-dinaro?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-el-salvador-s-bitcoin-experi-40e5684b",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T14:11:50.976Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "El Salvador’s Bitcoin experiment turns 5: ‘It was for us, not them’",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/magazine/el-salvadors-bitcoin-experiment-turns-5-it-was-for-us-and-not-them?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-wintermute-to-pour-1b-into-a-9ce56dff",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T14:11:50.976Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Wintermute to pour $1B into AI, high-frequency trading amid TradFi expansion: Report",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/wintermute-pour-1b-ai-tradfi-expansion-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-fidelity-files-with-sec-to-a-cd489c0b",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T14:11:50.976Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "Fidelity files with SEC to add staking to Ethereum ETF",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/fidelity-staking-ethereum-etf-sec-filing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [
+        "wrappers-etf"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-kalshi-adds-real-time-market-1120ac92",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T14:11:50.976Z",
+      "lane": "cex-tradfi",
+      "kind": "narrative",
+      "what": "Kalshi Adds Real-Time Market Data Feed Through DoubleZero",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375384/kalshi-real-time-market-data-feed-doublezero",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -12772,8 +12928,8 @@
     },
     {
       "id": "ang-watch-wrappers-etf",
-      "at": "2026-08-12T12:40:23.234Z",
-      "thesis": "Watcher cluster [wrappers-etf]: 3 related receipts in ~7d across capital-flows.",
+      "at": "2026-08-12T14:11:50.976Z",
+      "thesis": "Watcher cluster [wrappers-etf]: 4 related receipts in ~7d across capital-flows, regulation.",
       "voiceHook": "Pattern forming: wrappers etf.",
       "signalIds": [
         "sig-20260728-ms-eth-sol-etp",
@@ -12792,7 +12948,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for wrappers-etf: dates + sources",
-      "expiresAt": "2026-08-16T12:40:23.234Z",
+      "expiresAt": "2026-08-16T14:11:50.976Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -13146,12 +13302,20 @@
     },
     {
       "date": "2026-08-12",
-      "at": "2026-08-12T12:40:23.234Z",
-      "note": "Watcher: +3 signals, spikes=0, patternPings=1.",
+      "at": "2026-08-12T14:11:50.976Z",
+      "note": "Watcher: +11 signals, spikes=0, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260812-flightaware-drops-kalshi-law-25c14852",
-        "sig-20260812-morning-minute-the-cftc-bail-b9f9f5cd",
-        "sig-20260812-bitwise-cuts-14-of-staff-as--64920436"
+        "sig-20260812-smart-contract-blockchain-so-bc7fe2cb",
+        "sig-20260812-standard-chartered-led-ancho-a6d4a78d",
+        "sig-20260812-america-doesn-t-need-a-secon-87c0794b",
+        "sig-20260812-u-s-cpi-inflation-slows-to-3-2e797509",
+        "sig-20260812-harmony-patches-pre-staking--5e001ba6",
+        "sig-20260812-kalshi-launches-sports-and-c-1d3f4562",
+        "sig-20260812-slovenia-joins-eu-s-mica-sta-1385c310",
+        "sig-20260812-el-salvador-s-bitcoin-experi-40e5684b",
+        "sig-20260812-wintermute-to-pour-1b-into-a-9ce56dff",
+        "sig-20260812-fidelity-files-with-sec-to-a-cd489c0b",
+        "sig-20260812-kalshi-adds-real-time-market-1120ac92"
       ],
       "angleIdsTouched": [
         "ang-watch-wrappers-etf"
