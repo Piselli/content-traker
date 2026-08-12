@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T10:49:44.388Z",
+  "updatedAt": "2026-08-12T11:37:57.287Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -11289,7 +11289,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/tech/2026/08/11/live-updates-bitcoin-slips-as-corporate-btc-enthusiasm-moves-to-ai",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -11303,7 +11303,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/policy/2026/08/11/kalshi-faces-new-lawsuit-flightaware-accuses-it-of-using-its-data-for-flight-cancellation-betting",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -11317,7 +11317,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/11/software-stocks-break-away-from-bitcoin-what-the-rare-divergence-means-for-crypto",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -12434,6 +12434,48 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260812-russia-moves-to-restrict-ret-90c78e9d",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T11:37:57.287Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Russia moves to restrict retail crypto trading to bitcoin, ether and USDT",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/policy/2026/08/12/russia-moves-to-restrict-retail-crypto-trading-to-bitcoin-ether-and-usdt",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-xrp-trading-could-get-spicy--6d259617",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T11:37:57.287Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "XRP trading could get spicy after CPI report as futures bets hit highest since October",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/daybook-us/2026/08/12/xrp-trading-could-get-spicy-after-cpi-report-as-futures-bets-hit-highest-since-october",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-bar-a-mobile-plans-stellar-w-d225ee70",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T11:37:57.287Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Barça Mobile Plans Stellar Wallet With Wirex and Crossmint",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/tradfi-and-fintech/bar-a-mobile-plans-stellar-wallet-with-wirex-and-crossmint",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -13060,15 +13102,12 @@
     },
     {
       "date": "2026-08-12",
-      "at": "2026-08-12T10:49:44.388Z",
-      "note": "Watcher: +6 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-12T11:37:57.287Z",
+      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260812-bitcoin-holds-near-64-000-as-32623e5b",
-        "sig-20260812-bank-of-england-to-test-stab-1cc44523",
-        "sig-20260812-coreweave-surges-16-on-2-58--ed91a9f5",
-        "sig-20260812-binance-redotpay-clash-over--68aeca3b",
-        "sig-20260812-bitcoin-miners-earn-under-0--a19424ce",
-        "sig-20260812-harmony-s-one-sinks-37-after-c8667901"
+        "sig-20260812-russia-moves-to-restrict-ret-90c78e9d",
+        "sig-20260812-xrp-trading-could-get-spicy--6d259617",
+        "sig-20260812-bar-a-mobile-plans-stellar-w-d225ee70"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
