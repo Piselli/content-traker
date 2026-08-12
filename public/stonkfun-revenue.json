@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-08-11T23:52:31.415Z",
+  "updatedAt": "2026-08-12T00:44:38.987Z",
   "source": "https://www.stonkfun.xyz/api/public/v1/revenue",
   "latest": {
-    "at": "2026-08-11T23:52:31.313Z",
-    "totalRevenueUsd": 429514.7953304539,
-    "totalBuybackUsd": 249483.48883942812,
-    "buybackCount": 9864,
-    "volume24hUsd": 13032290.61975751,
-    "tokensTotal": 2098,
-    "graduated": 248
+    "at": "2026-08-12T00:44:38.517Z",
+    "totalRevenueUsd": 432651.3994577144,
+    "totalBuybackUsd": 251428.05852196185,
+    "buybackCount": 9936,
+    "volume24hUsd": 13022275.414912729,
+    "tokensTotal": 2128,
+    "graduated": 250
   },
   "days": [
     {
@@ -26,14 +26,30 @@
     {
       "date": "2026-08-11",
       "openTotalUsd": 355397.37158126035,
+      "closeTotalUsd": 429514.7953304539,
+      "revenueUsd": 74117.42374919355,
+      "closed": true,
+      "openAt": "2026-08-11T01:06:58.700Z",
+      "closeAt": "2026-08-11T23:52:31.313Z",
+      "openSkewMin": 67,
+      "approximate": false,
+      "note": "late open (~01:07 UTC) — day incomplete; clean days start after hourly snapshots through next midnight",
+      "closeSkewMin": 7,
+      "notified": true,
+      "freeze": true
+    },
+    {
+      "date": "2026-08-12",
+      "openTotalUsd": 429514.7953304539,
       "closeTotalUsd": null,
       "revenueUsd": null,
       "closed": false,
-      "openAt": "2026-08-11T01:06:58.700Z",
+      "notified": false,
+      "openAt": "2026-08-11T23:52:31.313Z",
       "closeAt": null,
-      "openSkewMin": 67,
-      "approximate": true,
-      "note": "late open (~01:07 UTC) — day incomplete; clean days start after hourly snapshots through next midnight"
+      "openSkewMin": 7,
+      "closeSkewMin": null,
+      "approximate": false
     }
   ],
   "snapshots": [
@@ -156,6 +172,14 @@
       "buybackCount": 9864,
       "volume24hUsd": 13032290.61975751,
       "tokensTotal": 2098
+    },
+    {
+      "at": "2026-08-12T00:44:38.517Z",
+      "totalRevenueUsd": 432651.3994577144,
+      "totalBuybackUsd": 251428.05852196185,
+      "buybackCount": 9936,
+      "volume24hUsd": 13022275.414912729,
+      "tokensTotal": 2128
     }
   ]
 }
