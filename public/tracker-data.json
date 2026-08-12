@@ -1,7 +1,57 @@
 {
-  "syncVersion": 510,
-  "updatedAt": "2026-08-12T10:19:16.632Z",
+  "syncVersion": 511,
+  "updatedAt": "2026-08-12T13:11:12.345828Z",
   "logs": [
+    {
+      "id": "useful-loshmi-stonk-sf-ship-aug11",
+      "type": "useful",
+      "traits": [
+        "bait"
+      ],
+      "slot": 3,
+      "bucket": "CT",
+      "visualCluster": "screenshot",
+      "note": "EN useful+SF support: Loshmi baited people into reading $STONK chart themselves; same move for @LaunchOnSF — what ships + what already exists (self-QT prior STONK warning).",
+      "at": "2026-08-11T19:06:19.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2087254303408808183",
+      "likes": 15,
+      "replies": 4,
+      "ageHours": 18,
+      "updatedAt": "2026-08-12T12:42:30.123045Z",
+      "snapshots": [
+        {
+          "ageHours": 18,
+          "likes": 15,
+          "replies": 4,
+          "checkedAt": "2026-08-12T12:42:30.123045Z"
+        }
+      ]
+    },
+    {
+      "id": "strategic-qt-wale-nft-skill-issue-aug12",
+      "type": "strategic QT",
+      "traits": [
+        "provocative"
+      ],
+      "slot": 2,
+      "bucket": "CT",
+      "visualCluster": "collage",
+      "note": "EN strategic QT @waleswoosh: art/cult/IP pfps (Quirkies/Chimpers/Wackyville/ARCADEPEPES) still live = founder skill issue; $20-flip degens ≠ jury for what NFTs need (casino wrappers).",
+      "at": "2026-08-12T12:36:32.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2087518596335341969",
+      "likes": 1,
+      "replies": 1,
+      "ageHours": 0,
+      "updatedAt": "2026-08-12T12:42:30.123045Z",
+      "snapshots": [
+        {
+          "ageHours": 0,
+          "likes": 1,
+          "replies": 1,
+          "checkedAt": "2026-08-12T12:42:30.123045Z"
+        }
+      ]
+    },
     {
       "id": "hot-topic-alon-jew-mode-aug11",
       "type": "hot topic",
@@ -12,11 +62,18 @@
       "at": "2026-08-11T11:30:50.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2087139673579610308",
       "views": 71,
-      "likes": 15,
+      "likes": 20,
       "replies": 5,
-      "ageHours": 23,
-      "updatedAt": "2026-08-12T10:19:16.632Z",
+      "ageHours": 26,
+      "updatedAt": "2026-08-12T13:11:12.345828Z",
       "snapshots": [
+        {
+          "ageHours": 23,
+          "views": 71,
+          "likes": 15,
+          "replies": 5,
+          "checkedAt": "2026-08-12T10:19:16.632Z"
+        },
         {
           "ageHours": 20,
           "views": 71,
@@ -44,6 +101,13 @@
           "likes": 6,
           "replies": 3,
           "checkedAt": "2026-08-11T12:18:19.928Z"
+        },
+        {
+          "ageHours": 0,
+          "views": 71,
+          "likes": 6,
+          "replies": 3,
+          "checkedAt": "2026-08-11T12:18:19.928Z"
         }
       ],
       "syncedAt": "2026-08-12T10:19:16.632Z"
@@ -58,11 +122,18 @@
       "at": "2026-08-11T10:10:33.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2087119473253744895",
       "views": 84,
-      "likes": 14,
+      "likes": 15,
       "replies": 1,
-      "ageHours": 24,
-      "updatedAt": "2026-08-12T10:19:16.632Z",
+      "ageHours": 27,
+      "updatedAt": "2026-08-12T13:11:12.345828Z",
       "snapshots": [
+        {
+          "ageHours": 24,
+          "views": 84,
+          "likes": 14,
+          "replies": 1,
+          "checkedAt": "2026-08-12T10:19:16.632Z"
+        },
         {
           "ageHours": 22,
           "views": 84,
@@ -97,6 +168,13 @@
           "likes": 3,
           "replies": 1,
           "checkedAt": "2026-08-11T13:41:32.268Z"
+        },
+        {
+          "ageHours": 2,
+          "views": 84,
+          "likes": 3,
+          "replies": 1,
+          "checkedAt": "2026-08-11T12:18:19.928Z"
         },
         {
           "ageHours": 2,
