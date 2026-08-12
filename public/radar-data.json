@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T14:11:50.976Z",
+  "updatedAt": "2026-08-12T15:25:58.254Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -11065,7 +11065,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/magazine/thailands-0-crypto-tax-bitcoin-red-team-forced-to-use-chinese-ai-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -11079,7 +11079,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/policy/2026/08/11/u-s-sec-sets-meeting-to-propose-reg-crypto-to-support-certain-digital-assets-offerings",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -12676,6 +12676,76 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260812-miden-bets-on-privacy-stable-9e338187",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T15:25:58.254Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Miden bets on privacy stablecoins with introduction of USDCx",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/tech/2026/08/12/miden-bets-on-privacy-stablecoins-with-introduction-of-usdcx",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-crypto-long-short-1c095744",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T15:25:58.254Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Crypto Long & Short:",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/08/12/crypto-long-and-short",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-bitcoin-eyes-63k-as-us-cpi-r-a05c96e2",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T15:25:58.254Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin eyes $63K as US CPI relief sends September Fed rate pause odds to 60%",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/bitcoin-eyes-63k-as-us-cpi-relief-sends-september-fed-rate-pause-odds-to-60?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-why-bitcoin-barely-moved-eve-53ea38f2",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T15:25:58.254Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Why Bitcoin Barely Moved Even as US Inflation Cools to 3.4%",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375411/why-bitcoin-barely-moved-us-cpi-inflation-cools",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-a-routing-bug-took-solana-86-84dfb61e",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T15:25:58.254Z",
+      "lane": "l1-l2",
+      "kind": "metric",
+      "what": "A Routing Bug Took Solana 86% of the Way to Losing Finality",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375404/a-routing-bug-took-solana-86-of-the-way-to-losing-finality",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -13302,27 +13372,17 @@
     },
     {
       "date": "2026-08-12",
-      "at": "2026-08-12T14:11:50.976Z",
-      "note": "Watcher: +11 signals, spikes=0, patternPings=1.",
+      "at": "2026-08-12T15:25:58.254Z",
+      "note": "Watcher: +5 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260812-smart-contract-blockchain-so-bc7fe2cb",
-        "sig-20260812-standard-chartered-led-ancho-a6d4a78d",
-        "sig-20260812-america-doesn-t-need-a-secon-87c0794b",
-        "sig-20260812-u-s-cpi-inflation-slows-to-3-2e797509",
-        "sig-20260812-harmony-patches-pre-staking--5e001ba6",
-        "sig-20260812-kalshi-launches-sports-and-c-1d3f4562",
-        "sig-20260812-slovenia-joins-eu-s-mica-sta-1385c310",
-        "sig-20260812-el-salvador-s-bitcoin-experi-40e5684b",
-        "sig-20260812-wintermute-to-pour-1b-into-a-9ce56dff",
-        "sig-20260812-fidelity-files-with-sec-to-a-cd489c0b",
-        "sig-20260812-kalshi-adds-real-time-market-1120ac92"
+        "sig-20260812-miden-bets-on-privacy-stable-9e338187",
+        "sig-20260812-crypto-long-short-1c095744",
+        "sig-20260812-bitcoin-eyes-63k-as-us-cpi-r-a05c96e2",
+        "sig-20260812-why-bitcoin-barely-moved-eve-53ea38f2",
+        "sig-20260812-a-routing-bug-took-solana-86-84dfb61e"
       ],
-      "angleIdsTouched": [
-        "ang-watch-wrappers-etf"
-      ],
-      "noteworthyIds": [
-        "ang-watch-wrappers-etf"
-      ]
+      "angleIdsTouched": [],
+      "noteworthyIds": []
     }
   ]
 }
