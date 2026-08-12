@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T08:07:52.779Z",
+  "updatedAt": "2026-08-12T09:36:24.798Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -11415,7 +11415,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/keel-shuts-bitcoin-mining-ai-pivot-revenue-falls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -11429,7 +11429,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375301/coinbase-opens-uk-derivatives-trading-with-up-to-50x-leverage",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -11443,7 +11443,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/policy/2026/08/11/australian-watchdog-suspends-cryptolink-forcing-96-atms-offline",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -11457,7 +11457,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/tech/2026/08/11/ravencoin-could-roll-back-four-days-of-transactions-after-critical-block-flaw",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -12292,6 +12292,64 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260812-fidelity-moves-to-add-stakin-5153aece",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T09:36:24.798Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "Fidelity moves to add staking, quarterly payouts to near $900 million ether ETF",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/12/fidelity-moves-to-add-staking-quarterly-payouts-to-near-usd900-million-ether-etf",
+      "status": "open",
+      "tags": [
+        "wrappers-etf"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-one-overlooked-group-has-add-b4b3b61e",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T09:36:24.798Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "One overlooked group has added $1.78 billion of selling pressure to bitcoin market",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/12/one-overlooked-group-has-added-usd1-78-billion-of-selling-pressure-to-bitcoin-market",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-crypto-companies-urge-ai-fir-0b661094",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T09:36:24.798Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Crypto companies urge AI firms to give Bitcoin developers early access",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/crypto-companies-ai-firms-bitcoin-developers-access?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-cftc-invokes-emergency-power-59ca98d0",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T09:36:24.798Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "CFTC Invokes Emergency Powers to Keep Kalshi Trading Despite New York Suit",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375387/cftc-invokes-emergency-powers-to-keep-kalshi-trading-despite-new-york-suit",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -12544,7 +12602,7 @@
     },
     {
       "id": "ang-watch-wrappers-etf",
-      "at": "2026-08-11T22:30:16.521Z",
+      "at": "2026-08-12T09:36:24.798Z",
       "thesis": "Watcher cluster [wrappers-etf]: 2 related receipts in ~7d across capital-flows.",
       "voiceHook": "Pattern forming: wrappers etf.",
       "signalIds": [
@@ -12564,7 +12622,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for wrappers-etf: dates + sources",
-      "expiresAt": "2026-08-15T22:30:16.521Z",
+      "expiresAt": "2026-08-16T09:36:24.798Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -12918,14 +12976,20 @@
     },
     {
       "date": "2026-08-12",
-      "at": "2026-08-12T08:07:52.779Z",
-      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-12T09:36:24.798Z",
+      "note": "Watcher: +4 signals, spikes=0, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260812-live-updates-bitcoin-at-63-6-7ae9c559",
-        "sig-20260812-inside-the-fake-crypto-start-1948a59a"
+        "sig-20260812-fidelity-moves-to-add-stakin-5153aece",
+        "sig-20260812-one-overlooked-group-has-add-b4b3b61e",
+        "sig-20260812-crypto-companies-urge-ai-fir-0b661094",
+        "sig-20260812-cftc-invokes-emergency-power-59ca98d0"
       ],
-      "angleIdsTouched": [],
-      "noteworthyIds": []
+      "angleIdsTouched": [
+        "ang-watch-wrappers-etf"
+      ],
+      "noteworthyIds": [
+        "ang-watch-wrappers-etf"
+      ]
     }
   ]
 }
