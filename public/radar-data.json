@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T09:36:24.798Z",
+  "updatedAt": "2026-08-12T10:49:44.388Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -11331,7 +11331,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/tech/2026/08/11/luke-dashjr-removed-as-bitcoin-bip-editor-after-controversial-bip-110-fork-stalls",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -11345,7 +11345,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/tech/2026/08/11/nvidia-wants-to-turn-its-ai-chips-into-an-investable-asset-class",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -11359,7 +11359,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/policy/2026/08/11/uk-lawmakers-question-lenders-over-lack-of-banking-for-the-country-s-crypto-firms",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -11373,7 +11373,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/11/riot-platforms-surges-20-in-pre-market-trading-on-usd9-1-billion-anthropic-deal",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -11387,7 +11387,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/markets/bitcoin-sell-pressure-closer-to-exhaustion-after-4b-usdt-market-cap-drop-cryptoquant?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -11401,7 +11401,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/coldcard-losses-how-investigators-trace-stolen-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -12350,6 +12350,90 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260812-bitcoin-holds-near-64-000-as-32623e5b",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T10:49:44.388Z",
+      "lane": "failures-rugs",
+      "kind": "exploit",
+      "what": "Bitcoin holds near $64,000 as U.S. inflation data looms, Harmony exploit rattles altcoins",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/12/bitcoin-holds-near-usd64-000-as-u-s-inflation-data-looms-harmony-exploit-rattles-altcoins",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-bank-of-england-to-test-stab-1cc44523",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T10:49:44.388Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Bank of England to test stablecoin, digital currency use in cross-border finance",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/12/bank-of-england-to-test-stablecoin-digital-currency-use-in-cross-border-finance",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-coreweave-surges-16-on-2-58--ed91a9f5",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T10:49:44.388Z",
+      "lane": "narrative-rotation",
+      "kind": "metric",
+      "what": "CoreWeave surges 16% on $2.58 billion revenue quarter as AI infrastructure demand eclipses crypto",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/12/coreweave-surges-16-on-usd2-58-billion-revenue-quarter-as-ai-infrastructure-demand-eclipses-crypto",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-binance-redotpay-clash-over--68aeca3b",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T10:49:44.388Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "Binance, RedotPay clash over fate of Singapore lawsuit",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/binance-redotpay-clash-singapore-lawsuit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-bitcoin-miners-earn-under-0--a19424ce",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T10:49:44.388Z",
+      "lane": "narrative-rotation",
+      "kind": "metric",
+      "what": "Bitcoin miners earn under 0.7% of revenue from fees in new 10-year low",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/bitcoin-miners-earn-under-07-of-revenue-from-fees-in-new-10-year-low?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-harmony-s-one-sinks-37-after-c8667901",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T10:49:44.388Z",
+      "lane": "narrative-rotation",
+      "kind": "metric",
+      "what": "Harmony's ONE Sinks 37% After Attacker Mints 4 Billion Tokens",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375390/harmonys-one-sinks-37-after-attacker-mints-4-billion-tokens",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -12976,20 +13060,18 @@
     },
     {
       "date": "2026-08-12",
-      "at": "2026-08-12T09:36:24.798Z",
-      "note": "Watcher: +4 signals, spikes=0, patternPings=1.",
+      "at": "2026-08-12T10:49:44.388Z",
+      "note": "Watcher: +6 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260812-fidelity-moves-to-add-stakin-5153aece",
-        "sig-20260812-one-overlooked-group-has-add-b4b3b61e",
-        "sig-20260812-crypto-companies-urge-ai-fir-0b661094",
-        "sig-20260812-cftc-invokes-emergency-power-59ca98d0"
+        "sig-20260812-bitcoin-holds-near-64-000-as-32623e5b",
+        "sig-20260812-bank-of-england-to-test-stab-1cc44523",
+        "sig-20260812-coreweave-surges-16-on-2-58--ed91a9f5",
+        "sig-20260812-binance-redotpay-clash-over--68aeca3b",
+        "sig-20260812-bitcoin-miners-earn-under-0--a19424ce",
+        "sig-20260812-harmony-s-one-sinks-37-after-c8667901"
       ],
-      "angleIdsTouched": [
-        "ang-watch-wrappers-etf"
-      ],
-      "noteworthyIds": [
-        "ang-watch-wrappers-etf"
-      ]
+      "angleIdsTouched": [],
+      "noteworthyIds": []
     }
   ]
 }
