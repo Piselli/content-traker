@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T21:33:03.359Z",
+  "updatedAt": "2026-08-12T22:28:13.024Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -13160,6 +13160,50 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260812-securitize-falls-20-after-ea-59aca61b",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T22:28:13.024Z",
+      "lane": "narrative-rotation",
+      "kind": "metric",
+      "what": "Securitize falls 20% after earnings miss as tokenization revenue falls short",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/12/securitize-falls-20-after-earnings-miss-as-tokenization-revenue-falls-short",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-morgan-stanley-s-infrastruct-82f19f47",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T22:28:13.024Z",
+      "lane": "cex-tradfi",
+      "kind": "narrative",
+      "what": "Morgan Stanley's infrastructure partner Zerohash rebuffed in pitch to be U.S. trust bank",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/policy/2026/08/12/morgan-stanley-s-infrastructure-partner-zerohash-rebuffed-in-pitch-to-be-u-s-trust-bank",
+      "status": "expired",
+      "tags": [
+        "wrappers-etf"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-boltz-founders-exit-as-unnam-0a8f452f",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T22:28:13.024Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Boltz Founders Exit as Unnamed Bitcoin Group Agrees to Take Over Suspended Swap Service",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/infrastructure/boltz-founders-exit-as-unnamed-bitcoin-group-agrees-to-take-over-suspended-swap-service",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -13412,8 +13456,8 @@
     },
     {
       "id": "ang-watch-wrappers-etf",
-      "at": "2026-08-12T21:33:03.359Z",
-      "thesis": "Watcher cluster [wrappers-etf]: 5 related receipts in ~7d across capital-flows, regulation.",
+      "at": "2026-08-12T22:28:13.024Z",
+      "thesis": "Watcher cluster [wrappers-etf]: 5 related receipts in ~7d across capital-flows, regulation, cex-tradfi.",
       "voiceHook": "Pattern forming: wrappers etf.",
       "signalIds": [
         "sig-20260728-ms-eth-sol-etp",
@@ -13432,7 +13476,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for wrappers-etf: dates + sources",
-      "expiresAt": "2026-08-16T21:33:03.359Z",
+      "expiresAt": "2026-08-16T22:28:13.024Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -13786,16 +13830,12 @@
     },
     {
       "date": "2026-08-12",
-      "at": "2026-08-12T21:33:03.359Z",
-      "note": "Watcher: +7 signals, spikes=0, patternPings=1.",
+      "at": "2026-08-12T22:28:13.024Z",
+      "note": "Watcher: +3 signals, spikes=0, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260812-circle-s-cirbtc-is-live-on-e-a0adb8b6",
-        "sig-20260812-bitgo-cfo-to-exit-as-q2-net--e68007f8",
-        "sig-20260812-pump-fun-s-share-of-launchpa-2c16b32a",
-        "sig-20260812-hawaii-crypto-atm-ban-to-tak-98cf87a5",
-        "sig-20260812-goldman-sachs-to-acquire-etf-61f977f7",
-        "sig-20260812-the-ai-generated-pattern-hid-7f8fbd35",
-        "sig-20260812-inner-thoughts-of-every-majo-7230e905"
+        "sig-20260812-securitize-falls-20-after-ea-59aca61b",
+        "sig-20260812-morgan-stanley-s-infrastruct-82f19f47",
+        "sig-20260812-boltz-founders-exit-as-unnam-0a8f452f"
       ],
       "angleIdsTouched": [
         "ang-watch-wrappers-etf"
