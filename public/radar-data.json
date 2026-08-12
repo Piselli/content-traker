@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T17:24:42.207Z",
+  "updatedAt": "2026-08-12T18:13:09.664Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -12888,6 +12888,48 @@
         "wrappers-etf"
       ],
       "watcher": true
+    },
+    {
+      "id": "sig-20260812-goldman-sachs-leaps-into-bit-98b7be84",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T18:13:09.664Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Goldman Sachs leaps into bitcoin income ETFs with $2.25 billion NEOS buyout",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/12/goldman-sachs-leaps-into-bitcoin-income-etfs-with-usd2-25-billion-neos-buyout",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-bitwise-cuts-14-of-staff-whi-33803dc7",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T18:13:09.664Z",
+      "lane": "narrative-rotation",
+      "kind": "metric",
+      "what": "Bitwise cuts 14% of staff while still expecting growth",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/bitwise-staff-cuts-market-downturn-growth?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-zoomsday-ai-used-to-build-cr-34414dbe",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T18:13:09.664Z",
+      "lane": "failures-rugs",
+      "kind": "exploit",
+      "what": "Zoomsday: AI Used to Build Critical Zoom Exploit in One Day",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375458/zoomsday-ai-zoom-exploit-one-day",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -13514,21 +13556,15 @@
     },
     {
       "date": "2026-08-12",
-      "at": "2026-08-12T17:24:42.207Z",
-      "note": "Watcher: +5 signals, spikes=0, patternPings=1.",
+      "at": "2026-08-12T18:13:09.664Z",
+      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260812-wintermute-plans-1-billion-a-d22dd025",
-        "sig-20260812-solana-community-argues-over-054e94bf",
-        "sig-20260812-flightaware-drops-kalshi-law-aef61595",
-        "sig-20260812-bank-of-england-tests-stable-d48549e2",
-        "sig-20260812-fidelity-files-to-let-its-et-178237a8"
+        "sig-20260812-goldman-sachs-leaps-into-bit-98b7be84",
+        "sig-20260812-bitwise-cuts-14-of-staff-whi-33803dc7",
+        "sig-20260812-zoomsday-ai-used-to-build-cr-34414dbe"
       ],
-      "angleIdsTouched": [
-        "ang-watch-wrappers-etf"
-      ],
-      "noteworthyIds": [
-        "ang-watch-wrappers-etf"
-      ]
+      "angleIdsTouched": [],
+      "noteworthyIds": []
     }
   ]
 }
