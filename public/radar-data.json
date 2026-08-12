@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T15:25:58.254Z",
+  "updatedAt": "2026-08-12T16:23:16.877Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -12746,6 +12746,76 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260812-solana-platform-taps-predict-6ab72d91",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T16:23:16.877Z",
+      "lane": "cex-tradfi",
+      "kind": "narrative",
+      "what": "Solana platform taps prediction market Kalshi for Wall Street-style high-speed data feed",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/12/solana-platform-taps-prediction-market-kalshi-for-wall-street-style-high-speed-data-feed",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-bitwise-cuts-14-of-staff-as--620d749c",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T16:23:16.877Z",
+      "lane": "narrative-rotation",
+      "kind": "metric",
+      "what": "Bitwise Cuts 14% of Staff as Client Assets Fall to $9 Billion",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/converge/cefi/bitwise-cuts-14-of-staff-as-client-assets-fall-to-9-billion",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-hashkey-begins-beta-distribu-aa9e09ef",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T16:23:16.877Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "HashKey begins beta distribution of Hong Kong-regulated HKDAP stablecoin",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/hashkey-begins-beta-distribution-of-hong-kong-regulated-hkdap-stablecoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-xrp-bridge-drained-after-sof-b7480c0d",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T16:23:16.877Z",
+      "lane": "bridges-liquidity",
+      "kind": "narrative",
+      "what": "XRP Bridge Drained After Software Treats Fake Deposits as Real",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375441/xrp-drained-tx-bridge",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-crypto-backed-loans-explaine-5533c035",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T16:23:16.877Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Crypto-Backed Loans, Explained: How to Unlock Cash Without Selling Your Bitcoin",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375428/crypto-backed-loans-explained-how-to-unlock-cash-without-selling-your-bitcoin",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -13372,14 +13442,14 @@
     },
     {
       "date": "2026-08-12",
-      "at": "2026-08-12T15:25:58.254Z",
+      "at": "2026-08-12T16:23:16.877Z",
       "note": "Watcher: +5 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260812-miden-bets-on-privacy-stable-9e338187",
-        "sig-20260812-crypto-long-short-1c095744",
-        "sig-20260812-bitcoin-eyes-63k-as-us-cpi-r-a05c96e2",
-        "sig-20260812-why-bitcoin-barely-moved-eve-53ea38f2",
-        "sig-20260812-a-routing-bug-took-solana-86-84dfb61e"
+        "sig-20260812-solana-platform-taps-predict-6ab72d91",
+        "sig-20260812-bitwise-cuts-14-of-staff-as--620d749c",
+        "sig-20260812-hashkey-begins-beta-distribu-aa9e09ef",
+        "sig-20260812-xrp-bridge-drained-after-sof-b7480c0d",
+        "sig-20260812-crypto-backed-loans-explaine-5533c035"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
