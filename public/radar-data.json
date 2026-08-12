@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T00:06:56.827Z",
+  "updatedAt": "2026-08-12T03:01:41.902Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -11597,7 +11597,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375304/morning-minute-saylors-strategy-sells-bitcoin-for-second-week-in-a-row",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -11611,7 +11611,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/news-analysis/2026/08/11/if-crypto-goes-back-to-the-congressional-drawing-board-3-democrat-women-loom-large",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -12135,6 +12135,36 @@
       "url": "https://decrypt.co/375381/openai-exec-brad-lightcap-quits-leadership-shake-up-ipo",
       "status": "expired",
       "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-ravencoin-hits-record-low-as-60b99a5b",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T03:01:41.902Z",
+      "lane": "failures-rugs",
+      "kind": "exploit",
+      "what": "Ravencoin hits record low as network exploit puts transactions at risk",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/ravencoin-rvn-record-low-consensus-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-sec-cftc-sue-goliath-venture-4ac5d733",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T03:01:41.902Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "SEC, CFTC sue Goliath Ventures over $400M crypto Ponzi scheme",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/sec-cftc-sue-goliath-ventures-400m-crypto-ponzi?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [
+        "clarity-policy"
+      ],
       "watcher": true
     }
   ],
@@ -12762,9 +12792,12 @@
     },
     {
       "date": "2026-08-12",
-      "at": "2026-08-12T00:06:56.827Z",
-      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [],
+      "at": "2026-08-12T03:01:41.902Z",
+      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [
+        "sig-20260812-ravencoin-hits-record-low-as-60b99a5b",
+        "sig-20260812-sec-cftc-sue-goliath-venture-4ac5d733"
+      ],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
