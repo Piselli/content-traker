@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T03:01:41.902Z",
+  "updatedAt": "2026-08-12T05:10:54.399Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -11555,7 +11555,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/etoro-buy-tradezero-crypto-revenue-falls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -11569,7 +11569,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/bank-of-russia-trading-bitcoin-ether-tether-usdt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -11583,7 +11583,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375310/luke-dashjr-removed-as-bip-editor-after-bip-110-bitcoin-fork-stalls",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -12165,6 +12165,48 @@
       "tags": [
         "clarity-policy"
       ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-dogecoin-and-bnb-lead-majors-9d20d976",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T05:10:54.399Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Dogecoin and BNB lead majors higher as bitcoin slips near $63,700",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/12/dogecoin-and-bnb-lead-majors-higher-as-bitcoin-slips-near-usd63-700",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-xrp-bridge-drained-for-200-0-87f1ca3b",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T05:10:54.399Z",
+      "lane": "bridges-liquidity",
+      "kind": "narrative",
+      "what": "XRP bridge drained for $200,000 after software mistook fake deposits for real ones",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/tech/2026/08/12/xrp-bridge-drained-for-usd200-000-after-software-mistook-fake-deposits-for-real-ones",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-cftc-invokes-emergency-power-456fc04d",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T05:10:54.399Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "CFTC invokes emergency powers to keep Kalshi operating in New York fight",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/cftc-kalshi-emergency-order-new-york-lawsuit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
       "watcher": true
     }
   ],
@@ -12792,11 +12834,12 @@
     },
     {
       "date": "2026-08-12",
-      "at": "2026-08-12T03:01:41.902Z",
-      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-12T05:10:54.399Z",
+      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260812-ravencoin-hits-record-low-as-60b99a5b",
-        "sig-20260812-sec-cftc-sue-goliath-venture-4ac5d733"
+        "sig-20260812-dogecoin-and-bnb-lead-majors-9d20d976",
+        "sig-20260812-xrp-bridge-drained-for-200-0-87f1ca3b",
+        "sig-20260812-cftc-invokes-emergency-power-456fc04d"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
