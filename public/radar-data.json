@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T05:10:54.399Z",
+  "updatedAt": "2026-08-12T06:50:07.178Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -11499,7 +11499,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375305/north-korea-now-leans-on-crime-networks-to-launder-stolen-crypto-rusi",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -11513,7 +11513,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/11/pokemon-cards-are-becoming-multibillion-dollar-market-crypto-wants-to-fix-how-they-trade",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -11527,7 +11527,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/10/moneygram-expands-on-solana-with-global-crypto-to-cash-service",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -11541,7 +11541,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/sharplink-reports-394m-q2-net-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -12208,6 +12208,62 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260812-crypto-com-rolls-out-tokeniz-71ff6979",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T06:50:07.178Z",
+      "lane": "narrative-rotation",
+      "kind": "shipping",
+      "what": "Crypto.com rolls out tokenized stock derivatives as crypto exchanges push into equities",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/12/crypto-com-rolls-out-tokenized-stock-derivatives-as-crypto-exchanges-push-into-equities",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-here-s-what-bitcoin-and-ethe-e43b2e89",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T06:50:07.178Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Here's what bitcoin and ether traders are doing ahead of the binary U.S. CPI print",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/12/here-s-what-bitcoin-and-ether-traders-are-doing-ahead-of-the-binary-u-s-cpi-print",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-harmony-s-one-dives-26-after-8763a012",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T06:50:07.178Z",
+      "lane": "narrative-rotation",
+      "kind": "metric",
+      "what": "Harmony’s ONE dives 26% after an attack appears to mint tokens equal to quarter of supply",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/12/harmony-s-one-falls-26-after-attacker-allegedly-mints-4-billion-tokens",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260812-harmony-considers-rollback-a-e70438fc",
+      "at": "2026-08-12",
+      "scannedAt": "2026-08-12T06:50:07.178Z",
+      "lane": "failures-rugs",
+      "kind": "exploit",
+      "what": "Harmony considers rollback after suspected exploit inflates ONE supply",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/armony-rollback-alleged-one-token-mint?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -12834,12 +12890,13 @@
     },
     {
       "date": "2026-08-12",
-      "at": "2026-08-12T05:10:54.399Z",
-      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-12T06:50:07.178Z",
+      "note": "Watcher: +4 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260812-dogecoin-and-bnb-lead-majors-9d20d976",
-        "sig-20260812-xrp-bridge-drained-for-200-0-87f1ca3b",
-        "sig-20260812-cftc-invokes-emergency-power-456fc04d"
+        "sig-20260812-crypto-com-rolls-out-tokeniz-71ff6979",
+        "sig-20260812-here-s-what-bitcoin-and-ethe-e43b2e89",
+        "sig-20260812-harmony-s-one-dives-26-after-8763a012",
+        "sig-20260812-harmony-considers-rollback-a-e70438fc"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
