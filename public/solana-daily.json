@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-12T02:40:56.060Z",
+  "updatedAt": "2026-08-12T03:06:55.279Z",
   "source": "defillama + solana RSS + pattern detectors",
   "latest": {
-    "at": "2026-08-12T02:40:53.746Z",
+    "at": "2026-08-12T03:06:53.780Z",
     "date": "2026-08-12",
-    "tvlUsd": 4846627783.209891,
+    "tvlUsd": 4846274034.951416,
     "fees24hUsd": 10376653.470000003,
     "feesChange1dPct": -1.1,
     "revenue24hUsd": 4800889.6499999985,
@@ -142,21 +142,21 @@
     },
     "chainFees": {
       "Ethereum": {
-        "tvlUsd": 41283338056.776505,
+        "tvlUsd": 41283224018.991585,
         "fees24hUsd": 8981585.179999998
       },
       "Base": {
-        "tvlUsd": 4611829653.609036,
+        "tvlUsd": 4611843345.6684065,
         "fees24hUsd": 1147930.93
       },
       "BSC": {
-        "tvlUsd": 5019179237.009294
+        "tvlUsd": 5019101077.317279
       },
       "Arbitrum": {
-        "tvlUsd": 1188792710.7730963
+        "tvlUsd": 1188857625.6660569
       },
       "Solana": {
-        "tvlUsd": 4846627783.209891,
+        "tvlUsd": 4846274034.951416,
         "fees24hUsd": 10376653.470000003,
         "revenue24hUsd": 4800889.6499999985,
         "dexVolume24hUsd": 1650911697.28
@@ -469,9 +469,9 @@
     {
       "date": "2026-08-12",
       "metrics": {
-        "at": "2026-08-12T02:40:53.746Z",
+        "at": "2026-08-12T03:06:53.780Z",
         "date": "2026-08-12",
-        "tvlUsd": 4846627783.209891,
+        "tvlUsd": 4846274034.951416,
         "fees24hUsd": 10376653.470000003,
         "feesChange1dPct": -1.1,
         "revenue24hUsd": 4800889.6499999985,
@@ -609,21 +609,21 @@
         },
         "chainFees": {
           "Ethereum": {
-            "tvlUsd": 41283338056.776505,
+            "tvlUsd": 41283224018.991585,
             "fees24hUsd": 8981585.179999998
           },
           "Base": {
-            "tvlUsd": 4611829653.609036,
+            "tvlUsd": 4611843345.6684065,
             "fees24hUsd": 1147930.93
           },
           "BSC": {
-            "tvlUsd": 5019179237.009294
+            "tvlUsd": 5019101077.317279
           },
           "Arbitrum": {
-            "tvlUsd": 1188792710.7730963
+            "tvlUsd": 1188857625.6660569
           },
           "Solana": {
-            "tvlUsd": 4846627783.209891,
+            "tvlUsd": 4846274034.951416,
             "fees24hUsd": 10376653.470000003,
             "revenue24hUsd": 4800889.6499999985,
             "dexVolume24hUsd": 1650911697.28
@@ -632,9 +632,9 @@
         "historyDays": 90
       },
       "stonkfun": {
-        "latestTotalUsd": 435872.64228575665,
+        "latestTotalUsd": 436213.894483377,
         "todayOpenUsd": 429514.7953304539,
-        "todaySoFarUsd": 6357.8469553027535,
+        "todaySoFarUsd": 6699.099152923096,
         "recentClosed": [
           {
             "date": "2026-08-10",
@@ -683,7 +683,7 @@
       "id": "ath-revenue24hUsd-2026-08-12",
       "kind": "ath",
       "date": "2026-08-12",
-      "at": "2026-08-12T02:40:53.746Z",
+      "at": "2026-08-12T03:06:53.780Z",
       "strength": "high",
       "title": "Solana revenue 24h at/near 90d high",
       "detail": "$4.80M vs prior peak $4.51M",
@@ -707,7 +707,7 @@
       "patternId": "ath-revenue24hUsd-2026-08-12",
       "kind": "ath",
       "date": "2026-08-12",
-      "at": "2026-08-12T02:40:53.746Z",
+      "at": "2026-08-12T03:06:53.780Z",
       "title": "Solana revenue 24h at/near 90d high",
       "hook": "Solana revenue 24h: $4.80M ≈ 90d high (prior peak $4.51M). What’s driving it in the top protocols?",
       "detail": "$4.80M vs prior peak $4.51M"
