@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T18:14:10.188Z",
+  "updatedAt": "2026-08-13T19:31:39.446Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -14036,6 +14036,90 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260813-tether-says-it-completed-lon-3a40414d",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T19:31:39.446Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Tether says it completed long-promised 'Big Four' audit of finances behind $180 billion USDT stablecoin",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/13/tether-says-it-completed-long-promised-big-four-audit-of-finances-behind-usd180-billion-usdt-stablecoin",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-delio-ceo-sentenced-to-15-ye-5d0db3af",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T19:31:39.446Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Delio CEO sentenced to 15 years in prison on crypto fraud in South Korea",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/delio-ceo-prison-crypto-fraud-south-korea?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-cftc-to-join-sec-in-explorin-7ede6316",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T19:31:39.446Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "CFTC to join SEC in exploring crypto regulations without CLARITY bill",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/cftc-exploring-crypto-regulations-clarity-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-google-and-openai-debut-supe-8864c6f6",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T19:31:39.446Z",
+      "lane": "narrative-rotation",
+      "kind": "shipping",
+      "what": "Google and OpenAI Debut Super Fast AI Models—Gemini 3.7 Flash Is Out, But GPT-5.6 Sol Ultrafast Is Invite-Only",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375580/google-openai-super-fast-ai-models-gemini-flash-gpt-ultrafast",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-tether-claims-largest-inaugu-de9c54ec",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T19:31:39.446Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Tether Claims 'Largest Inaugural Financial Audit' as KPMG Signs Off on 2025 Statements",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375577/tether-inaugural-financial-audit-kpmg",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-white-house-lets-private-fir-d330ccba",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T19:31:39.446Z",
+      "lane": "failures-rugs",
+      "kind": "exploit",
+      "what": "White House Lets Private Firms Hack Cybercriminals—At Their Own Legal Risk",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375568/white-house-private-firms-hack-cybercriminals",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -14670,13 +14754,15 @@
     },
     {
       "date": "2026-08-13",
-      "at": "2026-08-13T18:14:10.188Z",
-      "note": "Watcher: +4 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-13T19:31:39.446Z",
+      "note": "Watcher: +6 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260813-forecasts-for-1-million-bitc-d55223e3",
-        "sig-20260813-crypto-group-backs-custodia--bdb37696",
-        "sig-20260813-robinhood-chain-nears-1b-tvl-2312cfc8",
-        "sig-20260813-crypto-group-warns-fed-could-df5d0abb"
+        "sig-20260813-tether-says-it-completed-lon-3a40414d",
+        "sig-20260813-delio-ceo-sentenced-to-15-ye-5d0db3af",
+        "sig-20260813-cftc-to-join-sec-in-explorin-7ede6316",
+        "sig-20260813-google-and-openai-debut-supe-8864c6f6",
+        "sig-20260813-tether-claims-largest-inaugu-de9c54ec",
+        "sig-20260813-white-house-lets-private-fir-d330ccba"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
