@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T16:23:36.920Z",
+  "updatedAt": "2026-08-13T17:25:38.291Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -13936,6 +13936,48 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260813-trezor-warns-14-000-customer-0d100f72",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T17:25:38.291Z",
+      "lane": "failures-rugs",
+      "kind": "exploit",
+      "what": "Trezor warns 14,000 customers after fulfilment partner suffers data breach",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/tech/2026/08/13/trezor-warns-14-000-users-after-fulfilment-partner-suffers-data-breach",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-bitcoin-companies-want-help--3e36801b",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T17:25:38.291Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin Companies Want Help From AI Labs to Guard Against Hackers",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375564/bitcoin-firms-want-ai-hacking-tools",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-metaplanet-denies-selling-32-367e35ab",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T17:25:38.291Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Metaplanet Denies Selling $320M in Bitcoin as Firm Launches BitBonds",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375562/metaplanet-denies-bitcoin-sale-launches-bitbonds",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -14570,14 +14612,12 @@
     },
     {
       "date": "2026-08-13",
-      "at": "2026-08-13T16:23:36.920Z",
-      "note": "Watcher: +5 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-13T17:25:38.291Z",
+      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260813-tempo-launches-embedded-yiel-47c6ec82",
-        "sig-20260813-public-bitcoin-miners-cut-ha-05dfd1e1",
-        "sig-20260813-bullish-shares-jump-10-as-q2-f9659735",
-        "sig-20260813-trezor-reports-data-from-14k-edc29ff2",
-        "sig-20260813-hawaii-to-ban-cash-deposits--3cfb7332"
+        "sig-20260813-trezor-warns-14-000-customer-0d100f72",
+        "sig-20260813-bitcoin-companies-want-help--3e36801b",
+        "sig-20260813-metaplanet-denies-selling-32-367e35ab"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
