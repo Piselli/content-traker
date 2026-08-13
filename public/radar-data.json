@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T17:25:38.291Z",
+  "updatedAt": "2026-08-13T18:14:10.188Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -13978,6 +13978,64 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260813-forecasts-for-1-million-bitc-d55223e3",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T18:14:10.188Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Forecasts for $1 million bitcoin price likely look too ambitious, key ratio suggests",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/13/forecasts-for-usd1-million-bitcoin-price-likely-look-too-ambitious-key-ratio-suggests",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-crypto-group-backs-custodia--bdb37696",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T18:14:10.188Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Crypto group backs Custodia in Supreme Court battle over Fed access",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/blockchain-association-backs-custodia-in-supreme-court-fight-over-fed-master-account?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-robinhood-chain-nears-1b-tvl-2312cfc8",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T18:14:10.188Z",
+      "lane": "defi-infra",
+      "kind": "metric",
+      "what": "Robinhood Chain nears $1B TVL as Uniswap drives liquidity: Standard Chartered",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/robinhood-chain-uniswap-liquidity-uni-burns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [
+        "l1-winners"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-crypto-group-warns-fed-could-df5d0abb",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T18:14:10.188Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Crypto Group Warns Fed Could Use Banking Access to Squeeze Digital Asset Firms",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375567/crypto-group-fed-banking-access-squeeze-firms",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -14612,12 +14670,13 @@
     },
     {
       "date": "2026-08-13",
-      "at": "2026-08-13T17:25:38.291Z",
-      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-13T18:14:10.188Z",
+      "note": "Watcher: +4 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260813-trezor-warns-14-000-customer-0d100f72",
-        "sig-20260813-bitcoin-companies-want-help--3e36801b",
-        "sig-20260813-metaplanet-denies-selling-32-367e35ab"
+        "sig-20260813-forecasts-for-1-million-bitc-d55223e3",
+        "sig-20260813-crypto-group-backs-custodia--bdb37696",
+        "sig-20260813-robinhood-chain-nears-1b-tvl-2312cfc8",
+        "sig-20260813-crypto-group-warns-fed-could-df5d0abb"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
