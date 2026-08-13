@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T22:08:25.049Z",
+  "updatedAt": "2026-08-13T23:09:17.003Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -14220,6 +14220,34 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260813-sec-cancels-long-awaited-pro-9d627813",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T23:09:17.003Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "SEC cancels long-awaited proposal of Reg Crypto, postponing meeting without new date",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/policy/2026/08/13/sec-cancels-long-awaited-proposal-of-reg-crypto-postponing-meeting-without-new-date",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-bitcoin-is-burning-red-team--1150414d",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T23:09:17.003Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "'Bitcoin Is Burning': Red Team Turns to Chinese AI to Find Flaws",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375609/bitcoin-burning-red-team-chinese-ai-kimi",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -14854,13 +14882,11 @@
     },
     {
       "date": "2026-08-13",
-      "at": "2026-08-13T22:08:25.049Z",
-      "note": "Watcher: +4 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-13T23:09:17.003Z",
+      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260813-tether-clears-first-full-aud-bf462ac4",
-        "sig-20260813-city-of-baltimore-goes-after-b7ef8927",
-        "sig-20260813-anthropic-s-ai-agents-starte-3ad479ba",
-        "sig-20260813-solana-can-be-the-everything-8a55971a"
+        "sig-20260813-sec-cancels-long-awaited-pro-9d627813",
+        "sig-20260813-bitcoin-is-burning-red-team--1150414d"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
