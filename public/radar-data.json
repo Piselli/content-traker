@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T19:31:39.446Z",
+  "updatedAt": "2026-08-13T20:28:30.528Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -14754,16 +14754,9 @@
     },
     {
       "date": "2026-08-13",
-      "at": "2026-08-13T19:31:39.446Z",
-      "note": "Watcher: +6 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [
-        "sig-20260813-tether-says-it-completed-lon-3a40414d",
-        "sig-20260813-delio-ceo-sentenced-to-15-ye-5d0db3af",
-        "sig-20260813-cftc-to-join-sec-in-explorin-7ede6316",
-        "sig-20260813-google-and-openai-debut-supe-8864c6f6",
-        "sig-20260813-tether-claims-largest-inaugu-de9c54ec",
-        "sig-20260813-white-house-lets-private-fir-d330ccba"
-      ],
+      "at": "2026-08-13T20:28:30.528Z",
+      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
