@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T06:53:05.581Z",
+  "updatedAt": "2026-08-13T08:10:03.307Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -12559,7 +12559,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/opinion/2026/08/12/america-doesn-t-need-a-second-class-payments-system",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -12573,7 +12573,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/12/u-s-cpi-inflation-edges-lower-to-3-4-as-expected",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -13358,6 +13358,34 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260813-bitgo-posts-19m-q2-loss-desp-4aa5b6d9",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T08:10:03.307Z",
+      "lane": "narrative-rotation",
+      "kind": "metric",
+      "what": "BitGo posts $19M Q2 loss despite 80% revenue surge to $4.3B",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/bitgo-q2-19-million-revenue-surge-4-3-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-copper-us-arm-becomes-finra--d439fc50",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T08:10:03.307Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "Copper US arm becomes FINRA member, SEC-registered broker-dealer",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/copper-us-arm-joins-finra-after-sec-broker-dealer-approval?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -13992,11 +14020,11 @@
     },
     {
       "date": "2026-08-13",
-      "at": "2026-08-13T06:53:05.581Z",
+      "at": "2026-08-13T08:10:03.307Z",
       "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260813-metaplanet-denies-selling-bi-cfb3b29f",
-        "sig-20260813-bitcoin-firms-ask-ai-labs-fo-d1995a7e"
+        "sig-20260813-bitgo-posts-19m-q2-loss-desp-4aa5b6d9",
+        "sig-20260813-copper-us-arm-becomes-finra--d439fc50"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
