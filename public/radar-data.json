@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T20:28:30.528Z",
+  "updatedAt": "2026-08-13T21:13:30.623Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -14120,6 +14120,50 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260813-norway-wealth-fund-discloses-7cb06344",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T21:13:30.623Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Norway Wealth Fund Discloses $81.9 Million BitMine Stake",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/converge/tradfi-and-fintech/norway-wealth-fund-discloses-81-9-million-bitmine-stake",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-tether-completes-first-full--767563f2",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T21:13:30.623Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Tether completes first full financial audit, receives clean KPMG opinion",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/tether-completes-first-full-financial-audit-receives-clean-kpmg-opinion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-anthropic-is-quietly-waterma-139ca163",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T21:13:30.623Z",
+      "lane": "ai-crypto",
+      "kind": "narrative",
+      "what": "Anthropic Is Quietly Watermarking Every Claude AI Output. Builders Are Already Trying to Break It",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375594/anthropic-quietly-watermarking-ai-claude-output-builders-break",
+      "status": "expired",
+      "tags": [
+        "stables-ai"
+      ],
+      "watcher": true
     }
   ],
   "angles": [
@@ -14754,9 +14798,13 @@
     },
     {
       "date": "2026-08-13",
-      "at": "2026-08-13T20:28:30.528Z",
-      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [],
+      "at": "2026-08-13T21:13:30.623Z",
+      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [
+        "sig-20260813-norway-wealth-fund-discloses-7cb06344",
+        "sig-20260813-tether-completes-first-full--767563f2",
+        "sig-20260813-anthropic-is-quietly-waterma-139ca163"
+      ],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
