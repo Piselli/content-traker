@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T00:04:08.175Z",
+  "updatedAt": "2026-08-13T03:05:32.246Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -12673,7 +12673,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375384/kalshi-real-time-market-data-feed-doublezero",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -12687,7 +12687,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/tech/2026/08/12/miden-bets-on-privacy-stablecoins-with-introduction-of-usdcx",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -12701,7 +12701,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/coindesk-indices/2026/08/12/crypto-long-and-short",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -13230,6 +13230,48 @@
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/arizona-crypto-atm-law-scam-refunds-171k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-securitize-s-tokenized-asset-c653f6a4",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T03:05:32.246Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Securitize’s Tokenized Assets Hit $4.3 Billion as Revenue Falls",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/converge/tradfi-and-fintech/securitize-s-tokenized-assets-hit-4-3-billion-as-revenue-falls",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-uniswap-founder-says-team-re-f681cc72",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T03:05:32.246Z",
+      "lane": "defi-infra",
+      "kind": "narrative",
+      "what": "Uniswap Founder Says Team Renounced Creator Fees From Employee Testing",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/defi/uniswap-founder-says-team-renounced-creator-fees-from-employee-testing",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-asx-shareholder-plans-to-sue-8723307a",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T03:05:32.246Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "ASX shareholder plans to sue former directors over failed blockchain project",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/asx-shareholder-lawsuit-failed-blockchain-chess-project?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
       "tags": [],
       "watcher": true
     }
@@ -13866,11 +13908,12 @@
     },
     {
       "date": "2026-08-13",
-      "at": "2026-08-13T00:04:08.175Z",
-      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-13T03:05:32.246Z",
+      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260812-prediction-markets-should-di-18f43536",
-        "sig-20260812-arizona-crypto-atm-law-helps-d978fd71"
+        "sig-20260813-securitize-s-tokenized-asset-c653f6a4",
+        "sig-20260813-uniswap-founder-says-team-re-f681cc72",
+        "sig-20260813-asx-shareholder-plans-to-sue-8723307a"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
