@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T12:41:25.100Z",
+  "updatedAt": "2026-08-13T14:13:43.185Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -12205,7 +12205,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/cftc-kalshi-emergency-order-new-york-lawsuit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -12219,7 +12219,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/12/crypto-com-rolls-out-tokenized-stock-derivatives-as-crypto-exchanges-push-into-equities",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -12233,7 +12233,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/12/here-s-what-bitcoin-and-ether-traders-are-doing-ahead-of-the-binary-u-s-cpi-print",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -12247,7 +12247,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/12/harmony-s-one-falls-26-after-attacker-allegedly-mints-4-billion-tokens",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -12261,7 +12261,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/armony-rollback-alleged-one-token-mint?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -12275,7 +12275,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/tech/2026/08/12/live-updates-bitcoin-at-usd63-600-as-japan-s-metaplanet-moves-3-881-btc-between-wallets",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -12289,7 +12289,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/magazine/fake-crypto-startup-fooled-north-korean-it-workers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -12303,7 +12303,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/12/fidelity-moves-to-add-staking-quarterly-payouts-to-near-usd900-million-ether-etf",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "wrappers-etf"
       ],
@@ -12319,7 +12319,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/12/one-overlooked-group-has-added-usd1-78-billion-of-selling-pressure-to-bitcoin-market",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -12333,7 +12333,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/crypto-companies-ai-firms-bitcoin-developers-access?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -13600,6 +13600,146 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260813-swissquote-cuts-full-year-gu-322278df",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T14:13:43.185Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Swissquote cuts full-year guidance as 1H crypto income plunges, shares slide",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/13/swissquote-cuts-full-year-guidance-as-1h-crypto-income-plunges-shares-slide",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-crypto-platform-operator-get-7bb58652",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T14:13:43.185Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Crypto platform operator gets 15-year prison sentence in South Korea due to $50 million scam",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/13/crypto-platform-operator-gets-15-year-prison-sentence-in-south-korea-due-to-usd50-million-scam",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-figure-revenue-doubles-as-bl-2495b0c0",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T14:13:43.185Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Figure revenue doubles as blockchain loan marketplace volumes surge",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/13/figure-revenue-doubles-as-blockchain-loan-marketplace-volumes-surge",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-trezor-shipping-provider-bre-3d975862",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T14:13:43.185Z",
+      "lane": "failures-rugs",
+      "kind": "exploit",
+      "what": "Trezor Shipping-Provider Breach Exposes Data of 13,689 Customers",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/security/trezor-shipping-provider-breach-exposes-data-of-13-689-customers",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-ether-fi-adds-tokenized-stoc-e53b2030",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T14:13:43.185Z",
+      "lane": "defi-infra",
+      "kind": "narrative",
+      "what": "ether.fi Adds Tokenized Stocks, New Fiat Rails And Aave-Backed Borrowing",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/defi/ether-fi-adds-tokenized-stocks-new-fiat-rails-and-aave-backed-borrowing",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-bitmine-s-257m-annualized-st-d8745b75",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T14:13:43.185Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitmine’s $257M annualized staking income ‘fills’ operational gaps, share buybacks: analysts",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/bitmines-257m-staking-income-operational-gaps-share-buybacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-mufg-poc-to-bring-japanese-g-8f08785c",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T14:13:43.185Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "MUFG PoC to bring Japanese government bond repo transactions onchain",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/mufg-bring-japanese-government-bond-repo-transactions-onchain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-ethereum-defi-platform-ether-2cf6f110",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T14:13:43.185Z",
+      "lane": "l1-l2",
+      "kind": "narrative",
+      "what": "Ethereum DeFi Platform Ether.fi Adds Tokenized Stocks and Portfolio-Backed Loans",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375529/ethereum-defi-etherfi-tokenized-stocks",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-trezor-customer-data-exposed-3b8a320f",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T14:13:43.185Z",
+      "lane": "failures-rugs",
+      "kind": "exploit",
+      "what": "Trezor Customer Data Exposed in Shipping Partner Breach",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375556/trezor-customer-data-exposed-in-shipping-partner-breach",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-xrp-holders-can-now-trade-op-dbeabd28",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T14:13:43.185Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "XRP Holders Can Now Trade Options Using Flare’s FXRP as Collateral",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375526/xrp-holders-trade-options-flare-fxrp-collateral",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -14234,13 +14374,19 @@
     },
     {
       "date": "2026-08-13",
-      "at": "2026-08-13T12:41:25.100Z",
-      "note": "Watcher: +4 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-13T14:13:43.185Z",
+      "note": "Watcher: +10 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260813-bullish-q2-adjusted-earnings-77eae5af",
-        "sig-20260813-sec-allows-franklin-templeto-c117a1e0",
-        "sig-20260813-morning-minute-the-sec-plans-e6d2ab70",
-        "sig-20260813-twitch-turns-on-amazon-ai-tr-74173eab"
+        "sig-20260813-swissquote-cuts-full-year-gu-322278df",
+        "sig-20260813-crypto-platform-operator-get-7bb58652",
+        "sig-20260813-figure-revenue-doubles-as-bl-2495b0c0",
+        "sig-20260813-trezor-shipping-provider-bre-3d975862",
+        "sig-20260813-ether-fi-adds-tokenized-stoc-e53b2030",
+        "sig-20260813-bitmine-s-257m-annualized-st-d8745b75",
+        "sig-20260813-mufg-poc-to-bring-japanese-g-8f08785c",
+        "sig-20260813-ethereum-defi-platform-ether-2cf6f110",
+        "sig-20260813-trezor-customer-data-exposed-3b8a320f",
+        "sig-20260813-xrp-holders-can-now-trade-op-dbeabd28"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
