@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T09:37:13.952Z",
+  "updatedAt": "2026-08-13T10:50:35.469Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -12445,7 +12445,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/policy/2026/08/12/russia-moves-to-restrict-retail-crypto-trading-to-bitcoin-ether-and-usdt",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -12459,7 +12459,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/daybook-us/2026/08/12/xrp-trading-could-get-spicy-after-cpi-report-as-futures-bets-hit-highest-since-october",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -12473,7 +12473,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "thedefiant",
       "url": "https://thedefiant.io/news/tradfi-and-fintech/bar-a-mobile-plans-stellar-wallet-with-wirex-and-crossmint",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -12487,7 +12487,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/policy/2026/08/12/flightaware-drops-kalshi-lawsuit-over-a-market-niche-that-data-shows-it-never-took-off",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -12501,7 +12501,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375393/morning-minute-the-cftc-bails-out-kalshi-in-ny",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -13428,6 +13428,78 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260813-mufg-to-test-real-time-block-b715e2a5",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T10:50:35.469Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "MUFG to test real-time blockchain settlement for Japanese government bond trades",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/13/mufg-to-test-real-time-blockchain-settlement-for-japanese-government-bond-trades",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-brazil-s-largest-bitcoin-tre-943cb9da",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T10:50:35.469Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "Brazil’s largest bitcoin treasury firm plans ETF with 95% allocation to Strategy's STRC",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/13/brazil-s-largest-bitcoin-treasury-firm-plans-etf-with-95-allocation-to-strategy-s-strc",
+      "status": "open",
+      "tags": [
+        "wrappers-etf"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-binance-bstocks-passes-xstoc-f42efacc",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T10:50:35.469Z",
+      "lane": "cex-tradfi",
+      "kind": "narrative",
+      "what": "Binance bStocks passes xStocks as second-largest tokenized stock issuer",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/binance-bstocks-second-largest-tokenized-stock-issuer?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-bitcoin-speculators-keep-btc-3a804a83",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T10:50:35.469Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin speculators keep BTC price ‘pinned’ below $68.7K: Glassnode",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/bitcoin-speculators-in-the-red-keep-price-pinned-below-687k-new-analysis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-ceo-of-crypto-lender-delio-g-56bd0488",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T10:50:35.469Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "CEO of Crypto Lender Delio Gets 15 Years Over $49M Fraud",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375531/ceo-of-crypto-lender-delio-gets-15-years-over-49m-fraud",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -13680,8 +13752,8 @@
     },
     {
       "id": "ang-watch-wrappers-etf",
-      "at": "2026-08-12T22:28:13.024Z",
-      "thesis": "Watcher cluster [wrappers-etf]: 5 related receipts in ~7d across capital-flows, regulation, cex-tradfi.",
+      "at": "2026-08-13T10:50:35.469Z",
+      "thesis": "Watcher cluster [wrappers-etf]: 3 related receipts in ~7d across capital-flows.",
       "voiceHook": "Pattern forming: wrappers etf.",
       "signalIds": [
         "sig-20260728-ms-eth-sol-etp",
@@ -13700,7 +13772,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for wrappers-etf: dates + sources",
-      "expiresAt": "2026-08-16T22:28:13.024Z",
+      "expiresAt": "2026-08-17T10:50:35.469Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -14062,15 +14134,21 @@
     },
     {
       "date": "2026-08-13",
-      "at": "2026-08-13T09:37:13.952Z",
-      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-13T10:50:35.469Z",
+      "note": "Watcher: +5 signals, spikes=0, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260813-live-markets-u-s-inflation-i-9526bcf2",
-        "sig-20260813-bitcoin-treasury-company-met-39bce1fa",
-        "sig-20260813-securitize-falls-16-after-ea-76b45c28"
+        "sig-20260813-mufg-to-test-real-time-block-b715e2a5",
+        "sig-20260813-brazil-s-largest-bitcoin-tre-943cb9da",
+        "sig-20260813-binance-bstocks-passes-xstoc-f42efacc",
+        "sig-20260813-bitcoin-speculators-keep-btc-3a804a83",
+        "sig-20260813-ceo-of-crypto-lender-delio-g-56bd0488"
       ],
-      "angleIdsTouched": [],
-      "noteworthyIds": []
+      "angleIdsTouched": [
+        "ang-watch-wrappers-etf"
+      ],
+      "noteworthyIds": [
+        "ang-watch-wrappers-etf"
+      ]
     }
   ]
 }
