@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T21:13:30.623Z",
+  "updatedAt": "2026-08-13T22:08:25.049Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -14164,6 +14164,62 @@
         "stables-ai"
       ],
       "watcher": true
+    },
+    {
+      "id": "sig-20260813-tether-clears-first-full-aud-bf462ac4",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T22:08:25.049Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Tether Clears First Full Audit From KPMG Without Publishing the Statements",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/converge/cefi/tether-clears-first-full-audit-from-kpmg-without-publishing-the-statements",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-city-of-baltimore-goes-after-b7ef8927",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T22:08:25.049Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "City of Baltimore goes after prediction markets for sports betting",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/baltimore-lawsuit-prediction-markets-kalshi-polymarket-sports-betting?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-anthropic-s-ai-agents-starte-3ad479ba",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T22:08:25.049Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Anthropic's AI Agents Started a Virtual War. The Chat Logs Are Unhinged",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375596/anthropic-ai-agents-virtual-war-quotes-unhinged",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-solana-can-be-the-everything-8a55971a",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T22:08:25.049Z",
+      "lane": "l1-l2",
+      "kind": "narrative",
+      "what": "Solana Can Be the 'Everything Chain' as Crypto Apps Go Mainstream: 6th Man Ventures Co-Founder",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375605/solana-everything-chain-crypto-apps-mainstream",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -14798,12 +14854,13 @@
     },
     {
       "date": "2026-08-13",
-      "at": "2026-08-13T21:13:30.623Z",
-      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-13T22:08:25.049Z",
+      "note": "Watcher: +4 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260813-norway-wealth-fund-discloses-7cb06344",
-        "sig-20260813-tether-completes-first-full--767563f2",
-        "sig-20260813-anthropic-is-quietly-waterma-139ca163"
+        "sig-20260813-tether-clears-first-full-aud-bf462ac4",
+        "sig-20260813-city-of-baltimore-goes-after-b7ef8927",
+        "sig-20260813-anthropic-s-ai-agents-starte-3ad479ba",
+        "sig-20260813-solana-can-be-the-everything-8a55971a"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
