@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T11:37:49.335Z",
+  "updatedAt": "2026-08-13T12:41:25.100Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -12347,7 +12347,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375387/cftc-invokes-emergency-powers-to-keep-kalshi-trading-despite-new-york-suit",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -12361,7 +12361,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/12/bitcoin-holds-near-usd64-000-as-u-s-inflation-data-looms-harmony-exploit-rattles-altcoins",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -12375,7 +12375,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/12/bank-of-england-to-test-stablecoin-digital-currency-use-in-cross-border-finance",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -12389,7 +12389,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/12/coreweave-surges-16-on-usd2-58-billion-revenue-quarter-as-ai-infrastructure-demand-eclipses-crypto",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -13544,6 +13544,62 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260813-bullish-q2-adjusted-earnings-77eae5af",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T12:41:25.100Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bullish Q2 adjusted earnings in line as rise in subscription revenue offsets digital asset slowdown",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/13/bullish-reports-usd280-million-q2-net-loss-as-crypto-trading-slows",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-sec-allows-franklin-templeto-c117a1e0",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T12:41:25.100Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "SEC allows Franklin Templeton funds to invest in onchain money fund",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/sec-franklin-templeton-funds-invest-onchain-money-fund?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-morning-minute-the-sec-plans-e6d2ab70",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T12:41:25.100Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "Morning Minute: The SEC Plans Rules for Tokenized Stocks",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375547/morning-minute-the-sec-plans-rules-for-tokenized-stocks",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-twitch-turns-on-amazon-ai-tr-74173eab",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T12:41:25.100Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Twitch Turns On Amazon AI Training by Default: 'Nobody Would Opt In'",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375535/twitch-turns-on-amazon-ai-training-by-default-nobody-would-opt-in",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -14178,19 +14234,16 @@
     },
     {
       "date": "2026-08-13",
-      "at": "2026-08-13T11:37:49.335Z",
-      "note": "Watcher: +3 signals, spikes=0, patternPings=1.",
+      "at": "2026-08-13T12:41:25.100Z",
+      "note": "Watcher: +4 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260813-strategy-metaplanet-unrealiz-8b3b0871",
-        "sig-20260813-bitcoin-holds-steady-near-64-9c96fbef",
-        "sig-20260813-defi-doesn-t-exist-anymore-j-0ac5c64f"
+        "sig-20260813-bullish-q2-adjusted-earnings-77eae5af",
+        "sig-20260813-sec-allows-franklin-templeto-c117a1e0",
+        "sig-20260813-morning-minute-the-sec-plans-e6d2ab70",
+        "sig-20260813-twitch-turns-on-amazon-ai-tr-74173eab"
       ],
-      "angleIdsTouched": [
-        "ang-watch-hl-perps-rwa"
-      ],
-      "noteworthyIds": [
-        "ang-watch-hl-perps-rwa"
-      ]
+      "angleIdsTouched": [],
+      "noteworthyIds": []
     }
   ]
 }
