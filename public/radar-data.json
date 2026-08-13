@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T03:05:32.246Z",
+  "updatedAt": "2026-08-13T05:14:47.159Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -12615,7 +12615,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/slovenia-eu-mica-stablecoin-register-dinaro?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -12629,7 +12629,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/magazine/el-salvadors-bitcoin-experiment-turns-5-it-was-for-us-and-not-them?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -12643,7 +12643,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/wintermute-pour-1b-ai-tradfi-expansion-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -12657,7 +12657,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/fidelity-staking-ethereum-etf-sec-filing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "wrappers-etf"
       ],
@@ -13271,6 +13271,62 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/asx-shareholder-lawsuit-failed-blockchain-chess-project?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-metaplanet-ceo-shuts-down-bi-54809d4e",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T05:14:47.159Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Metaplanet CEO shuts down Bitcoin sale speculation after $322M transfer",
+      "why": "Watcher spike: strong failure/shipping/capital headline — check for take.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/gerovich-shuts-down-bitcoin-sale-metaplanets-transfer?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-speculation-on-dogecoin-is-b-011b2633",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T05:14:47.159Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Speculation on dogecoin is back to October 2025 levels. The price is down 70%",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/13/speculation-on-dogecoin-is-back-to-october-2025-levels-the-price-is-down-70",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-bitcoin-slips-near-63-500-as-50fed320",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T05:14:47.159Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin slips near $63,500 as traders look past CPI to Fed’s next tests",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/13/bitcoin-slips-near-usd63-500-as-traders-look-past-cpi-to-fed-s-next-tests",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-crypto-valuations-could-doub-2b9e1f89",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T05:14:47.159Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Crypto valuations could double as protocols link revenue to tokens: Bitwise CIO",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/crypto-valuations-protocol-revenue-token-buybacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "status": "open",
       "tags": [],
       "watcher": true
@@ -13908,15 +13964,18 @@
     },
     {
       "date": "2026-08-13",
-      "at": "2026-08-13T03:05:32.246Z",
-      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-13T05:14:47.159Z",
+      "note": "Watcher: +4 signals, spikes=1, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260813-securitize-s-tokenized-asset-c653f6a4",
-        "sig-20260813-uniswap-founder-says-team-re-f681cc72",
-        "sig-20260813-asx-shareholder-plans-to-sue-8723307a"
+        "sig-20260813-metaplanet-ceo-shuts-down-bi-54809d4e",
+        "sig-20260813-speculation-on-dogecoin-is-b-011b2633",
+        "sig-20260813-bitcoin-slips-near-63-500-as-50fed320",
+        "sig-20260813-crypto-valuations-could-doub-2b9e1f89"
       ],
       "angleIdsTouched": [],
-      "noteworthyIds": []
+      "noteworthyIds": [
+        "sig-20260813-metaplanet-ceo-shuts-down-bi-54809d4e"
+      ]
     }
   ]
 }
