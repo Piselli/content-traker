@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T05:14:47.159Z",
+  "updatedAt": "2026-08-13T06:53:05.581Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -12587,7 +12587,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "thedefiant",
       "url": "https://thedefiant.io/news/hacks/harmony-patches-pre-staking-quorum-and-receipt-replay-flaws-after-one-mint-claim",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -12601,7 +12601,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/kalshi-launches-sports-crypto-data-feed-doublezero?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -13330,6 +13330,34 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260813-metaplanet-denies-selling-bi-cfb3b29f",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T06:53:05.581Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Metaplanet denies selling bitcoin worth $320 million",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/13/metaplanet-denies-selling-bitcoin-worth-usd320-million",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-bitcoin-firms-ask-ai-labs-fo-d1995a7e",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T06:53:05.581Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin firms ask AI labs for same tools attackers already have",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/tech/2026/08/13/bitcoin-firms-ask-ai-labs-for-same-tools-attackers-already-have",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -13964,18 +13992,14 @@
     },
     {
       "date": "2026-08-13",
-      "at": "2026-08-13T05:14:47.159Z",
-      "note": "Watcher: +4 signals, spikes=1, patternPings=0.",
+      "at": "2026-08-13T06:53:05.581Z",
+      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260813-metaplanet-ceo-shuts-down-bi-54809d4e",
-        "sig-20260813-speculation-on-dogecoin-is-b-011b2633",
-        "sig-20260813-bitcoin-slips-near-63-500-as-50fed320",
-        "sig-20260813-crypto-valuations-could-doub-2b9e1f89"
+        "sig-20260813-metaplanet-denies-selling-bi-cfb3b29f",
+        "sig-20260813-bitcoin-firms-ask-ai-labs-fo-d1995a7e"
       ],
       "angleIdsTouched": [],
-      "noteworthyIds": [
-        "sig-20260813-metaplanet-ceo-shuts-down-bi-54809d4e"
-      ]
+      "noteworthyIds": []
     }
   ]
 }
