@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T14:13:43.185Z",
+  "updatedAt": "2026-08-13T15:27:54.022Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -12147,7 +12147,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/markets/ravencoin-rvn-record-low-consensus-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -12161,7 +12161,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/sec-cftc-sue-goliath-ventures-400m-crypto-ponzi?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "clarity-policy"
       ],
@@ -12177,7 +12177,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/12/dogecoin-and-bnb-lead-majors-higher-as-bitcoin-slips-near-usd63-700",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -12191,7 +12191,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/tech/2026/08/12/xrp-bridge-drained-for-usd200-000-after-software-mistook-fake-deposits-for-real-ones",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -13740,6 +13740,132 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260813-crypto-for-advisors-the-cryp-1c48b06e",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T15:27:54.022Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Crypto for Advisors: The crypto advice gap",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/08/12/crypto-for-advisors-the-crypto-advice-gap",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-b2c2-taps-schroders-veteran--3c854742",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T15:27:54.022Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "B2C2 taps Schroders veteran to chase Asia’s growing crypto wealth",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/13/b2c2-taps-schroders-veteran-to-chase-asia-s-growing-crypto-wealth",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-kalshi-in-talks-with-sequoia-93d8ddbf",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T15:27:54.022Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "Kalshi in talks with Sequoia, Wellington for $750 million fund raise at $40 billion valuation",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/13/kalshi-in-talks-with-sequoia-wellington-for-usd750-million-fund-raise-at-usd40-billion-valuation",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-standard-chartered-says-its--769f4780",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T15:27:54.022Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Standard Chartered Says Its $100 UNI Target May Be Too Low After Robinhood Chain Burns",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/defi/standard-chartered-100-uni-target-too-low-robinhood-chain-burns",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-sharplink-plans-200-million--54e1271d",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T15:27:54.022Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "SharpLink Plans $200 Million ETH Allocation to Lido’s wstETH",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/defi/sharplink-plans-200-million-eth-allocation-to-lido-s-wsteth",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-neutrl-pauses-minting-and-re-a5c4b7ab",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T15:27:54.022Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Neutrl Pauses Minting and Redemptions While Assessing Reserve Impact",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/defi/neutrl-pauses-minting-and-redemptions-while-assessing-reserve-impact",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-robinhood-private-market-fun-2b0a396a",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T15:27:54.022Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Robinhood Private-Market Fund Prices $200 Million IPO",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/converge/tradfi-and-fintech/robinhood-private-market-fund-prices-200-million-ipo",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-bitcoin-keeps-traders-guessi-247aaf2c",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T15:27:54.022Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin keeps traders guessing near $64K as stocks gain on cool US PPI data",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/bitcoin-keeps-traders-guessing-near-64k-as-stocks-gain-on-cool-us-ppi-data?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-fca-htx-in-settlement-talks--d9c2c6fd",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T15:27:54.022Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "FCA, HTX in Settlement Talks Over Illegal UK Crypto Promotions: Report",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375551/fca-htx-in-settlement-talks-over-illegal-uk-crypto-promotions-report",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -14374,19 +14500,18 @@
     },
     {
       "date": "2026-08-13",
-      "at": "2026-08-13T14:13:43.185Z",
-      "note": "Watcher: +10 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-13T15:27:54.022Z",
+      "note": "Watcher: +9 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260813-swissquote-cuts-full-year-gu-322278df",
-        "sig-20260813-crypto-platform-operator-get-7bb58652",
-        "sig-20260813-figure-revenue-doubles-as-bl-2495b0c0",
-        "sig-20260813-trezor-shipping-provider-bre-3d975862",
-        "sig-20260813-ether-fi-adds-tokenized-stoc-e53b2030",
-        "sig-20260813-bitmine-s-257m-annualized-st-d8745b75",
-        "sig-20260813-mufg-poc-to-bring-japanese-g-8f08785c",
-        "sig-20260813-ethereum-defi-platform-ether-2cf6f110",
-        "sig-20260813-trezor-customer-data-exposed-3b8a320f",
-        "sig-20260813-xrp-holders-can-now-trade-op-dbeabd28"
+        "sig-20260813-crypto-for-advisors-the-cryp-1c48b06e",
+        "sig-20260813-b2c2-taps-schroders-veteran--3c854742",
+        "sig-20260813-kalshi-in-talks-with-sequoia-93d8ddbf",
+        "sig-20260813-standard-chartered-says-its--769f4780",
+        "sig-20260813-sharplink-plans-200-million--54e1271d",
+        "sig-20260813-neutrl-pauses-minting-and-re-a5c4b7ab",
+        "sig-20260813-robinhood-private-market-fun-2b0a396a",
+        "sig-20260813-bitcoin-keeps-traders-guessi-247aaf2c",
+        "sig-20260813-fca-htx-in-settlement-talks--d9c2c6fd"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
