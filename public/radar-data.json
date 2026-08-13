@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T10:50:35.469Z",
+  "updatedAt": "2026-08-13T11:37:49.335Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -12403,7 +12403,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/binance-redotpay-clash-singapore-lawsuit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -12417,7 +12417,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/markets/bitcoin-miners-earn-under-07-of-revenue-from-fees-in-new-10-year-low?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -12431,7 +12431,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375390/harmonys-one-sinks-37-after-attacker-mints-4-billion-tokens",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -13500,6 +13500,50 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260813-strategy-metaplanet-unrealiz-8b3b0871",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T11:37:49.335Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Strategy, Metaplanet unrealized bitcoin losses highlight risk of concentrating on just one token",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/daybook-us/2026/08/13/strategy-metaplanet-unrealized-bitcoin-losses-highlight-risk-of-concentrating-on-just-one-token",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-bitcoin-holds-steady-near-64-9c96fbef",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T11:37:49.335Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin holds steady near $64,000 as monero, hyperliquid outperform",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/13/bitcoin-holds-steady-near-usd64-000-as-monero-hyperliquid-outperform",
+      "status": "open",
+      "tags": [
+        "hl-perps-rwa"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-defi-doesn-t-exist-anymore-j-0ac5c64f",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-13T11:37:49.335Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "‘DeFi doesn’t exist anymore,’ just onchain finance: Andre Cronje",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/defi-doesnt-exist-onchain-finance-andre-cronje?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -13723,8 +13767,8 @@
     },
     {
       "id": "ang-watch-hl-perps-rwa",
-      "at": "2026-08-09T15:29:02.775Z",
-      "thesis": "Watcher cluster [hl-perps-rwa]: 3 related receipts in ~7d across narrative-rotation, capital-flows, rwa-compliance.",
+      "at": "2026-08-13T11:37:49.335Z",
+      "thesis": "Watcher cluster [hl-perps-rwa]: 2 related receipts in ~7d across capital-flows, narrative-rotation.",
       "voiceHook": "Pattern forming: hl perps rwa.",
       "signalIds": [
         "sig-20260728-kospi-riskoff",
@@ -13745,7 +13789,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for hl-perps-rwa: dates + sources",
-      "expiresAt": "2026-08-13T15:29:02.775Z",
+      "expiresAt": "2026-08-17T11:37:49.335Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -14134,20 +14178,18 @@
     },
     {
       "date": "2026-08-13",
-      "at": "2026-08-13T10:50:35.469Z",
-      "note": "Watcher: +5 signals, spikes=0, patternPings=1.",
+      "at": "2026-08-13T11:37:49.335Z",
+      "note": "Watcher: +3 signals, spikes=0, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260813-mufg-to-test-real-time-block-b715e2a5",
-        "sig-20260813-brazil-s-largest-bitcoin-tre-943cb9da",
-        "sig-20260813-binance-bstocks-passes-xstoc-f42efacc",
-        "sig-20260813-bitcoin-speculators-keep-btc-3a804a83",
-        "sig-20260813-ceo-of-crypto-lender-delio-g-56bd0488"
+        "sig-20260813-strategy-metaplanet-unrealiz-8b3b0871",
+        "sig-20260813-bitcoin-holds-steady-near-64-9c96fbef",
+        "sig-20260813-defi-doesn-t-exist-anymore-j-0ac5c64f"
       ],
       "angleIdsTouched": [
-        "ang-watch-wrappers-etf"
+        "ang-watch-hl-perps-rwa"
       ],
       "noteworthyIds": [
-        "ang-watch-wrappers-etf"
+        "ang-watch-hl-perps-rwa"
       ]
     }
   ]
