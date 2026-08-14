@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T05:11:53.821Z",
+  "updatedAt": "2026-08-14T06:50:05.363Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -13751,7 +13751,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/coindesk-indices/2026/08/12/crypto-for-advisors-the-crypto-advice-gap",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -14315,6 +14315,20 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/neutrl-pauses-nusd-redemptions-over-undisclosed-reserve-issue?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260814-bitcoin-holders-strategy-and-a3446206",
+      "at": "2026-08-14",
+      "scannedAt": "2026-08-14T06:50:05.363Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin holders Strategy and Metaplanet face stock-index exclusion under MSCI’s new proposal",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/14/bitcoin-holders-strategy-and-metaplanet-face-stock-index-exclusion-under-msci-s-new-proposal",
       "status": "open",
       "tags": [],
       "watcher": true
@@ -14963,11 +14977,10 @@
     },
     {
       "date": "2026-08-14",
-      "at": "2026-08-14T05:11:53.821Z",
-      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-14T06:50:05.363Z",
+      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260814-jpmorgan-shuttered-its-banki-4f8c9f7e",
-        "sig-20260814-neutrl-pauses-nusd-redemptio-5e5768f6"
+        "sig-20260814-bitcoin-holders-strategy-and-a3446206"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
