@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T23:11:13.211Z",
+  "updatedAt": "2026-08-14T23:43:15.370Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -14898,6 +14898,20 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260814-trump-expected-to-attend-whi-f87a9b39",
+      "at": "2026-08-14",
+      "scannedAt": "2026-08-14T23:43:15.370Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Trump expected to attend White House meeting with crypto CEOs, sources say",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/policy/2026/08/14/trump-expected-to-attend-white-house-meeting-with-crypto-ceos-sources-say",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -15543,9 +15557,11 @@
     },
     {
       "date": "2026-08-14",
-      "at": "2026-08-14T23:11:13.211Z",
-      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [],
+      "at": "2026-08-14T23:43:15.370Z",
+      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [
+        "sig-20260814-trump-expected-to-attend-whi-f87a9b39"
+      ],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
