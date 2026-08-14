@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T23:09:17.003Z",
+  "updatedAt": "2026-08-14T00:04:26.667Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -14248,6 +14248,34 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260813-u-s-sec-to-again-delay-innov-655c1dee",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-14T00:04:26.667Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "U.S. SEC to again delay 'innovation exemption' for tokenization amid Wall Street, White House concerns",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/policy/2026/08/13/u-s-sec-to-again-delay-innovation-exemption-for-tokenization-amid-wall-street-white-house-concerns",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260813-ethereum-foundation-pivots-a-94d0d54b",
+      "at": "2026-08-13",
+      "scannedAt": "2026-08-14T00:04:26.667Z",
+      "lane": "l1-l2",
+      "kind": "narrative",
+      "what": "Ethereum Foundation pivots away from Poseidon in post-quantum plan",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/ethereum-foundation-drops-poseidon-post-quantum-plan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -14887,6 +14915,17 @@
       "signalIdsAdded": [
         "sig-20260813-sec-cancels-long-awaited-pro-9d627813",
         "sig-20260813-bitcoin-is-burning-red-team--1150414d"
+      ],
+      "angleIdsTouched": [],
+      "noteworthyIds": []
+    },
+    {
+      "date": "2026-08-14",
+      "at": "2026-08-14T00:04:26.667Z",
+      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [
+        "sig-20260813-u-s-sec-to-again-delay-innov-655c1dee",
+        "sig-20260813-ethereum-foundation-pivots-a-94d0d54b"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
