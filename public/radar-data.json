@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T12:37:14.698Z",
+  "updatedAt": "2026-08-14T14:07:20.938Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -13469,7 +13469,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/binance-bstocks-second-largest-tokenized-stock-issuer?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -13483,7 +13483,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/markets/bitcoin-speculators-in-the-red-keep-price-pinned-below-687k-new-analysis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -13497,7 +13497,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375531/ceo-of-crypto-lender-delio-gets-15-years-over-49m-fraud",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -13511,7 +13511,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/daybook-us/2026/08/13/strategy-metaplanet-unrealized-bitcoin-losses-highlight-risk-of-concentrating-on-just-one-token",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -14558,6 +14558,62 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260814-israel-s-largest-bank-to-off-269b3452",
+      "at": "2026-08-14",
+      "scannedAt": "2026-08-14T14:07:20.938Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Israel’s largest bank to offer crypto trading with Galaxy",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/14/israel-s-largest-bank-partners-with-galaxy-for-crypto-trading",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260814-binance-to-restrict-transact-9f304912",
+      "at": "2026-08-14",
+      "scannedAt": "2026-08-14T14:07:20.938Z",
+      "lane": "cex-tradfi",
+      "kind": "narrative",
+      "what": "Binance to restrict transactions involving HTX, 10 other crypto platforms",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/binance-restrict-htx-10-crypto-platforms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260814-solana-s-fee-overhaul-increa-485ede0d",
+      "at": "2026-08-14",
+      "scannedAt": "2026-08-14T14:07:20.938Z",
+      "lane": "l1-l2",
+      "kind": "narrative",
+      "what": "Solana’s fee overhaul increases burn and makes resource hogs pay",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/magazine/solana-wants-its-biggest-resource-hogs-to-pay-more?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260814-ireland-s-new-aml-strategy-b-9761e8f5",
+      "at": "2026-08-14",
+      "scannedAt": "2026-08-14T14:07:20.938Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Ireland’s New AML Strategy Brings ‘Enhanced Checks’ on Private Crypto Wallets",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375628/irelands-new-aml-strategy-brings-enhanced-checks-on-private-crypto-wallets",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -15203,11 +15259,13 @@
     },
     {
       "date": "2026-08-14",
-      "at": "2026-08-14T12:37:14.698Z",
-      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-14T14:07:20.938Z",
+      "note": "Watcher: +4 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260814-gemini-posts-108m-q2-net-los-76e868a4",
-        "sig-20260814-morning-minute-tether-finall-51831eca"
+        "sig-20260814-israel-s-largest-bank-to-off-269b3452",
+        "sig-20260814-binance-to-restrict-transact-9f304912",
+        "sig-20260814-solana-s-fee-overhaul-increa-485ede0d",
+        "sig-20260814-ireland-s-new-aml-strategy-b-9761e8f5"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
