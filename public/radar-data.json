@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T16:11:13.504Z",
+  "updatedAt": "2026-08-14T17:22:53.030Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -13341,7 +13341,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/13/metaplanet-denies-selling-bitcoin-worth-usd320-million",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -13355,7 +13355,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/tech/2026/08/13/bitcoin-firms-ask-ai-labs-for-same-tools-attackers-already-have",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -13369,7 +13369,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/bitgo-q2-19-million-revenue-surge-4-3-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -14702,6 +14702,48 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260814-uk-authorities-continue-prob-eabd81a7",
+      "at": "2026-08-14",
+      "scannedAt": "2026-08-14T17:22:53.030Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "UK authorities continue probe into Nigel Farage’s crypto ‘gifts’ after by-election win",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/uk-investigation-nigel-farage-crypto-donations-by-election?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260814-israel-s-largest-bank-will-g-b3a80c34",
+      "at": "2026-08-14",
+      "scannedAt": "2026-08-14T17:22:53.030Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Israel’s Largest Bank Will Give Bitcoin Trading Another Try",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375665/israel-largest-bank-leumi-bitcoin-trading",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260814-another-bitcoin-miner-sells--4e392177",
+      "at": "2026-08-14",
+      "scannedAt": "2026-08-14T17:22:53.030Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Another Bitcoin Miner Sells Off BTC to Fund AI Data Center Pivot",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375655/bitcoin-miner-sells-btc-ai-pivot-hyperscale",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -15347,11 +15389,12 @@
     },
     {
       "date": "2026-08-14",
-      "at": "2026-08-14T16:11:13.504Z",
-      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-14T17:22:53.030Z",
+      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260814-israel-s-largest-bank-taps-g-95798cee",
-        "sig-20260814-crypto-biz-bitcoin-s-116m-se-34853b53"
+        "sig-20260814-uk-authorities-continue-prob-eabd81a7",
+        "sig-20260814-israel-s-largest-bank-will-g-b3a80c34",
+        "sig-20260814-another-bitcoin-miner-sells--4e392177"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
