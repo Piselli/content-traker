@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T10:46:51.589Z",
+  "updatedAt": "2026-08-14T11:35:28.817Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -13555,7 +13555,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/13/bullish-reports-usd280-million-q2-net-loss-as-crypto-trading-slows",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -13569,7 +13569,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/sec-franklin-templeton-funds-invest-onchain-money-fund?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -13583,7 +13583,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375547/morning-minute-the-sec-plans-rules-for-tokenized-stocks",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -13597,7 +13597,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375535/twitch-turns-on-amazon-ai-training-by-default-nobody-would-opt-in",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -13611,7 +13611,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/13/swissquote-cuts-full-year-guidance-as-1h-crypto-income-plunges-shares-slide",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -14460,6 +14460,76 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260814-volatility-exits-crypto-trad-207c2b73",
+      "at": "2026-08-14",
+      "scannedAt": "2026-08-14T11:35:28.817Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Volatility exits crypto, TradFi markets even as U.S.-Iran risks linger, sovereign debt rises",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/daybook-us/2026/08/14/volatility-exits-crypto-tradfi-markets-even-as-u-s-iran-risks-linger-sovereign-debt-rises",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260814-trump-family-s-world-liberty-e3231c83",
+      "at": "2026-08-14",
+      "scannedAt": "2026-08-14T11:35:28.817Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Trump family's World Liberty Financial delay plans to sell Maldives resort token",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/14/trump-family-s-world-liberty-financial-delay-plans-to-sell-maldives-resort-token",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260814-bitcoin-slips-as-u-s-inflati-168a7870",
+      "at": "2026-08-14",
+      "scannedAt": "2026-08-14T11:35:28.817Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin slips as U.S. inflation fails to spark gains, ETFs see August's first two-day drawdown",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/14/bitcoin-slips-as-u-s-inflation-fails-to-spark-gains-etfs-see-august-s-first-two-day-drawdown",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260814-shinhan-asset-management-par-8122c0b7",
+      "at": "2026-08-14",
+      "scannedAt": "2026-08-14T11:35:28.817Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Shinhan Asset Management partners with Plume on tokenized fund pilot",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/shinhan-partners-plume-tokenized-fund-experiment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260814-bitcoin-eyes-new-august-lows-dd0b1a31",
+      "at": "2026-08-14",
+      "scannedAt": "2026-08-14T11:35:28.817Z",
+      "lane": "cex-tradfi",
+      "kind": "narrative",
+      "what": "Bitcoin Eyes New August Lows as Binance Longs Face a ‘Cleanout’",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/bitcoin-liquidation-cleanout-open-interest-falls-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -15105,13 +15175,14 @@
     },
     {
       "date": "2026-08-14",
-      "at": "2026-08-14T10:46:51.589Z",
-      "note": "Watcher: +4 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-14T11:35:28.817Z",
+      "note": "Watcher: +5 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260814-redotpay-said-to-put-1-billi-3a6367c8",
-        "sig-20260814-redotpay-us-ipo-delayed-amid-f6d81b7e",
-        "sig-20260814-sec-shelves-crypto-rule-meet-8a79dc29",
-        "sig-20260814-kalshi-ordered-to-block-wash-da334fa7"
+        "sig-20260814-volatility-exits-crypto-trad-207c2b73",
+        "sig-20260814-trump-family-s-world-liberty-e3231c83",
+        "sig-20260814-bitcoin-slips-as-u-s-inflati-168a7870",
+        "sig-20260814-shinhan-asset-management-par-8122c0b7",
+        "sig-20260814-bitcoin-eyes-new-august-lows-dd0b1a31"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
