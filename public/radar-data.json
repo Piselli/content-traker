@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T09:32:18.763Z",
+  "updatedAt": "2026-08-14T10:46:51.589Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -151,7 +151,7 @@
       "why": "Policy theater vs price — useful for provocative 'bill as narrative, not catalyst' take.",
       "source": "CoinEdition / CoinDesk",
       "url": "https://coinedition.com/deconstructing-the-clarity-act-senate-leaders-push-back-on-critics/",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "clarity-policy"
       ]
@@ -319,7 +319,7 @@
       "why": "Same-day policy print that actually moved risk tape with Fed/Kospi — upgrades Clarity-as-narrative thesis with a dated delay receipt.",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/07/28/bitcoin-drops-as-south-korean-stocks-tumble-senate-shelves-crypto-clarity-act",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "clarity-policy"
       ]
@@ -842,7 +842,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "thedefiant",
       "url": "https://thedefiant.io/converge/regulation/franklin-templeton-backs-clarity-act-as-wall-street-coalition-grows",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "clarity-policy"
       ],
@@ -1226,7 +1226,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/374579/xrp-price-slides-senate-clarity-act-fed-rate-looms",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "clarity-policy"
       ],
@@ -1424,7 +1424,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/policy/2026/07/27/u-s-senate-puts-off-crypto-clarity-act-for-now-as-it-focuses-limited-bandwidth-elsewhere",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "clarity-policy"
       ],
@@ -2512,7 +2512,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/374643/sec-ready-to-provide-crypto-rules-if-clarity-act-flounders-chair-atkins",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "clarity-policy"
       ],
@@ -2844,7 +2844,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/policy/2026/07/29/senators-said-to-strike-idea-to-toughen-trump-s-concession-on-clarity-act-s-crypto-limits",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "clarity-policy"
       ],
@@ -13625,7 +13625,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/13/crypto-platform-operator-gets-15-year-prison-sentence-in-south-korea-due-to-usd50-million-scam",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -13639,7 +13639,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/13/figure-revenue-doubles-as-blockchain-loan-marketplace-volumes-surge",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -13653,7 +13653,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "thedefiant",
       "url": "https://thedefiant.io/news/security/trezor-shipping-provider-breach-exposes-data-of-13-689-customers",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -13667,7 +13667,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "thedefiant",
       "url": "https://thedefiant.io/news/defi/ether-fi-adds-tokenized-stocks-new-fiat-rails-and-aave-backed-borrowing",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -14402,6 +14402,64 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260814-redotpay-said-to-put-1-billi-3a6367c8",
+      "at": "2026-08-14",
+      "scannedAt": "2026-08-14T10:46:51.589Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "RedotPay said to put $1 billion U.S. IPO plan on hold: Bloomberg",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/14/redotpay-said-to-put-usd1-billion-u-s-ipo-plan-on-hold-bloomberg",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260814-redotpay-us-ipo-delayed-amid-f6d81b7e",
+      "at": "2026-08-14",
+      "scannedAt": "2026-08-14T10:46:51.589Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "RedotPay US IPO delayed amid regulatory, legal hurdles: Report",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/redotpay-us-license-ipo-delay-binance-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260814-sec-shelves-crypto-rule-meet-8a79dc29",
+      "at": "2026-08-14",
+      "scannedAt": "2026-08-14T10:46:51.589Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "SEC Shelves Crypto Rule Meeting Days After Senate Punted Clarity Act",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375622/sec-shelves-crypto-rule-meeting-days-after-senate-punted-clarity-act",
+      "status": "open",
+      "tags": [
+        "clarity-policy"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260814-kalshi-ordered-to-block-wash-da334fa7",
+      "at": "2026-08-14",
+      "scannedAt": "2026-08-14T10:46:51.589Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "Kalshi Ordered to Block Washington Bets Days After CFTC Backed It",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375619/kalshi-ordered-to-block-washington-bets-days-after-cftc-backed-it",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -15047,13 +15105,13 @@
     },
     {
       "date": "2026-08-14",
-      "at": "2026-08-14T09:32:18.763Z",
+      "at": "2026-08-14T10:46:51.589Z",
       "note": "Watcher: +4 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260814-live-updates-bitcoin-slips-b-34b0126a",
-        "sig-20260814-jpmorgan-cut-polymarket-bank-43d7bb9f",
-        "sig-20260814-crypto-payments-barely-regis-289bfe73",
-        "sig-20260814-sec-cancels-key-crypto-regul-ba6862f2"
+        "sig-20260814-redotpay-said-to-put-1-billi-3a6367c8",
+        "sig-20260814-redotpay-us-ipo-delayed-amid-f6d81b7e",
+        "sig-20260814-sec-shelves-crypto-rule-meet-8a79dc29",
+        "sig-20260814-kalshi-ordered-to-block-wash-da334fa7"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
