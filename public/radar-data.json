@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T21:14:33.421Z",
+  "updatedAt": "2026-08-14T21:46:10.689Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -14870,6 +14870,34 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260814-gen-z-favors-etfs-and-trades-40de15f2",
+      "at": "2026-08-14",
+      "scannedAt": "2026-08-14T21:46:10.689Z",
+      "lane": "cex-tradfi",
+      "kind": "narrative",
+      "what": "Gen Z favors ETFs and trades less than older cohorts: Binance",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/gen-z-favors-etfs-and-trades-less-than-older-cohorts-binance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260814-ireland-plans-industry-stand-cbdfe6ad",
+      "at": "2026-08-14",
+      "scannedAt": "2026-08-14T21:46:10.689Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Ireland plans industry standards for illicit crypto use",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/ireland-industry-standards-crypto-gambling-aml?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -15515,11 +15543,11 @@
     },
     {
       "date": "2026-08-14",
-      "at": "2026-08-14T21:14:33.421Z",
+      "at": "2026-08-14T21:46:10.689Z",
       "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260814-trump-backed-world-liberty-w-5c1bd589",
-        "sig-20260814-france-tax-data-leak-could-f-214942d1"
+        "sig-20260814-gen-z-favors-etfs-and-trades-40de15f2",
+        "sig-20260814-ireland-plans-industry-stand-cbdfe6ad"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
