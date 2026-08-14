@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T00:04:26.667Z",
+  "updatedAt": "2026-08-14T03:04:03.692Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -13793,7 +13793,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "thedefiant",
       "url": "https://thedefiant.io/news/defi/standard-chartered-100-uni-target-too-low-robinhood-chain-burns",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -14274,6 +14274,20 @@
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/ethereum-foundation-drops-poseidon-post-quantum-plan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260814-figure-reports-4-3b-in-loan--ca61e0bb",
+      "at": "2026-08-14",
+      "scannedAt": "2026-08-14T03:04:03.692Z",
+      "lane": "narrative-rotation",
+      "kind": "metric",
+      "what": "Figure reports $4.3B in loan marketplace volume as profit nearly triples",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/figure-q2-loan-marketplace-volume-profit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
       "tags": [],
       "watcher": true
     }
@@ -14921,11 +14935,10 @@
     },
     {
       "date": "2026-08-14",
-      "at": "2026-08-14T00:04:26.667Z",
-      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-14T03:04:03.692Z",
+      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260813-u-s-sec-to-again-delay-innov-655c1dee",
-        "sig-20260813-ethereum-foundation-pivots-a-94d0d54b"
+        "sig-20260814-figure-reports-4-3b-in-loan--ca61e0bb"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
