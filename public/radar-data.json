@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T19:24:45.691Z",
+  "updatedAt": "2026-08-14T20:00:59.495Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -15473,14 +15473,9 @@
     },
     {
       "date": "2026-08-14",
-      "at": "2026-08-14T19:24:45.691Z",
-      "note": "Watcher: +4 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [
-        "sig-20260814-dartmouth-endowment-s-crypto-74d68dde",
-        "sig-20260814-kraken-parent-payward-revenu-cfb079fa",
-        "sig-20260814-sharplink-will-stake-200m-of-14226e35",
-        "sig-20260814-openai-staff-blame-rush-to-s-67885930"
-      ],
+      "at": "2026-08-14T20:00:59.495Z",
+      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
