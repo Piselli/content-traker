@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T18:11:36.082Z",
+  "updatedAt": "2026-08-14T19:24:45.691Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -13257,7 +13257,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "thedefiant",
       "url": "https://thedefiant.io/news/defi/uniswap-founder-says-team-renounced-creator-fees-from-employee-testing",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -13271,7 +13271,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/asx-shareholder-lawsuit-failed-blockchain-chess-project?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -13285,7 +13285,7 @@
       "why": "Watcher spike: strong failure/shipping/capital headline — check for take.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/gerovich-shuts-down-bitcoin-sale-metaplanets-transfer?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -13299,7 +13299,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/13/speculation-on-dogecoin-is-back-to-october-2025-levels-the-price-is-down-70",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -14772,6 +14772,62 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260814-dartmouth-endowment-s-crypto-74d68dde",
+      "at": "2026-08-14",
+      "scannedAt": "2026-08-14T19:24:45.691Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Dartmouth endowment’s crypto exposure drops by $2M amid falling prices",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/dartmouth-endowment-crypto-investments-btc-eth-sol-dropped?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260814-kraken-parent-payward-revenu-cfb079fa",
+      "at": "2026-08-14",
+      "scannedAt": "2026-08-14T19:24:45.691Z",
+      "lane": "narrative-rotation",
+      "kind": "metric",
+      "what": "Kraken parent Payward revenue rises 17% as trading volume falls in Q2",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/kraken-parent-payward-revenue-rises-as-trading-volume-falls-q2?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260814-sharplink-will-stake-200m-of-14226e35",
+      "at": "2026-08-14",
+      "scannedAt": "2026-08-14T19:24:45.691Z",
+      "lane": "l1-l2",
+      "kind": "narrative",
+      "what": "SharpLink Will Stake $200M of Ethereum Through Lido's wstETH",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375672/sharplink-stake-200m-ethereum-lido-wsteth",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260814-openai-staff-blame-rush-to-s-67885930",
+      "at": "2026-08-14",
+      "scannedAt": "2026-08-14T19:24:45.691Z",
+      "lane": "failures-rugs",
+      "kind": "exploit",
+      "what": "OpenAI Staff Blame Rush to Ship for Rogue Agent Hack",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375670/openai-staff-blame-rush-ship-rogue-agent-hack",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -15417,11 +15473,13 @@
     },
     {
       "date": "2026-08-14",
-      "at": "2026-08-14T18:11:36.082Z",
-      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-14T19:24:45.691Z",
+      "note": "Watcher: +4 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260814-tokenization-stocks-slip-as--a23bb77c",
-        "sig-20260814-coldcard-bitcoin-thefts-slow-f828228c"
+        "sig-20260814-dartmouth-endowment-s-crypto-74d68dde",
+        "sig-20260814-kraken-parent-payward-revenu-cfb079fa",
+        "sig-20260814-sharplink-will-stake-200m-of-14226e35",
+        "sig-20260814-openai-staff-blame-rush-to-s-67885930"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
