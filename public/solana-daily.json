@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-08-14T02:43:28.246Z",
+  "updatedAt": "2026-08-14T03:10:13.622Z",
   "source": "defillama + solana RSS + pattern detectors",
   "latest": {
-    "at": "2026-08-14T02:43:26.429Z",
+    "at": "2026-08-14T03:10:11.507Z",
     "date": "2026-08-14",
-    "tvlUsd": 4833490693.525013,
+    "tvlUsd": 4844212607.757944,
     "fees24hUsd": 9711195.049999993,
     "feesChange1dPct": 0.4,
-    "revenue24hUsd": 4175602.4600000004,
-    "revenueChange1dPct": -13.3,
-    "dexVolume24hUsd": 1978680927.75,
+    "revenue24hUsd": 4244735.669999999,
+    "revenueChange1dPct": -11.9,
+    "dexVolume24hUsd": 1978678628.75,
     "dexChange1dPct": 14.7,
     "topFees": [
       {
@@ -105,6 +105,11 @@
         "revenue24h": 160716
       },
       {
+        "name": "GMGN",
+        "category": "Telegram Bot",
+        "revenue24h": 123996
+      },
+      {
         "name": "DEX Screener",
         "category": "Coins Tracker",
         "revenue24h": 123171
@@ -125,11 +130,6 @@
         "revenue24h": 76326
       },
       {
-        "name": "GMGN",
-        "category": "Telegram Bot",
-        "revenue24h": 73357
-      },
-      {
         "name": "ORE Protocol",
         "category": "Gamified Mining",
         "revenue24h": 65562
@@ -142,24 +142,24 @@
     },
     "chainFees": {
       "Ethereum": {
-        "tvlUsd": 40991406048.64926,
-        "fees24hUsd": 12210762.899999999
+        "tvlUsd": 41189744181.393005,
+        "fees24hUsd": 13369045.319999998
       },
       "Base": {
-        "tvlUsd": 4631594916.50173,
-        "fees24hUsd": 1039354.89
+        "tvlUsd": 4636139560.932295,
+        "fees24hUsd": 1042171.9500000001
       },
       "BSC": {
-        "tvlUsd": 4910820796.075608
+        "tvlUsd": 4908715084.978086
       },
       "Arbitrum": {
-        "tvlUsd": 1241949589.6720479
+        "tvlUsd": 1243522075.720988
       },
       "Solana": {
-        "tvlUsd": 4833490693.525013,
+        "tvlUsd": 4844212607.757944,
         "fees24hUsd": 9711195.049999993,
-        "revenue24hUsd": 4175602.4600000004,
-        "dexVolume24hUsd": 1978680927.75
+        "revenue24hUsd": 4244735.669999999,
+        "dexVolume24hUsd": 1978678628.75
       }
     },
     "historyDays": 90
@@ -835,14 +835,14 @@
     {
       "date": "2026-08-14",
       "metrics": {
-        "at": "2026-08-14T02:43:26.429Z",
+        "at": "2026-08-14T03:10:11.507Z",
         "date": "2026-08-14",
-        "tvlUsd": 4833490693.525013,
+        "tvlUsd": 4844212607.757944,
         "fees24hUsd": 9711195.049999993,
         "feesChange1dPct": 0.4,
-        "revenue24hUsd": 4175602.4600000004,
-        "revenueChange1dPct": -13.3,
-        "dexVolume24hUsd": 1978680927.75,
+        "revenue24hUsd": 4244735.669999999,
+        "revenueChange1dPct": -11.9,
+        "dexVolume24hUsd": 1978678628.75,
         "dexChange1dPct": 14.7,
         "topFees": [
           {
@@ -938,6 +938,11 @@
             "revenue24h": 160716
           },
           {
+            "name": "GMGN",
+            "category": "Telegram Bot",
+            "revenue24h": 123996
+          },
+          {
             "name": "DEX Screener",
             "category": "Coins Tracker",
             "revenue24h": 123171
@@ -958,11 +963,6 @@
             "revenue24h": 76326
           },
           {
-            "name": "GMGN",
-            "category": "Telegram Bot",
-            "revenue24h": 73357
-          },
-          {
             "name": "ORE Protocol",
             "category": "Gamified Mining",
             "revenue24h": 65562
@@ -975,32 +975,32 @@
         },
         "chainFees": {
           "Ethereum": {
-            "tvlUsd": 40991406048.64926,
-            "fees24hUsd": 12210762.899999999
+            "tvlUsd": 41189744181.393005,
+            "fees24hUsd": 13369045.319999998
           },
           "Base": {
-            "tvlUsd": 4631594916.50173,
-            "fees24hUsd": 1039354.89
+            "tvlUsd": 4636139560.932295,
+            "fees24hUsd": 1042171.9500000001
           },
           "BSC": {
-            "tvlUsd": 4910820796.075608
+            "tvlUsd": 4908715084.978086
           },
           "Arbitrum": {
-            "tvlUsd": 1241949589.6720479
+            "tvlUsd": 1243522075.720988
           },
           "Solana": {
-            "tvlUsd": 4833490693.525013,
+            "tvlUsd": 4844212607.757944,
             "fees24hUsd": 9711195.049999993,
-            "revenue24hUsd": 4175602.4600000004,
-            "dexVolume24hUsd": 1978680927.75
+            "revenue24hUsd": 4244735.669999999,
+            "dexVolume24hUsd": 1978678628.75
           }
         },
         "historyDays": 90
       },
       "stonkfun": {
-        "latestTotalUsd": 536164.151882196,
+        "latestTotalUsd": 536441.4028660506,
         "todayOpenUsd": 530933.1596692003,
-        "todaySoFarUsd": 5230.992212995654,
+        "todaySoFarUsd": 5508.243196850293,
         "recentClosed": [
           {
             "date": "2026-08-10",
