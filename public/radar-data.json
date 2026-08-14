@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T14:07:20.938Z",
+  "updatedAt": "2026-08-14T15:12:32.876Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -13411,7 +13411,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/13/bitcoin-treasury-company-metaplanet-unveils-bitbonds-with-usd1-3-million-private-debt-sale",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -13425,7 +13425,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/securitize-falls-earnings-miss-tokenization-revenue?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -13439,7 +13439,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/13/mufg-to-test-real-time-blockchain-settlement-for-japanese-government-bond-trades",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -13453,7 +13453,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/13/brazil-s-largest-bitcoin-treasury-firm-plans-etf-with-95-allocation-to-strategy-s-strc",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "wrappers-etf"
       ],
@@ -14614,6 +14614,66 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260814-strategy-says-msci-should-me-ed27d2ae",
+      "at": "2026-08-14",
+      "scannedAt": "2026-08-14T15:12:32.876Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Strategy says MSCI should measure markets, not dictate corporate assets",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/14/strategy-says-msci-should-measure-markets-not-dictate-corporate-assets",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260814-morgan-stanley-s-blackrock-b-45f4bc04",
+      "at": "2026-08-14",
+      "scannedAt": "2026-08-14T15:12:32.876Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "Morgan Stanley’s BlackRock Bitcoin ETF holdings rise 23% in Q2",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/morgan-stanley-buys-blackrock-bitcoin-etf-q2?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [
+        "wrappers-etf"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260814-jpmorgan-boosts-bitcoin-ethe-5355013b",
+      "at": "2026-08-14",
+      "scannedAt": "2026-08-14T15:12:32.876Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "JPMorgan boosts Bitcoin, Ether ETF positions in Q2 filing",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/jpmorgan-crypto-etf-moves-risk-not-bullish-bet-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [
+        "wrappers-etf"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260814-fake-linkedin-crypto-job-sca-9fdad6ec",
+      "at": "2026-08-14",
+      "scannedAt": "2026-08-14T15:12:32.876Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Fake LinkedIn Crypto Job Scams Have Cost $11.8M: Singapore",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375653/fake-linkedin-crypto-job-scams-have-cost-11-8m-singapore",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -14866,7 +14926,7 @@
     },
     {
       "id": "ang-watch-wrappers-etf",
-      "at": "2026-08-13T10:50:35.469Z",
+      "at": "2026-08-14T15:12:32.876Z",
       "thesis": "Watcher cluster [wrappers-etf]: 3 related receipts in ~7d across capital-flows.",
       "voiceHook": "Pattern forming: wrappers etf.",
       "signalIds": [
@@ -14886,7 +14946,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for wrappers-etf: dates + sources",
-      "expiresAt": "2026-08-17T10:50:35.469Z",
+      "expiresAt": "2026-08-18T15:12:32.876Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -15259,16 +15319,20 @@
     },
     {
       "date": "2026-08-14",
-      "at": "2026-08-14T14:07:20.938Z",
-      "note": "Watcher: +4 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-14T15:12:32.876Z",
+      "note": "Watcher: +4 signals, spikes=0, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260814-israel-s-largest-bank-to-off-269b3452",
-        "sig-20260814-binance-to-restrict-transact-9f304912",
-        "sig-20260814-solana-s-fee-overhaul-increa-485ede0d",
-        "sig-20260814-ireland-s-new-aml-strategy-b-9761e8f5"
+        "sig-20260814-strategy-says-msci-should-me-ed27d2ae",
+        "sig-20260814-morgan-stanley-s-blackrock-b-45f4bc04",
+        "sig-20260814-jpmorgan-boosts-bitcoin-ethe-5355013b",
+        "sig-20260814-fake-linkedin-crypto-job-sca-9fdad6ec"
       ],
-      "angleIdsTouched": [],
-      "noteworthyIds": []
+      "angleIdsTouched": [
+        "ang-watch-wrappers-etf"
+      ],
+      "noteworthyIds": [
+        "ang-watch-wrappers-etf"
+      ]
     }
   ]
 }
