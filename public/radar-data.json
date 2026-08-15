@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T19:13:16.235Z",
+  "updatedAt": "2026-08-15T19:41:33.997Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -14625,7 +14625,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/14/strategy-says-msci-should-measure-markets-not-dictate-corporate-assets",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -15127,6 +15127,20 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/tokenized-stock-holders-double-to-13m-as-activity-grows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260815-bybit-adds-unitree-moonshot--c5bd4300",
+      "at": "2026-08-15",
+      "scannedAt": "2026-08-15T19:41:33.997Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bybit adds Unitree, Moonshot AI to pre-IPO perpetuals lineup",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/bybit-launches-unitree-pre-ipo-perpetual-as-crypto-platforms-push-into-private-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "status": "open",
       "tags": [],
       "watcher": true
@@ -15779,9 +15793,11 @@
     },
     {
       "date": "2026-08-15",
-      "at": "2026-08-15T19:13:16.235Z",
-      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [],
+      "at": "2026-08-15T19:41:33.997Z",
+      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [
+        "sig-20260815-bybit-adds-unitree-moonshot--c5bd4300"
+      ],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
