@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T08:51:02.546Z",
+  "updatedAt": "2026-08-15T09:15:13.006Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -15577,17 +15577,11 @@
     },
     {
       "date": "2026-08-15",
-      "at": "2026-08-15T08:51:02.546Z",
-      "note": "Watcher: +1 signals, spikes=0, patternPings=1.",
-      "signalIdsAdded": [
-        "sig-20260815-galaxy-lowers-clarity-act-od-9c9944cf"
-      ],
-      "angleIdsTouched": [
-        "ang-watch-clarity-policy"
-      ],
-      "noteworthyIds": [
-        "ang-watch-clarity-policy"
-      ]
+      "at": "2026-08-15T09:15:13.006Z",
+      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [],
+      "angleIdsTouched": [],
+      "noteworthyIds": []
     }
   ]
 }
