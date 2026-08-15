@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T19:41:33.997Z",
+  "updatedAt": "2026-08-15T20:09:01.989Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -15793,11 +15793,9 @@
     },
     {
       "date": "2026-08-15",
-      "at": "2026-08-15T19:41:33.997Z",
-      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [
-        "sig-20260815-bybit-adds-unitree-moonshot--c5bd4300"
-      ],
+      "at": "2026-08-15T20:09:01.989Z",
+      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
