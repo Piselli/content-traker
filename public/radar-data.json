@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T12:14:25.173Z",
+  "updatedAt": "2026-08-15T13:04:33.593Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -14783,7 +14783,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/dartmouth-endowment-crypto-investments-btc-eth-sol-dropped?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -14797,7 +14797,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/kraken-parent-payward-revenue-rises-as-trading-volume-falls-q2?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -14953,6 +14953,34 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/15/wall-street-s-private-blockchain-obsession-is-a-race-to-the-bottom-ethereum-advocate-raman-warns",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260815-clarity-survives-barely-stra-e2f04970",
+      "at": "2026-08-15",
+      "scannedAt": "2026-08-15T13:04:33.593Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "Clarity survives (barely), Strategy sells and the untold story of Mastercard's $1.8 billion deal: Crypto's week in 5 stories",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/15/clarity-survives-barely-strategy-sells-and-the-untold-story-of-mastercard-s-usd1-8-billion-deal-crypto-s-week-in-5-stories",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260815-trump-linked-world-liberty-g-f7470783",
+      "at": "2026-08-15",
+      "scannedAt": "2026-08-15T13:04:33.593Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Trump-Linked World Liberty Gets Conditional Bank Charter for USD1 Stablecoin",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375726/trump-world-liberty-bank-charter-usd1-stablecoin",
       "status": "open",
       "tags": [],
       "watcher": true
@@ -15605,10 +15633,11 @@
     },
     {
       "date": "2026-08-15",
-      "at": "2026-08-15T12:14:25.173Z",
-      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-15T13:04:33.593Z",
+      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260815-wall-street-s-private-blockc-57d844ad"
+        "sig-20260815-clarity-survives-barely-stra-e2f04970",
+        "sig-20260815-trump-linked-world-liberty-g-f7470783"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
