@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T13:04:33.593Z",
+  "updatedAt": "2026-08-15T13:48:37.878Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -14755,7 +14755,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/14/tokenization-stocks-slip-as-sec-delay-puts-speed-bump-in-crypto-s-wall-street-push",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -14769,7 +14769,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375656/coldcard-bitcoin-thefts-slow-losses-top-150-million",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -14981,6 +14981,34 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375726/trump-world-liberty-bank-charter-usd1-stablecoin",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260815-bitcoin-to-1m-by-2030-is-mat-f3cee1e0",
+      "at": "2026-08-15",
+      "scannedAt": "2026-08-15T13:48:37.878Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin to $1M by 2030 is ‘mathematically impossible’ says Markus Thielen",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/magazine/bitcoin-1m-by-2030-is-mathematically-impossible-markus-thielen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260815-bitcoin-could-bottom-in-octo-fdcca887",
+      "at": "2026-08-15",
+      "scannedAt": "2026-08-15T13:48:37.878Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin could bottom in October, altcoins are ‘basically dead,’ Swan CEO says",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/bitcoin-bottom-october-altcoins-basically-dead-swan-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "status": "open",
       "tags": [],
       "watcher": true
@@ -15633,11 +15661,11 @@
     },
     {
       "date": "2026-08-15",
-      "at": "2026-08-15T13:04:33.593Z",
+      "at": "2026-08-15T13:48:37.878Z",
       "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260815-clarity-survives-barely-stra-e2f04970",
-        "sig-20260815-trump-linked-world-liberty-g-f7470783"
+        "sig-20260815-bitcoin-to-1m-by-2030-is-mat-f3cee1e0",
+        "sig-20260815-bitcoin-could-bottom-in-octo-fdcca887"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
