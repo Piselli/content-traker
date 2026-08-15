@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T16:10:40.947Z",
+  "updatedAt": "2026-08-15T16:46:38.497Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -15751,18 +15751,11 @@
     },
     {
       "date": "2026-08-15",
-      "at": "2026-08-15T16:10:40.947Z",
-      "note": "Watcher: +2 signals, spikes=0, patternPings=1.",
-      "signalIdsAdded": [
-        "sig-20260815-robot-maker-unitree-is-going-f4b6de2a",
-        "sig-20260815-swiss-mega-bank-ubs-ramps-up-7bcb1f8c"
-      ],
-      "angleIdsTouched": [
-        "ang-watch-wrappers-etf"
-      ],
-      "noteworthyIds": [
-        "ang-watch-wrappers-etf"
-      ]
+      "at": "2026-08-15T16:46:38.497Z",
+      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [],
+      "angleIdsTouched": [],
+      "noteworthyIds": []
     }
   ]
 }
