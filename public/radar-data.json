@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T10:44:22.500Z",
+  "updatedAt": "2026-08-15T11:09:15.110Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -14825,7 +14825,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375670/openai-staff-blame-rush-ship-rogue-agent-hack",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -14927,6 +14927,20 @@
       "tags": [
         "clarity-policy"
       ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260815-kalshi-ordered-to-stop-broad-270fca02",
+      "at": "2026-08-15",
+      "scannedAt": "2026-08-15T11:09:15.110Z",
+      "lane": "cex-tradfi",
+      "kind": "narrative",
+      "what": "Kalshi ordered to stop broad range of prediction markets in Washington",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/kalshi-stop-prediction-market-contracts-washington?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
       "watcher": true
     }
   ],
@@ -15577,9 +15591,11 @@
     },
     {
       "date": "2026-08-15",
-      "at": "2026-08-15T10:44:22.500Z",
-      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [],
+      "at": "2026-08-15T11:09:15.110Z",
+      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [
+        "sig-20260815-kalshi-ordered-to-stop-broad-270fca02"
+      ],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
