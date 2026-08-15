@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T08:14:03.907Z",
+  "updatedAt": "2026-08-15T08:51:02.546Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -14839,7 +14839,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375684/china-z-ai-glm-5-3-top-open-weight-coding-model",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -14911,6 +14911,22 @@
       "url": "https://www.coindesk.com/policy/2026/08/14/trump-expected-to-attend-white-house-meeting-with-crypto-ceos-sources-say",
       "status": "expired",
       "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260815-galaxy-lowers-clarity-act-od-9c9944cf",
+      "at": "2026-08-15",
+      "scannedAt": "2026-08-15T08:51:02.546Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "Galaxy lowers CLARITY Act odds to 10%",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/galaxy-lowers-clarity-act-odds-10?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [
+        "clarity-policy"
+      ],
       "watcher": true
     }
   ],
@@ -15191,18 +15207,12 @@
     },
     {
       "id": "ang-watch-clarity-policy",
-      "at": "2026-08-10T08:20:12.578Z",
-      "thesis": "Watcher cluster [clarity-policy]: 7 related receipts in ~7d across regulation.",
+      "at": "2026-08-15T08:51:02.546Z",
+      "thesis": "Watcher cluster [clarity-policy]: 2 related receipts in ~7d across regulation.",
       "voiceHook": "Pattern forming: clarity policy.",
       "signalIds": [
-        "sig-20260728-clarity-shelved",
-        "sig-20260728-blackrock-fidelity-other-wal-752f1305",
-        "sig-20260727-clarity-factsheet",
-        "sig-20260728-franklin-templeton-backs-cla-89502eae",
-        "sig-20260728-xrp-price-slides-as-senate-d-2d0ca427",
-        "sig-20260727-u-s-senate-puts-off-crypto-c-46c3ed12",
-        "sig-20260729-sec-ready-to-provide-crypto--790c09f7",
-        "sig-20260729-senators-said-to-hatch-idea--a4d17bea"
+        "sig-20260815-galaxy-lowers-clarity-act-od-9c9944cf",
+        "sig-20260814-sec-shelves-crypto-rule-meet-8a79dc29"
       ],
       "lanes": [
         "regulation"
@@ -15210,9 +15220,9 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for clarity-policy: dates + sources",
-      "expiresAt": "2026-08-14T08:20:12.578Z",
-      "status": "expired",
-      "noteworthy": false,
+      "expiresAt": "2026-08-19T08:51:02.546Z",
+      "status": "ready",
+      "noteworthy": true,
       "watcher": true
     },
     {
@@ -15567,11 +15577,17 @@
     },
     {
       "date": "2026-08-15",
-      "at": "2026-08-15T08:14:03.907Z",
-      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [],
-      "angleIdsTouched": [],
-      "noteworthyIds": []
+      "at": "2026-08-15T08:51:02.546Z",
+      "note": "Watcher: +1 signals, spikes=0, patternPings=1.",
+      "signalIdsAdded": [
+        "sig-20260815-galaxy-lowers-clarity-act-od-9c9944cf"
+      ],
+      "angleIdsTouched": [
+        "ang-watch-clarity-policy"
+      ],
+      "noteworthyIds": [
+        "ang-watch-clarity-policy"
+      ]
     }
   ]
 }
