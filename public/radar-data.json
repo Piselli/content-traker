@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T15:09:04.318Z",
+  "updatedAt": "2026-08-15T15:41:08.560Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -14699,7 +14699,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/crypto-biz-bitcoin-self-custody-etf-inflows-strategy-riot-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -14713,7 +14713,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/uk-investigation-nigel-farage-crypto-donations-by-election?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -15040,6 +15040,36 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260815-why-the-world-s-second-large-f399258d",
+      "at": "2026-08-15",
+      "scannedAt": "2026-08-15T15:41:08.560Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Why the world’s second-largest Bitcoin mining power is shutting down rigs in its capital city",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/policy/2026/08/15/why-the-world-s-second-largest-bitcoin-mining-power-is-shutting-down-rigs-in-its-capital-city",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260815-paul-tudor-jones-investment--1ab96c9c",
+      "at": "2026-08-15",
+      "scannedAt": "2026-08-15T15:41:08.560Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "Paul Tudor Jones’ investment firm increases stake in BlackRock's bitcoin ETF after year of selling",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/15/paul-tudor-jones-investment-firm-increases-blackrock-s-bitcoin-etf-stake-after-year-of-selling",
+      "status": "open",
+      "tags": [
+        "wrappers-etf"
+      ],
+      "watcher": true
     }
   ],
   "angles": [
@@ -15292,7 +15322,7 @@
     },
     {
       "id": "ang-watch-wrappers-etf",
-      "at": "2026-08-14T15:12:32.876Z",
+      "at": "2026-08-15T15:41:08.560Z",
       "thesis": "Watcher cluster [wrappers-etf]: 3 related receipts in ~7d across capital-flows.",
       "voiceHook": "Pattern forming: wrappers etf.",
       "signalIds": [
@@ -15312,7 +15342,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for wrappers-etf: dates + sources",
-      "expiresAt": "2026-08-18T15:12:32.876Z",
+      "expiresAt": "2026-08-19T15:41:08.560Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -15689,13 +15719,18 @@
     },
     {
       "date": "2026-08-15",
-      "at": "2026-08-15T15:09:04.318Z",
-      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-15T15:41:08.560Z",
+      "note": "Watcher: +2 signals, spikes=0, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260815-meta-patents-cameras-that-re-15865379"
+        "sig-20260815-why-the-world-s-second-large-f399258d",
+        "sig-20260815-paul-tudor-jones-investment--1ab96c9c"
       ],
-      "angleIdsTouched": [],
-      "noteworthyIds": []
+      "angleIdsTouched": [
+        "ang-watch-wrappers-etf"
+      ],
+      "noteworthyIds": [
+        "ang-watch-wrappers-etf"
+      ]
     }
   ]
 }
