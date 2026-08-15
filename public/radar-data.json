@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T16:46:38.497Z",
+  "updatedAt": "2026-08-15T17:10:54.260Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -14655,7 +14655,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/markets/jpmorgan-crypto-etf-moves-risk-not-bullish-bet-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "wrappers-etf"
       ],
@@ -15101,6 +15101,20 @@
       "tags": [
         "wrappers-etf"
       ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260815-apple-turns-to-alibaba-to-he-59bcf2da",
+      "at": "2026-08-15",
+      "scannedAt": "2026-08-15T17:10:54.260Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Apple Turns to Alibaba to Help Build AI Model for China",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375724/apple-alibaba-build-ai-model-china",
+      "status": "open",
+      "tags": [],
       "watcher": true
     }
   ],
@@ -15751,9 +15765,11 @@
     },
     {
       "date": "2026-08-15",
-      "at": "2026-08-15T16:46:38.497Z",
-      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [],
+      "at": "2026-08-15T17:10:54.260Z",
+      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [
+        "sig-20260815-apple-turns-to-alibaba-to-he-59bcf2da"
+      ],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
