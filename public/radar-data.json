@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T15:41:08.560Z",
+  "updatedAt": "2026-08-15T16:10:40.947Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -14671,7 +14671,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375653/fake-linkedin-crypto-job-scams-have-cost-11-8m-singapore",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -14685,7 +14685,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/israels-largest-bank-taps-galaxy-to-offer-bitcoin-ether-and-solana-trading?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -15070,6 +15070,38 @@
         "wrappers-etf"
       ],
       "watcher": true
+    },
+    {
+      "id": "sig-20260815-robot-maker-unitree-is-going-f4b6de2a",
+      "at": "2026-08-15",
+      "scannedAt": "2026-08-15T16:10:40.947Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Robot maker Unitree is going public. Hyperliquid traders see 4x upside from IPO price",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/15/robot-maker-unitree-is-going-public-hyperliquid-traders-see-4x-upside-from-ipo-price",
+      "status": "open",
+      "tags": [
+        "hl-perps-rwa"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260815-swiss-mega-bank-ubs-ramps-up-7bcb1f8c",
+      "at": "2026-08-15",
+      "scannedAt": "2026-08-15T16:10:40.947Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "Swiss mega-bank UBS ramps up its Bitcoin exposure with a massive 24-fold surge in ETF call options",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/15/swiss-mega-bank-ubs-ramps-up-its-bitcoin-exposure-with-a-massive-24-fold-surge-in-etf-call-options",
+      "status": "open",
+      "tags": [
+        "wrappers-etf"
+      ],
+      "watcher": true
     }
   ],
   "angles": [
@@ -15322,8 +15354,8 @@
     },
     {
       "id": "ang-watch-wrappers-etf",
-      "at": "2026-08-15T15:41:08.560Z",
-      "thesis": "Watcher cluster [wrappers-etf]: 3 related receipts in ~7d across capital-flows.",
+      "at": "2026-08-15T16:10:40.947Z",
+      "thesis": "Watcher cluster [wrappers-etf]: 4 related receipts in ~7d across capital-flows.",
       "voiceHook": "Pattern forming: wrappers etf.",
       "signalIds": [
         "sig-20260728-ms-eth-sol-etp",
@@ -15342,7 +15374,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for wrappers-etf: dates + sources",
-      "expiresAt": "2026-08-19T15:41:08.560Z",
+      "expiresAt": "2026-08-19T16:10:40.947Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -15719,11 +15751,11 @@
     },
     {
       "date": "2026-08-15",
-      "at": "2026-08-15T15:41:08.560Z",
+      "at": "2026-08-15T16:10:40.947Z",
       "note": "Watcher: +2 signals, spikes=0, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260815-why-the-world-s-second-large-f399258d",
-        "sig-20260815-paul-tudor-jones-investment--1ab96c9c"
+        "sig-20260815-robot-maker-unitree-is-going-f4b6de2a",
+        "sig-20260815-swiss-mega-bank-ubs-ramps-up-7bcb1f8c"
       ],
       "angleIdsTouched": [
         "ang-watch-wrappers-etf"
