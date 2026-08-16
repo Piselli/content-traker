@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T15:42:06.234Z",
+  "updatedAt": "2026-08-16T16:10:56.788Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -14499,7 +14499,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/14/bitcoin-slips-as-u-s-inflation-fails-to-spark-gains-etfs-see-august-s-first-two-day-drawdown",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -14513,7 +14513,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/shinhan-partners-plume-tokenized-fund-experiment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -15244,6 +15244,34 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260816-crypto-investors-are-looking-39499ac9",
+      "at": "2026-08-16",
+      "scannedAt": "2026-08-16T16:10:56.788Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Crypto investors are looking past market-cap rankings and back to fundamentals",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/16/crypto-investors-are-looking-past-market-cap-rankings-and-back-to-fundamentals",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260816-gemini-3-7-flash-review-goog-236aaf80",
+      "at": "2026-08-16",
+      "scannedAt": "2026-08-16T16:10:56.788Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Gemini 3.7 Flash Review: Google's Cheap Model Isn’t Dumb Anymore",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375730/gemini-3-7-flash-review-google-cheap-model",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -15901,9 +15929,12 @@
     },
     {
       "date": "2026-08-16",
-      "at": "2026-08-16T15:42:06.234Z",
-      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [],
+      "at": "2026-08-16T16:10:56.788Z",
+      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [
+        "sig-20260816-crypto-investors-are-looking-39499ac9",
+        "sig-20260816-gemini-3-7-flash-review-goog-236aaf80"
+      ],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
