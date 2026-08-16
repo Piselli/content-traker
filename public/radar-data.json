@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T18:52:15.142Z",
+  "updatedAt": "2026-08-16T19:12:13.063Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -15943,11 +15943,9 @@
     },
     {
       "date": "2026-08-16",
-      "at": "2026-08-16T18:52:15.142Z",
-      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [
-        "sig-20260816-the-sec-meeting-that-wasn-t--04501efd"
-      ],
+      "at": "2026-08-16T19:12:13.063Z",
+      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
