@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T13:49:34.507Z",
+  "updatedAt": "2026-08-16T14:12:09.084Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -14527,7 +14527,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/markets/bitcoin-liquidation-cleanout-open-interest-falls-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -14541,7 +14541,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/gemini-45m-q2-revenue-financial-services?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -14555,7 +14555,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375625/morning-minute-tether-finally-gets-an-audit",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -15199,6 +15199,48 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/defillama-delayed-app-launch-fake-phishing-apps-apple?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260816-crypto-wallet-safepal-reveal-4be43bcc",
+      "at": "2026-08-16",
+      "scannedAt": "2026-08-16T14:12:09.084Z",
+      "lane": "failures-rugs",
+      "kind": "exploit",
+      "what": "Crypto wallet SafePal reveals a data breach exposing nearly 40,000 customers' order info",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/tech/2026/08/16/crypto-wallet-safepal-reveals-a-data-breach-exposing-nearly-40-000-customers-order-info",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260816-mica-s-cleanup-is-creating-a-c2a9014b",
+      "at": "2026-08-16",
+      "scannedAt": "2026-08-16T14:12:09.084Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "MiCA's cleanup is creating a new scam wave across the European Union",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/14/mica-s-cleanup-is-creating-a-new-scam-wave-across-the-european-union",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260816-people-are-turning-to-ai-for-dbd76f66",
+      "at": "2026-08-16",
+      "scannedAt": "2026-08-16T14:12:09.084Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "People Are Turning to AI for Mental Health, California Wants It Banned",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375725/california-bill-ban-ai-chatbots-therapy-mental-health",
       "status": "open",
       "tags": [],
       "watcher": true
@@ -15859,9 +15901,13 @@
     },
     {
       "date": "2026-08-16",
-      "at": "2026-08-16T13:49:34.507Z",
-      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [],
+      "at": "2026-08-16T14:12:09.084Z",
+      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [
+        "sig-20260816-crypto-wallet-safepal-reveal-4be43bcc",
+        "sig-20260816-mica-s-cleanup-is-creating-a-c2a9014b",
+        "sig-20260816-people-are-turning-to-ai-for-dbd76f66"
+      ],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
