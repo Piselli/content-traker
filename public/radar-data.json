@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T12:15:44.644Z",
+  "updatedAt": "2026-08-16T13:06:14.557Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -14569,7 +14569,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/14/israel-s-largest-bank-partners-with-galaxy-for-crypto-trading",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -14583,7 +14583,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/binance-restrict-htx-10-crypto-platforms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -15169,6 +15169,36 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/13/the-long-bitcoin-short-the-bankers-era-is-officially-over-as-tradfi-giants-embrace-digital-assets",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260816-the-stablecoin-yield-clash-t-fc816a89",
+      "at": "2026-08-16",
+      "scannedAt": "2026-08-16T13:06:14.557Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "The stablecoin yield clash that won't go away has banks, crypto battling over tradition",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/news-analysis/2026/08/14/the-stablecoin-yield-clash-that-won-t-go-away-has-banks-crypto-battling-over-tradition",
+      "status": "open",
+      "tags": [
+        "stables-ai"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260816-defillama-delayed-mobile-lau-d2755784",
+      "at": "2026-08-16",
+      "scannedAt": "2026-08-16T13:06:14.557Z",
+      "lane": "narrative-rotation",
+      "kind": "shipping",
+      "what": "DefiLlama delayed mobile launch over phishing apps on Apple Store, founder says",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/defillama-delayed-app-launch-fake-phishing-apps-apple?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "status": "open",
       "tags": [],
       "watcher": true
@@ -15829,10 +15859,11 @@
     },
     {
       "date": "2026-08-16",
-      "at": "2026-08-16T12:15:44.644Z",
-      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-16T13:06:14.557Z",
+      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260816-the-long-bitcoin-short-the-b-cf50440e"
+        "sig-20260816-the-stablecoin-yield-clash-t-fc816a89",
+        "sig-20260816-defillama-delayed-mobile-lau-d2755784"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
