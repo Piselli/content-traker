@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T13:06:14.557Z",
+  "updatedAt": "2026-08-16T13:49:34.507Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -15859,12 +15859,9 @@
     },
     {
       "date": "2026-08-16",
-      "at": "2026-08-16T13:06:14.557Z",
-      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [
-        "sig-20260816-the-stablecoin-yield-clash-t-fc816a89",
-        "sig-20260816-defillama-delayed-mobile-lau-d2755784"
-      ],
+      "at": "2026-08-16T13:49:34.507Z",
+      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
