@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T16:10:56.788Z",
+  "updatedAt": "2026-08-16T16:46:53.026Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -15929,12 +15929,9 @@
     },
     {
       "date": "2026-08-16",
-      "at": "2026-08-16T16:10:56.788Z",
-      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [
-        "sig-20260816-crypto-investors-are-looking-39499ac9",
-        "sig-20260816-gemini-3-7-flash-review-goog-236aaf80"
-      ],
+      "at": "2026-08-16T16:46:53.026Z",
+      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
