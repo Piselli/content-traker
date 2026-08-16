@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-08-16T01:55:49.556Z",
+  "updatedAt": "2026-08-16T02:08:22.494Z",
   "source": "defillama + solana RSS + pattern detectors",
   "latest": {
-    "at": "2026-08-16T01:55:48.147Z",
+    "at": "2026-08-16T02:08:18.885Z",
     "date": "2026-08-16",
     "tvlUsd": 4813166912.469968,
     "fees24hUsd": 8269684.6499999985,
@@ -143,7 +143,7 @@
     "chainFees": {
       "Ethereum": {
         "tvlUsd": 41155889343.18865,
-        "fees24hUsd": 6788359.559999998
+        "fees24hUsd": 6800060.3599999985
       },
       "Base": {
         "tvlUsd": 4611891535.031113,
@@ -1217,7 +1217,7 @@
     {
       "date": "2026-08-16",
       "metrics": {
-        "at": "2026-08-16T01:55:48.147Z",
+        "at": "2026-08-16T02:08:18.885Z",
         "date": "2026-08-16",
         "tvlUsd": 4813166912.469968,
         "fees24hUsd": 8269684.6499999985,
@@ -1358,7 +1358,7 @@
         "chainFees": {
           "Ethereum": {
             "tvlUsd": 41155889343.18865,
-            "fees24hUsd": 6788359.559999998
+            "fees24hUsd": 6800060.3599999985
           },
           "Base": {
             "tvlUsd": 4611891535.031113,
@@ -1380,9 +1380,9 @@
         "historyDays": 90
       },
       "stonkfun": {
-        "latestTotalUsd": 661177.2636752089,
+        "latestTotalUsd": 661615.0619937677,
         "todayOpenUsd": 651403.3104386235,
-        "todaySoFarUsd": 9773.953236585367,
+        "todaySoFarUsd": 10211.751555144205,
         "recentClosed": [
           {
             "date": "2026-08-10",
@@ -1474,7 +1474,7 @@
       "id": "div-dex-fees-2026-08-16",
       "kind": "divergence",
       "date": "2026-08-16",
-      "at": "2026-08-16T01:55:48.147Z",
+      "at": "2026-08-16T02:08:18.885Z",
       "strength": "med",
       "title": "DEX vol vs fees divergence (-25.8pp)",
       "detail": "DEX -23.1% / fees 2.7% (1d)",
@@ -1528,7 +1528,7 @@
       "patternId": "div-dex-fees-2026-08-16",
       "kind": "divergence",
       "date": "2026-08-16",
-      "at": "2026-08-16T01:55:48.147Z",
+      "at": "2026-08-16T02:08:18.885Z",
       "title": "DEX vol vs fees divergence (-25.8pp)",
       "hook": "Solana fees up while DEX vol lags — apps/launchpads extracting harder than spot flow.",
       "detail": "DEX -23.1% / fees 2.7% (1d)"
