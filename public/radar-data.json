@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T23:40:13.070Z",
+  "updatedAt": "2026-08-17T00:33:18.983Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -14471,7 +14471,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/daybook-us/2026/08/14/volatility-exits-crypto-tradfi-markets-even-as-u-s-iran-risks-linger-sovereign-debt-rises",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -15286,6 +15286,20 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260816-data-of-54-000-wallet-users--0de1ced8",
+      "at": "2026-08-16",
+      "scannedAt": "2026-08-17T00:33:18.983Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "Data of 54,000 wallet users leaked, CLARITY odds just 10%: Hodler’s Digest",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/magazine/data-of-54000-wallet-users-leaked-clarity-odds-just-10-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -15946,6 +15960,16 @@
       "at": "2026-08-16T23:40:13.070Z",
       "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [],
+      "angleIdsTouched": [],
+      "noteworthyIds": []
+    },
+    {
+      "date": "2026-08-17",
+      "at": "2026-08-17T00:33:18.983Z",
+      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [
+        "sig-20260816-data-of-54-000-wallet-users--0de1ced8"
+      ],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
