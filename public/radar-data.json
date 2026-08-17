@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T07:41:47.491Z",
+  "updatedAt": "2026-08-17T08:29:30.909Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -14385,7 +14385,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/ecb-survey-0-2-euro-area-companies-accept-crypto-online?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -15372,6 +15372,20 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260817-september-fed-interest-rate--b315478e",
+      "at": "2026-08-17",
+      "scannedAt": "2026-08-17T08:29:30.909Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "September Fed interest-rate increase is 'very unlikely,' Goldman Sachs says",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/17/september-fed-interest-rate-increase-is-very-unlikely-goldman-sachs-says",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -16037,9 +16051,11 @@
     },
     {
       "date": "2026-08-17",
-      "at": "2026-08-17T07:41:47.491Z",
-      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [],
+      "at": "2026-08-17T08:29:30.909Z",
+      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [
+        "sig-20260817-september-fed-interest-rate--b315478e"
+      ],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
