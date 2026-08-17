@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T03:24:39.857Z",
+  "updatedAt": "2026-08-17T04:08:35.693Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -14457,7 +14457,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375619/kalshi-ordered-to-block-washington-bets-days-after-cftc-backed-it",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -15300,6 +15300,20 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260817-chainalysis-sues-us-over-95m-60ec6692",
+      "at": "2026-08-17",
+      "scannedAt": "2026-08-17T04:08:35.693Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "Chainalysis sues US over $95M ICE contract with TRM Labs",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/chainalysis-sues-us-over-ices-sole-source-contract-with-trm-labs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -15965,9 +15979,11 @@
     },
     {
       "date": "2026-08-17",
-      "at": "2026-08-17T03:24:39.857Z",
-      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [],
+      "at": "2026-08-17T04:08:35.693Z",
+      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [
+        "sig-20260817-chainalysis-sues-us-over-95m-60ec6692"
+      ],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
