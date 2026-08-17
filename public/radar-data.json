@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T04:08:35.693Z",
+  "updatedAt": "2026-08-17T05:04:30.965Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -14427,7 +14427,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/redotpay-us-license-ipo-delay-binance-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -15314,6 +15314,36 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260817-xrp-traders-bet-on-a-rebound-22f594cf",
+      "at": "2026-08-17",
+      "scannedAt": "2026-08-17T05:04:30.965Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "XRP traders bet on a rebound as price slips to $1 and bearish chatter surges",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/17/xrp-traders-bet-on-a-rebound-as-price-slips-to-usd1-and-bearish-chatter-surges",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260817-bitcoin-tops-64-000-in-asia--fae46319",
+      "at": "2026-08-17",
+      "scannedAt": "2026-08-17T05:04:30.965Z",
+      "lane": "narrative-rotation",
+      "kind": "metric",
+      "what": "Bitcoin tops $64,000 in Asia morning hours as HYPE jumps 8% on the week",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/17/bitcoin-tops-usd64-000-in-asia-morning-hours-as-hype-jumps-8-on-the-week",
+      "status": "open",
+      "tags": [
+        "hl-perps-rwa"
+      ],
+      "watcher": true
     }
   ],
   "angles": [
@@ -15537,8 +15567,8 @@
     },
     {
       "id": "ang-watch-hl-perps-rwa",
-      "at": "2026-08-13T11:37:49.335Z",
-      "thesis": "Watcher cluster [hl-perps-rwa]: 2 related receipts in ~7d across capital-flows, narrative-rotation.",
+      "at": "2026-08-17T05:04:30.965Z",
+      "thesis": "Watcher cluster [hl-perps-rwa]: 2 related receipts in ~7d across narrative-rotation.",
       "voiceHook": "Pattern forming: hl perps rwa.",
       "signalIds": [
         "sig-20260728-kospi-riskoff",
@@ -15559,7 +15589,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for hl-perps-rwa: dates + sources",
-      "expiresAt": "2026-08-17T11:37:49.335Z",
+      "expiresAt": "2026-08-21T05:04:30.965Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -15979,13 +16009,18 @@
     },
     {
       "date": "2026-08-17",
-      "at": "2026-08-17T04:08:35.693Z",
-      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-17T05:04:30.965Z",
+      "note": "Watcher: +2 signals, spikes=0, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260817-chainalysis-sues-us-over-95m-60ec6692"
+        "sig-20260817-xrp-traders-bet-on-a-rebound-22f594cf",
+        "sig-20260817-bitcoin-tops-64-000-in-asia--fae46319"
       ],
-      "angleIdsTouched": [],
-      "noteworthyIds": []
+      "angleIdsTouched": [
+        "ang-watch-hl-perps-rwa"
+      ],
+      "noteworthyIds": [
+        "ang-watch-hl-perps-rwa"
+      ]
     }
   ]
 }
