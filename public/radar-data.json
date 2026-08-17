@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T16:51:32.931Z",
+  "updatedAt": "2026-08-17T17:15:55.584Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -16559,15 +16559,9 @@
     },
     {
       "date": "2026-08-17",
-      "at": "2026-08-17T16:51:32.931Z",
-      "note": "Watcher: +5 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [
-        "sig-20260817-bitmart-founder-dismisses-ca-43d7af92",
-        "sig-20260817-us-treasury-moves-forward-wi-4e8fdb74",
-        "sig-20260817-bitcoin-hits-64k-as-gold-gai-12ea1647",
-        "sig-20260817-bitmine-nears-5-of-ethereum--3ef38c32",
-        "sig-20260817-wall-street-pushback-halts-s-75431614"
-      ],
+      "at": "2026-08-17T17:15:55.584Z",
+      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
