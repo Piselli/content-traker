@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T16:13:49.091Z",
+  "updatedAt": "2026-08-17T16:51:32.931Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -15155,7 +15155,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/ethereum-devs-66-proposals-hegota-upgrade?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -15169,7 +15169,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/13/the-long-bitcoin-short-the-bankers-era-is-officially-over-as-tradfi-giants-embrace-digital-assets",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -15183,7 +15183,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/news-analysis/2026/08/14/the-stablecoin-yield-clash-that-won-t-go-away-has-banks-crypto-battling-over-tradition",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "stables-ai"
       ],
@@ -15822,6 +15822,76 @@
       "source": "decrypt",
       "url": "https://decrypt.co/375768/tom-lee-bitcoin-buys-19-million-ethereum",
       "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260817-bitmart-founder-dismisses-ca-43d7af92",
+      "at": "2026-08-17",
+      "scannedAt": "2026-08-17T16:51:32.931Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "BitMart founder dismisses calls for audit as users report blocked funds, unpaid employees",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/17/bitmart-founder-dismisses-calls-for-audit-as-users-report-blocked-funds-unpaid-employees",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260817-us-treasury-moves-forward-wi-4e8fdb74",
+      "at": "2026-08-17",
+      "scannedAt": "2026-08-17T16:51:32.931Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "US Treasury moves forward with rules on GENIUS Act after July deadline",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/us-treasury-public-comment-rules-genius-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260817-bitcoin-hits-64k-as-gold-gai-12ea1647",
+      "at": "2026-08-17",
+      "scannedAt": "2026-08-17T16:51:32.931Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin hits $64K as gold gains while oil shakes off Trump Oman threat",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/markets/bitcoin-hits-64k-as-gold-gains-while-oil-shakes-off-trump-oman-threat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260817-bitmine-nears-5-of-ethereum--3ef38c32",
+      "at": "2026-08-17",
+      "scannedAt": "2026-08-17T16:51:32.931Z",
+      "lane": "l1-l2",
+      "kind": "metric",
+      "what": "Bitmine nears 5% of Ethereum supply despite $8.4B in unrealized losses",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/bitmine-ethereum-supply-5-82-million-eth-staking?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260817-wall-street-pushback-halts-s-75431614",
+      "at": "2026-08-17",
+      "scannedAt": "2026-08-17T16:51:32.931Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "Wall Street Pushback Halts SEC's Crypto Fundraising Framework, Sources Say",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375779/wall-street-pushback-halts-sec-crypto-fundraising-framework",
+      "status": "expired",
       "tags": [],
       "watcher": true
     }
@@ -16489,12 +16559,14 @@
     },
     {
       "date": "2026-08-17",
-      "at": "2026-08-17T16:13:49.091Z",
-      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-17T16:51:32.931Z",
+      "note": "Watcher: +5 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260817-stripe-s-reported-7-billion--40625615",
-        "sig-20260817-what-stripe-s-7-billion-open-459a4842",
-        "sig-20260817-tom-lee-s-bitmine-buys-anoth-3fbe9730"
+        "sig-20260817-bitmart-founder-dismisses-ca-43d7af92",
+        "sig-20260817-us-treasury-moves-forward-wi-4e8fdb74",
+        "sig-20260817-bitcoin-hits-64k-as-gold-gai-12ea1647",
+        "sig-20260817-bitmine-nears-5-of-ethereum--3ef38c32",
+        "sig-20260817-wall-street-pushback-halts-s-75431614"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
