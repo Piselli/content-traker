@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T14:50:38.727Z",
+  "updatedAt": "2026-08-17T15:14:47.550Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -16419,11 +16419,9 @@
     },
     {
       "date": "2026-08-17",
-      "at": "2026-08-17T14:50:38.727Z",
-      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [
-        "sig-20260817-u-s-treasury-department-prop-6003f876"
-      ],
+      "at": "2026-08-17T15:14:47.550Z",
+      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
