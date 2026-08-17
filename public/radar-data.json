@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T17:51:01.949Z",
+  "updatedAt": "2026-08-17T18:20:59.243Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -16601,13 +16601,9 @@
     },
     {
       "date": "2026-08-17",
-      "at": "2026-08-17T17:51:01.949Z",
-      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [
-        "sig-20260817-compound-foundation-names-co-ffb8725e",
-        "sig-20260817-fake-world-assets-opens-its--7660ed91",
-        "sig-20260817-cftc-seeks-public-input-on-a-c956e291"
-      ],
+      "at": "2026-08-17T18:20:59.243Z",
+      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
