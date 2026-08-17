@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T10:02:28.723Z",
+  "updatedAt": "2026-08-17T10:53:46.699Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -14287,7 +14287,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/figure-q2-loan-marketplace-volume-profit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -14301,7 +14301,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/14/jpmorgan-shuttered-its-banking-relationship-with-predictions-platform-polymarket-ft",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -15127,7 +15127,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/tokenized-stock-holders-double-to-13m-as-activity-grows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -15141,7 +15141,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/bybit-launches-unitree-pre-ipo-perpetual-as-crypto-platforms-push-into-private-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -15456,6 +15456,66 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260817-bitpanda-fined-70-000-in-aus-d4bc18bc",
+      "at": "2026-08-17",
+      "scannedAt": "2026-08-17T10:53:46.699Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "Bitpanda fined €70,000 in Austria’s first published MiCA enforcement case",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/17/bitpanda-fined-eur70-000-in-austria-s-first-published-mica-enforcement-case",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260817-bitcoin-tracks-equity-bounce-971bcaa3",
+      "at": "2026-08-17",
+      "scannedAt": "2026-08-17T10:53:46.699Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "Bitcoin tracks equity bounce, but $390 million ETF outflow week keeps bulls on back foot",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/17/bitcoin-tracks-equity-bounce-but-usd390-million-etf-outflow-week-keeps-bulls-on-back-foot",
+      "status": "open",
+      "tags": [
+        "wrappers-etf"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260817-paul-tudor-jones-firm-buys-b-eba1645b",
+      "at": "2026-08-17",
+      "scannedAt": "2026-08-17T10:53:46.699Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "Paul Tudor Jones' Firm Buys Back Into BlackRock Bitcoin ETF After a Year of Selling",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375745/paul-tudor-jones-buys-blackrock-bitcoin-etf",
+      "status": "open",
+      "tags": [
+        "wrappers-etf"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260817-dutch-prosecutors-sell-2-5m--02dcf6bf",
+      "at": "2026-08-17",
+      "scannedAt": "2026-08-17T10:53:46.699Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Dutch Prosecutors Sell $2.5M of Crypto From Bankrupt Platform Knaken",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375757/dutch-prosecutors-sell-2-5m-of-crypto-from-bankrupt-platform-knaken",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -15708,7 +15768,7 @@
     },
     {
       "id": "ang-watch-wrappers-etf",
-      "at": "2026-08-15T16:10:40.947Z",
+      "at": "2026-08-17T10:53:46.699Z",
       "thesis": "Watcher cluster [wrappers-etf]: 4 related receipts in ~7d across capital-flows.",
       "voiceHook": "Pattern forming: wrappers etf.",
       "signalIds": [
@@ -15728,7 +15788,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for wrappers-etf: dates + sources",
-      "expiresAt": "2026-08-19T16:10:40.947Z",
+      "expiresAt": "2026-08-21T10:53:46.699Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -16121,16 +16181,20 @@
     },
     {
       "date": "2026-08-17",
-      "at": "2026-08-17T10:02:28.723Z",
-      "note": "Watcher: +4 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-17T10:53:46.699Z",
+      "note": "Watcher: +4 signals, spikes=0, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260817-binance-handed-user-data-to--fa6e81e0",
-        "sig-20260817-coinbase-circle-usdc-collabo-4770ab25",
-        "sig-20260817-bitpanda-fined-in-austria-s--af81d7ed",
-        "sig-20260817-safepal-bitcoin-wallet-data--f436ba59"
+        "sig-20260817-bitpanda-fined-70-000-in-aus-d4bc18bc",
+        "sig-20260817-bitcoin-tracks-equity-bounce-971bcaa3",
+        "sig-20260817-paul-tudor-jones-firm-buys-b-eba1645b",
+        "sig-20260817-dutch-prosecutors-sell-2-5m--02dcf6bf"
       ],
-      "angleIdsTouched": [],
-      "noteworthyIds": []
+      "angleIdsTouched": [
+        "ang-watch-wrappers-etf"
+      ],
+      "noteworthyIds": [
+        "ang-watch-wrappers-etf"
+      ]
     }
   ]
 }
