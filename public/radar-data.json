@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T11:46:40.228Z",
+  "updatedAt": "2026-08-17T12:19:00.980Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -15037,7 +15037,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375698/meta-patents-cameras-recognize-faces-log-actions",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -15051,7 +15051,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/policy/2026/08/15/why-the-world-s-second-largest-bitcoin-mining-power-is-shutting-down-rigs-in-its-capital-city",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -15065,7 +15065,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/15/paul-tudor-jones-investment-firm-increases-blackrock-s-bitcoin-etf-stake-after-year-of-selling",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "wrappers-etf"
       ],
@@ -15555,6 +15555,48 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/daybook-us/2026/08/17/bitcoin-s-biggest-holders-strategy-and-metaplanet-are-betting-on-math-not-price",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260817-ethereum-s-next-big-upgrade--7da4dcdc",
+      "at": "2026-08-17",
+      "scannedAt": "2026-08-17T12:19:00.980Z",
+      "lane": "l1-l2",
+      "kind": "narrative",
+      "what": "Ethereum’s next big upgrade has 66 proposals, including a major privacy fix",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/tech/2026/08/17/ethereum-s-next-big-upgrade-has-66-proposals-including-a-major-privacy-fix",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260817-israel-s-largest-crypto-brok-7b3cdc48",
+      "at": "2026-08-17",
+      "scannedAt": "2026-08-17T12:19:00.980Z",
+      "lane": "failures-rugs",
+      "kind": "exploit",
+      "what": "Israel’s largest crypto broker Bits of Gold hit by data breach affecting 200,000 customers",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/tech/2026/08/17/israel-s-largest-crypto-broker-bits-of-gold-hit-by-data-breach-affecting-200-000-customers",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260817-binance-gave-russian-authori-62e3bf08",
+      "at": "2026-08-17",
+      "scannedAt": "2026-08-17T12:19:00.980Z",
+      "lane": "cex-tradfi",
+      "kind": "narrative",
+      "what": "Binance gave Russian authorities client data used in terrorism financing case: Report",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/binance-russia-client-data-used-ukraine-case-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "status": "open",
       "tags": [],
       "watcher": true
@@ -16223,11 +16265,12 @@
     },
     {
       "date": "2026-08-17",
-      "at": "2026-08-17T11:46:40.228Z",
-      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-17T12:19:00.980Z",
+      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260817-bitcoin-options-remain-expen-0ea22096",
-        "sig-20260817-bitcoin-s-biggest-holders-st-40265570"
+        "sig-20260817-ethereum-s-next-big-upgrade--7da4dcdc",
+        "sig-20260817-israel-s-largest-crypto-brok-7b3cdc48",
+        "sig-20260817-binance-gave-russian-authori-62e3bf08"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
