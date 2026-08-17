@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T15:46:29.384Z",
+  "updatedAt": "2026-08-17T16:13:49.091Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -15199,7 +15199,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/defillama-delayed-app-launch-fake-phishing-apps-apple?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -15213,7 +15213,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/tech/2026/08/16/crypto-wallet-safepal-reveals-a-data-breach-exposing-nearly-40-000-customers-order-info",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -15227,7 +15227,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/14/mica-s-cleanup-is-creating-a-new-scam-wave-across-the-european-union",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -15779,6 +15779,48 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "thedefiant",
       "url": "https://thedefiant.io/news/security/safepal-breach-exposes-39-798-customers-stolen-records-for-sale",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260817-stripe-s-reported-7-billion--40625615",
+      "at": "2026-08-17",
+      "scannedAt": "2026-08-17T16:13:49.091Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Stripe’s Reported $7 Billion OpenRouter Deal Buys Micropayments Without a Blockchain",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/tradfi-and-fintech/stripe-openrouter-deal-micropayments-without-blockchain",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260817-what-stripe-s-7-billion-open-459a4842",
+      "at": "2026-08-17",
+      "scannedAt": "2026-08-17T16:13:49.091Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "What Stripe's $7 Billion OpenRouter Deal Actually Means for AI",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375769/what-stripe-openrouter-deal-means-ai",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260817-tom-lee-s-bitmine-buys-anoth-3fbe9730",
+      "at": "2026-08-17",
+      "scannedAt": "2026-08-17T16:13:49.091Z",
+      "lane": "l1-l2",
+      "kind": "metric",
+      "what": "Tom Lee’s Bitmine Buys Another $19 Million in Ethereum as Stash Nears 5% of Total Supply",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375768/tom-lee-bitcoin-buys-19-million-ethereum",
       "status": "open",
       "tags": [],
       "watcher": true
@@ -16447,11 +16489,12 @@
     },
     {
       "date": "2026-08-17",
-      "at": "2026-08-17T15:46:29.384Z",
-      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-17T16:13:49.091Z",
+      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260817-compound-bets-52-million-new-0d921b36",
-        "sig-20260817-safepal-breach-exposes-39-79-b1e33715"
+        "sig-20260817-stripe-s-reported-7-billion--40625615",
+        "sig-20260817-what-stripe-s-7-billion-open-459a4842",
+        "sig-20260817-tom-lee-s-bitmine-buys-anoth-3fbe9730"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
