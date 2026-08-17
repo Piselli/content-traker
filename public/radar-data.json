@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T13:58:03.890Z",
+  "updatedAt": "2026-08-17T14:22:58.918Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -15283,7 +15283,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/policy/2026/08/16/the-sec-meeting-that-wasn-t-state-of-crypto",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -15297,7 +15297,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/magazine/data-of-54000-wallet-users-leaked-clarity-odds-just-10-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -15709,6 +15709,34 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375749/hackers-macos-screen-sharing-secretly-mine-monero",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260817-the-coldcard-hack-proves-rep-d7cffbbc",
+      "at": "2026-08-17",
+      "scannedAt": "2026-08-17T14:22:58.918Z",
+      "lane": "failures-rugs",
+      "kind": "exploit",
+      "what": "The Coldcard hack proves reputation is not a security model",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/opinion/2026/08/17/the-coldcard-hack-proves-reputation-is-not-a-security-model",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260817-tom-lee-s-bitmine-now-owns-4-c4b0de10",
+      "at": "2026-08-17",
+      "scannedAt": "2026-08-17T14:22:58.918Z",
+      "lane": "l1-l2",
+      "kind": "metric",
+      "what": "Tom Lee's Bitmine now owns 4.8% of Ethereum supply after latest ETH purchase",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/17/tom-lee-s-bitmine-now-owns-4-8-of-ethereum-supply-after-latest-eth-purchase",
       "status": "open",
       "tags": [],
       "watcher": true
@@ -16377,11 +16405,11 @@
     },
     {
       "date": "2026-08-17",
-      "at": "2026-08-17T13:58:03.890Z",
+      "at": "2026-08-17T14:22:58.918Z",
       "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260817-how-a-bug-in-coldcard-s-code-470230f6",
-        "sig-20260817-hackers-are-abusing-a-macos--655f66ee"
+        "sig-20260817-the-coldcard-hack-proves-rep-d7cffbbc",
+        "sig-20260817-tom-lee-s-bitmine-now-owns-4-c4b0de10"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
