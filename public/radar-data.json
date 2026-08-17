@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T18:20:59.243Z",
+  "updatedAt": "2026-08-17T19:05:02.336Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -15936,6 +15936,76 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260817-saylor-says-share-buyback-is-35d49ee2",
+      "at": "2026-08-17",
+      "scannedAt": "2026-08-17T19:05:02.336Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Saylor says share buyback isn’t priority as Strategy builds $4.8 billion cash reserve",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/17/saylor-says-share-buyback-isn-t-a-priority-as-it-builds-its-usd4-8-billion-cash-reserve-though-a-possibility",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260817-binance-to-plan-uk-relaunch--ed6b5ae4",
+      "at": "2026-08-17",
+      "scannedAt": "2026-08-17T19:05:02.336Z",
+      "lane": "cex-tradfi",
+      "kind": "narrative",
+      "what": "Binance to plan UK relaunch with FCA license application: Report",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/binance-uk-launch-plans-fca-license?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260817-xrp-price-holds-to-near-two--037074d6",
+      "at": "2026-08-17",
+      "scannedAt": "2026-08-17T19:05:02.336Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "XRP Price Holds to Near Two-Year Streak, But Charts Flash a Warning Sign",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375794/xrp-price-two-year-streak-charts-flash-warning",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260817-solana-s-pump-token-leads-cr-edf93e0b",
+      "at": "2026-08-17",
+      "scannedAt": "2026-08-17T19:05:02.336Z",
+      "lane": "l1-l2",
+      "kind": "narrative",
+      "what": "Solana’s Pump Token Leads Crypto Market Gainers as Chart Paints Golden Cross",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375788/solana-pump-price-crypto-market-golden-cross",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260817-ethereum-developers-target-p-c7b1e86c",
+      "at": "2026-08-17",
+      "scannedAt": "2026-08-17T19:05:02.336Z",
+      "lane": "l1-l2",
+      "kind": "narrative",
+      "what": "Ethereum Developers Target Privacy Changes in Next Major Upgrade",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375787/ethereum-developers-privacy-hegota-upgrade",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -16601,9 +16671,15 @@
     },
     {
       "date": "2026-08-17",
-      "at": "2026-08-17T18:20:59.243Z",
-      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [],
+      "at": "2026-08-17T19:05:02.336Z",
+      "note": "Watcher: +5 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [
+        "sig-20260817-saylor-says-share-buyback-is-35d49ee2",
+        "sig-20260817-binance-to-plan-uk-relaunch--ed6b5ae4",
+        "sig-20260817-xrp-price-holds-to-near-two--037074d6",
+        "sig-20260817-solana-s-pump-token-leads-cr-edf93e0b",
+        "sig-20260817-ethereum-developers-target-p-c7b1e86c"
+      ],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
