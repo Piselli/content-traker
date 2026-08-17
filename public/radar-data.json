@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T05:56:48.200Z",
+  "updatedAt": "2026-08-17T06:38:23.200Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -14399,7 +14399,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/sec-cancels-crypto-regulatory-meeting?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -15358,6 +15358,20 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260817-greenlane-s-70m-bera-treasur-68ebaeee",
+      "at": "2026-08-17",
+      "scannedAt": "2026-08-17T06:38:23.200Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "Greenlane’s $70M BERA treasury ends Q2 valued at $16M",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/greenlane-70m-bera-treasury-valued-16m?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -16023,10 +16037,10 @@
     },
     {
       "date": "2026-08-17",
-      "at": "2026-08-17T05:56:48.200Z",
+      "at": "2026-08-17T06:38:23.200Z",
       "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260817-the-bitcoin-futures-market-l-9f89920c"
+        "sig-20260817-greenlane-s-70m-bera-treasur-68ebaeee"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
