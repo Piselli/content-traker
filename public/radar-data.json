@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T19:48:15.698Z",
+  "updatedAt": "2026-08-17T20:13:17.883Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -16020,6 +16020,20 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260817-openai-s-answer-to-rogue-age-6778429a",
+      "at": "2026-08-17",
+      "scannedAt": "2026-08-17T20:13:17.883Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "OpenAI’s Answer to Rogue Agents and Hacks Is More AI, Not Less",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375816/openai-answer-rogue-agents-hacks-more-ai",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -16685,10 +16699,10 @@
     },
     {
       "date": "2026-08-17",
-      "at": "2026-08-17T19:48:15.698Z",
+      "at": "2026-08-17T20:13:17.883Z",
       "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260817-search-interest-in-predictio-b439b69e"
+        "sig-20260817-openai-s-answer-to-rogue-age-6778429a"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
