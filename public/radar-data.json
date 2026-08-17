@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T08:29:30.909Z",
+  "updatedAt": "2026-08-17T09:09:13.357Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -14371,7 +14371,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/jpmorgan-debanked-polymarket-regulatory-concerns-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -15386,6 +15386,20 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260817-live-updates-bitcoin-flat-ne-8f80759d",
+      "at": "2026-08-17",
+      "scannedAt": "2026-08-17T09:09:13.357Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Live updates: Bitcoin flat near $63,500, but the flows have quietly turned",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/17/live-updates-bitcoin-flat-near-usd63-500-but-the-flows-have-quietly-turned",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -16051,10 +16065,10 @@
     },
     {
       "date": "2026-08-17",
-      "at": "2026-08-17T08:29:30.909Z",
+      "at": "2026-08-17T09:09:13.357Z",
       "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260817-september-fed-interest-rate--b315478e"
+        "sig-20260817-live-updates-bitcoin-flat-ne-8f80759d"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
