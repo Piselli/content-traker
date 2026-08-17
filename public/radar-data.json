@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T15:14:47.550Z",
+  "updatedAt": "2026-08-17T15:46:29.384Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -15241,7 +15241,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375725/california-bill-ban-ai-chatbots-therapy-mental-health",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -15255,7 +15255,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/16/crypto-investors-are-looking-past-market-cap-rankings-and-back-to-fundamentals",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -15751,6 +15751,34 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/policy/2026/08/17/u-s-treasury-department-proposes-genius-act-stablecoin-rule",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260817-compound-bets-52-million-new-0d921b36",
+      "at": "2026-08-17",
+      "scannedAt": "2026-08-17T15:46:29.384Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Compound bets $52 million, new leadership team in switch to institutional focus",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/17/compound-bets-usd52-million-new-leadership-team-in-switch-to-institutional-focus",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260817-safepal-breach-exposes-39-79-b1e33715",
+      "at": "2026-08-17",
+      "scannedAt": "2026-08-17T15:46:29.384Z",
+      "lane": "failures-rugs",
+      "kind": "exploit",
+      "what": "SafePal Breach Exposes 39,798 Buyers as Stolen Records Hit Cybercrime Forum",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/security/safepal-breach-exposes-39-798-customers-stolen-records-for-sale",
       "status": "open",
       "tags": [],
       "watcher": true
@@ -16419,9 +16447,12 @@
     },
     {
       "date": "2026-08-17",
-      "at": "2026-08-17T15:14:47.550Z",
-      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [],
+      "at": "2026-08-17T15:46:29.384Z",
+      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [
+        "sig-20260817-compound-bets-52-million-new-0d921b36",
+        "sig-20260817-safepal-breach-exposes-39-79-b1e33715"
+      ],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
