@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T21:46:16.625Z",
+  "updatedAt": "2026-08-17T22:11:51.886Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -16783,13 +16783,9 @@
     },
     {
       "date": "2026-08-17",
-      "at": "2026-08-17T21:46:16.625Z",
-      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [
-        "sig-20260817-ansem-launches-site-where-te-5e8fa9da",
-        "sig-20260817-occ-approves-trump-family-cr-40319d91",
-        "sig-20260817-prediction-markets-give-the--eb63b8cf"
-      ],
+      "at": "2026-08-17T22:11:51.886Z",
+      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
