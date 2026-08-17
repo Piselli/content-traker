@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T13:12:53.097Z",
+  "updatedAt": "2026-08-17T13:58:03.890Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -14939,7 +14939,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/kalshi-stop-prediction-market-contracts-washington?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -15684,6 +15684,34 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260817-how-a-bug-in-coldcard-s-code-470230f6",
+      "at": "2026-08-17",
+      "scannedAt": "2026-08-17T13:58:03.890Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "How a bug in Coldcard’s code went unnoticed for years, leading to $100 million in hacked funds",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/tech/2026/08/17/how-a-bug-in-coldcard-s-code-went-unnoticed-for-years-leading-to-usd100-million-in-hacked-funds",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260817-hackers-are-abusing-a-macos--655f66ee",
+      "at": "2026-08-17",
+      "scannedAt": "2026-08-17T13:58:03.890Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Hackers Are Abusing a macOS Screen Sharing Flaw to Secretly Mine Monero",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375749/hackers-macos-screen-sharing-secretly-mine-monero",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -16349,15 +16377,11 @@
     },
     {
       "date": "2026-08-17",
-      "at": "2026-08-17T13:12:53.097Z",
-      "note": "Watcher: +6 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-17T13:58:03.890Z",
+      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260817-no-change-in-bitcoin-holding-430c1113",
-        "sig-20260817-strategy-raises-334m-through-0d08ef78",
-        "sig-20260817-harmony-plans-rollback-wipin-3fc6f4cc",
-        "sig-20260817-morning-minute-trump-to-meet-9f70df44",
-        "sig-20260817-strategy-leaves-bitcoin-unto-ff97cfd0",
-        "sig-20260817-pirated-copies-of-the-odysse-7dd7d59c"
+        "sig-20260817-how-a-bug-in-coldcard-s-code-470230f6",
+        "sig-20260817-hackers-are-abusing-a-macos--655f66ee"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
