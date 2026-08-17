@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T22:11:51.886Z",
+  "updatedAt": "2026-08-17T22:46:11.957Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -16118,6 +16118,64 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260817-omnichain-launchpad-printr-s-1feb4a24",
+      "at": "2026-08-17",
+      "scannedAt": "2026-08-17T22:46:11.957Z",
+      "lane": "incentives-campaigns",
+      "kind": "campaign",
+      "what": "Omnichain Launchpad Printr Shuts Down, Cancels Token Launch And Airdrop",
+      "why": "Watcher spike: strong failure/shipping/capital headline — check for take.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/news/defi/printr-launchpad-wind-down-cancels-tge-airdrop",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260817-kraken-parent-payward-joins--0e4dc9c4",
+      "at": "2026-08-17",
+      "scannedAt": "2026-08-17T22:46:11.957Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Kraken parent Payward joins Anthropic’s Project Glasswing for AI security push",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/tech/2026/08/17/kraken-parent-payward-joins-anthropic-s-project-glasswing-for-ai-security-push",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260817-kraken-parent-payward-joins--27bc654f",
+      "at": "2026-08-17",
+      "scannedAt": "2026-08-17T22:46:11.957Z",
+      "lane": "ai-crypto",
+      "kind": "narrative",
+      "what": "Kraken Parent Payward Joins Glasswing, Gets Access to Claude Mythos to Hunt Security Flaws",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375836/kraken-payward-anthropic-project-glasswing-claude-mythos",
+      "status": "expired",
+      "tags": [
+        "stables-ai"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260817-minnesota-says-xai-s-grok-cr-ee4dc4e0",
+      "at": "2026-08-17",
+      "scannedAt": "2026-08-17T22:46:11.957Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Minnesota Says xAI's Grok Created 'Marketplace for Digital Sexual Violence'",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375828/minnesota-xai-grok-marketplace-digital-sexual-violence",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -16783,11 +16841,18 @@
     },
     {
       "date": "2026-08-17",
-      "at": "2026-08-17T22:11:51.886Z",
-      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [],
+      "at": "2026-08-17T22:46:11.957Z",
+      "note": "Watcher: +4 signals, spikes=1, patternPings=0.",
+      "signalIdsAdded": [
+        "sig-20260817-omnichain-launchpad-printr-s-1feb4a24",
+        "sig-20260817-kraken-parent-payward-joins--0e4dc9c4",
+        "sig-20260817-kraken-parent-payward-joins--27bc654f",
+        "sig-20260817-minnesota-says-xai-s-grok-cr-ee4dc4e0"
+      ],
       "angleIdsTouched": [],
-      "noteworthyIds": []
+      "noteworthyIds": [
+        "sig-20260817-omnichain-launchpad-printr-s-1feb4a24"
+      ]
     }
   ]
 }
