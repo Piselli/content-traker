@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T09:09:13.357Z",
+  "updatedAt": "2026-08-17T10:02:28.723Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -14315,7 +14315,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/neutrl-pauses-nusd-redemptions-over-undisclosed-reserve-issue?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -14329,7 +14329,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/14/bitcoin-holders-strategy-and-metaplanet-face-stock-index-exclusion-under-msci-s-new-proposal",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -14343,7 +14343,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/14/cluster-of-headwinds-weigh-on-bitcoin-xrp-teeters-near-usd1",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -14357,7 +14357,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/tech/2026/08/14/live-updates-bitcoin-slips-below-usd63-000-as-oil-yields-climb",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -15400,6 +15400,62 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260817-binance-handed-user-data-to--fa6e81e0",
+      "at": "2026-08-17",
+      "scannedAt": "2026-08-17T10:02:28.723Z",
+      "lane": "cex-tradfi",
+      "kind": "narrative",
+      "what": "Binance handed user data to Russia that led to a Ukrainian donor's arrest",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/policy/2026/08/17/binance-handed-user-data-to-russia-that-led-to-a-ukrainian-donor-s-arrest",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260817-coinbase-circle-usdc-collabo-4770ab25",
+      "at": "2026-08-17",
+      "scannedAt": "2026-08-17T10:02:28.723Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Coinbase-Circle USDC collaboration, FOMC minutes, oil price: Crypto Week Ahead",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/17/coinbase-circle-usdc-collaboration-fomc-minutes-oil-price-crypto-week-ahead",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260817-bitpanda-fined-in-austria-s--af81d7ed",
+      "at": "2026-08-17",
+      "scannedAt": "2026-08-17T10:02:28.723Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitpanda fined in Austria’s first published MiCA penalty",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/bitpanda-fined-austrian-published-mica-penalty?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260817-safepal-bitcoin-wallet-data--f436ba59",
+      "at": "2026-08-17",
+      "scannedAt": "2026-08-17T10:02:28.723Z",
+      "lane": "failures-rugs",
+      "kind": "exploit",
+      "what": "SafePal Bitcoin Wallet Data Breach Stokes Fears of Physical Attacks",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375743/safepal-bitcoin-wallet-data-breach",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -16065,10 +16121,13 @@
     },
     {
       "date": "2026-08-17",
-      "at": "2026-08-17T09:09:13.357Z",
-      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-17T10:02:28.723Z",
+      "note": "Watcher: +4 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260817-live-updates-bitcoin-flat-ne-8f80759d"
+        "sig-20260817-binance-handed-user-data-to--fa6e81e0",
+        "sig-20260817-coinbase-circle-usdc-collabo-4770ab25",
+        "sig-20260817-bitpanda-fined-in-austria-s--af81d7ed",
+        "sig-20260817-safepal-bitcoin-wallet-data--f436ba59"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
