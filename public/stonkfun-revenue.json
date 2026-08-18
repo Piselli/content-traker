@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-08-17T14:38:06.119Z",
+  "updatedAt": "2026-08-18T21:33:27.324Z",
   "source": "https://www.stonkfun.xyz/api/public/v1/revenue",
   "latest": {
-    "at": "2026-08-17T14:38:06.058Z",
-    "totalRevenueUsd": 701291.7087261744,
-    "totalBuybackUsd": 403399.8938209896,
-    "buybackCount": 17341,
-    "volume24hUsd": 3481893.3939621435,
-    "tokensTotal": 3693,
-    "graduated": 300
+    "at": "2026-08-18T21:33:27.261Z",
+    "totalRevenueUsd": 748921.1038565562,
+    "totalBuybackUsd": 430809.6104337167,
+    "buybackCount": 18303,
+    "volume24hUsd": 4535197.422523837,
+    "tokensTotal": 3883,
+    "graduated": 309
   },
   "days": [
     {
@@ -111,13 +111,27 @@
     {
       "date": "2026-08-17",
       "openTotalUsd": 691710.0749695287,
+      "closeTotalUsd": 718124.125001511,
+      "revenueUsd": 26414.050031982246,
+      "closed": true,
+      "notified": true,
+      "openAt": "2026-08-17T00:00:39.743Z",
+      "closeAt": "2026-08-18T00:02:32.287Z",
+      "openSkewMin": 1,
+      "closeSkewMin": 3,
+      "approximate": false,
+      "freeze": true
+    },
+    {
+      "date": "2026-08-18",
+      "openTotalUsd": 718124.125001511,
       "closeTotalUsd": null,
       "revenueUsd": null,
       "closed": false,
       "notified": false,
-      "openAt": "2026-08-17T00:00:39.743Z",
+      "openAt": "2026-08-18T00:02:32.287Z",
       "closeAt": null,
-      "openSkewMin": 1,
+      "openSkewMin": 3,
       "closeSkewMin": null,
       "approximate": false
     }
@@ -1146,6 +1160,262 @@
       "buybackCount": 17341,
       "volume24hUsd": 3481893.3939621435,
       "tokensTotal": 3693
+    },
+    {
+      "at": "2026-08-17T15:34:55.242Z",
+      "totalRevenueUsd": 702892.9966183808,
+      "totalBuybackUsd": 404303.49927710026,
+      "buybackCount": 17400,
+      "volume24hUsd": 3506512.721706348,
+      "tokensTotal": 3701
+    },
+    {
+      "at": "2026-08-17T16:38:55.943Z",
+      "totalRevenueUsd": 709981.6285526332,
+      "totalBuybackUsd": 408336.7968601464,
+      "buybackCount": 17458,
+      "volume24hUsd": 4486634.439872429,
+      "tokensTotal": 3707
+    },
+    {
+      "at": "2026-08-17T17:37:30.393Z",
+      "totalRevenueUsd": 712270.1930109753,
+      "totalBuybackUsd": 409651.10357840714,
+      "buybackCount": 17505,
+      "volume24hUsd": 4740396.5430142535,
+      "tokensTotal": 3709
+    },
+    {
+      "at": "2026-08-17T18:52:59.911Z",
+      "totalRevenueUsd": 714686.66429874,
+      "totalBuybackUsd": 411068.8663587446,
+      "buybackCount": 17578,
+      "volume24hUsd": 4880045.926023594,
+      "tokensTotal": 3712
+    },
+    {
+      "at": "2026-08-17T19:36:08.629Z",
+      "totalRevenueUsd": 715312.07896763,
+      "totalBuybackUsd": 411427.83504714427,
+      "buybackCount": 17604,
+      "volume24hUsd": 4773283.9724305505,
+      "tokensTotal": 3715
+    },
+    {
+      "at": "2026-08-17T20:37:24.587Z",
+      "totalRevenueUsd": 715979.6457759851,
+      "totalBuybackUsd": 411749.71001690987,
+      "buybackCount": 17632,
+      "volume24hUsd": 4727108.222524046,
+      "tokensTotal": 3721
+    },
+    {
+      "at": "2026-08-17T21:35:05.418Z",
+      "totalRevenueUsd": 716590.4462526818,
+      "totalBuybackUsd": 412178.89560233516,
+      "buybackCount": 17666,
+      "volume24hUsd": 4618350.045307678,
+      "tokensTotal": 3725
+    },
+    {
+      "at": "2026-08-17T22:34:57.976Z",
+      "totalRevenueUsd": 717275.3804502187,
+      "totalBuybackUsd": 412597.81476280023,
+      "buybackCount": 17699,
+      "volume24hUsd": 4523810.1031630095,
+      "tokensTotal": 3730
+    },
+    {
+      "at": "2026-08-17T23:32:19.052Z",
+      "totalRevenueUsd": 717928.8419350933,
+      "totalBuybackUsd": 412960.2539621551,
+      "buybackCount": 17720,
+      "volume24hUsd": 4537538.696807162,
+      "tokensTotal": 3733
+    },
+    {
+      "at": "2026-08-18T00:02:32.287Z",
+      "totalRevenueUsd": 718124.125001511,
+      "totalBuybackUsd": 413070.4564927251,
+      "buybackCount": 17731,
+      "volume24hUsd": 4477648.430977296,
+      "tokensTotal": 3734
+    },
+    {
+      "at": "2026-08-18T01:46:18.754Z",
+      "totalRevenueUsd": 719291.701024767,
+      "totalBuybackUsd": 413773.37855102867,
+      "buybackCount": 17769,
+      "volume24hUsd": 4482460.09327947,
+      "tokensTotal": 3744
+    },
+    {
+      "at": "2026-08-18T01:54:50.728Z",
+      "totalRevenueUsd": 719373.2322449564,
+      "totalBuybackUsd": 413820.690327072,
+      "buybackCount": 17772,
+      "volume24hUsd": 4480211.837745978,
+      "tokensTotal": 3744
+    },
+    {
+      "at": "2026-08-18T03:04:19.968Z",
+      "totalRevenueUsd": 719985.9665904853,
+      "totalBuybackUsd": 414181.71904734743,
+      "buybackCount": 17797,
+      "volume24hUsd": 4464535.892201474,
+      "tokensTotal": 3750
+    },
+    {
+      "at": "2026-08-18T03:54:34.020Z",
+      "totalRevenueUsd": 720213.3761922742,
+      "totalBuybackUsd": 414310.6547283696,
+      "buybackCount": 17809,
+      "volume24hUsd": 4442278.3750019325,
+      "tokensTotal": 3751
+    },
+    {
+      "at": "2026-08-18T04:45:55.587Z",
+      "totalRevenueUsd": 720865.2577706277,
+      "totalBuybackUsd": 414691.7496521387,
+      "buybackCount": 17822,
+      "volume24hUsd": 4447282.74209241,
+      "tokensTotal": 3751
+    },
+    {
+      "at": "2026-08-18T05:38:28.468Z",
+      "totalRevenueUsd": 722728.8789437965,
+      "totalBuybackUsd": 415676.3819311749,
+      "buybackCount": 17840,
+      "volume24hUsd": 4709638.349162061,
+      "tokensTotal": 3764
+    },
+    {
+      "at": "2026-08-18T06:59:10.981Z",
+      "totalRevenueUsd": 722961.9759916265,
+      "totalBuybackUsd": 415787.582904318,
+      "buybackCount": 17853,
+      "volume24hUsd": 4699988.542910445,
+      "tokensTotal": 3766
+    },
+    {
+      "at": "2026-08-18T07:48:11.810Z",
+      "totalRevenueUsd": 723155.5816712171,
+      "totalBuybackUsd": 415903.6337532895,
+      "buybackCount": 17865,
+      "volume24hUsd": 4646376.967698608,
+      "tokensTotal": 3769
+    },
+    {
+      "at": "2026-08-18T08:49:02.852Z",
+      "totalRevenueUsd": 723329.6246530303,
+      "totalBuybackUsd": 416008.35983332724,
+      "buybackCount": 17878,
+      "volume24hUsd": 4630056.200148735,
+      "tokensTotal": 3771
+    },
+    {
+      "at": "2026-08-18T09:43:59.151Z",
+      "totalRevenueUsd": 723644.4530315745,
+      "totalBuybackUsd": 416178.31287759636,
+      "buybackCount": 17895,
+      "volume24hUsd": 4625780.707634279,
+      "tokensTotal": 3775
+    },
+    {
+      "at": "2026-08-18T10:39:44.453Z",
+      "totalRevenueUsd": 725227.5101688856,
+      "totalBuybackUsd": 417118.1611676347,
+      "buybackCount": 17922,
+      "volume24hUsd": 4801457.074933077,
+      "tokensTotal": 3787
+    },
+    {
+      "at": "2026-08-18T11:35:12.921Z",
+      "totalRevenueUsd": 726315.9925076547,
+      "totalBuybackUsd": 417728.69442120177,
+      "buybackCount": 17946,
+      "volume24hUsd": 4795631.991443522,
+      "tokensTotal": 3789
+    },
+    {
+      "at": "2026-08-18T13:03:04.374Z",
+      "totalRevenueUsd": 733307.4151810604,
+      "totalBuybackUsd": 421808.95019061305,
+      "buybackCount": 17995,
+      "volume24hUsd": 5384184.052416356,
+      "tokensTotal": 3803
+    },
+    {
+      "at": "2026-08-18T13:53:29.704Z",
+      "totalRevenueUsd": 736727.1894223378,
+      "totalBuybackUsd": 423958.19242970215,
+      "buybackCount": 18031,
+      "volume24hUsd": 5693315.746286618,
+      "tokensTotal": 3814
+    },
+    {
+      "at": "2026-08-18T14:45:39.977Z",
+      "totalRevenueUsd": 738031.1581598421,
+      "totalBuybackUsd": 424734.80294464785,
+      "buybackCount": 18061,
+      "volume24hUsd": 5631707.835419659,
+      "tokensTotal": 3821
+    },
+    {
+      "at": "2026-08-18T15:40:27.984Z",
+      "totalRevenueUsd": 739077.2245341182,
+      "totalBuybackUsd": 425379.8436886634,
+      "buybackCount": 18096,
+      "volume24hUsd": 5536549.915371645,
+      "tokensTotal": 3828
+    },
+    {
+      "at": "2026-08-18T16:43:20.387Z",
+      "totalRevenueUsd": 741160.7025040598,
+      "totalBuybackUsd": 426591.3383518172,
+      "buybackCount": 18131,
+      "volume24hUsd": 4383558.731226938,
+      "tokensTotal": 3838
+    },
+    {
+      "at": "2026-08-18T17:36:45.616Z",
+      "totalRevenueUsd": 742053.9369662777,
+      "totalBuybackUsd": 426982.46215852443,
+      "buybackCount": 18160,
+      "volume24hUsd": 4211578.331418363,
+      "tokensTotal": 3846
+    },
+    {
+      "at": "2026-08-18T18:51:46.395Z",
+      "totalRevenueUsd": 743649.8587422768,
+      "totalBuybackUsd": 427882.1589400385,
+      "buybackCount": 18209,
+      "volume24hUsd": 4066515.769347618,
+      "tokensTotal": 3854
+    },
+    {
+      "at": "2026-08-18T19:35:03.412Z",
+      "totalRevenueUsd": 746517.3188737197,
+      "totalBuybackUsd": 429577.10370504454,
+      "buybackCount": 18242,
+      "volume24hUsd": 4396861.368822443,
+      "tokensTotal": 3865
+    },
+    {
+      "at": "2026-08-18T20:34:30.088Z",
+      "totalRevenueUsd": 748084.1430503394,
+      "totalBuybackUsd": 430359.36334179906,
+      "buybackCount": 18273,
+      "volume24hUsd": 4497045.888995283,
+      "tokensTotal": 3874
+    },
+    {
+      "at": "2026-08-18T21:33:27.261Z",
+      "totalRevenueUsd": 748921.1038565562,
+      "totalBuybackUsd": 430809.6104337167,
+      "buybackCount": 18303,
+      "volume24hUsd": 4535197.422523837,
+      "tokensTotal": 3883
     }
   ]
 }
