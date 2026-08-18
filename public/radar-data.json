@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T06:22:33.247Z",
+  "updatedAt": "2026-08-18T07:11:45.724Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -16961,11 +16961,9 @@
     },
     {
       "date": "2026-08-18",
-      "at": "2026-08-18T06:22:33.247Z",
-      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [
-        "sig-20260818-the-bitcoin-price-level-wher-d8407f55"
-      ],
+      "at": "2026-08-18T07:11:45.724Z",
+      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
