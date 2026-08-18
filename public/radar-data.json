@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T14:02:02.291Z",
+  "updatedAt": "2026-08-18T14:58:20.833Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -15425,7 +15425,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/17/coinbase-circle-usdc-collaboration-fomc-minutes-oil-price-crypto-week-ahead",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -15439,7 +15439,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/bitpanda-fined-austrian-published-mica-penalty?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -15453,7 +15453,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375743/safepal-bitcoin-wallet-data-breach",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -15467,7 +15467,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/17/bitpanda-fined-eur70-000-in-austria-s-first-published-mica-enforcement-case",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -15481,7 +15481,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/17/bitcoin-tracks-equity-bounce-but-usd390-million-etf-outflow-week-keeps-bulls-on-back-foot",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "wrappers-etf"
       ],
@@ -16558,6 +16558,76 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260818-bitcoin-miners-ai-pivot-pays-a34e46d3",
+      "at": "2026-08-18",
+      "scannedAt": "2026-08-18T14:58:20.833Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin miners’ AI pivot pays off, but mining could revive with one twist",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/18/bitcoin-miners-ai-pivot-pays-off-but-mining-could-revive-with-one-twist",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260818-global-bond-yields-surge-as--30ad5d8f",
+      "at": "2026-08-18",
+      "scannedAt": "2026-08-18T14:58:20.833Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Global bond yields surge as debt fears test bitcoin’s hedge narrative",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/18/global-bond-yields-surge-as-debt-fears-test-bitcoin-s-hedge-narrative",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260818-japan-s-metaplanet-launching-a7d1e59f",
+      "at": "2026-08-18",
+      "scannedAt": "2026-08-18T14:58:20.833Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "Japan's Metaplanet launching U.S. bitcoin treasury company through $135 million nanocap deal",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/18/japan-s-metaplanet-launching-u-s-bitcoin-treasury-company-through-usd135-million-nanocap-deal",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260818-hashkey-taps-hong-kong-s-fir-95b87854",
+      "at": "2026-08-18",
+      "scannedAt": "2026-08-18T14:58:20.833Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "HashKey taps Hong Kong's first regulated stablecoin to settle insurance and trade deals",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/18/hashkey-taps-hong-kong-s-first-regulated-stablecoin-to-settle-insurance-and-trade-deals",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260818-bitcoin-wallet-untouched-for-d713948f",
+      "at": "2026-08-18",
+      "scannedAt": "2026-08-18T14:58:20.833Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin Wallet Untouched for 15 Years Suddenly Springs to Life",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375839/bitcoin-wallet-untouched-15-years-life",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -17225,12 +17295,14 @@
     },
     {
       "date": "2026-08-18",
-      "at": "2026-08-18T14:02:02.291Z",
-      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-18T14:58:20.833Z",
+      "note": "Watcher: +5 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260818-citi-plans-to-launch-bitcoin-d1643edb",
-        "sig-20260818-crypto-s-easy-money-era-is-e-0c5b97f7",
-        "sig-20260818-toyota-finance-opens-tokeniz-0d02c2fd"
+        "sig-20260818-bitcoin-miners-ai-pivot-pays-a34e46d3",
+        "sig-20260818-global-bond-yields-surge-as--30ad5d8f",
+        "sig-20260818-japan-s-metaplanet-launching-a7d1e59f",
+        "sig-20260818-hashkey-taps-hong-kong-s-fir-95b87854",
+        "sig-20260818-bitcoin-wallet-untouched-for-d713948f"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
