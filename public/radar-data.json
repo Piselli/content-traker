@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T17:49:53.399Z",
+  "updatedAt": "2026-08-18T18:19:33.635Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -16782,6 +16782,20 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260818-bitcoin-wallet-maker-bitbox--548f102e",
+      "at": "2026-08-18",
+      "scannedAt": "2026-08-18T18:19:33.635Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin Wallet Maker BitBox Says AI Found Severe Flaws in Firmware",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375886/bitcoin-wallet-bitbox-ai-severe-flaws-firmware",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -17449,11 +17463,10 @@
     },
     {
       "date": "2026-08-18",
-      "at": "2026-08-18T17:49:53.399Z",
-      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-18T18:19:33.635Z",
+      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260818-kraken-s-krak-debuts-us-debi-6bc54826",
-        "sig-20260818-google-is-paying-10-million--c01513d0"
+        "sig-20260818-bitcoin-wallet-maker-bitbox--548f102e"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
