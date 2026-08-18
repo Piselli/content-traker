@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T21:12:31.345Z",
+  "updatedAt": "2026-08-18T21:43:43.116Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -16936,6 +16936,50 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260818-u-s-accounting-standards-gro-4c8bfb77",
+      "at": "2026-08-18",
+      "scannedAt": "2026-08-18T21:43:43.116Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "U.S. accounting-standards group proposes way to see stablecoins as 'cash equivalent'",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/policy/2026/08/18/u-s-accounting-standards-group-proposes-way-to-see-stablecoins-as-cash-equivalent",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260818-sec-proposes-new-crypto-rule-5f49a29e",
+      "at": "2026-08-18",
+      "scannedAt": "2026-08-18T21:43:43.116Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "SEC proposes new crypto rules in absence of CLARITY Act",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/us-sec-crypto-rules-clarity-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [
+        "clarity-policy"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260818-arguing-with-people-on-x-may-183b4f3c",
+      "at": "2026-08-18",
+      "scannedAt": "2026-08-18T21:43:43.116Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Arguing With People on X May Get You More Posts You Hate as Algo Feeds on Ragebait",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375899/arguing-twitter-x-more-posts-hate-algorithm-ragebait",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -17215,12 +17259,13 @@
     },
     {
       "id": "ang-watch-clarity-policy",
-      "at": "2026-08-15T08:51:02.546Z",
-      "thesis": "Watcher cluster [clarity-policy]: 2 related receipts in ~7d across regulation.",
+      "at": "2026-08-18T21:43:43.116Z",
+      "thesis": "Watcher cluster [clarity-policy]: 3 related receipts in ~7d across regulation.",
       "voiceHook": "Pattern forming: clarity policy.",
       "signalIds": [
         "sig-20260815-galaxy-lowers-clarity-act-od-9c9944cf",
-        "sig-20260814-sec-shelves-crypto-rule-meet-8a79dc29"
+        "sig-20260814-sec-shelves-crypto-rule-meet-8a79dc29",
+        "sig-20260818-sec-proposes-new-crypto-rule-5f49a29e"
       ],
       "lanes": [
         "regulation"
@@ -17228,7 +17273,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for clarity-policy: dates + sources",
-      "expiresAt": "2026-08-19T08:51:02.546Z",
+      "expiresAt": "2026-08-22T21:43:43.116Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -17603,14 +17648,19 @@
     },
     {
       "date": "2026-08-18",
-      "at": "2026-08-18T21:12:31.345Z",
-      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-18T21:43:43.116Z",
+      "note": "Watcher: +3 signals, spikes=0, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260818-tenev-pushes-for-tokenized-s-16d6f365",
-        "sig-20260818-falconx-interstice-connect-c-0c73a96f"
+        "sig-20260818-u-s-accounting-standards-gro-4c8bfb77",
+        "sig-20260818-sec-proposes-new-crypto-rule-5f49a29e",
+        "sig-20260818-arguing-with-people-on-x-may-183b4f3c"
       ],
-      "angleIdsTouched": [],
-      "noteworthyIds": []
+      "angleIdsTouched": [
+        "ang-watch-clarity-policy"
+      ],
+      "noteworthyIds": [
+        "ang-watch-clarity-policy"
+      ]
     }
   ]
 }
