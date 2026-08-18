@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T02:08:30.768Z",
+  "updatedAt": "2026-08-18T03:13:23.088Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -16863,11 +16863,9 @@
     },
     {
       "date": "2026-08-18",
-      "at": "2026-08-18T02:08:30.768Z",
-      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [
-        "sig-20260818-fabricated-rumors-about-bitm-aaf7c47a"
-      ],
+      "at": "2026-08-18T03:13:23.088Z",
+      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
