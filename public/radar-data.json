@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T18:19:33.635Z",
+  "updatedAt": "2026-08-18T19:04:17.460Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -16796,6 +16796,34 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260818-wyoming-joins-15-billion-lay-81fbb587",
+      "at": "2026-08-18",
+      "scannedAt": "2026-08-18T19:04:17.460Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Wyoming joins $15 billion LayerZero exodus with state stablecoin move",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/18/wyoming-joins-usd15-billion-layerzero-exodus-with-state-stablecoin-move",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260818-trump-family-crypto-firm-tie-cc4b8568",
+      "at": "2026-08-18",
+      "scannedAt": "2026-08-18T19:04:17.460Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Trump Family Crypto Firm Tied to Chinese AI Models US Government Called a Security Risk",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375887/trump-crypto-firm-chinese-ai-government-called-security-risk",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -17463,10 +17491,11 @@
     },
     {
       "date": "2026-08-18",
-      "at": "2026-08-18T18:19:33.635Z",
-      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-18T19:04:17.460Z",
+      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260818-bitcoin-wallet-maker-bitbox--548f102e"
+        "sig-20260818-wyoming-joins-15-billion-lay-81fbb587",
+        "sig-20260818-trump-family-crypto-firm-tie-cc4b8568"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
