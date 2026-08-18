@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T19:04:17.460Z",
+  "updatedAt": "2026-08-18T19:45:56.547Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -16824,6 +16824,48 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260818-u-s-sec-proposes-first-major-e738bc0d",
+      "at": "2026-08-18",
+      "scannedAt": "2026-08-18T19:45:56.547Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "U.S. SEC proposes first major crypto rule in surprise announcement",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/policy/2026/08/18/r",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260818-cypherpunk-launches-zcash-mi-c9bf2a67",
+      "at": "2026-08-18",
+      "scannedAt": "2026-08-18T19:45:56.547Z",
+      "lane": "narrative-rotation",
+      "kind": "metric",
+      "what": "Cypherpunk launches Zcash mining fleet controlling 18% of network hashrate",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/cypherpunk-zcash-mining-winklevoss-capital-zec?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260818-markets-confident-openai-rel-bde28b4a",
+      "at": "2026-08-18",
+      "scannedAt": "2026-08-18T19:45:56.547Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Markets Confident OpenAI Releases Its Next AI Model in Weeks",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375892/openai-next-ai-model-gpt6-astra-prediction",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -17491,11 +17533,12 @@
     },
     {
       "date": "2026-08-18",
-      "at": "2026-08-18T19:04:17.460Z",
-      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-18T19:45:56.547Z",
+      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260818-wyoming-joins-15-billion-lay-81fbb587",
-        "sig-20260818-trump-family-crypto-firm-tie-cc4b8568"
+        "sig-20260818-u-s-sec-proposes-first-major-e738bc0d",
+        "sig-20260818-cypherpunk-launches-zcash-mi-c9bf2a67",
+        "sig-20260818-markets-confident-openai-rel-bde28b4a"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
