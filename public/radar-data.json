@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T16:21:39.667Z",
+  "updatedAt": "2026-08-18T16:54:24.845Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -15325,7 +15325,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/17/xrp-traders-bet-on-a-rebound-as-price-slips-to-usd1-and-bearish-chatter-surges",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -16712,6 +16712,20 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260818-metaplanet-expands-bitcoin-t-df96ea7a",
+      "at": "2026-08-18",
+      "scannedAt": "2026-08-18T16:54:24.845Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "Metaplanet expands Bitcoin treasury strategy to US with 2,100-BTC Nasdaq play",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/metaplanet-expands-bitcoin-treasury-strategy-super-league?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -17379,12 +17393,10 @@
     },
     {
       "date": "2026-08-18",
-      "at": "2026-08-18T16:21:39.667Z",
-      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-18T16:54:24.845Z",
+      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260818-kraken-adds-u-s-stocks-in-eu-4c533ba5",
-        "sig-20260818-neuberger-teams-with-securit-bb3de3b2",
-        "sig-20260818-citi-to-launch-bitcoin-custo-7cc6f23c"
+        "sig-20260818-metaplanet-expands-bitcoin-t-df96ea7a"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
