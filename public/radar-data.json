@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T09:54:53.143Z",
+  "updatedAt": "2026-08-18T10:16:06.940Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -15681,7 +15681,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375747/pirated-copies-odyssey-hiding-crypto-stealing-malware",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -16358,6 +16358,20 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260818-bitcoin-scores-a-rare-win-ov-7aa4ba0b",
+      "at": "2026-08-18",
+      "scannedAt": "2026-08-18T10:16:06.940Z",
+      "lane": "narrative-rotation",
+      "kind": "metric",
+      "what": "Bitcoin scores a rare win over S&P 500 with 2.6% rise versus 0.5% fall",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/18/bitcoin-scored-a-rare-win-over-s-and-p-500-on-monday",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -17031,10 +17045,10 @@
     },
     {
       "date": "2026-08-18",
-      "at": "2026-08-18T09:54:53.143Z",
+      "at": "2026-08-18T10:16:06.940Z",
       "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260818-bitpanda-hit-with-europe-s-f-292740ad"
+        "sig-20260818-bitcoin-scores-a-rare-win-ov-7aa4ba0b"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
