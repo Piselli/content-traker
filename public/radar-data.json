@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T20:45:12.051Z",
+  "updatedAt": "2026-08-18T21:12:31.345Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -16908,6 +16908,34 @@
       "status": "expired",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260818-tenev-pushes-for-tokenized-s-16d6f365",
+      "at": "2026-08-18",
+      "scannedAt": "2026-08-18T21:12:31.345Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Tenev Pushes for Tokenized Stocks in America",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "thedefiant",
+      "url": "https://thedefiant.io/converge/tradfi-and-fintech/vlad-tenev-pushes-for-tokenized-stocks-in-america",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260818-falconx-interstice-connect-c-0c73a96f",
+      "at": "2026-08-18",
+      "scannedAt": "2026-08-18T21:12:31.345Z",
+      "lane": "l1-l2",
+      "kind": "narrative",
+      "what": "FalconX, Interstice Connect Canton to Ethereum, Solana and Robinhood Chain",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/interstice-falconx-cross-chain-swap-engine-canton-solana-ethereum-robinhood-chain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -17575,10 +17603,11 @@
     },
     {
       "date": "2026-08-18",
-      "at": "2026-08-18T20:45:12.051Z",
-      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-18T21:12:31.345Z",
+      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260818-sec-proposes-token-offering--6ce82a11"
+        "sig-20260818-tenev-pushes-for-tokenized-s-16d6f365",
+        "sig-20260818-falconx-interstice-connect-c-0c73a96f"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
