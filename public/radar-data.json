@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T05:54:06.538Z",
+  "updatedAt": "2026-08-18T06:22:33.247Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -15765,7 +15765,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/17/compound-bets-usd52-million-new-leadership-team-in-switch-to-institutional-focus",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -16271,6 +16271,20 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/18/xrp-slips-below-usd1-even-as-korean-regional-bank-adopts-ripple-payments",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260818-the-bitcoin-price-level-wher-d8407f55",
+      "at": "2026-08-18",
+      "scannedAt": "2026-08-18T06:22:33.247Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "The bitcoin price level where leveraged bulls could get whacked",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/18/the-bitcoin-price-level-where-leveraged-bulls-could-get-whacked",
       "status": "open",
       "tags": [],
       "watcher": true
@@ -16947,10 +16961,10 @@
     },
     {
       "date": "2026-08-18",
-      "at": "2026-08-18T05:54:06.538Z",
+      "at": "2026-08-18T06:22:33.247Z",
       "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260818-xrp-slips-below-1-even-as-a--2a2a52ab"
+        "sig-20260818-the-bitcoin-price-level-wher-d8407f55"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
