@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T13:15:29.025Z",
+  "updatedAt": "2026-08-18T14:02:02.291Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -15497,7 +15497,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375745/paul-tudor-jones-buys-blackrock-bitcoin-etf",
-      "status": "open",
+      "status": "expired",
       "tags": [
         "wrappers-etf"
       ],
@@ -15513,7 +15513,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375757/dutch-prosecutors-sell-2-5m-of-crypto-from-bankrupt-platform-knaken",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -15527,7 +15527,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/bitmart-account-founder-explain-repayment-plan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -16516,6 +16516,48 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260818-citi-plans-to-launch-bitcoin-d1643edb",
+      "at": "2026-08-18",
+      "scannedAt": "2026-08-18T14:02:02.291Z",
+      "lane": "narrative-rotation",
+      "kind": "shipping",
+      "what": "Citi plans to launch bitcoin custody for institutional clients later this year",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/18/citi-plans-to-launch-bitcoin-custody-for-institutional-clients-later-this-year",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260818-crypto-s-easy-money-era-is-e-0c5b97f7",
+      "at": "2026-08-18",
+      "scannedAt": "2026-08-18T14:02:02.291Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Crypto’s easy-money era is ending in a wave of failures",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/13/crypto-s-easy-money-era-is-ending-in-a-wave-of-failures",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260818-toyota-finance-opens-tokeniz-0d02c2fd",
+      "at": "2026-08-18",
+      "scannedAt": "2026-08-18T14:02:02.291Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Toyota Finance opens tokenized bonds to retail investors via mobile payment app",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/toyota-finance-tokenized-bond-offering-mobile-payment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -17183,20 +17225,15 @@
     },
     {
       "date": "2026-08-18",
-      "at": "2026-08-18T13:15:29.025Z",
-      "note": "Watcher: +4 signals, spikes=0, patternPings=1.",
+      "at": "2026-08-18T14:02:02.291Z",
+      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260818-cash-app-s-crypto-support-ex-638630c5",
-        "sig-20260818-visa-looking-for-new-stablec-4c0fec3e",
-        "sig-20260818-moonpay-adds-cash-app-pay-fo-0746aec9",
-        "sig-20260818-morning-minute-pump-prints-f-0e967a08"
+        "sig-20260818-citi-plans-to-launch-bitcoin-d1643edb",
+        "sig-20260818-crypto-s-easy-money-era-is-e-0c5b97f7",
+        "sig-20260818-toyota-finance-opens-tokeniz-0d02c2fd"
       ],
-      "angleIdsTouched": [
-        "ang-watch-stables-ai"
-      ],
-      "noteworthyIds": [
-        "ang-watch-stables-ai"
-      ]
+      "angleIdsTouched": [],
+      "noteworthyIds": []
     }
   ]
 }
