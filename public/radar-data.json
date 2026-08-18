@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T10:16:06.940Z",
+  "updatedAt": "2026-08-18T10:52:10.712Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -15667,7 +15667,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375762/strategy-leaves-bitcoin-untouched-raises-334m-selling-mstr-stock",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -16372,6 +16372,20 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260818-bitcoin-pauses-at-64-000-as--1ec6326f",
+      "at": "2026-08-18",
+      "scannedAt": "2026-08-18T10:52:10.712Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin pauses at $64,000 as rising yields, oil drag equities lower",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/18/bitcoin-pauses-at-usd64-000-as-rising-yields-oil-drag-equities-lower",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -17045,10 +17059,10 @@
     },
     {
       "date": "2026-08-18",
-      "at": "2026-08-18T10:16:06.940Z",
+      "at": "2026-08-18T10:52:10.712Z",
       "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260818-bitcoin-scores-a-rare-win-ov-7aa4ba0b"
+        "sig-20260818-bitcoin-pauses-at-64-000-as--1ec6326f"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
