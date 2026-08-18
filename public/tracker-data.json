@@ -1,7 +1,166 @@
 {
-  "syncVersion": 558,
-  "updatedAt": "2026-08-17T14:19:00.000Z",
+  "syncVersion": 559,
+  "updatedAt": "2026-08-18T18:12:00.000Z",
   "logs": [
+    {
+      "id": "useful-fomo-predatory-beginner-fees-aug18",
+      "type": "useful",
+      "traits": [
+        "hot topic",
+        "provocative"
+      ],
+      "slot": 3,
+      "bucket": "CT",
+      "visualCluster": "meme",
+      "note": "EN useful+hot: FOMO most convenient and most predatory trading app vs pump.fun; advertised 0.5% vs 2%/$0.95 on beginner size; DefiLlama 7d fees/vol 1.2%; 6–20% profitable 90d. QT @MidCurveMortal Dune. Chalk trap plate.",
+      "at": "2026-08-18T18:06:55.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2089776067523338394",
+      "views": 27,
+      "likes": 0,
+      "replies": 0,
+      "ageHours": 0,
+      "updatedAt": "2026-08-18T18:12:00.000Z",
+      "snapshots": [
+        {
+          "ageHours": 0,
+          "views": 16,
+          "likes": 0,
+          "replies": 0,
+          "checkedAt": "2026-08-18T18:12:00.000Z"
+        }
+      ],
+      "syncedAt": "2026-08-18T18:12:00.000Z"
+    },
+    {
+      "id": "useful-pump-kaito-unlock-rhyme-aug18",
+      "type": "useful",
+      "traits": [
+        "hot topic"
+      ],
+      "slot": 2,
+      "bucket": "CT",
+      "visualCluster": "chart",
+      "note": "EN useful+hot: $PUMP +159% into team unlock looks like $KAITO +154%; KAITO then X news +35% then −71% dump. PUMP has volume/buyback explanation on Solana — don't bucket as same crime unless announcement. Dual chart+cash plate.",
+      "at": "2026-08-18T13:48:55.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2089711139785462188",
+      "views": 330,
+      "likes": 12,
+      "replies": 5,
+      "ageHours": 4,
+      "updatedAt": "2026-08-18T18:12:00.000Z",
+      "snapshots": [
+        {
+          "ageHours": 4,
+          "views": 327,
+          "likes": 12,
+          "replies": 5,
+          "checkedAt": "2026-08-18T18:12:00.000Z"
+        }
+      ],
+      "syncedAt": "2026-08-18T18:12:00.000Z"
+    },
+    {
+      "id": "builder-movematch-mark-two-weeks-aug18",
+      "type": "builder",
+      "traits": [
+        "bait"
+      ],
+      "slot": 1,
+      "bucket": "football",
+      "visualCluster": "screenshot",
+      "note": "EN builder+bait: QT own rebuild Day 0 — new MoveMatch mark after 2 weeks, 'what do you see?'. Onchain football fantasy.",
+      "at": "2026-08-18T11:56:11.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2089682769303454164",
+      "views": 187,
+      "likes": 14,
+      "replies": 3,
+      "ageHours": 6,
+      "updatedAt": "2026-08-18T18:12:00.000Z"
+    },
+    {
+      "id": "useful-solana-wallets-2026-friend-aug17",
+      "type": "useful",
+      "traits": [
+        "bait",
+        "provocative"
+      ],
+      "slot": 3,
+      "bucket": "CT",
+      "visualCluster": "scorecard",
+      "note": "EN useful: which Solana wallet in 2026 (Jupiter/Solflare/Phantom/Backpack) — swap fee, bridge, card, staking, perps, predict, gacha. Friend-ask hook. Comparison plate.",
+      "at": "2026-08-17T17:44:55.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2089408142639522143",
+      "views": 262,
+      "likes": 22,
+      "replies": 3,
+      "ageHours": 24,
+      "updatedAt": "2026-08-18T18:12:00.000Z",
+      "snapshots": [
+        {
+          "ageHours": 24,
+          "views": 261,
+          "likes": 22,
+          "replies": 3,
+          "checkedAt": "2026-08-18T18:12:00.000Z"
+        }
+      ],
+      "syncedAt": "2026-08-18T18:12:00.000Z"
+    },
+    {
+      "id": "useful-luck-vs-skill-strategy-bigchog-aug16",
+      "type": "useful",
+      "traits": [
+        "strategic QT"
+      ],
+      "slot": 3,
+      "bucket": "CT",
+      "visualCluster": "screenshot",
+      "note": "EN useful QT @bigchog: luck vs skill vs strategy — planting seeds isn't luck, which seed is; Fleming/petri plate. Framework essay.",
+      "at": "2026-08-16T18:23:51.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2089055553465073994",
+      "views": 367,
+      "likes": 20,
+      "replies": 6,
+      "ageHours": 48,
+      "updatedAt": "2026-08-18T18:12:00.000Z"
+    },
+    {
+      "id": "useful-goat-monti-crowd-launch-receipts-aug16",
+      "type": "useful",
+      "traits": [
+        "strategic QT",
+        "hot topic"
+      ],
+      "slot": 1,
+      "bucket": "CT",
+      "visualCluster": "collage",
+      "note": "EN useful+SF support: $GOAT Crowd Launch on StonkFun — skepticism vs onchain; Monti $2,097 took home vs $10k ATH claim he didn't dump; LP locked, no premine. QT @MontiMania. Receipts collage.",
+      "at": "2026-08-16T09:43:38.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2088924638529097813",
+      "views": 651,
+      "likes": 19,
+      "replies": 4,
+      "ageHours": 56,
+      "updatedAt": "2026-08-18T18:12:00.000Z"
+    },
+    {
+      "id": "useful-stonkfun-defillama-38th-aug13",
+      "type": "useful",
+      "traits": [
+        "provocative"
+      ],
+      "slot": 3,
+      "bucket": "CT",
+      "visualCluster": "scorecard",
+      "note": "EN useful+SF support: if StonkFun already on DefiLlama Combined, 7d protocol revenue = #38 ($442k), ahead of Meteora/Raydium. Scorecard plate Aug 6–13.",
+      "at": "2026-08-13T19:44:03.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2087988573442064506",
+      "views": 723,
+      "likes": 33,
+      "replies": 3,
+      "ageHours": 118,
+      "updatedAt": "2026-08-18T18:12:00.000Z"
+    },
     {
       "id": "useful-stonkfun-defillama-7d-rank-aug13",
       "type": "useful",
@@ -11,12 +170,12 @@
       "slot": 3,
       "bucket": "CT",
       "visualCluster": "scorecard",
-      "note": "EN useful+SF support: if listed on DefiLlama Combined, 7d protocol revenue = #37, ahead of Meteora/Raydium; QT @LaunchOnSF Llama adapter soon. Scorecard plate.",
+      "note": "EN useful+SF support: if listed on DefiLlama Combined, 7d protocol revenue = #37, ahead of Meteora/Raydium; QT @LaunchOnSF Llama adapter soon. Scorecard plate. Tweet tombstoned as of 2026-08-18.",
       "at": "2026-08-13T19:26:02.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2087984038673821995",
       "views": 19,
-      "ageHours": 0,
-      "updatedAt": "2026-08-13T19:31:12.000Z"
+      "ageHours": 119,
+      "updatedAt": "2026-08-18T18:12:00.000Z"
     },
     {
       "id": "strategic-qt-wale-nft-skill-issue-aug12",
@@ -30,11 +189,17 @@
       "note": "EN strategic QT @waleswoosh: art/cult/IP pfps (Quirkies/Chimpers/Wackyville/ARCADEPEPES) still live = founder skill issue; $20-flip degens ≠ jury for what NFTs need (casino wrappers).",
       "at": "2026-08-12T12:36:32.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2087518596335341969",
-      "likes": 34,
+      "likes": 36,
       "replies": 9,
-      "ageHours": 122,
-      "updatedAt": "2026-08-17T14:10:25.507Z",
+      "ageHours": 150,
+      "updatedAt": "2026-08-18T18:12:00.000Z",
       "snapshots": [
+        {
+          "ageHours": 122,
+          "likes": 34,
+          "replies": 9,
+          "checkedAt": "2026-08-18T18:12:00.000Z"
+        },
         {
           "ageHours": 99,
           "likes": 33,
@@ -102,7 +267,8 @@
           "checkedAt": "2026-08-12T12:42:30.123045Z"
         }
       ],
-      "syncedAt": "2026-08-17T14:10:25.507Z"
+      "syncedAt": "2026-08-18T18:12:00.000Z",
+      "views": 616
     },
     {
       "id": "useful-loshmi-stonk-sf-ship-aug11",
@@ -116,11 +282,17 @@
       "note": "EN useful+SF support: Loshmi baited people into reading $STONK chart themselves; same move for @LaunchOnSF — what ships + what already exists (self-QT prior STONK warning).",
       "at": "2026-08-11T19:06:19.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2087254303408808183",
-      "likes": 30,
+      "likes": 31,
       "replies": 4,
-      "ageHours": 139,
-      "updatedAt": "2026-08-17T14:10:25.507Z",
+      "ageHours": 167,
+      "updatedAt": "2026-08-18T18:12:00.000Z",
       "snapshots": [
+        {
+          "ageHours": 139,
+          "likes": 30,
+          "replies": 4,
+          "checkedAt": "2026-08-18T18:12:00.000Z"
+        },
         {
           "ageHours": 72,
           "likes": 29,
@@ -182,7 +354,8 @@
           "checkedAt": "2026-08-12T12:42:30.123045Z"
         }
       ],
-      "syncedAt": "2026-08-17T14:10:25.507Z"
+      "syncedAt": "2026-08-18T18:12:00.000Z",
+      "views": 828
     },
     {
       "id": "hot-topic-alon-jew-mode-aug11",
@@ -193,12 +366,19 @@
       "note": "EN hot topic QT @bandosei: Alon/pump.fun $0.10 repost campaign — post-irony FOMO ref or “jew mode” meme back.",
       "at": "2026-08-11T11:30:50.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2087139673579610308",
-      "views": 71,
-      "likes": 21,
+      "views": 437,
+      "likes": 22,
       "replies": 5,
-      "ageHours": 147,
-      "updatedAt": "2026-08-17T14:10:25.507Z",
+      "ageHours": 175,
+      "updatedAt": "2026-08-18T18:12:00.000Z",
       "snapshots": [
+        {
+          "ageHours": 147,
+          "views": 71,
+          "likes": 21,
+          "replies": 5,
+          "checkedAt": "2026-08-18T18:12:00.000Z"
+        },
         {
           "ageHours": 29,
           "views": 71,
@@ -249,7 +429,7 @@
           "checkedAt": "2026-08-11T12:18:19.928Z"
         }
       ],
-      "syncedAt": "2026-08-17T14:10:25.507Z"
+      "syncedAt": "2026-08-18T18:12:00.000Z"
     },
     {
       "id": "hot-topic-spritehood-iq-test-aug11",
@@ -260,12 +440,19 @@
       "note": "EN hot topic: Spritehood Wisps by Cole = simple IQ test; >3900 unique holders failed (holders screenshot).",
       "at": "2026-08-11T10:10:33.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2087119473253744895",
-      "views": 84,
-      "likes": 17,
+      "views": 196,
+      "likes": 18,
       "replies": 1,
-      "ageHours": 148,
-      "updatedAt": "2026-08-17T14:10:25.507Z",
+      "ageHours": 176,
+      "updatedAt": "2026-08-18T18:12:00.000Z",
       "snapshots": [
+        {
+          "ageHours": 148,
+          "views": 84,
+          "likes": 17,
+          "replies": 1,
+          "checkedAt": "2026-08-18T18:12:00.000Z"
+        },
         {
           "ageHours": 30,
           "views": 84,
@@ -344,7 +531,7 @@
           "checkedAt": "2026-08-11T10:14:30.686Z"
         }
       ],
-      "syncedAt": "2026-08-17T14:10:25.507Z"
+      "syncedAt": "2026-08-18T18:12:00.000Z"
     },
     {
       "id": "useful-stonkfun-defillama-gap-scorecard-aug10",
@@ -358,12 +545,19 @@
       "note": "EN useful+provocative: StonkFun missing on DefiLlama roundups/leaderboards despite ~$300k fees / $0 raised; scorecard plate Jul23–Aug10.",
       "at": "2026-08-10T10:18:20.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2086759044358738171",
-      "views": 558,
-      "likes": 27,
+      "views": 703,
+      "likes": 28,
       "replies": 6,
-      "ageHours": 172,
-      "updatedAt": "2026-08-17T14:10:25.507Z",
+      "ageHours": 200,
+      "updatedAt": "2026-08-18T18:12:00.000Z",
       "snapshots": [
+        {
+          "ageHours": 172,
+          "views": 558,
+          "likes": 27,
+          "replies": 6,
+          "checkedAt": "2026-08-18T18:12:00.000Z"
+        },
         {
           "ageHours": 51,
           "views": 558,
@@ -442,7 +636,7 @@
           "checkedAt": "2026-08-10T17:59:17.838254Z"
         }
       ],
-      "syncedAt": "2026-08-17T14:10:25.507Z"
+      "syncedAt": "2026-08-18T18:12:00.000Z"
     },
     {
       "id": "strategic-qt-builder-stonk-listings-aug6",
@@ -456,13 +650,20 @@
       "note": "EN strategic QT @LaunchOnSF: STONK multi-listing applications — 'don't say you weren't warned'; soft builder push / look-at-SF.",
       "at": "2026-08-06T12:35:51.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2085344097850491288",
-      "views": 537,
-      "likes": 36,
+      "views": 1511,
+      "likes": 37,
       "replies": 9,
-      "ageHours": 266,
-      "updatedAt": "2026-08-17T14:10:25.507Z",
-      "syncedAt": "2026-08-17T14:10:25.507Z",
+      "ageHours": 294,
+      "updatedAt": "2026-08-18T18:12:00.000Z",
+      "syncedAt": "2026-08-18T18:12:00.000Z",
       "snapshots": [
+        {
+          "ageHours": 266,
+          "views": 537,
+          "likes": 36,
+          "replies": 9,
+          "checkedAt": "2026-08-18T18:12:00.000Z"
+        },
         {
           "ageHours": 145,
           "views": 537,
@@ -510,13 +711,20 @@
       "note": "EN provocative+hot-topic QT @Deebs_DeFi: early Kaito 4 figures but InfoFi form degraded CT (AI compliments / Kaito-cluster KOLs); Nikita credit + incentives broke platform.",
       "at": "2026-08-06T10:05:57.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2085306374217400816",
-      "views": 496,
-      "likes": 27,
+      "views": 537,
+      "likes": 28,
       "replies": 2,
-      "ageHours": 268,
-      "updatedAt": "2026-08-17T14:10:25.507Z",
-      "syncedAt": "2026-08-17T14:10:25.507Z",
+      "ageHours": 296,
+      "updatedAt": "2026-08-18T18:12:00.000Z",
+      "syncedAt": "2026-08-18T18:12:00.000Z",
       "snapshots": [
+        {
+          "ageHours": 268,
+          "views": 496,
+          "likes": 27,
+          "replies": 2,
+          "checkedAt": "2026-08-18T18:12:00.000Z"
+        },
         {
           "ageHours": 148,
           "views": 496,
@@ -8735,13 +8943,15 @@
     {
       "id": "idea-kaito-criminal-pump-aug11",
       "text": "про злочинний памп Kaito",
-      "createdAt": "2026-08-11T01:31:00.000Z"
+      "createdAt": "2026-08-11T01:31:00.000Z",
+      "usedAt": "2026-08-18T13:48:55.000Z"
     },
     {
       "id": "idea-solana-wallet-for-friend-aug17",
       "text": "запитує за друга, який гаманець для Solana кращий",
       "type": "useful",
-      "createdAt": "2026-08-17T00:02:00.000Z"
+      "createdAt": "2026-08-17T00:02:00.000Z",
+      "usedAt": "2026-08-17T17:44:55.000Z"
     },
     {
       "id": "idea-ct-fomo-top100-wallets-aug17",
@@ -8759,7 +8969,8 @@
       "id": "idea-terminal-take-rate-vs-volume-aug17",
       "text": "порівняти термінали FOMO / PumpFun / Axiom / GMGN: дохід vs обʼєми → коефіцієнт зі сторони юзера (хто менше обдирає). великий дохід платформи ≠ краща для користувача",
       "type": "useful",
-      "createdAt": "2026-08-17T14:19:00.000Z"
+      "createdAt": "2026-08-17T14:19:00.000Z",
+      "usedAt": "2026-08-18T18:06:55.000Z"
     }
   ],
   "deletedUrls": [
