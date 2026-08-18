@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-08-18T13:53:29.736Z",
+  "updatedAt": "2026-08-18T14:45:40.003Z",
   "source": "https://www.stonkfun.xyz/api/public/v1/revenue",
   "latest": {
-    "at": "2026-08-18T13:53:29.704Z",
-    "totalRevenueUsd": 736727.1894223378,
-    "totalBuybackUsd": 423958.19242970215,
-    "buybackCount": 18031,
-    "volume24hUsd": 5693315.746286618,
-    "tokensTotal": 3814,
+    "at": "2026-08-18T14:45:39.977Z",
+    "totalRevenueUsd": 738031.1581598421,
+    "totalBuybackUsd": 424734.80294464785,
+    "buybackCount": 18061,
+    "volume24hUsd": 5631707.835419659,
+    "tokensTotal": 3821,
     "graduated": 306
   },
   "days": [
@@ -1352,6 +1352,14 @@
       "buybackCount": 18031,
       "volume24hUsd": 5693315.746286618,
       "tokensTotal": 3814
+    },
+    {
+      "at": "2026-08-18T14:45:39.977Z",
+      "totalRevenueUsd": 738031.1581598421,
+      "totalBuybackUsd": 424734.80294464785,
+      "buybackCount": 18061,
+      "volume24hUsd": 5631707.835419659,
+      "tokensTotal": 3821
     }
   ]
 }
