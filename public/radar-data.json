@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T16:54:24.845Z",
+  "updatedAt": "2026-08-18T17:16:50.508Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -15311,7 +15311,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/chainalysis-sues-us-over-ices-sole-source-contract-with-trm-labs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -16726,6 +16726,34 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260818-bitcoin-has-gone-quiet-as-tr-1f5abdd8",
+      "at": "2026-08-18",
+      "scannedAt": "2026-08-18T17:16:50.508Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin has gone quiet as traders chase ‘5x or 10x’ payoffs elsewhere",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/18/bitcoin-has-gone-quiet-as-traders-chase-5x-or-10x-payoffs-elsewhere",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260818-federal-prosecutors-blast-ex-ea7d66b8",
+      "at": "2026-08-18",
+      "scannedAt": "2026-08-18T17:16:50.508Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Federal prosecutors blast ex-Celsius CEO’s motion to vacate as ‘without merit’",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/us-prosecutors-celsius-ceo-alex-mashinsky-motion-vacate-deny?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "expired",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -17393,10 +17421,11 @@
     },
     {
       "date": "2026-08-18",
-      "at": "2026-08-18T16:54:24.845Z",
-      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-18T17:16:50.508Z",
+      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260818-metaplanet-expands-bitcoin-t-df96ea7a"
+        "sig-20260818-bitcoin-has-gone-quiet-as-tr-1f5abdd8",
+        "sig-20260818-federal-prosecutors-blast-ex-ea7d66b8"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
