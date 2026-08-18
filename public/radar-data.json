@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T08:35:00.877Z",
+  "updatedAt": "2026-08-18T09:20:29.735Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -15709,7 +15709,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375749/hackers-macos-screen-sharing-secretly-mine-monero",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -15723,7 +15723,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/opinion/2026/08/17/the-coldcard-hack-proves-reputation-is-not-a-security-model",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -16313,6 +16313,34 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/bitbox-patches-severe-wallet-firmware-flaws?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260818-china-adds-8-banks-to-digita-77341daf",
+      "at": "2026-08-18",
+      "scannedAt": "2026-08-18T09:20:29.735Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "China adds 8 banks to digital yuan network as operator count hits 30",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/china-adds-8-banks-to-digital-yuan-network-as-operator-count-hits-30?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260818-south-korea-moves-to-block-p-78f4c4c4",
+      "at": "2026-08-18",
+      "scannedAt": "2026-08-18T09:20:29.735Z",
+      "lane": "cex-tradfi",
+      "kind": "narrative",
+      "what": "South Korea moves to block Polymarket over gambling concerns",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/south-korea-block-polymarket-gambling-concerns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "status": "open",
       "tags": [],
       "watcher": true
@@ -16989,11 +17017,11 @@
     },
     {
       "date": "2026-08-18",
-      "at": "2026-08-18T08:35:00.877Z",
+      "at": "2026-08-18T09:20:29.735Z",
       "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260818-live-updates-bitcoin-holds-6-c46cf2e1",
-        "sig-20260818-bitbox-patches-severe-wallet-0b9da889"
+        "sig-20260818-china-adds-8-banks-to-digita-77341daf",
+        "sig-20260818-south-korea-moves-to-block-p-78f4c4c4"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
