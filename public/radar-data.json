@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T12:21:09.719Z",
+  "updatedAt": "2026-08-18T13:15:29.025Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -15541,7 +15541,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/17/bitcoin-options-remain-expensive-despite-summer-calm-here-s-why-it-matters",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -15555,7 +15555,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/daybook-us/2026/08/17/bitcoin-s-biggest-holders-strategy-and-metaplanet-are-betting-on-math-not-price",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -15569,7 +15569,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/tech/2026/08/17/ethereum-s-next-big-upgrade-has-66-proposals-including-a-major-privacy-fix",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -15583,7 +15583,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/tech/2026/08/17/israel-s-largest-crypto-broker-bits-of-gold-hit-by-data-breach-affecting-200-000-customers",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -16456,6 +16456,66 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260818-cash-app-s-crypto-support-ex-638630c5",
+      "at": "2026-08-18",
+      "scannedAt": "2026-08-18T13:15:29.025Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Cash App's crypto support expands beyond bitcoin and USDC via MoonPay",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/18/cash-app-s-crypto-support-expands-beyond-bitcoin-and-usdc-via-moonpay",
+      "status": "open",
+      "tags": [
+        "stables-ai"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260818-visa-looking-for-new-stablec-4c0fec3e",
+      "at": "2026-08-18",
+      "scannedAt": "2026-08-18T13:15:29.025Z",
+      "lane": "stables-payments",
+      "kind": "narrative",
+      "what": "Visa looking for new stablecoin settlement partner after BVNK sale to Mastercard",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/18/visa-is-looking-for-a-new-stablecoin-settlement-partner-now-that-bvnk-is-owned-by-mastercard",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260818-moonpay-adds-cash-app-pay-fo-0746aec9",
+      "at": "2026-08-18",
+      "scannedAt": "2026-08-18T13:15:29.025Z",
+      "lane": "ai-crypto",
+      "kind": "narrative",
+      "what": "MoonPay adds Cash App Pay for crypto purchases by US customers",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/moonpay-cash-app-pay-crypto-purchases-us-customers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [
+        "stables-ai"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260818-morning-minute-pump-prints-f-0e967a08",
+      "at": "2026-08-18",
+      "scannedAt": "2026-08-18T13:15:29.025Z",
+      "lane": "memes-casino",
+      "kind": "narrative",
+      "what": "Morning Minute: PUMP Prints First Golden Cross as Revenue Hits Seven-Month High",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375856/morning-minute-pump-prints-first-golden-cross-as-revenue-hits-seven-month-high",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -16778,29 +16838,23 @@
     },
     {
       "id": "ang-watch-stables-ai",
-      "at": "2026-08-05T21:40:48.113Z",
-      "thesis": "Watcher cluster [stables-ai]: 10 related receipts in ~7d across ai-crypto, incentives-campaigns.",
+      "at": "2026-08-18T13:15:29.025Z",
+      "thesis": "Watcher cluster [stables-ai]: 2 related receipts in ~7d across stables-payments, ai-crypto.",
       "voiceHook": "Pattern forming: stables ai.",
       "signalIds": [
-        "sig-20260730-lightning-labs-launches-site-1b7eea1f",
-        "sig-20260729-moonpay-vault-enables-chatgp-ce970112",
-        "sig-20260729-moonpay-s-paybox-puts-a-cryp-fc2f230b",
-        "sig-20260729-moonpay-paybox-x",
-        "sig-20260731-claude-hacked-three-companie-5ddbc8ce",
-        "sig-20260803-former-fbi-agent-charged-wit-8ea885d1",
-        "sig-20260804-alibaba-just-gave-away-its-b-ad61f80e",
-        "sig-20260804-ai-enthusiast-bugs-his-toddl-6363d398"
+        "sig-20260818-cash-app-s-crypto-support-ex-638630c5",
+        "sig-20260818-moonpay-adds-cash-app-pay-fo-0746aec9"
       ],
       "lanes": [
-        "ai-crypto",
-        "incentives-campaigns"
+        "stables-payments",
+        "ai-crypto"
       ],
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for stables-ai: dates + sources",
-      "expiresAt": "2026-08-09T21:40:48.113Z",
-      "status": "expired",
-      "noteworthy": false,
+      "expiresAt": "2026-08-22T13:15:29.025Z",
+      "status": "ready",
+      "noteworthy": true,
       "watcher": true
     },
     {
@@ -17129,13 +17183,20 @@
     },
     {
       "date": "2026-08-18",
-      "at": "2026-08-18T12:21:09.719Z",
-      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-18T13:15:29.025Z",
+      "note": "Watcher: +4 signals, spikes=0, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260818-ethereum-s-next-upgrade-brea-43e07157"
+        "sig-20260818-cash-app-s-crypto-support-ex-638630c5",
+        "sig-20260818-visa-looking-for-new-stablec-4c0fec3e",
+        "sig-20260818-moonpay-adds-cash-app-pay-fo-0746aec9",
+        "sig-20260818-morning-minute-pump-prints-f-0e967a08"
       ],
-      "angleIdsTouched": [],
-      "noteworthyIds": []
+      "angleIdsTouched": [
+        "ang-watch-stables-ai"
+      ],
+      "noteworthyIds": [
+        "ang-watch-stables-ai"
+      ]
     }
   ]
 }
