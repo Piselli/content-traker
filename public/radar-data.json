@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T07:12:43.603Z",
+  "updatedAt": "2026-08-19T07:58:57.215Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -17826,11 +17826,9 @@
     },
     {
       "date": "2026-08-19",
-      "at": "2026-08-19T07:12:43.603Z",
-      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [
-        "sig-20260819-maya-protocol-exploit-drains-2fff7bed"
-      ],
+      "at": "2026-08-19T07:58:57.215Z",
+      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
