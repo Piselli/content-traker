@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T03:22:25.864Z",
+  "updatedAt": "2026-08-19T04:04:36.688Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -16723,7 +16723,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/metaplanet-expands-bitcoin-treasury-strategy-super-league?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -17075,6 +17075,20 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/policy/2026/08/18/it-has-to-pass-andrew-cuomo-warns-u-s-is-falling-behind-on-crypto-rules",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260819-us-accounting-board-fasb-pro-039cb1d6",
+      "at": "2026-08-19",
+      "scannedAt": "2026-08-19T04:04:36.688Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "US accounting board FASB proposes conditions for stablecoins as cash equivalents",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/us-accounting-board-fasb-proposes-conditions-for-stablecoins-as-cash-equivalents?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "status": "open",
       "tags": [],
       "watcher": true
@@ -17756,9 +17770,11 @@
     },
     {
       "date": "2026-08-19",
-      "at": "2026-08-19T03:22:25.864Z",
-      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [],
+      "at": "2026-08-19T04:04:36.688Z",
+      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [
+        "sig-20260819-us-accounting-board-fasb-pro-039cb1d6"
+      ],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
