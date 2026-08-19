@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-08-19T01:51:22.253Z",
+  "updatedAt": "2026-08-19T02:05:06.349Z",
   "source": "defillama + solana RSS + pattern detectors",
   "latest": {
-    "at": "2026-08-19T01:51:19.953Z",
+    "at": "2026-08-19T02:05:02.345Z",
     "date": "2026-08-19",
     "tvlUsd": 4899670690.799746,
     "fees24hUsd": 10777492.389999999,
@@ -1816,7 +1816,7 @@
     {
       "date": "2026-08-19",
       "metrics": {
-        "at": "2026-08-19T01:51:19.953Z",
+        "at": "2026-08-19T02:05:02.345Z",
         "date": "2026-08-19",
         "tvlUsd": 4899670690.799746,
         "fees24hUsd": 10777492.389999999,
@@ -1979,9 +1979,9 @@
         "historyDays": 90
       },
       "stonkfun": {
-        "latestTotalUsd": 752417.854140484,
+        "latestTotalUsd": 752507.0022747584,
         "todayOpenUsd": 750868.3400126621,
-        "todaySoFarUsd": 1549.5141278218944,
+        "todaySoFarUsd": 1638.6622620963026,
         "recentClosed": [
           {
             "date": "2026-08-12",
@@ -2118,7 +2118,7 @@
       "id": "div-dex-fees-2026-08-19",
       "kind": "divergence",
       "date": "2026-08-19",
-      "at": "2026-08-19T01:51:19.953Z",
+      "at": "2026-08-19T02:05:02.345Z",
       "strength": "med",
       "title": "DEX vol vs fees divergence (+27.9pp)",
       "detail": "DEX 23.4% / fees -4.5% (1d)",
@@ -2252,7 +2252,7 @@
       "patternId": "div-dex-fees-2026-08-19",
       "kind": "divergence",
       "date": "2026-08-19",
-      "at": "2026-08-19T01:51:19.953Z",
+      "at": "2026-08-19T02:05:02.345Z",
       "title": "DEX vol vs fees divergence (+27.9pp)",
       "hook": "Solana DEX volume up, fees not following. Volume without take rate is just noise.",
       "detail": "DEX 23.4% / fees -4.5% (1d)"
