@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T13:22:39.586Z",
+  "updatedAt": "2026-08-19T14:03:13.486Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -16341,7 +16341,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/south-korea-block-polymarket-gambling-concerns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -16355,7 +16355,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375841/bitpanda-europe-first-mica-penalty",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -16369,7 +16369,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/18/bitcoin-scored-a-rare-win-over-s-and-p-500-on-monday",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -17432,6 +17432,48 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260819-200-000-fake-ai-victims-depl-b2a4c8c8",
+      "at": "2026-08-19",
+      "scannedAt": "2026-08-19T14:03:13.486Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "200,000 fake AI ‘victims’ deployed to scam bait online fraudsters",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/magazine/fake-ai-victims-are-scam-baiting-600000-fraudsters-every-month?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260819-sec-regulatory-proposal-mark-89b371ff",
+      "at": "2026-08-19",
+      "scannedAt": "2026-08-19T14:03:13.486Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "SEC regulatory proposal marks ‘important’ step forward from ‘inapt’ crypto rules: Commissioner Peirce",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/sec-proposal-forward-inapt-crypto-rules-commissioner-peirce?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260819-chinese-insurtech-firm-zhiba-d9f01328",
+      "at": "2026-08-19",
+      "scannedAt": "2026-08-19T14:03:13.486Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "Chinese InsurTech Firm Zhibao Adds 2,380 Bitcoin in $154.7M Treasury Pivot",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375935/china-zhibao-bitcoin-treasury-pivot",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -18111,19 +18153,15 @@
     },
     {
       "date": "2026-08-19",
-      "at": "2026-08-19T13:22:39.586Z",
-      "note": "Watcher: +3 signals, spikes=0, patternPings=1.",
+      "at": "2026-08-19T14:03:13.486Z",
+      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260819-beyond-crypto-funding-rates--ea1953e4",
-        "sig-20260819-strengthen-the-clarity-act-4196fe6a",
-        "sig-20260819-bitcoin-is-flashing-8-of-12--17ebb4fe"
+        "sig-20260819-200-000-fake-ai-victims-depl-b2a4c8c8",
+        "sig-20260819-sec-regulatory-proposal-mark-89b371ff",
+        "sig-20260819-chinese-insurtech-firm-zhiba-d9f01328"
       ],
-      "angleIdsTouched": [
-        "ang-watch-clarity-policy"
-      ],
-      "noteworthyIds": [
-        "ang-watch-clarity-policy"
-      ]
+      "angleIdsTouched": [],
+      "noteworthyIds": []
     }
   ]
 }
