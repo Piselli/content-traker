@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T06:23:19.113Z",
+  "updatedAt": "2026-08-19T07:12:43.603Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -16667,7 +16667,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/markets/bitcoin-tags-65k-as-sp-500-rebounds-from-2-week-lows-on-us-iran-rhetoric?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -17131,6 +17131,20 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/19/robot-maker-unitree-s-ipo-surges-600-outpacing-crypto-traders-premarket-bets",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260819-maya-protocol-exploit-drains-2fff7bed",
+      "at": "2026-08-19",
+      "scannedAt": "2026-08-19T07:12:43.603Z",
+      "lane": "failures-rugs",
+      "kind": "exploit",
+      "what": "Maya Protocol exploit drains bitcoin and other assets as pool value drops $11 million",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/19/maya-protocol-exploit-drains-bitcoin-and-other-assets-as-pool-value-drops-usd11-million",
       "status": "open",
       "tags": [],
       "watcher": true
@@ -17812,9 +17826,11 @@
     },
     {
       "date": "2026-08-19",
-      "at": "2026-08-19T06:23:19.113Z",
-      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [],
+      "at": "2026-08-19T07:12:43.603Z",
+      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [
+        "sig-20260819-maya-protocol-exploit-drains-2fff7bed"
+      ],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
