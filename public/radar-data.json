@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T08:35:05.306Z",
+  "updatedAt": "2026-08-19T09:21:33.056Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -16611,7 +16611,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/18/hashkey-taps-hong-kong-s-first-regulated-stablecoin-to-settle-insurance-and-trade-deals",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -16625,7 +16625,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375839/bitcoin-wallet-untouched-15-years-life",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -16639,7 +16639,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/18/trump-linked-world-liberty-says-worldclaw-is-independent-after-questions-over-ai-model-access",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -17159,6 +17159,48 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/markets/bitcoin-etf-august-net-inflows-approach-1b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260819-openai-trails-anthropic-as-l-e223cac1",
+      "at": "2026-08-19",
+      "scannedAt": "2026-08-19T09:21:33.056Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "OpenAI trails Anthropic as losses deepen and Altman pauses frontier AI training",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/19/openai-trails-anthropic-as-losses-deepen-and-altman-pauses-frontier-ai-training",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260819-live-updates-bitcoin-holds-f-6211efcf",
+      "at": "2026-08-19",
+      "scannedAt": "2026-08-19T09:21:33.056Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Live updates: Bitcoin holds firm above $64,000 as South Korea’s Kospi sinks 5.8%",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/19/live-updates-bitcoin-holds-firm-above-usd64-000-as-south-korea-s-kospi-sinks-5-8",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260819-arthur-hayes-takes-ceo-role--7f137664",
+      "at": "2026-08-19",
+      "scannedAt": "2026-08-19T09:21:33.056Z",
+      "lane": "incentives-campaigns",
+      "kind": "campaign",
+      "what": "Arthur Hayes takes CEO role at Flop Labs ahead of Q4 airdrop",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/arthur-hayes-ceo-role-flop-labs-q4-airdrop?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "status": "open",
       "tags": [],
       "watcher": true
@@ -17840,10 +17882,12 @@
     },
     {
       "date": "2026-08-19",
-      "at": "2026-08-19T08:35:05.306Z",
-      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-19T09:21:33.056Z",
+      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260819-bitcoin-etfs-add-189m-as-aug-58db292d"
+        "sig-20260819-openai-trails-anthropic-as-l-e223cac1",
+        "sig-20260819-live-updates-bitcoin-holds-f-6211efcf",
+        "sig-20260819-arthur-hayes-takes-ceo-role--7f137664"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
