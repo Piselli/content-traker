@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T04:59:00.343Z",
+  "updatedAt": "2026-08-19T05:28:15.390Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -16695,7 +16695,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/neuberger-launches-tokenized-fixed-income-fund-with-securitize?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -17103,6 +17103,20 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/19/solana-leads-bitcoin-and-ether-higher-while-korean-chip-stocks-slide-7",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260819-mayachain-halts-network-afte-1cdc87a5",
+      "at": "2026-08-19",
+      "scannedAt": "2026-08-19T05:28:15.390Z",
+      "lane": "failures-rugs",
+      "kind": "exploit",
+      "what": "MAYAChain halts network after estimated $1.7M exploit",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/maya-protocol-1-7m-exploit-network-halt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "status": "open",
       "tags": [],
       "watcher": true
@@ -17784,10 +17798,10 @@
     },
     {
       "date": "2026-08-19",
-      "at": "2026-08-19T04:59:00.343Z",
+      "at": "2026-08-19T05:28:15.390Z",
       "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260819-solana-leads-bitcoin-and-eth-c41d9d7d"
+        "sig-20260819-mayachain-halts-network-afte-1cdc87a5"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
