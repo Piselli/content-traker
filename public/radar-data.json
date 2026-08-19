@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T11:14:36.798Z",
+  "updatedAt": "2026-08-19T11:46:41.427Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -16483,7 +16483,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/18/visa-is-looking-for-a-new-stablecoin-settlement-partner-now-that-bvnk-is-owned-by-mastercard",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -16513,7 +16513,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375856/morning-minute-pump-prints-first-golden-cross-as-revenue-hits-seven-month-high",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -17290,6 +17290,48 @@
         "wrappers-etf"
       ],
       "watcher": true
+    },
+    {
+      "id": "sig-20260819-fed-decision-making-comes-in-32b46ff6",
+      "at": "2026-08-19",
+      "scannedAt": "2026-08-19T11:46:41.427Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Fed decision making comes into focus as bitcoin holds steady, bond yields surge",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/daybook-us/2026/08/19/fed-decision-making-comes-into-focus-as-bitcoin-holds-steady-bond-yields-surge",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260819-ripple-raises-275m-for-us-pr-2c18c34b",
+      "at": "2026-08-19",
+      "scannedAt": "2026-08-19T11:46:41.427Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Ripple raises $275M for US prime brokerage to meet institutional demand",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/ripple-raises-275m-us-prime-brokerage?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260819-alleged-165m-crypto-ponzi-ma-c122f852",
+      "at": "2026-08-19",
+      "scannedAt": "2026-08-19T11:46:41.427Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Alleged $165M Crypto Ponzi Mastermind Deported From Fiji to US",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "decrypt",
+      "url": "https://decrypt.co/375933/crypto-ponzi-mastermind-deported-fiji-us",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -17968,10 +18010,12 @@
     },
     {
       "date": "2026-08-19",
-      "at": "2026-08-19T11:14:36.798Z",
-      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-19T11:46:41.427Z",
+      "note": "Watcher: +3 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260819-bitcoin-has-largely-purged-f-f7ca6940"
+        "sig-20260819-fed-decision-making-comes-in-32b46ff6",
+        "sig-20260819-ripple-raises-275m-for-us-pr-2c18c34b",
+        "sig-20260819-alleged-165m-crypto-ponzi-ma-c122f852"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
