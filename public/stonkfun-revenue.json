@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-08-18T23:31:10.791Z",
+  "updatedAt": "2026-08-19T00:01:58.914Z",
   "source": "https://www.stonkfun.xyz/api/public/v1/revenue",
   "latest": {
-    "at": "2026-08-18T23:31:10.739Z",
-    "totalRevenueUsd": 750614.8062674003,
-    "totalBuybackUsd": 431606.63718066475,
-    "buybackCount": 18351,
-    "volume24hUsd": 4597179.175928892,
-    "tokensTotal": 3893,
+    "at": "2026-08-19T00:01:58.451Z",
+    "totalRevenueUsd": 750868.3400126621,
+    "totalBuybackUsd": 431792.232284085,
+    "buybackCount": 18360,
+    "volume24hUsd": 4606268.691480022,
+    "tokensTotal": 3900,
     "graduated": 309
   },
   "days": [
@@ -125,13 +125,27 @@
     {
       "date": "2026-08-18",
       "openTotalUsd": 718124.125001511,
+      "closeTotalUsd": 750868.3400126621,
+      "revenueUsd": 32744.21501115116,
+      "closed": true,
+      "notified": true,
+      "openAt": "2026-08-18T00:02:32.287Z",
+      "closeAt": "2026-08-19T00:01:58.451Z",
+      "openSkewMin": 3,
+      "closeSkewMin": 2,
+      "approximate": false,
+      "freeze": true
+    },
+    {
+      "date": "2026-08-19",
+      "openTotalUsd": 750868.3400126621,
       "closeTotalUsd": null,
       "revenueUsd": null,
       "closed": false,
       "notified": false,
-      "openAt": "2026-08-18T00:02:32.287Z",
+      "openAt": "2026-08-19T00:01:58.451Z",
       "closeAt": null,
-      "openSkewMin": 3,
+      "openSkewMin": 2,
       "closeSkewMin": null,
       "approximate": false
     }
@@ -1432,6 +1446,14 @@
       "buybackCount": 18351,
       "volume24hUsd": 4597179.175928892,
       "tokensTotal": 3893
+    },
+    {
+      "at": "2026-08-19T00:01:58.451Z",
+      "totalRevenueUsd": 750868.3400126621,
+      "totalBuybackUsd": 431792.232284085,
+      "buybackCount": 18360,
+      "volume24hUsd": 4606268.691480022,
+      "tokensTotal": 3900
     }
   ]
 }
