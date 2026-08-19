@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2026-08-19T02:05:06.349Z",
+  "updatedAt": "2026-08-19T13:06:03.110Z",
   "source": "defillama + solana RSS + pattern detectors",
   "latest": {
-    "at": "2026-08-19T02:05:02.345Z",
+    "at": "2026-08-19T13:06:01.579Z",
     "date": "2026-08-19",
-    "tvlUsd": 4899670690.799746,
-    "fees24hUsd": 10777492.389999999,
-    "feesChange1dPct": -4.5,
-    "revenue24hUsd": 4063355.8299999996,
-    "revenueChange1dPct": -9.1,
-    "dexVolume24hUsd": 1820196190.04,
-    "dexChange1dPct": 23.4,
+    "tvlUsd": 4915470733.4175825,
+    "fees24hUsd": 8688793.229999999,
+    "feesChange1dPct": -23,
+    "revenue24hUsd": 4035859.1999999997,
+    "revenueChange1dPct": -9.7,
+    "dexVolume24hUsd": 1838194723.04,
+    "dexChange1dPct": 24.6,
     "topFees": [
       {
         "name": "PumpSwap",
         "category": "Dexs",
-        "fees24h": 3192537
+        "fees24h": 2614322
       },
       {
         "name": "pump.fun",
         "category": "Launchpad",
-        "fees24h": 1414079
+        "fees24h": 1511833
       },
       {
         "name": "Axiom",
@@ -30,54 +30,54 @@
       {
         "name": "Solana",
         "category": "Chain",
-        "fees24h": 732758
+        "fees24h": 649172
       },
       {
         "name": "fomo Wallet",
         "category": "Trading App",
-        "fees24h": 479350
+        "fees24h": 449162
+      },
+      {
+        "name": "Collector Crypt",
+        "category": "Physical TCG",
+        "fees24h": 378684
       },
       {
         "name": "Meteora DLMM",
         "category": "Dexs",
-        "fees24h": 476228
-      },
-      {
-        "name": "Sanctum Validator LSTs",
-        "category": "Liquid Staking",
-        "fees24h": 369770
-      },
-      {
-        "name": "Binance Staked SOL",
-        "category": "Liquid Staking",
-        "fees24h": 228451
-      },
-      {
-        "name": "Jito Liquid Staking",
-        "category": "Liquid Staking",
-        "fees24h": 216586
-      },
-      {
-        "name": "GMGN",
-        "category": "Telegram Bot",
-        "fees24h": 203977
-      },
-      {
-        "name": "pump.fun Mobile App",
-        "category": "Interface",
-        "fees24h": 179931
+        "fees24h": 346408
       },
       {
         "name": "Terminal",
         "category": "Telegram Bot",
-        "fees24h": 173237
+        "fees24h": 159228
+      },
+      {
+        "name": "Phantom Wallet",
+        "category": "Wallets",
+        "fees24h": 157340
+      },
+      {
+        "name": "pump.fun Mobile App",
+        "category": "Interface",
+        "fees24h": 155700
+      },
+      {
+        "name": "Kamino Lend",
+        "category": "Lending",
+        "fees24h": 138270
+      },
+      {
+        "name": "DEX Screener",
+        "category": "Coins Tracker",
+        "fees24h": 136889
       }
     ],
     "topRevenue": [
       {
         "name": "pump.fun",
         "category": "Launchpad",
-        "revenue24h": 1082404
+        "revenue24h": 1155883
       },
       {
         "name": "Axiom",
@@ -87,79 +87,79 @@
       {
         "name": "PumpSwap",
         "category": "Dexs",
-        "revenue24h": 508148
+        "revenue24h": 473271
       },
       {
         "name": "fomo Wallet",
         "category": "Trading App",
-        "revenue24h": 449250
-      },
-      {
-        "name": "Phantom Wallet",
-        "category": "Wallets",
-        "revenue24h": 162321
-      },
-      {
-        "name": "DEX Screener",
-        "category": "Coins Tracker",
-        "revenue24h": 141665
-      },
-      {
-        "name": "Terminal",
-        "category": "Telegram Bot",
-        "revenue24h": 107796
-      },
-      {
-        "name": "GMGN",
-        "category": "Telegram Bot",
-        "revenue24h": 85500
+        "revenue24h": 418409
       },
       {
         "name": "Collector Crypt",
         "category": "Physical TCG",
-        "revenue24h": 79308
+        "revenue24h": 378684
       },
       {
-        "name": "pump.fun Mobile App",
-        "category": "Interface",
-        "revenue24h": 76689
+        "name": "Phantom Wallet",
+        "category": "Wallets",
+        "revenue24h": 157340
+      },
+      {
+        "name": "DEX Screener",
+        "category": "Coins Tracker",
+        "revenue24h": 136889
+      },
+      {
+        "name": "GMGN",
+        "category": "Telegram Bot",
+        "revenue24h": 104679
+      },
+      {
+        "name": "Terminal",
+        "category": "Telegram Bot",
+        "revenue24h": 96664
       },
       {
         "name": "Jupiter Aggregator",
         "category": "DEX Aggregator",
-        "revenue24h": 76350
+        "revenue24h": 74912
+      },
+      {
+        "name": "pump.fun Mobile App",
+        "category": "Interface",
+        "revenue24h": 74215
       },
       {
         "name": "Pacifica Perps",
         "category": "Derivatives",
-        "revenue24h": 75504
+        "revenue24h": 69782
       }
     ],
     "shares": {
-      "launchpadPct": 17.8,
-      "dexPct": 40.9,
-      "appsBotsPct": 24.1
+      "launchpadPct": 20.8,
+      "dexPct": 37,
+      "appsBotsPct": 24
     },
     "chainFees": {
       "Ethereum": {
-        "tvlUsd": 41785484191.44894,
-        "fees24hUsd": 7461986.039999994
+        "tvlUsd": 41796101927.22679,
+        "fees24hUsd": 7180745.819999997
       },
       "Base": {
-        "tvlUsd": 4751386578.981685,
-        "fees24hUsd": 1418666.8299999998
+        "tvlUsd": 4688937186.69041,
+        "fees24hUsd": 1441768.0700000003
       },
       "BSC": {
-        "tvlUsd": 4902851672.059067
+        "tvlUsd": 4900195255.886449
       },
       "Arbitrum": {
-        "tvlUsd": 1241478288.5557163
+        "tvlUsd": 1243959382.8266678
       },
       "Solana": {
-        "tvlUsd": 4899670690.799746,
-        "fees24hUsd": 10777492.389999999,
-        "revenue24hUsd": 4063355.8299999996,
-        "dexVolume24hUsd": 1820196190.04
+        "tvlUsd": 4915470733.4175825,
+        "fees24hUsd": 8688793.229999999,
+        "revenue24hUsd": 4035859.1999999997,
+        "dexVolume24hUsd": 1838194723.04
       }
     },
     "historyDays": 90
@@ -1816,25 +1816,25 @@
     {
       "date": "2026-08-19",
       "metrics": {
-        "at": "2026-08-19T02:05:02.345Z",
+        "at": "2026-08-19T13:06:01.579Z",
         "date": "2026-08-19",
-        "tvlUsd": 4899670690.799746,
-        "fees24hUsd": 10777492.389999999,
-        "feesChange1dPct": -4.5,
-        "revenue24hUsd": 4063355.8299999996,
-        "revenueChange1dPct": -9.1,
-        "dexVolume24hUsd": 1820196190.04,
-        "dexChange1dPct": 23.4,
+        "tvlUsd": 4915470733.4175825,
+        "fees24hUsd": 8688793.229999999,
+        "feesChange1dPct": -23,
+        "revenue24hUsd": 4035859.1999999997,
+        "revenueChange1dPct": -9.7,
+        "dexVolume24hUsd": 1838194723.04,
+        "dexChange1dPct": 24.6,
         "topFees": [
           {
             "name": "PumpSwap",
             "category": "Dexs",
-            "fees24h": 3192537
+            "fees24h": 2614322
           },
           {
             "name": "pump.fun",
             "category": "Launchpad",
-            "fees24h": 1414079
+            "fees24h": 1511833
           },
           {
             "name": "Axiom",
@@ -1844,54 +1844,54 @@
           {
             "name": "Solana",
             "category": "Chain",
-            "fees24h": 732758
+            "fees24h": 649172
           },
           {
             "name": "fomo Wallet",
             "category": "Trading App",
-            "fees24h": 479350
+            "fees24h": 449162
+          },
+          {
+            "name": "Collector Crypt",
+            "category": "Physical TCG",
+            "fees24h": 378684
           },
           {
             "name": "Meteora DLMM",
             "category": "Dexs",
-            "fees24h": 476228
-          },
-          {
-            "name": "Sanctum Validator LSTs",
-            "category": "Liquid Staking",
-            "fees24h": 369770
-          },
-          {
-            "name": "Binance Staked SOL",
-            "category": "Liquid Staking",
-            "fees24h": 228451
-          },
-          {
-            "name": "Jito Liquid Staking",
-            "category": "Liquid Staking",
-            "fees24h": 216586
-          },
-          {
-            "name": "GMGN",
-            "category": "Telegram Bot",
-            "fees24h": 203977
-          },
-          {
-            "name": "pump.fun Mobile App",
-            "category": "Interface",
-            "fees24h": 179931
+            "fees24h": 346408
           },
           {
             "name": "Terminal",
             "category": "Telegram Bot",
-            "fees24h": 173237
+            "fees24h": 159228
+          },
+          {
+            "name": "Phantom Wallet",
+            "category": "Wallets",
+            "fees24h": 157340
+          },
+          {
+            "name": "pump.fun Mobile App",
+            "category": "Interface",
+            "fees24h": 155700
+          },
+          {
+            "name": "Kamino Lend",
+            "category": "Lending",
+            "fees24h": 138270
+          },
+          {
+            "name": "DEX Screener",
+            "category": "Coins Tracker",
+            "fees24h": 136889
           }
         ],
         "topRevenue": [
           {
             "name": "pump.fun",
             "category": "Launchpad",
-            "revenue24h": 1082404
+            "revenue24h": 1155883
           },
           {
             "name": "Axiom",
@@ -1901,87 +1901,87 @@
           {
             "name": "PumpSwap",
             "category": "Dexs",
-            "revenue24h": 508148
+            "revenue24h": 473271
           },
           {
             "name": "fomo Wallet",
             "category": "Trading App",
-            "revenue24h": 449250
-          },
-          {
-            "name": "Phantom Wallet",
-            "category": "Wallets",
-            "revenue24h": 162321
-          },
-          {
-            "name": "DEX Screener",
-            "category": "Coins Tracker",
-            "revenue24h": 141665
-          },
-          {
-            "name": "Terminal",
-            "category": "Telegram Bot",
-            "revenue24h": 107796
-          },
-          {
-            "name": "GMGN",
-            "category": "Telegram Bot",
-            "revenue24h": 85500
+            "revenue24h": 418409
           },
           {
             "name": "Collector Crypt",
             "category": "Physical TCG",
-            "revenue24h": 79308
+            "revenue24h": 378684
           },
           {
-            "name": "pump.fun Mobile App",
-            "category": "Interface",
-            "revenue24h": 76689
+            "name": "Phantom Wallet",
+            "category": "Wallets",
+            "revenue24h": 157340
+          },
+          {
+            "name": "DEX Screener",
+            "category": "Coins Tracker",
+            "revenue24h": 136889
+          },
+          {
+            "name": "GMGN",
+            "category": "Telegram Bot",
+            "revenue24h": 104679
+          },
+          {
+            "name": "Terminal",
+            "category": "Telegram Bot",
+            "revenue24h": 96664
           },
           {
             "name": "Jupiter Aggregator",
             "category": "DEX Aggregator",
-            "revenue24h": 76350
+            "revenue24h": 74912
+          },
+          {
+            "name": "pump.fun Mobile App",
+            "category": "Interface",
+            "revenue24h": 74215
           },
           {
             "name": "Pacifica Perps",
             "category": "Derivatives",
-            "revenue24h": 75504
+            "revenue24h": 69782
           }
         ],
         "shares": {
-          "launchpadPct": 17.8,
-          "dexPct": 40.9,
-          "appsBotsPct": 24.1
+          "launchpadPct": 20.8,
+          "dexPct": 37,
+          "appsBotsPct": 24
         },
         "chainFees": {
           "Ethereum": {
-            "tvlUsd": 41785484191.44894,
-            "fees24hUsd": 7461986.039999994
+            "tvlUsd": 41796101927.22679,
+            "fees24hUsd": 7180745.819999997
           },
           "Base": {
-            "tvlUsd": 4751386578.981685,
-            "fees24hUsd": 1418666.8299999998
+            "tvlUsd": 4688937186.69041,
+            "fees24hUsd": 1441768.0700000003
           },
           "BSC": {
-            "tvlUsd": 4902851672.059067
+            "tvlUsd": 4900195255.886449
           },
           "Arbitrum": {
-            "tvlUsd": 1241478288.5557163
+            "tvlUsd": 1243959382.8266678
           },
           "Solana": {
-            "tvlUsd": 4899670690.799746,
-            "fees24hUsd": 10777492.389999999,
-            "revenue24hUsd": 4063355.8299999996,
-            "dexVolume24hUsd": 1820196190.04
+            "tvlUsd": 4915470733.4175825,
+            "fees24hUsd": 8688793.229999999,
+            "revenue24hUsd": 4035859.1999999997,
+            "dexVolume24hUsd": 1838194723.04
           }
         },
         "historyDays": 90
       },
       "stonkfun": {
-        "latestTotalUsd": 752507.0022747584,
+        "latestTotalUsd": 759914.170946825,
         "todayOpenUsd": 750868.3400126621,
-        "todaySoFarUsd": 1638.6622620963026,
+        "todaySoFarUsd": 9045.830934162834,
         "recentClosed": [
           {
             "date": "2026-08-12",
@@ -2118,10 +2118,10 @@
       "id": "div-dex-fees-2026-08-19",
       "kind": "divergence",
       "date": "2026-08-19",
-      "at": "2026-08-19T02:05:02.345Z",
+      "at": "2026-08-19T13:06:01.579Z",
       "strength": "med",
-      "title": "DEX vol vs fees divergence (+27.9pp)",
-      "detail": "DEX 23.4% / fees -4.5% (1d)",
+      "title": "DEX vol vs fees divergence (+47.6pp)",
+      "detail": "DEX 24.6% / fees -23% (1d)",
       "tweetHook": "Solana DEX volume up, fees not following. Volume without take rate is just noise."
     },
     {
@@ -2252,10 +2252,10 @@
       "patternId": "div-dex-fees-2026-08-19",
       "kind": "divergence",
       "date": "2026-08-19",
-      "at": "2026-08-19T02:05:02.345Z",
-      "title": "DEX vol vs fees divergence (+27.9pp)",
+      "at": "2026-08-19T13:06:01.579Z",
+      "title": "DEX vol vs fees divergence (+47.6pp)",
       "hook": "Solana DEX volume up, fees not following. Volume without take rate is just noise.",
-      "detail": "DEX 23.4% / fees -4.5% (1d)"
+      "detail": "DEX 24.6% / fees -23% (1d)"
     },
     {
       "id": "angle-ath-fees24hUsd-2026-08-18",
