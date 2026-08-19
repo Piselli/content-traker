@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T04:04:36.688Z",
+  "updatedAt": "2026-08-19T04:59:00.343Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -16709,7 +16709,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375880/citi-bitcoin-custody-wall-street-crypto",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -17089,6 +17089,20 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/us-accounting-board-fasb-proposes-conditions-for-stablecoins-as-cash-equivalents?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260819-solana-leads-bitcoin-and-eth-c41d9d7d",
+      "at": "2026-08-19",
+      "scannedAt": "2026-08-19T04:59:00.343Z",
+      "lane": "l1-l2",
+      "kind": "narrative",
+      "what": "Solana leads bitcoin and ether higher while Korean chip stocks slide 7%",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/19/solana-leads-bitcoin-and-ether-higher-while-korean-chip-stocks-slide-7",
       "status": "open",
       "tags": [],
       "watcher": true
@@ -17770,10 +17784,10 @@
     },
     {
       "date": "2026-08-19",
-      "at": "2026-08-19T04:04:36.688Z",
+      "at": "2026-08-19T04:59:00.343Z",
       "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260819-us-accounting-board-fasb-pro-039cb1d6"
+        "sig-20260819-solana-leads-bitcoin-and-eth-c41d9d7d"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
