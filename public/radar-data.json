@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T00:33:11.102Z",
+  "updatedAt": "2026-08-19T02:10:11.966Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -16737,7 +16737,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/18/bitcoin-has-gone-quiet-as-traders-chase-5x-or-10x-payoffs-elsewhere",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -17062,6 +17062,20 @@
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/18/robinhood-ceo-urges-u-s-to-clear-path-for-tokenized-stocks-as-overseas-markets-advance",
       "status": "expired",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260819-it-has-to-pass-andrew-cuomo--4535b3b9",
+      "at": "2026-08-19",
+      "scannedAt": "2026-08-19T02:10:11.966Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "‘It has to pass’: Andrew Cuomo warns U.S. is falling behind on crypto rules",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/policy/2026/08/18/it-has-to-pass-andrew-cuomo-warns-u-s-is-falling-behind-on-crypto-rules",
+      "status": "open",
       "tags": [],
       "watcher": true
     }
@@ -17742,9 +17756,11 @@
     },
     {
       "date": "2026-08-19",
-      "at": "2026-08-19T00:33:11.102Z",
-      "note": "Watcher: +0 signals, spikes=0, patternPings=0.",
-      "signalIdsAdded": [],
+      "at": "2026-08-19T02:10:11.966Z",
+      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
+      "signalIdsAdded": [
+        "sig-20260819-it-has-to-pass-andrew-cuomo--4535b3b9"
+      ],
       "angleIdsTouched": [],
       "noteworthyIds": []
     }
