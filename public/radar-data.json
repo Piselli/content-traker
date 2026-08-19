@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T12:20:14.609Z",
+  "updatedAt": "2026-08-19T13:22:39.586Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -16383,7 +16383,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/18/bitcoin-pauses-at-usd64-000-as-rising-yields-oil-drag-equities-lower",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -16397,7 +16397,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/18/south-korea-joins-more-than-30-jurisdictions-restricting-polymarket-access",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -16411,7 +16411,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/kraken-us-stock-trading-eea-customers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -17388,6 +17388,50 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260819-beyond-crypto-funding-rates--ea1953e4",
+      "at": "2026-08-19",
+      "scannedAt": "2026-08-19T13:22:39.586Z",
+      "lane": "capital-flows",
+      "kind": "capital",
+      "what": "Beyond crypto funding rates: Ethena diversifies USDe backing with $1 billion FalconX facility",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/19/beyond-crypto-funding-rates-ethena-diversifies-usde-backing-with-usd1-billion-falconx-facility",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260819-strengthen-the-clarity-act-4196fe6a",
+      "at": "2026-08-19",
+      "scannedAt": "2026-08-19T13:22:39.586Z",
+      "lane": "regulation",
+      "kind": "policy",
+      "what": "Strengthen the Clarity Act",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/opinion/2026/08/19/strengthen-the-clarity-act",
+      "status": "open",
+      "tags": [
+        "clarity-policy"
+      ],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260819-bitcoin-is-flashing-8-of-12--17ebb4fe",
+      "at": "2026-08-19",
+      "scannedAt": "2026-08-19T13:22:39.586Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin is flashing 8 of 12 capitulation signals, but bottom's not yet in, says VanEck",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/19/bitcoin-is-flashing-8-of-12-capitulation-signals-but-its-not-a-bottom-yet",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -17667,13 +17711,14 @@
     },
     {
       "id": "ang-watch-clarity-policy",
-      "at": "2026-08-18T21:43:43.116Z",
-      "thesis": "Watcher cluster [clarity-policy]: 3 related receipts in ~7d across regulation.",
+      "at": "2026-08-19T13:22:39.586Z",
+      "thesis": "Watcher cluster [clarity-policy]: 4 related receipts in ~7d across regulation.",
       "voiceHook": "Pattern forming: clarity policy.",
       "signalIds": [
         "sig-20260815-galaxy-lowers-clarity-act-od-9c9944cf",
         "sig-20260814-sec-shelves-crypto-rule-meet-8a79dc29",
-        "sig-20260818-sec-proposes-new-crypto-rule-5f49a29e"
+        "sig-20260818-sec-proposes-new-crypto-rule-5f49a29e",
+        "sig-20260819-strengthen-the-clarity-act-4196fe6a"
       ],
       "lanes": [
         "regulation"
@@ -17681,7 +17726,7 @@
       "pattern": "same-week-convergence",
       "suggestedType": "hot topic",
       "visualHint": "Receipts for clarity-policy: dates + sources",
-      "expiresAt": "2026-08-22T21:43:43.116Z",
+      "expiresAt": "2026-08-23T13:22:39.586Z",
       "status": "ready",
       "noteworthy": true,
       "watcher": true
@@ -18066,16 +18111,19 @@
     },
     {
       "date": "2026-08-19",
-      "at": "2026-08-19T12:20:14.609Z",
-      "note": "Watcher: +4 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-19T13:22:39.586Z",
+      "note": "Watcher: +3 signals, spikes=0, patternPings=1.",
       "signalIdsAdded": [
-        "sig-20260819-a-year-after-losing-1-46-bil-3c26c9e5",
-        "sig-20260819-china-triples-its-e-cny-netw-4c0c500d",
-        "sig-20260819-centrifuge-adds-symbiotic-li-3845bf44",
-        "sig-20260819-sweden-s-h100-reports-26m-h1-081005f8"
+        "sig-20260819-beyond-crypto-funding-rates--ea1953e4",
+        "sig-20260819-strengthen-the-clarity-act-4196fe6a",
+        "sig-20260819-bitcoin-is-flashing-8-of-12--17ebb4fe"
       ],
-      "angleIdsTouched": [],
-      "noteworthyIds": []
+      "angleIdsTouched": [
+        "ang-watch-clarity-policy"
+      ],
+      "noteworthyIds": [
+        "ang-watch-clarity-policy"
+      ]
     }
   ]
 }
