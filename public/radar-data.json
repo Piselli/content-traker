@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T10:17:12.253Z",
+  "updatedAt": "2026-08-19T10:51:44.702Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -16541,7 +16541,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/13/crypto-s-easy-money-era-is-ending-in-a-wave-of-failures",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -16555,7 +16555,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "cointelegraph",
       "url": "https://cointelegraph.com/news/toyota-finance-tokenized-bond-offering-mobile-payment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -17246,6 +17246,34 @@
       "status": "open",
       "tags": [],
       "watcher": true
+    },
+    {
+      "id": "sig-20260819-bitcoin-stuck-in-a-six-week--c3d3e2dc",
+      "at": "2026-08-19",
+      "scannedAt": "2026-08-19T10:51:44.702Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Bitcoin stuck in a six-week range as global bond yields hit highest levels for decades",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/markets/2026/08/19/bitcoin-stuck-in-a-six-week-range-as-global-bond-yields-hit-highest-levels-for-decades",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260819-nexo-launches-regulated-cryp-f51144ee",
+      "at": "2026-08-19",
+      "scannedAt": "2026-08-19T10:51:44.702Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Nexo launches regulated crypto-backed credit in Australia",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "cointelegraph",
+      "url": "https://cointelegraph.com/news/nexo-launches-crypto-backed-credit-australia?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "status": "open",
+      "tags": [],
+      "watcher": true
     }
   ],
   "angles": [
@@ -17924,11 +17952,11 @@
     },
     {
       "date": "2026-08-19",
-      "at": "2026-08-19T10:17:12.253Z",
+      "at": "2026-08-19T10:51:44.702Z",
       "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260819-tiktok-code-includes-peer-to-0b16fcc8",
-        "sig-20260819-ripple-raises-275-million-in-209c5c21"
+        "sig-20260819-bitcoin-stuck-in-a-six-week--c3d3e2dc",
+        "sig-20260819-nexo-launches-regulated-cryp-f51144ee"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
