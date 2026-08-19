@@ -1,13 +1,9 @@
 name: Sync X
 
 on:
-  schedule:
-    - cron: "15 */3 * * *"
+  # PAUSED 2026-08-19 — tracker-data.json commits were triggering Vercel deploys.
+  # Restore: cron "15 */3 * * *" + push on public/tracker-data.json
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - "public/tracker-data.json"
 
 jobs:
   sync:

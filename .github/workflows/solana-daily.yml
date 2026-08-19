@@ -1,11 +1,8 @@
 name: Solana daily
 
 on:
-  schedule:
-    # Primary + backups (GH cron is unreliable if only one slot)
-    - cron: "10 0 * * *"
-    - cron: "40 0 * * *"
-    - cron: "10 12 * * *"
+  # PAUSED 2026-08-19 — commits to solana-daily.json were triggering Vercel deploys.
+  # Restore crons: "10 0 * * *", "40 0 * * *", "10 12 * * *"
   workflow_dispatch:
 
 jobs:

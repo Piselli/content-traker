@@ -1,9 +1,8 @@
 name: Weekly tracker digest
 
 on:
-  schedule:
-    # Monday 00:20 UTC — previous ISO week slice via script Monday-start
-    - cron: "20 0 * * 1"
+  # PAUSED 2026-08-19 — weekly digest commits were triggering Vercel deploys.
+  # Restore cron: "20 0 * * 1"
   workflow_dispatch:
 
 jobs:

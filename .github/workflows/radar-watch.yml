@@ -1,9 +1,8 @@
 name: Radar watch
 
 on:
-  schedule:
-    # Every 30 min — free GH compute, no Cursor tokens
-    - cron: "0,30 * * * *"
+  # PAUSED 2026-08-19 — was firing Vercel deploys every 30 min via radar-data.json commits.
+  # Restore cron to resume: "0,30 * * * *"
   workflow_dispatch:
 
 jobs:

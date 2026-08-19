@@ -1,12 +1,8 @@
 name: StonkFun revenue snapshots
 
 on:
-  schedule:
-    # Every hour — day boundaries use snapshot nearest UTC midnight (survives missed 00:05)
-    - cron: "5 * * * *"
-    # Extra near midnight in case :05 hour is delayed
-    - cron: "20 0 * * *"
-    - cron: "50 23 * * *"
+  # PAUSED 2026-08-19 — hourly stonkfun-revenue.json commits were triggering Vercel deploys.
+  # Restore crons: "5 * * * *", "20 0 * * *", "50 23 * * *"
   workflow_dispatch:
 
 jobs:
