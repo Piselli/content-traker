@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T09:55:10.826Z",
+  "updatedAt": "2026-08-19T10:17:12.253Z",
   "lanes": [
     {
       "id": "l1-l2",
@@ -16569,7 +16569,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/business/2026/08/18/bitcoin-miners-ai-pivot-pays-off-but-mining-could-revive-with-one-twist",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -16583,7 +16583,7 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "coindesk",
       "url": "https://www.coindesk.com/markets/2026/08/18/global-bond-yields-surge-as-debt-fears-test-bitcoin-s-hedge-narrative",
-      "status": "open",
+      "status": "expired",
       "tags": [],
       "watcher": true
     },
@@ -17215,6 +17215,34 @@
       "why": "Watcher inbox — accumulate for clusters.",
       "source": "decrypt",
       "url": "https://decrypt.co/375926/winklevoss-cypherpunk-zcash-mining-fleet",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260819-tiktok-code-includes-peer-to-0b16fcc8",
+      "at": "2026-08-19",
+      "scannedAt": "2026-08-19T10:17:12.253Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "TikTok code includes peer-to-peer payments over messaging: Bloomberg",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/19/tiktok-code-includes-peer-to-peer-payments-over-messaging-bloomberg",
+      "status": "open",
+      "tags": [],
+      "watcher": true
+    },
+    {
+      "id": "sig-20260819-ripple-raises-275-million-in-209c5c21",
+      "at": "2026-08-19",
+      "scannedAt": "2026-08-19T10:17:12.253Z",
+      "lane": "narrative-rotation",
+      "kind": "narrative",
+      "what": "Ripple raises $275 million in senior notes for prime brokerage push",
+      "why": "Watcher inbox — accumulate for clusters.",
+      "source": "coindesk",
+      "url": "https://www.coindesk.com/business/2026/08/19/ripple-raises-usd275-million-in-debut-debt-offering-for-its-prime-brokerage-arm",
       "status": "open",
       "tags": [],
       "watcher": true
@@ -17896,10 +17924,11 @@
     },
     {
       "date": "2026-08-19",
-      "at": "2026-08-19T09:55:10.826Z",
-      "note": "Watcher: +1 signals, spikes=0, patternPings=0.",
+      "at": "2026-08-19T10:17:12.253Z",
+      "note": "Watcher: +2 signals, spikes=0, patternPings=0.",
       "signalIdsAdded": [
-        "sig-20260819-winklevoss-backed-cypherpunk-b7ffbb2d"
+        "sig-20260819-tiktok-code-includes-peer-to-0b16fcc8",
+        "sig-20260819-ripple-raises-275-million-in-209c5c21"
       ],
       "angleIdsTouched": [],
       "noteworthyIds": []
