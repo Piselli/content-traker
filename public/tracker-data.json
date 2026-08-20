@@ -1,7 +1,117 @@
 {
-  "syncVersion": 576,
-  "updatedAt": "2026-08-19T13:07:24.864Z",
+  "syncVersion": 577,
+  "updatedAt": "2026-08-20T22:38:09.438Z",
   "logs": [
+    {
+      "id": "useful-btc-dca-nov1-avg-entry-aug20",
+      "type": "useful",
+      "traits": [
+        "provocative",
+        "hot topic"
+      ],
+      "slot": 1,
+      "bucket": "CT",
+      "visualCluster": "scorecard",
+      "note": "EN useful+provocative: BTC equal-USD DCA avg entry from Nov 1 ($109,557) — daily $74,433 / weekly $74,544; plate + “DCA win?” vs spot underwater narrative.",
+      "at": "2026-08-20T21:59:40.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2090559416407859630",
+      "views": 41,
+      "likes": 3,
+      "replies": 1,
+      "ageHours": 1,
+      "updatedAt": "2026-08-20T22:38:09.438Z",
+      "snapshots": [
+        {
+          "ageHours": 1,
+          "views": 41,
+          "likes": 3,
+          "replies": 1,
+          "checkedAt": "2026-08-20T22:38:09.438Z"
+        }
+      ]
+    },
+    {
+      "id": "hot-topic-wh-trump-crypto-meeting-aug19",
+      "type": "hot topic",
+      "traits": [
+        "useful"
+      ],
+      "slot": 2,
+      "bucket": "CT",
+      "visualCluster": "screenshot",
+      "note": "EN hot: White House waiting on Trump meeting with crypto + prediction market leaders (Armstrong, Tenev, Garlinghouse, Coplan, Nazarov, Huang, Dixon…).",
+      "at": "2026-08-19T19:07:18.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2090153650161344965",
+      "views": 2072,
+      "likes": 22,
+      "replies": 5,
+      "ageHours": 28,
+      "updatedAt": "2026-08-20T22:38:09.438Z",
+      "snapshots": [
+        {
+          "ageHours": 28,
+          "views": 2072,
+          "likes": 22,
+          "replies": 5,
+          "checkedAt": "2026-08-20T22:38:09.438Z"
+        }
+      ]
+    },
+    {
+      "id": "provocative-trump-private-chat-buy-call-aug19",
+      "type": "provocative",
+      "traits": [
+        "bait",
+        "hot topic"
+      ],
+      "slot": 3,
+      "bucket": "CT",
+      "visualCluster": "screenshot",
+      "note": "EN provocative+bait: Trump signals / wouldn’t be surprised if rally was buy call in $100k private chat — who subscribed, confess.",
+      "at": "2026-08-19T16:20:43.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2090111728918876173",
+      "views": 2057,
+      "likes": 17,
+      "replies": 1,
+      "ageHours": 30,
+      "updatedAt": "2026-08-20T22:38:09.438Z",
+      "snapshots": [
+        {
+          "ageHours": 30,
+          "views": 2057,
+          "likes": 17,
+          "replies": 1,
+          "checkedAt": "2026-08-20T22:38:09.438Z"
+        }
+      ]
+    },
+    {
+      "id": "meme-whale-so-back-knows-how-ends-aug19",
+      "type": "meme",
+      "traits": [
+        "bait"
+      ],
+      "slot": 1,
+      "bucket": "CT",
+      "visualCluster": "meme",
+      "note": "EN meme+bait: BTC/market up + whale “we are so back” — you already know how this ends. Visual gag.",
+      "at": "2026-08-19T15:45:20.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2090102825455943750",
+      "views": 464,
+      "likes": 19,
+      "replies": 2,
+      "ageHours": 31,
+      "updatedAt": "2026-08-20T22:38:09.438Z",
+      "snapshots": [
+        {
+          "ageHours": 31,
+          "views": 464,
+          "likes": 19,
+          "replies": 2,
+          "checkedAt": "2026-08-20T22:38:09.438Z"
+        }
+      ]
+    },
     {
       "id": "useful-fomo-predatory-beginner-fees-aug18",
       "type": "useful",
@@ -15,12 +125,19 @@
       "note": "EN useful+hot: FOMO most convenient and most predatory trading app vs pump.fun; advertised 0.5% vs 2%/$0.95 on beginner size; DefiLlama 7d fees/vol 1.2%; 6–20% profitable 90d. QT @MidCurveMortal Dune. Chalk trap plate.",
       "at": "2026-08-18T18:06:55.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2089776067523338394",
-      "views": 27,
-      "likes": 17,
+      "views": 392,
+      "likes": 19,
       "replies": 3,
-      "ageHours": 19,
-      "updatedAt": "2026-08-19T13:07:24.864Z",
+      "ageHours": 53,
+      "updatedAt": "2026-08-20T22:38:09.438Z",
       "snapshots": [
+        {
+          "ageHours": 19,
+          "views": 27,
+          "likes": 17,
+          "replies": 3,
+          "checkedAt": "2026-08-19T13:07:24.864Z"
+        },
         {
           "ageHours": 16,
           "views": 27,
@@ -50,7 +167,7 @@
           "checkedAt": "2026-08-18T18:12:00.000Z"
         }
       ],
-      "syncedAt": "2026-08-19T13:07:24.864Z"
+      "syncedAt": "2026-08-20T22:38:09.438Z"
     },
     {
       "id": "useful-pump-kaito-unlock-rhyme-aug18",
@@ -64,12 +181,19 @@
       "note": "EN useful+hot: $PUMP +159% into team unlock looks like $KAITO +154%; KAITO then X news +35% then −71% dump. PUMP has volume/buyback explanation on Solana — don't bucket as same crime unless announcement. Dual chart+cash plate.",
       "at": "2026-08-18T13:48:55.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2089711139785462188",
-      "views": 330,
-      "likes": 22,
+      "views": 1125,
+      "likes": 23,
       "replies": 5,
-      "ageHours": 23,
-      "updatedAt": "2026-08-19T13:07:24.864Z",
+      "ageHours": 57,
+      "updatedAt": "2026-08-20T22:38:09.438Z",
       "snapshots": [
+        {
+          "ageHours": 23,
+          "views": 330,
+          "likes": 22,
+          "replies": 5,
+          "checkedAt": "2026-08-19T13:07:24.864Z"
+        },
         {
           "ageHours": 20,
           "views": 330,
@@ -99,7 +223,7 @@
           "checkedAt": "2026-08-18T18:12:00.000Z"
         }
       ],
-      "syncedAt": "2026-08-19T13:07:24.864Z"
+      "syncedAt": "2026-08-20T22:38:09.438Z"
     },
     {
       "id": "builder-movematch-mark-two-weeks-aug18",
@@ -113,12 +237,19 @@
       "note": "EN builder+bait: QT own rebuild Day 0 — new MoveMatch mark after 2 weeks, 'what do you see?'. Onchain football fantasy.",
       "at": "2026-08-18T11:56:11.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2089682769303454164",
-      "views": 187,
+      "views": 358,
       "likes": 24,
       "replies": 4,
-      "ageHours": 25,
-      "updatedAt": "2026-08-19T13:07:24.864Z",
+      "ageHours": 59,
+      "updatedAt": "2026-08-20T22:38:09.438Z",
       "snapshots": [
+        {
+          "ageHours": 25,
+          "views": 187,
+          "likes": 24,
+          "replies": 4,
+          "checkedAt": "2026-08-19T13:07:24.864Z"
+        },
         {
           "ageHours": 22,
           "views": 187,
@@ -148,7 +279,7 @@
           "checkedAt": "2026-08-18T22:11:58.621Z"
         }
       ],
-      "syncedAt": "2026-08-19T13:07:24.864Z"
+      "syncedAt": "2026-08-20T22:38:09.438Z"
     },
     {
       "id": "useful-solana-wallets-2026-friend-aug17",
