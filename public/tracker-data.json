@@ -1,7 +1,58 @@
 {
-  "syncVersion": 578,
-  "updatedAt": "2026-08-21T15:50:46.000Z",
+  "syncVersion": 579,
+  "updatedAt": "2026-08-21T20:15:00.000Z",
   "logs": [
+    {
+      "id": "builder-solana-football-meetup-kyiv-aug21",
+      "type": "builder",
+      "slot": 1,
+      "bucket": "football",
+      "visualCluster": "screenshot",
+      "note": "EN builder/football: first Solana football meetup Kyiv — thanks @SuperteamUKR, met @SirHi_Talk, hope regular + more activities.",
+      "at": "2026-08-21T11:24:42.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2090762011105735062",
+      "views": 396,
+      "likes": 46,
+      "replies": 12,
+      "ageHours": 9,
+      "updatedAt": "2026-08-21T20:15:00.000Z",
+      "snapshots": [
+        {
+          "ageHours": 9,
+          "views": 396,
+          "likes": 46,
+          "replies": 12,
+          "checkedAt": "2026-08-21T20:15:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "strategic-qt-commons-vouch-ask-aug21",
+      "type": "strategic QT",
+      "traits": [
+        "bait"
+      ],
+      "slot": 2,
+      "bucket": "CT",
+      "visualCluster": "meme",
+      "note": "EN strategic QT @commonsmade VibeFi vouch: soft ask — if friends haven’t asked to vouch them yet, I can be that friend + chalk pfp finger-heart visual.",
+      "at": "2026-08-21T20:12:10.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2090894750110961880",
+      "views": 19,
+      "likes": 3,
+      "replies": 2,
+      "ageHours": 0,
+      "updatedAt": "2026-08-21T20:15:00.000Z",
+      "snapshots": [
+        {
+          "ageHours": 0,
+          "views": 19,
+          "likes": 3,
+          "replies": 2,
+          "checkedAt": "2026-08-21T20:15:00.000Z"
+        }
+      ]
+    },
     {
       "id": "useful-btc-dca-nov1-avg-entry-aug20",
       "type": "useful",
@@ -15,11 +66,11 @@
       "note": "EN useful+provocative: BTC equal-USD DCA avg entry from Nov 1 ($109,557) — daily $74,433 / weekly $74,544; plate + “DCA win?” vs spot underwater narrative.",
       "at": "2026-08-20T21:59:40.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2090559416407859630",
-      "views": 41,
-      "likes": 3,
-      "replies": 1,
-      "ageHours": 1,
-      "updatedAt": "2026-08-20T22:38:09.438Z",
+      "views": 191,
+      "likes": 15,
+      "replies": 2,
+      "ageHours": 22,
+      "updatedAt": "2026-08-21T20:15:00.000Z",
       "snapshots": [
         {
           "ageHours": 1,
@@ -27,6 +78,13 @@
           "likes": 3,
           "replies": 1,
           "checkedAt": "2026-08-20T22:38:09.438Z"
+        },
+        {
+          "ageHours": 22,
+          "views": 191,
+          "likes": 15,
+          "replies": 2,
+          "checkedAt": "2026-08-21T20:15:00.000Z"
         }
       ]
     },
@@ -42,11 +100,11 @@
       "note": "EN hot: White House waiting on Trump meeting with crypto + prediction market leaders (Armstrong, Tenev, Garlinghouse, Coplan, Nazarov, Huang, Dixon…).",
       "at": "2026-08-19T19:07:18.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2090153650161344965",
-      "views": 2072,
-      "likes": 22,
+      "views": 2202,
+      "likes": 26,
       "replies": 5,
-      "ageHours": 28,
-      "updatedAt": "2026-08-20T22:38:09.438Z",
+      "ageHours": 49,
+      "updatedAt": "2026-08-21T20:15:00.000Z",
       "snapshots": [
         {
           "ageHours": 28,
@@ -54,6 +112,13 @@
           "likes": 22,
           "replies": 5,
           "checkedAt": "2026-08-20T22:38:09.438Z"
+        },
+        {
+          "ageHours": 49,
+          "views": 2202,
+          "likes": 26,
+          "replies": 5,
+          "checkedAt": "2026-08-21T20:15:00.000Z"
         }
       ]
     },
