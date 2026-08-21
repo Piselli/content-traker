@@ -1,6 +1,6 @@
 {
-  "syncVersion": 577,
-  "updatedAt": "2026-08-20T22:38:09.438Z",
+  "syncVersion": 578,
+  "updatedAt": "2026-08-21T15:50:46.000Z",
   "logs": [
     {
       "id": "useful-btc-dca-nov1-avg-entry-aug20",
@@ -9229,6 +9229,12 @@
       "type": "useful",
       "createdAt": "2026-08-17T14:19:00.000Z",
       "usedAt": "2026-08-18T18:06:55.000Z"
+    },
+    {
+      "id": "idea-btc-bull-above-80k-aug21",
+      "text": "ти можеш називати мене retard, божевільним, не розуміючим маркет та криптовалюту — але я досі не певен, що це вже бичачий ринок. щоб це змінилось, хочу побачити що ми закріпились вище $80k",
+      "type": "provocative",
+      "createdAt": "2026-08-21T15:50:46.000Z"
     }
   ],
   "deletedUrls": [
