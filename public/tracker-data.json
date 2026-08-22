@@ -1,7 +1,29 @@
 {
-  "syncVersion": 580,
-  "updatedAt": "2026-08-21T23:16:00.000Z",
+  "syncVersion": 581,
+  "updatedAt": "2026-08-22T11:25:00.000Z",
   "logs": [
+    {
+      "id": "bait-vouch-farm-ask-aug22",
+      "type": "bait",
+      "slot": 1,
+      "bucket": "CT",
+      "visualCluster": "screenshot",
+      "note": "EN bait: vouch engagement farm — ask who needs a vouch, 3 left; screenshot attached.",
+      "at": "2026-08-22T10:29:52.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2091110599409254881",
+      "likes": 9,
+      "replies": 2,
+      "ageHours": 1,
+      "updatedAt": "2026-08-22T11:25:00.000Z",
+      "snapshots": [
+        {
+          "ageHours": 1,
+          "likes": 9,
+          "replies": 2,
+          "checkedAt": "2026-08-22T11:25:00.000Z"
+        }
+      ]
+    },
     {
       "id": "builder-solana-football-meetup-kyiv-aug21",
       "type": "builder",
@@ -9305,7 +9327,8 @@
       "id": "idea-vouch-farm-ask-aug22",
       "text": "найпростіший фарм залученності на 1–2 дні: запитати «кому потрібні vouch» — у мене ще є 3, тож кому треба vouch?",
       "type": "bait",
-      "createdAt": "2026-08-21T23:16:00.000Z"
+      "createdAt": "2026-08-21T23:16:00.000Z",
+      "usedAt": "2026-08-22T11:25:00.000Z"
     }
   ],
   "deletedUrls": [
