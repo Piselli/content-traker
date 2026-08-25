@@ -1,7 +1,57 @@
 {
-  "syncVersion": 584,
-  "updatedAt": "2026-08-25T15:56:00.000Z",
+  "syncVersion": 585,
+  "updatedAt": "2026-08-25T15:57:08.000Z",
   "logs": [
+    {
+      "id": "provocative-btc-not-bull-until-80k-hold-aug25",
+      "type": "provocative",
+      "traits": [
+        "hot topic"
+      ],
+      "slot": 1,
+      "bucket": "CT",
+      "visualCluster": "chart",
+      "note": "EN provocative: call me retard — market woke up / TL bullish but still accumulation range; confirmation = sweep $83k + hold above $80k; then admit wrong on deeper low and look long only. Charts attached.",
+      "at": "2026-08-25T13:56:01.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2092249641836331299",
+      "likes": 4,
+      "replies": 2,
+      "ageHours": 2,
+      "updatedAt": "2026-08-25T15:57:08.000Z",
+      "snapshots": [
+        {
+          "ageHours": 2,
+          "likes": 4,
+          "replies": 2,
+          "checkedAt": "2026-08-25T15:57:08.000Z"
+        }
+      ]
+    },
+    {
+      "id": "useful-commons-gift-code-love-aug22",
+      "type": "useful",
+      "traits": [
+        "bait"
+      ],
+      "slot": 2,
+      "bucket": "CT",
+      "visualCluster": "screenshot",
+      "note": "EN useful+bait: Commons tip — before bonus vouches/slashes enter gift code “love” for extra points (raises vouch value); screenshot + QT.",
+      "at": "2026-08-22T15:31:15.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2091186443628458283",
+      "likes": 19,
+      "replies": 8,
+      "ageHours": 72,
+      "updatedAt": "2026-08-25T15:57:08.000Z",
+      "snapshots": [
+        {
+          "ageHours": 72,
+          "likes": 19,
+          "replies": 8,
+          "checkedAt": "2026-08-25T15:57:08.000Z"
+        }
+      ]
+    },
     {
       "id": "provocative-strategic-qt-wale-reputation-hair-aug22",
       "type": "provocative",
@@ -17,8 +67,14 @@
       "likes": 18,
       "replies": 1,
       "ageHours": 76,
-      "updatedAt": "2026-08-25T15:55:14.838Z",
+      "updatedAt": "2026-08-25T15:57:08.000Z",
       "snapshots": [
+        {
+          "ageHours": 76,
+          "likes": 18,
+          "replies": 1,
+          "checkedAt": "2026-08-25T15:57:08.000Z"
+        },
         {
           "ageHours": 0,
           "likes": 0,
@@ -40,8 +96,14 @@
       "likes": 22,
       "replies": 5,
       "ageHours": 77,
-      "updatedAt": "2026-08-25T15:55:14.838Z",
+      "updatedAt": "2026-08-25T15:57:08.000Z",
       "snapshots": [
+        {
+          "ageHours": 77,
+          "likes": 22,
+          "replies": 5,
+          "checkedAt": "2026-08-25T15:57:08.000Z"
+        },
         {
           "ageHours": 1,
           "likes": 9,
@@ -67,8 +129,15 @@
       "likes": 22,
       "replies": 7,
       "ageHours": 92,
-      "updatedAt": "2026-08-25T15:55:14.838Z",
+      "updatedAt": "2026-08-25T15:57:08.000Z",
       "snapshots": [
+        {
+          "ageHours": 92,
+          "likes": 22,
+          "replies": 7,
+          "views": 19,
+          "checkedAt": "2026-08-25T15:57:08.000Z"
+        },
         {
           "ageHours": 0,
           "views": 19,
@@ -9508,7 +9577,8 @@
       "id": "idea-btc-bull-above-80k-aug21",
       "text": "ти можеш називати мене retard, божевільним, не розуміючим маркет та криптовалюту — але я досі не певен, що це вже бичачий ринок. щоб це змінилось, хочу побачити що ми закріпились вище $80k",
       "type": "provocative",
-      "createdAt": "2026-08-21T15:50:46.000Z"
+      "createdAt": "2026-08-21T15:50:46.000Z",
+      "usedAt": "2026-08-25T13:56:01.000Z"
     },
     {
       "id": "idea-vouch-farm-ask-aug22",
