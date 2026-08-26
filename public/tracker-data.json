@@ -1,6 +1,6 @@
 {
-  "syncVersion": 585,
-  "updatedAt": "2026-08-25T15:57:08.000Z",
+  "syncVersion": 586,
+  "updatedAt": "2026-08-26T23:27:00.000Z",
   "logs": [
     {
       "id": "provocative-btc-not-bull-until-80k-hold-aug25",
@@ -9592,6 +9592,12 @@
       "text": "ніщо так гарно не просуває проект, як картка яку люди хочуть запостити в X як пруф своєї значимості — взяти на замітку і використати",
       "type": "meta reach",
       "createdAt": "2026-08-25T15:56:00.000Z"
+    },
+    {
+      "id": "idea-hype-20-wallets-lifechange-aug27",
+      "text": "як хайпанути / отримати купу підписок: розподіляєте $2k на 20 гаманців і шукаєте десь life-changing trade — розкрити механіку фейкового «alpha journey»",
+      "type": "useful",
+      "createdAt": "2026-08-26T23:27:00.000Z"
     }
   ],
   "deletedUrls": [
