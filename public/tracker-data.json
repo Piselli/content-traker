@@ -1,7 +1,117 @@
 {
-  "syncVersion": 586,
-  "updatedAt": "2026-08-26T23:27:00.000Z",
+  "syncVersion": 587,
+  "updatedAt": "2026-08-27T12:56:25.000Z",
   "logs": [
+    {
+      "id": "provocative-stonk-buy-hold-bullpost-aug27",
+      "type": "provocative",
+      "traits": [
+        "bait"
+      ],
+      "slot": 1,
+      "bucket": "CT",
+      "visualCluster": "screenshot",
+      "note": "EN provocative self-QT: those $STONK buy posts aging well; buy, hold and bullpost. Dexscreener ~$16.5M / $0.016. QT prior accumulate post.",
+      "at": "2026-08-27T11:53:19.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2092943539936108975",
+      "views": 76,
+      "likes": 2,
+      "replies": 0,
+      "ageHours": 1,
+      "updatedAt": "2026-08-27T12:56:25.000Z",
+      "snapshots": [
+        {
+          "ageHours": 1,
+          "likes": 2,
+          "replies": 0,
+          "checkedAt": "2026-08-27T12:56:25.000Z",
+          "views": 76
+        }
+      ]
+    },
+    {
+      "id": "provocative-stonk-accumulate-sidelines-aug26",
+      "type": "provocative",
+      "traits": [
+        "bait"
+      ],
+      "slot": 2,
+      "bucket": "CT",
+      "visualCluster": "chart",
+      "note": "EN provocative+SF support: accumulating $STONK enough to not feel on sidelines; still feels like $1 for $0.10. QT Llama #38 scorecard. Chart attached.",
+      "at": "2026-08-26T17:10:13.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2092660901593669667",
+      "views": 378,
+      "likes": 23,
+      "replies": 5,
+      "ageHours": 20,
+      "updatedAt": "2026-08-27T12:56:25.000Z",
+      "snapshots": [
+        {
+          "ageHours": 20,
+          "likes": 23,
+          "replies": 5,
+          "checkedAt": "2026-08-27T12:56:25.000Z",
+          "views": 378
+        }
+      ]
+    },
+    {
+      "id": "useful-btc-cycle-bottom-october-aug26",
+      "type": "useful",
+      "traits": [
+        "bait",
+        "hot topic"
+      ],
+      "slot": 1,
+      "bucket": "CT",
+      "visualCluster": "chart",
+      "note": "EN useful+bait self-QT: BTC bottoms cycle 364/1066/366/1065d — if history repeats next bottom Oct (365d from 2025); 273d now. Ask why shouldn't repeat. Cycle plate.",
+      "at": "2026-08-26T11:59:22.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2092582675592671664",
+      "views": 368,
+      "likes": 21,
+      "replies": 5,
+      "ageHours": 25,
+      "updatedAt": "2026-08-27T12:56:25.000Z",
+      "snapshots": [
+        {
+          "ageHours": 25,
+          "likes": 21,
+          "replies": 5,
+          "checkedAt": "2026-08-27T12:56:25.000Z",
+          "views": 368
+        }
+      ]
+    },
+    {
+      "id": "bait-strategic-qt-tiktok-crypto-wale-aug25",
+      "type": "bait",
+      "traits": [
+        "strategic QT",
+        "provocative"
+      ],
+      "slot": 2,
+      "bucket": "CT",
+      "visualCluster": "screenshot",
+      "note": "EN bait QT @waleswoosh: consuming crypto on TikTok = monkey videos on X / history from movies / following Wale for market takes; what else would you add?",
+      "at": "2026-08-25T17:03:54.000Z",
+      "tweetUrl": "https://x.com/piselliii/status/2092296925013774559",
+      "views": 235,
+      "likes": 18,
+      "replies": 4,
+      "ageHours": 44,
+      "updatedAt": "2026-08-27T12:56:25.000Z",
+      "snapshots": [
+        {
+          "ageHours": 44,
+          "likes": 18,
+          "replies": 4,
+          "checkedAt": "2026-08-27T12:56:25.000Z",
+          "views": 235
+        }
+      ]
+    },
     {
       "id": "provocative-btc-not-bull-until-80k-hold-aug25",
       "type": "provocative",
@@ -14,18 +124,26 @@
       "note": "EN provocative: call me retard — market woke up / TL bullish but still accumulation range; confirmation = sweep $83k + hold above $80k; then admit wrong on deeper low and look long only. Charts attached.",
       "at": "2026-08-25T13:56:01.000Z",
       "tweetUrl": "https://x.com/piselliii/status/2092249641836331299",
-      "likes": 4,
-      "replies": 2,
-      "ageHours": 2,
-      "updatedAt": "2026-08-25T15:57:08.000Z",
+      "likes": 17,
+      "replies": 3,
+      "ageHours": 47,
+      "updatedAt": "2026-08-27T12:56:25.000Z",
       "snapshots": [
+        {
+          "ageHours": 47,
+          "likes": 17,
+          "replies": 3,
+          "checkedAt": "2026-08-27T12:56:25.000Z",
+          "views": 746
+        },
         {
           "ageHours": 2,
           "likes": 4,
           "replies": 2,
           "checkedAt": "2026-08-25T15:57:08.000Z"
         }
-      ]
+      ],
+      "views": 746
     },
     {
       "id": "useful-commons-gift-code-love-aug22",
