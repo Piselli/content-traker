@@ -1,6 +1,6 @@
 {
-  "syncVersion": 587,
-  "updatedAt": "2026-08-27T12:56:25.000Z",
+  "syncVersion": 588,
+  "updatedAt": "2026-09-02T17:45:50.000Z",
   "logs": [
     {
       "id": "provocative-stonk-buy-hold-bullpost-aug27",
@@ -9722,6 +9722,30 @@
       "text": "якщо ти маленький кріейтор, який робить гарний контент, я з радістю буду тебе підтримувати, навіть якщо це буде твій єдиний реплай",
       "type": "meta reach",
       "createdAt": "2026-08-28T14:01:00.000Z"
+    },
+    {
+      "id": "idea-buyback-burn-tokens-sep2",
+      "text": "Знайти всі токени що відкупають і спалюють власний саплай (типу HYPE, PUMP, STONK, PONS) — карта механік buyback/burn",
+      "type": "useful",
+      "createdAt": "2026-09-02T17:45:50.000Z"
+    },
+    {
+      "id": "idea-fomo-traders-pnl-upnl-sep2",
+      "text": "Подивитись PnL і uPnL трейдерів FOMO — хто реально в плюсі vs paper",
+      "type": "useful",
+      "createdAt": "2026-09-02T17:45:50.000Z"
+    },
+    {
+      "id": "idea-tokenized-stocks-pairs-sense-sep2",
+      "text": "Токенізовані акції + пари з токенами: чи є механізм що реально дає користь tokenized equity, що це взагалі дає, який сенс",
+      "type": "useful",
+      "createdAt": "2026-09-02T17:45:50.000Z"
+    },
+    {
+      "id": "idea-sol-vs-rh-metrics-or-tl-sep2",
+      "text": "Solana vs Robinhood Chain: Sol веде по більшості метрик 1d/7d/30d (DEX/TVL/stables), але Sol-focused TL все одно RH-pilled — trust metrics or TL?",
+      "type": "provocative",
+      "createdAt": "2026-09-02T17:45:50.000Z"
     }
   ],
   "deletedUrls": [
