@@ -1,6 +1,6 @@
 {
-  "syncVersion": 588,
-  "updatedAt": "2026-09-02T17:45:50.000Z",
+  "syncVersion": 589,
+  "updatedAt": "2026-09-14T01:01:50.000Z",
   "logs": [
     {
       "id": "provocative-stonk-buy-hold-bullpost-aug27",
@@ -9746,6 +9746,11 @@
       "text": "Solana vs Robinhood Chain: Sol веде по більшості метрик 1d/7d/30d (DEX/TVL/stables), але Sol-focused TL все одно RH-pilled — trust metrics or TL?",
       "type": "provocative",
       "createdAt": "2026-09-02T17:45:50.000Z"
+    },
+    {
+      "id": "idea-code-game-20-budget-sep14",
+      "text": "накодити гру з бюджетом 20 баксів",
+      "createdAt": "2026-09-14T01:01:50.000Z"
     }
   ],
   "deletedUrls": [
